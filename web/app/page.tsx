@@ -360,8 +360,9 @@ export default function Home() {
             </a>
           </span>
           <span>
-            Dati: quotazioni ufficiali · FBref · Understat · SOS Fanta · FantaMaster ·
-            Eurosport · Goal · Gazzetta · fantacalcio.it
+            Dati: FBref · Understat · fantacalcio.it · SOS Fanta · FantaMaster · Eurosport ·
+            Goal · Gazzetta — <a href="/fonti">tutte le fonti e attribuzioni</a> ·{" "}
+            <a href="/termini">termini e condizioni</a>
           </span>
         </div>
       </footer>
