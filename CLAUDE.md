@@ -14,7 +14,7 @@ preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget r
   Stato salvato in localStorage (chiave `fanta_asta_2627_v1`) + Backup/Ripristino JSON.
   Dati dei giocatori embeddati come costante JS `PLAYERS`.
 - `players_pen.json` — i 493 giocatori con il flag rigoristi. Sorgente dei dati del tool.
-- `serie_a_stats.py` — script soccerdata per scaricare le statistiche da FBref (vedi sotto).
+- `scripts/` — script Python (soccerdata, merge, formazioni, preset). Vedi sotto.
 - `build_tool.py` NON è incluso: il tool si modifica direttamente nell'HTML, oppure si
   rigenera. Se serve rigenerare, i dati partono da `players_pen.json` (ordinati per
   ruolo P,D,C,A e poi FVM decrescente).
@@ -37,14 +37,14 @@ Lista di oggetti con:
 - Filtri: ruolo, squadra, fascia, ricerca nome, "nascondi presi", "solo miei",
   "solo rigoristi". Ordinamento per nome/squadra/Qt/FVM.
 - Rigoristi evidenziati con badge pallone: oro = designato (pen=1), sbiadito = alternativa
-  (pen=2). Gerarchie allineate a Gazzetta il 06/08/2026 (script align_pen.py, 20 designati + 36 alternative); prima erano SOS Fanta / Sky.
+  (pen=2). Gerarchie allineate a Gazzetta il 06/08/2026 (script scripts/align_pen.py, 20 designati + 36 alternative); prima erano SOS Fanta / Sky.
 
 ## FATTO (06/08/2026): statistiche FBref integrate
 Merge completato: 445/493 giocatori con dati (Big 5 + Serie B via league_dict.json) (campi gls/ast/pk/pkatt/min/mp/starts/sea/src/stat
 in `players_pen.json`, colonne G/Rig/A/Min/Val nel tool, badge 🎲 per i 48 senza dati).
 `stats_merge_report.txt` = lista senza dati + match cross-team da revisionare.
 ATTENZIONE: FBref NON pubblica più xG — RISOLTO il 06/08/2026 con Understat
-(via soccerdata, `understat_full.csv`, script `merge_understat.py`): campi
+(via soccerdata, `understat_full.csv`, script `scripts/merge_understat.py`): campi
 `xg`,`xa`,`npxg`,`sh` (tiri),`kp` (key passes) per 411/445 con stat; colonne
 xG/xA in tabella + riquadri nella scheda. Understat NON copre la Serie B.
 Val = (3*gls+ast)/FVM*100 (invariato, su dati reali).
@@ -61,14 +61,14 @@ Fortini, Pierret) mostrati in corsivo nel pannello, senza aggancio.
 ## Passo originale (completato): statistiche reali da FBref (soccerdata)
 Motivo: arricchire ogni giocatore con gol, rigori (PK/PKatt), assist, xG e minuti della/e
 ultima/e stagione/i, per decidere fasce e prezzi sui numeri. Include i NUOVI arrivi in
-Serie A: `serie_a_stats.py` scarica i "Big 5 European Leagues Combined" (2 stagioni), così
+Serie A: `scripts/serie_a_stats.py` scarica i "Big 5 European Leagues Combined" (2 stagioni), così
 chi arriva da Premier/Liga/Bundesliga/Ligue1 è coperto. Serie B / Eredivisie / Portogallo /
 Championship: lo script prova a scaricarli ma potrebbero richiedere di aggiungere il
 campionato alla config di soccerdata (`~/soccerdata/config/league_dict.json`).
 
 ### Come eseguire (qui in locale hai rete, quindi funziona)
     pip install soccerdata pandas
-    python3 serie_a_stats.py
+    python3 scripts/serie_a_stats.py
 Produce `big5_stats_full.csv` (+ eventuale `extra_leagues_full.csv`).
 
 ### Merge da fare dopo lo scarico
@@ -133,11 +133,11 @@ per la revisione manuale.
 Click sul nome (sottolineato a puntini) -> modale con: nazionalità (`nat`), età/classe
 (`born`), Qt/FVM/Val/Min, storico stagioni (`hist`: righe separate per stagione+tappa,
 da FBref, entrambe le stagioni scaricate). Chi è senza dati -> toast "scommessa".
-Campi aggiunti da merge_stats.py (ora nel progetto).
+Campi aggiunti da scripts/merge_stats.py.
 
 ## FATTO (06/08/2026): infortunati
 `infortuni.json` (fonte fantacalcio.it/infortunati-serie-a, campo "aggiornato") +
-`merge_infortuni.py` -> campo `inj` {d: prognosi, r: rientro} in players_pen.json.
+`scripts/merge_infortuni.py` -> campo `inj` {d: prognosi, r: rientro} in players_pen.json.
 Nel tool: badge 🚑 rosso accanto al nome (tooltip prognosi+rientro), riga rossa nella
 scheda giocatore, voce in legenda. DA RIAGGIORNARE 1-2 giorni prima dell'asta
 (dato volatile): rifare fetch pagina, riscrivere infortuni.json, rilanciare script + regen.
@@ -148,7 +148,7 @@ FVM*(0.55+0.15*tit) + 12 se pen==1 (+4 se pen==2); quote per ruolo F1/F2/F3/F4
 (P 3/4/5/0, D 5/7/8/8, C 5/7/8/8, A 4/6/8/8); R = titolari (tit>=2) con FVM basso
 (P<=15,D<=6,C<=6,A<=10); X = FVM alto ma tit==0 (trappole). Bottone "✨ Preset fasce"
 nel tool: riempie SOLO le fasce vuote, mai le scelte manuali. Script:
-preset_fasce.py (scratchpad sessione, rigenerabile).
+scripts/preset_fasce.py.
 
 ## Come consegnare all'utente (Luciano)
 Il tool è un file HTML: basta aprirlo nel browser. Prima dell'asta usare "Backup" per

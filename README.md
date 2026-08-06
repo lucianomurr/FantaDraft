@@ -26,17 +26,18 @@ l'asta coi numeri. Completamente **gratuito e open source**.
 |---|---|
 | `asta_fantacalcio_2026_27.html` | **Il tool** (single-file, dati embeddati) |
 | `players_pen.json` | Dataset giocatori arricchito (stat, formazioni, rigoristi, infortuni) |
-| `serie_a_stats.py` | Scarica statistiche FBref via soccerdata |
-| `merge_stats.py` / `merge_understat.py` / `merge_infortuni.py` / `align_pen.py` | Merge dati nel dataset |
-| `build_formazioni.py` / `formazioni_src.json` | Aggregazione probabili formazioni |
-| `preset_fasce.py` | Preset fasce data-driven |
+| `scripts/serie_a_stats.py` / `scripts/get_understat.py` | Scaricano le statistiche (FBref Big5+B, Understat) |
+| `scripts/merge_stats.py` / `merge_understat.py` / `merge_infortuni.py` / `align_pen.py` | Merge dati nel dataset |
+| `scripts/build_formazioni.py` / `formazioni_src.json` | Aggregazione probabili formazioni |
+| `scripts/preset_fasce.py` | Preset fasce data-driven |
 | `fonti_formazioni.md` | Tutte le fonti + procedura di refresh pre-asta |
 | `web/` | Landing page Next.js (Vercel) con raccolta email e GA |
 
 ## Aggiornare i dati
 
 Vedi `fonti_formazioni.md` per la procedura completa (fetch fonti → merge → rigenerazione
-delle costanti `PLAYERS`/`FORMS` nell'HTML). Richiede Python 3 + `pip install soccerdata pandas`.
+delle costanti `PLAYERS`/`FORMS` nell'HTML). Richiede Python 3 + `pip install soccerdata pandas`,
+eseguito dalla root del progetto (gli script in `scripts/` scrivono i CSV/JSON lì).
 
 ## Landing (web/)
 

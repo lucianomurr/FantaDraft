@@ -1,9 +1,9 @@
 # Fonti probabili formazioni — da riaggiornare 1-2 giorni prima dell'asta (2/3 settembre 2026)
 
-Procedura: rifare il fetch di TUTTE le fonti sotto, ricostruire `formazioni_src.json`
-(stesso formato: sources[].teams.{squadra}.{mod,xi[11],ball[][]}), poi:
-    python3 build_formazioni.py      # ricalcola tit/ball + formazioni.json
-    python3 preset_fasce.py          # (opzionale) ricalcola preset pt
+Procedura (dalla root del progetto): rifare il fetch di TUTTE le fonti sotto,
+ricostruire `formazioni_src.json` (stesso formato: sources[].teams.{squadra}.{mod,xi[11],ball[][]}), poi:
+    python3 scripts/build_formazioni.py   # ricalcola tit/ball + formazioni.json
+    python3 scripts/preset_fasce.py       # (opzionale) ricalcola preset pt
     # poi rigenerare const PLAYERS e const FORMS nell'HTML (vedi CLAUDE.md)
 
 ## Fonti già usate (06/08/2026)
@@ -46,7 +46,7 @@ Procedura: rifare il fetch di TUTTE le fonti sotto, ricostruire `formazioni_src.
 
 ## Infortunati (aggiunto 06/08/2026)
 - Fonte: https://www.fantacalcio.it/infortunati-serie-a (WebFetch funziona)
-- Refresh: aggiornare `infortuni.json` + `python3 merge_infortuni.py` + regen HTML.
+- Refresh: aggiornare `infortuni.json` + `python3 scripts/merge_infortuni.py` + regen HTML.
 - PRIORITARIO al refresh pre-asta: è il dato più volatile di tutti.
 
 ## Note per il refresh pre-asta

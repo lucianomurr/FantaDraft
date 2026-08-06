@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Asta Fantacalcio 2026/27 — Tool Strategico</title>
+<title>FantaDraft2027 — Tool Strategico Asta Fantacalcio</title>
 <style>
 :root{
   --bg:#0f1420; --panel:#171d2b; --panel2:#1e2636; --line:#2a3346;
@@ -106,9 +106,10 @@ tr.out td.name{text-decoration:line-through}
 .mineflag{color:var(--good);font-weight:700;font-size:12px}
 .paidin{width:46px;text-align:right;padding:5px 6px}
 .hint{font-size:11px;color:var(--muted)}
-.legend{display:flex;flex-wrap:wrap;gap:12px;margin:10px 2px;font-size:11px;color:var(--muted)}
-.legend span{display:flex;align-items:center;gap:5px}
 .sw{width:12px;height:12px;border-radius:4px;display:inline-block}
+.legsec{margin-bottom:14px}
+.legsec h4{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
+.legrow{display:flex;align-items:center;gap:7px;font-size:13px;color:#c3cbdb;padding:3px 0}
 details.strat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:0 14px;margin-bottom:12px}
 details.strat summary{cursor:pointer;padding:12px 0;font-weight:700;list-style:none;display:flex;align-items:center;gap:8px}
 details.strat summary::-webkit-details-marker{display:none}
@@ -150,7 +151,7 @@ details.strat[open] .stbody{padding-bottom:14px}
     <div class="brand">
       <div class="logo">⚽</div>
       <div>
-        <h1>Asta Fantacalcio 2026/27</h1>
+        <h1>FantaDraft2027</h1>
         <div class="sub">Tool strategico · Classic · 10 squadre · budget 500 crediti</div>
       </div>
     </div>
@@ -159,6 +160,7 @@ details.strat[open] .stbody{padding-bottom:14px}
       <button class="ghost sm" onclick="document.getElementById('imp').click()">⬆ Ripristina</button>
       <input type="file" id="imp" accept="application/json" style="display:none" onchange="importData(event)">
       <button class="ghost sm" onclick="applyPreset()">✨ Preset fasce</button>
+      <button class="ghost sm" onclick="showLegend()">❓ Legenda</button>
       <button class="ghost sm" onclick="resetLive()">↺ Reset asta</button>
       <button class="ghost sm" onclick="resetAll()">🗑 Reset totale</button>
     </div>
@@ -224,25 +226,6 @@ details.strat[open] .stbody{padding-bottom:14px}
     <span class="pill" id="counter"></span>
   </div>
 
-  <div class="legend">
-    <span><span class="sw" style="background:var(--f1)"></span>F1 Obiettivo top</span>
-    <span><span class="sw" style="background:var(--f2)"></span>F2</span>
-    <span><span class="sw" style="background:var(--f3)"></span>F3</span>
-    <span><span class="sw" style="background:var(--f4)"></span>F4 Alternativa</span>
-    <span><span class="sw" style="background:var(--fr)"></span>R Riserva 1cr</span>
-    <span><span class="sw" style="background:var(--fx)"></span>X Evita</span>
-    <span><span class="pen pen1" style="margin:0">⚽</span> Rigorista designato</span>
-    <span><span class="pen pen2" style="margin:0">⚽</span> Rigorista alternativo</span>
-    <span class="hint">· Qt = quotazione base · FVM = valore di mercato (stima prezzo) · Tgt = tuo prezzo max · Io/Altri = tracking asta</span>
-    <span><span class="mindot min-hi"></span>≥1800 min</span>
-    <span><span class="mindot min-mid"></span>900–1799</span>
-    <span><span class="mindot min-lo"></span>&lt;900</span>
-    <span><span class="bet" style="margin:0">🎲</span> Senza dati (esordiente/scommessa)</span>
-    <span>🎰 Val alto su pochi minuti (forte scommessa)</span>
-    <span><span class="bet inj" style="margin:0">🚑</span> Infortunato (tooltip: prognosi e rientro)</span>
-    <span class="hint">· G/Rig/A/Min = stagione più recente (25/26, altrimenti 24/25 — Big 5 europei + Serie B) · xG/xA da Understat (no Serie B) · Val = (3×gol+assist)/FVM×100, più alto = più bonus per credito</span>
-  </div>
-
   <div class="tablewrap">
     <table>
       <thead><tr>
@@ -269,6 +252,7 @@ details.strat[open] .stbody{padding-bottom:14px}
   <div class="foot">I dati vengono salvati automaticamente nel tuo browser. Usa <b>Backup</b> per esportare un file di sicurezza prima dell'asta. · 493 giocatori — Quotazioni ufficiali 2026/27 · Fonti: quotazioni e infortunati fantacalcio.it · statistiche FBref (Sports Reference) · xG/xA Understat · formazioni SOS Fanta, FantaMaster, Eurosport, Goal, Gazzetta · rigoristi Gazzetta — progetto amatoriale gratuito non affiliato alle testate citate</div>
 </div>
 <div class="modalbg" id="modalbg" onclick="if(event.target===this)closeCard()"><div class="pcard" id="pcard"></div></div>
+<div class="modalbg" id="legendbg" onclick="if(event.target===this)closeLegend()"><div class="pcard" id="legendcard"></div></div>
 <div class="toast" id="toast"></div>
 
 <script>
@@ -284,8 +268,14 @@ let cfg={budget:500,P:35,D:75,C:105,A:285};
 let st={};   // id -> {t:tier, tgt:targetPrice, s:status 'free'|'mine'|'out', p:paid}
 let role='ALL', sortKey='f', sortDir=-1;
 
+const DEFAULT_ALLOC={budget:500,P:35,D:75,C:105,A:285};
+
 function load(){
-  try{const raw=localStorage.getItem(KEY);if(raw){const o=JSON.parse(raw);cfg=Object.assign(cfg,o.cfg||{});st=o.st||{};}}catch(e){}
+  try{
+    const raw=localStorage.getItem(KEY);
+    if(raw){const o=JSON.parse(raw);cfg=Object.assign(cfg,o.cfg||{});st=o.st||{};return true;}
+  }catch(e){}
+  return false;
 }
 function save(){
   try{localStorage.setItem(KEY,JSON.stringify({cfg,st}));}catch(e){}
@@ -537,7 +527,88 @@ function showCard(id){
   document.getElementById('modalbg').classList.add('on');
 }
 function closeCard(){document.getElementById('modalbg').classList.remove('on');}
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closeCard();});
+
+function showLegend(){
+  document.getElementById('legendcard').innerHTML=`
+    <button class="ghost sm xclose" onclick="closeLegend()">✕</button>
+    <div class="phead"><h3>❓ Legenda</h3></div>
+    <div class="legsec">
+      <h4>Fasce</h4>
+      <div class="legrow"><span class="sw" style="background:var(--f1)"></span>F1 — Obiettivo top</div>
+      <div class="legrow"><span class="sw" style="background:var(--f2)"></span>F2</div>
+      <div class="legrow"><span class="sw" style="background:var(--f3)"></span>F3</div>
+      <div class="legrow"><span class="sw" style="background:var(--f4)"></span>F4 — Alternativa</div>
+      <div class="legrow"><span class="sw" style="background:var(--fr)"></span>R — Riserva 1cr</div>
+      <div class="legrow"><span class="sw" style="background:var(--fx)"></span>X — Evita</div>
+    </div>
+    <div class="legsec">
+      <h4>Rigoristi</h4>
+      <div class="legrow"><span class="pen pen1" style="margin:0">⚽</span> Designato</div>
+      <div class="legrow"><span class="pen pen2" style="margin:0">⚽</span> Alternativo</div>
+    </div>
+    <div class="legsec">
+      <h4>Badge sul nome</h4>
+      <div class="legrow"><span class="bet" style="margin:0">🎲</span> Senza dati (esordiente/scommessa)</div>
+      <div class="legrow"><span class="bet inj" style="margin:0">🚑</span> Infortunato (tooltip: prognosi e rientro)</div>
+      <div class="legrow">🎰 accanto a Val — indice alto su pochi minuti (forte scommessa)</div>
+    </div>
+    <div class="legsec">
+      <h4>Colonna Min — indicatore titolarità</h4>
+      <div class="legrow"><span class="mindot min-hi"></span>≥1800 minuti</div>
+      <div class="legrow"><span class="mindot min-mid"></span>900–1799</div>
+      <div class="legrow"><span class="mindot min-lo"></span>&lt;900</div>
+    </div>
+    <div class="legsec">
+      <h4>Colonne</h4>
+      <div class="legrow">Qt — quotazione base · FVM — valore di mercato (stima prezzo)</div>
+      <div class="legrow">Tgt — tuo prezzo max · Io/Altri — tracking asta</div>
+      <div class="legrow">G/Rig/A/Min — stagione più recente (25/26, altrimenti 24/25 — Big 5 europei + Serie B)</div>
+      <div class="legrow">xG/xA — da Understat (non copre la Serie B)</div>
+      <div class="legrow">Val — (3×gol + assist) / FVM × 100, più alto = più bonus per credito</div>
+      <div class="legrow">Tit — in quante formazioni tipo su 5 il giocatore parte titolare · ⚖ = in ballottaggio</div>
+    </div>`;
+  document.getElementById('legendbg').classList.add('on');
+}
+function closeLegend(){document.getElementById('legendbg').classList.remove('on');}
+
+function showOnboarding(){
+  document.getElementById('legendcard').innerHTML=`
+    <div class="phead"><h3>⚽ Benvenuto</h3></div>
+    <p class="pmeta" style="font-size:13px">Quanti crediti hai a disposizione per la tua asta? Ridistribuisco il totale
+      sui 4 reparti mantenendo le stesse proporzioni di una lega standard da 500 crediti
+      (Porta 7% · Difesa 15% · Centrocampo 21% · Attacco 57%). Potrai comunque modificare
+      ogni valore dopo, dal pannello "Budget & allocazione".</p>
+    <div style="display:flex;gap:10px;align-items:center;margin:14px 0">
+      <label class="hint" style="font-size:13px">Crediti totali</label>
+      <input id="ob_budget" type="number" min="1" value="500" class="tin" style="width:90px;font-size:15px;padding:8px 10px">
+    </div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="pri" onclick="confirmOnboarding()">Conferma e distribuisci</button>
+      <button class="ghost" onclick="confirmOnboarding(true)">Usa il default (500)</button>
+    </div>`;
+  document.getElementById('legendbg').classList.add('on');
+}
+function confirmOnboarding(useDefault){
+  let budget=DEFAULT_ALLOC.budget;
+  if(!useDefault){
+    const v=+document.getElementById('ob_budget').value;
+    if(v>0) budget=v;
+  }
+  cfg.budget=budget;
+  let sum=0;
+  ROLES.forEach((r,i)=>{
+    if(i<ROLES.length-1){
+      const v=Math.round(budget*DEFAULT_ALLOC[r]/DEFAULT_ALLOC.budget);
+      cfg[r]=v; sum+=v;
+    }
+  });
+  cfg[ROLES[ROLES.length-1]]=Math.max(0,budget-sum); // ultimo ruolo assorbe l'arrotondamento
+  cfgInit();save();renderCards();
+  document.getElementById('legendbg').classList.remove('on');
+  toast('Budget impostato: '+budget+' cr distribuiti sui reparti');
+}
+
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeCard();closeLegend();}});
 
 function applyPreset(){
   const empty=PLAYERS.filter(p=>p.pt&&!(st[p.id]&&st[p.id].t)).length;
@@ -552,7 +623,9 @@ function resetLive(){if(!confirm('Azzerare SOLO il tracking asta (Io/Altri e pre
 function resetAll(){if(!confirm('Cancellare TUTTO (fasce, target, tracking)? Operazione irreversibile.'))return;
   st={};save();render();toast('Reset completato');}
 
-load();cfgInit();fillTeams();render();
+const hadSavedState=load();
+cfgInit();fillTeams();render();
+if(!hadSavedState) showOnboarding();
 </script>
 </body>
 </html>
