@@ -1,0 +1,9 @@
+backups/
+__pycache__/
+.DS_Store
+node_modules/
+.next/
+out/
+*.log
+downloaded_files/
+.env*.local

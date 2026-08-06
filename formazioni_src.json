@@ -1,0 +1,2315 @@
+{
+ "sources": [
+  {
+   "name": "SOS Fanta",
+   "teams": {
+    "Atalanta": {
+     "mod": "4-3-3",
+     "xi": [
+      "Carnesecchi",
+      "Zappacosta",
+      "Scalvini",
+      "Kolasinac",
+      "Bernasconi",
+      "Samardzic",
+      "Gaetano",
+      "Ederson",
+      "De Ketelaere",
+      "Scamacca",
+      "Raspadori"
+     ],
+     "ball": [
+      [
+       "Zappacosta",
+       "Bellanova"
+      ],
+      [
+       "Kolasinac",
+       "Hien"
+      ],
+      [
+       "Samardzic",
+       "Pasalic"
+      ],
+      [
+       "Scamacca",
+       "Krstovic"
+      ]
+     ]
+    },
+    "Bologna": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Skorupski",
+      "Zortea",
+      "Vitik",
+      "Lucumì",
+      "Miranda",
+      "Bernardeschi",
+      "Pobega",
+      "Orsolini",
+      "Odgaard",
+      "Rowe",
+      "Dovbyk"
+     ],
+     "ball": [
+      [
+       "Zortea",
+       "Holm"
+      ],
+      [
+       "Vitik",
+       "Heggem"
+      ],
+      [
+       "Odgaard",
+       "Bernardeschi"
+      ]
+     ]
+    },
+    "Cagliari": {
+     "mod": "4-3-3",
+     "xi": [
+      "Caprile",
+      "Zè Pedro",
+      "Mina",
+      "Rodriguez",
+      "Obert",
+      "Adopo",
+      "Winks",
+      "Romano",
+      "Felici",
+      "Borrelli",
+      "Fazzini"
+     ],
+     "ball": [
+      [
+       "Zè Pedro",
+       "Zappa"
+      ],
+      [
+       "Mina",
+       "Deiola"
+      ],
+      [
+       "Borrelli",
+       "Mendy"
+      ],
+      [
+       "Felici",
+       "Trepy"
+      ]
+     ]
+    },
+    "Como": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Butez",
+      "Smolcic",
+      "Ramon",
+      "Kempf",
+      "Valle",
+      "Perrone",
+      "Da Cunha",
+      "Diao",
+      "Paz",
+      "Baturina",
+      "Douvikas"
+     ],
+     "ball": [
+      [
+       "Smolcic",
+       "Van der Brempt"
+      ],
+      [
+       "Valle",
+       "Kaiki"
+      ],
+      [
+       "Perrone",
+       "Milla"
+      ],
+      [
+       "Diao",
+       "Rodriguez J."
+      ]
+     ]
+    },
+    "Fiorentina": {
+     "mod": "4-3-3",
+     "xi": [
+      "De Gea",
+      "Dodò",
+      "Pongracic",
+      "Dragusin",
+      "Viery",
+      "Mandragora",
+      "Fagioli",
+      "Atta",
+      "Jimenez",
+      "Kean",
+      "Gudmundsson"
+     ],
+     "ball": [
+      [
+       "Viery",
+       "Valdepenas"
+      ],
+      [
+       "Mandragora",
+       "Oulai"
+      ],
+      [
+       "Kean",
+       "Piccoli"
+      ]
+     ]
+    },
+    "Frosinone": {
+     "mod": "4-3-3",
+     "xi": [
+      "Palmisani",
+      "Oyono A.",
+      "Akpoguma",
+      "Monterisi",
+      "Bracaglia",
+      "El Azzouzi",
+      "Calò",
+      "Koutsoupias",
+      "Ghedjemis",
+      "Raimondo",
+      "Zerbin"
+     ],
+     "ball": [
+      [
+       "Monterisi",
+       "Calvani"
+      ],
+      [
+       "El Azzouzi",
+       "Gelli"
+      ],
+      [
+       "Koutsoupias",
+       "Hasa"
+      ],
+      [
+       "Palmisani",
+       "Desplanches"
+      ],
+      [
+       "Zerbin",
+       "Kvernadze"
+      ]
+     ]
+    },
+    "Genoa": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Bijlow",
+      "Marcandalli",
+      "Ostigard",
+      "Vasquez",
+      "Norton-Cuffy",
+      "Amorim",
+      "Frendrup",
+      "Mitaj",
+      "Baldanzi",
+      "Vitinha",
+      "Colombo"
+     ],
+     "ball": [
+      [
+       "Mitaj",
+       "Ellertsson"
+      ],
+      [
+       "Baldanzi",
+       "Traorè"
+      ],
+      [
+       "Vitinha",
+       "Meichtry"
+      ]
+     ]
+    },
+    "Inter": {
+     "mod": "3-5-2",
+     "xi": [
+      "Martinez Jo.",
+      "Akanji",
+      "Stones",
+      "Bastoni",
+      "Diouf",
+      "Barella",
+      "Calhanoglu",
+      "Zielinski",
+      "Dimarco",
+      "Martinez L.",
+      "Thuram"
+     ],
+     "ball": [
+      [
+       "Martinez Jo.",
+       "Provedel"
+      ],
+      [
+       "Stones",
+       "Bisseck"
+      ],
+      [
+       "Luis Henrique",
+       "Diouf"
+      ],
+      [
+       "Zielinski",
+       "Sucic"
+      ]
+     ]
+    },
+    "Juventus": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Di Gregorio",
+      "Kalulu",
+      "Bremer",
+      "Kelly",
+      "Cambiaso",
+      "Thuram K.",
+      "Locatelli",
+      "Alajbegovic",
+      "Mckennie",
+      "Yildiz",
+      "Kolo Muani"
+     ],
+     "ball": [
+      [
+       "Alajbegovic",
+       "Conceicao"
+      ]
+     ]
+    },
+    "Lazio": {
+     "mod": "4-3-3",
+     "xi": [
+      "Mandas",
+      "Marusic",
+      "Doekhi",
+      "Romagnoli",
+      "Pedraza",
+      "Taylor",
+      "Rovella",
+      "Dele-Bashiru",
+      "Isaksen",
+      "Noslin",
+      "Zaccagni"
+     ],
+     "ball": [
+      [
+       "Romagnoli",
+       "Provstgaard"
+      ],
+      [
+       "Pedraza",
+       "Tavares"
+      ],
+      [
+       "Rovella",
+       "Cataldi"
+      ],
+      [
+       "Isaksen",
+       "Cancellieri"
+      ]
+     ]
+    },
+    "Lecce": {
+     "mod": "4-3-3",
+     "xi": [
+      "Falcone",
+      "Veiga",
+      "Tiago Gabriel",
+      "Siebert",
+      "Gallo",
+      "Coulibaly",
+      "Berisha",
+      "Gandelman",
+      "Pierotti",
+      "Geubbels",
+      "N'dri"
+     ],
+     "ball": [
+      [
+       "Berisha",
+       "Ngom"
+      ],
+      [
+       "Geubbels",
+       "Stulic"
+      ],
+      [
+       "Pierotti",
+       "Laerke"
+      ]
+     ]
+    },
+    "Milan": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Maignan",
+      "Gila",
+      "Gabbia",
+      "Pavlovic",
+      "Saelemaekers",
+      "Rabiot",
+      "Modric",
+      "Bartesaghi",
+      "Pulisic",
+      "Leao",
+      "Ramos G."
+     ],
+     "ball": [
+      [
+       "Leao",
+       "Nkunku"
+      ]
+     ]
+    },
+    "Monza": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Thiam",
+      "Kouadio",
+      "Delli Carri",
+      "Carboni A.",
+      "Birindelli",
+      "Akinsanmiro",
+      "Pessina",
+      "Mangas",
+      "Colpani",
+      "Mota",
+      "Cutrone"
+     ],
+     "ball": [
+      [
+       "Akinsanmiro",
+       "Colombo L."
+      ],
+      [
+       "Cutrone",
+       "Petagna"
+      ],
+      [
+       "Colpani",
+       "Mota",
+       "Ciurria"
+      ]
+     ]
+    },
+    "Napoli": {
+     "mod": "4-3-3",
+     "xi": [
+      "Meret",
+      "Di Lorenzo",
+      "Rrahmani",
+      "Marin R.",
+      "Spinazzola",
+      "De Bruyne",
+      "Lobotka",
+      "Mctominay",
+      "Neres",
+      "Hojlund",
+      "Santos"
+     ],
+     "ball": [
+      [
+       "Meret",
+       "Milinkovic-Savic V."
+      ],
+      [
+       "Marin R.",
+       "Olivera"
+      ],
+      [
+       "Spinazzola",
+       "Gutierrez"
+      ],
+      [
+       "Santos",
+       "Politano"
+      ]
+     ]
+    },
+    "Parma": {
+     "mod": "4-3-3",
+     "xi": [
+      "Corvi",
+      "Troilo",
+      "Circati",
+      "Valenti",
+      "Delprato",
+      "Bernabè",
+      "Keita",
+      "Nicolussi Caviglia",
+      "Ondrejka",
+      "Pellegrino",
+      "Valeri"
+     ],
+     "ball": [
+      [
+       "Corvi",
+       "Daffara"
+      ],
+      [
+       "Troilo",
+       "Britschgi"
+      ],
+      [
+       "Nicolussi Caviglia",
+       "Sorensen O."
+      ],
+      [
+       "Ondrejka",
+       "Elphege"
+      ]
+     ]
+    },
+    "Roma": {
+     "mod": "4-3-3",
+     "xi": [
+      "Svilar",
+      "Mancini",
+      "N'dicka",
+      "Koulierakis",
+      "Rensch",
+      "Cristante",
+      "Konè",
+      "Wesley",
+      "Soulè",
+      "Dybala",
+      "Malen"
+     ],
+     "ball": [
+      [
+       "Koulierakis",
+       "Hermoso"
+      ],
+      [
+       "Soulè",
+       "Pisilli"
+      ]
+     ]
+    },
+    "Sassuolo": {
+     "mod": "4-3-3",
+     "xi": [
+      "Muric",
+      "Missori",
+      "Walukiewicz",
+      "Idzes",
+      "Doig",
+      "Matic",
+      "Lipani",
+      "Berardi",
+      "Thorstvedt",
+      "Laurientè",
+      "Pinamonti"
+     ],
+     "ball": [
+      [
+       "Muric",
+       "Turati"
+      ],
+      [
+       "Missori",
+       "Walukiewicz"
+      ],
+      [
+       "Pinamonti",
+       "Bowie"
+      ]
+     ]
+    },
+    "Torino": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Paleari",
+      "Ismajli",
+      "Coco",
+      "Comuzzo",
+      "Pedersen",
+      "Casadei",
+      "Fitz-Jim",
+      "Cacciamani",
+      "Oristanio",
+      "Vlasic",
+      "Simeone"
+     ],
+     "ball": [
+      [
+       "Comuzzo",
+       "Comert"
+      ],
+      [
+       "Fitz-Jim",
+       "Gineitis"
+      ],
+      [
+       "Oristanio",
+       "Adams"
+      ]
+     ]
+    },
+    "Udinese": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Okoye",
+      "Kabasele",
+      "Kristensen",
+      "Solet",
+      "Vojvoda",
+      "Piotrowski",
+      "Karlstrom",
+      "Kamara",
+      "Zaniolo",
+      "Ekkelenkamp",
+      "Davis"
+     ],
+     "ball": [
+      [
+       "Vojvoda",
+       "Zanoli"
+      ],
+      [
+       "Piotrowski",
+       "Unai Gomez"
+      ]
+     ]
+    },
+    "Venezia": {
+     "mod": "3-5-2",
+     "xi": [
+      "Stankovic F.",
+      "Schingtienne",
+      "Bella-Kotchap",
+      "Moreno M.",
+      "Correia T.",
+      "Basic",
+      "Busio",
+      "Sohm",
+      "Haps",
+      "Adams A.",
+      "Yeboah"
+     ],
+     "ball": [
+      [
+       "Correia T.",
+       "Hainaut"
+      ],
+      [
+       "Adams A.",
+       "Rrahmani Al."
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "name": "FantaMaster",
+   "teams": {
+    "Atalanta": {
+     "mod": "4-3-3",
+     "xi": [
+      "Carnesecchi",
+      "Zappacosta",
+      "Scalvini",
+      "Ahanor",
+      "Bernasconi",
+      "Ederson",
+      "Gaetano",
+      "Samardzic",
+      "De Ketelaere",
+      "Scamacca",
+      "Raspadori"
+     ],
+     "ball": [
+      [
+       "Zappacosta",
+       "Bellanova"
+      ],
+      [
+       "Ahanor",
+       "Kolasinac",
+       "Hien"
+      ],
+      [
+       "Gaetano",
+       "De Roon"
+      ],
+      [
+       "Scamacca",
+       "Krstovic"
+      ],
+      [
+       "Samardzic",
+       "Pasalic"
+      ],
+      [
+       "Raspadori",
+       "Zalewski"
+      ]
+     ]
+    },
+    "Bologna": {
+     "mod": "4-3-3",
+     "xi": [
+      "Skorupski",
+      "Zortea",
+      "Heggem",
+      "Lucumì",
+      "Miranda",
+      "Ferguson",
+      "Pobega",
+      "Odgaard",
+      "Orsolini",
+      "Dovbyk",
+      "Rowe"
+     ],
+     "ball": [
+      [
+       "Zortea",
+       "Holm"
+      ],
+      [
+       "Pobega",
+       "Moro"
+      ],
+      [
+       "Odgaard",
+       "Bernardeschi"
+      ]
+     ]
+    },
+    "Cagliari": {
+     "mod": "3-5-2",
+     "xi": [
+      "Caprile",
+      "Zè Pedro",
+      "Mina",
+      "Rodriguez",
+      "Zappa",
+      "Adopo",
+      "Winks",
+      "Fazzini",
+      "Obert",
+      "Mendy",
+      "Borrelli"
+     ],
+     "ball": [
+      [
+       "Adopo",
+       "Deiola"
+      ],
+      [
+       "Fazzini",
+       "Romano"
+      ]
+     ]
+    },
+    "Como": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Butez",
+      "Smolcic",
+      "Ramon",
+      "Kempf",
+      "Kaiki",
+      "Da Cunha",
+      "Perrone",
+      "Diao",
+      "Paz",
+      "Baturina",
+      "Douvikas"
+     ],
+     "ball": [
+      [
+       "Smolcic",
+       "Van der Brempt"
+      ],
+      [
+       "Kaiki",
+       "Valle"
+      ],
+      [
+       "Milla",
+       "Da Cunha"
+      ],
+      [
+       "Perrone",
+       "Caqueres"
+      ],
+      [
+       "Paz",
+       "Diao"
+      ],
+      [
+       "Baturina",
+       "Rodriguez J."
+      ],
+      [
+       "Diao",
+       "Liberali"
+      ]
+     ]
+    },
+    "Fiorentina": {
+     "mod": "4-3-2-1",
+     "xi": [
+      "De Gea",
+      "Dodò",
+      "Dragusin",
+      "Viery",
+      "Jimenez",
+      "Oulai",
+      "Fagioli",
+      "Ndour",
+      "Atta",
+      "Gudmundsson",
+      "Kean"
+     ],
+     "ball": [
+      [
+       "Dodò",
+       "Joao Mario"
+      ],
+      [
+       "Viery",
+       "Pongracic",
+       "Ranieri"
+      ],
+      [
+       "Jimenez",
+       "Fortini"
+      ],
+      [
+       "Fagioli",
+       "Mandragora"
+      ]
+     ]
+    },
+    "Frosinone": {
+     "mod": "4-3-3",
+     "xi": [
+      "Palmisani",
+      "Oyono A.",
+      "Monterisi",
+      "Calvani",
+      "Bracaglia",
+      "El Azzouzi",
+      "Cichella",
+      "Hasa",
+      "Ghedjemis",
+      "Raimondo",
+      "Zerbin"
+     ],
+     "ball": [
+      [
+       "Palmisani",
+       "Desplanches"
+      ],
+      [
+       "El Azzouzi",
+       "Koutsoupias"
+      ],
+      [
+       "Hasa",
+       "Calò"
+      ],
+      [
+       "Zerbin",
+       "Kvernadze"
+      ],
+      [
+       "Calvani",
+       "Cittadini"
+      ]
+     ]
+    },
+    "Genoa": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Bijlow",
+      "Marcandalli",
+      "Ostigard",
+      "Vasquez",
+      "Norton-Cuffy",
+      "Frendrup",
+      "Ellertsson",
+      "Mitaj",
+      "Baldanzi",
+      "Vitinha",
+      "Colombo"
+     ],
+     "ball": [
+      [
+       "Vasquez",
+       "Puczka"
+      ],
+      [
+       "Ellertsson",
+       "Amorim",
+       "Masini"
+      ],
+      [
+       "Martin",
+       "Puczka"
+      ],
+      [
+       "Baldanzi",
+       "Traorè Hj."
+      ],
+      [
+       "Vitinha",
+       "Messias"
+      ]
+     ]
+    },
+    "Inter": {
+     "mod": "3-5-2",
+     "xi": [
+      "Martinez Jo.",
+      "Stones",
+      "Akanji",
+      "Bastoni",
+      "Diouf",
+      "Barella",
+      "Calhanoglu",
+      "Zielinski",
+      "Dimarco",
+      "Martinez L.",
+      "Thuram"
+     ],
+     "ball": [
+      [
+       "Stones",
+       "Bisseck"
+      ],
+      [
+       "Diouf",
+       "Luis Henrique"
+      ],
+      [
+       "Zielinski",
+       "Sucic"
+      ]
+     ]
+    },
+    "Juventus": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Di Gregorio",
+      "Kalulu",
+      "Bremer",
+      "Kelly",
+      "Cambiaso",
+      "Locatelli",
+      "Thuram K.",
+      "Alajbegovic",
+      "Mckennie",
+      "Yildiz",
+      "Kolo Muani"
+     ],
+     "ball": [
+      [
+       "Thuram K.",
+       "Douglas Luiz"
+      ],
+      [
+       "Alajbegovic",
+       "Conceicao"
+      ]
+     ]
+    },
+    "Lazio": {
+     "mod": "4-3-3",
+     "xi": [
+      "Mandas",
+      "Marusic",
+      "Doekhi",
+      "Provstgaard",
+      "Tavares",
+      "Dele-Bashiru",
+      "Rovella",
+      "Taylor",
+      "Isaksen",
+      "Ratkov",
+      "Zaccagni"
+     ],
+     "ball": [
+      [
+       "Mandas",
+       "Motta"
+      ],
+      [
+       "Tavares",
+       "Pedraza"
+      ],
+      [
+       "Dele-Bashiru",
+       "Cataldi"
+      ],
+      [
+       "Rovella",
+       "Cataldi"
+      ],
+      [
+       "Isaksen",
+       "Noslin"
+      ],
+      [
+       "Ratkov",
+       "Dia"
+      ]
+     ]
+    },
+    "Lecce": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Falcone",
+      "Veiga",
+      "Gaspar K.",
+      "Tiago Gabriel",
+      "Gallo",
+      "Ngom",
+      "Coulibaly",
+      "Pierotti",
+      "Gandelman",
+      "N'dri",
+      "Geubbels"
+     ],
+     "ball": [
+      [
+       "Gaspar K.",
+       "Siebert"
+      ],
+      [
+       "Ngom",
+       "Berisha"
+      ],
+      [
+       "Geubbels",
+       "Stulic"
+      ]
+     ]
+    },
+    "Milan": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Maignan",
+      "Gila",
+      "Gabbia",
+      "Pavlovic",
+      "Saelemaekers",
+      "Modric",
+      "Rabiot",
+      "Bartesaghi",
+      "Pulisic",
+      "Leao",
+      "Ramos G."
+     ],
+     "ball": [
+      [
+       "Modric",
+       "Jashari"
+      ],
+      [
+       "Leao",
+       "Nkunku"
+      ]
+     ]
+    },
+    "Monza": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Thiam",
+      "Kouadio",
+      "Lucchesi",
+      "Carboni A.",
+      "Birindelli",
+      "Akinsanmiro",
+      "Pessina",
+      "Mangas",
+      "Colpani",
+      "Mota",
+      "Cutrone"
+     ],
+     "ball": [
+      [
+       "Lucchesi",
+       "Delli Carri"
+      ],
+      [
+       "Birindelli",
+       "Bakoune"
+      ],
+      [
+       "Mota",
+       "Ciurria"
+      ],
+      [
+       "Cutrone",
+       "Petagna"
+      ]
+     ]
+    },
+    "Napoli": {
+     "mod": "4-3-3",
+     "xi": [
+      "Meret",
+      "Di Lorenzo",
+      "Rrahmani",
+      "Beukema",
+      "Spinazzola",
+      "Zambo Anguissa",
+      "Lobotka",
+      "Mctominay",
+      "Politano",
+      "Hojlund",
+      "Santos"
+     ],
+     "ball": [
+      [
+       "Beukema",
+       "Buongiorno",
+       "Olivera"
+      ],
+      [
+       "Spinazzola",
+       "Olivera"
+      ],
+      [
+       "Zambo Anguissa",
+       "De Bruyne"
+      ],
+      [
+       "Politano",
+       "Vergara"
+      ],
+      [
+       "Santos",
+       "Neres"
+      ]
+     ]
+    },
+    "Parma": {
+     "mod": "3-5-2",
+     "xi": [
+      "Corvi",
+      "Circati",
+      "Troilo",
+      "Valenti",
+      "Delprato",
+      "Bernabè",
+      "Keita",
+      "Nicolussi Caviglia",
+      "Valeri",
+      "Pellegrino",
+      "Elphege"
+     ],
+     "ball": [
+      [
+       "Corvi",
+       "Daffara"
+      ],
+      [
+       "Valenti",
+       "Ndiaye"
+      ],
+      [
+       "Nicolussi Caviglia",
+       "Sorensen O."
+      ],
+      [
+       "Elphege",
+       "Ondrejka"
+      ]
+     ]
+    },
+    "Roma": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Svilar",
+      "Mancini",
+      "N'dicka",
+      "Hermoso",
+      "Rensch",
+      "Cristante",
+      "Konè",
+      "Wesley",
+      "Pisilli",
+      "Dybala",
+      "Malen"
+     ],
+     "ball": [
+      [
+       "Hermoso",
+       "Koulierakis"
+      ],
+      [
+       "Dybala",
+       "Castro S."
+      ]
+     ]
+    },
+    "Sassuolo": {
+     "mod": "4-3-3",
+     "xi": [
+      "Muric",
+      "Walukiewicz",
+      "Candè",
+      "Idzes",
+      "Doig",
+      "Thorstvedt",
+      "Matic",
+      "Adzic",
+      "Berardi",
+      "Pinamonti",
+      "Laurientè"
+     ],
+     "ball": [
+      [
+       "Muric",
+       "Turati"
+      ],
+      [
+       "Adzic",
+       "Lipani"
+      ],
+      [
+       "Pinamonti",
+       "Bowie"
+      ]
+     ]
+    },
+    "Torino": {
+     "mod": "3-5-2",
+     "xi": [
+      "Paleari",
+      "Comuzzo",
+      "Comert",
+      "Coco",
+      "Pedersen",
+      "Casadei",
+      "Ilkhan",
+      "Vlasic",
+      "Cacciamani",
+      "Simeone",
+      "Zapata"
+     ],
+     "ball": [
+      [
+       "Casadei",
+       "Oristanio"
+      ],
+      [
+       "Ilkhan",
+       "Fitz-Jim"
+      ],
+      [
+       "Cacciamani",
+       "Biraghi"
+      ],
+      [
+       "Zapata",
+       "Adams",
+       "Oristanio"
+      ]
+     ]
+    },
+    "Udinese": {
+     "mod": "3-5-2",
+     "xi": [
+      "Okoye",
+      "Kristensen",
+      "Kabasele",
+      "Solet",
+      "Vojvoda",
+      "Ekkelenkamp",
+      "Karlstrom",
+      "Unai Gomez",
+      "Kamara",
+      "Zaniolo",
+      "Davis"
+     ],
+     "ball": [
+      [
+       "Unai Gomez",
+       "Miller"
+      ]
+     ]
+    },
+    "Venezia": {
+     "mod": "3-5-2",
+     "xi": [
+      "Stankovic F.",
+      "Bella-Kotchap",
+      "Schingtienne",
+      "Sverko",
+      "Correia T.",
+      "Basic",
+      "Busio",
+      "Sohm",
+      "Moreno M.",
+      "Adams A.",
+      "Yeboah"
+     ],
+     "ball": [
+      [
+       "Moreno M.",
+       "Haps"
+      ],
+      [
+       "Yeboah",
+       "Rrahmani Al."
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "name": "Eurosport",
+   "teams": {
+    "Atalanta": {
+     "mod": "4-3-3",
+     "xi": [
+      "Carnesecchi",
+      "Zappacosta",
+      "Scalvini",
+      "Djimsiti",
+      "Bernasconi",
+      "De Roon",
+      "Gaetano",
+      "Ederson",
+      "Raspadori",
+      "Scamacca",
+      "De Ketelaere"
+     ],
+     "ball": []
+    },
+    "Bologna": {
+     "mod": "4-3-3",
+     "xi": [
+      "Skorupski",
+      "Zortea",
+      "Vitik",
+      "Heggem",
+      "Miranda",
+      "Bernardeschi",
+      "Moro",
+      "Ferguson",
+      "Orsolini",
+      "Dovbyk",
+      "Rowe"
+     ],
+     "ball": []
+    },
+    "Cagliari": {
+     "mod": "4-3-2-1",
+     "xi": [
+      "Caprile",
+      "Zè Pedro",
+      "Mina",
+      "Rodriguez",
+      "Obert",
+      "Romano",
+      "Winks",
+      "Fazzini",
+      "Trepy",
+      "Adopo",
+      "Borrelli"
+     ],
+     "ball": []
+    },
+    "Como": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Butez",
+      "Smolcic",
+      "Ramon",
+      "Kempf",
+      "Kaiki",
+      "Perrone",
+      "Da Cunha",
+      "Paz",
+      "Baturina",
+      "Diao",
+      "Douvikas"
+     ],
+     "ball": []
+    },
+    "Fiorentina": {
+     "mod": "4-3-3",
+     "xi": [
+      "De Gea",
+      "Dodò",
+      "Dragusin",
+      "Viery",
+      "Valdepenas",
+      "Fagioli",
+      "Oulai",
+      "Atta",
+      "Jimenez",
+      "Gudmundsson",
+      "Kean"
+     ],
+     "ball": []
+    },
+    "Frosinone": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Palmisani",
+      "Oyono A.",
+      "Monterisi",
+      "Cittadini",
+      "Bracaglia",
+      "Calò",
+      "Koutsoupias",
+      "Ghedjemis",
+      "Hasa",
+      "Zerbin",
+      "Raimondo"
+     ],
+     "ball": []
+    },
+    "Genoa": {
+     "mod": "3-4-1-2",
+     "xi": [
+      "Bijlow",
+      "Ostigard",
+      "Vasquez",
+      "Ellertsson",
+      "Norton-Cuffy",
+      "Frendrup",
+      "Amorim",
+      "Mitaj",
+      "Baldanzi",
+      "Vitinha",
+      "Colombo"
+     ],
+     "ball": []
+    },
+    "Inter": {
+     "mod": "3-5-2",
+     "xi": [
+      "Martinez Jo.",
+      "Akanji",
+      "Bastoni",
+      "Stones",
+      "Diouf",
+      "Barella",
+      "Calhanoglu",
+      "Zielinski",
+      "Dimarco",
+      "Thuram",
+      "Martinez L."
+     ],
+     "ball": []
+    },
+    "Juventus": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Di Gregorio",
+      "Kalulu",
+      "Bremer",
+      "Kelly",
+      "Cambiaso",
+      "Locatelli",
+      "Mckennie",
+      "Conceicao",
+      "Alajbegovic",
+      "Yildiz",
+      "Kolo Muani"
+     ],
+     "ball": []
+    },
+    "Lazio": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Mandas",
+      "Marusic",
+      "Doekhi",
+      "Provstgaard",
+      "Pedraza",
+      "Rovella",
+      "Dele-Bashiru",
+      "Isaksen",
+      "Taylor",
+      "Zaccagni",
+      "Ratkov"
+     ],
+     "ball": []
+    },
+    "Lecce": {
+     "mod": "4-3-3",
+     "xi": [
+      "Falcone",
+      "Veiga",
+      "Gaspar K.",
+      "Tiago Gabriel",
+      "Gallo",
+      "Pierret",
+      "Ngom",
+      "Coulibaly",
+      "N'dri",
+      "Pierotti",
+      "Geubbels"
+     ],
+     "ball": []
+    },
+    "Milan": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Maignan",
+      "Gila",
+      "Gabbia",
+      "Pavlovic",
+      "Saelemaekers",
+      "Modric",
+      "Rabiot",
+      "Bartesaghi",
+      "Nkunku",
+      "Pulisic",
+      "Ramos G."
+     ],
+     "ball": []
+    },
+    "Monza": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Thiam",
+      "Birindelli",
+      "Lucchesi",
+      "Carboni A.",
+      "Bakoune",
+      "Pessina",
+      "Akinsanmiro",
+      "Mangas",
+      "Colpani",
+      "Mota",
+      "Cutrone"
+     ],
+     "ball": []
+    },
+    "Napoli": {
+     "mod": "4-3-3",
+     "xi": [
+      "Meret",
+      "Di Lorenzo",
+      "Rrahmani",
+      "Buongiorno",
+      "Spinazzola",
+      "De Bruyne",
+      "Lobotka",
+      "Mctominay",
+      "Neres",
+      "Hojlund",
+      "Santos"
+     ],
+     "ball": []
+    },
+    "Parma": {
+     "mod": "3-5-2",
+     "xi": [
+      "Suzuki",
+      "Circati",
+      "Troilo",
+      "Valeri",
+      "Delprato",
+      "Bernabè",
+      "Keita",
+      "Nicolussi Caviglia",
+      "Ondrejka",
+      "Pellegrino",
+      "Ndiaye"
+     ],
+     "ball": []
+    },
+    "Roma": {
+     "mod": "3-4-1-2",
+     "xi": [
+      "Svilar",
+      "Mancini",
+      "N'dicka",
+      "Hermoso",
+      "Rensch",
+      "Konè",
+      "Cristante",
+      "Wesley",
+      "Dybala",
+      "Castro S.",
+      "Malen"
+     ],
+     "ball": []
+    },
+    "Sassuolo": {
+     "mod": "4-3-3",
+     "xi": [
+      "Muric",
+      "Walukiewicz",
+      "Candè",
+      "Idzes",
+      "Doig",
+      "Thorstvedt",
+      "Matic",
+      "Lipani",
+      "Berardi",
+      "Pinamonti",
+      "Laurientè"
+     ],
+     "ball": []
+    },
+    "Torino": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Paleari",
+      "Coco",
+      "Comuzzo",
+      "Comert",
+      "Pedersen",
+      "Fitz-Jim",
+      "Gineitis",
+      "Cacciamani",
+      "Vlasic",
+      "Casadei",
+      "Simeone"
+     ],
+     "ball": []
+    },
+    "Udinese": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Okoye",
+      "Kristensen",
+      "Kabasele",
+      "Solet",
+      "Zanoli",
+      "Ekkelenkamp",
+      "Karlstrom",
+      "Unai Gomez",
+      "Kamara",
+      "Zaniolo",
+      "Davis"
+     ],
+     "ball": []
+    },
+    "Venezia": {
+     "mod": "3-5-2",
+     "xi": [
+      "Stankovic F.",
+      "Schingtienne",
+      "Bella-Kotchap",
+      "Franjic",
+      "Correia T.",
+      "Perez K.",
+      "Basic",
+      "Busio",
+      "Hainaut",
+      "Yeboah",
+      "Adams A."
+     ],
+     "ball": []
+    }
+   }
+  },
+  {
+   "name": "Goal",
+   "teams": {
+    "Atalanta": {
+     "mod": "4-3-3",
+     "xi": [
+      "Carnesecchi",
+      "Bellanova",
+      "Scalvini",
+      "Hien",
+      "Ahanor",
+      "Ederson",
+      "Gaetano",
+      "Pasalic",
+      "De Ketelaere",
+      "Scamacca",
+      "Raspadori"
+     ],
+     "ball": []
+    },
+    "Bologna": {
+     "mod": "4-3-3",
+     "xi": [
+      "Skorupski",
+      "Zortea",
+      "Heggem",
+      "Lucumì",
+      "Miranda",
+      "Ferguson",
+      "Moro",
+      "Bernardeschi",
+      "Orsolini",
+      "Dovbyk",
+      "Rowe"
+     ],
+     "ball": []
+    },
+    "Cagliari": {
+     "mod": "3-5-2",
+     "xi": [
+      "Caprile",
+      "Zè Pedro",
+      "Mina",
+      "Rodriguez",
+      "Zappa",
+      "Adopo",
+      "Deiola",
+      "Fazzini",
+      "Obert",
+      "Esposito Se.",
+      "Borrelli"
+     ],
+     "ball": []
+    },
+    "Como": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Butez",
+      "Smolcic",
+      "Ramon",
+      "Kempf",
+      "Kaiki",
+      "Da Cunha",
+      "Perrone",
+      "Diao",
+      "Nico Paz",
+      "Baturina",
+      "Douvikas"
+     ],
+     "ball": []
+    },
+    "Fiorentina": {
+     "mod": "4-3-3",
+     "xi": [
+      "De Gea",
+      "Dodò",
+      "Dragusin",
+      "Viery",
+      "Jimenez",
+      "Oulai",
+      "Fagioli",
+      "Ndour",
+      "Atta",
+      "Kean",
+      "Gudmundsson"
+     ],
+     "ball": []
+    },
+    "Frosinone": {
+     "mod": "4-3-3",
+     "xi": [
+      "Palmisani",
+      "Oyono A.",
+      "Monterisi",
+      "Cittadini",
+      "Bracaglia",
+      "Calò",
+      "Hasa",
+      "Koutsoupias",
+      "Ghedjemis",
+      "Raimondo",
+      "Kvernadze"
+     ],
+     "ball": []
+    },
+    "Genoa": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Bijlow",
+      "Marcandalli",
+      "Ostigard",
+      "Vasquez",
+      "Norton-Cuffy",
+      "Frendrup",
+      "Amorim",
+      "Mitaj",
+      "Baldanzi",
+      "Vitinha",
+      "Colombo"
+     ],
+     "ball": []
+    },
+    "Inter": {
+     "mod": "3-5-2",
+     "xi": [
+      "Martinez Jo.",
+      "Bisseck",
+      "Akanji",
+      "Bastoni",
+      "Luis Henrique",
+      "Barella",
+      "Calhanoglu",
+      "Sucic",
+      "Dimarco",
+      "Lautaro",
+      "Thuram"
+     ],
+     "ball": []
+    },
+    "Juventus": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Di Gregorio",
+      "Kalulu",
+      "Bremer",
+      "Kelly",
+      "Cambiaso",
+      "Locatelli",
+      "Mckennie",
+      "Conceicao",
+      "Alajbegovic",
+      "Yildiz",
+      "Kolo Muani"
+     ],
+     "ball": []
+    },
+    "Lazio": {
+     "mod": "4-3-3",
+     "xi": [
+      "Motta",
+      "Marusic",
+      "Doekhi",
+      "Provstgaard",
+      "Nuno Tavares",
+      "Dele-Bashiru",
+      "Rovella",
+      "Taylor",
+      "Isaksen",
+      "Noslin",
+      "Zaccagni"
+     ],
+     "ball": []
+    },
+    "Lecce": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Falcone",
+      "Veiga D.",
+      "Gaspar K.",
+      "Tiago Gabriel",
+      "Gallo",
+      "Ngom",
+      "Coulibaly",
+      "Pierotti",
+      "Gandelman",
+      "N'dri",
+      "Geubbels"
+     ],
+     "ball": []
+    },
+    "Milan": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Maignan",
+      "Gila",
+      "Gabbia",
+      "Pavlovic",
+      "Saelemaekers",
+      "Jashari",
+      "Rabiot",
+      "Bartesaghi",
+      "Pulisic",
+      "Nkunku",
+      "Ramos G."
+     ],
+     "ball": []
+    },
+    "Monza": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Thiam",
+      "Birindelli",
+      "Delli Carri",
+      "Carboni A.",
+      "Bakoune",
+      "Pessina",
+      "Colombo L.",
+      "Mangas",
+      "Colpani",
+      "Mota",
+      "Cutrone"
+     ],
+     "ball": []
+    },
+    "Napoli": {
+     "mod": "4-3-3",
+     "xi": [
+      "Meret",
+      "Di Lorenzo",
+      "Rrahmani",
+      "Buongiorno",
+      "Spinazzola",
+      "De Bruyne",
+      "Lobotka",
+      "Mctominay",
+      "Politano",
+      "Hojlund",
+      "Alisson Santos"
+     ],
+     "ball": []
+    },
+    "Parma": {
+     "mod": "3-5-2",
+     "xi": [
+      "Suzuki",
+      "Circati",
+      "Troilo",
+      "Ndiaye",
+      "Delprato",
+      "Bernabè",
+      "Keita",
+      "Nicolussi Caviglia",
+      "Valeri",
+      "Pellegrino",
+      "Ondrejka"
+     ],
+     "ball": []
+    },
+    "Roma": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Svilar",
+      "Hermoso",
+      "Mancini",
+      "N'dicka",
+      "Rensch",
+      "Cristante",
+      "Konè",
+      "Wesley",
+      "Soulè",
+      "Dybala",
+      "Malen"
+     ],
+     "ball": []
+    },
+    "Sassuolo": {
+     "mod": "4-3-3",
+     "xi": [
+      "Muric",
+      "Walukiewicz",
+      "Candè",
+      "Idzes",
+      "Doig",
+      "Thorstvedt",
+      "Matic",
+      "Adzic",
+      "Berardi",
+      "Pinamonti",
+      "Laurientè"
+     ],
+     "ball": []
+    },
+    "Torino": {
+     "mod": "3-5-2",
+     "xi": [
+      "Paleari",
+      "Comuzzo",
+      "Comert",
+      "Coco",
+      "Pedersen",
+      "Casadei",
+      "Ilkhan",
+      "Vlasic",
+      "Cacciamani",
+      "Simeone",
+      "Zapata"
+     ],
+     "ball": []
+    },
+    "Udinese": {
+     "mod": "3-5-2",
+     "xi": [
+      "Okoye",
+      "Kristensen",
+      "Kabasele",
+      "Solet",
+      "Zanoli",
+      "Ekkelenkamp",
+      "Karlstrom",
+      "Unai Gomez",
+      "Kamara",
+      "Zaniolo",
+      "Davis"
+     ],
+     "ball": []
+    },
+    "Venezia": {
+     "mod": "3-5-2",
+     "xi": [
+      "Stankovic F.",
+      "Bella-Kotchap",
+      "Schingtienne",
+      "Sverko",
+      "Correia T.",
+      "Basic",
+      "Busio",
+      "Sohm",
+      "Haps",
+      "Adams A.",
+      "Rrahmani Al."
+     ],
+     "ball": []
+    }
+   }
+  },
+  {
+   "name": "Gazzetta",
+   "teams": {
+    "Atalanta": {
+     "mod": "4-3-3",
+     "xi": [
+      "Carnesecchi",
+      "Zappacosta",
+      "Scalvini",
+      "Djimsiti",
+      "Bernasconi",
+      "Ederson",
+      "Gaetano",
+      "De Roon",
+      "De Ketelaere",
+      "Scamacca",
+      "Raspadori"
+     ],
+     "ball": []
+    },
+    "Bologna": {
+     "mod": "4-3-3",
+     "xi": [
+      "Skorupski",
+      "Zortea",
+      "Helland",
+      "Heggem",
+      "Miranda",
+      "Bernardeschi",
+      "Moro",
+      "Ferguson",
+      "Orsolini",
+      "Dovbyk",
+      "Rowe"
+     ],
+     "ball": []
+    },
+    "Cagliari": {
+     "mod": "4-3-2-1",
+     "xi": [
+      "Caprile",
+      "Zè Pedro",
+      "Mina",
+      "Rodriguez",
+      "Obert",
+      "Romano",
+      "Winks",
+      "Fazzini",
+      "Trepy",
+      "Adopo",
+      "Borrelli"
+     ],
+     "ball": []
+    },
+    "Como": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Butez",
+      "Smolcic",
+      "Ramon",
+      "Kempf",
+      "Kaiki",
+      "Da Cunha",
+      "Perrone",
+      "Diao",
+      "Nico Paz",
+      "Baturina",
+      "Douvikas"
+     ],
+     "ball": []
+    },
+    "Fiorentina": {
+     "mod": "4-3-3",
+     "xi": [
+      "De Gea",
+      "Dodò",
+      "Dragusin",
+      "Viery",
+      "Brescianini",
+      "Fagioli",
+      "Oulai",
+      "Atta",
+      "Jimenez",
+      "Kean",
+      "Gudmundsson"
+     ],
+     "ball": []
+    },
+    "Frosinone": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Palmisani",
+      "Oyono A.",
+      "Monterisi",
+      "Cittadini",
+      "Bracaglia",
+      "Calò",
+      "Koutsoupias",
+      "Ghedjemis",
+      "Hasa",
+      "Zerbin",
+      "Raimondo"
+     ],
+     "ball": []
+    },
+    "Genoa": {
+     "mod": "3-4-1-2",
+     "xi": [
+      "Bijlow",
+      "Marcandalli",
+      "Ostigard",
+      "Vasquez",
+      "Norton-Cuffy",
+      "Frendrup",
+      "Amorim",
+      "Ellertsson",
+      "Baldanzi",
+      "Vitinha",
+      "Colombo"
+     ],
+     "ball": []
+    },
+    "Inter": {
+     "mod": "3-5-2",
+     "xi": [
+      "Martinez Jo.",
+      "Akanji",
+      "Stones",
+      "Bastoni",
+      "Diouf",
+      "Barella",
+      "Calhanoglu",
+      "Zielinski",
+      "Dimarco",
+      "Lautaro",
+      "Thuram"
+     ],
+     "ball": []
+    },
+    "Juventus": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Di Gregorio",
+      "Kalulu",
+      "Bremer",
+      "Kelly",
+      "Cambiaso",
+      "Locatelli",
+      "Mckennie",
+      "Conceicao",
+      "Alajbegovic",
+      "Yildiz",
+      "Kolo Muani"
+     ],
+     "ball": []
+    },
+    "Lazio": {
+     "mod": "4-2-3-1",
+     "xi": [
+      "Mandas",
+      "Marusic",
+      "Doekhi",
+      "Provstgaard",
+      "Pedraza",
+      "Dele-Bashiru",
+      "Rovella",
+      "Taylor",
+      "Isaksen",
+      "Zaccagni",
+      "Ratkov"
+     ],
+     "ball": []
+    },
+    "Lecce": {
+     "mod": "4-3-3",
+     "xi": [
+      "Falcone",
+      "Veiga D.",
+      "Gaspar K.",
+      "Tiago Gabriel",
+      "Gallo",
+      "Pierotti",
+      "Ngom",
+      "Coulibaly",
+      "N'dri",
+      "Stulic",
+      "Geubbels"
+     ],
+     "ball": []
+    },
+    "Milan": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Maignan",
+      "Gila",
+      "Gabbia",
+      "Pavlovic",
+      "Saelemaekers",
+      "Modric",
+      "Rabiot",
+      "Bartesaghi",
+      "Nkunku",
+      "Pulisic",
+      "Ramos G."
+     ],
+     "ball": []
+    },
+    "Monza": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Thiam",
+      "Birindelli",
+      "Lucchesi",
+      "Carboni A.",
+      "Bakoune",
+      "Pessina",
+      "Akinsanmiro",
+      "Mangas",
+      "Colpani",
+      "Mota",
+      "Cutrone"
+     ],
+     "ball": []
+    },
+    "Napoli": {
+     "mod": "4-3-3",
+     "xi": [
+      "Meret",
+      "Di Lorenzo",
+      "Rrahmani",
+      "Marin R.",
+      "Gutierrez",
+      "De Bruyne",
+      "Lobotka",
+      "Mctominay",
+      "Neres",
+      "Hojlund",
+      "Alisson Santos"
+     ],
+     "ball": []
+    },
+    "Parma": {
+     "mod": "3-5-2",
+     "xi": [
+      "Suzuki",
+      "Circati",
+      "Troilo",
+      "Ndiaye",
+      "Delprato",
+      "Bernabè",
+      "Keita",
+      "Nicolussi Caviglia",
+      "Valeri",
+      "Pellegrino",
+      "Ondrejka"
+     ],
+     "ball": []
+    },
+    "Roma": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Svilar",
+      "Mancini",
+      "N'dicka",
+      "Hermoso",
+      "Rensch",
+      "Konè",
+      "Cristante",
+      "Wesley",
+      "Dybala",
+      "Soulè",
+      "Malen"
+     ],
+     "ball": []
+    },
+    "Sassuolo": {
+     "mod": "4-3-3",
+     "xi": [
+      "Muric",
+      "Walukiewicz",
+      "Candè",
+      "Idzes",
+      "Doig",
+      "Thorstvedt",
+      "Matic",
+      "Lipani",
+      "Berardi",
+      "Pinamonti",
+      "Laurientè"
+     ],
+     "ball": []
+    },
+    "Torino": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Paleari",
+      "Coco",
+      "Ismajli",
+      "Comert",
+      "Pedersen",
+      "Fitz-Jim",
+      "Gineitis",
+      "Cacciamani",
+      "Vlasic",
+      "Casadei",
+      "Simeone"
+     ],
+     "ball": []
+    },
+    "Udinese": {
+     "mod": "3-4-2-1",
+     "xi": [
+      "Okoye",
+      "Bertola",
+      "Kristensen",
+      "Solet",
+      "Zanoli",
+      "Miller L.",
+      "Karlstrom",
+      "Kamara",
+      "Zaniolo",
+      "Unai Gomez",
+      "Davis"
+     ],
+     "ball": []
+    },
+    "Venezia": {
+     "mod": "3-5-2",
+     "xi": [
+      "Stankovic F.",
+      "Schingtienne",
+      "Bella-Kotchap",
+      "Halhal",
+      "Correia T.",
+      "Perez K.",
+      "Basic",
+      "Busio",
+      "Hainaut",
+      "Yeboah",
+      "Adams A."
+     ],
+     "ball": []
+    }
+   }
+  }
+ ]
+}

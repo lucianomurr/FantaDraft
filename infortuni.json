@@ -1,0 +1,26 @@
+{
+  "aggiornato": "2026-08-06",
+  "fonte": "fantacalcio.it/infortunati-serie-a",
+  "infortunati": [
+    {"s": "Atalanta", "n": "Hien", "d": "Lesione tendine coscia sinistra", "r": "inizio ottobre"},
+    {"s": "Cagliari", "n": "Idrissi R.", "d": "Rottura legamento crociato", "r": "fine ottobre"},
+    {"s": "Como", "n": "Addai", "d": "Rottura tendine d'Achille", "r": "ottobre"},
+    {"s": "Fiorentina", "n": "Parisi", "d": "Lesione crociato ginocchio", "r": "novembre"},
+    {"s": "Juventus", "n": "Ekhator", "d": "Lesione bicipite femorale (basso grado)", "r": "da valutare (dubbio 23/8)"},
+    {"s": "Lazio", "n": "Patric", "d": "Problema fisico", "r": "out 1ª giornata"},
+    {"s": "Lazio", "n": "Pellegrini Lu.", "d": "Problema alla caviglia", "r": "rischio 1ª giornata"},
+    {"s": "Napoli", "n": "Beukema", "d": "Tendinopatia achillea bilaterale", "r": "rischio 1ª giornata"},
+    {"s": "Napoli", "n": "Buongiorno", "d": "Operazione menisco ginocchio destro", "r": "inizio ottobre"},
+    {"s": "Napoli", "n": "Neres", "d": "Operazione caviglia sinistra", "r": "non pronto per 1ª giornata"},
+    {"s": "Parma", "n": "Cremaschi", "d": "Lesione menisco esterno", "r": "ottobre"},
+    {"s": "Parma", "n": "Nicolussi Caviglia", "d": "Lesione medio grado coscia destra", "r": "inizio settembre"},
+    {"s": "Sassuolo", "n": "Candè", "d": "Rottura legamento crociato", "r": "fine settembre"},
+    {"s": "Sassuolo", "n": "Konè I.", "d": "Rottura tibia e perone", "r": "dicembre"},
+    {"s": "Sassuolo", "n": "Boloca", "d": "Problema al ginocchio", "r": "out 1ª giornata"},
+    {"s": "Sassuolo", "n": "Pieragnolo", "d": "Lesione legamento crociato", "r": "ottobre"},
+    {"s": "Udinese", "n": "Zanoli", "d": "Operazione crociato ginocchio destro", "r": "ottobre"},
+    {"s": "Udinese", "n": "Chakvetadze", "d": "Frattura metatarso piede destro", "r": "inizio settembre"},
+    {"s": "Venezia", "n": "Sverko", "d": "Operazione all'anca", "r": "fine ottobre"},
+    {"s": "Venezia", "n": "Adorante", "d": "Operazione alla schiena", "r": "da ottobre"}
+  ]
+}

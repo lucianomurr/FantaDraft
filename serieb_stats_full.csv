@@ -1,0 +1,1264 @@
+league,season,team,player,nation,pos,age,born,Playing Time_MP,Playing Time_Starts,Playing Time_Min,Playing Time_90s,Performance_Gls,Performance_Ast,Performance_G+A,Performance_G-PK,Performance_PK,Performance_PKatt,Performance_CrdY,Performance_CrdR,Per 90 Minutes_Gls,Per 90 Minutes_Ast,Per 90 Minutes_G+A,Per 90 Minutes_G-PK,Per 90 Minutes_G+A-PK
+ITA-Serie B,2425,Bari,Ahmad Benali,LBY,MF,32,1992,34,33,2805,31.2,1,2,3,1,0,0,14,0,0.03,0.06,0.1,0.03,0.1
+ITA-Serie B,2425,Bari,Alessandro Tripaldelli,ITA,DF,25,1999,8,0,161,1.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Andrea Favilli,ITA,FW,27,1997,22,7,784,8.7,5,1,6,4,1,1,6,0,0.57,0.11,0.69,0.46,0.57
+ITA-Serie B,2425,Bari,Andrea Oliveri,ITA,MF,21,2003,29,20,1745,19.4,0,2,2,0,0,0,3,0,0.0,0.1,0.1,0.0,0.1
+ITA-Serie B,2425,Bari,Andrija Novakovich,USA,FW,27,1996,28,10,1151,12.8,3,2,5,3,0,0,3,0,0.23,0.16,0.39,0.23,0.39
+ITA-Serie B,2425,Bari,Boris Radunović,SRB,GK,28,1996,37,37,3311,36.8,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Cesar Falletti,URU,"FW,MF",31,1992,27,19,1531,17.0,1,2,3,0,1,2,3,0,0.06,0.12,0.18,0.0,0.12
+ITA-Serie B,2425,Bari,Coli Saco,MLI,MF,22,2002,11,0,160,1.8,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Costantino Favasuli,ITA,"MF,DF",20,2004,29,19,1643,18.3,1,1,2,1,0,0,7,0,0.05,0.05,0.11,0.05,0.11
+ITA-Serie B,2425,Bari,Francesco Vicari,ITA,DF,29,1994,25,22,1960,21.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Gastón Pereiro,URU,"MF,FW",29,1995,9,3,276,3.1,1,0,1,1,0,0,2,0,0.33,0.0,0.33,0.33,0.33
+ITA-Serie B,2425,Bari,Giacomo Manzari,ITA,MF,23,2000,11,2,341,3.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Giacomo Ricci,ITA,"DF,MF",27,1996,2,0,77,0.9,1,0,1,1,0,0,0,0,1.17,0.0,1.17,1.17,1.17
+ITA-Serie B,2425,Bari,Giulio Maggiore,ITA,MF,26,1998,13,10,802,8.9,3,0,3,3,0,0,2,0,0.34,0.0,0.34,0.34,0.34
+ITA-Serie B,2425,Bari,Giuseppe Sibilli,ITA,"MF,FW",27,1996,19,11,878,9.8,1,3,4,0,1,1,3,0,0.1,0.31,0.41,0.0,0.31
+ITA-Serie B,2425,Bari,Gregorio Morachioli,ITA,FW,24,2000,2,0,12,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Karlo Lulić,CRO,MF,28,1996,2,0,46,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Kevin Lasagna,ITA,FW,31,1992,34,26,2148,23.9,7,0,7,7,0,1,1,0,0.29,0.0,0.29,0.29,0.29
+ITA-Serie B,2425,Bari,Lorenco Šimić,CRO,DF,28,1996,14,12,1073,11.9,2,0,2,2,0,0,1,0,0.17,0.0,0.17,0.17,0.17
+ITA-Serie B,2425,Bari,Lorenzo Sgarbi,ITA,MF,23,2001,8,1,212,2.4,0,2,2,0,0,0,0,0,0.0,0.85,0.85,0.0,0.85
+ITA-Serie B,2425,Bari,Marco Pissardo,ITA,GK,26,1998,2,1,109,1.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Bari,Mattia Maita,ITA,MF,31,1993,35,33,2701,30.0,1,2,3,1,0,0,10,0,0.03,0.07,0.1,0.03,0.1
+ITA-Serie B,2425,Bari,Mehdi Dorval,ALG,MF,23,2001,37,37,3091,34.3,4,5,9,4,0,0,4,0,0.12,0.15,0.26,0.12,0.26
+ITA-Serie B,2425,Bari,Nicholas Bonfanti,ITA,FW,22,2002,16,8,742,8.2,2,1,3,2,0,0,1,0,0.24,0.12,0.36,0.24,0.36
+ITA-Serie B,2425,Bari,Nicola Bellomo,ITA,"MF,FW",33,1991,19,5,522,5.8,1,1,2,1,0,0,3,0,0.17,0.17,0.34,0.17,0.34
+ITA-Serie B,2425,Bari,Nosa Edward Obaretin,ITA,DF,21,2003,25,20,1805,20.1,0,1,1,0,0,0,6,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Bari,Nunzio Lella,ITA,MF,24,2000,25,14,1386,15.4,2,0,2,2,0,0,2,1,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2425,Bari,Raffaele Maiello,ITA,MF,33,1991,14,7,618,6.9,1,0,1,1,0,0,3,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2425,Bari,Raffaele Pucino,ITA,DF,33,1991,30,28,2553,28.4,1,4,5,1,0,0,7,0,0.04,0.14,0.18,0.04,0.18
+ITA-Serie B,2425,Bari,Valerio Mantovani,ITA,DF,28,1996,33,33,2939,32.7,1,0,1,1,0,0,7,0,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2425,Brescia,Alexander Jallow,SWE,DF,26,1998,33,24,2205,24.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Brescia,Andrea Cistana,ITA,DF,27,1997,22,19,1706,19.0,1,1,2,1,0,0,2,2,0.05,0.05,0.11,0.05,0.11
+ITA-Serie B,2425,Brescia,Andrea Papetti,ITA,DF,22,2002,17,14,1155,12.8,0,1,1,0,0,0,2,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Brescia,Ante Jurič,CRO,FW,21,2002,30,12,1281,14.2,3,2,5,3,0,0,6,0,0.21,0.14,0.35,0.21,0.35
+ITA-Serie B,2425,Brescia,Birkir Bjarnason,ISL,MF,36,1988,27,5,712,7.9,4,1,5,4,0,0,4,0,0.51,0.13,0.63,0.51,0.63
+ITA-Serie B,2425,Brescia,Davide Adorni,ITA,DF,31,1992,36,36,3220,35.8,3,0,3,3,0,0,11,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2425,Brescia,Dimitri Bisoli,ITA,MF,30,1994,30,29,2512,27.9,1,6,7,1,0,0,8,0,0.04,0.21,0.25,0.04,0.25
+ITA-Serie B,2425,Brescia,Fabrizio Paghera,ITA,MF,32,1991,6,2,144,1.6,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Brescia,Flavio Junior Bianchi,ITA,FW,24,2000,23,5,630,7.0,4,0,4,4,0,0,2,0,0.57,0.0,0.57,0.57,0.57
+ITA-Serie B,2425,Brescia,Gabriele Calvani,ITA,DF,20,2004,20,14,1291,14.3,1,0,1,1,0,0,3,0,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2425,Brescia,Gabriele Moncini,ITA,FW,28,1996,24,13,1165,12.9,5,1,6,4,1,1,2,0,0.39,0.08,0.46,0.31,0.39
+ITA-Serie B,2425,Brescia,Gennaro Borrelli,ITA,FW,24,2000,34,28,2544,28.3,6,1,7,5,1,1,8,0,0.21,0.04,0.25,0.18,0.21
+ITA-Serie B,2425,Brescia,Giacomo Olzer,ITA,"MF,FW",23,2001,25,16,1203,13.4,1,1,2,1,0,0,4,0,0.07,0.07,0.15,0.07,0.15
+ITA-Serie B,2425,Brescia,Lorenzo Andrenacci,ITA,GK,29,1995,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Brescia,Lorenzo Dickmann,ITA,"DF,MF",27,1996,36,33,2928,32.5,0,2,2,0,0,0,10,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2425,Brescia,Luca D'Andrea,ITA,MF,19,2004,9,4,345,3.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Brescia,Luca Lezzerini,ITA,GK,29,1995,37,37,3330,37.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Brescia,Massimo Bertagnoli,ITA,MF,25,1999,28,18,1490,16.6,1,1,2,1,0,0,1,0,0.06,0.06,0.12,0.06,0.12
+ITA-Serie B,2425,Brescia,Matthias Verreth,BEL,MF,26,1998,32,31,2695,29.9,4,1,5,4,0,0,8,0,0.13,0.03,0.17,0.13,0.17
+ITA-Serie B,2425,Brescia,Michele Besaggio,ITA,MF,22,2002,35,23,1982,22.0,1,0,1,1,0,0,5,0,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,Brescia,Niccolò Corrado,ITA,"DF,MF",24,2000,36,21,1963,21.8,1,2,3,1,0,0,1,0,0.05,0.09,0.14,0.05,0.14
+ITA-Serie B,2425,Brescia,Nicolas Galazzi,ITA,MF,23,2000,23,17,1463,16.3,1,5,6,1,0,0,2,0,0.06,0.31,0.37,0.06,0.37
+ITA-Serie B,2425,Brescia,Patrick Nuamah,ITA,"MF,FW",18,2005,23,14,1259,14.0,1,0,1,1,0,0,3,0,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2425,Brescia,Riccardo Fogliata,ITA,MF,20,2004,6,2,235,2.6,1,0,1,1,0,0,0,0,0.38,0.0,0.38,0.38,0.38
+ITA-Serie B,2425,Brescia,Trent Buhagiar,MLT,"FW,MF",26,1998,1,0,12,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Brescia,Zylyf Muca,ALB,DF,19,2005,1,0,1,0.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Alessandro Capello,ITA,"MF,FW",28,1995,11,6,441,4.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Alessandro Fontanarosa,ITA,DF,21,2003,5,2,222,2.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Devid Bouah,ITA,MF,22,2001,30,12,1350,15.0,3,0,3,3,0,0,3,0,0.2,0.0,0.2,0.2,0.2
+ITA-Serie B,2425,Carrarese,Emanuele Zuelli,ITA,MF,22,2001,33,24,2061,22.9,2,3,5,2,0,0,3,0,0.09,0.13,0.22,0.09,0.22
+ITA-Serie B,2425,Carrarese,Ernesto Torregrossa,VEN,"FW,MF",32,1992,11,7,413,4.6,3,1,4,3,0,0,1,0,0.65,0.22,0.87,0.65,0.87
+ITA-Serie B,2425,Carrarese,Filippo Falco,ITA,"FW,MF",32,1992,1,0,31,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Filippo Melegoni,ITA,"MF,FW",25,1999,10,5,416,4.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Filippo Oliana,ITA,DF,25,1999,21,15,1467,16.3,1,0,1,1,0,0,6,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2425,Carrarese,Gabriele Guarino,ITA,DF,20,2004,16,14,1171,13.0,2,1,3,2,0,0,5,1,0.15,0.08,0.23,0.15,0.23
+ITA-Serie B,2425,Carrarese,Giacomo Manzari,ITA,MF,23,2000,4,0,120,1.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Giuseppe Panico,ITA,"MF,FW",27,1997,15,6,651,7.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Hjörtur Hermannsson,ISL,DF,29,1995,3,2,151,1.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Julián Illanes,ARG,DF,27,1997,30,30,2622,29.1,1,0,1,1,0,0,9,2,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2425,Carrarese,Leonardo Capezzi,ITA,MF,29,1995,21,8,906,10.1,0,1,1,0,0,0,4,0,0.0,0.1,0.1,0.0,0.1
+ITA-Serie B,2425,Carrarese,Leonardo Cerri,ITA,FW,21,2003,31,10,1090,12.1,3,1,4,3,0,0,6,0,0.25,0.08,0.33,0.25,0.33
+ITA-Serie B,2425,Carrarese,Luigi Cherubini,ITA,"MF,FW",20,2004,34,20,1854,20.6,3,5,8,3,0,0,4,0,0.15,0.24,0.39,0.15,0.39
+ITA-Serie B,2425,Carrarese,Manuel Cicconi,ITA,MF,27,1997,34,31,2728,30.3,3,8,11,3,0,0,9,0,0.1,0.26,0.36,0.1,0.36
+ITA-Serie B,2425,Carrarese,Marco Bleve,ITA,GK,28,1995,24,24,2092,23.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Marco Imperiale,ITA,DF,25,1999,36,36,3212,35.7,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Mateo Scheffer Bracco,ARG,DF,19,2004,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Mattia Finotto,ITA,FW,31,1992,37,25,2155,23.9,6,1,7,6,0,0,0,0,0.25,0.04,0.29,0.25,0.29
+ITA-Serie B,2425,Carrarese,Mauro Coppolaro,ITA,DF,27,1997,17,13,1172,13.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Niccolò Belloni,ITA,MF,30,1994,21,6,678,7.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Niccolò Chiorra,ITA,GK,23,2001,2,1,158,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Nicola Ravaglia,ITA,GK,35,1988,2,1,158,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Nicolás Schiavi,ARG,MF,29,1995,35,35,2732,30.4,6,2,8,3,3,4,8,0,0.2,0.07,0.26,0.1,0.16
+ITA-Serie B,2425,Carrarese,Riccardo Palmieri,ITA,"MF,FW",29,1995,9,3,261,2.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Samuel Giovane,ITA,MF,21,2003,31,22,1935,21.5,1,4,5,1,0,0,8,0,0.05,0.19,0.23,0.05,0.23
+ITA-Serie B,2425,Carrarese,Simone Della Latta,ITA,MF,31,1993,1,0,2,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Simone Zanon,ITA,"MF,DF",22,2001,35,30,2363,26.3,1,4,5,1,0,0,3,0,0.04,0.15,0.19,0.04,0.19
+ITA-Serie B,2425,Carrarese,Steven Shpendi,ALB,"MF,FW",21,2003,25,16,1551,17.2,4,1,5,4,0,0,4,0,0.23,0.06,0.29,0.23,0.29
+ITA-Serie B,2425,Carrarese,Tommaso Milanese,ITA,MF,22,2002,9,2,265,2.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Carrarese,Vincenzo Fiorillo,ITA,GK,34,1990,12,12,1010,11.2,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Andrea Ceresoli,ITA,"MF,DF",21,2003,7,6,430,4.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Andrea La Mantia,ITA,"FW,MF",33,1991,14,5,474,5.3,1,1,2,1,0,0,1,0,0.19,0.19,0.38,0.19,0.38
+ITA-Serie B,2425,Catanzaro,Demba Seck,SEN,MF,23,2001,18,2,400,4.4,0,1,1,0,0,0,1,0,0.0,0.23,0.23,0.0,0.23
+ITA-Serie B,2425,Catanzaro,Enrico Brignola,ITA,MF,25,1999,6,2,230,2.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Federico Bonini,ITA,DF,22,2001,36,36,3164,35.2,8,4,12,8,0,0,4,0,0.23,0.11,0.34,0.23,0.34
+ITA-Serie B,2425,Catanzaro,Filippo Pittarello,ITA,FW,27,1996,33,13,1493,16.6,2,0,2,2,0,0,6,0,0.12,0.0,0.12,0.12,0.12
+ITA-Serie B,2425,Catanzaro,Giacomo Quagliata,ITA,MF,24,2000,15,14,1222,13.6,2,4,6,2,0,0,1,1,0.15,0.29,0.44,0.15,0.44
+ITA-Serie B,2425,Catanzaro,Giovanni Volpe,ITA,FW,22,2002,2,0,44,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Ilias Koutsoupias,GRE,MF,23,2001,11,7,588,6.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Jacopo Petriccione,ITA,MF,29,1995,34,30,2534,28.2,0,3,3,0,0,0,6,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Catanzaro,Luka Krajnc,SVN,DF,29,1994,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Mamadou Coulibaly,SEN,MF,25,1999,22,3,530,5.9,1,0,1,1,0,0,3,0,0.17,0.0,0.17,0.17,0.17
+ITA-Serie B,2425,Catanzaro,Marco D'Alessandro,ITA,"MF,DF",33,1991,15,7,668,7.4,0,1,1,0,0,0,0,0,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2425,Catanzaro,Marco Pompetti,ITA,MF,24,2000,33,27,2447,27.2,4,2,6,4,0,0,6,3,0.15,0.07,0.22,0.15,0.22
+ITA-Serie B,2425,Catanzaro,Mario Šitum,CRO,"MF,DF",32,1992,24,18,1528,17.0,1,3,4,1,0,0,2,0,0.06,0.18,0.24,0.06,0.24
+ITA-Serie B,2425,Catanzaro,Matias Antonini Lui,BRA,DF,26,1998,21,15,1459,16.2,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Mattia Compagnon,ITA,MF,22,2001,22,14,1184,13.2,2,0,2,2,0,0,2,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2425,Catanzaro,Mirko Pigliacelli,ITA,GK,31,1993,38,38,3420,38.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Nicolò Brighenti,ITA,DF,34,1989,31,30,2676,29.7,1,2,3,1,0,0,10,0,0.03,0.07,0.1,0.03,0.1
+ITA-Serie B,2425,Catanzaro,Nicolò Buso,ITA,"MF,FW",24,2000,16,3,423,4.7,1,0,1,1,0,0,1,0,0.21,0.0,0.21,0.21,0.21
+ITA-Serie B,2425,Catanzaro,Pietro Iemmello,ITA,FW,32,1992,35,35,3029,33.7,16,1,17,14,2,4,5,0,0.48,0.03,0.51,0.42,0.45
+ITA-Serie B,2425,Catanzaro,Rareş Ilie,ROU,"MF,FW",21,2003,12,5,607,6.7,0,3,3,0,0,0,2,0,0.0,0.44,0.44,0.0,0.44
+ITA-Serie B,2425,Catanzaro,Riccardo Pagano,ITA,MF,19,2004,20,11,967,10.7,0,2,2,0,0,0,1,0,0.0,0.19,0.19,0.0,0.19
+ITA-Serie B,2425,Catanzaro,Riccardo Turicchia,ITA,DF,21,2003,1,0,36,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Catanzaro,Simone Pontisso,ITA,MF,27,1997,31,28,2035,22.6,3,7,10,3,0,0,6,0,0.13,0.31,0.44,0.13,0.44
+ITA-Serie B,2425,Catanzaro,Stefano Scognamillo,ITA,DF,30,1994,34,31,2708,30.1,1,2,3,1,0,0,8,0,0.03,0.07,0.1,0.03,0.1
+ITA-Serie B,2425,Catanzaro,Tommaso Biasci,ITA,FW,29,1994,31,20,1549,17.2,6,2,8,6,0,0,1,0,0.35,0.12,0.46,0.35,0.46
+ITA-Serie B,2425,Catanzaro,Tommaso Cassandro,ITA,"MF,DF",24,2000,29,18,1732,19.2,1,1,2,1,0,0,3,0,0.05,0.05,0.1,0.05,0.1
+ITA-Serie B,2425,Cesena,Andrea Ciofi,ITA,DF,25,1999,33,28,2596,28.8,0,2,2,0,0,0,8,0,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2425,Cesena,Antonino La Gumina,ITA,FW,28,1996,11,5,514,5.7,2,1,3,1,1,1,2,0,0.35,0.18,0.53,0.18,0.35
+ITA-Serie B,2425,Cesena,Augustus Kargbo,SLE,"FW,MF",24,1999,18,10,967,10.7,3,2,5,3,0,0,5,1,0.28,0.19,0.47,0.28,0.47
+ITA-Serie B,2425,Cesena,Cristian Shpendi,ALB,FW,21,2003,34,31,2488,27.6,11,1,12,6,5,6,3,0,0.4,0.04,0.43,0.22,0.25
+ITA-Serie B,2425,Cesena,Daniele Donnarumma,ITA,MF,32,1992,28,22,1864,20.7,1,3,4,1,0,0,3,1,0.05,0.14,0.19,0.05,0.19
+ITA-Serie B,2425,Cesena,Dario Šarić,BIH,MF,27,1997,15,12,869,9.7,3,0,3,3,0,0,1,0,0.31,0.0,0.31,0.31,0.31
+ITA-Serie B,2425,Cesena,Elayis Tavsan,NED,"MF,FW",23,2001,28,8,1141,12.7,4,2,6,4,0,0,3,0,0.32,0.16,0.47,0.32,0.47
+ITA-Serie B,2425,Cesena,Emanuele Adamo,ITA,MF,26,1998,33,22,2067,23.0,2,0,2,2,0,0,11,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2425,Cesena,Flavio Russo,ITA,FW,20,2004,9,1,228,2.5,0,1,1,0,0,0,1,0,0.0,0.39,0.39,0.0,0.39
+ITA-Serie B,2425,Cesena,Giacomo Calò,ITA,MF,27,1997,34,31,2522,28.0,2,4,6,2,0,0,9,1,0.07,0.14,0.21,0.07,0.21
+ITA-Serie B,2425,Cesena,Giuseppe Prestia,ITA,DF,30,1993,35,34,2892,32.1,4,2,6,4,0,0,3,0,0.12,0.06,0.19,0.12,0.19
+ITA-Serie B,2425,Cesena,Jonathan Klinsmann,USA,GK,27,1997,27,27,2430,27.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Joseph Ceesay,GAM,MF,26,1998,28,16,1405,15.6,0,4,4,0,0,0,5,1,0.0,0.26,0.26,0.0,0.26
+ITA-Serie B,2425,Cesena,Leonardo Mendicino,ITA,MF,18,2006,17,3,533,5.9,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Marco Curto,ITA,DF,25,1999,12,10,849,9.4,2,0,2,2,0,0,4,0,0.21,0.0,0.21,0.21,0.21
+ITA-Serie B,2425,Cesena,Massimiliano Mangraviti,ITA,DF,26,1998,36,36,3174,35.3,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Matteo Francesconi,ITA,MF,20,2004,29,18,1475,16.4,0,0,0,0,0,0,9,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Matteo Piacentini,ITA,DF,25,1999,8,5,489,5.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Matteo Pisseri,ITA,GK,32,1991,11,11,990,11.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Mirko Antonucci,ITA,"MF,FW",25,1999,35,19,1891,21.0,4,2,6,4,0,0,5,0,0.19,0.1,0.29,0.19,0.29
+ITA-Serie B,2425,Cesena,Raffaele Celia,ITA,MF,25,1999,27,16,1457,16.2,0,1,1,0,0,0,4,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2425,Cesena,Riccardo Chiarello,ITA,MF,30,1993,2,0,16,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Saber Hraiech,ITA,FW,29,1995,4,0,60,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Simone Bastoni,ITA,MF,27,1996,36,26,2162,24.0,4,2,6,4,0,0,6,0,0.17,0.08,0.25,0.17,0.25
+ITA-Serie B,2425,Cesena,Simone Pieraccini,ITA,DF,20,2004,8,2,211,2.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Sydney van Hooijdonk,NED,FW,24,2000,13,2,258,2.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cesena,Tommaso Berti,ITA,MF,20,2004,29,23,1922,21.4,2,2,4,2,0,0,1,0,0.09,0.09,0.19,0.09,0.19
+ITA-Serie B,2425,Cittadella,Akim Djibril,ITA,MF,18,2006,1,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Alessandro Salvi,ITA,DF,36,1988,33,25,2363,26.3,0,2,2,0,0,0,9,1,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Cittadella,Alessio Rizza,ITA,MF,21,2003,6,2,177,2.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Alessio Vita,ITA,"MF,FW",31,1993,33,30,2592,28.8,4,1,5,4,0,0,5,0,0.14,0.03,0.17,0.14,0.17
+ITA-Serie B,2425,Cittadella,Andrea Cecchetto,ITA,DF,21,2003,4,2,160,1.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Andrea Magrassi,ITA,FW,31,1993,8,2,227,2.5,0,1,1,0,0,0,1,0,0.0,0.4,0.4,0.0,0.4
+ITA-Serie B,2425,Cittadella,Andrea Tessiore,ITA,MF,24,1999,25,6,825,9.2,0,1,1,0,0,0,3,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Cittadella,Claudio Cassano,ITA,"MF,FW",21,2003,9,2,255,2.8,1,0,1,1,0,0,1,0,0.35,0.0,0.35,0.35,0.35
+ITA-Serie B,2425,Cittadella,Davide Diaw,ITA,FW,32,1992,4,0,83,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Davide Voltan,ITA,FW,29,1995,9,0,134,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Edoardo Masciangelo,ITA,"MF,DF",28,1996,35,30,2677,29.7,1,4,5,1,0,0,5,0,0.03,0.13,0.17,0.03,0.17
+ITA-Serie B,2425,Cittadella,Edoardo Sottini,ITA,DF,21,2002,2,1,74,0.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Elhan Kastrati,ALB,GK,27,1997,29,29,2565,28.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Elio Capradossi,UGA,DF,28,1996,16,13,1107,12.3,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Emmanuele Matino,ITA,DF,25,1998,6,4,380,4.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Enrico Baldini,ITA,"FW,MF",27,1996,1,0,12,0.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Federico Casolari,ITA,MF,21,2003,21,16,1260,14.0,1,0,1,1,0,0,8,0,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2425,Cittadella,Francesco Amatucci,ITA,MF,23,2001,37,31,2808,31.2,1,0,1,1,0,0,8,0,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2425,Cittadella,Francesco D'Alessio,ITA,MF,20,2004,24,18,1571,17.5,0,2,2,0,0,0,2,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Cittadella,Jacopo Desogus,ITA,"FW,MF",21,2002,23,9,841,9.3,1,0,1,1,0,0,3,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2425,Cittadella,Lorenzo Carissoni,ITA,"DF,MF",27,1997,36,35,3170,35.2,2,1,3,2,0,0,5,0,0.06,0.03,0.09,0.06,0.09
+ITA-Serie B,2425,Cittadella,Luca Maniero,ITA,GK,29,1995,10,9,855,9.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Luca Pandolfi,ITA,FW,26,1998,33,19,2032,22.6,8,0,8,7,1,1,6,0,0.35,0.0,0.35,0.31,0.31
+ITA-Serie B,2425,Cittadella,Mario Ravasio,ITA,FW,26,1998,21,6,695,7.7,1,3,4,1,0,0,3,0,0.13,0.39,0.52,0.13,0.52
+ITA-Serie B,2425,Cittadella,Matteo Angeli,ITA,DF,21,2002,16,15,1344,14.9,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Nicola Pavan,ITA,DF,31,1993,27,25,2232,24.8,0,0,0,0,0,0,7,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Orji Okwonkwo,NGA,FW,26,1998,16,13,991,11.0,3,1,4,3,0,0,1,0,0.27,0.09,0.36,0.27,0.36
+ITA-Serie B,2425,Cittadella,Riccardo Palmieri,ITA,MF,29,1995,13,10,847,9.4,1,0,1,1,0,0,5,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2425,Cittadella,Simone Branca,ITA,MF,32,1992,21,18,1479,16.4,0,0,0,0,0,0,7,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Simone Rabbi,ITA,FW,22,2001,35,20,1710,19.0,4,2,6,4,0,0,7,0,0.21,0.11,0.32,0.21,0.32
+ITA-Serie B,2425,Cittadella,Simone Tronchin,ITA,MF,21,2002,23,21,1502,16.7,2,2,4,2,0,0,5,0,0.12,0.12,0.24,0.12,0.24
+ITA-Serie B,2425,Cittadella,Stefano Negro,ITA,DF,29,1995,6,4,243,2.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cittadella,Stefano Piccinini,ITA,DF,21,2002,5,3,363,4.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Aldo Florenzi,ITA,MF,22,2002,29,28,2170,24.1,2,2,4,2,0,0,13,2,0.08,0.08,0.17,0.08,0.17
+ITA-Serie B,2425,Cosenza,Alessandro Caporale,ITA,DF,28,1995,27,26,2169,24.1,0,1,1,0,0,0,5,1,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2425,Cosenza,Alessandro Micai,ITA,GK,31,1993,37,37,3296,36.6,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Andrea Hristov,BUL,DF,25,1999,19,17,1558,17.3,1,1,2,1,0,0,2,1,0.06,0.06,0.12,0.06,0.12
+ITA-Serie B,2425,Cosenza,Andrea Rizzo Pinna,ITA,"MF,FW",24,2000,30,13,1430,15.9,2,1,3,2,0,0,0,0,0.13,0.06,0.19,0.13,0.19
+ITA-Serie B,2425,Cosenza,Baldovino Cimino,ITA,MF,20,2004,14,8,652,7.2,0,2,2,0,0,0,0,0,0.0,0.28,0.28,0.0,0.28
+ITA-Serie B,2425,Cosenza,Charlys,BRA,MF,20,2004,27,22,1807,20.1,1,1,2,1,0,0,9,0,0.05,0.05,0.1,0.05,0.1
+ITA-Serie B,2425,Cosenza,Christian Dalle Mura,ITA,DF,22,2002,23,23,1932,21.5,0,1,1,0,0,0,5,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Cosenza,Christian Kouan,CIV,MF,25,1999,33,29,2444,27.2,0,1,1,0,0,0,8,1,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2425,Cosenza,Christos Kourfalidis,GRE,MF,21,2002,24,10,1086,12.1,0,0,0,0,0,0,5,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Edoardo Contiero,ITA,MF,18,2006,1,0,3,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Filippo Sgarbi,ITA,DF,26,1997,15,14,1212,13.5,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Gabriele Artistico,ITA,FW,22,2002,17,14,1230,13.7,5,1,6,5,0,1,4,0,0.37,0.07,0.44,0.37,0.44
+ITA-Serie B,2425,Cosenza,Giacomo Ricci,ITA,MF,27,1996,22,16,1315,14.6,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Jahce Novello,AUS,FW,20,2004,2,0,41,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,José Mauri,ITA,MF,28,1996,14,1,279,3.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Juan Cruz,ARG,FW,25,1999,6,2,172,1.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Luca Garritano,ITA,"MF,FW",30,1994,5,4,341,3.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Luca Strizzolo,ITA,FW,32,1992,16,6,601,6.7,1,2,3,1,0,0,4,0,0.15,0.3,0.45,0.15,0.45
+ITA-Serie B,2425,Cosenza,Manuel Ricciardi,ITA,MF,24,2000,32,21,1972,21.9,4,1,5,4,0,0,7,1,0.18,0.05,0.23,0.18,0.23
+ITA-Serie B,2425,Cosenza,Mario Gargiulo,ITA,MF,28,1996,17,16,1426,15.8,1,1,2,1,0,0,4,0,0.06,0.06,0.13,0.06,0.13
+ITA-Serie B,2425,Cosenza,Massimo Zilli,ITA,"FW,MF",22,2002,24,8,713,7.9,3,1,4,3,0,0,2,0,0.38,0.13,0.5,0.38,0.5
+ITA-Serie B,2425,Cosenza,Michael Venturi,ITA,DF,25,1999,28,22,1962,21.8,1,1,2,1,0,0,6,1,0.05,0.05,0.09,0.05,0.09
+ITA-Serie B,2425,Cosenza,Michele Camporese,ITA,DF,32,1992,7,6,541,6.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Mohamed Sankoh,NED,FW,20,2003,9,1,254,2.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Pietro Martino,ITA,DF,26,1997,13,6,586,6.5,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Riccardo Ciervo,ITA,MF,22,2002,30,17,1516,16.8,1,2,3,0,1,1,2,0,0.06,0.12,0.18,0.0,0.12
+ITA-Serie B,2425,Cosenza,Simone Mazzocchi,ITA,"FW,MF",25,1998,32,19,1821,20.2,4,0,4,3,1,1,5,0,0.2,0.0,0.2,0.15,0.15
+ITA-Serie B,2425,Cosenza,Thomas Vettorel,ITA,GK,23,2000,2,1,124,1.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cosenza,Tommaso D'Orazio,ITA,MF,34,1990,25,15,1307,14.5,2,1,3,2,0,0,8,0,0.14,0.07,0.21,0.14,0.21
+ITA-Serie B,2425,Cosenza,Tommaso Fumagalli,ITA,"FW,MF",24,2000,24,16,1274,14.2,4,1,5,3,1,1,4,0,0.28,0.07,0.35,0.21,0.28
+ITA-Serie B,2425,Cremonese,Andrea Fulignati,ITA,GK,29,1994,38,38,3420,38.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Charles Pickel,COD,MF,27,1997,31,21,1905,21.2,2,0,2,2,0,0,7,2,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2425,Cremonese,Cristian Buonaiuto,ITA,"MF,FW",31,1992,9,4,399,4.4,1,1,2,1,0,0,0,0,0.23,0.23,0.45,0.23,0.45
+ITA-Serie B,2425,Cremonese,Dennis Johnsen,NOR,"FW,MF",26,1998,31,12,1481,16.5,6,7,13,6,0,0,5,0,0.36,0.43,0.79,0.36,0.79
+ITA-Serie B,2425,Cremonese,Federico Bonazzoli,ITA,FW,27,1997,26,18,1316,14.6,6,1,7,6,0,0,2,0,0.41,0.07,0.48,0.41,0.48
+ITA-Serie B,2425,Cremonese,Federico Ceccherini,ITA,DF,32,1992,17,16,1189,13.2,1,1,2,1,0,0,5,0,0.08,0.08,0.15,0.08,0.15
+ITA-Serie B,2425,Cremonese,Francesco Folino,ITA,DF,22,2002,7,3,388,4.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Francesco Gelli,ITA,MF,27,1996,6,1,173,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Franco Vázquez,ARG,"FW,MF",35,1989,27,23,1853,20.6,9,2,11,8,1,1,5,0,0.44,0.1,0.53,0.39,0.49
+ITA-Serie B,2425,Cremonese,Frank Tsadjout,ITA,FW,25,1999,2,2,139,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Giacomo Gabbiani,ITA,FW,18,2006,1,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Giacomo Quagliata,ITA,MF,24,2000,11,5,465,5.2,0,1,1,0,0,0,1,0,0.0,0.19,0.19,0.0,0.19
+ITA-Serie B,2425,Cremonese,Jari Vandeputte,BEL,MF,28,1996,35,26,2002,22.2,4,13,17,4,0,0,4,0,0.18,0.58,0.76,0.18,0.76
+ITA-Serie B,2425,Cremonese,Leonardo Sernicola,ITA,"MF,DF",27,1997,18,13,1153,12.8,2,1,3,2,0,0,2,0,0.16,0.08,0.23,0.16,0.23
+ITA-Serie B,2425,Cremonese,Lorenzo Moretti,ITA,DF,22,2002,5,2,298,3.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Luca Ravanelli,ITA,DF,27,1997,28,26,2273,25.3,1,1,2,1,0,0,3,0,0.04,0.04,0.08,0.04,0.08
+ITA-Serie B,2425,Cremonese,Luca Zanimacchia,ITA,"MF,DF",26,1998,31,20,1825,20.3,1,4,5,1,0,0,3,0,0.05,0.2,0.25,0.05,0.25
+ITA-Serie B,2425,Cremonese,Luka Lochoshvili,GEO,DF,26,1998,7,3,322,3.6,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Manuel De Luca,ITA,FW,26,1998,34,16,1653,18.4,8,2,10,7,1,1,3,0,0.44,0.11,0.54,0.38,0.49
+ITA-Serie B,2425,Cremonese,Marco Nasti,ITA,FW,20,2003,26,7,934,10.4,2,2,4,2,0,0,10,0,0.19,0.19,0.39,0.19,0.39
+ITA-Serie B,2425,Cremonese,Matteo Bianchetti,ITA,DF,31,1993,35,35,3073,34.1,1,1,2,1,0,0,9,1,0.03,0.03,0.06,0.03,0.06
+ITA-Serie B,2425,Cremonese,Mattia Valoti,ITA,MF,30,1993,12,3,418,4.6,3,1,4,3,0,0,1,0,0.65,0.22,0.86,0.65,0.86
+ITA-Serie B,2425,Cremonese,Michele Castagnetti,ITA,MF,34,1989,31,26,2251,25.0,1,3,4,1,0,0,6,0,0.04,0.12,0.16,0.04,0.16
+ITA-Serie B,2425,Cremonese,Michele Collocolo,ITA,MF,24,1999,30,26,2279,25.3,7,2,9,7,0,0,7,0,0.28,0.08,0.36,0.28,0.36
+ITA-Serie B,2425,Cremonese,Paulo Azzi,BRA,"MF,DF",30,1994,16,13,1189,13.2,3,3,6,3,0,0,3,0,0.23,0.23,0.45,0.23,0.45
+ITA-Serie B,2425,Cremonese,Tommaso Barbieri,ITA,"MF,DF",21,2002,31,20,1772,19.7,3,3,6,3,0,0,9,0,0.15,0.15,0.3,0.15,0.3
+ITA-Serie B,2425,Cremonese,Tommaso Milanese,ITA,MF,22,2002,4,2,161,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Cremonese,Valentin Antov,BUL,DF,23,2000,31,27,2411,26.8,1,0,1,1,0,0,8,0,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2425,Cremonese,Žan Majer,SVN,MF,32,1992,20,10,834,9.3,0,1,1,0,0,0,4,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,FC Südtirol,Alessandro Mallamo,ITA,MF,25,1999,21,7,661,7.3,2,0,2,2,0,0,3,0,0.27,0.0,0.27,0.27,0.27
+ITA-Serie B,2425,FC Südtirol,Alessandro Vimercati,ITA,DF,21,2002,1,0,15,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Andrea Cagnano,ITA,DF,26,1998,3,3,232,2.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Andrea Giorgini,ITA,DF,22,2002,30,26,2419,26.9,2,1,3,2,0,0,6,0,0.07,0.04,0.11,0.07,0.11
+ITA-Serie B,2425,FC Südtirol,Andrea Masiello,ITA,DF,38,1986,16,14,1250,13.9,0,1,1,0,0,0,4,0,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2425,FC Südtirol,Antonio Barreca,ITA,MF,29,1995,10,6,497,5.5,2,0,2,2,0,0,0,0,0.36,0.0,0.36,0.36,0.36
+ITA-Serie B,2425,FC Südtirol,Daniele Casiraghi,ITA,MF,31,1993,36,28,2257,25.1,5,3,8,2,3,3,6,1,0.2,0.12,0.32,0.08,0.2
+ITA-Serie B,2425,FC Südtirol,Edoardo Vergani,ITA,FW,23,2001,1,1,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Fabian Tait,ITA,"MF,FW",31,1993,19,9,766,8.5,1,3,4,1,0,0,1,0,0.12,0.35,0.47,0.12,0.47
+ITA-Serie B,2425,FC Südtirol,Federico Davi,ITA,DF,22,2002,5,0,47,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Freddie Veseli,ALB,DF,31,1992,16,15,1340,14.9,0,1,1,0,0,0,4,0,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2425,FC Südtirol,Gabriele Gori,ITA,FW,25,1999,9,2,277,3.1,2,0,2,0,2,2,3,0,0.65,0.0,0.65,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Giacomo Drago,ITA,GK,23,2001,5,5,450,5.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Giacomo Poluzzi,ITA,GK,36,1988,18,18,1620,18.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Hamza El Kaouakibi,MAR,"DF,MF",26,1998,20,7,801,8.9,0,0,0,0,0,0,6,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Jacopo Martini,ITA,MF,19,2004,22,6,718,8.0,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Jasmin Kurtić,SVN,MF,35,1989,12,10,874,9.7,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Karim Zedadka,FRA,MF,24,2000,18,10,875,9.7,1,1,2,1,0,0,2,0,0.1,0.1,0.21,0.1,0.21
+ITA-Serie B,2425,FC Südtirol,Luca Belardinelli,ITA,MF,23,2001,12,5,487,5.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Luca Ceppitelli,ITA,DF,34,1989,10,10,873,9.7,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Marius Adamonis,LTU,GK,27,1997,15,15,1350,15.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,FC Südtirol,Mateusz Praszelik,POL,MF,23,2000,27,19,1643,18.3,1,0,1,1,0,0,2,1,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,FC Südtirol,Matteo Rover,ITA,"MF,FW",25,1999,29,15,1401,15.6,5,1,6,5,0,0,5,0,0.32,0.06,0.39,0.32,0.39
+ITA-Serie B,2425,FC Südtirol,Nicola Pietrangeli,ITA,DF,24,2000,29,27,2465,27.4,4,0,4,4,0,0,2,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2425,FC Südtirol,Niklas Pyyhtiä,FIN,MF,20,2003,18,12,985,10.9,4,3,7,4,0,0,4,0,0.37,0.27,0.64,0.37,0.64
+ITA-Serie B,2425,FC Südtirol,Raphael Kofler,ITA,"DF,MF",19,2005,29,22,1949,21.7,1,0,1,1,0,0,5,0,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,FC Südtirol,Raphael Odogwu,NGA,FW,33,1991,37,32,2812,31.2,5,8,13,4,1,1,3,0,0.16,0.26,0.42,0.13,0.38
+ITA-Serie B,2425,FC Südtirol,Salvatore Molina,ITA,"MF,DF",32,1992,37,36,2980,33.1,4,3,7,4,0,0,6,0,0.12,0.09,0.21,0.12,0.21
+ITA-Serie B,2425,FC Südtirol,Silvio Merkaj,ALB,FW,26,1997,35,22,2061,22.9,6,3,9,6,0,0,12,0,0.26,0.13,0.39,0.26,0.39
+ITA-Serie B,2425,FC Südtirol,Simone Davì,ITA,"MF,DF",24,1999,26,17,1607,17.9,2,2,4,2,0,0,3,0,0.11,0.11,0.22,0.11,0.22
+ITA-Serie B,2425,FC Südtirol,Tommaso Arrigoni,ITA,MF,30,1994,20,18,1604,17.8,1,1,2,1,0,0,2,0,0.06,0.06,0.11,0.06,0.11
+ITA-Serie B,2425,FC Südtirol,Valerio Crespi,ITA,FW,19,2004,13,1,171,1.9,0,1,1,0,0,0,2,0,0.0,0.53,0.53,0.0,0.53
+ITA-Serie B,2425,Frosinone,Alejandro Cichero,VEN,FW,18,2006,5,2,120,1.3,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Alessandro Sorrentino,ITA,GK,22,2002,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Anthony Oyono,GAB,"MF,DF",23,2001,32,30,2428,27.0,1,1,2,1,0,0,2,1,0.04,0.04,0.07,0.04,0.07
+ITA-Serie B,2425,Frosinone,Anthony Partipilo,ITA,"FW,MF",29,1994,25,14,1223,13.6,3,1,4,2,1,2,4,0,0.22,0.07,0.29,0.15,0.22
+ITA-Serie B,2425,Frosinone,Ben Lhassine Kone,CIV,MF,24,2000,9,8,687,7.6,1,1,2,1,0,0,2,1,0.13,0.13,0.26,0.13,0.26
+ITA-Serie B,2425,Frosinone,Davide Bettella,ITA,DF,24,2000,18,12,1143,12.7,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Davide Biraschi,ITA,DF,30,1994,19,18,1444,16.0,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Ebrima Darboe,GAM,MF,23,2001,26,21,1715,19.1,2,1,3,2,0,0,6,1,0.1,0.05,0.16,0.1,0.16
+ITA-Serie B,2425,Frosinone,Emanuele Pecorino,ITA,FW,23,2001,20,5,675,7.5,1,0,1,1,0,0,1,0,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2425,Frosinone,Emil Bohinen,NOR,MF,25,1999,12,12,1012,11.2,3,1,4,2,1,1,3,0,0.27,0.09,0.36,0.18,0.27
+ITA-Serie B,2425,Frosinone,Fabio Lucioni,ITA,DF,36,1987,8,3,387,4.3,0,1,1,0,0,0,2,0,0.0,0.23,0.23,0.0,0.23
+ITA-Serie B,2425,Frosinone,Fallou Sene,SEN,FW,19,2004,4,0,107,1.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Farés Ghedjemis,ALG,"FW,MF",21,2002,21,13,1066,11.8,2,1,3,2,0,0,1,0,0.17,0.08,0.25,0.17,0.25
+ITA-Serie B,2425,Frosinone,Filippo Distefano,ITA,"FW,MF",20,2003,13,7,551,6.1,2,0,2,2,0,0,1,0,0.33,0.0,0.33,0.33,0.33
+ITA-Serie B,2425,Frosinone,Filippo Grosso,ITA,MF,17,2006,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Francesco Gelli,ITA,MF,27,1996,17,16,1456,16.2,0,1,1,0,0,0,2,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2425,Frosinone,Frank Tsadjout,ITA,FW,25,1999,15,7,681,7.6,0,1,1,0,0,0,5,0,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2425,Frosinone,Gabriele Bracaglia,ITA,"DF,MF",21,2003,26,16,1621,18.0,1,0,1,1,0,0,2,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2425,Frosinone,Gianluca Di Chiara,ITA,DF,30,1993,4,4,305,3.4,0,0,0,0,0,0,2,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Giorgi Kvernadze,GEO,"FW,MF",21,2003,33,13,1671,18.6,3,5,8,3,0,0,2,0,0.16,0.27,0.43,0.16,0.43
+ITA-Serie B,2425,Frosinone,Giorgio Cittadini,ITA,DF,22,2002,4,1,171,1.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Giuseppe Ambrosino,ITA,"FW,MF",20,2003,36,27,2209,24.5,5,3,8,5,0,1,3,0,0.2,0.12,0.33,0.2,0.33
+ITA-Serie B,2425,Frosinone,Ilario Monterisi,ITA,DF,22,2001,35,35,3087,34.3,1,0,1,1,0,0,9,0,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2425,Frosinone,Ilias Koutsoupias,GRE,MF,23,2001,6,6,426,4.7,1,0,1,1,0,0,1,0,0.21,0.0,0.21,0.21,0.21
+ITA-Serie B,2425,Frosinone,Jérémy Oyono,GAB,"MF,DF",23,2001,23,18,1587,17.6,1,0,1,1,0,0,4,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2425,Frosinone,Kevin Barcella,ITA,MF,18,2006,9,6,579,6.4,0,2,2,0,0,0,2,0,0.0,0.31,0.31,0.0,0.31
+ITA-Serie B,2425,Frosinone,Luca Garritano,ITA,"MF,FW",30,1994,14,3,406,4.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Luigi Canotto,ITA,FW,30,1994,9,4,367,4.1,1,1,2,1,0,0,1,0,0.25,0.25,0.49,0.25,0.49
+ITA-Serie B,2425,Frosinone,Marvin Cuni,ALB,FW,23,2001,3,3,212,2.4,1,0,1,1,0,0,0,0,0.42,0.0,0.42,0.42,0.42
+ITA-Serie B,2425,Frosinone,Mateus Lusuardi,BRA,DF,20,2004,12,11,924,10.3,2,0,2,2,0,0,0,0,0.19,0.0,0.19,0.19,0.19
+ITA-Serie B,2425,Frosinone,Matteo Chichella,ITA,MF,18,2005,19,11,1025,11.4,1,0,1,1,0,0,2,1,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2425,Frosinone,Michele Cerofolini,ITA,GK,25,1999,36,36,3240,36.0,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Pepín,EQG,MF,27,1996,5,0,79,0.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Przemysław Szymiński,POL,DF,30,1994,1,1,15,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Riccardo Marchizza,ITA,"DF,MF",26,1998,25,24,2069,23.0,2,3,5,1,1,1,4,0,0.09,0.13,0.22,0.04,0.17
+ITA-Serie B,2425,Frosinone,Sergio Kalaj,ALB,DF,24,2000,4,3,272,3.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Frosinone,Tjaš Begić,SVN,"MF,FW",21,2003,22,12,1069,11.9,1,0,1,1,0,0,4,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2425,Frosinone,İsak Vural,TUR,MF,18,2006,23,14,1180,13.1,0,1,1,0,0,0,2,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Juve Stabia,Alessandro Louati,ITA,MF,21,2003,5,0,24,0.3,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Andrea Adorante,ITA,FW,24,2000,33,31,2586,28.7,15,2,17,14,1,1,5,0,0.52,0.07,0.59,0.49,0.56
+ITA-Serie B,2425,Juve Stabia,Christian Pierobon,ITA,MF,22,2002,30,28,2187,24.3,0,2,2,0,0,0,8,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Juve Stabia,Cristian Andreoni,ITA,MF,32,1992,12,5,500,5.6,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Danilo Quaranta,ITA,DF,27,1997,9,3,443,4.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Davide Buglio,ITA,MF,26,1998,30,26,2238,24.9,0,1,1,0,0,0,10,0,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2425,Juve Stabia,Demba Thiam,SEN,GK,26,1998,38,38,3420,38.0,0,1,1,0,0,0,4,0,0.0,0.03,0.03,0.0,0.03
+ITA-Serie B,2425,Juve Stabia,Edgaras Dubickas,LTU,MF,26,1998,5,0,90,1.0,0,1,1,0,0,0,0,0,0.0,1.0,1.0,0.0,1.0
+ITA-Serie B,2425,Juve Stabia,Enrico Piovanello,ITA,FW,24,2000,2,0,51,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Fabio Maistro,ITA,"MF,FW",26,1998,26,14,1090,12.1,2,0,2,2,0,0,2,0,0.17,0.0,0.17,0.17,0.17
+ITA-Serie B,2425,Juve Stabia,Federico Zuccon,ITA,MF,21,2003,7,0,76,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Francesco Folino,ITA,DF,22,2002,16,15,1351,15.0,3,0,3,3,0,0,7,1,0.2,0.0,0.2,0.2,0.2
+ITA-Serie B,2425,Juve Stabia,Gabriele Artistico,ITA,FW,22,2002,16,0,292,3.2,2,0,2,2,0,0,2,0,0.62,0.0,0.62,0.62,0.62
+ITA-Serie B,2425,Juve Stabia,Giuseppe Leone,ITA,MF,23,2001,34,27,2235,24.8,1,2,3,1,0,0,4,0,0.04,0.08,0.12,0.04,0.12
+ITA-Serie B,2425,Juve Stabia,Gregorio Morachioli,ITA,FW,24,2000,3,0,27,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Kevin Piscopo,ITA,"MF,FW",26,1998,35,25,2115,23.5,3,8,11,3,0,0,3,0,0.13,0.34,0.47,0.13,0.47
+ITA-Serie B,2425,Juve Stabia,Leonardo Candellone,ITA,"FW,MF",26,1997,36,26,2418,26.9,6,2,8,5,1,1,6,1,0.22,0.07,0.3,0.19,0.26
+ITA-Serie B,2425,Juve Stabia,Lorenzo Sgarbi,ITA,"FW,MF",23,2001,8,2,189,2.1,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Marco Bellich,ITA,DF,25,1999,33,32,2607,29.0,2,0,2,2,0,0,8,0,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2425,Juve Stabia,Marco Meli,ITA,FW,24,2000,30,0,472,5.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Marco Ruggero,ITA,DF,24,2000,34,30,2617,29.1,0,3,3,0,0,0,9,0,0.0,0.1,0.1,0.0,0.1
+ITA-Serie B,2425,Juve Stabia,Marco Varnier,ITA,DF,26,1998,25,22,1894,21.0,1,0,1,1,0,0,3,1,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,Juve Stabia,Matteo Baldi,ITA,DF,22,2002,15,2,293,3.3,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Niccolò Fortini,ITA,MF,18,2006,26,23,1952,21.7,2,3,5,2,0,0,4,0,0.09,0.14,0.23,0.09,0.23
+ITA-Serie B,2425,Juve Stabia,Nicola Mosti,ITA,MF,26,1998,19,13,1172,13.0,2,4,6,2,0,0,1,0,0.15,0.31,0.46,0.15,0.46
+ITA-Serie B,2425,Juve Stabia,Patryk Peda,POL,DF,22,2002,10,9,794,8.8,0,1,1,0,0,0,0,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Juve Stabia,Romano Floriani,ITA,MF,21,2003,33,33,2718,30.2,1,2,3,1,0,0,6,0,0.03,0.07,0.1,0.03,0.1
+ITA-Serie B,2425,Juve Stabia,Tommaso Di Marco,ITA,MF,21,2003,4,0,62,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Juve Stabia,Yuri Rocchetti,ITA,MF,21,2003,29,14,1507,16.7,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Alessandro Debenedetti,ITA,"FW,MF",20,2003,29,4,832,9.2,4,0,4,4,0,0,0,0,0.43,0.0,0.43,0.43,0.43
+ITA-Serie B,2425,Mantova,Alex Redolfi,ITA,DF,30,1994,19,18,1345,14.9,2,0,2,2,0,0,4,0,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2425,Mantova,Antonio Fiori,ITA,MF,21,2003,35,23,1893,21.0,2,5,7,2,0,0,4,0,0.1,0.24,0.33,0.1,0.33
+ITA-Serie B,2425,Mantova,Cristiano Bani,ITA,DF,25,1999,26,22,1943,21.6,0,1,1,0,0,0,4,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Mantova,David Wieser,ITA,MF,22,2002,29,7,849,9.4,0,2,2,0,0,0,2,0,0.0,0.21,0.21,0.0,0.21
+ITA-Serie B,2425,Mantova,Davide Bragantini,ITA,"MF,FW",20,2003,35,17,1515,16.8,6,3,9,6,0,0,2,0,0.36,0.18,0.53,0.36,0.53
+ITA-Serie B,2425,Mantova,Davis Mensah,GHA,FW,32,1991,35,31,2370,26.3,2,7,9,2,0,0,4,0,0.08,0.27,0.34,0.08,0.34
+ITA-Serie B,2425,Mantova,Erik Panizzi,ITA,DF,30,1994,5,3,328,3.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Fabrizio Brignani,ITA,DF,26,1998,28,27,2208,24.5,3,1,4,3,0,0,8,1,0.12,0.04,0.16,0.12,0.16
+ITA-Serie B,2425,Mantova,Federico Artioli,ITA,MF,23,2001,12,10,814,9.0,0,1,1,0,0,0,2,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Mantova,Flavio Paoletti,ITA,MF,21,2003,3,1,151,1.7,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Francesco Galuppini,ITA,"MF,FW",30,1993,34,18,1689,18.8,2,3,5,2,0,0,3,0,0.11,0.16,0.27,0.11,0.27
+ITA-Serie B,2425,Mantova,Francesco Ruocco,ITA,"MF,FW",23,2001,21,7,796,8.8,2,2,4,2,0,0,0,0,0.23,0.23,0.45,0.23,0.45
+ITA-Serie B,2425,Mantova,Giacomo Fedel,ITA,MF,21,2002,9,3,394,4.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Leonardo Mancuso,ITA,"MF,FW",32,1992,38,28,2282,25.4,10,1,11,8,2,3,3,0,0.39,0.04,0.43,0.32,0.35
+ITA-Serie B,2425,Mantova,Marco Festa,ITA,GK,32,1992,38,38,3420,38.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Matteo Solini,ITA,DF,31,1993,21,11,1104,12.3,2,0,2,2,0,0,7,0,0.16,0.0,0.16,0.16,0.16
+ITA-Serie B,2425,Mantova,Mattia Aramu,ITA,MF,29,1995,25,11,1050,11.7,2,3,5,2,0,1,4,0,0.17,0.26,0.43,0.17,0.43
+ITA-Serie B,2425,Mantova,Mattia Muroni,ITA,MF,28,1996,5,5,398,4.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Nicolò Radaelli,ITA,"DF,MF",21,2003,20,18,1445,16.1,3,2,5,3,0,0,5,0,0.19,0.12,0.31,0.19,0.31
+ITA-Serie B,2425,Mantova,Salvatore Burrai,ITA,MF,37,1987,27,27,2327,25.9,1,3,4,1,0,0,12,0,0.04,0.12,0.15,0.04,0.15
+ITA-Serie B,2425,Mantova,Sebastien De Maio,FRA,DF,37,1987,14,8,919,10.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Simone Giordano,ITA,"DF,MF",22,2001,12,9,729,8.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Simone Trimboli,ITA,MF,22,2002,35,34,3057,34.0,2,1,3,2,0,0,8,1,0.06,0.03,0.09,0.06,0.09
+ITA-Serie B,2425,Mantova,Stefano Cella,ITA,DF,23,2001,22,19,1848,20.5,0,0,0,0,0,0,5,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Mantova,Tommaso Maggioni,ITA,DF,22,2001,28,19,1807,20.1,3,1,4,3,0,0,1,0,0.15,0.05,0.2,0.15,0.2
+ITA-Serie B,2425,Modena,Alessandro Dellavalle,ITA,DF,20,2004,25,22,1998,22.2,1,0,1,1,0,0,5,0,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,Modena,Alessandro Di Pardo,ITA,"MF,DF",25,1999,26,18,1435,15.9,2,2,4,2,0,0,2,1,0.13,0.13,0.25,0.13,0.25
+ITA-Serie B,2425,Modena,Antonio Palumbo,ITA,MF,27,1996,35,34,2950,32.8,9,10,19,4,5,5,11,1,0.27,0.31,0.58,0.12,0.43
+ITA-Serie B,2425,Modena,Antonio Pergreffi,ITA,DF,36,1988,6,4,396,4.4,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Cristian Cauz,ITA,DF,27,1996,24,20,1678,18.6,1,1,2,1,0,0,4,1,0.05,0.05,0.11,0.05,0.11
+ITA-Serie B,2425,Modena,Edoardo Duca,ITA,MF,27,1997,18,4,575,6.4,0,1,1,0,0,0,4,0,0.0,0.16,0.16,0.0,0.16
+ITA-Serie B,2425,Modena,Eric Botteghin,BRA,DF,36,1987,5,3,231,2.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Ettore Gliozzi,ITA,"FW,MF",28,1995,23,7,904,10.0,4,1,5,3,1,1,4,0,0.4,0.1,0.5,0.3,0.4
+ITA-Serie B,2425,Modena,Fabio Abiuso,GRE,FW,21,2003,16,7,728,8.1,2,1,3,2,0,0,1,0,0.25,0.12,0.37,0.25,0.37
+ITA-Serie B,2425,Modena,Fabio Gerli,ITA,MF,27,1996,35,33,2890,32.1,1,3,4,1,0,0,4,0,0.03,0.09,0.12,0.03,0.12
+ITA-Serie B,2425,Modena,Fabio Ponsi,ITA,MF,23,2001,5,2,167,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Gady Beyuku,FRA,"DF,MF",18,2005,13,6,601,6.7,2,0,2,2,0,0,3,0,0.3,0.0,0.3,0.3,0.3
+ITA-Serie B,2425,Modena,Giovanni Zaro,ITA,DF,30,1994,35,30,2746,30.5,1,2,3,1,0,0,9,0,0.03,0.07,0.1,0.03,0.1
+ITA-Serie B,2425,Modena,Giuseppe Caso,ITA,"MF,FW",25,1998,30,24,1829,20.3,5,3,8,5,0,0,2,0,0.25,0.15,0.39,0.25,0.39
+ITA-Serie B,2425,Modena,Grégoire Defrel,MTQ,FW,33,1991,26,13,1182,13.1,3,4,7,3,0,0,2,1,0.23,0.3,0.53,0.23,0.53
+ITA-Serie B,2425,Modena,Issiaka Kamate,FRA,MF,19,2004,10,2,279,3.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Jacopo Sassi,ITA,GK,21,2003,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Kleis Bozhanaj,ALB,MF,23,2001,27,9,934,10.4,2,2,4,2,0,0,1,0,0.19,0.19,0.39,0.19,0.39
+ITA-Serie B,2425,Modena,Luca Magnino,ITA,"MF,DF",26,1997,29,19,1826,20.3,1,0,1,1,0,0,6,0,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,Modena,Marco Oliva,ITA,MF,19,2005,1,0,6,0.1,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Matteo Cotali,ITA,"MF,DF",27,1997,30,24,1923,21.4,1,0,1,1,0,0,6,1,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,Modena,Mattia Caldara,ITA,DF,30,1994,26,22,1844,20.5,1,0,1,1,0,0,4,1,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2425,Modena,Pedro Mendes,POR,"FW,MF",24,1999,26,17,1472,16.4,5,0,5,5,0,0,0,1,0.31,0.0,0.31,0.31,0.31
+ITA-Serie B,2425,Modena,Riccardo Gagno,ITA,GK,27,1997,37,37,3330,37.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Riyad Idrissi,ITA,"DF,MF",19,2005,28,13,1288,14.3,1,0,1,1,0,0,4,0,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2425,Modena,Simone Santoro,ITA,MF,24,1999,34,33,2765,30.7,4,0,4,4,0,0,11,0,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2425,Modena,Stipe Vulikic,CRO,DF,23,2001,6,4,408,4.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Taha Zidouh,ITA,FW,17,2006,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Thomas Alberti,ITA,FW,26,1998,1,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Modena,Thomas Battistella,ITA,MF,23,2001,25,10,981,10.9,0,1,1,0,0,0,5,0,0.0,0.09,0.09,0.0,0.09
+ITA-Serie B,2425,Palermo,Alessio Buttaro,ITA,DF,21,2002,4,0,35,0.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Alexis Blin,FRA,"MF,DF",27,1996,17,17,1372,15.2,0,2,2,0,0,0,5,0,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2425,Palermo,Alfred Gomis,SEN,GK,30,1993,1,1,36,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Aljosa Vasic,SRB,MF,22,2002,24,2,559,6.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Claudio Gomes,FRA,MF,24,2000,32,27,2366,26.3,2,1,3,2,0,0,4,0,0.08,0.04,0.11,0.08,0.11
+ITA-Serie B,2425,Palermo,Dario Šarić,BIH,MF,27,1997,8,1,209,2.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Dimitris Nikolaou,GRE,DF,25,1998,29,27,2394,26.6,1,0,1,1,0,0,5,0,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2425,Palermo,Emil Audero,IDN,GK,27,1997,14,14,1260,14.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Federico Di Francesco,ITA,"MF,FW",30,1994,28,17,1444,16.0,1,6,7,1,0,0,3,0,0.06,0.37,0.44,0.06,0.44
+ITA-Serie B,2425,Palermo,Filippo Ranocchia,ITA,MF,23,2001,35,26,2330,25.9,1,8,9,1,0,0,2,0,0.04,0.31,0.35,0.04,0.35
+ITA-Serie B,2425,Palermo,Francesco Di Mariano,ITA,MF,28,1996,20,11,990,11.0,1,0,1,1,0,0,2,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2425,Palermo,Giangiacomo Magnani,ITA,DF,28,1995,13,13,1152,12.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Ionuț Nedelcearu,ROU,DF,28,1996,9,7,631,7.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Jacopo Segre,ITA,MF,27,1997,34,25,2247,25.0,3,2,5,3,0,0,5,0,0.12,0.08,0.2,0.12,0.2
+ITA-Serie B,2425,Palermo,Joel Pohjanpalo,FIN,FW,29,1994,14,14,1203,13.4,9,3,12,7,2,3,0,0,0.67,0.22,0.9,0.52,0.75
+ITA-Serie B,2425,Palermo,Jérémy Le Douaron,FRA,"FW,MF",26,1998,33,14,1423,15.8,6,1,7,6,0,0,2,0,0.38,0.06,0.44,0.38,0.44
+ITA-Serie B,2425,Palermo,Kristoffer Lund,USA,"MF,DF",22,2002,33,22,2004,22.3,1,0,1,1,0,0,4,0,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2425,Palermo,Matteo Brunori,ITA,"MF,FW",29,1994,33,21,1993,22.1,9,2,11,6,3,3,8,0,0.41,0.09,0.5,0.27,0.36
+ITA-Serie B,2425,Palermo,Niccolò Pierozzi,ITA,"MF,DF",22,2001,25,18,1569,17.4,2,0,2,2,0,0,7,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2425,Palermo,Patryk Peda,POL,DF,22,2002,1,0,32,0.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Pietro Ceccaroni,ITA,DF,28,1995,29,27,2315,25.7,2,1,3,2,0,0,6,1,0.08,0.04,0.12,0.08,0.12
+ITA-Serie B,2425,Palermo,Rayyan Baniya,,DF,25,1999,29,26,2332,25.9,2,0,2,2,0,0,3,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2425,Palermo,Roberto Insigne,ITA,"MF,FW",30,1994,25,15,1257,14.0,4,1,5,4,0,0,2,0,0.29,0.07,0.36,0.29,0.36
+ITA-Serie B,2425,Palermo,Salim Diakité,MLI,"DF,MF",24,2000,31,22,2060,22.9,1,1,2,1,0,0,8,0,0.04,0.04,0.09,0.04,0.09
+ITA-Serie B,2425,Palermo,Salvatore Sirigu,ITA,GK,37,1987,3,3,270,3.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Sebastiano Desplanches,ITA,GK,21,2003,21,20,1854,20.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Stredair Appuah,FRA,FW,20,2004,4,0,59,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Palermo,Thomas Henry,FRA,FW,29,1994,24,11,913,10.1,2,1,3,2,0,1,3,0,0.2,0.1,0.3,0.2,0.3
+ITA-Serie B,2425,Palermo,Valerio Verre,ITA,"MF,FW",30,1994,28,17,1289,14.3,2,4,6,2,0,0,5,0,0.14,0.28,0.42,0.14,0.42
+ITA-Serie B,2425,Pisa,Adrian Rus,ROU,DF,28,1996,25,14,1239,13.8,2,0,2,1,1,1,8,0,0.15,0.0,0.15,0.07,0.07
+ITA-Serie B,2425,Pisa,Adrian Šemper,CRO,GK,26,1998,36,36,3240,36.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Alessandro Arena,ITA,MF,23,2000,21,8,749,8.3,2,1,3,1,1,1,0,0,0.24,0.12,0.36,0.12,0.24
+ITA-Serie B,2425,Pisa,Alessio Castellini,ITA,DF,21,2003,3,1,152,1.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Alexander Lind,DEN,FW,22,2002,32,25,2164,24.0,8,3,11,8,0,0,3,0,0.33,0.12,0.46,0.33,0.46
+ITA-Serie B,2425,Pisa,Antonio Caracciolo,ITA,DF,34,1990,35,34,3028,33.6,2,0,2,2,0,0,7,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2425,Pisa,Arturo Calabresi,ITA,"DF,MF",28,1996,28,10,1090,12.1,0,1,1,0,0,0,4,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Pisa,Christian Sussi,ITA,MF,23,2001,1,1,65,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Emanuel Vignato,ITA,MF,23,2000,11,5,458,5.1,0,1,1,0,0,0,1,1,0.0,0.2,0.2,0.0,0.2
+ITA-Serie B,2425,Pisa,Gabriele Piccinini,ITA,MF,23,2001,38,25,2324,25.8,4,4,8,4,0,0,2,0,0.15,0.15,0.31,0.15,0.31
+ITA-Serie B,2425,Pisa,Giovanni Bonfanti,ITA,DF,21,2003,22,21,1710,19.0,0,1,1,0,0,0,4,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Pisa,Henrik Meister,DEN,"FW,MF",20,2003,15,7,540,6.0,2,0,2,2,0,0,5,0,0.33,0.0,0.33,0.33,0.33
+ITA-Serie B,2425,Pisa,Idrissa Touré,GER,MF,26,1998,33,31,2427,27.0,6,4,10,6,0,0,7,1,0.22,0.15,0.37,0.22,0.37
+ITA-Serie B,2425,Pisa,Jan Mlakar,SVN,MF,25,1998,12,1,243,2.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Leonardo Loria,ITA,GK,25,1999,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Leonardo Sernicola,ITA,MF,27,1997,13,5,585,6.5,1,0,1,1,0,0,1,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2425,Pisa,Lorenzo Tosi,ITA,FW,16,2008,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Louis Buffon,CZE,FW,16,2007,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Malthe Hojholt,DEN,MF,23,2001,30,11,1278,14.2,0,1,1,0,0,0,1,0,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2425,Pisa,Marius Marin,ROU,MF,25,1998,34,31,2641,29.3,1,2,3,1,0,1,9,1,0.03,0.07,0.1,0.03,0.1
+ITA-Serie B,2425,Pisa,Markus Solbakken,NOR,MF,24,2000,7,4,340,3.8,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Mattéo Tramoni,FRA,"MF,FW",24,2000,26,23,1945,21.6,13,3,16,12,1,1,0,0,0.6,0.14,0.74,0.56,0.69
+ITA-Serie B,2425,Pisa,Mehdi Léris,ALG,MF,26,1998,3,2,168,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Nicholas Bonfanti,ITA,FW,22,2002,14,8,706,7.8,4,0,4,3,1,1,2,0,0.51,0.0,0.51,0.38,0.38
+ITA-Serie B,2425,Pisa,Nícolas Andrade,BRA,GK,36,1988,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Olimpiu Moruțan,ROU,MF,25,1999,10,4,450,5.0,1,1,2,1,0,0,1,0,0.2,0.2,0.4,0.2,0.4
+ITA-Serie B,2425,Pisa,Oliver Abildgaard,DEN,MF,28,1996,24,7,776,8.6,0,1,1,0,0,0,4,0,0.0,0.12,0.12,0.0,0.12
+ITA-Serie B,2425,Pisa,Pietro Beruatto,ITA,"MF,DF",25,1998,16,10,764,8.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Samuele Angori,ITA,MF,20,2003,37,25,2357,26.2,2,2,4,2,0,0,4,0,0.08,0.08,0.15,0.08,0.15
+ITA-Serie B,2425,Pisa,Simone Canestrelli,ITA,DF,23,2000,36,35,3086,34.3,3,2,5,3,0,0,6,0,0.09,0.06,0.15,0.09,0.15
+ITA-Serie B,2425,Pisa,Stefano Moreo,ITA,"MF,FW",31,1993,35,31,2677,29.7,7,6,13,7,0,0,2,0,0.24,0.2,0.44,0.24,0.44
+ITA-Serie B,2425,Pisa,Tommaso Ferrari,ITA,FW,17,2006,1,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Pisa,Žan Jevšenak,SVN,MF,21,2003,2,1,73,0.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Alessandro Fontanarosa,ITA,"DF,MF",21,2003,10,9,749,8.3,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Alessandro Sersanti,ITA,MF,22,2002,37,33,2866,31.8,4,0,4,4,0,0,5,0,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2425,Reggiana,Andrea Meroni,ITA,DF,27,1997,36,35,3091,34.3,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Antonio Vergara,ITA,"FW,MF",21,2003,32,26,2241,24.9,5,5,10,5,0,0,10,0,0.2,0.2,0.4,0.2,0.4
+ITA-Serie B,2425,Reggiana,Cedric Gondo,CIV,FW,27,1996,33,23,1963,21.8,7,1,8,6,1,1,9,0,0.32,0.05,0.37,0.28,0.32
+ITA-Serie B,2425,Reggiana,Edoardo Motta,ITA,GK,19,2005,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Elvis Kabashi,ALB,MF,30,1994,16,8,678,7.5,0,2,2,0,0,0,4,0,0.0,0.27,0.27,0.0,0.27
+ITA-Serie B,2425,Reggiana,Francesco Bardi,ITA,GK,32,1992,36,36,3240,36.0,0,0,0,0,0,0,6,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Giacomo Cavallini,ITA,MF,19,2004,3,0,46,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Joaquin Sosa,URU,DF,22,2002,8,4,392,4.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Justin Kumi,ITA,MF,20,2004,8,1,149,1.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Leo Štulac,SVN,MF,29,1994,11,5,437,4.9,0,1,1,0,0,0,2,0,0.0,0.21,0.21,0.0,0.21
+ITA-Serie B,2425,Reggiana,Lorenzo Ignacchiti,ITA,MF,20,2004,32,25,2260,25.1,0,1,1,0,0,0,9,1,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2425,Reggiana,Lorenzo Libutti,ITA,DF,26,1997,30,28,2424,26.9,0,1,1,0,0,0,4,0,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2425,Reggiana,Lorenzo Lucchesi,ITA,DF,21,2003,27,26,2252,25.0,2,0,2,2,0,0,3,1,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2425,Reggiana,Luca Cigarini,ITA,MF,38,1986,9,0,128,1.4,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Luca Vido,ITA,"FW,MF",27,1997,28,9,1002,11.1,6,1,7,5,1,1,4,0,0.54,0.09,0.63,0.45,0.54
+ITA-Serie B,2425,Reggiana,Manolo Portanova,ITA,"MF,FW",24,2000,36,31,2503,27.8,8,2,10,8,0,0,4,0,0.29,0.07,0.36,0.29,0.36
+ITA-Serie B,2425,Reggiana,Manuel Marras,ITA,"MF,FW",31,1993,28,19,1715,19.1,0,1,1,0,0,0,8,1,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Reggiana,Mario Sampirisi,ITA,DF,31,1992,20,18,1552,17.2,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Matteo Maggio,ITA,MF,22,2002,20,4,604,6.7,2,1,3,2,0,0,4,0,0.3,0.15,0.45,0.3,0.45
+ITA-Serie B,2425,Reggiana,Mattia Destro,ITA,FW,33,1991,1,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Natan Girma,SUI,"FW,MF",22,2001,24,10,1014,11.3,5,2,7,5,0,0,6,0,0.44,0.18,0.62,0.44,0.62
+ITA-Serie B,2425,Reggiana,Oliver Urso,DEN,MF,25,1999,6,0,120,1.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Orji Okwonkwo,NGA,FW,26,1998,10,3,348,3.9,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Paolo Rozzio,ITA,DF,32,1992,16,14,1218,13.5,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Reggiana,Riccardo Fiamozzi,ITA,"DF,MF",31,1993,24,17,1507,16.7,0,2,2,0,0,0,3,0,0.0,0.12,0.12,0.0,0.12
+ITA-Serie B,2425,Reggiana,Stefano Pettinari,ITA,FW,32,1992,12,5,531,5.9,1,0,1,1,0,0,1,0,0.17,0.0,0.17,0.17,0.17
+ITA-Serie B,2425,Reggiana,Tobías Reinhart,ARG,MF,24,2000,31,27,2235,24.8,1,2,3,1,0,0,7,0,0.04,0.08,0.12,0.04,0.12
+ITA-Serie B,2425,Reggiana,Yannis Nahounou,FRA,DF,20,2004,5,0,82,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Ajdin Hrustic,AUS,"MF,FW",28,1996,21,7,896,10.0,1,0,1,1,0,0,6,0,0.1,0.0,0.1,0.1,0.1
+ITA-Serie B,2425,Salernitana,Alberto Cerri,ITA,FW,28,1996,18,17,1408,15.6,3,0,3,2,1,3,3,0,0.19,0.0,0.19,0.13,0.13
+ITA-Serie B,2425,Salernitana,Andres Sfait,ROU,MF,19,2004,2,0,33,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Andrés Tello,COL,MF,27,1996,18,10,826,9.2,1,0,1,1,0,0,7,1,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2425,Salernitana,Antonio Raimondo,ITA,FW,20,2004,12,6,478,5.3,1,0,1,1,0,0,0,0,0.19,0.0,0.19,0.19,0.19
+ITA-Serie B,2425,Salernitana,Daniele Verde,ITA,"FW,MF",28,1996,35,24,2077,23.1,3,3,6,1,2,2,1,0,0.13,0.13,0.26,0.04,0.17
+ITA-Serie B,2425,Salernitana,Davide Gentile,ITA,"MF,DF",20,2003,9,2,223,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Diego Valencia,CHI,"MF,FW",24,2000,4,4,248,2.8,1,0,1,1,0,0,0,0,0.36,0.0,0.36,0.36,0.36
+ITA-Serie B,2425,Salernitana,Domagoj Bradarić,CRO,DF,24,1999,2,1,81,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Dylan Bronn,TUN,DF,29,1995,24,22,1916,21.3,0,1,1,0,0,0,5,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Salernitana,Ernesto Torregrossa,VEN,FW,32,1992,11,1,335,3.7,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Fabio Ruggeri,ITA,DF,19,2004,21,17,1538,17.1,0,1,1,0,0,0,4,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2425,Salernitana,Fabrizio Caligara,ITA,MF,24,2000,7,4,308,3.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Federico Zuccon,ITA,MF,21,2003,11,8,684,7.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Flavius Daniliuc,AUT,DF,23,2001,3,3,265,2.9,1,0,1,1,0,0,1,0,0.34,0.0,0.34,0.34,0.34
+ITA-Serie B,2425,Salernitana,Francesco Corriere,ITA,GK,18,2006,1,0,47,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Franco Tongya,ITA,"MF,FW",22,2002,28,17,1513,16.8,3,0,3,3,0,0,2,0,0.18,0.0,0.18,0.18,0.18
+ITA-Serie B,2425,Salernitana,Gerardo Fusco,ITA,FW,19,2005,2,0,15,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Gian Marco Ferrari,ITA,DF,32,1992,34,34,3060,34.0,3,1,4,3,0,0,4,0,0.09,0.03,0.12,0.09,0.12
+ITA-Serie B,2425,Salernitana,Giulio Maggiore,ITA,MF,26,1998,12,8,637,7.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Jayden Braaf,NED,FW,21,2002,16,6,706,7.8,2,0,2,2,0,0,3,0,0.25,0.0,0.25,0.25,0.25
+ITA-Serie B,2425,Salernitana,Jeff Reine-Adélaïde,FRA,MF,26,1998,13,7,553,6.1,1,0,1,1,0,0,0,0,0.16,0.0,0.16,0.16,0.16
+ITA-Serie B,2425,Salernitana,Juan Guasone,ARG,DF,23,2001,1,0,2,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Lilian Njoh,CMR,"DF,MF",22,2001,26,19,1700,18.9,0,1,1,0,0,0,3,1,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Salernitana,Lorenzo Amatucci,ITA,MF,20,2004,36,36,3017,33.5,3,1,4,3,0,0,5,0,0.09,0.03,0.12,0.09,0.12
+ITA-Serie B,2425,Salernitana,Luigi Sepe,ITA,GK,33,1991,18,18,1575,17.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Luka Lochoshvili,GEO,DF,26,1998,18,18,1565,17.4,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Mamadou Coulibaly,SEN,MF,25,1999,1,1,45,0.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Nicola Dalmonte,ITA,FW,26,1997,4,1,97,1.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Oliver Christensen,DEN,GK,25,1999,16,16,1440,16.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Paolo Ghiglione,ITA,MF,27,1997,25,21,1768,19.6,2,2,4,2,0,0,3,1,0.1,0.1,0.2,0.1,0.2
+ITA-Serie B,2425,Salernitana,Paweł Jaroszyński,POL,"DF,MF",29,1994,12,7,712,7.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Petar Stojanović,SVN,"MF,DF",28,1995,28,19,1731,19.2,0,0,0,0,0,0,10,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Roberto Soriano,ITA,MF,33,1991,31,21,1923,21.4,4,0,4,4,0,0,4,0,0.19,0.0,0.19,0.19,0.19
+ITA-Serie B,2425,Salernitana,Rocco Di Vico,ITA,MF,17,2007,2,0,3,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Simeon Nwankwo,NGA,FW,32,1992,23,11,1184,13.2,5,2,7,4,1,1,0,0,0.38,0.15,0.53,0.3,0.46
+ITA-Serie B,2425,Salernitana,Stefano Girelli,ITA,MF,23,2001,4,1,91,1.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Szymon Włodarczyk,POL,FW,21,2003,13,9,621,6.9,1,1,2,1,0,0,2,0,0.14,0.14,0.29,0.14,0.29
+ITA-Serie B,2425,Salernitana,Tijs Velthuis,NED,DF,22,2002,8,6,555,6.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Tommaso Corazza,ITA,MF,20,2004,13,10,950,10.6,1,4,5,1,0,0,1,0,0.09,0.38,0.47,0.09,0.47
+ITA-Serie B,2425,Salernitana,Vincenzo Fiorillo,ITA,GK,34,1990,5,4,356,4.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Salernitana,Yayah Kallon,SLE,"MF,FW",23,2001,11,2,295,3.3,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Alessandro Bellemo,ITA,MF,28,1995,22,16,1361,15.1,1,1,2,1,0,0,6,0,0.07,0.07,0.13,0.07,0.13
+ITA-Serie B,2425,Sampdoria,Alessandro Riccio,ITA,DF,22,2002,26,24,2191,24.3,1,0,1,1,0,0,8,1,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2425,Sampdoria,Alessio Cragno,ITA,GK,30,1994,14,14,1260,14.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Alex Ferrari,ITA,DF,30,1994,9,7,674,7.5,0,1,1,0,0,0,4,1,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2425,Sampdoria,Antonino La Gumina,ITA,FW,28,1996,9,3,272,3.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Antonio Barreca,ITA,MF,29,1995,5,2,230,2.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Bartosz Bereszyński,POL,DF,32,1992,21,16,1530,17.0,0,0,0,0,0,0,7,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Davide Veroli,ITA,DF,21,2003,14,12,1096,12.2,1,1,2,1,0,0,1,0,0.08,0.08,0.16,0.08,0.16
+ITA-Serie B,2425,Sampdoria,Ebenezer Akinsanmiro,NGA,MF,19,2004,35,14,1530,17.0,1,1,2,1,0,0,4,1,0.06,0.06,0.12,0.06,0.12
+ITA-Serie B,2425,Sampdoria,Estanis,ESP,MF,20,2003,9,2,302,3.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Fabio Abiuso,GRE,FW,21,2003,9,0,104,1.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Fabio Borini,ITA,"FW,MF",33,1991,11,3,303,3.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Fabio Depaoli,ITA,MF,27,1997,33,24,2062,22.9,4,2,6,4,0,0,10,1,0.17,0.09,0.26,0.17,0.26
+ITA-Serie B,2425,Sampdoria,Gennaro Tutino,ITA,"FW,MF",27,1996,21,20,1713,19.0,5,4,9,4,1,1,4,0,0.26,0.21,0.47,0.21,0.42
+ITA-Serie B,2425,Sampdoria,Gerard Yepes,ESP,MF,21,2002,25,20,1794,19.9,0,1,1,0,0,0,5,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2425,Sampdoria,Giorgio Altare,ITA,DF,25,1998,14,13,1060,11.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Giuseppe Sibilli,ITA,"MF,FW",27,1996,13,12,960,10.7,2,2,4,2,0,0,5,0,0.19,0.19,0.37,0.19,0.37
+ITA-Serie B,2425,Sampdoria,Leonardo Benedetti,ITA,MF,24,2000,25,13,1138,12.6,0,1,1,0,0,0,5,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Sampdoria,Lorenzo Venuti,ITA,"MF,DF",29,1995,30,23,1967,21.9,2,1,3,2,0,0,6,0,0.09,0.05,0.14,0.09,0.14
+ITA-Serie B,2425,Sampdoria,M'Baye Niang,SEN,FW,29,1994,16,13,1138,12.6,3,0,3,3,0,0,6,1,0.24,0.0,0.24,0.24,0.24
+ITA-Serie B,2425,Sampdoria,Marco Curto,ITA,DF,25,1999,14,12,1121,12.5,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Marco Silvestri,ITA,GK,33,1991,7,7,630,7.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Massimo Coda,ITA,FW,35,1988,33,22,1935,21.5,8,2,10,7,1,2,1,0,0.37,0.09,0.47,0.33,0.42
+ITA-Serie B,2425,Sampdoria,Matteo Ricci,ITA,MF,30,1994,14,10,854,9.5,0,1,1,0,0,0,1,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Sampdoria,Melle Meulensteen,NED,"MF,DF",25,1999,25,23,1888,21.0,3,0,3,3,0,0,3,0,0.14,0.0,0.14,0.14,0.14
+ITA-Serie B,2425,Sampdoria,Nicholas Ioannou,CYP,"MF,DF",28,1995,24,18,1516,16.8,2,1,3,2,0,0,5,1,0.12,0.06,0.18,0.12,0.18
+ITA-Serie B,2425,Sampdoria,Nikola Sekulov,ITA,"MF,FW",22,2002,16,3,393,4.4,1,0,1,1,0,0,1,0,0.23,0.0,0.23,0.23,0.23
+ITA-Serie B,2425,Sampdoria,Pajtim Kasami,SUI,MF,32,1992,10,4,397,4.4,1,1,2,1,0,0,1,0,0.23,0.23,0.45,0.23,0.45
+ITA-Serie B,2425,Sampdoria,Paolo Vismara,ITA,GK,21,2003,10,7,753,8.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Pietro Beruatto,ITA,"MF,DF",25,1998,16,12,1092,12.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Remi Oudin,FRA,"MF,FW",27,1996,13,9,720,8.0,1,0,1,1,0,0,3,0,0.12,0.0,0.12,0.12,0.12
+ITA-Serie B,2425,Sampdoria,Ronaldo Vieira,GNB,MF,26,1998,18,10,897,10.0,0,1,1,0,0,0,6,1,0.0,0.1,0.1,0.0,0.1
+ITA-Serie B,2425,Sampdoria,Samuele Perisan,ITA,GK,26,1997,1,1,57,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Simone Ghidotti,ITA,GK,24,2000,9,9,720,8.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Simone Giordano,ITA,MF,22,2001,5,2,166,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Simone Leonardi,ITA,FW,19,2005,5,0,75,0.8,1,0,1,1,0,0,1,0,1.2,0.0,1.2,1.2,1.2
+ITA-Serie B,2425,Sampdoria,Simone Romagnoli,ITA,DF,34,1990,11,10,742,8.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sampdoria,Stipe Vulikic,CRO,DF,23,2001,11,8,703,7.8,0,0,0,0,0,0,2,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Alessandro Russo,ITA,GK,23,2001,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Andrea Ghion,ITA,MF,24,2000,23,19,1407,15.6,0,1,1,0,0,0,2,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2425,Sassuolo,Armand Lauriente,FRA,"MF,FW",25,1998,33,29,2364,26.3,18,5,23,16,2,3,8,0,0.69,0.19,0.88,0.61,0.8
+ITA-Serie B,2425,Sassuolo,Cas Odenthal,NED,DF,23,2000,22,18,1684,18.7,1,1,2,1,0,0,3,0,0.05,0.05,0.11,0.05,0.11
+ITA-Serie B,2425,Sassuolo,Cristian Volpato,AUS,"MF,FW",20,2003,18,9,706,7.8,4,6,10,4,0,0,4,1,0.51,0.76,1.27,0.51,1.27
+ITA-Serie B,2425,Sassuolo,Daniel Boloca,ROU,MF,25,1998,34,32,2691,29.9,4,3,7,4,0,0,4,0,0.13,0.1,0.23,0.13,0.23
+ITA-Serie B,2425,Sassuolo,Domenico Berardi,ITA,"MF,FW",29,1994,29,25,2254,25.0,6,13,19,5,1,1,4,0,0.24,0.52,0.76,0.2,0.72
+ITA-Serie B,2425,Sassuolo,Edoardo Iannoni,ITA,MF,23,2001,22,10,989,11.0,1,2,3,1,0,0,5,0,0.09,0.18,0.27,0.09,0.27
+ITA-Serie B,2425,Sassuolo,Edoardo Pieragnolo,ITA,DF,21,2003,20,13,1195,13.3,0,1,1,0,0,0,3,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2425,Sassuolo,Fabrizio Caligara,ITA,MF,24,2000,4,3,239,2.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Filippo Missori,ITA,DF,20,2004,4,1,157,1.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Filippo Romagna,ITA,DF,27,1997,23,21,1869,20.8,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Flavio Russo,ITA,FW,20,2004,12,5,409,4.5,2,0,2,2,0,0,1,0,0.44,0.0,0.44,0.44,0.44
+ITA-Serie B,2425,Sassuolo,Giacomo Satalino,ITA,GK,25,1999,10,10,900,10.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Horaţiu Moldovan,ROU,GK,26,1998,27,27,2430,27.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Janis Antiste,FRA,"MF,FW",21,2002,4,2,169,1.9,1,1,2,1,0,0,2,0,0.53,0.53,1.07,0.53,1.07
+ITA-Serie B,2425,Sassuolo,Jeremy Toljan,GER,DF,29,1994,34,31,2865,31.8,0,6,6,0,0,0,3,0,0.0,0.19,0.19,0.0,0.19
+ITA-Serie B,2425,Sassuolo,Josh Doig,SCO,DF,22,2002,29,25,2189,24.3,1,1,2,1,0,0,4,0,0.04,0.04,0.08,0.04,0.08
+ITA-Serie B,2425,Sassuolo,Justin Kumi,ITA,MF,20,2004,3,2,129,1.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Kevin Leone,ITA,MF,19,2005,1,0,19,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Kristian Thorstvedt,NOR,MF,25,1999,22,22,1920,21.3,7,4,11,6,1,1,5,0,0.33,0.19,0.52,0.28,0.47
+ITA-Serie B,2425,Sassuolo,Laurs Skjellerup,DEN,FW,21,2002,5,2,174,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Luca D'Andrea,ITA,MF,19,2004,1,0,4,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Luca Lipani,ITA,MF,19,2005,22,6,717,8.0,1,2,3,1,0,0,1,0,0.13,0.25,0.38,0.13,0.38
+ITA-Serie B,2425,Sassuolo,Luca Mazzitelli,ITA,MF,28,1995,7,4,277,3.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Luca Moro,ITA,FW,23,2001,25,11,1060,11.8,7,1,8,5,2,2,2,0,0.59,0.08,0.68,0.42,0.51
+ITA-Serie B,2425,Sassuolo,Matteo Lovato,ITA,DF,24,2000,20,16,1340,14.9,1,0,1,1,0,0,1,1,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2425,Sassuolo,Nedim Bajrami,ALB,"MF,FW",25,1999,2,2,116,1.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Sassuolo,Nicholas Pierini,ITA,"FW,MF",25,1998,31,10,1282,14.2,10,3,13,10,0,0,1,0,0.7,0.21,0.91,0.7,0.91
+ITA-Serie B,2425,Sassuolo,Pedro Obiang,EQG,MF,32,1992,35,13,1522,16.9,1,0,1,1,0,0,3,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2425,Sassuolo,Samuele Mulattieri,ITA,FW,23,2000,32,19,1616,18.0,9,3,12,9,0,0,3,0,0.5,0.17,0.67,0.5,0.67
+ITA-Serie B,2425,Sassuolo,Simone Verdi,ITA,MF,32,1992,9,2,262,2.9,2,0,2,1,1,1,0,0,0.69,0.0,0.69,0.34,0.34
+ITA-Serie B,2425,Sassuolo,Tarik Muharemovic,BIH,DF,21,2003,28,22,2085,23.2,1,2,3,1,0,0,3,0,0.04,0.09,0.13,0.04,0.13
+ITA-Serie B,2425,Sassuolo,Yeferson Paz,COL,DF,22,2002,13,6,434,4.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Aleš Matějů,CZE,"DF,MF",28,1996,34,32,2830,31.4,1,2,3,1,0,0,7,0,0.03,0.06,0.1,0.03,0.1
+ITA-Serie B,2425,Spezia,Antonio Čolak,CRO,FW,30,1993,24,6,690,7.7,1,2,3,1,0,0,0,0,0.13,0.26,0.39,0.13,0.39
+ITA-Serie B,2425,Spezia,Arkadiusz Reca,POL,MF,29,1995,25,21,1670,18.6,0,2,2,0,0,0,4,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2425,Spezia,Diego Falcinelli,ITA,"FW,MF",33,1991,22,5,586,6.5,1,0,1,1,0,0,1,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2425,Spezia,Duccio Degl'Innocenti,ITA,MF,21,2003,17,6,703,7.8,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Edoardo Soleri,ITA,FW,26,1997,20,9,867,9.6,3,1,4,3,0,0,3,0,0.31,0.1,0.42,0.31,0.42
+ITA-Serie B,2425,Spezia,Filippo Bandinelli,ITA,MF,29,1995,28,22,1785,19.8,1,3,4,1,0,0,7,0,0.05,0.15,0.2,0.05,0.2
+ITA-Serie B,2425,Spezia,Francesco Cassata,ITA,MF,27,1997,28,14,1309,14.5,0,1,1,0,0,0,8,1,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2425,Spezia,Francesco Esposito,ITA,FW,19,2005,35,33,2767,30.7,17,2,19,16,1,2,7,0,0.55,0.07,0.62,0.52,0.59
+ITA-Serie B,2425,Spezia,Gianluca Lapadula,PER,FW,34,1990,13,9,757,8.4,4,0,4,3,1,2,1,1,0.48,0.0,0.48,0.36,0.36
+ITA-Serie B,2425,Spezia,Giuseppe Aurelio,ITA,MF,24,2000,25,12,1134,12.6,3,0,3,3,0,0,0,0,0.24,0.0,0.24,0.24,0.24
+ITA-Serie B,2425,Spezia,Giuseppe Di Serio,ITA,FW,23,2001,30,14,1299,14.4,1,2,3,1,0,0,7,0,0.07,0.14,0.21,0.07,0.21
+ITA-Serie B,2425,Spezia,Leandro Chichizola,ARG,GK,34,1990,11,11,990,11.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Luca Vignali,ITA,"MF,DF",28,1996,29,19,1733,19.3,5,1,6,5,0,0,9,1,0.26,0.05,0.31,0.26,0.31
+ITA-Serie B,2425,Spezia,Mattia Benvenuto,ITA,DF,18,2005,1,0,27,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Mouhamadou Sarr,SEN,GK,27,1997,4,4,360,4.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Nicolò Bertola,ITA,DF,21,2003,28,23,2090,23.2,3,1,4,3,0,0,5,1,0.13,0.04,0.17,0.13,0.17
+ITA-Serie B,2425,Spezia,Petko Hristov,BUL,DF,25,1999,34,34,3060,34.0,2,1,3,2,0,0,7,0,0.06,0.03,0.09,0.06,0.09
+ITA-Serie B,2425,Spezia,Pietro Candelari,ITA,MF,19,2005,19,4,545,6.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Przemysław Wiśniewski,POL,DF,26,1998,32,30,2699,30.0,2,1,3,2,0,0,8,1,0.07,0.03,0.1,0.07,0.1
+ITA-Serie B,2425,Spezia,Rachid Kouda,ITA,"MF,FW",22,2002,17,6,637,7.1,3,3,6,3,0,0,3,0,0.42,0.42,0.85,0.42,0.85
+ITA-Serie B,2425,Spezia,Salvador Ferrer,ESP,DF,26,1998,1,0,9,0.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Salvatore Elia,ITA,MF,25,1999,31,26,2087,23.2,2,3,5,2,0,0,5,0,0.09,0.13,0.22,0.09,0.22
+ITA-Serie B,2425,Spezia,Salvatore Esposito,ITA,MF,23,2000,34,32,2865,31.8,7,9,16,4,3,4,7,0,0.22,0.28,0.5,0.13,0.41
+ITA-Serie B,2425,Spezia,Simone Giorgeschi,ITA,DF,20,2004,2,0,16,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Stefano Gori,ITA,GK,28,1996,23,23,2070,23.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2425,Spezia,Ádám Nagy,HUN,MF,29,1995,30,23,1954,21.7,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Alessandro Fontanarosa,ITA,DF,22,2003,25,23,1997,22.2,0,0,0,0,0,0,7,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Alessandro Milani,VEN,"MF,DF",20,2005,14,5,628,7.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Andrea Cagnano,ITA,"MF,DF",27,1998,8,7,558,6.2,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Andrea Favilli,ITA,FW,28,1997,6,0,139,1.5,1,1,2,1,0,1,0,0,0.65,0.65,1.29,0.65,1.29
+ITA-Serie B,2526,Avellino,Andréa Le Borgne,FRA,MF,19,2006,11,2,337,3.7,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Antony Iannarilli,ITA,GK,34,1990,13,13,1170,13.0,1,0,1,1,0,0,1,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2526,Avellino,Armando Izzo,ITA,DF,33,1992,9,9,750,8.3,1,2,3,1,0,0,5,1,0.12,0.24,0.36,0.12,0.36
+ITA-Serie B,2526,Avellino,Claudio Manzi,ITA,DF,25,2000,3,2,177,2.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Cosimo Patierno,ITA,FW,34,1991,23,11,1068,11.9,1,1,2,1,0,0,7,0,0.08,0.08,0.17,0.08,0.17
+ITA-Serie B,2526,Avellino,Dimitris Sounas,GRE,MF,30,1994,33,28,2346,26.1,1,4,5,1,0,0,8,0,0.04,0.15,0.19,0.04,0.19
+ITA-Serie B,2526,Avellino,Facundo Lescano,ARG,FW,28,1996,11,5,408,4.5,1,1,2,1,0,0,0,0,0.22,0.22,0.44,0.22,0.44
+ITA-Serie B,2526,Avellino,Filippo Missori,ITA,"MF,DF",21,2004,31,27,2401,26.7,2,2,4,2,0,0,6,0,0.07,0.07,0.15,0.07,0.15
+ITA-Serie B,2526,Avellino,Filippo Reale,ITA,DF,19,2006,2,2,174,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Gennaro Tutino,ITA,FW,28,1996,24,12,1021,11.3,1,1,2,1,0,0,1,1,0.09,0.09,0.18,0.09,0.18
+ITA-Serie B,2526,Avellino,Giovanni Daffara,ITA,GK,20,2004,25,25,2250,25.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Giuseppe Panico,ITA,FW,28,1997,2,0,23,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Justin Kumi,ITA,MF,21,2004,19,10,949,10.5,1,0,1,1,0,0,2,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2526,Avellino,Lorenco Šimić,CRO,DF,29,1996,34,33,2865,31.8,2,1,3,2,0,0,8,0,0.06,0.03,0.09,0.06,0.09
+ITA-Serie B,2526,Avellino,Lorenzo Sgarbi,ITA,"MF,FW",24,2001,3,2,139,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Luca D'Andrea,ITA,MF,20,2004,4,0,56,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Luca Palmiero,ITA,MF,29,1996,32,31,2350,26.1,0,1,1,0,0,0,9,1,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2526,Avellino,Luca Pandolfi,ITA,FW,27,1998,5,1,127,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Manu Gyabuaa,ITA,MF,23,2001,5,0,69,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Marco Armellino,ITA,MF,35,1989,6,0,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Marco Sala,ITA,"MF,DF",26,1999,13,13,1139,12.7,0,2,2,0,0,0,2,0,0.0,0.16,0.16,0.0,0.16
+ITA-Serie B,2526,Avellino,Martin Palumbo,NOR,MF,23,2002,35,25,2237,24.9,4,3,7,4,0,0,4,0,0.16,0.12,0.28,0.16,0.28
+ITA-Serie B,2526,Avellino,Michele Besaggio,ITA,MF,23,2002,36,23,2074,23.0,3,1,4,3,0,0,4,0,0.13,0.04,0.17,0.13,0.17
+ITA-Serie B,2526,Avellino,Michele Rigione,ITA,DF,34,1991,1,0,61,0.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Avellino,Patrick Enrici,ITA,DF,24,2001,28,22,2047,22.7,2,1,3,2,0,0,4,1,0.09,0.04,0.13,0.09,0.13
+ITA-Serie B,2526,Avellino,Raffaele Russo,ITA,"FW,MF",26,1999,34,9,1344,14.9,4,3,7,4,0,0,3,0,0.27,0.2,0.47,0.27,0.47
+ITA-Serie B,2526,Avellino,Roberto Insigne,ITA,"MF,FW",31,1994,21,12,978,10.9,1,2,3,0,1,1,0,1,0.09,0.18,0.28,0.0,0.18
+ITA-Serie B,2526,Avellino,Tommaso Biasci,ITA,"FW,MF",30,1994,34,30,2283,25.4,12,3,15,12,0,0,3,0,0.47,0.12,0.59,0.47,0.59
+ITA-Serie B,2526,Avellino,Tommaso Cancellotti,ITA,"DF,MF",33,1992,33,29,2500,27.8,1,1,2,1,0,0,6,0,0.04,0.04,0.07,0.04,0.07
+ITA-Serie B,2526,Avellino,Valerio Crespi,ITA,FW,20,2004,14,7,627,7.0,1,2,3,1,0,0,0,0,0.14,0.29,0.43,0.14,0.43
+ITA-Serie B,2526,Bari,Andrea Cistana,ITA,DF,28,1997,17,16,1440,16.0,0,1,1,0,0,0,3,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Bari,Andrea Meroni,ITA,DF,28,1997,12,11,964,10.7,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Anthony Partipilo,ITA,"FW,MF",30,1994,11,5,393,4.4,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Balla Manè,ITA,MF,21,2003,16,11,950,10.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Cas Odenthal,NED,DF,24,2000,16,16,1392,15.5,1,0,1,1,0,0,3,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2526,Bari,Christian Gytkjær,DEN,FW,35,1990,25,10,980,10.9,3,0,3,3,0,0,0,0,0.28,0.0,0.28,0.28,0.28
+ITA-Serie B,2526,Bari,Daouda Traoré,FRA,MF,19,2006,9,3,338,3.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Dimitris Nikolaou,GRE,DF,26,1998,23,22,1789,19.9,0,1,1,0,0,0,4,1,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Bari,Ebrima Darboe,GAM,MF,24,2001,6,3,240,2.7,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Emanuele Rao,ITA,"MF,FW",19,2006,32,18,1622,18.0,6,2,8,6,0,0,3,0,0.33,0.11,0.44,0.33,0.44
+ITA-Serie B,2526,Bari,Federico Artioli,ITA,MF,24,2001,11,8,621,6.9,1,1,2,1,0,0,3,0,0.14,0.14,0.29,0.14,0.29
+ITA-Serie B,2526,Bari,Francesco Vicari,ITA,DF,30,1994,9,9,657,7.3,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Gabriele Moncini,ITA,FW,29,1996,37,31,2564,28.5,11,2,13,9,2,3,1,0,0.39,0.07,0.46,0.32,0.39
+ITA-Serie B,2526,Bari,Gaetano Castrovilli,ITA,MF,28,1997,17,12,1050,11.7,1,0,1,1,0,0,4,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2526,Bari,Gastón Pereiro,URU,"FW,MF",30,1995,2,0,24,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Giacomo De Pieri,ITA,MF,18,2006,10,4,414,4.6,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Giacomo Stabile,ITA,DF,20,2005,3,1,143,1.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Giulio Maggiore,ITA,MF,27,1998,27,21,1700,18.9,3,1,4,3,0,0,4,0,0.16,0.05,0.21,0.16,0.21
+ITA-Serie B,2526,Bari,Giuseppe Sibilli,ITA,"MF,FW",28,1996,5,4,365,4.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Indrit Mavraj,KVX,DF,19,2006,1,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Kevin Piscopo,ITA,MF,27,1998,13,11,966,10.7,3,0,3,3,0,0,2,0,0.28,0.0,0.28,0.28,0.28
+ITA-Serie B,2526,Bari,Leonardo Cerri,ITA,FW,22,2003,10,0,151,1.7,1,0,1,1,0,0,0,0,0.6,0.0,0.6,0.6,0.6
+ITA-Serie B,2526,Bari,Lorenzo Dickmann,ITA,"MF,DF",28,1996,26,23,2083,23.1,1,3,4,1,0,0,4,0,0.04,0.13,0.17,0.04,0.17
+ITA-Serie B,2526,Bari,Marco Pissardo,ITA,GK,27,1998,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Marvin Cuni,ALB,"MF,FW",24,2001,15,2,384,4.3,1,0,1,1,0,0,2,0,0.23,0.0,0.23,0.23,0.23
+ITA-Serie B,2526,Bari,Matthias Braunöder,AUT,MF,23,2002,31,22,2056,22.8,0,2,2,0,0,0,5,0,0.0,0.09,0.09,0.0,0.09
+ITA-Serie B,2526,Bari,Matthias Verreth,BEL,MF,27,1998,26,23,1908,21.2,2,2,4,2,0,0,2,1,0.09,0.09,0.19,0.09,0.19
+ITA-Serie B,2526,Bari,Mehdi Dorval,ALG,"MF,DF",24,2001,33,29,2616,29.1,1,7,8,1,0,0,5,0,0.03,0.24,0.28,0.03,0.28
+ITA-Serie B,2526,Bari,Michele Cerofolini,ITA,GK,26,1999,37,37,3330,37.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Mirko Antonucci,ITA,"MF,FW",26,1999,14,7,577,6.4,0,1,1,0,0,0,0,0,0.0,0.16,0.16,0.0,0.16
+ITA-Serie B,2526,Bari,Nicola Bellomo,ITA,MF,34,1991,13,0,249,2.8,2,0,2,1,1,1,1,0,0.72,0.0,0.72,0.36,0.36
+ITA-Serie B,2526,Bari,Nicolò Cavuoti,ITA,MF,22,2003,7,3,284,3.2,0,1,1,0,0,0,0,0,0.0,0.32,0.32,0.0,0.32
+ITA-Serie B,2526,Bari,Raffaele Pucino,ITA,DF,34,1991,21,18,1663,18.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Riccardo Burgio,ITA,"DF,MF",24,2001,5,3,226,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Riccardo Pagano,ITA,MF,20,2004,22,11,1117,12.4,0,1,1,0,0,0,0,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2526,Bari,Sheriff Kassama,ITA,DF,20,2004,6,3,347,3.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Tomás Esteves,POR,MF,23,2002,15,8,722,8.0,0,1,1,0,0,0,1,0,0.0,0.12,0.12,0.0,0.12
+ITA-Serie B,2526,Bari,Valerio Mantovani,ITA,DF,29,1996,14,12,1083,12.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Bari,Vincenzo Colangiuli,ITA,MF,20,2005,3,0,41,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Alessandro Arena,ITA,MF,24,2000,3,1,96,1.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Bartosz Salamon,POL,DF,34,1991,1,1,56,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Dachi Lordkipanidze,GEO,MF,20,2005,3,0,12,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Devid Bouah,ITA,MF,23,2001,25,7,769,8.5,2,0,2,2,0,0,2,0,0.23,0.0,0.23,0.23,0.23
+ITA-Serie B,2526,Carrarese,Emanuele Zuelli,ITA,MF,23,2001,38,35,3098,34.4,1,5,6,1,0,0,4,0,0.03,0.15,0.17,0.03,0.17
+ITA-Serie B,2526,Carrarese,Ernesto Torregrossa,VEN,FW,33,1992,21,3,501,5.6,1,0,1,0,1,1,2,0,0.18,0.0,0.18,0.0,0.0
+ITA-Serie B,2526,Carrarese,Fabio Abiuso,GRE,FW,22,2003,36,34,2727,30.3,11,5,16,11,0,1,7,1,0.36,0.17,0.53,0.36,0.53
+ITA-Serie B,2526,Carrarese,Fabio Ruggeri,ITA,DF,20,2004,19,17,1398,15.5,1,0,1,1,0,0,5,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2526,Carrarese,Federico Accornero,ITA,MF,21,2004,2,0,40,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Filippo Distefano,ITA,FW,21,2003,20,4,638,7.1,3,1,4,3,0,0,1,0,0.42,0.14,0.56,0.42,0.56
+ITA-Serie B,2526,Carrarese,Filippo Melegoni,ITA,MF,26,1999,27,7,903,10.0,1,2,3,1,0,0,2,0,0.1,0.2,0.3,0.1,0.3
+ITA-Serie B,2526,Carrarese,Filippo Oliana,ITA,DF,26,1999,25,21,1943,21.6,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Gabriele Parlanti,ITA,MF,21,2004,19,10,755,8.4,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Jonas Rouhi,SWE,"MF,DF",21,2004,15,8,662,7.4,1,1,2,1,0,0,0,0,0.14,0.14,0.27,0.14,0.27
+ITA-Serie B,2526,Carrarese,Julián Illanes,ARG,DF,28,1997,32,31,2617,29.1,2,0,2,2,0,0,15,0,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2526,Carrarese,Kleis Bozhanaj,ALB,"MF,FW",24,2001,12,6,482,5.4,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Luis Hasa,ALB,MF,21,2004,31,27,2283,25.4,5,4,9,5,0,0,4,0,0.2,0.16,0.35,0.2,0.35
+ITA-Serie B,2526,Carrarese,Manuel Cicconi,ITA,MF,28,1997,21,16,1479,16.4,1,0,1,0,1,1,1,0,0.06,0.0,0.06,0.0,0.0
+ITA-Serie B,2526,Carrarese,Marco Bleve,ITA,GK,29,1995,37,37,3330,37.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Marco Imperiale,ITA,DF,26,1999,23,20,1888,21.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Carrarese,Mattia Finotto,ITA,"FW,MF",32,1992,37,20,1980,22.0,4,4,8,3,1,1,4,0,0.18,0.18,0.36,0.14,0.32
+ITA-Serie B,2526,Carrarese,Niccolò Belloni,ITA,MF,31,1994,27,15,1380,15.3,0,1,1,0,0,0,2,1,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2526,Carrarese,Nicolás Schiavi,ARG,MF,30,1995,28,25,2114,23.5,6,1,7,3,3,3,8,0,0.26,0.04,0.3,0.13,0.17
+ITA-Serie B,2526,Carrarese,Nicolò Calabrese,ITA,DF,20,2004,25,23,1997,22.2,1,1,2,1,0,0,5,0,0.05,0.05,0.09,0.05,0.09
+ITA-Serie B,2526,Carrarese,Nikola Sekulov,ITA,"FW,MF",23,2002,17,6,551,6.1,0,1,1,0,0,0,2,0,0.0,0.16,0.16,0.0,0.16
+ITA-Serie B,2526,Carrarese,Simone Zanon,ITA,MF,23,2001,35,31,2800,31.1,4,6,10,4,0,0,6,0,0.13,0.19,0.32,0.13,0.32
+ITA-Serie B,2526,Carrarese,Tommaso Rubino,ITA,"FW,MF",18,2006,26,12,1030,11.4,2,0,2,2,0,0,4,0,0.17,0.0,0.17,0.17,0.17
+ITA-Serie B,2526,Carrarese,Vincenzo Fiorillo,ITA,GK,35,1990,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Alphadjo Cissè,ITA,"MF,FW",18,2006,22,21,1706,19.0,6,1,7,6,0,0,3,0,0.32,0.05,0.37,0.32,0.37
+ITA-Serie B,2526,Catanzaro,Bruno Verrengia,ITA,DF,21,2003,15,7,650,7.2,2,0,2,2,0,0,0,1,0.28,0.0,0.28,0.28,0.28
+ITA-Serie B,2526,Catanzaro,Christian Marietta,ITA,GK,23,2002,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Costantino Favasuli,ITA,MF,21,2004,36,35,3050,33.9,2,3,5,2,0,0,4,0,0.06,0.09,0.15,0.06,0.15
+ITA-Serie B,2526,Catanzaro,Davide Bettella,ITA,DF,25,2000,12,8,749,8.3,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Davide Buglio,ITA,MF,27,1998,14,4,421,4.7,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Ervin Bashi,ALB,DF,20,2005,6,1,105,1.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Fabio Rispoli,ITA,MF,18,2006,31,18,1797,20.0,1,0,1,1,0,0,3,0,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2526,Catanzaro,Federico Di Francesco,ITA,MF,31,1994,14,5,614,6.8,1,2,3,1,0,0,1,0,0.15,0.29,0.44,0.15,0.44
+ITA-Serie B,2526,Catanzaro,Fellipe Jack,BRA,DF,19,2006,4,4,334,3.7,1,0,1,1,0,0,0,0,0.27,0.0,0.27,0.27,0.27
+ITA-Serie B,2526,Catanzaro,Filippo Pittarello,ITA,FW,28,1996,29,19,1850,20.6,12,6,18,10,2,2,5,0,0.58,0.29,0.88,0.49,0.78
+ITA-Serie B,2526,Catanzaro,Gabriele Alesi,ITA,MF,21,2004,20,6,723,8.0,3,0,3,3,0,0,1,1,0.37,0.0,0.37,0.37,0.37
+ITA-Serie B,2526,Catanzaro,Gianluca Di Chiara,ITA,"MF,DF",31,1993,13,6,509,5.7,0,1,1,0,0,0,1,0,0.0,0.18,0.18,0.0,0.18
+ITA-Serie B,2526,Catanzaro,Gonçalo Esteves,POR,MF,21,2004,3,1,65,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Jacopo Petriccione,ITA,MF,30,1995,27,26,2077,23.1,2,1,3,2,0,0,10,0,0.09,0.04,0.13,0.09,0.13
+ITA-Serie B,2526,Catanzaro,Luca Pandolfi,ITA,"MF,FW",27,1998,11,2,318,3.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Marco D'Alessandro,ITA,MF,34,1991,26,20,1398,15.5,2,4,6,2,0,0,1,0,0.13,0.26,0.39,0.13,0.39
+ITA-Serie B,2526,Catanzaro,Marco Pompetti,ITA,MF,25,2000,17,3,594,6.6,1,0,1,1,0,0,0,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2526,Catanzaro,Matias Antonini Lui,BRA,DF,27,1998,36,36,3047,33.9,3,0,3,3,0,0,8,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2526,Catanzaro,Mattia Liberali,ITA,"MF,FW",18,2007,24,15,1201,13.3,3,3,6,3,0,0,2,0,0.22,0.22,0.45,0.22,0.45
+ITA-Serie B,2526,Catanzaro,Mirko Pigliacelli,ITA,GK,32,1993,37,37,3330,37.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Nicolò Brighenti,ITA,DF,35,1989,27,26,2257,25.1,1,0,1,1,0,0,9,1,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2526,Catanzaro,Nicolò Buso,ITA,FW,25,2000,4,0,83,0.9,1,0,1,1,0,0,1,0,1.08,0.0,1.08,1.08,1.08
+ITA-Serie B,2526,Catanzaro,Patrick Nuamah,ITA,MF,19,2005,27,7,849,9.4,0,2,2,0,0,0,4,1,0.0,0.21,0.21,0.0,0.21
+ITA-Serie B,2526,Catanzaro,Philippe Koffi,CIV,FW,23,2002,10,1,151,1.7,1,0,1,0,1,1,0,0,0.6,0.0,0.6,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Pietro Iemmello,ITA,"FW,MF",33,1992,33,32,2728,30.3,10,9,19,10,0,1,5,0,0.33,0.3,0.63,0.33,0.63
+ITA-Serie B,2526,Catanzaro,Remi Oudin,FRA,MF,28,1996,10,7,457,5.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Catanzaro,Ruggero Frosinini,ITA,"DF,MF",24,2001,26,7,1017,11.3,1,0,1,1,0,0,4,1,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2526,Catanzaro,Simone Pontisso,ITA,MF,28,1997,35,33,2678,29.8,4,6,10,3,1,1,5,0,0.13,0.2,0.34,0.1,0.3
+ITA-Serie B,2526,Catanzaro,Tommaso Cassandro,ITA,DF,25,2000,33,30,2646,29.4,3,2,5,3,0,0,8,0,0.1,0.07,0.17,0.1,0.17
+ITA-Serie B,2526,Cesena,Alberto Cerri,ITA,FW,29,1996,16,12,1010,11.2,3,3,6,3,0,0,3,0,0.27,0.27,0.53,0.27,0.53
+ITA-Serie B,2526,Cesena,Alessandro Siano,ITA,GK,24,2001,3,3,270,3.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Andrea Ciofi,ITA,DF,26,1999,38,36,3055,33.9,0,2,2,0,0,0,3,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Cesena,Cristian Shpendi,ALB,"FW,MF",22,2003,37,36,2937,32.6,12,5,17,8,4,6,1,0,0.37,0.15,0.52,0.25,0.4
+ITA-Serie B,2526,Cesena,Dimitri Bisoli,ITA,MF,31,1994,28,20,1716,19.1,1,1,2,1,0,0,3,0,0.05,0.05,0.1,0.05,0.1
+ITA-Serie B,2526,Cesena,Emanuele Adamo,ITA,MF,27,1998,16,6,655,7.3,1,0,1,1,0,0,5,0,0.14,0.0,0.14,0.14,0.14
+ITA-Serie B,2526,Cesena,Filippo Bertaccini,ITA,MF,18,2007,1,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Gaetano Castrovilli,ITA,FW,28,1997,7,1,204,2.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Giacomo Vrioni,ALB,FW,26,1998,15,2,320,3.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Gianluca Frabotta,ITA,MF,26,1999,29,25,2070,23.0,4,1,5,4,0,0,8,0,0.17,0.04,0.22,0.17,0.22
+ITA-Serie B,2526,Cesena,Giovanni Zaro,ITA,DF,31,1994,36,36,3183,35.4,1,0,1,1,0,0,6,0,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2526,Cesena,Ibrahima Papa Wade,ITA,MF,18,2006,2,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Jalen Blesa,ESP,"FW,MF",24,2001,21,18,1574,17.5,4,1,5,4,0,0,1,0,0.23,0.06,0.29,0.23,0.29
+ITA-Serie B,2526,Cesena,Jonathan Klinsmann,USA,GK,28,1997,35,35,3150,35.0,0,1,1,0,0,0,2,0,0.0,0.03,0.03,0.0,0.03
+ITA-Serie B,2526,Cesena,Marco Olivieri,ITA,"MF,FW",26,1999,26,8,974,10.8,1,2,3,1,0,0,3,0,0.09,0.18,0.28,0.09,0.28
+ITA-Serie B,2526,Cesena,Massimiliano Mangraviti,ITA,DF,27,1998,28,28,2392,26.6,1,0,1,1,0,0,10,0,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2526,Cesena,Matteo Francesconi,ITA,MF,21,2004,29,22,1919,21.3,1,0,1,1,0,0,6,0,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2526,Cesena,Matteo Guidi,ITA,"DF,MF",22,2003,20,4,540,6.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Matteo Piacentini,ITA,DF,26,1999,16,10,980,10.9,1,0,1,1,0,0,4,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2526,Cesena,Michele Castagnetti,ITA,MF,35,1989,30,25,2133,23.7,1,3,4,1,0,0,5,0,0.04,0.13,0.17,0.04,0.17
+ITA-Serie B,2526,Cesena,Peter Amoran,SWE,DF,21,2004,7,2,268,3.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Raffaele Celia,ITA,"DF,MF",26,1999,9,0,169,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Riccardo Ciervo,ITA,MF,23,2002,37,34,2806,31.2,5,3,8,5,0,0,3,0,0.16,0.1,0.26,0.16,0.26
+ITA-Serie B,2526,Cesena,Simone Bastoni,ITA,MF,28,1996,26,11,1010,11.2,1,1,2,1,0,0,3,2,0.09,0.09,0.18,0.09,0.18
+ITA-Serie B,2526,Cesena,Siren Diao,ESP,FW,20,2005,15,3,334,3.7,0,1,1,0,0,0,0,0,0.0,0.27,0.27,0.0,0.27
+ITA-Serie B,2526,Cesena,Tommaso Arrigoni,ITA,MF,31,1994,6,0,35,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Cesena,Tommaso Berti,ITA,MF,21,2004,38,34,2920,32.4,4,7,11,4,0,0,4,0,0.12,0.22,0.34,0.12,0.34
+ITA-Serie B,2526,Cesena,Tommaso Corazza,ITA,"DF,MF",21,2004,12,6,599,6.7,2,0,2,2,0,0,1,0,0.3,0.0,0.3,0.3,0.3
+ITA-Serie B,2526,Cesena,Vittorio Magni,ITA,MF,19,2006,13,1,346,3.8,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Andrea Fulignati,ITA,GK,30,1994,38,38,3420,38.0,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Andrea Ghion,ITA,MF,25,2000,26,20,1712,19.0,0,1,1,0,0,0,1,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Empoli,Antonio Candela,ITA,"MF,DF",25,2000,16,11,1046,11.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Bohdan Popov,UKR,FW,22,2003,22,6,795,8.8,5,0,5,5,0,0,3,1,0.57,0.0,0.57,0.57,0.57
+ITA-Serie B,2526,Empoli,Brando Moruzzi,ITA,"MF,DF",21,2004,28,19,1740,19.3,0,2,2,0,0,0,3,0,0.0,0.1,0.1,0.0,0.1
+ITA-Serie B,2526,Empoli,Daniel Fila,CZE,FW,22,2002,12,4,438,4.9,2,0,2,2,0,0,0,0,0.41,0.0,0.41,0.41,0.41
+ITA-Serie B,2526,Empoli,Duccio Degl'Innocenti,ITA,MF,22,2003,24,13,1237,13.7,0,2,2,0,0,0,5,0,0.0,0.15,0.15,0.0,0.15
+ITA-Serie B,2526,Empoli,Edoardo Saporiti,ITA,"MF,FW",23,2001,19,11,789,8.8,3,2,5,2,1,1,1,0,0.34,0.23,0.57,0.23,0.46
+ITA-Serie B,2526,Empoli,Flavio Junior Bianchi,ITA,FW,25,2000,8,0,80,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Franco Carboni,ITA,"MF,DF",22,2003,17,9,853,9.5,0,1,1,0,0,0,1,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2526,Empoli,Gabriele Guarino,ITA,DF,21,2004,35,31,2897,32.2,3,2,5,3,0,0,8,1,0.09,0.06,0.16,0.09,0.16
+ITA-Serie B,2526,Empoli,Gabriele Indragoli,ITA,DF,21,2004,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Gerard Yepes,ESP,MF,22,2002,32,27,2170,24.1,1,1,2,1,0,0,9,0,0.04,0.04,0.08,0.04,0.08
+ITA-Serie B,2526,Empoli,Ismael Konate,ITA,FW,19,2006,5,0,96,1.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Ivo Kaczmarski,POL,MF,21,2004,1,0,3,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Joseph Ceesay,GAM,"MF,FW",27,1998,30,16,1591,17.7,3,0,3,3,0,0,2,0,0.17,0.0,0.17,0.17,0.17
+ITA-Serie B,2526,Empoli,Lorenzo Ignacchiti,ITA,MF,21,2004,21,11,1101,12.2,0,2,2,0,0,0,1,0,0.0,0.16,0.16,0.0,0.16
+ITA-Serie B,2526,Empoli,Lorenzo Tosto,ITA,DF,19,2006,1,1,77,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Luca Belardinelli,ITA,MF,24,2001,7,4,332,3.7,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Luca Magnino,ITA,MF,27,1997,15,15,1267,14.1,1,1,2,1,0,0,4,0,0.07,0.07,0.14,0.07,0.14
+ITA-Serie B,2526,Empoli,Marco Curto,ITA,DF,26,1999,15,12,1071,11.9,0,2,2,0,0,0,3,0,0.0,0.17,0.17,0.0,0.17
+ITA-Serie B,2526,Empoli,Marco Nasti,ITA,FW,21,2003,26,17,1395,15.5,4,0,4,4,0,0,4,0,0.26,0.0,0.26,0.26,0.26
+ITA-Serie B,2526,Empoli,Matteo Lovato,ITA,DF,25,2000,33,32,2826,31.4,3,0,3,3,0,0,5,1,0.1,0.0,0.1,0.1,0.1
+ITA-Serie B,2526,Empoli,Nicolas Haas,SUI,MF,29,1996,18,4,581,6.5,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Nosa Edward Obaretin,ITA,DF,22,2003,29,28,2349,26.1,0,1,1,0,0,0,4,1,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2526,Empoli,Pietro Pellegri,ITA,FW,24,2001,12,3,418,4.6,3,2,5,3,0,0,2,0,0.65,0.43,1.08,0.65,1.08
+ITA-Serie B,2526,Empoli,Rareş Ilie,ROU,"MF,FW",22,2003,26,14,1288,14.3,1,4,5,1,0,0,4,0,0.07,0.28,0.35,0.07,0.35
+ITA-Serie B,2526,Empoli,Salvatore Elia,ITA,MF,26,1999,33,30,2238,24.9,2,9,11,2,0,0,9,1,0.08,0.36,0.44,0.08,0.44
+ITA-Serie B,2526,Empoli,Simone Romagnoli,ITA,DF,35,1990,3,3,260,2.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Empoli,Steven Shpendi,ALB,"FW,MF",22,2003,35,32,2577,28.6,15,2,17,14,1,2,3,0,0.52,0.07,0.59,0.49,0.56
+ITA-Serie B,2526,Empoli,Tyronne Ebuehi,NGA,"MF,DF",29,1995,17,6,647,7.2,1,1,2,1,0,0,0,0,0.14,0.14,0.28,0.14,0.28
+ITA-Serie B,2526,FC Südtirol,Alessandro Mallamo,ITA,"MF,FW",26,1999,10,6,527,5.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Alessio Cragno,ITA,GK,31,1994,2,2,157,1.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Andrea Giorgini,ITA,DF,23,2002,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Andrea Masiello,ITA,DF,39,1986,16,11,927,10.3,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Daniele Casiraghi,ITA,MF,32,1993,30,25,2201,24.5,4,7,11,2,2,4,1,0,0.16,0.29,0.45,0.08,0.37
+ITA-Serie B,2526,FC Südtirol,Davide Mancini,ITA,DF,20,2005,4,1,89,1.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Dhirar Brik,TUN,MF,17,2007,4,0,20,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Domen Črnigoj,SVN,MF,29,1995,19,6,630,7.0,1,0,1,1,0,0,1,0,0.14,0.0,0.14,0.14,0.14
+ITA-Serie B,2526,FC Südtirol,Emanuele Pecorino,ITA,FW,24,2001,33,24,1924,21.4,9,0,9,9,0,0,5,0,0.42,0.0,0.42,0.42,0.42
+ITA-Serie B,2526,FC Südtirol,Fabian Tait,ITA,MF,32,1993,34,23,1857,20.6,1,0,1,1,0,0,2,1,0.05,0.0,0.05,0.05,0.05
+ITA-Serie B,2526,FC Südtirol,Federico Davi,ITA,"DF,MF",23,2002,27,11,1308,14.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Filipe Bordon,BRA,DF,20,2005,15,6,465,5.2,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Freddie Veseli,ALB,DF,32,1992,27,25,2186,24.3,0,1,1,0,0,0,4,0,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2526,FC Südtirol,Giacomo Poluzzi,ITA,GK,37,1988,3,3,270,3.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Hamza El Kaouakibi,MAR,"DF,MF",27,1998,31,26,2343,26.0,1,2,3,1,0,0,3,0,0.04,0.08,0.12,0.04,0.12
+ITA-Serie B,2526,FC Südtirol,Jacopo Martini,ITA,MF,20,2004,23,12,1075,11.9,2,1,3,2,0,0,3,0,0.17,0.08,0.25,0.17,0.25
+ITA-Serie B,2526,FC Südtirol,Jonathan Italeng,CMR,FW,23,2001,6,1,107,1.2,0,1,1,0,0,0,1,0,0.0,0.84,0.84,0.0,0.84
+ITA-Serie B,2526,FC Südtirol,Karim Zedadka,FRA,MF,25,2000,29,17,1523,16.9,1,1,2,1,0,0,6,1,0.06,0.06,0.12,0.06,0.12
+ITA-Serie B,2526,FC Südtirol,Mamadou Coulibaly,SEN,MF,26,1999,13,4,539,6.0,1,1,2,1,0,0,2,0,0.17,0.17,0.33,0.17,0.33
+ITA-Serie B,2526,FC Südtirol,Marco Frigerio,ITA,MF,24,2001,18,5,710,7.9,0,1,1,0,0,0,2,0,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2526,FC Südtirol,Marius Adamonis,LTU,GK,28,1997,34,33,2993,33.3,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Nicola Pietrangeli,ITA,DF,25,2000,15,13,1164,12.9,1,0,1,1,0,0,1,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2526,FC Südtirol,Raphael Kofler,ITA,DF,20,2005,28,28,2414,26.8,3,0,3,3,0,0,6,1,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2526,FC Südtirol,Raphael Odogwu,NGA,FW,34,1991,29,9,1188,13.2,3,2,5,3,0,0,1,0,0.23,0.15,0.38,0.23,0.38
+ITA-Serie B,2526,FC Südtirol,Riccardo Tonin,ITA,FW,24,2001,11,4,279,3.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,FC Südtirol,Salvatore Molina,ITA,"MF,DF",33,1992,34,32,2823,31.4,0,4,4,0,0,0,4,0,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2526,FC Südtirol,Silvio Merkaj,ALB,FW,27,1997,36,34,2826,31.4,9,1,10,8,1,1,7,1,0.29,0.03,0.32,0.25,0.29
+ITA-Serie B,2526,FC Südtirol,Simone Davì,ITA,"MF,DF",25,1999,29,21,1945,21.6,0,2,2,0,0,0,7,0,0.0,0.09,0.09,0.0,0.09
+ITA-Serie B,2526,FC Südtirol,Simone Tronchin,ITA,MF,22,2002,34,32,2424,26.9,1,0,1,1,0,0,7,1,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2526,FC Südtirol,Simone Verdi,ITA,FW,33,1992,11,3,305,3.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Abdoulie Ndow,GAM,MF,17,2008,2,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Adrian Raychev,BUL,FW,19,2006,1,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Anthony Oyono,GAB,DF,24,2001,34,33,2750,30.6,1,4,5,1,0,0,9,1,0.03,0.13,0.16,0.03,0.16
+ITA-Serie B,2526,Frosinone,Antonio Fiori,ITA,FW,22,2003,14,2,353,3.9,4,0,4,4,0,0,3,0,1.02,0.0,1.02,1.02,1.02
+ITA-Serie B,2526,Frosinone,Antonio Raimondo,ITA,FW,21,2004,36,30,2354,26.2,11,1,12,11,0,0,3,0,0.42,0.04,0.46,0.42,0.46
+ITA-Serie B,2526,Frosinone,Ben Lhassine Kone,CIV,MF,25,2000,19,7,671,7.5,1,2,3,0,1,1,5,1,0.13,0.27,0.4,0.0,0.27
+ITA-Serie B,2526,Frosinone,Davide Biraschi,ITA,DF,31,1994,2,0,12,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Edoardo Masciangelo,ITA,"MF,FW",29,1996,9,4,371,4.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Edoardo Vergani,ITA,FW,24,2001,15,1,272,3.0,1,0,1,1,0,0,1,0,0.33,0.0,0.33,0.33,0.33
+ITA-Serie B,2526,Frosinone,Farés Ghedjemis,ALG,"FW,MF",22,2002,37,36,3009,33.4,15,3,18,15,0,0,4,0,0.45,0.09,0.54,0.45,0.54
+ITA-Serie B,2526,Frosinone,Filippo Grosso,ITA,"MF,FW",18,2006,7,2,253,2.8,1,0,1,1,0,0,0,0,0.36,0.0,0.36,0.36,0.36
+ITA-Serie B,2526,Frosinone,Francesco Gelli,ITA,MF,28,1996,25,12,1094,12.2,1,1,2,1,0,0,4,0,0.08,0.08,0.16,0.08,0.16
+ITA-Serie B,2526,Frosinone,Gabriele Bracaglia,ITA,DF,22,2003,32,29,2430,27.0,5,1,6,5,0,0,12,0,0.19,0.04,0.22,0.19,0.22
+ITA-Serie B,2526,Frosinone,Gabriele Calvani,ITA,DF,21,2004,35,31,2790,31.0,1,1,2,1,0,0,4,1,0.03,0.03,0.06,0.03,0.06
+ITA-Serie B,2526,Frosinone,Giacomo Calò,ITA,MF,28,1997,37,37,3173,35.3,10,15,25,5,5,5,7,0,0.28,0.43,0.71,0.14,0.57
+ITA-Serie B,2526,Frosinone,Giorgi Kvernadze,GEO,"FW,MF",22,2003,36,32,2495,27.7,5,5,10,5,0,0,4,1,0.18,0.18,0.36,0.18,0.36
+ITA-Serie B,2526,Frosinone,Giorgio Cittadini,ITA,DF,23,2002,25,14,1210,13.4,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Ilario Monterisi,ITA,DF,23,2001,25,24,2037,22.6,2,5,7,2,0,0,7,0,0.09,0.22,0.31,0.09,0.31
+ITA-Serie B,2526,Frosinone,Ilias Koutsoupias,GRE,MF,24,2001,34,30,2569,28.5,8,4,12,8,0,0,6,0,0.28,0.14,0.42,0.28,0.42
+ITA-Serie B,2526,Frosinone,Jacopo Gelli,ITA,DF,24,2001,17,8,878,9.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Jérémy Oyono,GAB,DF,24,2001,13,2,495,5.5,0,1,1,0,0,0,2,0,0.0,0.18,0.18,0.0,0.18
+ITA-Serie B,2526,Frosinone,Kevin Barcella,ITA,MF,19,2006,4,2,122,1.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Lorenzo Palmisani,ITA,GK,21,2004,38,38,3410,37.9,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Massimo Zilli,ITA,FW,23,2002,34,7,982,10.9,2,4,6,2,0,0,3,0,0.18,0.37,0.55,0.18,0.55
+ITA-Serie B,2526,Frosinone,Matteo Chichella,ITA,MF,19,2005,36,23,2248,25.0,2,4,6,2,0,0,4,0,0.08,0.16,0.24,0.08,0.24
+ITA-Serie B,2526,Frosinone,Matteo Pisseri,ITA,GK,33,1991,1,0,10,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Frosinone,Niccolò Corrado,ITA,"DF,MF",25,2000,16,5,568,6.3,3,0,3,3,0,0,0,0,0.48,0.0,0.48,0.48,0.48
+ITA-Serie B,2526,Frosinone,Riccardo Marchizza,ITA,DF,27,1998,14,7,670,7.4,1,1,2,1,0,0,0,0,0.13,0.13,0.27,0.13,0.27
+ITA-Serie B,2526,Frosinone,Seydou Fini,ITA,FW,19,2006,8,2,279,3.1,1,1,2,1,0,0,0,0,0.32,0.32,0.65,0.32,0.65
+ITA-Serie B,2526,Juve Stabia,Aaron Ciammaglichella,ITA,MF,20,2005,2,1,70,0.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Alessandro Confente,ITA,GK,27,1998,33,33,2920,32.4,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Alessandro Gabrielloni,ITA,FW,31,1994,26,18,1544,17.2,3,3,6,1,2,3,5,0,0.17,0.17,0.35,0.06,0.23
+ITA-Serie B,2526,Juve Stabia,Alessio Cacciamani,ITA,MF,18,2007,33,28,2318,25.8,2,0,2,2,0,0,8,1,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2526,Juve Stabia,Alvin Okoro,ITA,FW,20,2005,15,7,678,7.5,1,1,2,1,0,0,0,0,0.13,0.13,0.27,0.13,0.27
+ITA-Serie B,2526,Juve Stabia,Andrea Giorgini,ITA,DF,23,2002,35,34,3071,34.1,1,0,1,1,0,0,6,0,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2526,Juve Stabia,Christian Dalle Mura,ITA,DF,23,2002,15,11,1052,11.7,0,1,1,0,0,0,1,0,0.0,0.09,0.09,0.0,0.09
+ITA-Serie B,2526,Juve Stabia,Christian Pierobon,ITA,MF,23,2002,29,12,1270,14.1,1,0,1,1,0,0,5,1,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2526,Juve Stabia,Edoardo Duca,ITA,MF,28,1997,3,0,43,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Emanuele Torrasi,ITA,"MF,FW",26,1999,6,4,306,3.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Fabio Maistro,ITA,"FW,MF",27,1998,26,16,1250,13.9,2,7,9,2,0,0,1,1,0.14,0.5,0.65,0.14,0.65
+ITA-Serie B,2526,Juve Stabia,Federico Zuccon,ITA,MF,22,2003,5,0,67,0.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Filippo Reale,ITA,MF,19,2006,3,2,135,1.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Giacomo De Pieri,ITA,MF,18,2006,6,1,170,1.9,1,0,1,1,0,0,2,0,0.53,0.0,0.53,0.53,0.53
+ITA-Serie B,2526,Juve Stabia,Giacomo Stabile,ITA,DF,20,2005,13,7,639,7.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Giuseppe Leone,ITA,MF,24,2001,34,30,2611,29.0,3,1,4,1,2,2,6,0,0.1,0.03,0.14,0.03,0.07
+ITA-Serie B,2526,Juve Stabia,Kevin Piscopo,ITA,"MF,FW",27,1998,16,9,754,8.4,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Kevin Zeroli,ITA,"MF,FW",20,2005,8,5,497,5.5,1,0,1,1,0,0,1,0,0.18,0.0,0.18,0.18,0.18
+ITA-Serie B,2526,Juve Stabia,Leonardo Candellone,ITA,FW,27,1997,21,18,1533,17.0,7,1,8,5,2,2,3,0,0.41,0.06,0.47,0.29,0.35
+ITA-Serie B,2526,Juve Stabia,Lorenzo Carissoni,ITA,MF,28,1997,36,33,2868,31.9,6,2,8,6,0,0,2,0,0.19,0.06,0.25,0.19,0.25
+ITA-Serie B,2526,Juve Stabia,Manuel Ricciardi,ITA,"MF,DF",25,2000,15,5,539,6.0,0,1,1,0,0,0,2,0,0.0,0.17,0.17,0.0,0.17
+ITA-Serie B,2526,Juve Stabia,Marco Bellich,ITA,DF,26,1999,31,26,2216,24.6,2,0,2,2,0,0,3,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2526,Juve Stabia,Marco Ruggero,ITA,DF,25,2000,17,16,1368,15.2,1,0,1,1,0,0,6,1,0.07,0.0,0.07,0.07,0.07
+ITA-Serie B,2526,Juve Stabia,Marco Varnier,ITA,DF,27,1998,18,8,891,9.9,1,1,2,1,0,0,1,0,0.1,0.1,0.2,0.1,0.2
+ITA-Serie B,2526,Juve Stabia,Matheus Santos,BRA,"MF,FW",23,2002,7,2,194,2.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Matteo Baldi,ITA,DF,23,2002,8,0,56,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Mattia Mannini,ITA,MF,19,2006,16,4,439,4.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Nicola Mosti,ITA,MF,27,1998,36,31,2693,29.9,7,1,8,7,0,0,7,0,0.23,0.03,0.27,0.23,0.27
+ITA-Serie B,2526,Juve Stabia,Omar Correia,FRA,MF,25,2000,33,32,2779,30.9,4,2,6,4,0,0,9,0,0.13,0.06,0.19,0.13,0.19
+ITA-Serie B,2526,Juve Stabia,Pietro Boer,ITA,GK,23,2002,6,5,500,5.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Rareș-Cătălin Burnete,ROU,"FW,MF",21,2004,25,8,1055,11.7,1,2,3,1,0,0,5,0,0.09,0.17,0.26,0.09,0.26
+ITA-Serie B,2526,Juve Stabia,Salim Diakité,MLI,DF,25,2000,12,10,765,8.5,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Juve Stabia,Sheriff Kassama,ITA,DF,20,2004,4,2,183,2.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Alessio Castellini,ITA,DF,22,2003,35,35,3095,34.4,0,2,2,0,0,0,6,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Mantova,Ali Dembélé,FRA,"DF,MF",21,2004,14,14,1180,13.1,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Andrea Meroni,ITA,DF,28,1997,8,8,683,7.6,2,0,2,2,0,0,2,0,0.26,0.0,0.26,0.26,0.26
+ITA-Serie B,2526,Mantova,Antonio Fiori,ITA,MF,22,2003,10,4,384,4.3,2,0,2,2,0,0,1,0,0.47,0.0,0.47,0.47,0.47
+ITA-Serie B,2526,Mantova,Calixte Ligue,SUI,DF,20,2005,1,1,45,0.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Cesar Falletti,URU,MF,32,1992,19,5,564,6.3,0,2,2,0,0,0,1,0,0.0,0.32,0.32,0.0,0.32
+ITA-Serie B,2526,Mantova,Côme Bianay Balcot,FRA,DF,20,2005,2,0,7,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Cristian Marai,ITA,DF,16,2008,1,0,1,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Cristiano Bani,ITA,DF,26,1999,17,15,1297,14.4,0,0,0,0,0,0,7,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,David Wieser,ITA,MF,23,2002,27,15,1379,15.3,1,1,2,1,0,0,4,0,0.07,0.07,0.13,0.07,0.13
+ITA-Serie B,2526,Mantova,Davide Bragantini,ITA,"MF,FW",21,2003,22,15,1239,13.8,6,1,7,6,0,0,2,0,0.44,0.07,0.51,0.44,0.51
+ITA-Serie B,2526,Mantova,Davis Mensah,GHA,FW,33,1991,30,13,1222,13.6,4,1,5,4,0,0,4,0,0.29,0.07,0.37,0.29,0.37
+ITA-Serie B,2526,Mantova,Fahem Benaissa Yahia,FRA,MF,23,2002,13,11,942,10.5,1,2,3,1,0,0,1,0,0.1,0.19,0.29,0.1,0.29
+ITA-Serie B,2526,Mantova,Federico Artioli,ITA,MF,24,2001,13,12,1000,11.1,1,1,2,1,0,0,2,0,0.09,0.09,0.18,0.09,0.18
+ITA-Serie B,2526,Mantova,Federico Zuccon,ITA,MF,22,2003,6,1,135,1.5,0,0,0,0,0,0,2,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Flavio Paoletti,ITA,"MF,DF",22,2003,25,12,1123,12.5,0,0,0,0,0,0,6,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Francesco Bardi,ITA,GK,33,1992,20,20,1800,20.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Francesco Galuppini,ITA,"MF,FW",31,1993,8,6,453,5.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Francesco Ruocco,ITA,"MF,FW",24,2001,25,21,1635,18.2,7,1,8,5,2,3,4,0,0.39,0.06,0.44,0.28,0.33
+ITA-Serie B,2526,Mantova,Giacomo Fedel,ITA,"MF,DF",22,2002,4,2,171,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Konstantinos Chrisopoulos,GRE,DF,22,2003,1,0,39,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Leonardo Mancuso,ITA,FW,33,1992,35,21,1889,21.0,8,0,8,6,2,3,1,0,0.38,0.0,0.38,0.29,0.29
+ITA-Serie B,2526,Mantova,Maat Daniel Caprini,ITA,"MF,FW",19,2006,16,7,734,8.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Marco Festa,ITA,GK,33,1992,18,18,1620,18.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Nicholas Bonfanti,ITA,FW,23,2002,12,7,610,6.8,0,0,0,0,0,1,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Nicolò Buso,ITA,MF,25,2000,17,7,669,7.4,1,2,3,1,0,0,1,0,0.13,0.27,0.4,0.13,0.4
+ITA-Serie B,2526,Mantova,Nicolò Radaelli,ITA,"DF,MF",22,2003,27,21,1856,20.6,0,4,4,0,0,0,12,1,0.0,0.19,0.19,0.0,0.19
+ITA-Serie B,2526,Mantova,Nikolas Muci,SUI,FW,22,2003,2,0,39,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Rachid Kouda,ITA,MF,23,2002,15,13,1119,12.4,1,1,2,1,0,0,5,0,0.08,0.08,0.16,0.08,0.16
+ITA-Serie B,2526,Mantova,Senan Mullen,IRL,DF,20,2005,2,1,83,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Simone Trimboli,ITA,MF,23,2002,36,36,3142,34.9,1,7,8,1,0,0,11,0,0.03,0.2,0.23,0.03,0.23
+ITA-Serie B,2526,Mantova,Stefano Cella,ITA,DF,24,2001,34,33,2985,33.2,2,0,2,2,0,0,6,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2526,Mantova,Tiago Gonçalves,POR,"MF,DF",24,2000,9,7,622,6.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Tommaso Maggioni,ITA,"DF,MF",23,2001,30,15,1553,17.3,0,1,1,0,0,0,0,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Mantova,Tommaso Marras,ITA,"MF,FW",21,2004,30,14,1372,15.2,7,1,8,6,1,1,1,0,0.46,0.07,0.52,0.39,0.46
+ITA-Serie B,2526,Mantova,Tommaso Pittino,ITA,DF,20,2005,1,0,28,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Valerio Mantovani,ITA,DF,29,1996,7,6,499,5.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Mantova,Žan Majer,SVN,MF,33,1992,7,2,303,3.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Alessandro Dellavalle,ITA,DF,21,2004,15,12,1221,13.6,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Alessandro Sersanti,ITA,MF,23,2002,23,11,1020,11.3,2,0,2,2,0,0,2,0,0.18,0.0,0.18,0.18,0.18
+ITA-Serie B,2526,Modena,Antonio Imputato,ITA,MF,20,2004,6,1,176,2.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Bryant Nieling,NED,DF,22,2002,33,31,2725,30.3,2,1,3,2,0,0,6,0,0.07,0.03,0.1,0.07,0.1
+ITA-Serie B,2526,Modena,Cristian Cauz,ITA,DF,28,1996,4,3,214,2.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Daniel Tonoli,ITA,DF,22,2002,35,34,2965,32.9,5,0,5,5,0,0,9,1,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2526,Modena,Davide Adorni,ITA,DF,32,1992,28,26,2274,25.3,1,1,2,1,0,0,2,0,0.04,0.04,0.08,0.04,0.08
+ITA-Serie B,2526,Modena,Edoardo Colpo,ITA,FW,16,2008,1,0,5,0.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Ettore Gliozzi,ITA,FW,29,1995,33,19,1752,19.5,11,2,13,4,7,9,0,0,0.57,0.1,0.67,0.21,0.31
+ITA-Serie B,2526,Modena,Fabio Gerli,ITA,MF,28,1996,33,31,2655,29.5,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Fabrizio Bagheria,ITA,GK,24,2001,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Francesco Di Mariano,ITA,"FW,MF",29,1996,17,9,799,8.9,1,2,3,1,0,0,4,0,0.11,0.23,0.34,0.11,0.34
+ITA-Serie B,2526,Modena,Francesco Zampano,ITA,MF,31,1993,35,32,2694,29.9,4,1,5,4,0,0,8,0,0.13,0.03,0.17,0.13,0.17
+ITA-Serie B,2526,Modena,Gady Beyuku,FRA,MF,19,2005,30,14,1375,15.3,1,1,2,1,0,0,5,0,0.07,0.07,0.13,0.07,0.13
+ITA-Serie B,2526,Modena,Giuseppe Ambrosino,ITA,FW,21,2003,14,8,664,7.4,2,0,2,2,0,0,3,1,0.27,0.0,0.27,0.27,0.27
+ITA-Serie B,2526,Modena,Giuseppe Caso,ITA,"FW,MF",26,1998,1,0,17,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Grégoire Defrel,MTQ,FW,34,1991,25,8,810,9.0,2,3,5,2,0,0,2,0,0.22,0.33,0.56,0.22,0.56
+ITA-Serie B,2526,Modena,Leandro Chichizola,ARG,GK,35,1990,33,33,2889,32.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Luca Magnino,ITA,MF,27,1997,16,4,392,4.4,0,3,3,0,0,0,3,0,0.0,0.69,0.69,0.0,0.69
+ITA-Serie B,2526,Modena,Luca Zanimacchia,ITA,MF,27,1998,36,28,2426,27.0,3,2,5,3,0,0,3,0,0.11,0.07,0.19,0.11,0.19
+ITA-Serie B,2526,Modena,Manuel De Luca,ITA,FW,27,1998,20,17,1319,14.7,3,3,6,3,0,0,2,0,0.2,0.2,0.41,0.2,0.41
+ITA-Serie B,2526,Modena,Matteo Cotali,ITA,MF,28,1997,14,2,316,3.5,0,2,2,0,0,0,2,0,0.0,0.57,0.57,0.0,0.57
+ITA-Serie B,2526,Modena,Michele Pezzolato,ITA,GK,21,2004,5,4,441,4.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Niklas Pyyhtiä,FIN,MF,21,2003,28,13,1134,12.6,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Pedro Mendes,POR,FW,25,1999,32,11,1167,13.0,4,1,5,4,0,0,0,0,0.31,0.08,0.39,0.31,0.39
+ITA-Serie B,2526,Modena,Pietro Arnaboldi,ITA,MF,17,2008,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Samuel Wiafe,ITA,MF,17,2008,9,5,427,4.7,0,1,1,0,0,0,0,0,0.0,0.21,0.21,0.0,0.21
+ITA-Serie B,2526,Modena,Simone Santoro,ITA,MF,25,1999,36,34,3049,33.9,2,4,6,2,0,0,5,0,0.06,0.12,0.18,0.06,0.18
+ITA-Serie B,2526,Modena,Steven Nador,TOG,"DF,MF",23,2002,11,9,813,9.0,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Tito Fabbri,ITA,MF,15,2009,1,0,18,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Modena,Yanis Massolin,FRA,"MF,FW",22,2002,28,17,1639,18.2,3,3,6,3,0,0,3,0,0.16,0.16,0.33,0.16,0.33
+ITA-Serie B,2526,Monza,Adam Bakoune,ITA,MF,19,2006,18,6,775,8.6,0,2,2,0,0,0,1,0,0.0,0.23,0.23,0.0,0.23
+ITA-Serie B,2526,Monza,Agustín Álvarez,URU,FW,24,2001,24,9,880,9.8,4,1,5,4,0,0,0,0,0.41,0.1,0.51,0.41,0.51
+ITA-Serie B,2526,Monza,Andrea Carboni,ITA,DF,24,2001,30,24,2200,24.4,1,2,3,1,0,0,3,1,0.04,0.08,0.12,0.04,0.12
+ITA-Serie B,2526,Monza,Andrea Colpani,ITA,MF,26,1999,25,17,1305,14.5,2,1,3,2,0,0,0,0,0.14,0.07,0.21,0.14,0.21
+ITA-Serie B,2526,Monza,Andrea Petagna,ITA,FW,30,1995,27,10,1120,12.4,9,2,11,9,0,0,4,0,0.72,0.16,0.88,0.72,0.88
+ITA-Serie B,2526,Monza,Armando Izzo,ITA,DF,33,1992,14,14,1115,12.4,3,2,5,3,0,0,7,1,0.24,0.16,0.4,0.24,0.4
+ITA-Serie B,2526,Monza,Arvid Brorsson,SWE,DF,26,1999,12,4,411,4.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Monza,Dany Mota,POR,"FW,MF",27,1998,30,22,1647,18.3,5,2,7,5,0,0,0,0,0.27,0.11,0.38,0.27,0.38
+ITA-Serie B,2526,Monza,Demba Thiam,SEN,GK,27,1998,38,38,3420,38.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Monza,Filippo Delli Carri,ITA,DF,26,1999,32,22,2007,22.3,2,1,3,2,0,0,3,0,0.09,0.04,0.13,0.09,0.13
+ITA-Serie B,2526,Monza,Gianluca Caprari,ITA,MF,32,1993,8,4,337,3.7,0,1,1,0,0,0,1,0,0.0,0.27,0.27,0.0,0.27
+ITA-Serie B,2526,Monza,Giuseppe Caso,ITA,MF,26,1998,13,4,529,5.9,1,4,5,1,0,0,0,0,0.17,0.68,0.85,0.17,0.85
+ITA-Serie B,2526,Monza,Hernani,BRA,MF,31,1994,18,13,1045,11.6,5,1,6,5,0,0,3,0,0.43,0.09,0.52,0.43,0.52
+ITA-Serie B,2526,Monza,Keita Baldé,SEN,MF,30,1995,21,11,991,11.0,2,2,4,2,0,0,9,1,0.18,0.18,0.36,0.18,0.36
+ITA-Serie B,2526,Monza,Kevin Zeroli,ITA,MF,20,2005,5,2,268,3.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Monza,Leonardo Colombo,ITA,MF,20,2005,27,11,1135,12.6,1,2,3,1,0,0,6,0,0.08,0.16,0.24,0.08,0.24
+ITA-Serie B,2526,Monza,Lorenzo Lucchesi,ITA,DF,22,2003,29,18,1627,18.1,1,0,1,1,0,0,5,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2526,Monza,Luca Ravanelli,ITA,DF,28,1997,29,27,2433,27.0,2,2,4,2,0,0,6,0,0.07,0.07,0.15,0.07,0.15
+ITA-Serie B,2526,Monza,Matteo Pessina,ITA,MF,28,1997,33,33,2904,32.3,5,1,6,2,3,3,4,0,0.15,0.03,0.19,0.06,0.09
+ITA-Serie B,2526,Monza,Mirko Marić,CRO,"MF,FW",30,1995,13,3,383,4.3,1,0,1,1,0,0,1,0,0.23,0.0,0.23,0.23,0.23
+ITA-Serie B,2526,Monza,Nicolas Galazzi,ITA,MF,24,2000,11,4,388,4.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Monza,Patrick Ciurria,ITA,MF,30,1995,28,18,1575,17.5,1,2,3,1,0,0,4,1,0.06,0.11,0.17,0.06,0.17
+ITA-Serie B,2526,Monza,Patrick Cutrone,ITA,"FW,MF",27,1998,16,14,1102,12.2,4,3,7,4,0,0,3,1,0.33,0.25,0.57,0.33,0.57
+ITA-Serie B,2526,Monza,Paulo Azzi,BRA,MF,31,1994,34,33,2865,31.8,5,6,11,5,0,0,3,1,0.16,0.19,0.35,0.16,0.35
+ITA-Serie B,2526,Monza,Pedro Obiang,EQG,MF,33,1992,32,28,2329,25.9,2,1,3,2,0,0,3,0,0.08,0.04,0.12,0.08,0.12
+ITA-Serie B,2526,Monza,Samuele Birindelli,ITA,"MF,DF",26,1999,33,29,2627,29.2,5,2,7,5,0,0,6,0,0.17,0.07,0.24,0.17,0.24
+ITA-Serie B,2526,Monza,Samuele Capolupo,ITA,DF,19,2006,1,0,17,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Monza,Valentin Antov,BUL,DF,24,2000,1,0,5,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Abu Kamara,ITA,GK,28,1997,14,14,1260,14.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Alessandro Boi,ITA,DF,20,2005,1,0,17,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Alessandro Capelli,ITA,MF,28,1997,36,31,2835,31.5,2,6,8,2,0,0,4,1,0.06,0.19,0.25,0.06,0.25
+ITA-Serie B,2526,Padova,Alessandro Seghetti,ITA,FW,21,2004,18,5,603,6.7,3,0,3,3,0,0,1,0,0.45,0.0,0.45,0.45,0.45
+ITA-Serie B,2526,Padova,Alessandro Sorrentino,ITA,GK,23,2002,24,24,2160,24.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Antonio Barreca,ITA,"MF,DF",30,1995,23,21,1795,19.9,0,1,1,0,0,0,7,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Padova,Carlo Faedo,ITA,DF,26,1999,32,25,2224,24.7,2,0,2,2,0,0,6,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2526,Padova,Christian Pastina,ITA,DF,24,2001,10,9,824,9.2,1,0,1,1,0,0,4,1,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2526,Padova,Cristian Buonaiuto,ITA,"FW,MF",32,1992,27,9,949,10.5,1,3,4,1,0,0,2,0,0.09,0.28,0.38,0.09,0.38
+ITA-Serie B,2526,Padova,Daniele Baselli,ITA,MF,33,1992,8,2,221,2.5,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Filippo Sgarbi,ITA,DF,27,1997,29,28,2383,26.5,4,0,4,4,0,0,3,0,0.15,0.0,0.15,0.15,0.15
+ITA-Serie B,2526,Padova,Francesco Belli,ITA,DF,31,1994,22,17,1379,15.3,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Francesco Di Mariano,ITA,"MF,FW",29,1996,15,12,903,10.0,1,1,2,1,0,0,3,0,0.1,0.1,0.2,0.1,0.2
+ITA-Serie B,2526,Padova,Gianluca Caprari,ITA,"FW,MF",32,1993,11,4,422,4.7,1,1,2,1,0,0,0,0,0.21,0.21,0.43,0.21,0.43
+ITA-Serie B,2526,Padova,Giovanni Giunti,ITA,MF,20,2005,4,2,221,2.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Giulio Favale,ITA,"MF,DF",27,1998,22,7,794,8.8,0,1,1,0,0,0,2,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2526,Padova,Jonas Harder,ITA,MF,19,2005,26,17,1458,16.2,1,0,1,1,0,0,6,0,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2526,Padova,Jonathan Silva,BRA,"MF,FW",21,2004,17,2,482,5.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Kevin Lasagna,ITA,FW,32,1992,25,15,1459,16.2,6,1,7,6,0,0,0,0,0.37,0.06,0.43,0.37,0.43
+ITA-Serie B,2526,Padova,Kevin Varas,ECU,MF,32,1993,36,27,2471,27.5,2,4,6,2,0,0,4,0,0.07,0.15,0.22,0.07,0.22
+ITA-Serie B,2526,Padova,Lorenzo Crisetig,ITA,MF,32,1993,25,18,1469,16.3,0,1,1,0,0,0,5,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Padova,Lorenzo Villa,ITA,DF,22,2003,20,12,1220,13.6,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Luca Di Maggio,ITA,MF,20,2005,28,9,1018,11.3,3,0,3,3,0,0,3,0,0.27,0.0,0.27,0.27,0.27
+ITA-Serie B,2526,Padova,Marco Perrotta,ITA,DF,31,1994,30,29,2491,27.7,1,0,1,1,0,0,12,0,0.04,0.0,0.04,0.04,0.04
+ITA-Serie B,2526,Padova,Mattia Bortolussi,ITA,FW,29,1996,32,30,2563,28.5,10,1,11,6,4,4,1,0,0.35,0.04,0.39,0.21,0.25
+ITA-Serie B,2526,Padova,Paolo Ghiglione,ITA,MF,28,1997,18,9,787,8.7,0,1,1,0,0,0,2,0,0.0,0.11,0.11,0.0,0.11
+ITA-Serie B,2526,Padova,Papu Gómez,ARG,FW,37,1988,9,6,563,6.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Padova,Pietro Fusi,ITA,MF,27,1998,34,34,2595,28.8,1,3,4,1,0,0,14,1,0.03,0.1,0.14,0.03,0.14
+ITA-Serie B,2526,Palermo,Alexis Blin,FRA,MF,28,1996,21,5,687,7.6,0,0,0,0,0,0,2,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Alfred Gomis,SEN,GK,31,1993,3,2,214,2.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Aljosa Vasic,SRB,MF,23,2002,23,3,550,6.1,0,2,2,0,0,0,2,0,0.0,0.33,0.33,0.0,0.33
+ITA-Serie B,2526,Palermo,Antonio Palumbo,ITA,MF,28,1996,35,31,2444,27.2,3,10,13,3,0,0,8,0,0.11,0.37,0.48,0.11,0.48
+ITA-Serie B,2526,Palermo,Bartosz Bereszyński,POL,DF,33,1992,20,9,924,10.3,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Claudio Gomes,FRA,MF,25,2000,27,7,818,9.1,1,0,1,1,0,0,2,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2526,Palermo,Davide Veroli,ITA,DF,22,2003,11,4,432,4.8,0,1,1,0,0,0,1,0,0.0,0.21,0.21,0.0,0.21
+ITA-Serie B,2526,Palermo,Dennis Johnsen,NOR,"MF,FW",27,1998,13,5,616,6.8,1,1,2,1,0,0,1,0,0.15,0.15,0.29,0.15,0.29
+ITA-Serie B,2526,Palermo,Emmanuel Gyasi,GHA,MF,31,1994,22,10,927,10.3,0,0,0,0,0,0,5,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Filippo Ranocchia,ITA,MF,24,2001,32,32,2622,29.1,6,2,8,5,1,1,8,1,0.21,0.07,0.27,0.17,0.24
+ITA-Serie B,2526,Palermo,Francesco Bardi,ITA,GK,33,1992,1,1,90,1.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Giacomo Corona,ITA,FW,21,2004,13,0,167,1.9,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Giangiacomo Magnani,ITA,DF,29,1995,13,3,449,5.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Jacopo Segre,ITA,MF,28,1997,37,32,2689,29.9,4,3,7,4,0,0,2,0,0.13,0.1,0.23,0.13,0.23
+ITA-Serie B,2526,Palermo,Jesse Joronen,FIN,GK,32,1993,35,35,3116,34.6,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Joel Pohjanpalo,FIN,FW,30,1994,38,37,3278,36.4,24,7,31,18,6,6,0,0,0.66,0.19,0.85,0.49,0.69
+ITA-Serie B,2526,Palermo,Jérémy Le Douaron,FRA,"MF,FW",27,1998,37,24,2049,22.8,5,5,10,5,0,0,3,0,0.22,0.22,0.44,0.22,0.44
+ITA-Serie B,2526,Palermo,Matteo Brunori,ITA,"MF,FW",30,1994,11,6,506,5.6,1,1,2,1,0,0,3,0,0.18,0.18,0.36,0.18,0.36
+ITA-Serie B,2526,Palermo,Mattia Bani,ITA,DF,31,1993,31,31,2538,28.2,3,0,3,3,0,0,9,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2526,Palermo,Niccolò Pierozzi,ITA,"MF,DF",23,2001,36,35,2792,31.0,5,4,9,5,0,0,6,0,0.16,0.13,0.29,0.16,0.29
+ITA-Serie B,2526,Palermo,Patryk Peda,POL,DF,23,2002,33,20,1949,21.7,0,1,1,0,0,0,6,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Palermo,Pietro Avena,ITA,MF,18,2007,1,0,32,0.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Pietro Ceccaroni,ITA,DF,29,1995,36,34,2950,32.8,3,2,5,3,0,0,5,1,0.09,0.06,0.15,0.09,0.15
+ITA-Serie B,2526,Palermo,Rui Modesto,ANG,"MF,DF",25,1999,7,5,367,4.1,0,1,1,0,0,0,1,1,0.0,0.25,0.25,0.0,0.25
+ITA-Serie B,2526,Palermo,Salim Diakité,MLI,"MF,DF",25,2000,14,8,751,8.3,1,0,1,1,0,0,4,1,0.12,0.0,0.12,0.12,0.12
+ITA-Serie B,2526,Palermo,Samuel Giovane,ITA,MF,22,2003,16,2,329,3.7,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Palermo,Tommaso Augello,ITA,MF,30,1994,38,37,3238,36.0,1,3,4,1,0,0,3,0,0.03,0.08,0.11,0.03,0.11
+ITA-Serie B,2526,Pescara,Alessandro Vinciguerra,ITA,FW,19,2005,4,0,77,0.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Andrea Cagnano,ITA,DF,27,1998,12,12,1067,11.9,1,1,2,1,0,0,4,0,0.08,0.08,0.17,0.08,0.17
+ITA-Serie B,2526,Pescara,Andrea Ferraris,ITA,FW,22,2003,1,0,2,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Andrea Oliveri,ITA,MF,22,2003,15,12,921,10.2,3,0,3,3,0,0,3,0,0.29,0.0,0.29,0.29,0.29
+ITA-Serie B,2526,Pescara,Andrew Gravillon,GLP,DF,27,1998,24,15,1468,16.3,0,1,1,0,0,0,6,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Pescara,Antonio Di Nardo,ITA,FW,26,1998,38,35,2916,32.4,14,4,18,13,1,1,4,0,0.43,0.12,0.56,0.4,0.52
+ITA-Serie B,2526,Pescara,Davide Bettella,ITA,DF,25,2000,16,16,1421,15.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Davide Faraoni,ITA,"MF,DF",33,1991,12,9,685,7.6,1,0,1,1,0,0,1,0,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2526,Pescara,Davide Giannini,ITA,DF,20,2005,3,0,31,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Davide Merola,ITA,MF,25,2000,10,2,271,3.0,1,0,1,1,0,0,1,0,0.33,0.0,0.33,0.33,0.33
+ITA-Serie B,2526,Pescara,Erdis Kraja,ALB,MF,25,2000,1,0,34,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Fabrizio Caligara,ITA,"MF,FW",25,2000,28,15,1342,14.9,2,1,3,2,0,0,3,0,0.13,0.07,0.2,0.13,0.2
+ITA-Serie B,2526,Pescara,Filippo Pellacani,ITA,DF,27,1998,5,5,389,4.3,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Flavio Russo,ITA,FW,21,2004,11,1,302,3.4,0,0,0,0,0,1,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Frank Tsadjout,ITA,FW,26,1999,6,4,288,3.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Gabriele Corbo,ITA,DF,25,2000,16,13,1127,12.5,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Gaetano Letizia,ITA,"MF,DF",35,1990,32,27,2267,25.2,1,4,5,1,0,0,4,0,0.04,0.16,0.2,0.04,0.2
+ITA-Serie B,2526,Pescara,Gastón Brugman,URU,MF,32,1992,17,15,1345,14.9,1,2,3,1,0,0,3,0,0.07,0.13,0.2,0.07,0.2
+ITA-Serie B,2526,Pescara,Gennaro Acampora,ITA,"MF,FW",31,1994,12,10,706,7.8,1,0,1,1,0,0,3,1,0.13,0.0,0.13,0.13,0.13
+ITA-Serie B,2526,Pescara,Giacomo Olzer,ITA,"MF,FW",24,2001,28,22,1886,21.0,6,1,7,6,0,0,5,1,0.29,0.05,0.33,0.29,0.33
+ITA-Serie B,2526,Pescara,Gianmarco Cangiano,ITA,FW,23,2001,9,0,167,1.9,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Giorgio Altare,ITA,DF,26,1998,6,2,270,3.0,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Ivan Saio,ITA,GK,23,2002,14,13,1226,13.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Julian Brandes,NED,MF,21,2004,6,2,167,1.9,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Lamine Fanne,ESP,MF,21,2004,7,4,359,4.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Leonardo Graziani,ITA,MF,20,2005,3,1,77,0.9,0,1,1,0,0,0,0,0,0.0,1.17,1.17,0.0,1.17
+ITA-Serie B,2526,Pescara,Lorenzo Berardi,,MF,,,15,2,450,5.0,0,1,1,0,0,0,2,0,0.0,0.2,0.2,0.0,0.2
+ITA-Serie B,2526,Pescara,Lorenzo Insigne,ITA,"MF,FW",34,1991,13,11,947,10.5,5,3,8,4,1,1,2,0,0.48,0.29,0.76,0.38,0.67
+ITA-Serie B,2526,Pescara,Lorenzo Meazzi,ITA,"MF,FW",24,2001,30,8,1031,11.5,6,1,7,6,0,0,4,0,0.52,0.09,0.61,0.52,0.61
+ITA-Serie B,2526,Pescara,Lorenzo Sgarbi,ITA,"FW,MF",24,2001,14,3,403,4.5,1,0,1,1,0,0,1,0,0.22,0.0,0.22,0.22,0.22
+ITA-Serie B,2526,Pescara,Luca Valzania,ITA,MF,29,1996,36,35,2826,31.4,1,3,4,1,0,0,8,0,0.03,0.1,0.13,0.03,0.13
+ITA-Serie B,2526,Pescara,Matteo Dagasso,ITA,MF,21,2004,19,18,1518,16.9,1,4,5,1,0,0,2,0,0.06,0.24,0.3,0.06,0.3
+ITA-Serie B,2526,Pescara,Niccolò Squizzato,ITA,MF,23,2002,15,12,1030,11.4,0,1,1,0,0,0,0,0,0.0,0.09,0.09,0.0,0.09
+ITA-Serie B,2526,Pescara,Orji Okwonkwo,NGA,FW,27,1998,10,0,148,1.6,0,1,1,0,0,0,0,0,0.0,0.61,0.61,0.0,0.61
+ITA-Serie B,2526,Pescara,Riccardo Brosco,ITA,DF,34,1991,21,21,1800,20.0,0,1,1,0,0,0,5,1,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Pescara,Riccardo Capellini,ITA,DF,25,2000,34,29,2657,29.5,1,0,1,1,0,0,4,0,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2526,Pescara,Riccardo Tonin,ITA,FW,24,2001,10,6,560,6.2,1,1,2,1,0,0,0,0,0.16,0.16,0.32,0.16,0.32
+ITA-Serie B,2526,Pescara,Sebastiano Desplanches,ITA,GK,22,2003,25,25,2194,24.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Pescara,Tommaso Corazza,ITA,MF,21,2004,15,13,1097,12.2,3,2,5,3,0,0,1,0,0.25,0.16,0.41,0.25,0.41
+ITA-Serie B,2526,Reggiana,Alessandro Micai,ITA,GK,32,1993,15,15,1350,15.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Alessandro Tripaldelli,ITA,MF,26,1999,15,4,634,7.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Andrea Bozzolan,ITA,MF,21,2004,26,20,1630,18.1,2,1,3,2,0,0,4,0,0.11,0.06,0.17,0.11,0.17
+ITA-Serie B,2526,Reggiana,Andrea Papetti,ITA,DF,23,2002,34,33,2930,32.6,0,0,0,0,0,0,9,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Andrea Seculin,ITA,GK,35,1990,3,3,270,3.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Andrija Novakovich,USA,FW,28,1996,33,15,1595,17.7,5,1,6,5,0,0,2,1,0.28,0.06,0.34,0.28,0.34
+ITA-Serie B,2526,Reggiana,Cedric Gondo,CIV,FW,28,1996,26,18,1634,18.2,2,1,3,1,1,1,3,0,0.11,0.06,0.17,0.06,0.11
+ITA-Serie B,2526,Reggiana,Charlys,BRA,MF,21,2004,32,23,2044,22.7,1,2,3,1,0,0,6,1,0.04,0.09,0.13,0.04,0.13
+ITA-Serie B,2526,Reggiana,Damiano Basili,ITA,MF,21,2004,2,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Danilo Quaranta,ITA,DF,28,1997,13,12,1092,12.1,0,1,1,0,0,0,1,0,0.0,0.08,0.08,0.0,0.08
+ITA-Serie B,2526,Reggiana,Edoardo Motta,ITA,GK,20,2005,20,20,1800,20.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Elayis Tavsan,NED,"MF,FW",24,2001,18,12,1001,11.1,3,1,4,3,0,0,1,0,0.27,0.09,0.36,0.27,0.36
+ITA-Serie B,2526,Reggiana,Francesco Vallarelli,ITA,MF,20,2005,8,1,122,1.4,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Francesco Vicari,ITA,DF,30,1994,7,6,460,5.1,1,0,1,1,0,0,0,0,0.2,0.0,0.2,0.2,0.2
+ITA-Serie B,2526,Reggiana,Giangiacomo Magnani,ITA,DF,29,1995,11,8,844,9.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Kleis Bozhanaj,ALB,MF,24,2001,12,5,460,5.1,0,1,1,0,0,0,1,0,0.0,0.2,0.2,0.0,0.2
+ITA-Serie B,2526,Reggiana,Leo Štulac,SVN,MF,30,1994,3,0,23,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Leonardo Mendicino,ITA,MF,19,2006,15,2,288,3.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Lorenzo Libutti,ITA,"DF,MF",27,1997,31,25,2283,25.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Luca Belardinelli,ITA,MF,24,2001,11,6,608,6.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Manolo Portanova,ITA,"MF,FW",25,2000,36,35,3065,34.1,7,1,8,7,0,0,6,0,0.21,0.03,0.23,0.21,0.23
+ITA-Serie B,2526,Reggiana,Manuel Marras,ITA,"MF,DF",32,1993,16,13,1123,12.5,1,4,5,1,0,0,5,0,0.08,0.32,0.4,0.08,0.4
+ITA-Serie B,2526,Reggiana,Mario Sampirisi,ITA,"DF,MF",32,1992,6,0,101,1.1,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Massimo Bertagnoli,ITA,MF,26,1999,28,19,1613,17.9,1,5,6,1,0,0,2,0,0.06,0.28,0.33,0.06,0.33
+ITA-Serie B,2526,Reggiana,Mateus Lusuardi,BRA,DF,21,2004,11,10,861,9.6,1,0,1,1,0,0,3,0,0.1,0.0,0.1,0.1,0.1
+ITA-Serie B,2526,Reggiana,Mathis Lambourde,FRA,MF,19,2006,24,7,865,9.6,4,1,5,4,0,0,2,0,0.42,0.1,0.52,0.42,0.52
+ITA-Serie B,2526,Reggiana,Matteo Rover,ITA,MF,26,1999,32,23,1923,21.4,1,2,3,1,0,0,5,0,0.05,0.09,0.14,0.05,0.14
+ITA-Serie B,2526,Reggiana,Natan Girma,SUI,"FW,MF",23,2001,25,19,1534,17.0,3,2,5,2,1,1,6,0,0.18,0.12,0.29,0.12,0.23
+ITA-Serie B,2526,Reggiana,Oumar Conte,GUI,FW,18,2007,2,0,9,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Paolo Rozzio,ITA,DF,33,1992,13,12,972,10.8,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Simone Bonetti,ITA,DF,20,2004,25,21,1767,19.6,0,1,1,0,0,0,5,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Reggiana,Tobías Reinhart,ARG,MF,25,2000,33,29,2471,27.5,3,0,3,3,0,0,10,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2526,Reggiana,Tommaso Fumagalli,ITA,FW,25,2000,10,1,139,1.5,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Reggiana,Yeferson Paz,COL,MF,23,2002,1,1,55,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Alessandro Bellemo,ITA,MF,29,1995,10,6,542,6.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Alessandro Di Pardo,ITA,"MF,DF",26,1999,16,16,1397,15.5,1,1,2,1,0,0,1,0,0.06,0.06,0.13,0.06,0.13
+ITA-Serie B,2526,Sampdoria,Alessandro Riccio,ITA,DF,23,2002,17,10,980,10.9,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Alex Ferrari,ITA,DF,31,1994,12,8,731,8.1,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Antonín Barák,CZE,MF,30,1994,28,10,1061,11.8,1,1,2,1,0,1,2,0,0.08,0.08,0.17,0.08,0.17
+ITA-Serie B,2526,Sampdoria,Dennis Hadžikadunić,BIH,DF,27,1998,28,25,2211,24.6,0,1,1,0,0,0,4,0,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2526,Sampdoria,Edoardo Soleri,ITA,FW,27,1997,13,2,286,3.2,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Estanis,ESP,MF,21,2003,7,1,163,1.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Fabio Depaoli,ITA,"MF,DF",28,1997,25,18,1547,17.2,3,1,4,3,0,0,9,0,0.17,0.06,0.23,0.17,0.23
+ITA-Serie B,2526,Sampdoria,Francesco Conti,ITA,MF,20,2004,27,18,1470,16.3,2,0,2,2,0,0,5,0,0.12,0.0,0.12,0.12,0.12
+ITA-Serie B,2526,Sampdoria,Gaëtan Coucke,BEL,GK,26,1998,2,2,180,2.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Jordan Ferri,FRA,MF,33,1992,5,2,153,1.7,0,0,0,0,0,0,1,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Leonardo Benedetti,ITA,MF,25,2000,13,8,707,7.9,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Liam Henderson,SCO,MF,29,1996,30,27,2202,24.5,2,0,2,2,0,0,12,0,0.08,0.0,0.08,0.08,0.08
+ITA-Serie B,2526,Sampdoria,Lorenzo Venuti,ITA,"DF,MF",30,1995,16,13,1019,11.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Luigi Cherubini,ITA,"MF,FW",21,2004,35,25,2175,24.2,2,1,3,2,0,0,3,1,0.08,0.04,0.12,0.08,0.12
+ITA-Serie B,2526,Sampdoria,Manuel Cicconi,ITA,"MF,DF",28,1997,16,10,983,10.9,0,1,1,0,0,0,0,0,0.0,0.09,0.09,0.0,0.09
+ITA-Serie B,2526,Sampdoria,Marvin Cuni,ALB,FW,24,2001,15,6,723,8.0,1,1,2,1,0,0,1,0,0.12,0.12,0.25,0.12,0.25
+ITA-Serie B,2526,Sampdoria,Massimo Coda,ITA,FW,36,1988,28,19,1798,20.0,9,3,12,5,4,4,1,0,0.45,0.15,0.6,0.25,0.4
+ITA-Serie B,2526,Sampdoria,Matteo Brunori,ITA,FW,30,1994,18,16,1322,14.7,3,3,6,2,1,1,2,0,0.2,0.2,0.41,0.14,0.34
+ITA-Serie B,2526,Sampdoria,Matteo Palma,GER,DF,17,2008,11,9,771,8.6,1,0,1,1,0,0,3,1,0.12,0.0,0.12,0.12,0.12
+ITA-Serie B,2526,Sampdoria,Matteo Ricci,ITA,MF,31,1994,21,9,1005,11.2,1,1,2,1,0,0,3,0,0.09,0.09,0.18,0.09,0.18
+ITA-Serie B,2526,Sampdoria,Mattia Viti,ITA,DF,23,2002,16,16,1356,15.1,0,1,1,0,0,0,1,0,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2526,Sampdoria,Nicholas Ioannou,CYP,"MF,DF",29,1995,18,10,972,10.8,2,1,3,2,0,0,5,0,0.19,0.09,0.28,0.19,0.28
+ITA-Serie B,2526,Sampdoria,Nicholas Pierini,ITA,"MF,FW",26,1998,9,7,590,6.6,2,1,3,2,0,0,2,0,0.31,0.15,0.46,0.31,0.46
+ITA-Serie B,2526,Sampdoria,Oliver Abildgaard,DEN,"DF,MF",29,1996,29,28,2466,27.4,1,2,3,1,0,0,3,0,0.04,0.07,0.11,0.04,0.11
+ITA-Serie B,2526,Sampdoria,Salvatore Esposito,ITA,MF,24,2000,11,10,788,8.8,0,0,0,0,0,0,4,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Simone Ghidotti,ITA,GK,25,2000,20,20,1800,20.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Simone Giordano,ITA,"DF,MF",23,2001,22,15,1389,15.4,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Simone Pafundi,ITA,"MF,FW",19,2006,26,11,1050,11.7,1,3,4,1,0,0,4,0,0.09,0.26,0.34,0.09,0.34
+ITA-Serie B,2526,Sampdoria,Stipe Vulikic,CRO,DF,24,2001,13,10,885,9.8,0,0,0,0,0,0,4,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Tjaš Begić,SVN,"MF,FW",22,2003,19,15,1323,14.7,3,0,3,3,0,0,4,0,0.2,0.0,0.2,0.2,0.2
+ITA-Serie B,2526,Sampdoria,Tommaso Casalino,ITA,MF,18,2007,4,0,22,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Tommaso Martinelli,ITA,GK,19,2006,16,16,1440,16.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Sampdoria,Víctor Narro,ESP,FW,26,1999,4,0,39,0.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Alessandro Bellemo,ITA,MF,29,1995,11,6,408,4.5,0,1,1,0,0,0,3,0,0.0,0.22,0.22,0.0,0.22
+ITA-Serie B,2526,Spezia,Alessandro Romano,SUI,MF,19,2006,19,15,1428,15.9,0,1,1,0,0,0,4,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Spezia,Aleš Matějů,CZE,DF,29,1996,29,28,2441,27.1,0,1,1,0,0,0,7,0,0.0,0.04,0.04,0.0,0.04
+ITA-Serie B,2526,Spezia,Andrea Cistana,ITA,DF,28,1997,7,4,375,4.2,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Antonio Candela,ITA,"MF,DF",25,2000,17,11,1042,11.6,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Boris Radunović,SRB,GK,29,1996,16,15,1395,15.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Christian Comotto,ITA,MF,17,2008,28,9,1255,13.9,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Daniele Verde,ITA,"FW,MF",29,1996,6,0,105,1.2,0,1,1,0,0,0,0,0,0.0,0.86,0.86,0.0,0.86
+ITA-Serie B,2526,Spezia,Diego Mascardi,ITA,GK,18,2006,17,17,1485,16.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Edoardo Soleri,ITA,FW,27,1997,17,10,799,8.9,1,0,1,1,0,0,1,0,0.11,0.0,0.11,0.11,0.11
+ITA-Serie B,2526,Spezia,Emanuele Adamo,ITA,"MF,FW",27,1998,16,9,750,8.3,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Emanuele Lorenzelli,ITA,MF,18,2007,1,0,8,0.1,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Fellipe Jack,BRA,DF,19,2006,7,6,505,5.6,0,0,0,0,0,0,3,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Filippo Bandinelli,ITA,MF,30,1995,16,12,868,9.6,1,0,1,1,0,0,6,1,0.1,0.0,0.1,0.1,0.1
+ITA-Serie B,2526,Spezia,Francesco Cassata,ITA,MF,28,1997,21,16,1303,14.5,0,1,1,0,0,0,10,1,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2526,Spezia,Gabriele Artistico,ITA,FW,23,2002,31,20,1971,21.9,13,1,14,13,0,0,3,0,0.59,0.05,0.64,0.59,0.64
+ITA-Serie B,2526,Spezia,Gianluca Lapadula,PER,FW,35,1990,18,10,1004,11.2,5,2,7,4,1,1,1,0,0.45,0.18,0.63,0.36,0.54
+ITA-Serie B,2526,Spezia,Giovanni Bonfanti,ITA,DF,22,2003,12,12,1032,11.5,1,2,3,1,0,0,3,1,0.09,0.17,0.26,0.09,0.26
+ITA-Serie B,2526,Spezia,Giuseppe Aurelio,ITA,"MF,DF",25,2000,33,25,2298,25.5,6,3,9,6,0,0,2,0,0.23,0.12,0.35,0.23,0.35
+ITA-Serie B,2526,Spezia,Giuseppe Di Serio,ITA,"FW,MF",24,2001,26,17,1333,14.8,3,1,4,3,0,0,4,0,0.2,0.07,0.27,0.2,0.27
+ITA-Serie B,2526,Spezia,Hamse Shagaxle,SWE,FW,20,2005,1,0,15,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Laurs Skjellerup,DEN,FW,22,2002,6,3,274,3.0,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Leonardo Sernicola,ITA,"MF,DF",28,1997,20,15,1431,15.9,1,2,3,1,0,0,2,0,0.06,0.13,0.19,0.06,0.19
+ITA-Serie B,2526,Spezia,Luca Vignali,ITA,"MF,DF",29,1996,29,16,1494,16.6,1,0,1,1,0,0,5,1,0.06,0.0,0.06,0.06,0.06
+ITA-Serie B,2526,Spezia,Marco Ruggero,ITA,DF,25,2000,9,8,629,7.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Mattia Valoti,ITA,"MF,FW",31,1993,16,12,962,10.7,4,3,7,3,1,1,3,1,0.37,0.28,0.65,0.28,0.56
+ITA-Serie B,2526,Spezia,Mouhamadou Sarr,SEN,GK,28,1997,6,6,540,6.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Petko Hristov,BUL,DF,26,1999,28,23,1975,21.9,0,0,0,0,0,0,5,1,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Pietro Beruatto,ITA,"DF,MF",26,1998,33,23,2040,22.7,2,4,6,2,0,0,5,0,0.09,0.18,0.26,0.09,0.26
+ITA-Serie B,2526,Spezia,Pietro Candelari,ITA,MF,20,2005,6,1,162,1.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Przemysław Wiśniewski,POL,DF,27,1998,19,19,1710,19.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Rachid Kouda,ITA,MF,23,2002,15,11,852,9.5,1,1,2,1,0,0,3,2,0.11,0.11,0.21,0.11,0.21
+ITA-Serie B,2526,Spezia,Salvatore Esposito,ITA,MF,24,2000,12,10,932,10.4,1,2,3,0,1,2,5,0,0.1,0.19,0.29,0.0,0.19
+ITA-Serie B,2526,Spezia,Szymon Żurkowski,POL,MF,27,1997,1,0,31,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Spezia,Vanja Vlahović,SRB,FW,21,2004,22,11,971,10.8,2,2,4,2,0,0,0,1,0.19,0.19,0.37,0.19,0.37
+ITA-Serie B,2526,Spezia,Ádám Nagy,HUN,MF,30,1995,25,18,1495,16.6,0,2,2,0,0,0,4,0,0.0,0.12,0.12,0.0,0.12
+ITA-Serie B,2526,Venezia,Ahmed Sidibé,FRA,DF,23,2002,5,1,165,1.8,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Venezia,Alessandro Pietrelli,ITA,MF,22,2003,9,1,253,2.8,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Venezia,Alfred Duncan,GHA,MF,32,1993,17,8,717,8.0,1,1,2,1,0,0,1,1,0.13,0.13,0.25,0.13,0.25
+ITA-Serie B,2526,Venezia,Andrea Adorante,ITA,FW,25,2000,33,30,2132,23.7,17,1,18,12,5,7,5,0,0.72,0.04,0.76,0.51,0.55
+ITA-Serie B,2526,Venezia,Antoine Hainaut,FRA,MF,23,2002,37,36,3040,33.8,5,5,10,5,0,0,4,0,0.15,0.15,0.3,0.15,0.3
+ITA-Serie B,2526,Venezia,Antonio Casas,ESP,FW,25,2000,24,3,550,6.1,3,1,4,3,0,0,2,0,0.49,0.16,0.65,0.49,0.65
+ITA-Serie B,2526,Venezia,Bartol Franjić,CRO,DF,25,2000,19,15,1244,13.8,0,2,2,0,0,0,2,0,0.0,0.14,0.14,0.0,0.14
+ITA-Serie B,2526,Venezia,Bjarki Bjarkason,ISL,MF,25,2000,15,11,898,10.0,1,1,2,1,0,0,0,0,0.1,0.1,0.2,0.1,0.2
+ITA-Serie B,2526,Venezia,Daniel Fila,CZE,FW,22,2002,15,3,467,5.2,2,0,2,2,0,0,0,0,0.39,0.0,0.39,0.39,0.39
+ITA-Serie B,2526,Venezia,Emil Bohinen,NOR,MF,26,1999,11,1,198,2.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Venezia,Filip Stankovic,SRB,GK,23,2002,38,38,3420,38.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Venezia,Gianluca Busio,USA,MF,23,2002,37,37,3196,35.5,7,4,11,6,1,1,8,0,0.2,0.11,0.31,0.17,0.28
+ITA-Serie B,2526,Venezia,Issa Doumbia,ITA,MF,21,2003,37,36,3114,34.6,8,5,13,8,0,0,6,0,0.23,0.14,0.38,0.23,0.38
+ITA-Serie B,2526,Venezia,John Yeboah,ECU,FW,25,2000,34,31,2597,28.9,10,9,19,8,2,4,2,1,0.35,0.31,0.66,0.28,0.59
+ITA-Serie B,2526,Venezia,Joël Schingtienne,BEL,DF,22,2002,35,35,3038,33.8,1,2,3,1,0,0,2,2,0.03,0.06,0.09,0.03,0.09
+ITA-Serie B,2526,Venezia,Kike Pérez,ESP,MF,28,1997,35,33,2735,30.4,3,7,10,3,0,0,8,0,0.1,0.23,0.33,0.1,0.33
+ITA-Serie B,2526,Venezia,Lion Lauberbach,GER,FW,27,1998,12,4,492,5.5,1,0,1,0,1,1,0,0,0.18,0.0,0.18,0.0,0.0
+ITA-Serie B,2526,Venezia,Marin Šverko,CRO,DF,27,1998,25,22,1931,21.5,0,1,1,0,0,0,3,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Venezia,Marko Farji,IRQ,MF,21,2004,2,0,23,0.3,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Venezia,Matteo Dagasso,ITA,MF,21,2004,11,2,283,3.1,2,0,2,2,0,0,0,0,0.64,0.0,0.64,0.64,0.64
+ITA-Serie B,2526,Venezia,Mattia Compagnon,ITA,"MF,FW",23,2001,18,4,434,4.8,2,1,3,2,0,0,3,0,0.41,0.21,0.62,0.41,0.62
+ITA-Serie B,2526,Venezia,Michael Svoboda,AUT,DF,26,1998,29,28,2528,28.1,3,2,5,3,0,0,7,0,0.11,0.07,0.18,0.11,0.18
+ITA-Serie B,2526,Venezia,Michael Venturi,ITA,DF,26,1999,8,2,184,2.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Venezia,Nunzio Lella,ITA,MF,25,2000,19,1,307,3.4,0,1,1,0,0,0,0,0,0.0,0.29,0.29,0.0,0.29
+ITA-Serie B,2526,Venezia,Richie Sagrado,BEL,MF,21,2004,29,12,1304,14.5,1,1,2,1,0,0,1,0,0.07,0.07,0.14,0.07,0.14
+ITA-Serie B,2526,Venezia,Ridgeciano Haps,SUR,MF,32,1993,25,13,1222,13.6,5,3,8,5,0,0,6,0,0.37,0.22,0.59,0.37,0.59
+ITA-Serie B,2526,Venezia,Seid Korac,LUX,DF,23,2001,18,11,1046,11.6,1,1,2,1,0,0,1,0,0.09,0.09,0.17,0.09,0.17
+ITA-Serie B,2526,Virtus Entella,Ahmad Benali,LBY,MF,33,1992,10,8,683,7.6,0,1,1,0,0,0,3,0,0.0,0.13,0.13,0.0,0.13
+ITA-Serie B,2526,Virtus Entella,Alessandro Debenedetti,ITA,"FW,MF",21,2003,32,18,1717,19.1,3,0,3,3,0,0,1,0,0.16,0.0,0.16,0.16,0.16
+ITA-Serie B,2526,Virtus Entella,Alessandro Pilati,ITA,DF,25,2000,1,0,18,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Andrea Franzoni,ITA,MF,28,1997,36,33,2875,31.9,6,1,7,3,3,3,4,0,0.19,0.03,0.22,0.09,0.13
+ITA-Serie B,2526,Virtus Entella,Andrea Tiritiello,ITA,DF,30,1995,27,25,2209,24.5,7,0,7,7,0,0,8,1,0.29,0.0,0.29,0.29,0.29
+ITA-Serie B,2526,Virtus Entella,Antonio Boccadamo,ITA,MF,26,1999,10,0,106,1.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,David Akpan Ankeye,NGA,FW,23,2002,9,2,223,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Davide Bariti,ITA,"MF,DF",34,1991,30,18,1528,17.0,1,2,3,1,0,0,4,0,0.06,0.12,0.18,0.06,0.18
+ITA-Serie B,2526,Virtus Entella,Davide Pio Stabile,ITA,FW,20,2004,3,0,14,0.2,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Denis Portanova,ITA,DF,24,2001,7,2,255,2.8,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Federico Del Frate,ITA,GK,29,1995,8,8,720,8.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Flavio Russo,ITA,FW,21,2004,14,5,445,4.9,0,1,1,0,0,0,0,0,0.0,0.2,0.2,0.0,0.2
+ITA-Serie B,2526,Virtus Entella,Francesco Mezzoni,ITA,"MF,DF",25,2000,27,20,1883,20.9,0,1,1,0,0,0,5,0,0.0,0.05,0.05,0.0,0.05
+ITA-Serie B,2526,Virtus Entella,Guiu,ESP,"MF,FW",24,2000,27,20,1608,17.9,2,4,6,2,0,0,4,2,0.11,0.22,0.34,0.11,0.34
+ITA-Serie B,2526,Virtus Entella,Iacopo Lipiani,ITA,MF,24,2001,1,0,2,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Ivan Marconi,ITA,DF,35,1989,35,35,2957,32.9,3,0,3,3,0,0,14,0,0.09,0.0,0.09,0.09,0.09
+ITA-Serie B,2526,Virtus Entella,Leonardo Benedetti,ITA,MF,25,2000,11,9,716,8.0,0,0,0,0,0,0,2,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Lorenzo Moretti,ITA,DF,23,2002,8,4,393,4.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Luca Parodi,ITA,DF,30,1995,37,35,3005,33.4,1,0,1,1,0,0,6,1,0.03,0.0,0.03,0.03,0.03
+ITA-Serie B,2526,Virtus Entella,Luigi Cuppone,ITA,FW,27,1997,18,15,1266,14.1,6,1,7,6,0,0,3,0,0.43,0.07,0.5,0.43,0.5
+ITA-Serie B,2526,Virtus Entella,Marco Dalla Vecchia,ITA,MF,20,2005,32,11,1299,14.4,0,1,1,0,0,0,6,0,0.0,0.07,0.07,0.0,0.07
+ITA-Serie B,2526,Virtus Entella,Marco Nichetti,ITA,MF,28,1996,26,14,1235,13.7,0,0,0,0,0,0,3,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Mattia Alborghetti,ITA,DF,26,1998,19,11,1123,12.5,0,0,0,0,0,0,1,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Mattia Tirelli,ITA,FW,23,2002,15,5,551,6.1,2,0,2,2,0,0,2,0,0.33,0.0,0.33,0.33,0.33
+ITA-Serie B,2526,Virtus Entella,Nermin Karic,SWE,MF,26,1999,35,26,2217,24.6,3,4,7,3,0,0,2,1,0.12,0.16,0.28,0.12,0.28
+ITA-Serie B,2526,Virtus Entella,Niccolò Squizzato,ITA,MF,23,2002,17,13,1125,12.5,0,2,2,0,0,0,6,0,0.0,0.16,0.16,0.0,0.16
+ITA-Serie B,2526,Virtus Entella,Ovidijus Šiaulys,LTU,GK,26,1999,1,0,51,0.6,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Riccardo Turicchia,ITA,MF,22,2003,8,2,226,2.5,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Simone Colombi,ITA,GK,34,1991,30,30,2649,29.4,0,0,0,0,0,0,0,0,0.0,0.0,0.0,0.0,0.0
+ITA-Serie B,2526,Virtus Entella,Stefano Di Mario,ITA,"MF,DF",20,2004,37,36,3158,35.1,0,2,2,0,0,0,9,0,0.0,0.06,0.06,0.0,0.06
+ITA-Serie B,2526,Virtus Entella,Tommaso Del Lungo,ITA,DF,21,2003,9,3,281,3.1,1,1,2,1,0,0,0,0,0.32,0.32,0.64,0.32,0.64
+ITA-Serie B,2526,Virtus Entella,Tommaso Fumagalli,ITA,"FW,MF",25,2000,22,10,930,10.3,1,3,4,1,0,0,1,0,0.1,0.29,0.39,0.1,0.39
