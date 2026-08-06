@@ -48,6 +48,16 @@ const FONTI = [
       },
     ],
   },
+  {
+    gruppo: "Metodologia d'asta",
+    voci: [
+      {
+        nome: "Giosuè Fichera — guida pubblicata sul forum Gruppo Esperti",
+        url: null,
+        cosa: "Strategie di ripartizione budget per numero di partecipanti, catalogazione dei giocatori in \"Slot\", uso di xG/xA per individuare under/overperformer, spiegazione dei modificatori d'asta. Adattato (non riprodotto testualmente) nell'onboarding budget, nel promemoria strategia e nei badge 🔥/⚠️ sulla colonna xG del tool.",
+      },
+    ],
+  },
 ];
 
 export default function Fonti() {
@@ -73,12 +83,16 @@ export default function Fonti() {
               {g.voci.map((v) => (
                 <div className="fonte" key={v.nome}>
                   <span className="k">
-                    <a href={v.url} rel="noopener nofollow" style={{ color: "inherit" }}>
-                      {v.nome}
-                    </a>
+                    {v.url ? (
+                      <a href={v.url} rel="noopener nofollow" style={{ color: "inherit" }}>
+                        {v.nome}
+                      </a>
+                    ) : (
+                      v.nome
+                    )}
                   </span>
                   <span className="v">{v.cosa}</span>
-                  <span className="n">{v.url.replace("https://", "")}</span>
+                  <span className="n">{v.url ? v.url.replace("https://", "") : "forum"}</span>
                 </div>
               ))}
             </div>

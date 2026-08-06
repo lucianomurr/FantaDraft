@@ -78,6 +78,13 @@ export default function Termini() {
               </a>{" "}
               — probabili formazioni 2026/27; gerarchie rigoristi (Gazzetta, rubrica Fantanews)
             </li>
+            <li>
+              <b>Giosuè Fichera</b> (guida pubblicata originariamente sul forum Gruppo
+              Esperti) — strategie di ripartizione budget, catalogazione in &quot;Slot&quot;,
+              uso di xG/xA per individuare under/overperformer, spiegazione dei modificatori
+              d&apos;asta; adattato e non riprodotto testualmente nell&apos;onboarding budget,
+              nel promemoria strategia e nei badge 🔥/⚠️ del tool
+            </li>
           </ul>
           <p className="lede">
             Le probabili formazioni sono opinioni giornalistiche delle rispettive testate,

@@ -29,6 +29,14 @@ scrivi a luciano.murruni@gmail.com: rimozione immediata.
 - **La Gazzetta dello Sport** — https://www.gazzetta.it — formazioni tipo, gerarchie
   rigoristi e consigli per squadra (rubrica Fantanews)
 
+## Metodologia d'asta
+
+- **Giosuè Fichera** (guida pubblicata originariamente sul forum Gruppo Esperti) —
+  strategie di ripartizione budget per numero di partecipanti, concetto di
+  catalogazione "Slot", uso di xG/xA per individuare under/overperformer,
+  spiegazione dei modificatori. Adattato (non riprodotto testualmente) nell'onboarding
+  budget del tool, nel promemoria strategia d'asta e nei badge 🔥/⚠️ sulla colonna xG.
+
 ## Software
 
 - [soccerdata](https://github.com/probberechts/soccerdata) (scraping FBref/Understat)

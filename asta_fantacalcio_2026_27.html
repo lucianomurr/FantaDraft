@@ -110,6 +110,14 @@ tr.out td.name{text-decoration:line-through}
 .legsec{margin-bottom:14px}
 .legsec h4{margin:0 0 6px;font-size:12px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted)}
 .legrow{display:flex;align-items:center;gap:7px;font-size:13px;color:#c3cbdb;padding:3px 0}
+.stratgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(max-width:640px){.stratgrid{grid-template-columns:1fr}}
+.stratcard{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;cursor:pointer;transition:.12s}
+.stratcard:hover{border-color:var(--acc);background:#232d42}
+.stratcard h4{margin:0 0 8px;font-size:13px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.stratpct{display:flex;gap:8px;flex-wrap:wrap;font-size:12px;font-weight:700;margin-bottom:8px}
+.stratcard p{margin:0;font-size:12px;color:var(--muted);line-height:1.45}
+.xgflag{cursor:help;font-size:11px;margin-left:2px}
 details.strat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:0 14px;margin-bottom:12px}
 details.strat summary{cursor:pointer;padding:12px 0;font-weight:700;list-style:none;display:flex;align-items:center;gap:8px}
 details.strat summary::-webkit-details-marker{display:none}
@@ -188,6 +196,10 @@ details.strat[open] .stbody{padding-bottom:14px}
         <div class="stbox"><h4 style="color:var(--a)">⚽ Attacco · ~285 cr</h4>1 super top da 20+ gol e rigori (170-190) + 1 spalla rigorista (60-70) + riempitivi per ruotare col calendario. È il cuore della spesa.</div>
       </div>
       <b>Trucchi:</b> chiama subito top che non ti interessano per far spendere gli altri · evita i duelli a due (lascia salire il prezzo all'avversario) · conserva 5-10 crediti in più per rubare le occasioni finali a 1-2 cr · non inseguire i giocatori a tutti i costi · niente acquisti "del cuore".
+      <div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--line)">
+        <b>Modificatori — cambiano i valori:</b> <b>Difesa</b> premia chi schiera 4 difensori (bonus su media voto dei 3 migliori + portiere) → alza il valore di portieri top e terzini di spinta · <b>Portiere/Imbattibilità</b> bonus per rete inviolata → rende fondamentali i portieri delle big · <b>Centrocampo/Attacco</b> bonus sulla differenza voti di reparto → cerca giocatori che raramente prendono insufficienze · <b>Capitano</b> raddoppia i suoi bonus → vitale avere almeno un top assoluto.
+        <div class="hint" style="margin-top:8px">Strategie di ripartizione budget (vedi onboarding), concetto Slot e modificatori adattati dalla guida di Giosuè Fichera, pubblicata originariamente sul forum Gruppo Esperti.</div>
+      </div>
     </div>
   </details>
 
@@ -269,6 +281,16 @@ let st={};   // id -> {t:tier, tgt:targetPrice, s:status 'free'|'mine'|'out', p:
 let role='ALL', sortKey='f', sortDir=-1;
 
 const DEFAULT_ALLOC={budget:500,P:35,D:75,C:105,A:285};
+// Percentuali per lega da 10 squadre, adattate dalle 3 macro-strategie della guida
+// di Giosuè Fichera (forum Gruppo Esperti) — vedi promemoria strategia nel tool.
+const STRATS={
+  equilibrio:{label:'Equilibrio',P:9,D:15,C:26,A:50,
+    desc:'Nessun all-in estremo: si bilanciano le spese sui 4 reparti. La più vincente nel tempo.'},
+  attacco:{label:'Attacco-centrica',P:5,D:10,C:20,A:65,
+    desc:'65% in attacco per top scorer pesanti; sacrifici netti su porta e difesa. Enormi soddisfazioni, equilibrio precario.'},
+  difesa:{label:'Difensiva',P:12,D:24,C:16,A:48,
+    desc:'Ideale col modificatore Difesa: pilastri arretrati + portiere top. Minimizza i malus, costanti +1/+3 a settimana.'},
+};
 
 function load(){
   try{
@@ -358,7 +380,13 @@ function statCells(p){
   const mtip=`${p.starts} da titolare su ${p.mp} presenze · stagione ${p.sea==='2526'?'2025/26':'2024/25'} · ${p.src.replace(/^[A-Z]+-/,'')}`;
   const vcls=p.val!=null&&p.val>=15?' valhi':'';
   const bet=p.val!=null&&p.val>=50&&p.min<900?`<span class="ballot" title="Val altissimo ma campione piccolo (${p.min} min): forte scommessa" style="cursor:help"> 🎰</span>`:'';
-  const xg=p.xg!=null?`<td class="num statcell" title="npxG ${p.npxg.toFixed(1)} (senza rigori) · ${p.sh} tiri">${p.xg.toFixed(1)}</td>`:'<td class="num nostat">—</td>';
+  let xgFlag='';
+  if(p.xg!=null&&p.min>=900){
+    const diff=p.gls-p.xg;
+    if(diff<=-2) xgFlag=`<span class="xgflag" title="Sottoperformante: ${p.gls} gol su ${p.xg.toFixed(1)} xG — sfortuna passata, possibile rimonta a prezzo scontato">🔥</span>`;
+    else if(diff>=2) xgFlag=`<span class="xgflag" title="Sovraperformante: ${p.gls} gol su ${p.xg.toFixed(1)} xG — occhio a pagarlo come fosse una certezza, rendimento a rischio">⚠️</span>`;
+  }
+  const xg=p.xg!=null?`<td class="num statcell" title="npxG ${p.npxg.toFixed(1)} (senza rigori) · ${p.sh} tiri">${p.xg.toFixed(1)}${xgFlag}</td>`:'<td class="num nostat">—</td>';
   const xa=p.xa!=null?`<td class="num statcell" title="${p.kp} key passes">${p.xa.toFixed(1)}</td>`:'<td class="num nostat">—</td>';
   return `<td class="num statcell">${p.gls}</td>
       <td class="num statcell">${rig}</td>
@@ -551,6 +579,8 @@ function showLegend(){
       <div class="legrow"><span class="bet" style="margin:0">🎲</span> Senza dati (esordiente/scommessa)</div>
       <div class="legrow"><span class="bet inj" style="margin:0">🚑</span> Infortunato (tooltip: prognosi e rientro)</div>
       <div class="legrow">🎰 accanto a Val — indice alto su pochi minuti (forte scommessa)</div>
+      <div class="legrow">🔥 accanto a xG — sottoperformante (gol &lt; xG-2): sfortuna passata, possibile rimonta</div>
+      <div class="legrow">⚠️ accanto a xG — sovraperformante (gol &gt; xG+2): occhio a pagarlo come una certezza</div>
     </div>
     <div class="legsec">
       <h4>Colonna Min — indicatore titolarità</h4>
@@ -572,40 +602,47 @@ function showLegend(){
 function closeLegend(){document.getElementById('legendbg').classList.remove('on');}
 
 function showOnboarding(){
+  const cards=Object.entries(STRATS).map(([key,s])=>`
+    <div class="stratcard" onclick="confirmOnboarding('${key}')">
+      <h4>${s.label}${key==='equilibrio'?' <span class="pill" style="font-size:9px">consigliata</span>':''}</h4>
+      <div class="stratpct">
+        <span style="color:var(--p)">P ${s.P}%</span>
+        <span style="color:var(--d)">D ${s.D}%</span>
+        <span style="color:var(--c)">C ${s.C}%</span>
+        <span style="color:var(--a)">A ${s.A}%</span>
+      </div>
+      <p>${s.desc}</p>
+    </div>`).join('');
   document.getElementById('legendcard').innerHTML=`
     <div class="phead"><h3>⚽ Benvenuto</h3></div>
-    <p class="pmeta" style="font-size:13px">Quanti crediti hai a disposizione per la tua asta? Ridistribuisco il totale
-      sui 4 reparti mantenendo le stesse proporzioni di una lega standard da 500 crediti
-      (Porta 7% · Difesa 15% · Centrocampo 21% · Attacco 57%). Potrai comunque modificare
-      ogni valore dopo, dal pannello "Budget & allocazione".</p>
-    <div style="display:flex;gap:10px;align-items:center;margin:14px 0">
+    <p class="pmeta" style="font-size:13px">Quanti crediti hai per la tua asta, e con che strategia vuoi ripartirli sui
+      4 reparti? Percentuali tarate su una lega da 10 squadre. Potrai comunque modificare ogni
+      valore dopo, dal pannello "Budget &amp; allocazione".</p>
+    <div style="display:flex;gap:10px;align-items:center;margin:14px 0 16px">
       <label class="hint" style="font-size:13px">Crediti totali</label>
       <input id="ob_budget" type="number" min="1" value="500" class="tin" style="width:90px;font-size:15px;padding:8px 10px">
     </div>
-    <div style="display:flex;gap:8px;flex-wrap:wrap">
-      <button class="pri" onclick="confirmOnboarding()">Conferma e distribuisci</button>
-      <button class="ghost" onclick="confirmOnboarding(true)">Usa il default (500)</button>
-    </div>`;
+    <div class="stratgrid">${cards}</div>
+    <div class="hint" style="margin-top:12px">Strategie adattate dalla guida di Giosuè Fichera (forum Gruppo Esperti) — dettagli nel promemoria d'asta.</div>`;
   document.getElementById('legendbg').classList.add('on');
 }
-function confirmOnboarding(useDefault){
-  let budget=DEFAULT_ALLOC.budget;
-  if(!useDefault){
-    const v=+document.getElementById('ob_budget').value;
-    if(v>0) budget=v;
-  }
+function confirmOnboarding(key){
+  const s=STRATS[key]||STRATS.equilibrio;
+  const bi=document.getElementById('ob_budget');
+  let budget=bi?(+bi.value):500;
+  if(!(budget>0)) budget=500;
   cfg.budget=budget;
   let sum=0;
   ROLES.forEach((r,i)=>{
     if(i<ROLES.length-1){
-      const v=Math.round(budget*DEFAULT_ALLOC[r]/DEFAULT_ALLOC.budget);
+      const v=Math.round(budget*s[r]/100);
       cfg[r]=v; sum+=v;
     }
   });
   cfg[ROLES[ROLES.length-1]]=Math.max(0,budget-sum); // ultimo ruolo assorbe l'arrotondamento
   cfgInit();save();renderCards();
   document.getElementById('legendbg').classList.remove('on');
-  toast('Budget impostato: '+budget+' cr distribuiti sui reparti');
+  toast('Budget impostato: '+budget+' cr · strategia '+s.label);
 }
 
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeCard();closeLegend();}});
