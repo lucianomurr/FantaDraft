@@ -67,6 +67,8 @@ tr.out td.name{text-decoration:line-through}
 .pen2{background:rgba(240,180,41,.07);border:1px solid rgba(240,180,41,.3);color:#b9903a;opacity:.85}
 .team{color:var(--muted);font-size:12px}
 .bet.inj{background:rgba(255,93,108,.14);border-color:var(--bad);color:var(--bad)}
+.bet.transfer-in{background:rgba(56,211,159,.14);border-color:var(--acc2);color:var(--acc2)}
+.bet.transfer-out{background:rgba(255,93,108,.14);border-color:var(--bad);color:var(--bad)}
 .bet{display:inline-block;margin-left:6px;font-size:10px;line-height:1;padding:2px 5px;border-radius:6px;vertical-align:middle;cursor:help;background:rgba(139,150,171,.12);border:1px solid var(--line);color:var(--muted)}
 .mindot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px;vertical-align:middle}
 .min-hi{background:var(--good)} .min-mid{background:var(--warn)} .min-lo{background:#4a5266}

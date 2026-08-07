@@ -12,7 +12,6 @@ import {
 } from "react";
 import type {
   FilterState,
-  Player,
   PlayerState,
   RoleAllocation,
   SortState,
@@ -21,7 +20,6 @@ import type {
   TrackingState,
 } from "../lib/types";
 import { DEFAULT_CFG, loadPersisted, savePersisted } from "../lib/storage";
-import { computePresetUpdates } from "../lib/preset";
 
 interface AstaState {
   cfg: RoleAllocation;
@@ -39,7 +37,7 @@ type Action =
   | { type: "SET_TGT"; id: number; tgt: number | null }
   | { type: "SET_PAID"; id: number; paid: number | null }
   | { type: "SET_STATUS"; id: number; status: Status }
-  | { type: "APPLY_PRESET"; updates: Record<number, Tier> }
+  | { type: "APPLY_COMPUTED_PRESET"; tierMap: Record<number, Tier>; resetFirst: boolean }
   | { type: "RESET_LIVE" }
   | { type: "RESET_ALL" }
   | { type: "IMPORT"; cfg: RoleAllocation; st: TrackingState }
@@ -94,14 +92,23 @@ function reducer(state: AstaState, action: Action): AstaState {
       const p = action.status !== "mine" ? null : cur.p;
       return { ...state, st: { ...state.st, [action.id]: { ...cur, s: action.status, p } } };
     }
-    case "APPLY_PRESET": {
-      const st = { ...state.st };
-      for (const [idStr, tier] of Object.entries(action.updates)) {
-        const id = Number(idStr);
-        const cur = ensurePlayerState(st, id);
-        st[id] = { ...cur, t: tier };
+    case "APPLY_COMPUTED_PRESET": {
+      let st = state.st;
+      if (action.resetFirst) {
+        st = {};
+        for (const [id, s] of Object.entries(state.st)) {
+          st[Number(id)] = { ...s, t: null };
+        }
       }
-      return { ...state, st };
+      const next = { ...st };
+      for (const [idStr, tier] of Object.entries(action.tierMap)) {
+        const id = Number(idStr);
+        const cur = ensurePlayerState(next, id);
+        if (action.resetFirst || !cur.t) {
+          next[id] = { ...cur, t: tier };
+        }
+      }
+      return { ...state, st: next };
     }
     case "RESET_LIVE": {
       const st: TrackingState = {};
@@ -141,7 +148,7 @@ interface AstaContextValue {
   setTgt: (id: number, tgt: number | null) => void;
   setPaid: (id: number, paid: number | null) => void;
   setStatus: (id: number, status: Status) => void;
-  applyPreset: (players: Player[]) => void;
+  applyComputedPreset: (tierMap: Record<number, Tier>, resetFirst: boolean) => void;
   resetLive: () => void;
   resetAll: () => void;
   importState: (cfg: RoleAllocation, st: TrackingState) => void;
@@ -201,14 +208,17 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
         dispatch({ type: "SET_STATUS", id, status });
         if (status === "mine") toast("Preso! Inserisci il prezzo pagato.");
       },
-      applyPreset: (players) => {
-        const { updates, count } = computePresetUpdates(players, state.st);
+      applyComputedPreset: (tierMap, resetFirst) => {
+        const ids = Object.keys(tierMap).map(Number);
+        const count = resetFirst ? ids.length : ids.filter((id) => !state.st[id]?.t).length;
         if (count === 0) {
-          toast("Nessuna fascia vuota da riempire (il preset non sovrascrive le tue scelte)");
+          toast("Nessuna fascia da aggiornare con questi parametri (spunta \"azzera\" per sovrascrivere)");
           return;
         }
-        dispatch({ type: "APPLY_PRESET", updates });
-        toast("Preset applicato a " + count + " giocatori");
+        dispatch({ type: "APPLY_COMPUTED_PRESET", tierMap, resetFirst });
+        toast(
+          `Preset applicato a ${count} giocatori` + (resetFirst ? " (fasce azzerate prima)" : ""),
+        );
       },
       resetLive: () => {
         dispatch({ type: "RESET_LIVE" });

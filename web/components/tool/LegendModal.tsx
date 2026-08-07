@@ -70,6 +70,18 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
           </span>{" "}
           Infortunato (tooltip: prognosi e rientro)
         </div>
+        <div className="legrow">
+          <span className="bet transfer-in" style={{ margin: 0 }}>
+            🆕
+          </span>{" "}
+          Nuovo arrivo nella squadra (tooltip: da dove e quando)
+        </div>
+        <div className="legrow">
+          <span className="bet transfer-out" style={{ margin: 0 }}>
+            🚪
+          </span>{" "}
+          Ceduto/svincolato ma ancora nel listone alla vecchia squadra — verifica prima di puntarci
+        </div>
         <div className="legrow">🎰 accanto a Val — indice alto su pochi minuti (forte scommessa)</div>
         <div className="legrow">🔥 accanto a xG — sottoperformante (gol &lt; xG-2): sfortuna passata, possibile rimonta</div>
         <div className="legrow">⚠️ accanto a xG — sovraperformante (gol &gt; xG+2): occhio a pagarlo come una certezza</div>

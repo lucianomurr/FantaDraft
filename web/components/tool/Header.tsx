@@ -2,16 +2,15 @@
 
 import { useRef } from "react";
 import { useAsta } from "../../contexts/AstaContext";
-import type { Player } from "../../lib/types";
 
 export function Header({
-  players,
   onShowLegend,
+  onShowPreset,
 }: {
-  players: Player[];
   onShowLegend: () => void;
+  onShowPreset: () => void;
 }) {
-  const { cfg, st, applyPreset, resetLive, resetAll, importState, toast } = useAsta();
+  const { cfg, st, resetLive, resetAll, importState, toast } = useAsta();
   const fileRef = useRef<HTMLInputElement>(null);
 
   function exportData() {
@@ -64,7 +63,7 @@ export function Header({
           style={{ display: "none" }}
           onChange={onFileChange}
         />
-        <button className="ghost sm" onClick={() => applyPreset(players)}>
+        <button className="ghost sm" onClick={onShowPreset}>
           ✨ Preset fasce
         </button>
         <button className="ghost sm" onClick={onShowLegend}>

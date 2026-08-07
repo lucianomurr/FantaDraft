@@ -9,6 +9,58 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (07/08/2026): preset fasce interattivo (modale)
+Il bottone "✨ Preset fasce" nel tool React ora apre una modale (`web/components/
+tool/PresetModal.tsx`) invece di applicare direttamente il campo statico `pt`.
+Calcolo interamente client-side in `web/lib/preset.ts` (`computeLivePreset`),
+stessa formula di `scripts/preset_fasce.py` ma con parametri regolabili dall'utente:
+- **peso titolarità** (slider 0-0.30, default 0.15): quanto la titolarità (0-5
+  fonti) pesa nel punteggio = FVM×(0,55+peso×tit)+bonus rigorista
+- **aggressività soglie R/X** (slider 0.5-2×, default 1×): scala le soglie FVM
+  per Riserva (titolari economici) ed Evita (trappole costose non titolari)
+- **quote F1-F4 per ruolo**: tabella editabile 4 ruoli × 4 fasce (default =
+  QUOTA di preset_fasce.py: P 3/4/5/0, D 5/7/8/8, C 5/7/8/8, A 4/6/8/8)
+- checkbox **"azzera le fasce attuali prima di applicare"**: di default il preset
+  tocca solo i giocatori senza fascia (comportamento storico); se spuntata,
+  sovrascrive tutte le fasce esistenti
+
+Anteprima live (conteggio giocatori per fascia) ricalcolata a ogni modifica dei
+parametri, prima di confermare. Bottoni Applica/Annulla. Il campo statico `pt`
+in players_pen.json resta usato SOLO dall'export HTML standalone (che ha ancora
+il vecchio bottone one-click, non è stato portato lì per scope/tempo — se si
+vuole parità va fatto un port separato del modale in JS vanilla).
+
+## FATTO (07/08/2026): ultimi trasferimenti da API-Football
+Chiave dell'utente in `web/.env.local` (`API_FOOTBALL=...`, piano free: 100
+richieste/giorno, ~10/minuto — solo uso offline via script, MAI chiamate live dal
+sito). Endpoint `/transfers?team={id}` NON è vincolato alla restrizione stagionale
+del piano free (a differenza di `/teams`/`/players`/`/fixtures`, limitati a stagioni
+2022-2024): dà lo storico completo trasferimenti, incluso il mercato estate 2026.
+20 ID squadra Serie A 2026/27 hardcoded in `scripts/get_transfers.py` (TEAM_IDS).
+
+Pipeline: `scripts/get_transfers.py` (fetch, cache in `transfers_raw.json`, filtro
+finestra >= 2026-05-01, output `transfers.json`) poi `scripts/merge_transfers.py`
+(matching cognome contro players_pen.json, campo `transfer`:
+`{dir:"in"|"out", date, from|to, type}`). dir="in" = arrivo confermato nella
+squadra listata; dir="out" = **ceduto/prestato da una squadra in cui il listone lo
+elenca ancora** (segnale di listone non aggiornato, warning importante pre-asta).
+
+ATTENZIONE bug dati API-Football: per gli svincolati a volte `teams.in` non è
+`null` ma `{id:null, name:"<Cognome Nome del giocatore>"}` — get_transfers.py lo
+rileva (`id is None`) e normalizza a "Svincolato", altrimenti sembra un trasferimento
+verso una squadra che in realtà è il nome del giocatore stesso.
+
+Nel tool: badge 🆕 (verde, arrivo) / 🚪 (rosso, cessione da verificare) accanto al
+nome, riga dedicata nella scheda giocatore, voci in legenda. Portato sia nel tool
+React (`web/lib/transfers.ts` + componenti) sia nell'export HTML standalone
+(stesse funzioni JS duplicate inline, vedi nota sotto su sincronizzazione).
+
+Refresh: rilanciare `get_transfers.py` (cancella prima `transfers_raw.json` se si
+vuole rifetchare da zero, altrimenti usa la cache) + `merge_transfers.py`, poi
+propagare come da procedura standard (copia in `web/data/players.json` e
+rigenera l'HTML). Il segnale è più utile vicino all'asta (2-3 settembre): finestra
+`WINDOW_START` in get_transfers.py da aggiornare se si rifà il fetch molto dopo.
+
 ## FATTO (07/08/2026): refactor in React/TypeScript
 Il tool LIVE ora è `web/app/tool/page.tsx` + componenti in `web/components/tool/`,
 logica pura in `web/lib/` (budget.ts, filters.ts, storage.ts, strategies.ts,

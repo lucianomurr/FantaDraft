@@ -2,6 +2,7 @@
 
 import { useAsta } from "../../contexts/AstaContext";
 import { xgFlag, isSmallSampleBet } from "../../lib/scoring";
+import { transferTooltip } from "../../lib/transfers";
 import type { DerivedPlayer, Tier } from "../../lib/types";
 
 const RMAP: Record<string, string> = { P: "rP", D: "rD", C: "rC", A: "rA" };
@@ -125,6 +126,16 @@ export function PlayerRow({
         {p.inj && (
           <span className="bet inj" title={`${p.inj.d} — rientro: ${p.inj.r}`}>
             🚑
+          </span>
+        )}
+        {p.transfer?.dir === "in" && (
+          <span className="bet transfer-in" title={transferTooltip(p.transfer, p.s)}>
+            🆕
+          </span>
+        )}
+        {p.transfer?.dir === "out" && (
+          <span className="bet transfer-out" title={transferTooltip(p.transfer, p.s)}>
+            🚪
           </span>
         )}
       </td>

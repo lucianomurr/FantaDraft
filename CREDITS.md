@@ -29,6 +29,12 @@ scrivi a luciano.murruni@gmail.com: rimozione immediata.
 - **La Gazzetta dello Sport** — https://www.gazzetta.it — formazioni tipo, gerarchie
   rigoristi e consigli per squadra (rubrica Fantanews)
 
+## Trasferimenti
+
+- **API-Football** (api-football.com / API-Sports) — https://www.api-football.com —
+  ultimi trasferimenti delle 20 squadre di Serie A 2026/27 (arrivi ed eventuali
+  cessioni non ancora riflesse nel listone), piano gratuito.
+
 ## Metodologia d'asta
 
 - **Giosuè Fichera** (guida pubblicata originariamente sul forum Gruppo Esperti) —

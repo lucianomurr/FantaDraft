@@ -46,6 +46,15 @@ export interface Player {
   sh?: number;
   kp?: number;
   inj?: { d: string; r: string } | null;
+  transfer?: TransferEvent | null;
+}
+
+export interface TransferEvent {
+  dir: "in" | "out";
+  date: string; // YYYY-MM-DD
+  from?: string; // presente se dir === "in"
+  to?: string; // presente se dir === "out"
+  type: string; // "Transfer" | "Loan" | "Free" | "Free agent" | "Return from loan" | ...
 }
 
 /** Player enriched at runtime with derived, non-persisted fields. */

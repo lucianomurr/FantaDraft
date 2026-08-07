@@ -79,6 +79,11 @@ export default function Termini() {
               — probabili formazioni 2026/27; gerarchie rigoristi (Gazzetta, rubrica Fantanews)
             </li>
             <li>
+              <a href="https://www.api-football.com" rel="noopener nofollow">API-Football</a>{" "}
+              (API-Sports, piano gratuito) — ultimi trasferimenti delle 20 squadre di Serie A
+              2026/27
+            </li>
+            <li>
               <b>Giosuè Fichera</b> (guida pubblicata originariamente sul forum Gruppo
               Esperti) — strategie di ripartizione budget, catalogazione in &quot;Slot&quot;,
               uso di xG/xA per individuare under/overperformer, spiegazione dei modificatori

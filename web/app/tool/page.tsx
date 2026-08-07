@@ -15,6 +15,7 @@ import { FilterBar } from "../../components/tool/FilterBar";
 import { PlayersTable } from "../../components/tool/PlayersTable";
 import { PlayerCardModal } from "../../components/tool/PlayerCardModal";
 import { LegendModal } from "../../components/tool/LegendModal";
+import { PresetModal } from "../../components/tool/PresetModal";
 import { OnboardingModal } from "../../components/tool/OnboardingModal";
 import { ToastHost } from "../../components/tool/ToastHost";
 
@@ -41,6 +42,7 @@ function ToolInner() {
   }, [derived, st, filters, sort, numFormSources]);
 
   const [legendOpen, setLegendOpen] = useState(false);
+  const [presetOpen, setPresetOpen] = useState(false);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
   const onboardingShown = useRef(false);
@@ -71,7 +73,7 @@ function ToolInner() {
 
   return (
     <div className="tool-wrap">
-      <Header players={PLAYERS} onShowLegend={() => setLegendOpen(true)} />
+      <Header onShowLegend={() => setLegendOpen(true)} onShowPreset={() => setPresetOpen(true)} />
 
       <BudgetPanel players={PLAYERS} />
 
@@ -93,6 +95,7 @@ function ToolInner() {
 
       <PlayerCardModal player={selectedPlayer} numFormSources={numFormSources} onClose={() => setSelectedId(null)} />
       <LegendModal open={legendOpen} onClose={() => setLegendOpen(false)} />
+      <PresetModal players={PLAYERS} open={presetOpen} onClose={() => setPresetOpen(false)} />
       <OnboardingModal open={onboardingOpen} onClose={() => setOnboardingOpen(false)} />
       <ToastHost />
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { NAT } from "../../lib/nations";
+import { transferTypeLabel, formatTransferDate } from "../../lib/transfers";
 import type { DerivedPlayer } from "../../lib/types";
 import { ModalShell } from "./ModalShell";
 
@@ -55,6 +56,19 @@ function PlayerCardBody({
       {p.inj && (
         <div className="pmeta" style={{ color: "var(--bad)" }}>
           🚑 {p.inj.d} — rientro: {p.inj.r}
+        </div>
+      )}
+      {p.transfer?.dir === "in" && (
+        <div className="pmeta" style={{ color: "var(--acc2)" }}>
+          🆕 Arrivato da {p.transfer.from} il {formatTransferDate(p.transfer.date)} (
+          {transferTypeLabel(p.transfer.type)})
+        </div>
+      )}
+      {p.transfer?.dir === "out" && (
+        <div className="pmeta" style={{ color: "var(--bad)" }}>
+          🚪 Il listone lo ha ancora a {p.s}, ma risulta ceduto a {p.transfer.to} il{" "}
+          {formatTransferDate(p.transfer.date)} ({transferTypeLabel(p.transfer.type)}) —
+          verifica prima di puntarci
         </div>
       )}
       <div className="pgrid">

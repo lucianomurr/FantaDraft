@@ -49,6 +49,16 @@ const FONTI = [
     ],
   },
   {
+    gruppo: "Trasferimenti",
+    voci: [
+      {
+        nome: "API-Football (API-Sports)",
+        url: "https://www.api-football.com",
+        cosa: "Ultimi trasferimenti delle 20 squadre di Serie A 2026/27 — arrivi ed eventuali cessioni non ancora riflesse nel listone. Piano gratuito.",
+      },
+    ],
+  },
+  {
     gruppo: "Metodologia d'asta",
     voci: [
       {
