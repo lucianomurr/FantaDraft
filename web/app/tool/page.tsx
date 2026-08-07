@@ -90,7 +90,7 @@ function ToolInner() {
         ufficiali 2026/27 · Fonti: quotazioni e infortunati fantacalcio.it · statistiche FBref
         (Sports Reference) · xG/xA Understat · formazioni SOS Fanta, FantaMaster, Eurosport,
         Goal, Gazzetta · rigoristi Gazzetta — progetto amatoriale gratuito non affiliato alle
-        testate citate · <a href="/download/FantaDraft2027.html" download>Scarica la versione file singolo (offline)</a>
+        testate citate
       </div>
 
       <PlayerCardModal player={selectedPlayer} numFormSources={numFormSources} onClose={() => setSelectedId(null)} />

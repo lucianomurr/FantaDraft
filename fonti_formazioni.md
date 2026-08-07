@@ -3,11 +3,9 @@
 Procedura (dalla root del progetto): rifare il fetch di TUTTE le fonti sotto,
 ricostruire `formazioni_src.json` (stesso formato: sources[].teams.{squadra}.{mod,xi[11],ball[][]}), poi:
     python3 scripts/build_formazioni.py   # ricalcola tit/ball + formazioni.json
-    python3 scripts/preset_fasce.py       # (opzionale) ricalcola preset pt
-    # poi rigenerare const PLAYERS e const FORMS nell'HTML (vedi CLAUDE.md)
-    cp players_pen.json web/data/players.json     # 07/08/2026: il tool live è React, legge da qui
+    python3 scripts/preset_fasce.py       # (opzionale) ricalcola preset pt di riferimento
+    cp players_pen.json web/data/players.json     # il tool live legge da qui
     cp formazioni.json web/data/formazioni.json
-    cp asta_fantacalcio_2026_27.html web/public/download/FantaDraft2027.html  # export offline
 
 ## Fonti già usate (06/08/2026)
 - SOS Fanta: https://www.sosfanta.com/asta-fantacalcio/seriea-tutte-formazioni-tipo-fantacalcio-2026-2027-asta-consigli-chi-prendere/

@@ -126,7 +126,7 @@ export default function Fonti() {
           </p>
           <p className="lede">
             Sei il titolare di una fonte e vuoi rimozione o attribuzione diversa?{" "}
-            <a href="https://github.com/lucianomurr/asta-fantacalcio/issues" rel="noopener">
+            <a href="https://github.com/lucianomurr/FantaDraft/issues" rel="noopener">
               Apri una issue su GitHub
             </a>{" "}
             — rimozione immediata.

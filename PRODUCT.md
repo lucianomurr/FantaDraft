@@ -12,12 +12,11 @@ Next.js (App Router) in `web/`, deploy su Vercel free tier (scelta utente).
 Il tool (`/tool`) è un'app React/TypeScript componentizzata (refactor 07/08/2026):
 logica pura in `web/lib/`, stato in `web/contexts/AstaContext.tsx` (useReducer +
 localStorage), componenti in `web/components/tool/`, dati in `web/data/*.json`
-(copiati da `players_pen.json`/`formazioni.json` alla radice). Il file HTML
-single-file originale (`asta_fantacalcio_2026_27.html`, radice repo) resta come
-export scaricabile per uso offline zero-dipendenze (`web/public/download/`,
-link in fondo al tool) — non è più il codice vivo. Email: tratto.email via API
-route server-side (chiave in env `TRATTO_KEY`). Analytics: Google Analytics
-(`NEXT_PUBLIC_GA_ID`).
+(copiati da `players_pen.json`/`formazioni.json` alla radice). L'export HTML
+single-file è stato rimosso (07/08/2026): manteneva doppiamente ogni feature e
+aveva già iniziato a divergere (mancava la modale preset interattiva); l'unico
+codice vivo ora è l'app web. Email: tratto.email via API route server-side
+(chiave in env `TRATTO_KEY`). Analytics: Google Analytics (`NEXT_PUBLIC_GA_ID`).
 
 ## Users
 
@@ -34,11 +33,12 @@ con la rosa voluta senza sforare il budget.
 
 ## Positioning
 
-L'unico tool d'asta single-file (apri l'HTML e funziona, zero installazioni, dati tuoi
-in localStorage) che incrocia: quotazioni ufficiali + FVM, statistiche reali
-FBref + Understat (xG/xA inclusi), probabili formazioni aggregate da 5 fonti,
-gerarchie rigoristi (Gazzetta), infortunati con prognosi, e un indice di convenienza
-(Val) trasparente. Completamente free, nessun account.
+Un tool d'asta gratuito (zero account, dati tuoi in localStorage) che incrocia:
+quotazioni ufficiali + FVM, statistiche reali FBref + Understat (xG/xA inclusi),
+probabili formazioni aggregate da 5 fonti, gerarchie rigoristi (Gazzetta),
+infortunati con prognosi, ultimi trasferimenti (API-Football), e un indice di
+convenienza (Val) trasparente — con un preset fasce interattivo che l'utente
+può ritarare sui propri criteri, non un algoritmo a scatola chiusa.
 
 ## Operating Context
 
@@ -48,10 +48,11 @@ tracking acquisti in tempo reale. Stato salvato in localStorage + backup/riprist
 
 ## Capabilities and Constraints
 
-- Tool: dashboard budget per reparto, fasce 1/2/3/4/R/X con preset data-driven,
-  colonne statistiche ordinabili (G, Rig, A, xG, xA, Min, Val, Tit), scheda giocatore,
-  pannello probabili formazioni 5 fonti, badge rigoristi/infortunati/scommesse.
-- Dati incorporati nell'HTML (const PLAYERS/FORMS): aggiornarli = rigenerare il file.
+- Tool: dashboard budget per reparto, fasce 1/2/3/4/R/X con preset interattivo
+  (modale con parametri regolabili), colonne statistiche ordinabili (G, Rig, A,
+  xG, xA, Min, Val, Tit), scheda giocatore, pannello probabili formazioni 5 fonti,
+  badge rigoristi/infortunati/scommesse/trasferimenti.
+- Dati in `web/data/*.json`: aggiornarli = ricopiare da `players_pen.json`/`formazioni.json`.
 - xG/xA non disponibili per la Serie B (Understat non la copre).
 - Landing: raccolta email SOLO per avvisare di nuove versioni del tool; niente spam,
   niente account, tutto gratuito. GDPR: tratto.email è EU-hosted.
@@ -61,13 +62,15 @@ tracking acquisti in tempo reale. Stato salvato in localStorage + backup/riprist
 
 Nome pubblico: **FantaDraft2027** (deciso 06/08/2026). Tono: da fantallenatore per
 fantallenatori, concreto, zero hype ingiustificato. Gratuito e open source
-(github.com/lucianomurr/asta-fantacalcio) come parte dell'identità.
+(github.com/lucianomurr/FantaDraft) come parte dell'identità.
 
 ## Evidence on Hand
 
-- Il tool funzionante: `asta_fantacalcio_2026_27.html` (493 giocatori, 445 con stat).
+- Il tool funzionante: `web/app/tool/page.tsx` + `players_pen.json` (493 giocatori,
+  445 con stat).
 - Numeri veri citabili in landing: 493 giocatori, 5 fonti formazioni, 2 stagioni di
-  statistiche, xG/xA Understat, 20 infortunati tracciati, 20 gerarchie rigoristi.
+  statistiche, xG/xA Understat, 20 infortunati tracciati, 20 gerarchie rigoristi,
+  106 trasferimenti confermati (finestra estate 2026).
 - NON esistono: testimonial, utenti attivi, casi studio. Non inventarli.
 
 ## Product Principles

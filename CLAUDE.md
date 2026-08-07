@@ -9,6 +9,15 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (07/08/2026): rimosso l'export HTML standalone
+`asta_fantacalcio_2026_27.html` e `web/public/download/FantaDraft2027.html` sono
+stati eliminati (git rm) insieme al link "scarica file singolo" nel footer del
+tool. Motivo: dopo il preset fasce interattivo l'HTML avrebbe richiesto un porting
+manuale di ogni feature per restare a parità (già indietro, non aveva la modale
+preset) — mantenerlo sincronizzato costava più di quanto valesse offrirlo. L'unico
+codice vivo è `web/`. Se in futuro serve di nuovo un export offline, valutare un
+build step automatico (es. Puppeteer/inlining) invece di duplicare a mano il codice.
+
 ## FATTO (07/08/2026): preset fasce interattivo (modale)
 Il bottone "✨ Preset fasce" nel tool React ora apre una modale (`web/components/
 tool/PresetModal.tsx`) invece di applicare direttamente il campo statico `pt`.
@@ -77,10 +86,10 @@ Se modifichi la UI del tool: edita i file in `web/`, NON l'HTML — l'HTML si
 rigenera solo per l'export, non è più la sorgente.
 
 ## File del progetto
-- `asta_fantacalcio_2026_27.html` — export single-file del tool (uso offline), NON il
-  codice vivo. Stato salvato in localStorage (chiave `fanta_asta_2627_v1`) +
-  Backup/Ripristino JSON. Dati dei giocatori embeddati come costante JS `PLAYERS`.
-- `players_pen.json` — i 493 giocatori con il flag rigoristi. Sorgente dei dati del tool.
+- `web/` — codice vivo del tool (React/Next.js) e della landing. Stato salvato in
+  localStorage (chiave `fanta_asta_2627_v1`) + Backup/Ripristino JSON.
+- `players_pen.json` — i 493 giocatori con il flag rigoristi. Sorgente dei dati del tool
+  (copiata in `web/data/players.json` a ogni aggiornamento, vedi fonti_formazioni.md).
 - `scripts/` — script Python (soccerdata, merge, formazioni, preset). Vedi sotto.
 - `build_tool.py` NON è incluso: il tool si modifica direttamente nell'HTML, oppure si
   rigenera. Se serve rigenerare, i dati partono da `players_pen.json` (ordinati per

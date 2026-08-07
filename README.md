@@ -3,10 +3,7 @@
 Zero account: apri il tool nel browser e prepari l'asta coi numeri. Completamente
 **gratuito e open source**.
 
-**➡️ Tool: `/tool` sulla landing** (app React componentizzata) — oppure, per uso
-offline zero-dipendenze, scarica il file HTML singolo da `/download/FantaDraft2027.html`
-sulla landing, o apri direttamente `asta_fantacalcio_2026_27.html` da questo repo
-(stessa UI, dati incorporati, generato dagli stessi script — non più il codice vivo).
+**➡️ Tool: `/tool` sulla landing** (app React/Next.js).
 
 ## Cosa fa
 
@@ -20,7 +17,9 @@ sulla landing, o apri direttamente `asta_fantacalcio_2026_27.html` da questo rep
 - **Ultimi trasferimenti** (API-Football): badge 🆕 per i nuovi arrivi, 🚪 quando il
   listone ha ancora un giocatore ceduto/prestato altrove — occhio prima di puntarci
 - **Val**: indice di convenienza trasparente = (3×gol + assist) / FVM × 100
-- **Preset fasce** data-driven + fasce personali 1/2/3/4/R/X con prezzi target
+- **Preset fasce interattivo**: modale con parametri regolabili (peso titolarità,
+  aggressività soglie R/X, quote per ruolo) e anteprima live + fasce personali
+  1/2/3/4/R/X con prezzi target
 - **Asta live**: tracking acquisti, budget residuo per reparto, massima offerta sostenibile
 - Scheda giocatore (età, nazionalità, storico stagioni), badge 🎲 scommesse e 🎰 campioni piccoli
 - Stato in localStorage + Backup/Ripristino JSON: i dati restano tuoi
@@ -29,8 +28,7 @@ sulla landing, o apri direttamente `asta_fantacalcio_2026_27.html` da questo rep
 
 | Percorso | Cosa |
 |---|---|
-| `asta_fantacalcio_2026_27.html` | Export single-file del tool (dati embeddati, uso offline) |
-| `players_pen.json` | Dataset giocatori arricchito (stat, formazioni, rigoristi, infortuni) |
+| `players_pen.json` | Dataset giocatori arricchito (stat, formazioni, rigoristi, infortuni, trasferimenti) |
 | `scripts/serie_a_stats.py` / `scripts/get_understat.py` | Scaricano le statistiche (FBref Big5+B, Understat) |
 | `scripts/merge_stats.py` / `merge_understat.py` / `merge_infortuni.py` / `align_pen.py` | Merge dati nel dataset |
 | `scripts/build_formazioni.py` / `formazioni_src.json` | Aggregazione probabili formazioni |
@@ -50,12 +48,8 @@ Python 3 + `pip install soccerdata pandas`, eseguito dalla root del progetto (gl
 script in `scripts/` scrivono i CSV/JSON lì). Dopo il merge, per propagare i dati:
 
 ```bash
-# 1. copia i dataset aggiornati nell'app
 cp players_pen.json web/data/players.json
 cp formazioni.json web/data/formazioni.json
-
-# 2. rigenera anche l'export single-file (regen const PLAYERS/FORMS nell'HTML, vedi CLAUDE.md)
-cp asta_fantacalcio_2026_27.html web/public/download/FantaDraft2027.html
 ```
 
 ## Landing + tool (web/)

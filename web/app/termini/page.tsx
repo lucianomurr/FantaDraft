@@ -22,7 +22,7 @@ export default function Termini() {
           <p className="lede">
             FantaDraft2027 (&quot;il tool&quot;) è un progetto amatoriale, <b>gratuito e open
             source</b> (licenza MIT, codice su{" "}
-            <a href="https://github.com/lucianomurr/asta-fantacalcio" rel="noopener">GitHub</a>),
+            <a href="https://github.com/lucianomurr/FantaDraft" rel="noopener">GitHub</a>),
             per la preparazione e la gestione dell&apos;asta del fantacalcio. Non ha scopo di
             lucro, non contiene pubblicità e non richiede registrazione.
           </p>
@@ -101,7 +101,7 @@ export default function Termini() {
           <p className="lede">
             Se sei il titolare di una fonte e ritieni che l&apos;uso dei dati o
             l&apos;attribuzione non siano corretti,{" "}
-            <a href="https://github.com/lucianomurr/asta-fantacalcio/issues" rel="noopener">
+            <a href="https://github.com/lucianomurr/FantaDraft/issues" rel="noopener">
               apri una issue su GitHub
             </a>{" "}
             o scrivi a luciano.murruni@gmail.com: i contenuti segnalati verranno rimossi o

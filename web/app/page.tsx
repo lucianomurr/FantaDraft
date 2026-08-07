@@ -151,9 +151,9 @@ export default function Home() {
             <span className="accent">Esci con la rosa che volevi.</span>
           </h1>
           <p className="sub">
-            Tool <b>gratuito e open source</b> per l&apos;asta del fantacalcio Serie A 2026/27:
-            un solo file HTML con <b>493 giocatori</b>, statistiche reali di due stagioni,
-            probabili formazioni da 5 fonti, rigoristi, infortunati e budget live.
+            Tool <b>gratuito e open source</b> per l&apos;asta del fantacalcio Serie A 2026/27:{" "}
+            <b>493 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
+            da 5 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live.
             Niente account, niente installazioni: lo apri e funziona.
           </p>
 
@@ -170,7 +170,7 @@ export default function Home() {
             </a>
             <a
               className="btn ghost"
-              href="https://github.com/lucianomurr/asta-fantacalcio"
+              href="https://github.com/lucianomurr/FantaDraft"
               rel="noopener"
             >
               Codice su GitHub
@@ -235,6 +235,14 @@ export default function Home() {
                 niente non ti costa più 40 crediti.
               </span>
               <span className="n">aggiornati pre-asta</span>
+            </div>
+            <div className="fonte">
+              <span className="k">Ultimi trasferimenti</span>
+              <span className="v">
+                Badge quando il listone ha ancora un giocatore ceduto o in prestito altrove:
+                capita più spesso di quanto pensiate, specie a ridosso dell&apos;asta.
+              </span>
+              <span className="n">106 arrivi tracciati</span>
             </div>
           </div>
         </div>
@@ -306,7 +314,7 @@ export default function Home() {
               <div>
                 <h3>Apri il tool nel browser</h3>
                 <p>
-                  Un file HTML, zero dipendenze. Tutto quello che segni resta{" "}
+                  Nessuna installazione. Tutto quello che segni resta{" "}
                   <b>sul tuo computer</b>: localStorage più backup/ripristino JSON.
                 </p>
               </div>
@@ -315,9 +323,10 @@ export default function Home() {
               <div>
                 <h3>Prepara le fasce sui numeri</h3>
                 <p>
-                  Parti dal <b>preset automatico</b> (FVM pesato per titolarità e rigori) e
-                  raffinalo: fasce 1–4, riserve da un credito, la lista X dei nomi da evitare
-                  perché costano da titolari ma partono riserve.
+                  Parti dal <b>preset regolabile</b> (peso della titolarità, aggressività
+                  delle soglie, quote per ruolo — decidi tu) e raffinalo a mano: fasce 1–4,
+                  riserve da un credito, la lista X dei nomi da evitare perché costano da
+                  titolari ma partono riserve.
                 </p>
               </div>
             </div>
@@ -355,7 +364,7 @@ export default function Home() {
         <div className="wrap frow">
           <span>
             FantaDraft2027 — gratuito e open source ·{" "}
-            <a href="https://github.com/lucianomurr/asta-fantacalcio" rel="noopener">
+            <a href="https://github.com/lucianomurr/FantaDraft" rel="noopener">
               GitHub
             </a>
           </span>
