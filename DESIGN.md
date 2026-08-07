@@ -1,7 +1,10 @@
 # Design — FantaDraft2027 (landing + tool)
 
 Mondo visivo unico: "la notte dell'asta" — il cruscotto scuro del tool esteso alla landing.
-Sorgente di verità: `web/app/globals.css` (landing) e `<style>` in `asta_fantacalcio_2026_27.html` (tool).
+Sorgente di verità: `web/app/globals.css` (landing) e `web/app/tool/tool.css` (tool,
+dal 07/08/2026 — prima era il `<style>` inline dell'HTML, ora portato 1:1 nel CSS
+dell'app React; l'export single-file mantiene comunque il proprio `<style>` identico
+per restare autosufficiente offline).
 
 ## Token
 

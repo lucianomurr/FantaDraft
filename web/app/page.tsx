@@ -165,7 +165,7 @@ export default function Home() {
           </div>
 
           <div className="ctarow">
-            <a className="btn pri" href="/tool/">
+            <a className="btn pri" href="/tool">
               Apri il tool
             </a>
             <a

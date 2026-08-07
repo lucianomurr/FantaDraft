@@ -9,9 +9,15 @@ web
 ## Stack
 
 Next.js (App Router) in `web/`, deploy su Vercel free tier (scelta utente).
-Il tool vero e proprio resta un single-file HTML statico (`asta_fantacalcio_2026_27.html`),
-servito dalla app come pagina statica. Email: tratto.email via API route server-side
-(chiave in env `TRATTO_KEY`). Analytics: Google Analytics (`NEXT_PUBLIC_GA_ID`).
+Il tool (`/tool`) è un'app React/TypeScript componentizzata (refactor 07/08/2026):
+logica pura in `web/lib/`, stato in `web/contexts/AstaContext.tsx` (useReducer +
+localStorage), componenti in `web/components/tool/`, dati in `web/data/*.json`
+(copiati da `players_pen.json`/`formazioni.json` alla radice). Il file HTML
+single-file originale (`asta_fantacalcio_2026_27.html`, radice repo) resta come
+export scaricabile per uso offline zero-dipendenze (`web/public/download/`,
+link in fondo al tool) — non è più il codice vivo. Email: tratto.email via API
+route server-side (chiave in env `TRATTO_KEY`). Analytics: Google Analytics
+(`NEXT_PUBLIC_GA_ID`).
 
 ## Users
 

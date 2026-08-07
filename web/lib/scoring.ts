@@ -1,0 +1,33 @@
+import type { Player, DerivedPlayer } from "./types";
+
+/** Val = bonus attesi (3×gol + assist) per 100 crediti di FVM. Solo se stat=true e FVM>0. */
+export function computeVal(p: Player): number | null {
+  if (!p.stat || !p.f || p.f <= 0) return null;
+  const gls = p.gls ?? 0;
+  const ast = p.ast ?? 0;
+  return Math.round(((3 * gls + ast) / p.f) * 100);
+}
+
+export function withDerived(p: Player): DerivedPlayer {
+  return { ...p, val: computeVal(p) };
+}
+
+export function withDerivedAll(players: Player[]): DerivedPlayer[] {
+  return players.map(withDerived);
+}
+
+export type XgFlag = "under" | "over" | null;
+
+/** Segnala under/overperformer xG (soglia 2 gol di scarto, campione >=900 min per ridurre il rumore). */
+export function xgFlag(p: Player): XgFlag {
+  if (p.xg == null || p.min == null || p.min < 900) return null;
+  const diff = (p.gls ?? 0) - p.xg;
+  if (diff <= -2) return "under";
+  if (diff >= 2) return "over";
+  return null;
+}
+
+/** Val alto (>=50) ma campione piccolo (<900 min): forte scommessa. */
+export function isSmallSampleBet(p: DerivedPlayer): boolean {
+  return p.val != null && p.val >= 50 && (p.min ?? 0) < 900;
+}

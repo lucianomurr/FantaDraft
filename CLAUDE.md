@@ -9,10 +9,25 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (07/08/2026): refactor in React/TypeScript
+Il tool LIVE ora è `web/app/tool/page.tsx` + componenti in `web/components/tool/`,
+logica pura in `web/lib/` (budget.ts, filters.ts, storage.ts, strategies.ts,
+scoring.ts, preset.ts, roles.ts, nations.ts, types.ts), stato in
+`web/contexts/AstaContext.tsx` (useReducer, persistenza localStorage — stessa
+chiave `fanta_asta_2627_v1`, stesso schema `{cfg,st}`). Dati letti da
+`web/data/players.json` e `web/data/formazioni.json` (copie di
+`players_pen.json`/`formazioni.json`, va rifatta ad ogni aggiornamento dati,
+vedi fonti_formazioni.md). `asta_fantacalcio_2026_27.html` NON è più il codice
+vivo: resta come export single-file per uso offline, rigenerato con lo stesso
+script di sostituzione `const PLAYERS`/`const FORMS` usato finora, poi copiato
+in `web/public/download/FantaDraft2027.html` (linkato dal footer del tool).
+Se modifichi la UI del tool: edita i file in `web/`, NON l'HTML — l'HTML si
+rigenera solo per l'export, non è più la sorgente.
+
 ## File del progetto
-- `asta_fantacalcio_2026_27.html` — IL TOOL. Single-file HTML/CSS/JS, nessuna dipendenza.
-  Stato salvato in localStorage (chiave `fanta_asta_2627_v1`) + Backup/Ripristino JSON.
-  Dati dei giocatori embeddati come costante JS `PLAYERS`.
+- `asta_fantacalcio_2026_27.html` — export single-file del tool (uso offline), NON il
+  codice vivo. Stato salvato in localStorage (chiave `fanta_asta_2627_v1`) +
+  Backup/Ripristino JSON. Dati dei giocatori embeddati come costante JS `PLAYERS`.
 - `players_pen.json` — i 493 giocatori con il flag rigoristi. Sorgente dei dati del tool.
 - `scripts/` — script Python (soccerdata, merge, formazioni, preset). Vedi sotto.
 - `build_tool.py` NON è incluso: il tool si modifica direttamente nell'HTML, oppure si

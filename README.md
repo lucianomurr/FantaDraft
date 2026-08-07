@@ -1,9 +1,12 @@
 # FantaDraft2027 — tool gratuito per l'asta del fantacalcio Serie A 2026/27
 
-Un solo file HTML, zero dipendenze, zero account: lo apri nel browser e prepari
-l'asta coi numeri. Completamente **gratuito e open source**.
+Zero account: apri il tool nel browser e prepari l'asta coi numeri. Completamente
+**gratuito e open source**.
 
-**➡️ Tool: apri `asta_fantacalcio_2026_27.html` nel browser** (o dalla landing su `/tool`).
+**➡️ Tool: `/tool` sulla landing** (app React componentizzata) — oppure, per uso
+offline zero-dipendenze, scarica il file HTML singolo da `/download/FantaDraft2027.html`
+sulla landing, o apri direttamente `asta_fantacalcio_2026_27.html` da questo repo
+(stessa UI, dati incorporati, generato dagli stessi script — non più il codice vivo).
 
 ## Cosa fa
 
@@ -24,22 +27,35 @@ l'asta coi numeri. Completamente **gratuito e open source**.
 
 | Percorso | Cosa |
 |---|---|
-| `asta_fantacalcio_2026_27.html` | **Il tool** (single-file, dati embeddati) |
+| `asta_fantacalcio_2026_27.html` | Export single-file del tool (dati embeddati, uso offline) |
 | `players_pen.json` | Dataset giocatori arricchito (stat, formazioni, rigoristi, infortuni) |
 | `scripts/serie_a_stats.py` / `scripts/get_understat.py` | Scaricano le statistiche (FBref Big5+B, Understat) |
 | `scripts/merge_stats.py` / `merge_understat.py` / `merge_infortuni.py` / `align_pen.py` | Merge dati nel dataset |
 | `scripts/build_formazioni.py` / `formazioni_src.json` | Aggregazione probabili formazioni |
 | `scripts/preset_fasce.py` | Preset fasce data-driven |
 | `fonti_formazioni.md` | Tutte le fonti + procedura di refresh pre-asta |
-| `web/` | Landing page Next.js (Vercel) con raccolta email e GA |
+| `web/` | Landing Next.js **+ tool live** (`/tool`), vedi sotto |
+| `web/lib/` | Logica pura (budget, filtri, storage, strategie, scoring/xG) — no DOM |
+| `web/contexts/AstaContext.tsx` | Stato del tool (reducer + persistenza localStorage) |
+| `web/components/tool/` | Componenti React del tool (tabella, modali, pannelli) |
+| `web/data/*.json` | Copia di `players_pen.json`/`formazioni.json` per l'app |
 
 ## Aggiornare i dati
 
-Vedi `fonti_formazioni.md` per la procedura completa (fetch fonti → merge → rigenerazione
-delle costanti `PLAYERS`/`FORMS` nell'HTML). Richiede Python 3 + `pip install soccerdata pandas`,
-eseguito dalla root del progetto (gli script in `scripts/` scrivono i CSV/JSON lì).
+Vedi `fonti_formazioni.md` per la procedura completa (fetch fonti → merge). Richiede
+Python 3 + `pip install soccerdata pandas`, eseguito dalla root del progetto (gli
+script in `scripts/` scrivono i CSV/JSON lì). Dopo il merge, per propagare i dati:
 
-## Landing (web/)
+```bash
+# 1. copia i dataset aggiornati nell'app
+cp players_pen.json web/data/players.json
+cp formazioni.json web/data/formazioni.json
+
+# 2. rigenera anche l'export single-file (regen const PLAYERS/FORMS nell'HTML, vedi CLAUDE.md)
+cp asta_fantacalcio_2026_27.html web/public/download/FantaDraft2027.html
+```
+
+## Landing + tool (web/)
 
 ```bash
 cd web && npm install && npm run dev
