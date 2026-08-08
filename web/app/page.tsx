@@ -184,6 +184,115 @@ function HeroEmailForm() {
   );
 }
 
+/** True una volta sola, quando l'elemento osservato entra nel viewport (niente
+ * ri-animazione se l'utente risale e riscende). Fallback sicuro: se JS non
+ * parte, `mounted`/`inView` restano false e la classe "js-reveal" non si
+ * applica mai, quindi il contenuto resta visibile di default via CSS. */
+function useInView<T extends HTMLElement>() {
+  const ref = useRef<T>(null);
+  const [inView, setInView] = useState(false);
+  useEffect(() => {
+    const el = ref.current;
+    if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      setInView(true);
+      return;
+    }
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+          io.disconnect();
+        }
+      },
+      { threshold: 0.15 },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, []);
+  return { ref, inView };
+}
+
+const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
+  {
+    k: "Quotazioni ufficiali",
+    v: (
+      <>
+        Listone 2026/27 con Qt e <b>FVM</b> (la stima reale del prezzo d&apos;asta).
+      </>
+    ),
+    n: "493 giocatori",
+  },
+  {
+    k: "Statistiche FBref",
+    v: (
+      <>
+        Gol, rigori, assist, minuti e titolarità delle ultime <b>due stagioni</b> — Big 5
+        europei più Serie B, così anche neopromossi e nuovi arrivi hanno numeri veri.
+      </>
+    ),
+    n: "445 con dati",
+  },
+  {
+    k: "xG e xA da Understat",
+    v: (
+      <>
+        Expected goals e assist per distinguere <b>chi è forte da chi è stato fortunato</b>: un
+        8-gol con 15 di xG è un affare che il prezzo non racconta.
+      </>
+    ),
+    n: "411 coperti",
+  },
+  {
+    k: "Probabili formazioni",
+    v: (
+      <>
+        XI titolari aggregati da <b>SOS Fanta, FantaMaster, Eurosport, Goal e Gazzetta</b>: la
+        colonna Tit dice in quante formazioni su 5 il giocatore parte titolare.
+      </>
+    ),
+    n: "5 fonti",
+  },
+  {
+    k: "Rigoristi",
+    v: "Gerarchie complete per tutte le squadre (designato + alternative), fonte Gazzetta.",
+    n: "20 squadre",
+  },
+  {
+    k: "Infortunati",
+    v: "Prognosi e data di rientro accanto al nome: il crociato di cui non sapevi niente non ti costa più 40 crediti.",
+    n: "aggiornati pre-asta",
+  },
+  {
+    k: "Ultimi trasferimenti",
+    v: "Badge quando il listone ha ancora un giocatore ceduto o in prestito altrove: capita più spesso di quanto pensiate, specie a ridosso dell'asta.",
+    n: "106 arrivi tracciati",
+  },
+];
+
+const FONTI_STAGGER_MS = 70;
+
+function FontiList() {
+  const { ref, inView } = useInView<HTMLDivElement>();
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  return (
+    <div
+      ref={ref}
+      className={`fonti${mounted ? " js-reveal" : ""}${inView ? " in-view" : ""}`}
+    >
+      {FONTI.map((f, i) => (
+        <div className="fonte" key={f.k} style={{ transitionDelay: `${i * FONTI_STAGGER_MS}ms` }}>
+          <span className="k">{f.k}</span>
+          <span className="v">{f.v}</span>
+          <span className="n">{f.n}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function GitHubIcon() {
   return (
     <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
@@ -256,62 +365,7 @@ export default function Home() {
             Non un altro listone da compilare: i dati sono <b>già incrociati</b> per te,
             giocatore per giocatore, con la fonte dichiarata per ogni numero.
           </p>
-          <div className="fonti">
-            <div className="fonte">
-              <span className="k">Quotazioni ufficiali</span>
-              <span className="v">
-                Listone 2026/27 con Qt e <b>FVM</b> (la stima reale del prezzo d&apos;asta).
-              </span>
-              <span className="n">493 giocatori</span>
-            </div>
-            <div className="fonte">
-              <span className="k">Statistiche FBref</span>
-              <span className="v">
-                Gol, rigori, assist, minuti e titolarità delle ultime <b>due stagioni</b> — Big 5
-                europei più Serie B, così anche neopromossi e nuovi arrivi hanno numeri veri.
-              </span>
-              <span className="n">445 con dati</span>
-            </div>
-            <div className="fonte">
-              <span className="k">xG e xA da Understat</span>
-              <span className="v">
-                Expected goals e assist per distinguere <b>chi è forte da chi è stato fortunato</b>:
-                un 8-gol con 15 di xG è un affare che il prezzo non racconta.
-              </span>
-              <span className="n">411 coperti</span>
-            </div>
-            <div className="fonte">
-              <span className="k">Probabili formazioni</span>
-              <span className="v">
-                XI titolari aggregati da <b>SOS Fanta, FantaMaster, Eurosport, Goal e Gazzetta</b>:
-                la colonna Tit dice in quante formazioni su 5 il giocatore parte titolare.
-              </span>
-              <span className="n">5 fonti</span>
-            </div>
-            <div className="fonte">
-              <span className="k">Rigoristi</span>
-              <span className="v">
-                Gerarchie complete per tutte le squadre (designato + alternative), fonte Gazzetta.
-              </span>
-              <span className="n">20 squadre</span>
-            </div>
-            <div className="fonte">
-              <span className="k">Infortunati</span>
-              <span className="v">
-                Prognosi e data di rientro accanto al nome: il crociato di cui non sapevi
-                niente non ti costa più 40 crediti.
-              </span>
-              <span className="n">aggiornati pre-asta</span>
-            </div>
-            <div className="fonte">
-              <span className="k">Ultimi trasferimenti</span>
-              <span className="v">
-                Badge quando il listone ha ancora un giocatore ceduto o in prestito altrove:
-                capita più spesso di quanto pensiate, specie a ridosso dell&apos;asta.
-              </span>
-              <span className="n">106 arrivi tracciati</span>
-            </div>
-          </div>
+          <FontiList />
         </div>
       </section>
 
