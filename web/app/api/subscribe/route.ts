@@ -29,7 +29,7 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  const r = await fetch("https://api.tratto.email/v1/send", {
+  const r = await fetch("https://api.tratto.email/v1/emails", {
     method: "POST",
     headers: {
       Authorization: `Bearer ${key}`,

@@ -9,7 +9,7 @@ const REPARTI = [
   { id: "A", nome: "Attaccanti", cr: 285, slot: "6 slot", color: "var(--a)" },
 ];
 
-function useCountUp(target: number, run: boolean, ms = 1100) {
+function useCountUp(target: number, run: boolean, ms = 1100, delayMs = 0) {
   const [v, setV] = useState(0);
   useEffect(() => {
     if (!run) return;
@@ -18,20 +18,39 @@ function useCountUp(target: number, run: boolean, ms = 1100) {
       return;
     }
     let raf = 0;
-    const t0 = performance.now();
-    const tick = (t: number) => {
-      const p = Math.min(1, (t - t0) / ms);
-      setV(Math.round(target * (1 - Math.pow(1 - p, 4))));
-      if (p < 1) raf = requestAnimationFrame(tick);
+    let timeout = 0;
+    const start = () => {
+      const t0 = performance.now();
+      const tick = (t: number) => {
+        const p = Math.min(1, (t - t0) / ms);
+        setV(Math.round(target * (1 - Math.pow(1 - p, 4))));
+        if (p < 1) raf = requestAnimationFrame(tick);
+      };
+      raf = requestAnimationFrame(tick);
     };
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  }, [target, run, ms]);
+    timeout = window.setTimeout(start, delayMs);
+    return () => {
+      clearTimeout(timeout);
+      cancelAnimationFrame(raf);
+    };
+  }, [target, run, ms, delayMs]);
   return v;
 }
 
-function DashCard({ nome, cr, slot, color, run }: (typeof REPARTI)[number] & { run: boolean }) {
-  const n = useCountUp(cr, run);
+// Le card tallano in sequenza (Porta → Difesa → Centro → Attacco → Totale),
+// come una spunta reparto per reparto invece che un pop simultaneo.
+const STAGGER_MS = 90;
+
+function DashCard({
+  nome,
+  cr,
+  slot,
+  color,
+  run,
+  index,
+}: (typeof REPARTI)[number] & { run: boolean; index: number }) {
+  const delay = index * STAGGER_MS;
+  const n = useCountUp(cr, run, 1100, delay);
   return (
     <div className="dcard">
       <div className="rlbl">
@@ -44,14 +63,21 @@ function DashCard({ nome, cr, slot, color, run }: (typeof REPARTI)[number] & { r
       </div>
       <div className="line2">{slot}</div>
       <div className="bar">
-        <span style={{ transform: run ? `scaleX(${cr / 285})` : "scaleX(0)", background: color }} />
+        <span
+          style={{
+            transform: run ? `scaleX(${cr / 285})` : "scaleX(0)",
+            background: color,
+            transitionDelay: `${delay}ms`,
+          }}
+        />
       </div>
     </div>
   );
 }
 
-function TotalCard({ run }: { run: boolean }) {
-  const n = useCountUp(500, run);
+function TotalCard({ run, index }: { run: boolean; index: number }) {
+  const delay = index * STAGGER_MS;
+  const n = useCountUp(500, run, 1100, delay);
   return (
     <div className="dcard total">
       <div className="rlbl">
@@ -68,6 +94,7 @@ function TotalCard({ run }: { run: boolean }) {
           style={{
             transform: run ? "scaleX(1)" : "scaleX(0)",
             background: "linear-gradient(90deg,var(--acc),var(--acc2))",
+            transitionDelay: `${delay}ms`,
           }}
         />
       </div>
@@ -75,7 +102,7 @@ function TotalCard({ run }: { run: boolean }) {
   );
 }
 
-function EmailForm() {
+function useEmailSubscribe() {
   const [email, setEmail] = useState("");
   const [state, setState] = useState<"idle" | "busy" | "ok" | "err">("idle");
   const [msg, setMsg] = useState("");
@@ -105,6 +132,11 @@ function EmailForm() {
     }
   }
 
+  return { email, setEmail, state, msg, submit };
+}
+
+function EmailForm() {
+  const { email, setEmail, state, msg, submit } = useEmailSubscribe();
   return (
     <form className="emailform" onSubmit={submit}>
       <input
@@ -126,6 +158,40 @@ function EmailForm() {
   );
 }
 
+function HeroEmailForm() {
+  const { email, setEmail, state, msg, submit } = useEmailSubscribe();
+  return (
+    <div className="herosignup">
+      <span className="herosignup-label">Non perdere gli aggiornamenti del tool</span>
+      <form className="emailform compact" onSubmit={submit}>
+        <input
+          type="email"
+          required
+          placeholder="la-tua@email.it"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          aria-label="Il tuo indirizzo email"
+          disabled={state === "busy"}
+        />
+        <button type="submit" disabled={state === "busy"}>
+          {state === "busy" ? "Invio…" : "Avvisami"}
+        </button>
+      </form>
+      <p className={`emailmsg ${state === "ok" ? "ok" : state === "err" ? "err" : ""}`} role="status">
+        {msg}
+      </p>
+    </div>
+  );
+}
+
+function GitHubIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+    </svg>
+  );
+}
+
 export default function Home() {
   const [run, setRun] = useState(false);
   const heroRef = useRef<HTMLDivElement>(null);
@@ -137,7 +203,7 @@ export default function Home() {
   return (
     <main>
       <div className="wrap">
-        <div className="hero" ref={heroRef}>
+        <nav className="topnav" aria-label="Principale">
           <div className="brandline">
             <span className="ball" aria-hidden>
               ⚽
@@ -145,6 +211,12 @@ export default function Home() {
             FantaDraft2027
             <span className="free">100% gratuito</span>
           </div>
+          <a className="navgh" href="https://github.com/lucianomurr/FantaDraft" rel="noopener">
+            <GitHubIcon />
+            GitHub
+          </a>
+        </nav>
+        <div className="hero" ref={heroRef}>
           <h1>
             Arriva all&apos;asta coi numeri.
             <br />
@@ -158,27 +230,22 @@ export default function Home() {
           </p>
 
           <div className="dash" aria-label="Dashboard budget del tool: allocazione di 500 crediti per reparto">
-            {REPARTI.map((r) => (
-              <DashCard key={r.id} {...r} run={run} />
+            {REPARTI.map((r, i) => (
+              <DashCard key={r.id} {...r} run={run} index={i} />
             ))}
-            <TotalCard run={run} />
+            <TotalCard run={run} index={REPARTI.length} />
           </div>
 
           <div className="ctarow">
             <a className="btn pri" href="/tool">
               Apri il tool
             </a>
-            <a
-              className="btn ghost"
-              href="https://github.com/lucianomurr/FantaDraft"
-              rel="noopener"
-            >
-              Codice su GitHub
-            </a>
           </div>
           <p className="ctanote">
             Funziona nel browser, i dati restano sul tuo computer (localStorage + backup JSON).
           </p>
+
+          <HeroEmailForm />
         </div>
       </div>
 

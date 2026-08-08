@@ -35,8 +35,26 @@ a { color: var(--acc); }
 
 .wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
 
+/* ---------- top nav ---------- */
+.topnav {
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 14px;
+  padding-top: 28px;
+}
+
+.navgh {
+  display: inline-flex; align-items: center; gap: 8px;
+  color: var(--muted); font-size: 14px; font-weight: 600;
+  text-decoration: none;
+  padding: 7px 12px; border-radius: 10px;
+  border: 1px solid transparent;
+  transition: color .15s, border-color .15s, background .15s;
+}
+
+.navgh:hover { color: var(--txt); border-color: var(--line); background: var(--panel); }
+
 /* ---------- hero ---------- */
-.hero { padding: 72px 0 56px; }
+.hero { padding: 28px 0 56px; }
 
 .hero h1 {
   font-family: var(--font-display), "Arial Narrow", sans-serif;
@@ -44,7 +62,7 @@ a { color: var(--acc); }
   line-height: .95;
   letter-spacing: -.02em;
   text-transform: uppercase;
-  margin: 0 0 18px;
+  margin: 44px 0 18px;
   text-wrap: balance;
 }
 
@@ -61,7 +79,6 @@ a { color: var(--acc); }
 
 .brandline {
   display: flex; align-items: center; gap: 10px;
-  margin-bottom: 42px;
   font-weight: 700; font-size: 15px; letter-spacing: .02em;
 }
 
@@ -145,6 +162,19 @@ a { color: var(--acc); }
 .btn.ghost:hover { background: var(--panel2); }
 
 .ctanote { font-size: 13px; color: var(--muted); }
+
+.herosignup {
+  margin-top: 28px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  max-width: 480px;
+}
+
+.herosignup-label { display: block; font-size: 13px; color: var(--muted); margin-bottom: 10px; }
+
+.emailform.compact { margin: 0 0 6px; gap: 8px; }
+.emailform.compact input { padding: 10px 13px; font-size: 14px; }
+.emailform.compact button { padding: 10px 18px; font-size: 14px; }
 
 /* ---------- sections ---------- */
 section { padding: 56px 0; border-top: 1px solid var(--line); }
@@ -258,9 +288,13 @@ h2 {
 .emailform button:hover { filter: brightness(1.1); }
 .emailform button:disabled { opacity: .6; cursor: default; }
 
-.emailmsg { font-size: 14px; min-height: 22px; margin: 0; }
-.emailmsg.ok { color: var(--acc2); }
-.emailmsg.err { color: var(--bad); }
+.emailmsg {
+  font-size: 14px; min-height: 22px; margin: 0;
+  opacity: 0; transform: translateY(-4px);
+  transition: opacity .22s cubic-bezier(.16,1,.3,1), transform .22s cubic-bezier(.16,1,.3,1);
+}
+.emailmsg.ok { color: var(--acc2); opacity: 1; transform: translateY(0); }
+.emailmsg.err { color: var(--bad); opacity: 1; transform: translateY(0); }
 
 .emailnote { font-size: 12.5px; color: var(--muted); margin-top: 6px; }
 
