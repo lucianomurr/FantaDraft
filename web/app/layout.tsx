@@ -9,7 +9,7 @@ const display = Barlow_Condensed({
   variable: "--font-display",
 });
 
-const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://fantadraft2027-lucianomurrs-projects.vercel.app";
+const SITE = process.env.NEXT_PUBLIC_SITE_URL || "https://fantadraft.murruni.it";
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {

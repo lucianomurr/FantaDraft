@@ -9,6 +9,19 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (08/08/2026): dominio custom + email iscrizioni live
+Sito ora su `https://fantadraft.murruni.it` (Vercel, CNAME su Seeweb DNS: vedi
+`fantadraft` → `d19bcd0811372dce.vercel-dns-017.com.`). Dominio verificato anche
+su tratto.email (DKIM/SPF/DMARC aggiunti da Luciano su Seeweb) — `FROM_EMAIL`
+ora `noreply@fantadraft.murruni.it`. `NEXT_PUBLIC_SITE_URL` aggiornato ovunque
+(Vercel env prod, `.env.example`, fallback in `web/app/layout.tsx`) dal vecchio
+alias `fantadraft2027-lucianomurrs-projects.vercel.app` (resta valido come URL
+di fallback/team, non più quello canonico). ATTENZIONE: le env var
+`TRATTO_KEY`/`NOTIFY_TO`/`FROM_EMAIL` NON erano MAI state impostate su Vercel
+prod fino a questo aggiornamento — `/api/subscribe` ha risposto 503 dal primo
+deploy fino ad ora. Testato end-to-end (curl reale su `/api/subscribe` + email
+di verifica ricevuta) dopo il fix.
+
 ## FATTO (07/08/2026): rimosso l'export HTML standalone
 `asta_fantacalcio_2026_27.html` e `web/public/download/FantaDraft2027.html` sono
 stati eliminati (git rm) insieme al link "scarica file singolo" nel footer del
