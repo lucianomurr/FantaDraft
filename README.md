@@ -3,7 +3,7 @@
 Zero account: apri il tool nel browser e prepari l'asta coi numeri. Completamente
 **gratuito e open source**.
 
-**➡️ Tool: `/tool` sulla landing** (app React/Next.js).
+**➡️ Live: https://fantadraft2027-lucianomurrs-projects.vercel.app/tool** (landing su `/`).
 
 ## Cosa fa
 

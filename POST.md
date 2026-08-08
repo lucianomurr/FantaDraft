@@ -25,8 +25,8 @@ pesa la titolarità, quanto sono larghe le fasce, quante scommesse economiche
 suggerire), prezzi target, tracking live di chi compra cosa, budget residuo per
 reparto e massima offerta sostenibile ricalcolata a ogni acquisto.
 
-Landing: [URL]
-Tool diretto: [URL]/tool
+Landing: https://fantadraft2027-lucianomurrs-projects.vercel.app
+Tool diretto: https://fantadraft2027-lucianomurrs-projects.vercel.app/tool
 Codice: https://github.com/lucianomurr/FantaDraft
 
 Se lo usate all'asta mi fate felice; se trovate errori nei dati ancora di più (issue
@@ -37,11 +37,11 @@ su GitHub). Tutto gratis, nessuna registrazione.
 Tool gratuito per l'asta del fantacalcio 2026/27: 493 giocatori con statistiche vere
 (FBref+Understat, xG inclusi), formazioni da 5 fonti, rigoristi, infortunati,
 ultimi trasferimenti, budget live e preset fasce regolabile. Niente account, open
-source. [URL]
+source. https://fantadraft2027-lucianomurrs-projects.vercel.app
 
 ## Note
 
-- Sostituire [URL] dopo il deploy Vercel.
+- Se si aggiunge un dominio custom, aggiornare i link sopra + `NEXT_PUBLIC_SITE_URL`.
 - Prima del post: refresh dati pre-asta (vedi fonti_formazioni.md) così i numeri sono freschi.
 - r/fantacalcio: leggere le regole del sub sull'autopromozione; eventualmente postare
   come "ho fatto questo, feedback?" che è anche la verità.
