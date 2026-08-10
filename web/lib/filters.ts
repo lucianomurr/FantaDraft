@@ -9,6 +9,7 @@ export function filterPlayers(
   const q = f.q.trim().toLowerCase();
   return players.filter((p) => {
     if (f.role !== "ALL" && p.r !== f.role) return false;
+    if (f.mrole && !p.rm?.includes(f.mrole)) return false;
     if (f.onlyPen && !p.pen) return false;
     if (f.onlyTit && p.tit < Math.ceil(numFormSources / 2)) return false;
     if (q && !p.n.toLowerCase().includes(q)) return false;

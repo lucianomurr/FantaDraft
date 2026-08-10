@@ -53,6 +53,7 @@ const initialFilters: FilterState = {
   onlyMine: false,
   onlyPen: false,
   onlyTit: false,
+  mrole: "",
 };
 
 const initialState: AstaState = {

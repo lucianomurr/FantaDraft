@@ -89,10 +89,12 @@ export function PlayerRow({
   p,
   numFormSources,
   onOpenCard,
+  mantra,
 }: {
   p: DerivedPlayer;
   numFormSources: number;
   onOpenCard: (id: number) => void;
+  mantra: boolean;
 }) {
   const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useAsta();
   const s = getPlayerState(p.id);
@@ -143,6 +145,11 @@ export function PlayerRow({
       <td style={{ textAlign: "center" }}>
         <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
       </td>
+      {mantra && (
+        <td className="team" style={{ fontSize: 12 }}>
+          {p.rm && p.rm.length > 0 ? p.rm.join(" · ") : "—"}
+        </td>
+      )}
       <td className="num">{p.q}</td>
       <td className="num">{p.f}</td>
       <StatCells p={p} />

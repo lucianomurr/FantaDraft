@@ -9,6 +9,35 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (10/08/2026): supporto Mantra + modificatore difesa
+Onboarding ora è un wizard a 3 step (`OnboardingModal.tsx`): 1) budget+strategia
+(come prima), 2) formato lega Classic/Mantra + modificatore difesa (nuovi campi
+`cfg.mantra`/`cfg.modDifesa`, default `false` — retrocompatibili via il merge
+già esistente in `storage.ts`), 3) offerta di aprire subito "Preset fasce" per
+precompilare. Il toggle resta modificabile anche dopo, da due checkbox in
+"Budget & allocazione" (`BudgetPanel.tsx`) — l'onboarding si apre una sola
+volta, chi ha già uno stato salvato deve poter cambiare modalità senza rifarlo.
+
+Dati: `RM` (ruoli Mantra, es. "Dd;Dc") e `FVM M` erano già nel listone xlsx ma
+scartati da `scripts/update_quotazioni.py` — ora estratti in `rm: string[]` e
+`fvmM: number` per ogni giocatore. La rosa d'asta resta identica a Classic
+(stesso budget, stessi 4 reparti P/D/C/A, 3/8/8/6 slot) — Mantra NON cambia
+`roles.ts`/`budget.ts`/`strategies.ts`, cambia solo quale FVM è "attivo" e i
+sotto-ruoli mostrati. Un solo punto di verità: `scoring.ts` espone
+`activeFvm(p, mantra)`, e `withDerived` sostituisce `f` col FVM attivo PRIMA
+di calcolare Val — tabella/ordinamento/filtri leggono sempre `p.f` come prima,
+diventano Mantra-corretti senza altre modifiche.
+
+Preset fasce (`preset.ts`): score usa `activeFvm` invece di `f` fisso, e con
+modificatore difesa applica `MODDIFESA_BOOST` (P ×1.15, D ×1.20) — euristica
+dichiarata come tale (costante nominata, commentata "da ritarare"), non una
+formula fantacalcistica certificata. Soglie R/X invariate (stessa scala FVM
+Classic/Mantra nei dati campione).
+
+Tabella: colonna "Ruolo M" (sottoruoli, es. "Dd · Dc") e filtro select ruolo
+Mantra compaiono SOLO quando `cfg.mantra` è true — tabella Classic invariata
+di default. Scheda giocatore mostra ruoli+FVM Mantra quando la lega è Mantra.
+
 ## FATTO (08/08/2026): dominio custom + email iscrizioni live
 Sito ora su `https://fantadraft.murruni.it` (Vercel, CNAME su Seeweb DNS: vedi
 `fantadraft` → `d19bcd0811372dce.vercel-dns-017.com.`). Dominio verificato anche

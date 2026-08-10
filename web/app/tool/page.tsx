@@ -32,8 +32,8 @@ export default function ToolPage() {
 }
 
 function ToolInner() {
-  const { st, filters, sort, hydrated, hadSavedState, toast } = useAsta();
-  const derived = useMemo(() => withDerivedAll(PLAYERS), []);
+  const { cfg, st, filters, sort, hydrated, hadSavedState, toast } = useAsta();
+  const derived = useMemo(() => withDerivedAll(PLAYERS, cfg.mantra), [cfg.mantra]);
   const numFormSources = FORMS.sources.length;
 
   const visible = useMemo(() => {
@@ -82,7 +82,12 @@ function ToolInner() {
 
       <FilterBar teams={TEAMS} count={visible.length} />
 
-      <PlayersTable players={visible} numFormSources={numFormSources} onOpenCard={openCard} />
+      <PlayersTable
+        players={visible}
+        numFormSources={numFormSources}
+        onOpenCard={openCard}
+        mantra={cfg.mantra}
+      />
 
       <div className="foot">
         I dati vengono salvati automaticamente nel tuo browser. Usa <b>Backup</b> per esportare
@@ -96,7 +101,11 @@ function ToolInner() {
       <PlayerCardModal player={selectedPlayer} numFormSources={numFormSources} onClose={() => setSelectedId(null)} />
       <LegendModal open={legendOpen} onClose={() => setLegendOpen(false)} />
       <PresetModal players={PLAYERS} open={presetOpen} onClose={() => setPresetOpen(false)} />
-      <OnboardingModal open={onboardingOpen} onClose={() => setOnboardingOpen(false)} />
+      <OnboardingModal
+        open={onboardingOpen}
+        onClose={() => setOnboardingOpen(false)}
+        onOpenPreset={() => setPresetOpen(true)}
+      />
       <ToastHost />
     </div>
   );

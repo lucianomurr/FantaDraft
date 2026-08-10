@@ -17,6 +17,22 @@ export function BudgetPanel({ players }: { players: Player[] }) {
     <>
       <div className="editbudget" style={{ marginBottom: 12 }}>
         <span className="pill">Budget &amp; allocazione</span>
+        <label className="chk">
+          <input
+            type="checkbox"
+            checked={cfg.mantra}
+            onChange={(e) => setCfg({ mantra: e.target.checked })}
+          />
+          Mantra
+        </label>
+        <label className="chk">
+          <input
+            type="checkbox"
+            checked={cfg.modDifesa}
+            onChange={(e) => setCfg({ modDifesa: e.target.checked })}
+          />
+          Mod. difesa
+        </label>
         <span className="ebfield">
           <label>Totale</label>
           <input

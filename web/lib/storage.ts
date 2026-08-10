@@ -2,7 +2,15 @@ import type { PersistedState, RoleAllocation, TrackingState } from "./types";
 
 export const STORAGE_KEY = "fanta_asta_2627_v1";
 
-export const DEFAULT_CFG: RoleAllocation = { budget: 500, P: 35, D: 75, C: 105, A: 285 };
+export const DEFAULT_CFG: RoleAllocation = {
+  budget: 500,
+  P: 35,
+  D: 75,
+  C: 105,
+  A: 285,
+  mantra: false,
+  modDifesa: false,
+};
 
 export function loadPersisted(): PersistedState | null {
   if (typeof window === "undefined") return null;

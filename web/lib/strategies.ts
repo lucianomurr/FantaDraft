@@ -38,8 +38,9 @@ export const STRATEGIES: StrategyDef[] = [
 export const DEFAULT_STRATEGY = STRATEGIES[0];
 
 /** Distribuisce `budget` sui 4 reparti secondo le percentuali della strategia;
- * l'ultimo ruolo (Attacco) assorbe l'arrotondamento per far tornare la somma esatta. */
-export function distributeBudget(budget: number, strat: StrategyDef): RoleAllocation {
+ * l'ultimo ruolo (Attacco) assorbe l'arrotondamento per far tornare la somma esatta.
+ * Non tocca mantra/modDifesa (decisi a parte, step successivo dell'onboarding). */
+export function distributeBudget(budget: number, strat: StrategyDef): Omit<RoleAllocation, "mantra" | "modDifesa"> {
   const alloc: Partial<Record<Role, number>> = {};
   let sum = 0;
   ROLES.forEach((r, i) => {

@@ -1,5 +1,6 @@
 import type { Player, Role, Tier } from "./types";
 import { ROLES } from "./roles";
+import { activeFvm } from "./scoring";
 
 export interface PresetParams {
   /** Peso della titolarità (0-5 fonti) nel punteggio: FVM × (0.55 + titWeight×tit). Default 0.15. */
@@ -8,7 +9,17 @@ export interface PresetParams {
   rxAggressiveness: number;
   /** Quote F1..F4 per ruolo: quanti dei migliori per punteggio finiscono in ciascuna fascia. */
   quotas: Record<Role, [number, number, number, number]>;
+  /** Lega Mantra: usa il FVM Mantra (fvmM) invece del Classic dove disponibile. */
+  mantra: boolean;
+  /** Modificatore difesa attivo: pesa di più portieri/difensori nel punteggio. */
+  modDifesa: boolean;
 }
+
+/** Euristica regolabile: quanto pesano di più P/D quando il modificatore
+ * difesa è attivo (premia le squadre forti in difesa più del solito). Non è
+ * una formula fantacalcistica certificata — da ritarare a occhio sull'uso
+ * reale, stesso spirito delle altre costanti di questo file. */
+const MODDIFESA_BOOST: Record<Role, number> = { P: 1.15, D: 1.2, C: 1, A: 1 };
 
 export const DEFAULT_QUOTAS: Record<Role, [number, number, number, number]> = {
   P: [3, 4, 5, 0],
@@ -21,6 +32,8 @@ export const DEFAULT_PRESET_PARAMS: PresetParams = {
   titWeight: 0.15,
   rxAggressiveness: 1,
   quotas: DEFAULT_QUOTAS,
+  mantra: false,
+  modDifesa: false,
 };
 
 // Soglie base (aggressività 1x) per la fascia R (titolari economici) e X (trappole
@@ -28,8 +41,10 @@ export const DEFAULT_PRESET_PARAMS: PresetParams = {
 const R_MAXFVM_BASE: Record<Role, number> = { P: 15, D: 6, C: 6, A: 10 };
 const X_MINFVM_BASE: Record<Role, number> = { P: 20, D: 20, C: 25, A: 40 };
 
-function score(p: Player, titWeight: number): number {
-  let s = p.f * (0.55 + titWeight * p.tit);
+function score(p: Player, params: PresetParams): number {
+  const fvm = activeFvm(p, params.mantra);
+  let s = fvm * (0.55 + params.titWeight * p.tit);
+  if (params.modDifesa) s *= MODDIFESA_BOOST[p.r];
   if (p.pen === 1) s += 12;
   else if (p.pen === 2) s += 4;
   return s;
@@ -44,7 +59,7 @@ export function computeLivePreset(players: Player[], params: PresetParams): Reco
   for (const p of players) byRole[p.r].push(p);
 
   for (const r of ROLES) {
-    const pool = [...byRole[r]].sort((a, b) => score(b, params.titWeight) - score(a, params.titWeight));
+    const pool = [...byRole[r]].sort((a, b) => score(b, params) - score(a, params));
     const quotas = params.quotas[r];
     const tiers: Tier[] = ["1", "2", "3", "4"];
     let i = 0;
@@ -57,8 +72,9 @@ export function computeLivePreset(players: Player[], params: PresetParams): Reco
     const xMin = X_MINFVM_BASE[r] / params.rxAggressiveness;
     for (; i < pool.length; i++) {
       const p = pool[i];
-      if (p.tit >= 2 && p.f <= rMax) result[p.id] = "R";
-      else if (p.tit === 0 && p.f >= xMin && p.pen !== 1) result[p.id] = "X";
+      const fvm = activeFvm(p, params.mantra);
+      if (p.tit >= 2 && fvm <= rMax) result[p.id] = "R";
+      else if (p.tit === 0 && fvm >= xMin && p.pen !== 1) result[p.id] = "X";
     }
   }
   return result;

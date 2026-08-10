@@ -1,5 +1,6 @@
 "use client";
 
+import { useAsta } from "../../contexts/AstaContext";
 import { NAT } from "../../lib/nations";
 import { transferTypeLabel, formatTransferDate } from "../../lib/transfers";
 import type { DerivedPlayer } from "../../lib/types";
@@ -33,6 +34,7 @@ function PlayerCardBody({
   numFormSources: number;
   onClose: () => void;
 }) {
+  const { cfg } = useAsta();
   const eta = p.born ? CURRENT_YEAR - p.born : null;
   const nat = p.nat ? (NAT[p.nat] ?? p.nat) : "—";
   const dots = "●".repeat(p.tit) + "○".repeat(Math.max(0, numFormSources - p.tit));
@@ -53,6 +55,12 @@ function PlayerCardBody({
         {nat} · {eta ? `${eta} anni (classe ${p.born})` : "età n.d."} · titolarità {dots} {p.tit}/
         {numFormSources} fonti{p.ball ? " · ⚖ in ballottaggio" : ""}
       </div>
+      {cfg.mantra && (
+        <div className="pmeta">
+          Ruoli Mantra: {p.rm && p.rm.length > 0 ? p.rm.join(" · ") : "n.d."} · FVM Mantra{" "}
+          {p.fvmM ?? "—"}
+        </div>
+      )}
       {p.inj && (
         <div className="pmeta" style={{ color: "var(--bad)" }}>
           🚑 {p.inj.d} — rientro: {p.inj.r}

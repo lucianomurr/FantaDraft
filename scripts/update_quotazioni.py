@@ -1,11 +1,13 @@
-"""Aggiorna id/ruolo/nome/squadra/Qt/FVM in players_pen.json dal listone ufficiale
-Fantacalcio.it (foglio "Tutti" di quotazioni_raw.xlsx, scaricato a mano dal bottone
-"Scarica" su https://www.fantacalcio.it/quotazioni-fantacalcio).
+"""Aggiorna id/ruolo/nome/squadra/Qt/FVM (Classic + Mantra) in players_pen.json
+dal listone ufficiale Fantacalcio.it (foglio "Tutti" di quotazioni_raw.xlsx,
+scaricato a mano dal bottone "Scarica" su
+https://www.fantacalcio.it/quotazioni-fantacalcio).
 
 Aggiorna i giocatori esistenti (per id), aggiunge i nuovi con campi di
 arricchimento vuoti (stat=False, come i "senza dati"), rimuove chi non è più
 nel listone (uscite/cessioni). Non tocca fasce/pt/statistiche dei giocatori
-già presenti.
+già presenti. `rm`/`fvmM` (ruoli e FVM Mantra) vengono risincronizzati per
+TUTTI i giocatori a ogni run, anche quando Qt/FVM Classic non sono cambiati.
 
 Uso: python3 scripts/update_quotazioni.py
 """
@@ -50,7 +52,16 @@ def load_xlsx_players():
         if row[0] is None:
             continue
         pid = int(row[0])
-        players[pid] = {"r": row[1], "n": row[3], "s": row[4], "q": row[5], "f": row[11]}
+        rm = [tok.strip() for tok in str(row[2] or "").split(";") if tok.strip()]
+        players[pid] = {
+            "r": row[1],
+            "rm": rm,
+            "n": row[3],
+            "s": row[4],
+            "q": row[5],
+            "f": row[11],
+            "fvmM": row[12],
+        }
     return players
 
 
@@ -66,13 +77,23 @@ def main():
             if (p["r"], p["n"], p["s"], p["q"], p["f"]) != (x["r"], x["n"], x["s"], x["q"], x["f"]):
                 updated.append((pid, p["n"], dict(p), x))
             p["r"], p["n"], p["s"], p["q"], p["f"] = x["r"], x["n"], x["s"], x["q"], x["f"]
+            p["rm"], p["fvmM"] = x["rm"], x["fvmM"]
 
     new_ids = set(xlsx_players) - set(pen_by_id)
     gone_ids = set(pen_by_id) - set(xlsx_players)
 
     for pid in new_ids:
         x = xlsx_players[pid]
-        entry = {"id": pid, "r": x["r"], "n": x["n"], "s": x["s"], "q": x["q"], "f": x["f"]}
+        entry = {
+            "id": pid,
+            "r": x["r"],
+            "rm": x["rm"],
+            "n": x["n"],
+            "s": x["s"],
+            "q": x["q"],
+            "f": x["f"],
+            "fvmM": x["fvmM"],
+        }
         entry.update(NEW_PLAYER_DEFAULTS)
         pen.append(entry)
 

@@ -12,6 +12,8 @@ interface Col {
   center?: boolean;
 }
 
+const MANTRA_COL: Col = { key: null, label: "Ruolo M" };
+
 const COLS: Col[] = [
   { key: "n", label: "Giocatore" },
   { key: "s", label: "Squadra" },
@@ -31,12 +33,15 @@ export function PlayersTable({
   players,
   numFormSources,
   onOpenCard,
+  mantra,
 }: {
   players: DerivedPlayer[];
   numFormSources: number;
   onOpenCard: (id: number) => void;
+  mantra: boolean;
 }) {
   const { sort, sortBy } = useAsta();
+  const cols = mantra ? [...COLS.slice(0, 3), MANTRA_COL, ...COLS.slice(3)] : COLS;
 
   return (
     <div className="tablewrap">
@@ -44,7 +49,7 @@ export function PlayersTable({
       <table>
         <thead>
           <tr>
-            {COLS.map((c) => (
+            {cols.map((c) => (
               <th
                 key={c.label}
                 className={c.num ? "num" : undefined}
@@ -71,13 +76,19 @@ export function PlayersTable({
         <tbody>
           {players.length === 0 ? (
             <tr>
-              <td colSpan={16} style={{ textAlign: "center", color: "var(--muted)", padding: 20 }}>
+              <td colSpan={cols.length + 4} style={{ textAlign: "center", color: "var(--muted)", padding: 20 }}>
                 Nessun giocatore con questi filtri.
               </td>
             </tr>
           ) : (
             players.map((p) => (
-              <PlayerRow key={p.id} p={p} numFormSources={numFormSources} onOpenCard={onOpenCard} />
+              <PlayerRow
+                key={p.id}
+                p={p}
+                numFormSources={numFormSources}
+                onOpenCard={onOpenCard}
+                mantra={mantra}
+              />
             ))
           )}
         </tbody>

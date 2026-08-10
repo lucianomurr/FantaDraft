@@ -8,12 +8,19 @@ export function computeVal(p: Player): number | null {
   return Math.round(((3 * gls + ast) / p.f) * 100);
 }
 
-export function withDerived(p: Player): DerivedPlayer {
-  return { ...p, val: computeVal(p) };
+/** FVM da usare per punteggi/ordinamento: Mantra (`fvmM`) se la lega è Mantra
+ * e il dato è presente, altrimenti Classic (`f`). */
+export function activeFvm(p: Player, mantra: boolean): number {
+  return mantra && p.fvmM != null ? p.fvmM : p.f;
 }
 
-export function withDerivedAll(players: Player[]): DerivedPlayer[] {
-  return players.map(withDerived);
+export function withDerived(p: Player, mantra: boolean): DerivedPlayer {
+  const adjusted = { ...p, f: activeFvm(p, mantra) };
+  return { ...adjusted, val: computeVal(adjusted) };
+}
+
+export function withDerivedAll(players: Player[], mantra: boolean): DerivedPlayer[] {
+  return players.map((p) => withDerived(p, mantra));
 }
 
 export type XgFlag = "under" | "over" | null;

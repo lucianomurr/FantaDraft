@@ -18,3 +18,34 @@ export const RVAR: Record<Role, string> = {
   C: "--c",
   A: "--a",
 };
+
+/** Sottoruoli Mantra (schieramento) — distinti dal ruolo Classic d'asta sopra. */
+export const MANTRA_ROLES = [
+  "Por",
+  "Dc",
+  "Dd",
+  "Ds",
+  "B",
+  "E",
+  "M",
+  "C",
+  "W",
+  "T",
+  "Pc",
+  "A",
+] as const;
+
+export const MRNAME: Record<string, string> = {
+  Por: "Portiere",
+  Dc: "Difensore centrale",
+  Dd: "Terzino destro",
+  Ds: "Terzino sinistro",
+  B: "Braccetto",
+  E: "Esterno",
+  M: "Mediano",
+  C: "Centrocampista",
+  W: "Ala",
+  T: "Trequartista",
+  Pc: "Punta centrale",
+  A: "Attaccante",
+};

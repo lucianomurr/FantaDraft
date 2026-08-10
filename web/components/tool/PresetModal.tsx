@@ -28,6 +28,8 @@ function cloneParams(p: PresetParams): PresetParams {
       C: [...p.quotas.C] as [number, number, number, number],
       A: [...p.quotas.A] as [number, number, number, number],
     },
+    mantra: p.mantra,
+    modDifesa: p.modDifesa,
   };
 }
 
@@ -40,15 +42,16 @@ export function PresetModal({
   open: boolean;
   onClose: () => void;
 }) {
-  const { applyComputedPreset } = useAsta();
+  const { applyComputedPreset, cfg } = useAsta();
   const [params, setParams] = useState<PresetParams>(() => cloneParams(DEFAULT_PRESET_PARAMS));
   const [resetFirst, setResetFirst] = useState(false);
 
   useEffect(() => {
     if (open) {
-      setParams(cloneParams(DEFAULT_PRESET_PARAMS));
+      setParams(cloneParams({ ...DEFAULT_PRESET_PARAMS, mantra: cfg.mantra, modDifesa: cfg.modDifesa }));
       setResetFirst(false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
 
   const tierMap = useMemo(() => computeLivePreset(players, params), [players, params]);
@@ -79,6 +82,12 @@ export function PresetModal({
         Punteggio = FVM × (0,55 + peso titolarità × titolarità) + bonus rigorista. I migliori
         per punteggio (per quota di ruolo) prendono F1..F4; i titolari economici rimasti
         prendono R, le trappole costose e panchinare prendono X.
+      </p>
+      <p className="hint" style={{ marginTop: -6, marginBottom: 14 }}>
+        Modalità attiva: {cfg.mantra ? "Mantra" : "Classic"}
+        {cfg.mantra && " (FVM Mantra)"}
+        {cfg.modDifesa && " + modificatore difesa (portieri/difensori pesati di più)"}
+        {" — cambiala da Budget & allocazione."}
       </p>
 
       <div className="legsec">

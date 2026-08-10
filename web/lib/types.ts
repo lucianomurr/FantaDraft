@@ -47,6 +47,10 @@ export interface Player {
   kp?: number;
   inj?: { d: string; r: string } | null;
   transfer?: TransferEvent | null;
+  /** Ruoli Mantra (es. ["Dd","Dc"]) — sottoruoli di schieramento, distinti dal ruolo Classic `r`. */
+  rm?: string[];
+  /** FVM Mantra, spesso diverso dal FVM Classic `f`. */
+  fvmM?: number | null;
 }
 
 export interface TransferEvent {
@@ -99,6 +103,10 @@ export interface RoleAllocation {
   D: number;
   C: number;
   A: number;
+  /** Formato lega: Classic (false) o Mantra (true) — influenza FVM attivo e preset fasce. */
+  mantra: boolean;
+  /** Modificatore difesa attivo — pesa di più portieri/difensori nel preset fasce. */
+  modDifesa: boolean;
 }
 
 export interface PersistedState {
@@ -115,6 +123,8 @@ export interface FilterState {
   onlyMine: boolean;
   onlyPen: boolean;
   onlyTit: boolean;
+  /** Filtro ruolo Mantra (uno dei MANTRA_ROLES) — "" = tutti. */
+  mrole: string;
 }
 
 export type SortKey =

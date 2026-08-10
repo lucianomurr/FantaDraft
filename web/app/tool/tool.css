@@ -115,6 +115,7 @@ th:first-child{z-index:3;background:var(--panel2)}
 @media(max-width:640px){.stratgrid{grid-template-columns:1fr}}
 .stratcard{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;cursor:pointer;transition:.12s}
 .stratcard:hover{border-color:var(--acc);background:#232d42}
+.stratcard.on{border-color:var(--acc2);background:rgba(56,211,159,.09)}
 .stratcard h4{margin:0 0 8px;font-size:13px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .stratpct{display:flex;gap:8px;flex-wrap:wrap;font-size:12px;font-weight:700;margin-bottom:8px}
 .stratcard p{margin:0;font-size:12px;color:var(--muted);line-height:1.45}

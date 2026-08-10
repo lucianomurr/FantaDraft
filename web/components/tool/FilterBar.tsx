@@ -1,6 +1,7 @@
 "use client";
 
 import { useAsta } from "../../contexts/AstaContext";
+import { MANTRA_ROLES, MRNAME } from "../../lib/roles";
 import type { Role } from "../../lib/types";
 
 const ROLE_TABS: { key: Role | "ALL"; label: string }[] = [
@@ -12,7 +13,7 @@ const ROLE_TABS: { key: Role | "ALL"; label: string }[] = [
 ];
 
 export function FilterBar({ teams, count }: { teams: string[]; count: number }) {
-  const { filters, setFilters } = useAsta();
+  const { filters, setFilters, cfg } = useAsta();
 
   return (
     <div className="controls">
@@ -41,6 +42,16 @@ export function FilterBar({ teams, count }: { teams: string[]; count: number }) 
           </option>
         ))}
       </select>
+      {cfg.mantra && (
+        <select value={filters.mrole} onChange={(e) => setFilters({ mrole: e.target.value })}>
+          <option value="">Tutti i ruoli M</option>
+          {MANTRA_ROLES.map((r) => (
+            <option key={r} value={r}>
+              {r} — {MRNAME[r]}
+            </option>
+          ))}
+        </select>
+      )}
       <select value={filters.tier} onChange={(e) => setFilters({ tier: e.target.value })}>
         <option value="">Tutte le fasce</option>
         <option value="1">Fascia 1</option>
