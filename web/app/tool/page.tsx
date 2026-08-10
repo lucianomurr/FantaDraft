@@ -46,9 +46,16 @@ function ToolInner() {
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
   const onboardingShown = useRef(false);
+  const prevHadSavedState = useRef<boolean | null>(null);
 
   useEffect(() => {
-    if (hydrated && !hadSavedState && !onboardingShown.current) {
+    if (!hydrated) return;
+    // "Reset totale" riporta hadSavedState a false: riarma l'onboarding come a un primo avvio.
+    if (prevHadSavedState.current === true && !hadSavedState) {
+      onboardingShown.current = false;
+    }
+    prevHadSavedState.current = hadSavedState;
+    if (!hadSavedState && !onboardingShown.current) {
       onboardingShown.current = true;
       setOnboardingOpen(true);
     }

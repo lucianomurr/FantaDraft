@@ -119,7 +119,7 @@ function reducer(state: AstaState, action: Action): AstaState {
       return { ...state, st };
     }
     case "RESET_ALL":
-      return { ...state, st: {} };
+      return { ...state, cfg: DEFAULT_CFG, st: {}, hadSavedState: false };
     case "IMPORT":
       return { ...state, cfg: { ...state.cfg, ...action.cfg }, st: action.st };
     case "SET_FILTERS":

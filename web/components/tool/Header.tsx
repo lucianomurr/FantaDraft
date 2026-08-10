@@ -85,7 +85,12 @@ export function Header({
         <button
           className="ghost sm"
           onClick={() => {
-            if (confirm("Cancellare TUTTO (fasce, target, tracking)? Operazione irreversibile.")) resetAll();
+            if (
+              confirm(
+                "Cancellare TUTTO (fasce, target, tracking, budget e impostazioni Classic/Mantra)? Riparte l'onboarding. Operazione irreversibile.",
+              )
+            )
+              resetAll();
           }}
         >
           🗑 Reset totale
