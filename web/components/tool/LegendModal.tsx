@@ -110,6 +110,12 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
         <div className="legrow">G/Rig/A/Min — stagione più recente (25/26, altrimenti 24/25 — Big 5 europei + Serie B)</div>
         <div className="legrow">xG/xA — da Understat (non copre la Serie B)</div>
         <div className="legrow">Val — (3×gol + assist) / FVM × 100, più alto = più bonus per credito</div>
+        <div className="legrow">
+          Val portieri — (100 − gol subiti stimati) / FVM × 100. Gol subiti = proxy squadra
+          2025/26 prorata sui minuti (dato individuale non disponibile), solo con ≥900 min e
+          FVM ≥3 — sotto soglia mostra &quot;—&quot;. Scala diversa dal Val degli altri ruoli, non
+          confrontabile direttamente.
+        </div>
         <div className="legrow">Tit — in quante formazioni tipo su 5 il giocatore parte titolare · ⚖ = in ballottaggio</div>
       </div>
     </ModalShell>

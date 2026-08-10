@@ -9,6 +9,32 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (10/08/2026): Val portieri da gol subiti + fix reset totale
+"Reset totale" azzerava solo il tracking (`st`), non `cfg` — budget e le
+nuove impostazioni Mantra/modificatore difesa restavano quelle vecchie e
+l'onboarding non si riapriva mai (il ref one-shot in `page.tsx` non si
+riarmava). Ora `RESET_ALL` riporta `cfg` a `DEFAULT_CFG` e `hadSavedState` a
+false; `page.tsx` riarma il ref quando `hadSavedState` passa da true a false,
+riaprendo il wizard onboarding come a un primo avvio.
+
+Val per i portieri era sostanzialmente vuoto (formula (3×gol+assist)/FVM,
+ma i portieri non fanno gol/assist). Dato individuale "gol subiti" NON
+disponibile: FBref blocca con CAPTCHA persistente sia la pagina keepers sia
+(oggi) la pagina standings principale — bloccato IP/sessione, non solo
+l'endpoint. Soluzione: proxy squadra. `scripts/merge_keeper_ga.py` porta i
+gol subiti 2025/26 per squadra (fonte Wikipedia, tabelle finali Serie A +
+Serie B verificate sull'HTML grezzo — le 3 neopromosse Frosinone/Monza/
+Venezia usano il dato Serie B, unica stagione disponibile) prorata sui
+minuti giocati dal portiere (base 3420 = stagione piena), campo `ga` su
+`players_pen.json`. Formula (decisa con Luciano dopo due giri di conti reali
+che hanno rivelato problemi di scala): Val = (100 − gol subiti stimati) /
+FVM × 100, con soglie di esclusione (mostra "—"): <900 minuti (dato non
+affidabile su campione piccolo) e FVM <3 (sotto quella soglia il rapporto
+esplode per i portieri di riserva quasi gratis, es. Val 8000+, senza dire
+niente sul portiere). Scala diversa dal Val degli altri ruoli (es. Svilar
+106 vs un attaccante 15-20) — non confrontabile direttamente, spiegato in
+legenda/tooltip.
+
 ## FATTO (10/08/2026): supporto Mantra + modificatore difesa
 Onboarding ora è un wizard a 3 step (`OnboardingModal.tsx`): 1) budget+strategia
 (come prima), 2) formato lega Classic/Mantra + modificatore difesa (nuovi campi

@@ -61,6 +61,12 @@ function PlayerCardBody({
           {p.fvmM ?? "—"}
         </div>
       )}
+      {p.r === "P" && p.ga != null && (
+        <div className="pmeta">
+          Gol subiti stimati (proxy squadra 25/26, prorata sui minuti): <b>{p.ga}</b>
+          {p.gaTeam != null && ` — squadra: ${p.gaTeam} in stagione`}
+        </div>
+      )}
       {p.inj && (
         <div className="pmeta" style={{ color: "var(--bad)" }}>
           🚑 {p.inj.d} — rientro: {p.inj.r}

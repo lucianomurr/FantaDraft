@@ -26,7 +26,13 @@ const COLS: Col[] = [
   { key: "xg", label: "xG", num: true, title: "Expected goals (Understat) — tooltip: npxG senza rigori e tiri" },
   { key: "xa", label: "xA", num: true, title: "Expected assist (Understat) — tooltip: key passes" },
   { key: "min", label: "Min", num: true, title: "Minuti giocati — verde ≥1800, giallo 900-1799, grigio <900" },
-  { key: "val", label: "Val", num: true, title: "Convenienza: (3×gol + assist) / FVM × 100" },
+  {
+    key: "val",
+    label: "Val",
+    num: true,
+    title:
+      "Convenienza: (3×gol + assist) / FVM × 100. Portieri: (100 − gol subiti stimati) / FVM × 100 (proxy squadra, ≥900 min e FVM ≥3) — scala diversa, vedi legenda",
+  },
 ];
 
 export function PlayersTable({
