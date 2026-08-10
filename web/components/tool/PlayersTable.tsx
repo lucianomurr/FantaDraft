@@ -40,6 +40,7 @@ export function PlayersTable({
 
   return (
     <div className="tablewrap">
+      <p className="scrollhint">Nome fisso, scorri di lato per le colonne →</p>
       <table>
         <thead>
           <tr>

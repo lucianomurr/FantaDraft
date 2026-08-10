@@ -17,21 +17,31 @@ export function BudgetPanel({ players }: { players: Player[] }) {
     <>
       <div className="editbudget" style={{ marginBottom: 12 }}>
         <span className="pill">Budget &amp; allocazione</span>
-        <label>Totale</label>
-        <input
-          type="number"
-          min={1}
-          value={cfg.budget}
-          onChange={(e) => setCfg({ budget: +e.target.value || 500 })}
-        />
-        <label>Porta</label>
-        <input type="number" min={0} value={cfg.P} onChange={(e) => setCfg({ P: +e.target.value || 0 })} />
-        <label>Difesa</label>
-        <input type="number" min={0} value={cfg.D} onChange={(e) => setCfg({ D: +e.target.value || 0 })} />
-        <label>Centr.</label>
-        <input type="number" min={0} value={cfg.C} onChange={(e) => setCfg({ C: +e.target.value || 0 })} />
-        <label>Att.</label>
-        <input type="number" min={0} value={cfg.A} onChange={(e) => setCfg({ A: +e.target.value || 0 })} />
+        <span className="ebfield">
+          <label>Totale</label>
+          <input
+            type="number"
+            min={1}
+            value={cfg.budget}
+            onChange={(e) => setCfg({ budget: +e.target.value || 500 })}
+          />
+        </span>
+        <span className="ebfield">
+          <label>Porta</label>
+          <input type="number" min={0} value={cfg.P} onChange={(e) => setCfg({ P: +e.target.value || 0 })} />
+        </span>
+        <span className="ebfield">
+          <label>Difesa</label>
+          <input type="number" min={0} value={cfg.D} onChange={(e) => setCfg({ D: +e.target.value || 0 })} />
+        </span>
+        <span className="ebfield">
+          <label>Centr.</label>
+          <input type="number" min={0} value={cfg.C} onChange={(e) => setCfg({ C: +e.target.value || 0 })} />
+        </span>
+        <span className="ebfield">
+          <label>Att.</label>
+          <input type="number" min={0} value={cfg.A} onChange={(e) => setCfg({ A: +e.target.value || 0 })} />
+        </span>
         <span
           className="hint"
           style={{ color: sum > cfg.budget ? "var(--bad)" : sum < cfg.budget ? "var(--warn)" : "var(--good)" }}

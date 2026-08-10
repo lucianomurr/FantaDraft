@@ -46,16 +46,21 @@ input:focus,select:focus{outline:none;border-color:var(--acc)}
 .spacer{flex:1}
 .chk{display:flex;align-items:center;gap:5px;font-size:12px;color:var(--muted);cursor:pointer;user-select:none}
 .chk input{width:15px;height:15px;accent-color:var(--acc)}
-.tablewrap{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.tablewrap{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
 table{width:100%;border-collapse:collapse}
 th,td{padding:8px 9px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
 th{font-size:11px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);cursor:pointer;user-select:none;position:sticky;top:0;background:var(--panel2);z-index:2}
 th.num,td.num{text-align:right}
-tbody tr:hover{background:#1a2130}
-tr.mine{background:rgba(56,211,159,.09)}
-tr.mine:hover{background:rgba(56,211,159,.15)}
+tbody tr{background-color:var(--panel)}
+tbody tr:hover{background-color:#1a2130}
+tr.mine{background-color:rgba(56,211,159,.09)}
+tr.mine:hover{background-color:rgba(56,211,159,.15)}
 tr.out{opacity:.4}
 tr.out td.name{text-decoration:line-through}
+/* colonna nome fissa: sullo scroll orizzontale (mobile) resta sempre visibile
+   chi si sta guardando tra le colonne di statistiche */
+td.name,th:first-child{position:sticky;left:0;z-index:1;background-color:inherit}
+th:first-child{z-index:3;background:var(--panel2)}
 .rbadge{display:inline-block;width:22px;text-align:center;font-weight:800;border-radius:6px;font-size:12px;padding:2px 0}
 .rP{background:rgba(240,180,41,.16);color:var(--p)}
 .rD{background:rgba(79,140,255,.16);color:var(--d)}
@@ -147,3 +152,28 @@ details.strat[open] .stbody{padding-bottom:14px}
 .pcard .xclose{float:right;font-size:15px}
 .toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:var(--acc);color:#fff;padding:10px 16px;border-radius:10px;font-size:13px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
 .toast.show{opacity:1}
+
+.ebfield{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.scrollhint{display:none}
+
+@media(max-width:700px){
+  .tool-wrap{padding:10px}
+  button{padding:9px 13px;font-size:13.5px}
+  button.sm{padding:7px 10px;font-size:12.5px}
+  .tab{padding:8px 13px}
+  .chk input{width:18px;height:18px}
+  th,td{padding:10px}
+  .tbtn{width:32px;height:32px;font-size:12px}
+  .tin{width:64px;padding:8px 7px}
+  .paidin{width:56px;padding:8px 7px}
+  .actgroup{gap:6px}
+  .editbudget{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 12px}
+  .editbudget .pill{grid-column:1/-1}
+  .editbudget .hint{grid-column:1/-1}
+  .ebfield{display:flex;justify-content:space-between;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+  .ebfield label{font-size:12px;color:var(--muted)}
+  .ebfield input{width:64px;text-align:right}
+  .pcard .pgrid{grid-template-columns:repeat(2,1fr)}
+  .scrollhint{display:block;position:sticky;left:0;width:max-content;max-width:100%;
+    font-size:11px;color:var(--muted);padding:7px 9px 0;margin:0}
+}
