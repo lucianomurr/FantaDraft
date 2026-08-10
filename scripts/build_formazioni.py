@@ -40,6 +40,9 @@ ALIAS = {
     "gelli": "Gelli F.",
     "alisson santos": "Santos A.",
     "alisson": "Santos A.",
+    "oyono": "Oyono A.",  # Frosinone: 33 presenze/titolare vs 2 di Oyono J.
+    "martinez": "Martinez Jo.",  # Inter: ballottaggio con Provedel = portieri
+    "j.rodriguez": "Rodriguez Je.",  # Como: ballottaggio con Baturina (centrocampo)
 }
 
 def split_name(n):
