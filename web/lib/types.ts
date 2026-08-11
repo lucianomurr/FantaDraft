@@ -51,10 +51,14 @@ export interface Player {
   rm?: string[];
   /** FVM Mantra, spesso diverso dal FVM Classic `f`. */
   fvmM?: number | null;
-  /** Solo portieri: gol subiti stimati (proxy squadra 2025/26, prorata sui minuti giocati). */
+  /** Solo portieri: gol subiti 2025/26 — individuali reali se `gaIndividual`, altrimenti
+   * proxy di squadra (promosse dalla B) prorata sui minuti giocati. */
   ga?: number | null;
-  /** Solo portieri: gol subiti totali della squadra 2025/26 (dato grezzo dietro `ga`). */
+  /** Solo portieri, solo se non individuale: gol subiti totali della squadra 2025/26
+   * dietro la proroga di `ga`. */
   gaTeam?: number | null;
+  /** true = `ga` è il dato individuale reale del portiere, false = proxy di squadra. */
+  gaIndividual?: boolean;
 }
 
 export interface TransferEvent {

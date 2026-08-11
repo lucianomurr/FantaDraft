@@ -31,7 +31,7 @@ const COLS: Col[] = [
     label: "Val",
     num: true,
     title:
-      "Convenienza: (3×gol + assist) / FVM × 100. Portieri: (100 − gol subiti stimati) / FVM × 100 (proxy squadra, ≥900 min e FVM ≥3) — scala diversa, vedi legenda",
+      "Convenienza: (3×gol + assist) / FVM × 100. Portieri: (100 − gol subiti) / FVM × 100 (dato individuale reale 25/26, proxy squadra per le promosse dalla B — ≥900 min e FVM ≥3) — scala diversa, vedi legenda",
   },
 ];
 

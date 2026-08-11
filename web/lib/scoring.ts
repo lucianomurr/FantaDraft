@@ -1,9 +1,11 @@
 import type { Player, DerivedPlayer } from "./types";
 
 /** Val = bonus attesi (3×gol + assist) per 100 crediti di FVM. Solo se stat=true e FVM>0.
- * Portieri: nessun gol/assist, quindi si usa (100 − gol subiti stimati) al posto del
- * bonus — gol subiti = proxy di squadra prorata sui minuti (vedi scripts/merge_keeper_ga.py,
- * dato individuale non disponibile: FBref blocca lo scraping della pagina keepers). */
+ * Portieri: nessun gol/assist, quindi si usa (100 − gol subiti) al posto del bonus —
+ * gol subiti individuali reali (Serie A 2025/26, copiati a mano dalla tabella "Player
+ * Goalkeeping" di FBref: lo scraping automatico è bloccato da CAPTCHA persistente su
+ * tutto fbref.com). Per le squadre promosse dalla B senza dato individuale: proxy di
+ * squadra prorata sui minuti (vedi `gaIndividual` e scripts/merge_keeper_ga.py). */
 export function computeVal(p: Player): number | null {
   if (!p.stat || !p.f || p.f <= 0) return null;
   if (p.r === "P") {

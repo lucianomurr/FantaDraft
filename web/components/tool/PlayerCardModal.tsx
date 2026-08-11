@@ -63,8 +63,10 @@ function PlayerCardBody({
       )}
       {p.r === "P" && p.ga != null && (
         <div className="pmeta">
-          Gol subiti stimati (proxy squadra 25/26, prorata sui minuti): <b>{p.ga}</b>
-          {p.gaTeam != null && ` — squadra: ${p.gaTeam} in stagione`}
+          Gol subiti 2025/26: <b>{p.ga}</b>{" "}
+          {p.gaIndividual
+            ? "(dato individuale reale)"
+            : `(stima proxy squadra${p.gaTeam != null ? `, ${p.gaTeam} in stagione` : ""}, prorata sui minuti — promossa dalla B, nessun dato individuale disponibile)`}
         </div>
       )}
       {p.inj && (

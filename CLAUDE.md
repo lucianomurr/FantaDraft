@@ -18,22 +18,26 @@ false; `page.tsx` riarma il ref quando `hadSavedState` passa da true a false,
 riaprendo il wizard onboarding come a un primo avvio.
 
 Val per i portieri era sostanzialmente vuoto (formula (3×gol+assist)/FVM,
-ma i portieri non fanno gol/assist). Dato individuale "gol subiti" NON
-disponibile: FBref blocca con CAPTCHA persistente sia la pagina keepers sia
-(oggi) la pagina standings principale — bloccato IP/sessione, non solo
-l'endpoint. Soluzione: proxy squadra. `scripts/merge_keeper_ga.py` porta i
-gol subiti 2025/26 per squadra (fonte Wikipedia, tabelle finali Serie A +
-Serie B verificate sull'HTML grezzo — le 3 neopromosse Frosinone/Monza/
-Venezia usano il dato Serie B, unica stagione disponibile) prorata sui
-minuti giocati dal portiere (base 3420 = stagione piena), campo `ga` su
-`players_pen.json`. Formula (decisa con Luciano dopo due giri di conti reali
-che hanno rivelato problemi di scala): Val = (100 − gol subiti stimati) /
-FVM × 100, con soglie di esclusione (mostra "—"): <900 minuti (dato non
-affidabile su campione piccolo) e FVM <3 (sotto quella soglia il rapporto
-esplode per i portieri di riserva quasi gratis, es. Val 8000+, senza dire
-niente sul portiere). Scala diversa dal Val degli altri ruoli (es. Svilar
-106 vs un attaccante 15-20) — non confrontabile direttamente, spiegato in
-legenda/tooltip.
+ma i portieri non fanno gol/assist). Dato individuale "gol subiti": FBref
+blocca con CAPTCHA persistente lo scraping automatico (sia la pagina keepers
+sia, in alcuni momenti, la pagina standings principale — bloccato IP/
+sessione, non solo l'endpoint), ma la pagina è raggiungibile da browser
+normale — Luciano ha copiato a mano la tabella "Player Goalkeeping" (Serie A
+2025/26, 46 portieri, FBref) e l'ho incollata in `scripts/merge_keeper_ga.py`
+(costante `PLAYER_GA`, match per cognome). 31/60 portieri hanno così il dato
+individuale REALE (flag `gaIndividual: true`); i restanti (squadre promosse
+dalla B — Frosinone/Monza/Venezia — o portieri senza minuti in A 2025/26)
+usano il proxy di squadra (gol subiti totali Serie B 2025/26, fonte
+Wikipedia, prorata sui minuti giocati) con `gaIndividual: false`. Campi `ga`/
+`gaTeam`/`gaIndividual` su `players_pen.json`. Formula (decisa con Luciano
+dopo due giri di conti reali che hanno rivelato problemi di scala): Val =
+(100 − gol subiti) / FVM × 100, con soglie di esclusione (mostra "—"): <900
+minuti (dato non affidabile su campione piccolo) e FVM <3 (sotto quella
+soglia il rapporto esplode per i portieri di riserva quasi gratis, es. Val
+8000+, senza dire niente sul portiere). Scala diversa dal Val degli altri
+ruoli (es. Svilar 106 vs un attaccante 15-20) — non confrontabile
+direttamente, spiegato in legenda/tooltip/scheda giocatore (che indica se il
+dato è individuale o proxy).
 
 ## FATTO (10/08/2026): supporto Mantra + modificatore difesa
 Onboarding ora è un wizard a 3 step (`OnboardingModal.tsx`): 1) budget+strategia
