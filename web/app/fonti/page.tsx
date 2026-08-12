@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Fonti e attribuzioni — FantaDraft2027",
   description:
-    "Tutte le fonti dei dati usati da FantaDraft2027: FBref, Understat, quotazioni ufficiali, SOS Fanta, FantaMaster, Eurosport, Goal, Gazzetta dello Sport.",
+    "Tutte le fonti dei dati usati da FantaDraft2027: FBref, Understat, quotazioni ufficiali, SOS Fanta, FantaMaster, Eurosport, Goal, Gazzetta dello Sport, Fantacalcio.it.",
   alternates: { canonical: "/fonti" },
 };
 
@@ -45,6 +45,11 @@ const FONTI = [
         nome: "La Gazzetta dello Sport",
         url: "https://www.gazzetta.it",
         cosa: "Formazioni tipo, gerarchie dei rigoristi e consigli per squadra (rubrica Fantanews).",
+      },
+      {
+        nome: "Fantacalcio.it",
+        url: "https://www.fantacalcio.it/probabili-formazioni-serie-a",
+        cosa: "Probabili formazioni della prossima giornata, moduli e ballottaggi.",
       },
     ],
   },

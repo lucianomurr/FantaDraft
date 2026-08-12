@@ -25,7 +25,9 @@ export interface Player {
   f: number;
   pen: PenType;
   tit: number;
-  ball: 0 | 1;
+  /** In quante fonti è citato in un ballottaggio SENZA essere titolare in quella
+   * stessa fonte (0..numFormSources). tit + ball non supera mai numFormSources. */
+  ball: number;
   gls?: number;
   ast?: number;
   pk?: number;

@@ -11,8 +11,8 @@ Zero account: apri il tool nel browser e prepari l'asta coi numeri. Completament
 - **Statistiche reali** di 2 stagioni da FBref (gol, rigori, assist, minuti, titolarità) —
   Big 5 europei + Serie B, quindi anche neopromossi e nuovi arrivi
 - **xG e xA da Understat** per distinguere chi è forte da chi è stato fortunato
-- **Probabili formazioni aggregate da 5 fonti** (SOS Fanta, FantaMaster, Eurosport, Goal,
-  Gazzetta): colonna Tit = in quanti XI su 5 parte titolare
+- **Probabili formazioni aggregate da 6 fonti** (SOS Fanta, FantaMaster, Eurosport, Goal,
+  Gazzetta, Fantacalcio.it): colonna Tit = in quanti XI su 6 parte titolare
 - **Rigoristi** (gerarchie Gazzetta: designato + alternative) e **infortunati** (prognosi + rientro)
 - **Ultimi trasferimenti** (API-Football): badge 🆕 per i nuovi arrivi, 🚪 quando il
   listone ha ancora un giocatore ceduto/prestato altrove — occhio prima di puntarci

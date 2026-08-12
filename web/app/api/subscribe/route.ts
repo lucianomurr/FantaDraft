@@ -77,7 +77,7 @@ function confirmationHtml() {
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
                   ${feature("493 giocatori", "Quotazioni ufficiali 2026/27 con Qt e FVM.")}
                   ${feature("Statistiche reali", "Gol, rigori, assist, minuti e xG/xA (FBref + Understat) delle ultime due stagioni.")}
-                  ${feature("Probabili formazioni", "Aggregate da 5 fonti (SOS Fanta, FantaMaster, Eurosport, Goal, Gazzetta).")}
+                  ${feature("Probabili formazioni", "Aggregate da 6 fonti (SOS Fanta, FantaMaster, Eurosport, Goal, Gazzetta, Fantacalcio.it).")}
                   ${feature("Rigoristi, infortunati, trasferimenti", "Gerarchie, prognosi di rientro e badge sui mercati estivi.")}
                   ${feature("Asta live", "Fasce di preferenza con preset regolabile, prezzi target, budget residuo per reparto.")}
                 </table>

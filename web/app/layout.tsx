@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE),
   title: "FantaDraft2027 — Tool gratuito per l'asta del fantacalcio 2026/27",
   description:
-    "Prepara l'asta del fantacalcio Serie A 2026/27 coi numeri: quotazioni e FVM, statistiche FBref e Understat (xG/xA), probabili formazioni da 5 fonti, rigoristi, infortunati, indice di convenienza. Gratuito, open source, senza registrazione.",
+    "Prepara l'asta del fantacalcio Serie A 2026/27 coi numeri: quotazioni e FVM, statistiche FBref e Understat (xG/xA), probabili formazioni da 6 fonti, rigoristi, infortunati, indice di convenienza. Gratuito, open source, senza registrazione.",
   keywords: [
     "fantacalcio", "asta fantacalcio", "fantacalcio 2026/27", "listone fantacalcio",
     "tool asta fantacalcio", "probabili formazioni", "rigoristi serie a", "xG fantacalcio",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "FantaDraft2027 — arriva all'asta coi numeri",
     description:
-      "Tool gratuito e open source per l'asta del fantacalcio Serie A 2026/27: statistiche reali, 5 fonti di formazioni, rigoristi, infortunati, budget live.",
+      "Tool gratuito e open source per l'asta del fantacalcio Serie A 2026/27: statistiche reali, 6 fonti di formazioni, rigoristi, infortunati, budget live.",
     type: "website",
     locale: "it_IT",
     url: SITE,

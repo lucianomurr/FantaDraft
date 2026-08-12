@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Aggancia le probabili formazioni (3 fonti) alla rosa fantacalcio.
+"""Aggancia le probabili formazioni (5 fonti a nome + 1 a id) alla rosa fantacalcio.
 
 Output:
 - players_pen.json: aggiunge `tit` (0-3 = in quanti XI titolari appare) e
@@ -81,10 +81,17 @@ def main():
     src = json.load(open(f"{SCRATCH}/formazioni_src.json"))
 
     roster = defaultdict(list)
+    by_id = {}
     for p in players:
         roster[p["s"]].append(p)
+        by_id[p["id"]] = p
 
     unmatched = []
+
+    def find_by_id(pid):
+        """Fonti con id fantacalcio ufficiale (es. Fantacalcio.it): match diretto,
+        niente euristiche di nome."""
+        return by_id.get(pid)
 
     def find(team, raw, slot=None):
         """slot 0 = portiere."""
@@ -120,27 +127,40 @@ def main():
 
     # match
     tit_count = defaultdict(int)
-    ball_ids = set()
+    # id -> set di nomi fonte in cui il giocatore è citato in un ballottaggio
+    # SENZA essere titolare in quella stessa fonte (un ballottaggio elenca sia
+    # il titolare in carica che il contendente: solo il secondo conta qui, il
+    # primo ha già il suo pallino pieno da titolare — altrimenti prenderebbe
+    # doppio credito dalla stessa fonte).
+    ball_only_src = defaultdict(set)
     out = {"sources": []}
     for s in src["sources"]:
         so = {"name": s["name"], "teams": {}}
         for team, data in s["teams"].items():
             xi_out = []
+            source_team_titolari = set()
             for i, raw in enumerate(data["xi"]):
-                p = find(team, raw, slot=i)
+                if isinstance(raw, dict):
+                    p = find_by_id(raw["id"])
+                    label = raw["n"]
+                else:
+                    p = find(team, raw, slot=i)
+                    label = raw
                 if p:
                     tit_count[p["id"]] += 1
+                    source_team_titolari.add(p["id"])
                     xi_out.append({"id": p["id"], "n": p["n"], "r": p["r"]})
                 else:
-                    unmatched.append((s["name"], team, raw, "XI"))
-                    xi_out.append({"id": None, "n": raw, "r": "?"})
+                    unmatched.append((s["name"], team, label, "XI"))
+                    xi_out.append({"id": None, "n": label, "r": "?"})
             ball_out = []
             for pair in data.get("ball", []):
                 bp = []
                 for raw in pair:
                     p = find(team, raw)
                     if p:
-                        ball_ids.add(p["id"])
+                        if p["id"] not in source_team_titolari:
+                            ball_only_src[p["id"]].add(s["name"])
                         bp.append(p["n"])
                     else:
                         unmatched.append((s["name"], team, raw, "ball"))
@@ -151,17 +171,18 @@ def main():
 
     for p in players:
         p["tit"] = tit_count.get(p["id"], 0)
-        p["ball"] = 1 if p["id"] in ball_ids else 0
+        p["ball"] = len(ball_only_src.get(p["id"], ()))
 
     json.dump(players, open(f"{PROJ}/players_pen.json", "w"), ensure_ascii=False,
               separators=(",", ":"))
     json.dump(out, open(f"{PROJ}/formazioni.json", "w"), ensure_ascii=False,
               separators=(",", ":"))
 
-    n3 = sum(1 for p in players if p["tit"] == 3)
-    n2 = sum(1 for p in players if p["tit"] == 2)
-    n1 = sum(1 for p in players if p["tit"] == 1)
-    print(f"titolari 3/3: {n3} · 2/3: {n2} · 1/3: {n1} · ballottaggi: {len(ball_ids)}")
+    n_sources = len(src["sources"])
+    counts = {n: sum(1 for p in players if p["tit"] == n) for n in range(n_sources, 0, -1)}
+    counts_str = " · ".join(f"{n}/{n_sources}: {c}" for n, c in counts.items())
+    n_ball = sum(1 for p in players if p["ball"] > 0)
+    print(f"titolari {counts_str} · in ballottaggio (non titolari altrove): {n_ball} giocatori")
     print(f"\nNON AGGANCIATI ({len(unmatched)}):")
     for s, t, raw, kind in unmatched:
         print(f"  [{s}] {t}: '{raw}' ({kind})")

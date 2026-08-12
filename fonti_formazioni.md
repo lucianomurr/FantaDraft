@@ -45,6 +45,25 @@ ricostruire `formazioni_src.json` (stesso formato: sources[].teams.{squadra}.{mo
 - Il blocco XI nella Gazzetta è nel body: `(modulo): XI. Allenatore: X. Calci di rigore: ...`
 - Al refresh pre-asta: riscaricare tutte e 5 e ricostruire formazioni_src.json.
 
+## Fantacalcio.it (aggiunta 11/08/2026, 6a fonte)
+- URL: https://www.fantacalcio.it/probabili-formazioni-serie-a — pagina UNICA con
+  tutte le 20 squadre (non una pagina per squadra come Gazzetta).
+- ATTENZIONE: a differenza delle altre 5, questa mostra la **prossima giornata di
+  campionato** (es. "Giornata 1"), non un preview stagionale — dopo che si è giocata
+  quella giornata i dati diventano quelli della successiva. Va rifatta a ridosso
+  dell'asta insieme al resto per essere davvero utile (non ha senso rifetcharla in
+  isolamento a metà tra due refresh).
+- Gli URL dei giocatori nell'HTML contengono l'id fantacalcio ufficiale (es.
+  `.../martinez-jo/5116` → id 5116), lo stesso id di `players_pen.json`: matching
+  DIRETTO per id in `build_formazioni.py` (bypassa tutte le euristiche di nome
+  usate per le altre 5 fonti — niente ALIAS/fuzzy da mantenere per questa).
+- Script dedicati (fetch + parse in un solo step, poi merge):
+    python3 scripts/fetch_fantacalcio_formazioni.py   # scrive fantacalcio_it_src.json
+    python3 scripts/build_formazioni_src.py           # aggiunge/sostituisce SOLO questa fonte in formazioni_src.json
+    python3 scripts/build_formazioni.py               # come sempre, ricalcola tit/ball su tutte le 6 fonti
+  `build_formazioni_src.py` NON tocca le altre 5 fonti già presenti nel file — per
+  rifarle da zero serve comunque il fetch manuale di ciascuna (vedi sopra).
+
 ## Infortunati (aggiunto 06/08/2026)
 - Fonte: https://www.fantacalcio.it/infortunati-serie-a (WebFetch funziona)
 - Refresh: aggiornare `infortuni.json` + `python3 scripts/merge_infortuni.py` + regen HTML.

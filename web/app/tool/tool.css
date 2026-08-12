@@ -84,6 +84,7 @@ th:first-child{z-index:3;background:var(--panel2)}
 .tit2{color:var(--warn);letter-spacing:1px}
 .tit1{color:var(--f2);letter-spacing:1px}
 .tit0{color:#4a5266;letter-spacing:1px}
+.titball{color:var(--acc);letter-spacing:1px}
 .ballot{cursor:help;font-size:12px}
 .formgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-top:10px}
 @media(max-width:800px){.formgrid{grid-template-columns:1fr}}

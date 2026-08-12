@@ -1,6 +1,7 @@
 "use client";
 
 import { useAsta } from "../../contexts/AstaContext";
+import { titBallDots } from "../../lib/formations";
 import { xgFlag, isSmallSampleBet } from "../../lib/scoring";
 import { transferTooltip } from "../../lib/transfers";
 import type { DerivedPlayer, Tier } from "../../lib/types";
@@ -99,10 +100,7 @@ export function PlayerRow({
   const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useAsta();
   const s = getPlayerState(p.id);
   const rowCls = s.s === "mine" ? "mine" : s.s === "out" ? "out" : "";
-  const dots = "●".repeat(p.tit) + "○".repeat(Math.max(0, numFormSources - p.tit));
-  const majority = Math.ceil(numFormSources / 2);
-  const titCls =
-    p.tit === numFormSources ? "tit3" : p.tit >= majority ? "tit2" : p.tit >= 1 ? "tit1" : "tit0";
+  const { tit, ballOnly, empty, titCls, title: titTitle } = titBallDots(p, numFormSources);
 
   return (
     <tr className={rowCls}>
@@ -153,18 +151,10 @@ export function PlayerRow({
       <td className="num">{p.q}</td>
       <td className="num">{p.f}</td>
       <StatCells p={p} />
-      <td
-        style={{ textAlign: "center" }}
-        className={titCls}
-        title={`Titolare in ${p.tit}/${numFormSources} formazioni tipo`}
-      >
-        {dots}
-        {p.ball === 1 && (
-          <span className="ballot" title="Citato in un ballottaggio">
-            {" "}
-            ⚖
-          </span>
-        )}
+      <td style={{ textAlign: "center" }} title={titTitle}>
+        <span className={titCls}>{"●".repeat(tit)}</span>
+        {ballOnly > 0 && <span className="titball">{"◐".repeat(ballOnly)}</span>}
+        <span className="tit0">{"○".repeat(empty)}</span>
       </td>
       <td style={{ textAlign: "center" }}>
         <div className="tiergroup" style={{ justifyContent: "center" }}>

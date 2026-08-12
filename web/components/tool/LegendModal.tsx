@@ -109,7 +109,13 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
         <div className="legrow">Tgt — tuo prezzo max · Io/Altri — tracking asta</div>
         <div className="legrow">G/Rig/A/Min — stagione più recente (25/26, altrimenti 24/25 — Big 5 europei + Serie B)</div>
         <div className="legrow">xG/xA — da Understat (non copre la Serie B)</div>
-        <div className="legrow">Val — (3×gol + assist) / FVM × 100, più alto = più bonus per credito</div>
+        <div className="legrow">
+          Val — (3×gol×peso ruolo + assist) / FVM × 100, più alto = più bonus per credito. I
+          gol pesano ×4.6 per i difensori e ×2.3 per i centrocampisti rispetto a un attaccante
+          (peso ×1): un gol da difensore è molto più raro, quindi più prezioso per
+          differenziarsi. Pesi derivati dai gol/giocatore medi reali della rosa (D 1.1, C 2.2,
+          A 5.1) — gli assist restano a peso pari perché la differenza tra ruoli è molto minore.
+        </div>
         <div className="legrow">
           Val portieri — (100 − gol subiti) / FVM × 100. Gol subiti 2025/26 individuali reali
           (copiati da FBref, scraping automatico bloccato da CAPTCHA); per le squadre promosse
@@ -117,7 +123,12 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
           nella scheda giocatore. Solo con ≥900 min e FVM ≥3, sotto soglia mostra &quot;—&quot;.
           Scala diversa dal Val degli altri ruoli, non confrontabile direttamente.
         </div>
-        <div className="legrow">Tit — in quante formazioni tipo su 5 il giocatore parte titolare · ⚖ = in ballottaggio</div>
+        <div className="legrow">
+          Tit — in quante formazioni tipo su 6 il giocatore parte titolare (pallino pieno). Un
+          pallino semipieno (blu) per ogni fonte in cui è citato in un ballottaggio SENZA essere
+          titolare altrove — non conta due volte chi vince il ballottaggio in quella fonte,
+          quello ha già il suo pallino pieno.
+        </div>
       </div>
     </ModalShell>
   );

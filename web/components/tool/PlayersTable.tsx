@@ -31,7 +31,7 @@ const COLS: Col[] = [
     label: "Val",
     num: true,
     title:
-      "Convenienza: (3×gol + assist) / FVM × 100. Portieri: (100 − gol subiti) / FVM × 100 (dato individuale reale 25/26, proxy squadra per le promosse dalla B — ≥900 min e FVM ≥3) — scala diversa, vedi legenda",
+      "Convenienza: (3×gol×peso ruolo + assist) / FVM × 100 — gol pesati ×4.6 per i difensori e ×2.3 per i centrocampisti (più rari che per un attaccante). Portieri: (100 − gol subiti) / FVM × 100 (dato individuale reale 25/26, proxy squadra per le promosse dalla B — ≥900 min e FVM ≥3) — scala diversa, vedi legenda",
   },
 ];
 
@@ -69,7 +69,7 @@ export function PlayersTable({
             ))}
             <th
               style={{ textAlign: "center" }}
-              title={`In quanti XI titolari appare (${numFormSources} fonti) · ⚖ = in ballottaggio`}
+              title={`In quanti XI titolari appare (${numFormSources} fonti) · pallino pieno = titolare, semipieno = in ballottaggio senza essere titolare altrove`}
               onClick={() => sortBy("tit")}
             >
               Tit{sort.key === "tit" ? (sort.dir === 1 ? " ▲" : " ▼") : ""}

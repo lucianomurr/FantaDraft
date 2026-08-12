@@ -9,6 +9,39 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (11-12/08/2026): peso ruolo su Val + 6a fonte formazioni + pallini ballottaggio
+Val giocatori di movimento pesava gol/assist uguale per tutti i ruoli — un gol da
+difensore contava come uno da attaccante, mentre nella realtà è molto più raro
+(dati reali della rosa: D 1.11 gol/giocatore, C 2.20, A 5.11). Ora
+`GOAL_ROLE_WEIGHT` in `scoring.ts` pesa i gol ×4.6 per i difensori e ×2.3 per i
+centrocampisti (attaccanti ×1) — solo i gol, non gli assist (differenza per
+ruolo molto minore: D 1.07, C 1.82, A 1.96 assist/giocatore). Esempio reale:
+Dimarco (D) Val 14→42, McTominay (C) 14→30, Lautaro (A) invariato a 15.
+
+Aggiunta Fantacalcio.it come 6a fonte probabili formazioni
+(`scripts/fetch_fantacalcio_formazioni.py` + `build_formazioni_src.py`
+append-only sulle altre 5). A differenza delle altre, mostra la PROSSIMA
+GIORNATA di campionato (non un preview stagionale) — da rifare a ridosso
+dell'asta insieme al resto. Gli URL dei giocatori contengono l'id fantacalcio
+ufficiale, stesso id di `players_pen.json`: matching diretto per id in
+`build_formazioni.py` (`find_by_id`), niente euristiche di nome per questa
+fonte. La pagina lista i titolari in ordine attacco→portiere: il parser lo
+inverte per coerenza con le altre 5 (portiere→attacco).
+
+Fix bug ballottaggi: sia il titolare in carica che il contendente in un
+ballottaggio prendevano lo stesso flag `ball` — ora `ball` è un conteggio
+(0..6, non più 0|1) di quante fonti citano il giocatore in ballottaggio SENZA
+essere titolare in quella stessa fonte (chi vince il ballottaggio in una
+fonte ha già il suo pallino pieno da lì, non prende doppio credito). UI:
+pallino pieno (colore per livello tit) = titolare, pallino semipieno blu
+(nuova classe `.titball`) = citato in ballottaggio senza esserlo, vuoto =
+né l'uno né l'altro — sempre 6 pallini totali. Logica condivisa in nuovo
+`web/lib/formations.ts` (`titBallDots`), usata da `PlayerRow.tsx` e
+`PlayerCardModal.tsx`. Fantacalcio.it non contribuisce ancora ballottaggi
+(pagina mostra "Nessun ballottaggio" su tutte le 20 squadre, troppo presto
+in pre-stagione — da ricontrollare il formato quando compariranno dati reali,
+notato che la pagina mostra percentuali ma non legate ai ballottaggi finora).
+
 ## FATTO (10/08/2026): Val portieri da gol subiti + fix reset totale
 "Reset totale" azzerava solo il tracking (`st`), non `cfg` — budget e le
 nuove impostazioni Mantra/modificatore difesa restavano quelle vecchie e

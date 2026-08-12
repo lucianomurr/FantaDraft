@@ -1,35 +1,28 @@
-"""Assembla formazioni_src.json dalle 5 fonti: 4 fetch generalisti (embeddati in
-_formazioni_sources_2608.py) + gazzetta_src.json (da scripts/fetch_gazzetta.py).
+"""Aggiunge/aggiorna la fonte Fantacalcio.it in formazioni_src.json (le altre 5
+fonti restano quelle già presenti nel file — questo script NON le rifà da zero,
+serve scripts/fetch_gazzetta.py + il fetch manuale delle altre 4 per quello).
 
-Uso: python3 scripts/build_formazioni_src.py
+Uso: python3 scripts/fetch_fantacalcio_formazioni.py
+     python3 scripts/build_formazioni_src.py
 """
 import json
 
-from _formazioni_sources_2608 import EUROSPORT, FANTAMASTER, GOAL, SOS_FANTA
-
-GAZZETTA_PATH = "gazzetta_src.json"
+FFC_PATH = "fantacalcio_it_src.json"
 OUT_PATH = "formazioni_src.json"
 
 
 def main():
-    gazzetta_raw = json.load(open(GAZZETTA_PATH))
-    gazzetta = {
-        team: {"mod": v["mod"], "xi": v["xi"], "ball": v["ball"]}
-        for team, v in gazzetta_raw.items()
-    }
+    out = json.load(open(OUT_PATH))
+    ffc_teams = json.load(open(FFC_PATH))
 
-    sources = [
-        {"name": "SOS Fanta", "teams": SOS_FANTA},
-        {"name": "FantaMaster", "teams": FANTAMASTER},
-        {"name": "Eurosport", "teams": EUROSPORT},
-        {"name": "Goal", "teams": GOAL},
-        {"name": "Gazzetta", "teams": gazzetta},
-    ]
+    sources = [s for s in out["sources"] if s["name"] != "Fantacalcio.it"]
+    sources.append({"name": "Fantacalcio.it", "teams": ffc_teams})
+    out["sources"] = sources
 
-    for s in sources:
+    for s in out["sources"]:
         print(f"{s['name']}: {len(s['teams'])} squadre")
 
-    json.dump({"sources": sources}, open(OUT_PATH, "w"), ensure_ascii=False, indent=1)
+    json.dump(out, open(OUT_PATH, "w"), ensure_ascii=False, indent=1)
     print(f"\nScritto {OUT_PATH}")
 
 

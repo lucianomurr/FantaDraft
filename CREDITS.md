@@ -28,6 +28,8 @@ scrivi a luciano.murruni@gmail.com: rimozione immediata.
 - **Goal Italia** — https://www.goal.com/it — formazioni titolari
 - **La Gazzetta dello Sport** — https://www.gazzetta.it — formazioni tipo, gerarchie
   rigoristi e consigli per squadra (rubrica Fantanews)
+- **Fantacalcio.it** — https://www.fantacalcio.it/probabili-formazioni-serie-a —
+  probabili formazioni della prossima giornata
 
 ## Trasferimenti
 

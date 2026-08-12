@@ -247,11 +247,12 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
     k: "Probabili formazioni",
     v: (
       <>
-        XI titolari aggregati da <b>SOS Fanta, FantaMaster, Eurosport, Goal e Gazzetta</b>: la
-        colonna Tit dice in quante formazioni su 5 il giocatore parte titolare.
+        XI titolari aggregati da <b>SOS Fanta, FantaMaster, Eurosport, Goal, Gazzetta e
+        Fantacalcio.it</b>: la colonna Tit dice in quante formazioni su 6 il giocatore parte
+        titolare.
       </>
     ),
-    n: "5 fonti",
+    n: "6 fonti",
   },
   {
     k: "Rigoristi",
@@ -334,7 +335,7 @@ export default function Home() {
           <p className="sub">
             Tool <b>gratuito e open source</b> per l&apos;asta del fantacalcio Serie A 2026/27:{" "}
             <b>497 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
-            da 5 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live.
+            da 6 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live.
             Niente account, niente installazioni: lo apri e funziona.
           </p>
 

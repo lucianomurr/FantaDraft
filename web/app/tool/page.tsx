@@ -101,8 +101,8 @@ function ToolInner() {
         un file di sicurezza prima dell&apos;asta. · {PLAYERS.length} giocatori — Quotazioni
         ufficiali 2026/27 · Fonti: quotazioni e infortunati fantacalcio.it · statistiche FBref
         (Sports Reference) · xG/xA Understat · formazioni SOS Fanta, FantaMaster, Eurosport,
-        Goal, Gazzetta · rigoristi Gazzetta — progetto amatoriale gratuito non affiliato alle
-        testate citate
+        Goal, Gazzetta, Fantacalcio.it · rigoristi Gazzetta — progetto amatoriale gratuito non
+        affiliato alle testate citate
       </div>
 
       <PlayerCardModal player={selectedPlayer} numFormSources={numFormSources} onClose={() => setSelectedId(null)} />

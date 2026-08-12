@@ -1,6 +1,13 @@
-import type { Player, DerivedPlayer } from "./types";
+import type { Player, DerivedPlayer, Role } from "./types";
 
-/** Val = bonus attesi (3×gol + assist) per 100 crediti di FVM. Solo se stat=true e FVM>0.
+/** Peso dei gol per ruolo nel calcolo di Val: un gol da difensore è molto più raro
+ * (quindi più prezioso per differenziarsi) di uno da attaccante. Derivato dai gol/
+ * giocatore medi reali della rosa 2025/26 (D 1.11, C 2.20, A 5.11 — scarto ~4.6x/2.3x),
+ * non da una regola fantacalcistica ufficiale: gli assist restano a peso 1 perché la
+ * differenza tra ruoli è molto più piccola (D 1.07, C 1.82, A 1.96 assist/giocatore). */
+const GOAL_ROLE_WEIGHT: Record<Role, number> = { P: 1, D: 4.6, C: 2.3, A: 1 };
+
+/** Val = bonus attesi (3×gol×peso_ruolo + assist) per 100 crediti di FVM. Solo se stat=true e FVM>0.
  * Portieri: nessun gol/assist, quindi si usa (100 − gol subiti) al posto del bonus —
  * gol subiti individuali reali (Serie A 2025/26, copiati a mano dalla tabella "Player
  * Goalkeeping" di FBref: lo scraping automatico è bloccato da CAPTCHA persistente su
@@ -18,7 +25,7 @@ export function computeVal(p: Player): number | null {
   }
   const gls = p.gls ?? 0;
   const ast = p.ast ?? 0;
-  return Math.round(((3 * gls + ast) / p.f) * 100);
+  return Math.round(((3 * gls * GOAL_ROLE_WEIGHT[p.r] + ast) / p.f) * 100);
 }
 
 /** FVM da usare per punteggi/ordinamento: Mantra (`fvmM`) se la lega è Mantra

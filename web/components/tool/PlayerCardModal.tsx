@@ -1,6 +1,7 @@
 "use client";
 
 import { useAsta } from "../../contexts/AstaContext";
+import { titBallDots } from "../../lib/formations";
 import { NAT } from "../../lib/nations";
 import { transferTypeLabel, formatTransferDate } from "../../lib/transfers";
 import type { DerivedPlayer } from "../../lib/types";
@@ -37,7 +38,7 @@ function PlayerCardBody({
   const { cfg } = useAsta();
   const eta = p.born ? CURRENT_YEAR - p.born : null;
   const nat = p.nat ? (NAT[p.nat] ?? p.nat) : "—";
-  const dots = "●".repeat(p.tit) + "○".repeat(Math.max(0, numFormSources - p.tit));
+  const { tit, ballOnly, empty, titCls } = titBallDots(p, numFormSources);
 
   return (
     <>
@@ -52,8 +53,11 @@ function PlayerCardBody({
         {p.pen === 2 && <span className="pen pen2">⚽ alt. rigori</span>}
       </div>
       <div className="pmeta">
-        {nat} · {eta ? `${eta} anni (classe ${p.born})` : "età n.d."} · titolarità {dots} {p.tit}/
-        {numFormSources} fonti{p.ball ? " · ⚖ in ballottaggio" : ""}
+        {nat} · {eta ? `${eta} anni (classe ${p.born})` : "età n.d."} · titolarità{" "}
+        <span className={titCls}>{"●".repeat(tit)}</span>
+        {ballOnly > 0 && <span className="titball">{"◐".repeat(ballOnly)}</span>}
+        <span className="tit0">{"○".repeat(empty)}</span> {p.tit}/{numFormSources} fonti
+        {ballOnly > 0 && ` · in ballottaggio in altre ${ballOnly}`}
       </div>
       {cfg.mantra && (
         <div className="pmeta">
