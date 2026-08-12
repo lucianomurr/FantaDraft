@@ -9,6 +9,21 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (12/08/2026): refresh dati completo (2° giro)
+Rifatto tutto il giro: quotazioni (fantacalcio.it ora richiede LOGIN per
+scaricare l'Excel — cambiato da quando funzionava senza, 10/08 — Luciano si è
+loggato nel suo browser e mi ha passato il file), formazioni (6 fonti, agent
+in parallelo per le 4 generaliste + script dedicati per Gazzetta/Fantacalcio.it),
+rigoristi (0 cambi), infortuni (Marianucci: diagnosi affinata da "trauma
+contusivo-distorsivo" a "lesione alto grado collaterale mediale", stop
+minimo 2 mesi), trasferimenti (128 agganciati, +6 da 122), stats FBref/
+Understat (cache riusata correttamente: stagione 2025/26 è chiusa, non
+serve rifetchare — i 5 nuovi giocatori dal listone l'hanno comunque presa
+dalla cache esistente), gol subiti portieri (invariato, stessa fonte
+statica). Risultato: 497→499 giocatori (5 nuovi tra cui Molina N. e Kevin
+Carlos, che erano gli "irraggiungibili" delle formazioni — ora risolti;
+3 usciti tra cui Djimsiti). Contatori landing/README/POST aggiornati.
+
 ## FATTO (11-12/08/2026): peso ruolo su Val + 6a fonte formazioni + pallini ballottaggio
 Val giocatori di movimento pesava gol/assist uguale per tutti i ruoli — un gol da
 difensore contava come uno da attaccante, mentre nella realtà è molto più raro

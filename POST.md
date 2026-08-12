@@ -8,7 +8,7 @@ Come ogni anno arrivavo all'asta con listone stampato, un Excel e tre schede del
 telefono aperte. Quest'anno ho messo tutto in un unico tool, e lo condivido: è
 gratuito e open source, i dati restano nel tuo browser.
 
-Cosa incrocia, per ognuno dei 497 del listone:
+Cosa incrocia, per ognuno dei 499 del listone:
 - quotazioni ufficiali + FVM
 - statistiche vere di 2 stagioni (FBref): gol, rigori, assist, minuti — Big 5 + Serie B
 - xG e xA (Understat): Kean ha chiuso con 8 gol ma 15.4 di xG, e all'asta questa
@@ -34,7 +34,7 @@ su GitHub). Tutto gratis, nessuna registrazione.
 
 ## Versione corta (X / gruppi WhatsApp)
 
-Tool gratuito per l'asta del fantacalcio 2026/27: 497 giocatori con statistiche vere
+Tool gratuito per l'asta del fantacalcio 2026/27: 499 giocatori con statistiche vere
 (FBref+Understat, xG inclusi), formazioni da 5 fonti, rigoristi, infortunati,
 ultimi trasferimenti, budget live e preset fasce regolabile. Niente account, open
 source. https://fantadraft.murruni.it
