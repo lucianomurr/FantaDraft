@@ -1,6 +1,7 @@
 "use client";
 
-import { useAsta } from "../../contexts/AstaContext";
+import { memo } from "react";
+import { useTracking } from "../../contexts/AstaContext";
 import { titBallDots } from "../../lib/formations";
 import { xgFlag, isSmallSampleBet } from "../../lib/scoring";
 import { transferTooltip } from "../../lib/transfers";
@@ -86,7 +87,7 @@ function StatCells({ p }: { p: DerivedPlayer }) {
   );
 }
 
-export function PlayerRow({
+export const PlayerRow = memo(function PlayerRow({
   p,
   numFormSources,
   onOpenCard,
@@ -97,7 +98,7 @@ export function PlayerRow({
   onOpenCard: (id: number) => void;
   mantra: boolean;
 }) {
-  const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useAsta();
+  const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useTracking();
   const s = getPlayerState(p.id);
   const rowCls = s.s === "mine" ? "mine" : s.s === "out" ? "out" : "";
   const { tit, ballOnly, empty, titCls, title: titTitle } = titBallDots(p, numFormSources);
@@ -105,9 +106,9 @@ export function PlayerRow({
   return (
     <tr className={rowCls}>
       <td className="name">
-        <span className="pname" title="Apri scheda giocatore" onClick={() => onOpenCard(p.id)}>
+        <button type="button" className="pname" title="Apri scheda giocatore" onClick={() => onOpenCard(p.id)}>
           {p.n}
-        </span>
+        </button>
         {p.pen === 1 && (
           <span className="pen pen1" title="Rigorista designato">
             ⚽
@@ -221,4 +222,4 @@ export function PlayerRow({
       </td>
     </tr>
   );
-}
+});

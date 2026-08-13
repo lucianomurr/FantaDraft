@@ -8,6 +8,23 @@ import { ModalShell } from "./ModalShell";
 
 type Step = 1 | 2 | 3;
 
+const STEP_TITLES: Record<Step, string> = {
+  1: "Benvenuto",
+  2: "Che lega giochi?",
+  3: "Precompiliamo le fasce?",
+};
+
+/** Attiva onClick anche da tastiera (Invio/Spazio) su elementi non nativamente
+ * interattivi (div usati come card cliccabili). */
+function onActivateKey(fn: () => void) {
+  return (e: React.KeyboardEvent) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      fn();
+    }
+  };
+}
+
 export function OnboardingModal({
   open,
   onClose,
@@ -52,11 +69,11 @@ export function OnboardingModal({
   }
 
   return (
-    <ModalShell open={open} onClose={onClose}>
+    <ModalShell open={open} onClose={onClose} title={STEP_TITLES[step]}>
       {step === 1 && (
         <>
           <div className="phead">
-            <h3>⚽ Benvenuto</h3>
+            <h2>⚽ Benvenuto</h2>
           </div>
           <p className="pmeta" style={{ fontSize: 13 }}>
             Quanti crediti hai per la tua asta, e con che strategia vuoi ripartirli sui 4 reparti?
@@ -78,15 +95,22 @@ export function OnboardingModal({
           </div>
           <div className="stratgrid">
             {STRATEGIES.map((s) => (
-              <div className="stratcard" key={s.key} onClick={() => confirmBudget(s)}>
-                <h4>
+              <div
+                className="stratcard"
+                key={s.key}
+                role="button"
+                tabIndex={0}
+                onClick={() => confirmBudget(s)}
+                onKeyDown={onActivateKey(() => confirmBudget(s))}
+              >
+                <h3>
                   {s.label}
                   {s.key === "equilibrio" && (
                     <span className="pill" style={{ fontSize: 9 }}>
                       consigliata
                     </span>
                   )}
-                </h4>
+                </h3>
                 <div className="stratpct">
                   <span style={{ color: "var(--p)" }}>P {s.P}%</span>
                   <span style={{ color: "var(--d)" }}>D {s.D}%</span>
@@ -107,20 +131,39 @@ export function OnboardingModal({
       {step === 2 && (
         <>
           <div className="phead">
-            <h3>📋 Che lega giochi?</h3>
+            <h2>📋 Che lega giochi?</h2>
           </div>
           <p className="pmeta" style={{ fontSize: 13 }}>
             Cambia parecchio la strategia: in Mantra ogni giocatore ha più sottoruoli e un FVM
             proprio, col modificatore difesa portieri e difensori valgono di più. Incide sul
             calcolo del preset fasce.
           </p>
-          <div className="stratgrid" style={{ gridTemplateColumns: "repeat(2, 1fr)" }}>
-            <div className={`stratcard${!mantra ? " on" : ""}`} onClick={() => setMantra(false)}>
-              <h4>Classic</h4>
+          <div
+            className="stratgrid"
+            style={{ gridTemplateColumns: "repeat(2, 1fr)" }}
+            role="radiogroup"
+            aria-label="Formato lega"
+          >
+            <div
+              className={`stratcard${!mantra ? " on" : ""}`}
+              role="radio"
+              aria-checked={!mantra}
+              tabIndex={0}
+              onClick={() => setMantra(false)}
+              onKeyDown={onActivateKey(() => setMantra(false))}
+            >
+              <h3>Classic</h3>
               <p>Un ruolo per giocatore (P/D/C/A), un solo FVM. Il formato più comune.</p>
             </div>
-            <div className={`stratcard${mantra ? " on" : ""}`} onClick={() => setMantra(true)}>
-              <h4>Mantra</h4>
+            <div
+              className={`stratcard${mantra ? " on" : ""}`}
+              role="radio"
+              aria-checked={mantra}
+              tabIndex={0}
+              onClick={() => setMantra(true)}
+              onKeyDown={onActivateKey(() => setMantra(true))}
+            >
+              <h3>Mantra</h3>
               <p>Sottoruoli multipli per giocatore, FVM Mantra dedicato, più flessibilità in formazione.</p>
             </div>
           </div>
@@ -143,7 +186,7 @@ export function OnboardingModal({
       {step === 3 && (
         <>
           <div className="phead">
-            <h3>✨ Precompiliamo le fasce?</h3>
+            <h2>✨ Precompiliamo le fasce?</h2>
           </div>
           <p className="pmeta" style={{ fontSize: 13 }}>
             Posso proporre subito una preselezione di fasce (1-4/R/X) tarata su{" "}

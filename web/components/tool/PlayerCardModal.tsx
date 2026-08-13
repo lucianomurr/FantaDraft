@@ -20,7 +20,7 @@ export function PlayerCardModal({
   onClose: () => void;
 }) {
   return (
-    <ModalShell open={player != null} onClose={onClose}>
+    <ModalShell open={player != null} onClose={onClose} title={player ? `Scheda ${player.n}` : "Scheda giocatore"}>
       {player && <PlayerCardBody p={player} numFormSources={numFormSources} onClose={onClose} />}
     </ModalShell>
   );
@@ -42,12 +42,12 @@ function PlayerCardBody({
 
   return (
     <>
-      <button className="ghost sm xclose" onClick={onClose}>
+      <button className="ghost sm xclose" onClick={onClose} aria-label="Chiudi">
         ✕
       </button>
       <div className="phead">
         <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
-        <h3>{p.n}</h3>
+        <h2>{p.n}</h2>
         <span className="team">{p.s}</span>
         {p.pen === 1 && <span className="pen pen1">⚽ rigorista</span>}
         {p.pen === 2 && <span className="pen pen2">⚽ alt. rigori</span>}

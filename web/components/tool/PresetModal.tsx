@@ -71,12 +71,12 @@ export function PresetModal({
   }
 
   return (
-    <ModalShell open={open} onClose={onClose}>
-      <button className="ghost sm xclose" onClick={onClose}>
+    <ModalShell open={open} onClose={onClose} title="Preset fasce">
+      <button className="ghost sm xclose" onClick={onClose} aria-label="Chiudi">
         ✕
       </button>
       <div className="phead">
-        <h3>✨ Preset fasce</h3>
+        <h2>✨ Preset fasce</h2>
       </div>
       <p className="pmeta" style={{ fontSize: 13 }}>
         Punteggio = FVM × (0,55 + peso titolarità × titolarità) + bonus rigorista. I migliori
@@ -91,7 +91,7 @@ export function PresetModal({
       </p>
 
       <div className="legsec">
-        <h4>Peso titolarità</h4>
+        <h3>Peso titolarità</h3>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <input
             type="range"
@@ -111,7 +111,7 @@ export function PresetModal({
       </div>
 
       <div className="legsec">
-        <h4>Aggressività soglie R / X</h4>
+        <h3>Aggressività soglie R / X</h3>
         <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
           <input
             type="range"
@@ -131,7 +131,7 @@ export function PresetModal({
       </div>
 
       <div className="legsec">
-        <h4>Quote F1–F4 per ruolo</h4>
+        <h3>Quote F1–F4 per ruolo</h3>
         <div style={{ overflowX: "auto" }}>
           <table>
             <thead>
@@ -166,7 +166,7 @@ export function PresetModal({
       </div>
 
       <div className="legsec">
-        <h4>Anteprima con questi parametri</h4>
+        <h3>Anteprima con questi parametri</h3>
         <div className="stratpct" style={{ flexWrap: "wrap" }}>
           {TIER_LABELS.map((t) => (
             <span key={t.key} style={{ color: t.color }}>

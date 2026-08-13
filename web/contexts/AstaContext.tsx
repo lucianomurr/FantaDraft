@@ -162,6 +162,27 @@ interface AstaContextValue {
 
 const AstaCtx = createContext<AstaContextValue | null>(null);
 
+interface TrackingContextValue {
+  getPlayerState: (id: number) => PlayerState;
+  setTier: (id: number, tier: Tier | null) => void;
+  setTgt: (id: number, tgt: number | null) => void;
+  setPaid: (id: number, paid: number | null) => void;
+  setStatus: (id: number, status: Status) => void;
+}
+
+const TrackingCtx = createContext<TrackingContextValue | null>(null);
+
+/** Sottoinsieme di useAsta() con SOLO il tracking per-giocatore (fasce, target,
+ * prezzo, stato), memoizzato su state.st invece che sull'intero state. Usato
+ * da PlayerRow (renderizzato centinaia di volte) per non ri-renderizzare ogni
+ * riga quando cambia un filtro, l'ordinamento o il budget — cose che non
+ * toccano state.st e quindi lasciano invariato questo context. */
+export function useTracking(): TrackingContextValue {
+  const ctx = useContext(TrackingCtx);
+  if (!ctx) throw new Error("useTracking must be used within AstaProvider");
+  return ctx;
+}
+
 export function AstaProvider({ children }: { children: React.ReactNode }) {
   const [state, dispatch] = useReducer(reducer, initialState);
   const [toasts, setToasts] = useState<Toast[]>([]);
@@ -192,6 +213,25 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
     [state.st],
   );
 
+  // Riferimenti stabili (dipendono solo da dispatch/toast, mai da state):
+  // condivisi tra AstaContext e TrackingContext così il secondo, memoizzato
+  // su state.st, non perde la stabilità quando cambiano filtri/sort/cfg.
+  const setTier = useCallback((id: number, tier: Tier | null) => dispatch({ type: "SET_TIER", id, tier }), []);
+  const setTgt = useCallback((id: number, tgt: number | null) => dispatch({ type: "SET_TGT", id, tgt }), []);
+  const setPaid = useCallback((id: number, paid: number | null) => dispatch({ type: "SET_PAID", id, paid }), []);
+  const setStatus = useCallback(
+    (id: number, status: Status) => {
+      dispatch({ type: "SET_STATUS", id, status });
+      if (status === "mine") toast("Preso! Inserisci il prezzo pagato.");
+    },
+    [toast],
+  );
+
+  const trackingValue = useMemo<TrackingContextValue>(
+    () => ({ getPlayerState, setTier, setTgt, setPaid, setStatus }),
+    [getPlayerState, setTier, setTgt, setPaid, setStatus],
+  );
+
   const value = useMemo<AstaContextValue>(
     () => ({
       cfg: state.cfg,
@@ -202,13 +242,10 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
       hadSavedState: state.hadSavedState,
       getPlayerState,
       setCfg: (cfg) => dispatch({ type: "SET_CFG", cfg }),
-      setTier: (id, tier) => dispatch({ type: "SET_TIER", id, tier }),
-      setTgt: (id, tgt) => dispatch({ type: "SET_TGT", id, tgt }),
-      setPaid: (id, paid) => dispatch({ type: "SET_PAID", id, paid }),
-      setStatus: (id, status) => {
-        dispatch({ type: "SET_STATUS", id, status });
-        if (status === "mine") toast("Preso! Inserisci il prezzo pagato.");
-      },
+      setTier,
+      setTgt,
+      setPaid,
+      setStatus,
       applyComputedPreset: (tierMap, resetFirst) => {
         const ids = Object.keys(tierMap).map(Number);
         const count = resetFirst ? ids.length : ids.filter((id) => !state.st[id]?.t).length;
@@ -243,10 +280,14 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
       toast,
       toasts,
     }),
-    [state, getPlayerState, toast, toasts],
+    [state, getPlayerState, setTier, setTgt, setPaid, setStatus, toast, toasts],
   );
 
-  return <AstaCtx.Provider value={value}>{children}</AstaCtx.Provider>;
+  return (
+    <AstaCtx.Provider value={value}>
+      <TrackingCtx.Provider value={trackingValue}>{children}</TrackingCtx.Provider>
+    </AstaCtx.Provider>
+  );
 }
 
 export function useAsta(): AstaContextValue {

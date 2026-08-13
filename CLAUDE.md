@@ -9,6 +9,58 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (13/08/2026): fix audit tecnico (a11y + performance + theming)
+`/impeccable audit` sul tool ha dato 13/20 (Accettabile). Eseguiti tutti i fix
+consigliati:
+
+**Accessibilità**: `ModalShell.tsx` ora ha `role="dialog"`/`aria-modal`/
+`aria-label` (nuova prop `title`), focus trap (Tab non esce dalla card),
+focus al primo elemento all'apertura, focus restituito al trigger alla
+chiusura. Header colonna ordinabili e nome giocatore in `PlayersTable.tsx`/
+`PlayerRow.tsx` erano `<th onClick>`/`<span onClick>` non raggiungibili da
+tastiera — ora `<button>` dentro (con `aria-sort` sul `<th>`) o direttamente
+`<button>`. Card onboarding (strategia budget, Classic/Mantra) erano `<div
+onClick>` — ora `role="button"`/`role="radio"` + `tabIndex` + `onKeyDown`
+Invio/Spazio. Bottoni chiudi (✕) hanno `aria-label="Chiudi"`. Gerarchia
+heading corretta: titoli modale h3→h2, sottosezioni h4→h3 (occhio: `.pcard
+h3{font-size:19px}` andava rinominato `.pcard h2` altrimenti la specificity
+CSS rompeva silenziosamente lo stile di `.legsec h3`/`.stratcard h3` per via
+dell'ordine nel file — controllato).
+
+**Performance**: `PlayerRow` (fino a ~499 istanze) chiamava `useAsta()`
+direttamente — qualunque cambio di stato (anche digitare nel campo ricerca)
+invalidava il context intero e ri-renderizzava tutte le righe, perché
+`React.memo` non blocca un re-render auto-innescato da un hook di context
+interno al componente. Fix reale: nuovo `TrackingContext` in
+`AstaContext.tsx` con SOLO `getPlayerState`/`setTier`/`setTgt`/`setPaid`/
+`setStatus`, memoizzato su `state.st` (non sull'intero `state` come il
+context principale) — dato che il reducer fa spread superficiale, `state.st`
+mantiene la stessa referenza quando cambiano solo filtri/sort/cfg, quindi
+digitare in ricerca o cambiare budget non tocca più le righe. `PlayerRow`
+avvolto in `React.memo`, `onOpenCard` in `page.tsx` avvolto in `useCallback`
+(altrimenti la nuova reference ad ogni render avrebbe comunque invalidato il
+memo). Limite noto: cambiare la fascia di UN giocatore ri-renderizza ancora
+tutte le righe visibili (stesso `TrackingContext` condiviso) — accettabile,
+molto più raro di search/filtri.
+
+**Theming**: nuovi token `--well`/`--txt2`/`--dim` in `tool.css` per 3 colori
+hex ricorrenti mai promossi a variabile (`#0c1019`×4, `#c3cbdb`×3,
+`#4a5266`×2). `--dim` (`#6b7690`, ~3.8:1 di contrasto su pannello) sostituisce
+il vecchio `#4a5266` (~2.1:1, sotto la soglia 3:1 WCAG) per `.tit0`/`.min-lo`
+— NON riusato `--fx` esistente anche se stesso valore hex, per non accoppiare
+due concetti diversi (fascia "Evita" vs "nessun dato titolarità") allo stesso
+token.
+
+**Responsive**: bottoni fascia (`.tbtn`) da 32×32 a 40×40px sotto 700px
+(erano già stati alzati da 22px in una sessione precedente).
+
+Verificato in browser: focus trap, tab-order, Invio su header/card
+onboarding/nome giocatore, focus-return alla chiusura — tutti confermati
+funzionanti. `resize_window` del tool browser non emula davvero viewport
+stretti in questo ambiente (limite noto, già visto in sessione precedente):
+verificata la regola mobile `.tbtn` a livello di codice invece che
+visivamente.
+
 ## FATTO (12/08/2026): refresh dati completo (2° giro)
 Rifatto tutto il giro: quotazioni (fantacalcio.it ora richiede LOGIN per
 scaricare l'Excel — cambiato da quando funzionava senza, 10/08 — Luciano si è

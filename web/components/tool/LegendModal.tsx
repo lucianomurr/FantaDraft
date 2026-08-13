@@ -4,16 +4,16 @@ import { ModalShell } from "./ModalShell";
 
 export function LegendModal({ open, onClose }: { open: boolean; onClose: () => void }) {
   return (
-    <ModalShell open={open} onClose={onClose}>
-      <button className="ghost sm xclose" onClick={onClose}>
+    <ModalShell open={open} onClose={onClose} title="Legenda">
+      <button className="ghost sm xclose" onClick={onClose} aria-label="Chiudi">
         ✕
       </button>
       <div className="phead">
-        <h3>❓ Legenda</h3>
+        <h2>❓ Legenda</h2>
       </div>
 
       <div className="legsec">
-        <h4>Fasce</h4>
+        <h3>Fasce</h3>
         <div className="legrow">
           <span className="sw" style={{ background: "var(--f1)" }} />
           F1 — Obiettivo top
@@ -41,7 +41,7 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
       </div>
 
       <div className="legsec">
-        <h4>Rigoristi</h4>
+        <h3>Rigoristi</h3>
         <div className="legrow">
           <span className="pen pen1" style={{ margin: 0 }}>
             ⚽
@@ -57,7 +57,7 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
       </div>
 
       <div className="legsec">
-        <h4>Badge sul nome</h4>
+        <h3>Badge sul nome</h3>
         <div className="legrow">
           <span className="bet" style={{ margin: 0 }}>
             🎲
@@ -88,7 +88,7 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
       </div>
 
       <div className="legsec">
-        <h4>Colonna Min — indicatore titolarità</h4>
+        <h3>Colonna Min — indicatore titolarità</h3>
         <div className="legrow">
           <span className="mindot min-hi" />
           ≥1800 minuti
@@ -104,7 +104,7 @@ export function LegendModal({ open, onClose }: { open: boolean; onClose: () => v
       </div>
 
       <div className="legsec">
-        <h4>Colonne</h4>
+        <h3>Colonne</h3>
         <div className="legrow">Qt — quotazione base · FVM — valore di mercato (stima prezzo)</div>
         <div className="legrow">Tgt — tuo prezzo max · Io/Altri — tracking asta</div>
         <div className="legrow">G/Rig/A/Min — stagione più recente (25/26, altrimenti 24/25 — Big 5 europei + Serie B)</div>

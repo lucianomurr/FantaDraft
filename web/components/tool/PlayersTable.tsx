@@ -61,18 +61,26 @@ export function PlayersTable({
                 className={c.num ? "num" : undefined}
                 style={c.center ? { textAlign: "center" } : undefined}
                 title={c.title}
-                onClick={c.key ? () => sortBy(c.key!) : undefined}
+                aria-sort={sort.key === c.key ? (sort.dir === 1 ? "ascending" : "descending") : c.key ? "none" : undefined}
               >
-                {c.label}
-                {sort.key === c.key ? (sort.dir === 1 ? " ▲" : " ▼") : ""}
+                {c.key ? (
+                  <button type="button" className="thsort" onClick={() => sortBy(c.key!)}>
+                    {c.label}
+                    {sort.key === c.key ? (sort.dir === 1 ? " ▲" : " ▼") : ""}
+                  </button>
+                ) : (
+                  c.label
+                )}
               </th>
             ))}
             <th
               style={{ textAlign: "center" }}
               title={`In quanti XI titolari appare (${numFormSources} fonti) · pallino pieno = titolare, semipieno = in ballottaggio senza essere titolare altrove`}
-              onClick={() => sortBy("tit")}
+              aria-sort={sort.key === "tit" ? (sort.dir === 1 ? "ascending" : "descending") : "none"}
             >
-              Tit{sort.key === "tit" ? (sort.dir === 1 ? " ▲" : " ▼") : ""}
+              <button type="button" className="thsort" onClick={() => sortBy("tit")}>
+                Tit{sort.key === "tit" ? (sort.dir === 1 ? " ▲" : " ▼") : ""}
+              </button>
             </th>
             <th style={{ textAlign: "center" }}>Fascia</th>
             <th className="num">Tgt</th>

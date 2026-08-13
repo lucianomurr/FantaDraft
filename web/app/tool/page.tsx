@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import playersRaw from "../../data/players.json";
 import formazioniRaw from "../../data/formazioni.json";
 import type { Player, FormazioniData } from "../../lib/types";
@@ -66,15 +66,18 @@ function ToolInner() {
     [derived, selectedId],
   );
 
-  function openCard(id: number) {
-    const p = derived.find((x) => x.id === id);
-    if (!p) return;
-    if (!p.stat) {
-      toast(`Nessun dato per ${p.n} — esordiente/scommessa 🎲`);
-      return;
-    }
-    setSelectedId(id);
-  }
+  const openCard = useCallback(
+    (id: number) => {
+      const p = derived.find((x) => x.id === id);
+      if (!p) return;
+      if (!p.stat) {
+        toast(`Nessun dato per ${p.n} — esordiente/scommessa 🎲`);
+        return;
+      }
+      setSelectedId(id);
+    },
+    [derived, toast],
+  );
 
   if (!hydrated) return null;
 
