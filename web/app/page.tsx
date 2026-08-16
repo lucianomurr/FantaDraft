@@ -221,7 +221,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         Listone 2026/27 con Qt e <b>FVM</b> (la stima reale del prezzo d&apos;asta).
       </>
     ),
-    n: "499 giocatori",
+    n: "498 giocatori",
   },
   {
     k: "Statistiche FBref",
@@ -334,7 +334,7 @@ export default function Home() {
           </h1>
           <p className="sub">
             Tool <b>gratuito e open source</b> per l&apos;asta del fantacalcio Serie A 2026/27:{" "}
-            <b>499 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
+            <b>498 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
             da 6 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live.
             Niente account, niente installazioni: lo apri e funziona.
           </p>

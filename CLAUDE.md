@@ -9,6 +9,21 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (16/08/2026): refresh quotazioni (3° giro)
+Rilanciato `update_quotazioni.py` su xlsx fresco (login richiesto, Luciano si è
+loggato e scaricato). 499→498 giocatori: 4 nuovi (Obrador D. Sassuolo, Romero
+D.A. Parma, Penev P. Lecce, Terzic D. Frosinone — tutti `stat:false`, nessun
+dato FBref/formazioni/infortuni, normale per profili minori appena aggiunti al
+listone), 5 usciti (Lukaku, Ondrejka, Athekame, Samooja, Perez M.). 24
+aggiornati (q/f/squadra), incluso un trasferimento reale nel listone stesso
+(Frattesi Inter→Lazio). `merge_keeper_ga.py` rilanciato per i nuovi portieri
+(Penev resta senza dato, Lecce non è tra le squadre promosse con proxy Serie
+B — nessun aggancio disponibile, coerente con gli altri 18 portieri di riserva
+già senza dato). Contatori landing/README/POST aggiornati a 498. Formazioni/
+infortuni/trasferimenti NON ri-fetchati in questo giro (dato volatile, da
+rifare a ridosso dell'asta 2-3/09 come da nota precedente) — solo il listone
+quotazioni era da aggiornare oggi.
+
 ## FATTO (13/08/2026): fix audit tecnico (a11y + performance + theming)
 `/impeccable audit` sul tool ha dato 13/20 (Accettabile). Eseguiti tutti i fix
 consigliati:
