@@ -1,28 +1,167 @@
 {
- "aggiornato": "2026-08-12",
- "fonte": "https://www.fantacalcio.it/infortunati-serie-a",
+ "aggiornato": "2026-08-17",
  "infortunati": [
-  {"s": "Atalanta", "n": "Sulemana K.", "d": "Trauma distorsivo al ginocchio sinistro in amichevole dell'8 agosto", "r": "da valutare per 1a giornata"},
-  {"s": "Atalanta", "n": "Hien", "d": "Operato per lesione tendine semimembranoso coscia sinistra", "r": "inizio ottobre"},
-  {"s": "Cagliari", "n": "Idrissi R.", "d": "Rottura legamento crociato", "r": "fine ottobre"},
-  {"s": "Como", "n": "Addai", "d": "Rottura tendine d'Achille", "r": "ottobre"},
-  {"s": "Fiorentina", "n": "Parisi", "d": "Infortunio legamento crociato ginocchio", "r": "novembre"},
-  {"s": "Juventus", "n": "Ekhator", "d": "Lesione basso grado bicipite femorale coscia destra", "r": "da valutare per 23 agosto"},
-  {"s": "Lazio", "n": "Pellegrini Lu.", "d": "Problema alla caviglia", "r": "a rischio forfait Bologna 1a giornata"},
-  {"s": "Lazio", "n": "Patric", "d": "Problema fisico", "r": "out 1a giornata Bologna"},
-  {"s": "Napoli", "n": "Beukema", "d": "Patologia cronica bilaterale tendine d'Achille", "r": "a rischio convocazione Genoa 1a giornata"},
-  {"s": "Napoli", "n": "Buongiorno", "d": "Operato menisco ginocchio destro", "r": "inizio ottobre"},
-  {"s": "Napoli", "n": "Marianucci", "d": "Lesione alto grado collaterale mediale ginocchio sinistro in amichevole dell'8 agosto", "r": "almeno due mesi"},
-  {"s": "Napoli", "n": "Neres", "d": "Operato caviglia sinistra con interessamento tendine", "r": "da valutare 1a giornata Genova"},
-  {"s": "Parma", "n": "Cremaschi", "d": "Lesione menisco esterno ginocchio sinistro", "r": "ottobre"},
-  {"s": "Parma", "n": "Nicolussi Caviglia", "d": "Lesione medio grado coscia destra", "r": "inizio settembre"},
-  {"s": "Sassuolo", "n": "Konè I.", "d": "Rottura tibia e perone Mondiali giugno", "r": "dicembre"},
-  {"s": "Sassuolo", "n": "Boloca", "d": "Problema al ginocchio", "r": "settembre"},
-  {"s": "Sassuolo", "n": "Pieragnolo", "d": "Lesione legamento crociato anteriore gamba destra", "r": "ottobre"},
-  {"s": "Sassuolo", "n": "Candè", "d": "Rottura legamento crociato anteriore ginocchio destro", "r": "metà settembre"},
-  {"s": "Udinese", "n": "Zanoli", "d": "Operato lesione legamento crociato ginocchio destro", "r": "ottobre"},
-  {"s": "Udinese", "n": "Chakvetadze", "d": "Frattura terzo metatarso piede destro", "r": "inizio settembre"},
-  {"s": "Venezia", "n": "Sverko", "d": "Operato problema all'anca", "r": "fine ottobre"},
-  {"s": "Venezia", "n": "Adorante", "d": "Operato problema alla schiena", "r": "ottobre"}
+  {
+   "s": "Atalanta",
+   "n": "Ahanor",
+   "d": "Il difensore fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba destra",
+   "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da inizio settembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra",
+   "r": "in recupero e pronto a tornare in campo dall'inizio di ottobre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Sulemana K.",
+   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro",
+   "r": "recuperabile da inizio ottobre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "De Ketelaere",
+   "d": "Il belga fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba sinistra",
+   "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da inizio settembre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Idrissi R.",
+   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
+   "r": "può tornare arruolabile dalla fine di ottobre."
+  },
+  {
+   "s": "Como",
+   "n": "Addai",
+   "d": "l'ala offensiva dei lariani vittima della rottura tendine d'Achille",
+   "r": "proverà a recuperare per ottobre."
+  },
+  {
+   "s": "Fiorentina",
+   "n": "Parisi",
+   "d": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio",
+   "r": "punta a tornare convocabile da novembre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Meichtry",
+   "d": "Il calciatore non al meglio per noie fisiche al ginocchio e a forte rischio la sua convocazione contro il Napoli nella 1a giornata di campionato.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Genoa",
+   "n": "Traorè Hj.",
+   "d": "Il centrocampista in recupero da noie fisiche e a forte rischio la sua convocazione contro il Napoli nella 1a giornata di campionato.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Juventus",
+   "n": "Ekhator",
+   "d": "l'attaccante frenato nella seconda metà di luglio da una lesione di basso grado del bicipite femorale della coscia destra",
+   "r": "da valutare nei prossimi allenamenti in vista della sfida di Frosinone del 23 agosto."
+  },
+  {
+   "s": "Lazio",
+   "n": "Patric",
+   "d": "il difensore ai box per un problema fisico e out nella 1a di campionato a Bologna.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Milan",
+   "n": "Gimenez",
+   "d": "l'attaccante messicano sta curando una fastidiosa distorsione alla caviglia ed è out per Torino contro i granata.",
+   "r": "Da valutare in vista della 2a giornata di campionato."
+  },
+  {
+   "s": "Monza",
+   "n": "Pessina",
+   "d": "Il centrocampista costretto a saltare l'inizio di campionato per una lussazione della rotula del ginocchio destro rimediata nella prima metà di agosto in allenamento.",
+   "r": "Tempi di recupero da monitorare, ma proverà a tornare arruolabile dall'inizio di novembre."
+  },
+  {
+   "s": "Napoli",
+   "n": "Neres",
+   "d": "operato a gennaio per un problema alla caviglia sinistra con interessamento del tendine; il brasiliano sta lentamente recuperando",
+   "r": "ma rimane da valutare la convocazione nella 1a giornata di campionato a Genova."
+  },
+  {
+   "s": "Napoli",
+   "n": "Buongiorno",
+   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
+   "r": "Sta recuperando lentamente, dovrebbe tornare arruolabile non prima di dicembre."
+  },
+  {
+   "s": "Napoli",
+   "n": "Beukema",
+   "d": "il difensore in fase di recupero da una patologia cronica bilaterale al tendine d'Achille, rimane tuttavia a rischio la sua convocazione contro il Genoa nel primo turno di A.",
+   "r": "Da valutare nei prossimi allenamenti."
+  },
+  {
+   "s": "Napoli",
+   "n": "Marianucci",
+   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
+   "r": "Tempi di recupero da valutare, ma rischia uno stop di almeno due mesi."
+  },
+  {
+   "s": "Parma",
+   "n": "Cremaschi",
+   "d": "il calciatore vittima a marzo di una lesione del menisco esterno del ginocchio sinistro",
+   "r": "sta proseguendo le cure del caso e può tornare arruolabile dal mese di ottobre."
+  },
+  {
+   "s": "Parma",
+   "n": "Nicolussi Caviglia",
+   "d": "il centrocampista alle prese da luglio con una lesione di medio grado alla coscia destra",
+   "r": "può tornare arruolabile da inizio settembre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Candè",
+   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
+   "r": "punta a tornare convocabile dalla metà di settembre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Pieragnolo",
+   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra",
+   "r": "ipotizziamo possa tornare convocabile da ottobre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Boloca",
+   "d": "il centrocampista fuori causa per un problema al ginocchio e non ci sarà contro l'Atalanta nella 1a giornata.",
+   "r": "Da valutare rientro da settembre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Konè I.",
+   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
+   "r": "Operato, punta a tornare in campo da dicembre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Zanoli",
+   "d": "il calciatore operato a fine gennaio per la lesione del legamento crociato anteriore del ginocchio destro",
+   "r": "sta ultimando la fase di recupero e può tornare in campo da ottobre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Chakvetadze",
+   "d": "il georgiano a inizio luglio vittima della frattura al terzo metatarso del piede destro",
+   "r": "può tornare arruolabile da inizio settembre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Sverko",
+   "d": "il difensore operato in estate per il perdurare di un problema all'anca",
+   "r": "recuperabile da fine ottobre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Adorante",
+   "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
+   "r": "Tentativo di rientro da ottobre."
+  }
  ]
 }

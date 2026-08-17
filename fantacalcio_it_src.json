@@ -73,8 +73,8 @@
     "n": "Birindelli"
    },
    {
-    "id": 2741,
-    "n": "Pessina"
+    "id": 7477,
+    "n": "Colombo L."
    },
    {
     "id": 6593,
@@ -89,12 +89,12 @@
     "n": "Colpani"
    },
    {
-    "id": 5882,
-    "n": "Mota"
-   },
-   {
     "id": 2155,
     "n": "Cutrone"
+   },
+   {
+    "id": 7523,
+    "n": "Varela G."
    }
   ],
   "ball": []
@@ -111,12 +111,12 @@
     "n": "Bertola"
    },
    {
-    "id": 6485,
-    "n": "Kristensen T."
-   },
-   {
     "id": 6956,
     "n": "Solet"
+   },
+   {
+    "id": 5994,
+    "n": "Ebosse"
    },
    {
     "id": 4994,
@@ -131,12 +131,12 @@
     "n": "Karlstrom"
    },
    {
-    "id": 6684,
-    "n": "Ekkelenkamp"
-   },
-   {
     "id": 5555,
     "n": "Kamara H."
+   },
+   {
+    "id": 6684,
+    "n": "Ekkelenkamp"
    },
    {
     "id": 2766,
@@ -303,8 +303,8 @@
   "mod": "4-3-3",
   "xi": [
    {
-    "id": 6641,
-    "n": "Suzuki"
+    "id": 6662,
+    "n": "Corvi"
    },
    {
     "id": 6664,
@@ -339,8 +339,8 @@
     "n": "Almqvist"
    },
    {
-    "id": 7342,
-    "n": "Elphege"
+    "id": 7554,
+    "n": "Romero D."
    },
    {
     "id": 6229,
@@ -419,20 +419,20 @@
     "n": "Monterisi"
    },
    {
-    "id": 7469,
-    "n": "Bracaglia"
+    "id": 4375,
+    "n": "Terzic"
    },
    {
-    "id": 7550,
-    "n": "Grillitsch"
+    "id": 7473,
+    "n": "Cichella"
    },
    {
     "id": 7472,
     "n": "Calò"
    },
    {
-    "id": 6917,
-    "n": "Masini"
+    "id": 7551,
+    "n": "Schmid"
    },
    {
     "id": 6530,
@@ -443,8 +443,8 @@
     "n": "Raimondo"
    },
    {
-    "id": 7551,
-    "n": "Schmid"
+    "id": 6204,
+    "n": "Kvernadze"
    }
   ],
   "ball": []
@@ -473,8 +473,8 @@
     "n": "Cambiaso"
    },
    {
-    "id": 5562,
-    "n": "Thuram K."
+    "id": 4973,
+    "n": "McKennie"
    },
    {
     "id": 827,
@@ -519,8 +519,8 @@
     "n": "Halhal"
    },
    {
-    "id": 4845,
-    "n": "Correia T."
+    "id": 6821,
+    "n": "Hainaut"
    },
    {
     "id": 6994,
@@ -535,8 +535,8 @@
     "n": "Basic"
    },
    {
-    "id": 6821,
-    "n": "Hainaut"
+    "id": 5695,
+    "n": "Haps"
    },
    {
     "id": 6904,
@@ -581,8 +581,8 @@
     "n": "Ngom"
    },
    {
-    "id": 6015,
-    "n": "Berisha M."
+    "id": 7318,
+    "n": "Gandelman"
    },
    {
     "id": 6549,
@@ -611,32 +611,32 @@
     "n": "Zappacosta"
    },
    {
-    "id": 5526,
-    "n": "Scalvini"
+    "id": 6485,
+    "n": "Kristensen T."
    },
    {
-    "id": 2640,
-    "n": "Kolasinac"
+    "id": 5526,
+    "n": "Scalvini"
    },
    {
     "id": 7219,
     "n": "Bernasconi"
    },
    {
-    "id": 5792,
-    "n": "Ederson D.S."
+    "id": 5119,
+    "n": "Samardzic"
    },
    {
     "id": 4364,
     "n": "Gaetano"
    },
    {
-    "id": 5119,
-    "n": "Samardzic"
+    "id": 5792,
+    "n": "Ederson D.S."
    },
    {
-    "id": 5995,
-    "n": "De Ketelaere"
+    "id": 5422,
+    "n": "Zalewski"
    },
    {
     "id": 2137,
@@ -769,8 +769,8 @@
     "n": "Pavlovic"
    },
    {
-    "id": 4892,
-    "n": "Saelemaekers"
+    "id": 4856,
+    "n": "Chukwueze"
    },
    {
     "id": 2606,
@@ -785,12 +785,12 @@
     "n": "Bartesaghi"
    },
    {
-    "id": 4728,
-    "n": "Nkunku"
+    "id": 4892,
+    "n": "Saelemaekers"
    },
    {
-    "id": 4510,
-    "n": "Leao"
+    "id": 4199,
+    "n": "Loftus-Cheek"
    },
    {
     "id": 6397,
@@ -811,12 +811,12 @@
     "n": "Zortea"
    },
    {
-    "id": 7212,
-    "n": "Heggem"
+    "id": 7068,
+    "n": "Vitik"
    },
    {
-    "id": 6042,
-    "n": "Lucumì"
+    "id": 7212,
+    "n": "Heggem"
    },
    {
     "id": 4734,
@@ -881,8 +881,8 @@
     "n": "Rovella"
    },
    {
-    "id": 6629,
-    "n": "Dele-Bashiru"
+    "id": 2848,
+    "n": "Frattesi"
    },
    {
     "id": 5500,
@@ -957,8 +957,8 @@
     "n": "De Gea"
    },
    {
-    "id": 5885,
-    "n": "Dodò"
+    "id": 7175,
+    "n": "Joao Mario"
    },
    {
     "id": 5365,

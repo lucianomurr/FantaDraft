@@ -9,6 +9,50 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (17/08/2026): giro completo trasferimenti+infortuni+formazioni+rigoristi
+Innescato da un check dell'utente: Frattesi passato Inter→Lazio nel listone
+(16/08) ma Val=0 e nessun badge 🆕 — Val era corretto (0 gol/0 assist reali a
+Inter 2025/26, non un bug), ma trasferimenti/formazioni erano fermi al giro
+precedente. Rifatto tutto tranne stats (stagione 2025/26 chiusa, cache
+invariata):
+
+**Trasferimenti**: `get_transfers.py` rifetchato da zero (cache parziale
+riusata dov'è sopravvissuta a un primo tentativo andato in timeout) + merge:
+129 agganciati (era 128). Frattesi NON compare nei dati API-Football
+nonostante il trasferimento sia già nel listone ufficiale — fonte esterna
+non ancora aggiornata su questo specifico trasferimento, nessun badge 🆕 per
+lui finché non arriva lì (non è un bug nostro).
+
+**Infortuni**: fantacalcio.it ha cambiato formato pagina (da coppia
+diagnosi/rientro esplicita a paragrafo narrativo unico per giocatore) —
+parser riscritto ad-hoc (split per frase, poi fallback su virgola/congiunzione
+con parola chiave di rientro) per ricavare `d`/`r` dal nuovo formato prosa.
+27/27 agganciati puliti.
+
+**Formazioni (tutte e 6 le fonti)**: SOS Fanta e FantaMaster estratti via
+regex diretta su HTML (pattern "Formazione-tipo: ...", occhio a NON
+strippare i punti finali delle iniziali tipo "Kristensen T." — bug trovato
+e corretto, da 84 a 22 non agganciati). Eurosport e Goal via agent
+(WebFetch bloccato/instabile su Eurosport, curl diretto ha funzionato per
+Goal) — nessuna delle due fonti riporta ballottaggi espliciti (solo XI +
+eventuale panchina generica), quindi contribuiscono 0 al conteggio `ball`.
+Gazzetta e Fantacalcio.it via script esistenti invariati. 12 non agganciati
+residui su 1320 slot totali (~1%): per lo più Spence (nuovo acquisto Inter,
+non ancora nel listone ufficiale) + un paio di refusi propri delle fonti
+(es. FantaMaster attribuisce erroneamente Lucumì alla Juventus). Frattesi
+ora tit=4/6 su Lazio (prima 0 su Inter, dato stale).
+
+**Rigoristi**: `align_pen.py` aggiornato con la nuova gerarchia Gazzetta —
+un solo cambio reale, Parma: Pellegrino (ceduto alla Fiorentina, pen 1→0)
+sostituito da Valeri (pen 0→2), Bernabè confermato designato (pen 2→1,
+ordine invertito nell'articolo ma resta lui il rigorista principale).
+
+**Stats**: nessun refresh (stagione 2025/26 chiusa). Verificato che i 4
+nuovi giocatori del giro quotazioni (Obrador, Romero D., Penev, Terzic) non
+hanno un aggancio FBref affidabile nel csv già scaricato (nomi ambigui o
+squadra/ruolo non corrispondenti) — restano `stat:false` con badge 🎲,
+meglio nessun dato che un aggancio sbagliato.
+
 ## FATTO (16/08/2026): refresh quotazioni (3° giro)
 Rilanciato `update_quotazioni.py` su xlsx fresco (login richiesto, Luciano si è
 loggato e scaricato). 499→498 giocatori: 4 nuovi (Obrador D. Sassuolo, Romero

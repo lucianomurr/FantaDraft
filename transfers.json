@@ -2,6 +2,14 @@
  "window_start": "2026-05-01",
  "events": [
   {
+   "team": "Como",
+   "dir": "in",
+   "date": "2026-08-07",
+   "player": "T. Chalobah",
+   "from": "Chelsea",
+   "type": "Transfer"
+  },
+  {
    "team": "Torino",
    "dir": "out",
    "date": "2026-08-04",
@@ -1915,18 +1923,18 @@
   },
   {
    "team": "Fiorentina",
-   "dir": "in",
-   "date": "2026-07-07",
-   "player": "R. Drăgușin",
-   "from": "Tottenham",
-   "type": "Loan"
-  },
-  {
-   "team": "Fiorentina",
    "dir": "out",
    "date": "2026-07-07",
    "player": "E. Kouadio",
    "to": "Monza",
+   "type": "Loan"
+  },
+  {
+   "team": "Fiorentina",
+   "dir": "in",
+   "date": "2026-07-07",
+   "player": "R. Drăgușin",
+   "from": "Tottenham",
    "type": "Loan"
   },
   {
@@ -4883,18 +4891,18 @@
   },
   {
    "team": "Inter",
-   "dir": "in",
-   "date": "2026-06-29",
-   "player": "D. Quieto",
-   "from": "Latina",
-   "type": "Return from loan"
-  },
-  {
-   "team": "Inter",
    "dir": "out",
    "date": "2026-06-29",
    "player": "M. Marello",
    "to": "Udinese",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Inter",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "D. Quieto",
+   "from": "Latina",
    "type": "Return from loan"
   },
   {
@@ -5763,19 +5771,19 @@
   },
   {
    "team": "Napoli",
-   "dir": "in",
-   "date": "2026-06-29",
-   "player": "R. Højlund",
-   "from": "Manchester United",
-   "type": "Transfer"
-  },
-  {
-   "team": "Napoli",
    "dir": "out",
    "date": "2026-06-29",
    "player": "R. Højlund",
    "to": "Manchester United",
    "type": "Return from loan"
+  },
+  {
+   "team": "Napoli",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "R. Højlund",
+   "from": "Manchester United",
+   "type": "Transfer"
   },
   {
    "team": "Napoli",
@@ -6139,19 +6147,19 @@
   },
   {
    "team": "Sassuolo",
-   "dir": "in",
-   "date": "2026-06-29",
-   "player": "A. Murić",
-   "from": "Ipswich",
-   "type": "Transfer"
-  },
-  {
-   "team": "Sassuolo",
    "dir": "out",
    "date": "2026-06-29",
    "player": "A. Murić",
    "to": "Ipswich",
    "type": "Return from loan"
+  },
+  {
+   "team": "Sassuolo",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "A. Murić",
+   "from": "Ipswich",
+   "type": "Transfer"
   },
   {
    "team": "Sassuolo",
