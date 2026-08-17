@@ -9,6 +9,16 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (17/08/2026, 4° giro): refresh quotazioni + Spence risolve gap formazioni
+Rilanciato `update_quotazioni.py` su xlsx fresco (498→501, +3: Pisseri P.
+Frosinone, Radunovic Cagliari, Spence D. Inter — 0 aggiornati, 0 usciti).
+Spence era l'unico non-aggancio "vero" del giro formazioni di poco fa (citato
+da 5/6 fonti per l'Inter ma assente dal listone): rilanciato
+`build_formazioni.py` subito dopo, non agganciati 12→6 (i 6 residui sono
+refusi propri delle fonti — Ederson D.s. minuscolo, Lucumì attribuito a
+Juventus invece che Bologna da FantaMaster, nomi tipo Fayed/Foe Ondoa/Perri/
+Luongo non nel listone — non correggibili lato nostro).
+
 ## FATTO (17/08/2026): giro completo trasferimenti+infortuni+formazioni+rigoristi
 Innescato da un check dell'utente: Frattesi passato Inter→Lazio nel listone
 (16/08) ma Val=0 e nessun badge 🆕 — Val era corretto (0 gol/0 assist reali a
