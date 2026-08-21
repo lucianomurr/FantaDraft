@@ -33,7 +33,7 @@
    "Moro",
    "Ferguson",
    "Orsolini",
-   "Dovbyk",
+   "Piccoli",
    "Rowe"
   ],
   "ball": [],
@@ -162,7 +162,7 @@
    "Spence",
    "Barella",
    "Calhanoglu",
-   "Zielinski",
+   "Jones",
    "Dimarco",
    "Lautaro",
    "Thuram"
@@ -177,10 +177,10 @@
  "Juventus": {
   "mod": "4-2-3-1",
   "xi": [
-   "Di Gregorio",
+   "Vicario",
    "Kalulu",
    "Bremer",
-   "Kelly",
+   "Lucumì",
    "Cambiaso",
    "Locatelli",
    "McKennie",
@@ -266,16 +266,16 @@
   "mod": "3-4-2-1",
   "xi": [
    "Thiam",
-   "Birindelli",
-   "Lucchesi",
+   "Kouadio",
+   "Delli Carri",
    "Carboni",
-   "Bakoune",
-   "Pessina",
+   "Birindelli",
+   "Foe Ondoa",
    "Akinsanmiro",
    "Mangas",
    "Colpani",
-   "Robinson",
-   "Cutrone"
+   "Cutrone",
+   "Varela"
   ],
   "ball": [],
   "rig": [
@@ -308,7 +308,7 @@
  "Parma": {
   "mod": "4-3-3",
   "xi": [
-   "Suzuki",
+   "Daffara",
    "Delprato",
    "Circati",
    "Troilo",
@@ -338,7 +338,7 @@
    "Cristante",
    "Wesley",
    "Dybala",
-   "Soulè",
+   "Mora",
    "Malen"
   ],
   "ball": [],
@@ -388,7 +388,7 @@
   "rig": [
    "Vlasic",
    "Simeone",
-   "Casadei"
+   "Oristanio"
   ]
  },
  "Udinese": {

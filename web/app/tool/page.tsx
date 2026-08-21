@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import playersRaw from "../../data/players.json";
 import formazioniRaw from "../../data/formazioni.json";
+import meta from "../../data/meta.json";
 import type { Player, FormazioniData } from "../../lib/types";
 import { withDerivedAll } from "../../lib/scoring";
 import { filterPlayers, sortPlayers } from "../../lib/filters";
@@ -22,6 +23,11 @@ import { ToastHost } from "../../components/tool/ToastHost";
 const PLAYERS = playersRaw as unknown as Player[];
 const FORMS = formazioniRaw as unknown as FormazioniData;
 const TEAMS = [...new Set(PLAYERS.map((p) => p.s))].sort();
+const UPDATED_AT = new Date(meta.aggiornato).toLocaleDateString("it-IT", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+});
 
 export default function ToolPage() {
   return (
@@ -83,7 +89,11 @@ function ToolInner() {
 
   return (
     <div className="tool-wrap">
-      <Header onShowLegend={() => setLegendOpen(true)} onShowPreset={() => setPresetOpen(true)} />
+      <Header
+        onShowLegend={() => setLegendOpen(true)}
+        onShowPreset={() => setPresetOpen(true)}
+        updatedAt={UPDATED_AT}
+      />
 
       <BudgetPanel players={PLAYERS} />
 

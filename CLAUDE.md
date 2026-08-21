@@ -9,6 +9,29 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (21/08/2026): giro completo (5°) + data ultimo aggiornamento nel tool
+Quotazioni 501→508 (+13, -6, 3 aggiornati incl. Lucumì Bologna→Juventus —
+confermava un dato che FantaMaster aveva già anticipato il 17/08 e che avevo
+scambiato per un refuso della fonte, non lo era). Trasferimenti rifetchati
+(150 agganciati, era 129) — Lucumì e Spence ancora non hanno badge 🆕, API-
+Football non li ha ancora indicizzati nonostante siano già nel listone
+ufficiale. Infortuni rifetchati col parser nuovo formato (33/33 agganciati,
+era 27). Formazioni tutte e 6 le fonti rifatte (nuovi bug di formattazione
+nei siti sorgente sistemati al volo: FantaMaster aveva `(4-3-3 ):` con
+spazio prima della parentesi invece di `(4-3-3):`, rompeva l'header regex;
+Torino aveva un ":" al posto di una "," come separatore giocatori) — 10
+non agganciati su 1320 slot (~0.8%), giocatori non ancora nel listone
+ufficiale o (Circati) già ceduto. Rigoristi: un cambio, Torino
+Casadei→Oristanio come rigorista alternativo (Gazzetta).
+
+**Nuovo**: data ultimo aggiornamento dati visibile nel tool. `web/data/
+meta.json` (`{"aggiornato": "YYYY-MM-DD"}`), letto in `page.tsx` e
+formattato in italiano (`toLocaleDateString("it-IT", ...)`), passato come
+prop `updatedAt` a `Header.tsx` — mostrato nella riga sotto il titolo:
+"Tool strategico · Classic · 10 squadre · budget 500 crediti · dati
+aggiornati al 21 agosto 2026". Da aggiornare a mano (un solo campo) ad ogni
+refresh dati, prima di propagare/buildare.
+
 ## FATTO (17/08/2026, 4° giro): refresh quotazioni + Spence risolve gap formazioni
 Rilanciato `update_quotazioni.py` su xlsx fresco (498→501, +3: Pisseri P.
 Frosinone, Radunovic Cagliari, Spence D. Inter — 0 aggiornati, 0 usciti).

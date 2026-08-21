@@ -176,6 +176,10 @@
        "Ranieri L."
       ],
       [
+       "Oulai",
+       "Mandragora"
+      ],
+      [
        "Ndour",
        "Gudmundsson A."
       ],
@@ -195,7 +199,7 @@
       "Terzic",
       "Schmid",
       "Grillitsch",
-      "Masini",
+      "Calò",
       "Ghedjemis",
       "Raimondo",
       "Kvernadze"
@@ -210,12 +214,8 @@
        "Calvani"
       ],
       [
-       "Grillitsch",
-       "Calò"
-      ],
-      [
-       "Masini",
-       "Koutsoupias"
+       "Calò",
+       "Masini"
       ],
       [
        "Kvernadze",
@@ -290,10 +290,10 @@
     "Juventus": {
      "mod": "4-2-3-1",
      "xi": [
-      "Di Gregorio",
+      "Vicario",
       "Kalulu",
       "Bremer",
-      "Kelly L.",
+      "Lucumì",
       "Cambiaso",
       "Thuram K.",
       "Locatelli",
@@ -303,6 +303,10 @@
       "Kolo Muani"
      ],
      "ball": [
+      [
+       "Lucumì",
+       "Kelly L."
+      ],
       [
        "Alajbegovic",
        "Conceicao"
@@ -331,7 +335,7 @@
       ],
       [
        "Pedraza",
-       "Tavares N."
+       "Pellegrini Lu."
       ],
       [
        "Rovella",
@@ -340,6 +344,10 @@
       [
        "Isaksen",
        "Cancellieri"
+      ],
+      [
+       "Noslin",
+       "Dia"
       ]
      ]
     },
@@ -349,7 +357,7 @@
       "Falcone",
       "Veiga D.",
       "Tiago Gabriel",
-      "Gaspar",
+      "Gaspar K.",
       "Gallo",
       "Coulibaly L.",
       "Ngom",
@@ -362,6 +370,10 @@
       [
        "Ngom",
        "Berisha M."
+      ],
+      [
+       "Gandelman",
+       "Maleh"
       ],
       [
        "Geubbels",
@@ -379,15 +391,15 @@
       "Saelemaekers",
       "Rabiot",
       "Modric",
-      "Bartesaghi",
+      "Moreira",
       "Pulisic",
       "Leao",
       "Ramos G."
      ],
      "ball": [
       [
-       "Leao",
-       "Nkunku"
+       "Saelemaekers",
+       "Chukwueze"
       ]
      ]
     },
@@ -421,7 +433,7 @@
       ],
       [
        "Cutrone",
-       "Varela"
+       "Varela G."
       ]
      ]
     },
@@ -442,10 +454,6 @@
      ],
      "ball": [
       [
-       "Marin R.",
-       "Olivera"
-      ],
-      [
        "Politano",
        "Neres"
       ]
@@ -457,7 +465,7 @@
       "Corvi",
       "Delprato",
       "Troilo",
-      "Circati",
+      "Valenti",
       "Valeri",
       "Bernabè",
       "Keita M.",
@@ -476,16 +484,8 @@
        "Sorensen O."
       ],
       [
-       "Frigan",
-       "Diallo O."
-      ],
-      [
        "Romero D.",
        "Elphege"
-      ],
-      [
-       "Tourè E.",
-       "Diallo O."
       ]
      ]
     },
@@ -500,8 +500,8 @@
       "Cristante",
       "Konè M.",
       "Wesley",
-      "Soulè",
       "Dybala",
+      "Mora",
       "Malen"
      ],
      "ball": [
@@ -510,12 +510,12 @@
        "Hermoso"
       ],
       [
-       "Soulè",
-       "Pellegrini Lo."
-      ],
-      [
        "Dybala",
        "Castro S."
+      ],
+      [
+       "Mora",
+       "Soulè"
       ]
      ]
     },
@@ -548,8 +548,8 @@
        "Konè I."
       ],
       [
-       "Laurientè",
-       "Dominguez B."
+       "Thorstvedt",
+       "Adzic"
       ],
       [
        "Pinamonti",
@@ -561,9 +561,9 @@
      "mod": "3-4-2-1",
      "xi": [
       "Paleari",
-      "Ismajli",
-      "Coco",
       "Comuzzo",
+      "Coco",
+      "Comert",
       "Pedersen",
       "Casadei",
       "Fitz-Jim",
@@ -574,11 +574,11 @@
      ],
      "ball": [
       [
-       "Comuzzo",
-       "Comert"
+       "Coco",
+       "Ismajli"
       ],
       [
-       "Fitz-Jim",
+       "Casadei",
        "Gineitis"
       ],
       [
@@ -591,8 +591,8 @@
      "mod": "3-4-2-1",
      "xi": [
       "Okoye",
+      "Palma",
       "Kabasele",
-      "Bertola",
       "Solet",
       "Vojvoda",
       "Piotrowski",
@@ -604,8 +604,12 @@
      ],
      "ball": [
       [
+       "Palma",
+       "Bertola"
+      ],
+      [
        "Piotrowski",
-       "Unai Gomez"
+       "Miller L."
       ]
      ]
     },
@@ -626,11 +630,15 @@
      ],
      "ball": [
       [
+       "Moreno M.",
+       "Halhal"
+      ],
+      [
        "Correia T.",
        "Hainaut"
       ],
       [
-       "Adams A.",
+       "Yeboah J.",
        "Rrahmani Al."
       ]
      ]
@@ -703,8 +711,8 @@
       "Vitik",
       "Miranda",
       "Ferguson",
-      "Pobega",
-      "Odgaard",
+      "Amondarain",
+      "Bernardeschi",
       "Orsolini",
       "Dovbyk",
       "Rowe"
@@ -715,12 +723,16 @@
        "Holm"
       ],
       [
+       "Amondarain",
+       "Pobega"
+      ],
+      [
        "Pobega",
        "Moro"
       ],
       [
-       "Odgaard",
-       "Bernardeschi"
+       "Bernardeschi",
+       "Odgaard"
       ],
       [
        "Dovbyk",
@@ -744,6 +756,10 @@
       "Kevin Carlos"
      ],
      "ball": [
+      [
+       "Rodriguez",
+       "Deiola"
+      ],
       [
        "Adopo",
        "Deiola"
@@ -839,19 +855,19 @@
      ]
     },
     "Frosinone": {
-     "mod": "4-3-3",
+     "mod": "4-2-3-1",
      "xi": [
       "Palmisani",
       "Oyono",
-      "Monteris",
+      "Monterisi",
       "Calvani",
       "Terzic",
-      "Grillitsch",
-      "Calo’",
-      "Masini",
+      "Calò",
+      "Chichella",
       "Ghedjemis",
+      "Schmid",
       "Raimondo",
-      "Schmid"
+      "Kvernadze"
      ],
      "ball": [
       [
@@ -863,12 +879,12 @@
        "Amey"
       ],
       [
-       "Monteris",
-       "Fayed"
-      ],
-      [
        "Calvani",
        "Cittadini"
+      ],
+      [
+       "Calò",
+       "Grillitsch"
       ],
       [
        "Grillitsch",
@@ -879,24 +895,16 @@
        "El Azzouzi"
       ],
       [
-       "Calo’",
-       "Hasa"
+       "Chichella",
+       "Masini"
       ],
       [
-       "Masini",
-       "Hasa"
-      ],
-      [
-       "Hasa",
-       "Cichella"
+       "Ghedjemis",
+       "Zerbin"
       ],
       [
        "Schmid",
-       "Kvernadze"
-      ],
-      [
-       "Kvernadze",
-       "Zerbin"
+       "Hasa"
       ]
      ]
     },
@@ -916,10 +924,6 @@
       "Colombo"
      ],
      "ball": [
-      [
-       "Vasquez",
-       "Puczka"
-      ],
       [
        "Sow",
        "Ellertsson"
@@ -963,10 +967,6 @@
      ],
      "ball": [
       [
-       "Martinez",
-       "Provedel"
-      ],
-      [
        "Stones",
        "Bisseck"
       ],
@@ -979,7 +979,7 @@
     "Juventus": {
      "mod": "4-2-3-1",
      "xi": [
-      "Di Gregorio",
+      "Vicario",
       "Kalulu",
       "Bremer",
       "Lucumì",
@@ -1088,7 +1088,7 @@
       "Saelemaekers",
       "Modric",
       "Rabiot",
-      "Bartesaghi",
+      "Diego Moreira",
       "Pulisic",
       "Leao",
       "Goncalo Ramos"
@@ -1100,11 +1100,11 @@
      "xi": [
       "Thiam",
       "Kouadio",
-      "Lucchesi",
+      "Delli Carri",
       "Carboni",
       "Birindelli",
       "Akinsanmiro",
-      "Foe Ondoa",
+      "Colombo",
       "Mangas",
       "Colpani",
       "Varela",
@@ -1112,19 +1112,31 @@
      ],
      "ball": [
       [
-       "Lucchesi",
-       "Delli Carri"
+       "Kouadio",
+       "Birindelli"
+      ],
+      [
+       "Delli Carri",
+       "Lucchesi"
       ],
       [
        "Birindelli",
+       "Tourè"
+      ],
+      [
+       "Tourè",
        "Bakoune"
       ],
       [
-       "Varela",
-       "Robinso n"
+       "Colombo",
+       "Foe Ondoa"
       ],
       [
-       "Robinso n",
+       "Varela",
+       "Robinson"
+      ],
+      [
+       "Robinson",
        "Dany Mota"
       ]
      ]
@@ -1135,7 +1147,7 @@
       "Meret",
       "Di Lorenzo",
       "Rrahmani",
-      "Beukema",
+      "Badiashile",
       "Spinazzola",
       "Anguissa",
       "Lobotka",
@@ -1145,14 +1157,6 @@
       "Alisson Santos"
      ],
      "ball": [
-      [
-       "Beukema",
-       "Buongiorno"
-      ],
-      [
-       "Buongiorno",
-       "Olivera"
-      ],
       [
        "Spinazzola",
        "Olivera"
@@ -1172,19 +1176,19 @@
      ]
     },
     "Parma": {
-     "mod": "3-5-2",
+     "mod": "4-3-3",
      "xi": [
       "Corvi",
-      "Circati",
+      "Delprato",
       "Troilo",
       "Valenti",
-      "Delprato",
+      "Valeri",
       "Bernabè",
       "Keita",
-      "Nicolussi-Caviglia",
-      "Valeri",
+      "Sorensen",
       "El Bilal Touré",
-      "Elphege"
+      "Romero",
+      "Frigan"
      ],
      "ball": [
       [
@@ -1196,16 +1200,12 @@
        "Ndiaye"
       ],
       [
-       "Nicolussi-Caviglia",
-       "Sorensen"
+       "Sorensen",
+       "Nicolussi Caviglia"
       ],
       [
-       "El Bilal Touré",
-       "Romero"
-      ],
-      [
-       "Elphege",
-       "Romero"
+       "Romero",
+       "Elphege"
       ]
      ]
     },
@@ -1220,7 +1220,7 @@
       "Cristante",
       "Konè",
       "Wesley",
-      "Pisilli",
+      "Mora",
       "Dybala",
       "Malen"
      ],
@@ -1228,10 +1228,6 @@
       [
        "Hermoso",
        "Koulierakis"
-      ],
-      [
-       "Pisilli",
-       "Pellegrini"
       ],
       [
        "Dybala",
@@ -1243,10 +1239,10 @@
      "mod": "4-3-3",
      "xi": [
       "Muric",
-      "Walukiewicz",
-      "Candè",
+      "Missori",
+      "Leysen",
       "Idzes",
-      "Doig",
+      "Obrador",
       "Thorstvedt",
       "Matic",
       "Adzic",
@@ -1260,6 +1256,14 @@
        "Turati"
       ],
       [
+       "Missori",
+       "Walukiewicz"
+      ],
+      [
+       "Obrador",
+       "Doig"
+      ],
+      [
        "Adzic",
        "Lipani"
       ],
@@ -1270,39 +1274,27 @@
      ]
     },
     "Torino": {
-     "mod": "3-5-2",
+     "mod": "3-4-2-1",
      "xi": [
       "Perri",
       "Comuzzo",
       "Comert",
       "Coco",
       "Pedersen",
-      "Casadei",
-      "Ilkhan",
-      "Vlasic",
+      "Gineitis",
+      "Fitz-Jim",
       "Cacciamani",
-      "Simeone",
-      "Zapata"
+      "Vlasic",
+      "Casadei",
+      "Simeone"
      ],
      "ball": [
       [
+       "Gineitis",
+       "Casadei"
+      ],
+      [
        "Casadei",
-       "Oristanio"
-      ],
-      [
-       "Ilkhan",
-       "Fitz-Jim"
-      ],
-      [
-       "Cacciamani",
-       "Biraghi"
-      ],
-      [
-       "Zapata",
-       "Adams"
-      ],
-      [
-       "Adams",
        "Oristanio"
       ]
      ]
@@ -1350,6 +1342,10 @@
      ],
      "ball": [
       [
+       "Stankovic",
+       "Montipò"
+      ],
+      [
        "Sverko",
        "Moreno"
       ],
@@ -1377,7 +1373,7 @@
       "Éderson",
       "De Ketelaere",
       "Scamacca",
-      "Zalewski"
+      "Raspadori"
      ],
      "ball": []
     },
@@ -1386,14 +1382,14 @@
      "xi": [
       "Skorupski",
       "Zortea",
-      "Lucumì",
+      "Vitik",
       "Heggem",
       "Juan Miranda",
       "Bernardeschi",
       "Moro",
       "Ferguson",
       "Orsolini",
-      "Dovbyk",
+      "Piccoli",
       "Rowe"
      ],
      "ball": []
@@ -1403,8 +1399,8 @@
      "xi": [
       "Caprile",
       "Zappa",
-      "Mina",
-      "Rodriguez",
+      "Yerry Mina",
+      "Juan Rodríguez",
       "Obert",
       "Romano",
       "Winks",
@@ -1419,9 +1415,9 @@
      "mod": "4-2-3-1",
      "xi": [
       "Butez",
-      "Smolcic",
+      "Couto",
       "Chalobah",
-      "Jacobo Ramon",
+      "Jacobo Ramón",
       "Kaiki",
       "Perrone",
       "Da Cunha",
@@ -1455,12 +1451,12 @@
       "Palmisani",
       "Oyono",
       "Monterisi",
-      "Cittadini",
+      "Akpoguma",
       "Bracaglia",
-      "Grillitsch",
-      "Calò",
-      "Hasa",
       "Schmid",
+      "Calò",
+      "Masini",
+      "Ghedjemis",
       "Raimondo",
       "Kvernadze"
      ],
@@ -1503,7 +1499,7 @@
     "Juventus": {
      "mod": "4-2-3-1",
      "xi": [
-      "Di Gregorio",
+      "Vicario",
       "Kalulu",
       "Bremer",
       "Kelly",
@@ -1529,7 +1525,7 @@
       "Rovella",
       "Dele-Bashiru",
       "Isaksen",
-      "Ratkov",
+      "Dia",
       "Zaccagni"
      ],
      "ball": []
@@ -1539,12 +1535,12 @@
      "xi": [
       "Falcone",
       "Danilo Veiga",
-      "Tiago Gabriel",
       "Gaspar",
+      "Tiago Gabriel",
       "Gallo",
-      "Ngom",
+      "Maleh",
       "Coulibaly",
-      "Gandelman",
+      "Ngom",
       "Pierotti",
       "Geubbels",
       "N'Dri"
@@ -1606,10 +1602,10 @@
      "mod": "3-5-2",
      "xi": [
       "Corvi",
-      "Circati",
+      "Delprato",
       "Troilo",
       "Valenti",
-      "Delprato",
+      "Britschgi",
       "Bernabé",
       "Keita",
       "Nicolussi Caviglia",
@@ -1644,11 +1640,11 @@
       "Idzes",
       "Candé",
       "Doig",
-      "Thorstvedt",
+      "Adzic",
       "Matic",
       "Lipani",
       "Berardi",
-      "Pinamonti",
+      "Bowie",
       "Laurienté"
      ],
      "ball": []
@@ -1848,10 +1844,10 @@
     "Juventus": {
      "mod": "4-2-3-1",
      "xi": [
-      "Di Gregorio",
+      "Vicario",
       "Kalulu",
       "Bremer",
-      "Kelly",
+      "Lucumì",
       "Cambiaso",
       "Locatelli",
       "Thuram",
@@ -1907,8 +1903,8 @@
       "Modric",
       "Rabiot",
       "Bartesaghi",
-      "Saelemakers",
       "Pulisic",
+      "Diego Moreira",
       "Ramos"
      ],
      "ball": []
@@ -1952,14 +1948,14 @@
      "xi": [
       "Corvi",
       "Delprato",
-      "Circati",
       "Troilo",
+      "Valenti",
       "Valeri",
       "Bernabe",
       "Keita",
       "Nicolussi-Caviglia",
+      "Frigan",
       "Romero",
-      "Elphege",
       "Touré"
      ],
      "ball": []
@@ -1975,7 +1971,7 @@
       "Cristante",
       "Kone",
       "Wesley",
-      "Soule",
+      "Mora",
       "Dybala",
       "Malen"
      ],
@@ -2083,7 +2079,7 @@
       "Moro",
       "Ferguson",
       "Orsolini",
-      "Dovbyk",
+      "Piccoli",
       "Rowe"
      ],
      "ball": []
@@ -2183,7 +2179,7 @@
       "Spence",
       "Barella",
       "Calhanoglu",
-      "Zielinski",
+      "Jones",
       "Dimarco",
       "Lautaro",
       "Thuram"
@@ -2193,10 +2189,10 @@
     "Juventus": {
      "mod": "4-2-3-1",
      "xi": [
-      "Di Gregorio",
+      "Vicario",
       "Kalulu",
       "Bremer",
-      "Kelly",
+      "Lucumì",
       "Cambiaso",
       "Locatelli",
       "McKennie",
@@ -2262,16 +2258,16 @@
      "mod": "3-4-2-1",
      "xi": [
       "Thiam",
-      "Birindelli",
-      "Lucchesi",
+      "Kouadio",
+      "Delli Carri",
       "Carboni",
-      "Bakoune",
-      "Pessina",
+      "Birindelli",
+      "Foe Ondoa",
       "Akinsanmiro",
       "Mangas",
       "Colpani",
-      "Robinson",
-      "Cutrone"
+      "Cutrone",
+      "Varela"
      ],
      "ball": []
     },
@@ -2295,7 +2291,7 @@
     "Parma": {
      "mod": "4-3-3",
      "xi": [
-      "Suzuki",
+      "Daffara",
       "Delprato",
       "Circati",
       "Troilo",
@@ -2321,7 +2317,7 @@
       "Cristante",
       "Wesley",
       "Dybala",
-      "Soulè",
+      "Mora",
       "Malen"
      ],
      "ball": []
@@ -2443,8 +2439,8 @@
        "n": "Martinez L."
       },
       {
-       "id": 4871,
-       "n": "Thuram"
+       "id": 7071,
+       "n": "Esposito F.P."
       }
      ],
      "ball": []
@@ -2485,8 +2481,8 @@
        "n": "Mangas"
       },
       {
-       "id": 5878,
-       "n": "Colpani"
+       "id": 6592,
+       "n": "Forson O."
       },
       {
        "id": 2155,
@@ -2500,7 +2496,7 @@
      "ball": []
     },
     "Udinese": {
-     "mod": "3-5-1-1",
+     "mod": "3-4-2-1",
      "xi": [
       {
        "id": 6462,
@@ -2511,12 +2507,12 @@
        "n": "Bertola"
       },
       {
-       "id": 6956,
-       "n": "Solet"
+       "id": 6925,
+       "n": "Palma"
       },
       {
-       "id": 5994,
-       "n": "Ebosse"
+       "id": 6956,
+       "n": "Solet"
       },
       {
        "id": 4994,
@@ -2627,8 +2623,8 @@
        "n": "Frendrup"
       },
       {
-       "id": 7341,
-       "n": "Amorim"
+       "id": 5946,
+       "n": "Sow"
       },
       {
        "id": 6020,
@@ -2711,8 +2707,8 @@
        "n": "Delprato"
       },
       {
-       "id": 6663,
-       "n": "Circati"
+       "id": 7235,
+       "n": "Troilo"
       },
       {
        "id": 5307,
@@ -2853,8 +2849,8 @@
      "mod": "4-2-3-1",
      "xi": [
       {
-       "id": 5876,
-       "n": "Di Gregorio"
+       "id": 4964,
+       "n": "Vicario"
       },
       {
        "id": 4976,
@@ -2981,8 +2977,8 @@
        "n": "Ngom"
       },
       {
-       "id": 7318,
-       "n": "Gandelman"
+       "id": 5457,
+       "n": "Maleh"
       },
       {
        "id": 6549,
@@ -3007,16 +3003,16 @@
        "n": "Carnesecchi"
       },
       {
-       "id": 554,
-       "n": "Zappacosta"
+       "id": 4887,
+       "n": "Bellanova"
+      },
+      {
+       "id": 5578,
+       "n": "Kossounou"
       },
       {
        "id": 6485,
        "n": "Kristensen T."
-      },
-      {
-       "id": 5526,
-       "n": "Scalvini"
       },
       {
        "id": 7219,
@@ -3050,7 +3046,7 @@
      "ball": []
     },
     "Sassuolo": {
-     "mod": "4-2-3-1",
+     "mod": "4-3-3",
      "xi": [
       {
        "id": 4236,
@@ -3061,8 +3057,8 @@
        "n": "Missori"
       },
       {
-       "id": 4374,
-       "n": "Walukiewicz"
+       "id": 7154,
+       "n": "Odenthal"
       },
       {
        "id": 6672,
@@ -3073,28 +3069,28 @@
        "n": "Doig"
       },
       {
-       "id": 5844,
-       "n": "Thorstvedt"
+       "id": 6677,
+       "n": "Adzic"
       },
       {
        "id": 2528,
        "n": "Matic"
       },
       {
-       "id": 531,
-       "n": "Berardi"
+       "id": 7036,
+       "n": "Bakola"
       },
       {
-       "id": 6677,
-       "n": "Adzic"
+       "id": 5735,
+       "n": "Volpato"
+      },
+      {
+       "id": 7347,
+       "n": "Bowie"
       },
       {
        "id": 6060,
        "n": "Laurientè"
-      },
-      {
-       "id": 2038,
-       "n": "Pinamonti"
       }
      ],
      "ball": []
@@ -3103,8 +3099,8 @@
      "mod": "3-4-2-1",
      "xi": [
       {
-       "id": 5320,
-       "n": "Paleari"
+       "id": 7457,
+       "n": "Mascardi"
       },
       {
        "id": 6495,
@@ -3223,8 +3219,8 @@
        "n": "Miranda J."
       },
       {
-       "id": 7528,
-       "n": "Amondarain"
+       "id": 6054,
+       "n": "Moro N."
       },
       {
        "id": 5858,
@@ -3265,8 +3261,8 @@
        "n": "Doekhi"
       },
       {
-       "id": 460,
-       "n": "Romagnoli"
+       "id": 7012,
+       "n": "Provstgaard"
       },
       {
        "id": 4817,
@@ -3377,8 +3373,8 @@
        "n": "Ndour"
       },
       {
-       "id": 7464,
-       "n": "Oulai"
+       "id": 4465,
+       "n": "Fagioli"
       },
       {
        "id": 6908,

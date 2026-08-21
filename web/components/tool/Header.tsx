@@ -6,9 +6,11 @@ import { useAsta } from "../../contexts/AstaContext";
 export function Header({
   onShowLegend,
   onShowPreset,
+  updatedAt,
 }: {
   onShowLegend: () => void;
   onShowPreset: () => void;
+  updatedAt: string;
 }) {
   const { cfg, st, resetLive, resetAll, importState, toast } = useAsta();
   const fileRef = useRef<HTMLInputElement>(null);
@@ -46,7 +48,10 @@ export function Header({
         <div className="logo">⚽</div>
         <div>
           <h1>FantaDraft2027</h1>
-          <div className="sub">Tool strategico · Classic · 10 squadre · budget 500 crediti</div>
+          <div className="sub">
+            Tool strategico · Classic · 10 squadre · budget 500 crediti · dati aggiornati al{" "}
+            {updatedAt}
+          </div>
         </div>
       </div>
       <div className="tools">

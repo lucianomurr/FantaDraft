@@ -43,8 +43,8 @@
     "n": "Martinez L."
    },
    {
-    "id": 4871,
-    "n": "Thuram"
+    "id": 7071,
+    "n": "Esposito F.P."
    }
   ],
   "ball": []
@@ -85,8 +85,8 @@
     "n": "Mangas"
    },
    {
-    "id": 5878,
-    "n": "Colpani"
+    "id": 6592,
+    "n": "Forson O."
    },
    {
     "id": 2155,
@@ -100,7 +100,7 @@
   "ball": []
  },
  "Udinese": {
-  "mod": "3-5-1-1",
+  "mod": "3-4-2-1",
   "xi": [
    {
     "id": 6462,
@@ -111,12 +111,12 @@
     "n": "Bertola"
    },
    {
-    "id": 6956,
-    "n": "Solet"
+    "id": 6925,
+    "n": "Palma"
    },
    {
-    "id": 5994,
-    "n": "Ebosse"
+    "id": 6956,
+    "n": "Solet"
    },
    {
     "id": 4994,
@@ -227,8 +227,8 @@
     "n": "Frendrup"
    },
    {
-    "id": 7341,
-    "n": "Amorim"
+    "id": 5946,
+    "n": "Sow"
    },
    {
     "id": 6020,
@@ -311,8 +311,8 @@
     "n": "Delprato"
    },
    {
-    "id": 6663,
-    "n": "Circati"
+    "id": 7235,
+    "n": "Troilo"
    },
    {
     "id": 5307,
@@ -453,8 +453,8 @@
   "mod": "4-2-3-1",
   "xi": [
    {
-    "id": 5876,
-    "n": "Di Gregorio"
+    "id": 4964,
+    "n": "Vicario"
    },
    {
     "id": 4976,
@@ -581,8 +581,8 @@
     "n": "Ngom"
    },
    {
-    "id": 7318,
-    "n": "Gandelman"
+    "id": 5457,
+    "n": "Maleh"
    },
    {
     "id": 6549,
@@ -607,16 +607,16 @@
     "n": "Carnesecchi"
    },
    {
-    "id": 554,
-    "n": "Zappacosta"
+    "id": 4887,
+    "n": "Bellanova"
+   },
+   {
+    "id": 5578,
+    "n": "Kossounou"
    },
    {
     "id": 6485,
     "n": "Kristensen T."
-   },
-   {
-    "id": 5526,
-    "n": "Scalvini"
    },
    {
     "id": 7219,
@@ -650,7 +650,7 @@
   "ball": []
  },
  "Sassuolo": {
-  "mod": "4-2-3-1",
+  "mod": "4-3-3",
   "xi": [
    {
     "id": 4236,
@@ -661,8 +661,8 @@
     "n": "Missori"
    },
    {
-    "id": 4374,
-    "n": "Walukiewicz"
+    "id": 7154,
+    "n": "Odenthal"
    },
    {
     "id": 6672,
@@ -673,28 +673,28 @@
     "n": "Doig"
    },
    {
-    "id": 5844,
-    "n": "Thorstvedt"
+    "id": 6677,
+    "n": "Adzic"
    },
    {
     "id": 2528,
     "n": "Matic"
    },
    {
-    "id": 531,
-    "n": "Berardi"
+    "id": 7036,
+    "n": "Bakola"
    },
    {
-    "id": 6677,
-    "n": "Adzic"
+    "id": 5735,
+    "n": "Volpato"
+   },
+   {
+    "id": 7347,
+    "n": "Bowie"
    },
    {
     "id": 6060,
     "n": "Laurientè"
-   },
-   {
-    "id": 2038,
-    "n": "Pinamonti"
    }
   ],
   "ball": []
@@ -703,8 +703,8 @@
   "mod": "3-4-2-1",
   "xi": [
    {
-    "id": 5320,
-    "n": "Paleari"
+    "id": 7457,
+    "n": "Mascardi"
    },
    {
     "id": 6495,
@@ -823,8 +823,8 @@
     "n": "Miranda J."
    },
    {
-    "id": 7528,
-    "n": "Amondarain"
+    "id": 6054,
+    "n": "Moro N."
    },
    {
     "id": 5858,
@@ -865,8 +865,8 @@
     "n": "Doekhi"
    },
    {
-    "id": 460,
-    "n": "Romagnoli"
+    "id": 7012,
+    "n": "Provstgaard"
    },
    {
     "id": 4817,
@@ -977,8 +977,8 @@
     "n": "Ndour"
    },
    {
-    "id": 7464,
-    "n": "Oulai"
+    "id": 4465,
+    "n": "Fagioli"
    },
    {
     "id": 6908,

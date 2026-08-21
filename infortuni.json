@@ -1,17 +1,23 @@
 {
- "aggiornato": "2026-08-17",
+ "aggiornato": "2026-08-21",
  "infortunati": [
   {
    "s": "Atalanta",
-   "n": "Ahanor",
-   "d": "Il difensore fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba destra",
+   "n": "Scalvini",
+   "d": "Il difensore giovedì sera costretto al cambio in Conference League a causa di un problema alla caviglia che andrà valutato, forfait domenica in campionato contro il Sassuolo.",
+   "r": ""
+  },
+  {
+   "s": "Atalanta",
+   "n": "De Ketelaere",
+   "d": "Il belga fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba sinistra",
    "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da inizio settembre."
   },
   {
    "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra",
-   "r": "in recupero e pronto a tornare in campo dall'inizio di ottobre."
+   "n": "Ahanor",
+   "d": "Il difensore fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba destra",
+   "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da fine agosto."
   },
   {
    "s": "Atalanta",
@@ -21,9 +27,9 @@
   },
   {
    "s": "Atalanta",
-   "n": "De Ketelaere",
-   "d": "Il belga fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba sinistra",
-   "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da inizio settembre."
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra",
+   "r": "in recupero e pronto a tornare in campo dall'inizio di ottobre."
   },
   {
    "s": "Cagliari",
@@ -32,10 +38,16 @@
    "r": "può tornare arruolabile dalla fine di ottobre."
   },
   {
+   "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina.",
+   "r": "Condizioni monitorate dallo staff medico rossoblù, di certo assente nella 1a di campionato a Parma."
+  },
+  {
    "s": "Como",
    "n": "Addai",
    "d": "l'ala offensiva dei lariani vittima della rottura tendine d'Achille",
-   "r": "proverà a recuperare per ottobre."
+   "r": "proverà a recuperare dalla seconda metà di settembre."
   },
   {
    "s": "Fiorentina",
@@ -45,21 +57,33 @@
   },
   {
    "s": "Genoa",
-   "n": "Meichtry",
-   "d": "Il calciatore non al meglio per noie fisiche al ginocchio e a forte rischio la sua convocazione contro il Napoli nella 1a giornata di campionato.",
+   "n": "Traorè Hj.",
+   "d": "Il centrocampista in recupero da noie fisiche e a forte rischio la sua convocazione contro il Napoli nella 1a giornata di campionato.",
    "r": "Da valutare."
   },
   {
    "s": "Genoa",
-   "n": "Traorè Hj.",
-   "d": "Il centrocampista in recupero da noie fisiche e a forte rischio la sua convocazione contro il Napoli nella 1a giornata di campionato.",
-   "r": "Da valutare."
+   "n": "Havel",
+   "d": "L'attaccante alle prese con noie muscolari all'adduttore, escluse lesioni.",
+   "r": "Da valutare quotidianamente, ma salterà il match di sabato sera contro il Napoli."
   },
   {
    "s": "Juventus",
    "n": "Ekhator",
    "d": "l'attaccante frenato nella seconda metà di luglio da una lesione di basso grado del bicipite femorale della coscia destra",
    "r": "da valutare nei prossimi allenamenti in vista della sfida di Frosinone del 23 agosto."
+  },
+  {
+   "s": "Lazio",
+   "n": "Isaksen",
+   "d": "il danese operato a inizio luglio causa pubalgia e tornato a lavorare sul campo d'allenamento dalla prima metà di agosto. Tuttavia necessita di un periodo di riatletizzazione ed è a rischio la sua convocazione a Bologna nella 1a di A.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Lazio",
+   "n": "Cataldi",
+   "d": "il regista biancoceleste ha ripreso a lavorare sul campo d'allenamento, messa da parte l'ernia bilaterale che lo ha costretto a saltare la preparazione estiva.",
+   "r": "Da valutare tuttavia la sua convocazione già a Bologna nella 1a giornata di campionato."
   },
   {
    "s": "Lazio",
@@ -80,10 +104,10 @@
    "r": "Tempi di recupero da monitorare, ma proverà a tornare arruolabile dall'inizio di novembre."
   },
   {
-   "s": "Napoli",
-   "n": "Neres",
-   "d": "operato a gennaio per un problema alla caviglia sinistra con interessamento del tendine; il brasiliano sta lentamente recuperando",
-   "r": "ma rimane da valutare la convocazione nella 1a giornata di campionato a Genova."
+   "s": "Monza",
+   "n": "Tourè I.",
+   "d": "Il centrocampista arrivato in Brianza dal Pisa infortunato",
+   "r": "condizioni da valutare ma di certo assente sabato contro l'Inter."
   },
   {
    "s": "Napoli",
@@ -93,27 +117,27 @@
   },
   {
    "s": "Napoli",
-   "n": "Beukema",
-   "d": "il difensore in fase di recupero da una patologia cronica bilaterale al tendine d'Achille, rimane tuttavia a rischio la sua convocazione contro il Genoa nel primo turno di A.",
-   "r": "Da valutare nei prossimi allenamenti."
-  },
-  {
-   "s": "Napoli",
    "n": "Marianucci",
    "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
    "r": "Tempi di recupero da valutare, ma rischia uno stop di almeno due mesi."
   },
   {
-   "s": "Parma",
-   "n": "Cremaschi",
-   "d": "il calciatore vittima a marzo di una lesione del menisco esterno del ginocchio sinistro",
-   "r": "sta proseguendo le cure del caso e può tornare arruolabile dal mese di ottobre."
+   "s": "Napoli",
+   "n": "Neres",
+   "d": "operato a gennaio per un problema alla caviglia sinistra con interessamento del tendine; il brasiliano sta lentamente recuperando",
+   "r": "ma rimane da valutare la convocazione dall'inizio di settembre."
   },
   {
    "s": "Parma",
    "n": "Nicolussi Caviglia",
    "d": "il centrocampista alle prese da luglio con una lesione di medio grado alla coscia destra",
    "r": "può tornare arruolabile da inizio settembre."
+  },
+  {
+   "s": "Parma",
+   "n": "Cremaschi",
+   "d": "il calciatore vittima a marzo di una lesione del menisco esterno del ginocchio sinistro",
+   "r": "sta proseguendo le cure del caso e può tornare arruolabile dal mese di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -123,9 +147,21 @@
   },
   {
    "s": "Sassuolo",
+   "n": "Konè I.",
+   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
+   "r": "Operato, punta a tornare in campo da dicembre."
+  },
+  {
+   "s": "Sassuolo",
    "n": "Pieragnolo",
    "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra",
    "r": "ipotizziamo possa tornare convocabile da ottobre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Walukiewicz",
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra, a rischio la sua convocazione contro l'Atalanta nel primo turno di A.",
+   "r": ""
   },
   {
    "s": "Sassuolo",
@@ -134,10 +170,10 @@
    "r": "Da valutare rientro da settembre."
   },
   {
-   "s": "Sassuolo",
-   "n": "Konè I.",
-   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
-   "r": "Operato, punta a tornare in campo da dicembre."
+   "s": "Torino",
+   "n": "Zapata D.",
+   "d": "Il colombiano in ripresa da noie fisiche, ma rimane a rischio la sua convocazione nel prossimo turno di campionato contro il Milan.",
+   "r": "Da valutare."
   },
   {
    "s": "Udinese",

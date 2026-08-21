@@ -9,7 +9,7 @@ import json, re, unicodedata
 
 PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
 
-GAZ_RIG = {  # 16/08/2026
+GAZ_RIG = {  # 21/08/2026
     "Atalanta": ["Scamacca", "De Ketelaere", "Samardzic"],
     "Bologna": ["Orsolini", "Dovbyk", "Bernardeschi"],
     "Cagliari": ["Mina", "Borrelli", "Fazzini"],
@@ -27,7 +27,7 @@ GAZ_RIG = {  # 16/08/2026
     "Parma": ["Bernabè", "Valeri"],
     "Roma": ["Malen", "Dybala"],
     "Sassuolo": ["Berardi", "Pinamonti", "Laurientè"],
-    "Torino": ["Vlasic", "Simeone", "Casadei"],
+    "Torino": ["Vlasic", "Simeone", "Oristanio"],
     "Udinese": ["Davis", "Zaniolo", "Solet"],
     "Venezia": ["Adams", "Yeboah", "Rrahmani"],
 }
