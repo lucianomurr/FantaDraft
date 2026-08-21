@@ -3,6 +3,7 @@
 import { useAsta } from "../../contexts/AstaContext";
 import { titBallDots } from "../../lib/formations";
 import { NAT } from "../../lib/nations";
+import { findSimilarPlayers } from "../../lib/similar";
 import { transferTypeLabel, formatTransferDate } from "../../lib/transfers";
 import type { DerivedPlayer } from "../../lib/types";
 import { ModalShell } from "./ModalShell";
@@ -13,15 +14,27 @@ const CURRENT_YEAR = 2026;
 export function PlayerCardModal({
   player,
   numFormSources,
+  allPlayers,
   onClose,
+  onOpenCard,
 }: {
   player: DerivedPlayer | null;
   numFormSources: number;
+  allPlayers: DerivedPlayer[];
   onClose: () => void;
+  onOpenCard: (id: number) => void;
 }) {
   return (
     <ModalShell open={player != null} onClose={onClose} title={player ? `Scheda ${player.n}` : "Scheda giocatore"}>
-      {player && <PlayerCardBody p={player} numFormSources={numFormSources} onClose={onClose} />}
+      {player && (
+        <PlayerCardBody
+          p={player}
+          numFormSources={numFormSources}
+          allPlayers={allPlayers}
+          onClose={onClose}
+          onOpenCard={onOpenCard}
+        />
+      )}
     </ModalShell>
   );
 }
@@ -29,16 +42,22 @@ export function PlayerCardModal({
 function PlayerCardBody({
   p,
   numFormSources,
+  allPlayers,
   onClose,
+  onOpenCard,
 }: {
   p: DerivedPlayer;
   numFormSources: number;
+  allPlayers: DerivedPlayer[];
   onClose: () => void;
+  onOpenCard: (id: number) => void;
 }) {
-  const { cfg } = useAsta();
+  const { cfg, st } = useAsta();
   const eta = p.born ? CURRENT_YEAR - p.born : null;
   const nat = p.nat ? (NAT[p.nat] ?? p.nat) : "—";
   const { tit, ballOnly, empty, titCls } = titBallDots(p, numFormSources);
+  const isOut = st[p.id]?.s === "out";
+  const similar = isOut ? findSimilarPlayers(p, allPlayers, st) : [];
 
   return (
     <>
@@ -89,6 +108,32 @@ function PlayerCardBody({
           🚪 Il listone lo ha ancora a {p.s}, ma risulta ceduto a {p.transfer.to} il{" "}
           {formatTransferDate(p.transfer.date)} ({transferTypeLabel(p.transfer.type)}) —
           verifica prima di puntarci
+        </div>
+      )}
+      {isOut && (
+        <div className="pmeta" style={{ color: "var(--acc2)" }}>
+          🔄 Preso da altri — alternative simili (ruolo {p.r}, FVM e{" "}
+          {p.r === "P" ? "Val" : "xG+xA"} vicini, ancora libere):
+          {similar.length === 0 ? (
+            <div className="hint">Nessuna alternativa libera trovata per questo ruolo.</div>
+          ) : (
+            <ul style={{ margin: "6px 0 0", paddingLeft: 18 }}>
+              {similar.map((s) => (
+                <li key={s.id}>
+                  <button
+                    type="button"
+                    className="pname"
+                    style={{ fontSize: "inherit" }}
+                    onClick={() => onOpenCard(s.id)}
+                  >
+                    {s.n}
+                  </button>{" "}
+                  ({s.s}) · FVM {s.f}
+                  {s.r === "P" ? ` · Val ${s.val ?? "—"}` : ` · xG ${(s.xg ?? 0).toFixed(1)} xA ${(s.xa ?? 0).toFixed(1)}`}
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       )}
       <div className="pgrid">

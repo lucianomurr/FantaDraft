@@ -118,7 +118,13 @@ function ToolInner() {
         affiliato alle testate citate
       </div>
 
-      <PlayerCardModal player={selectedPlayer} numFormSources={numFormSources} onClose={() => setSelectedId(null)} />
+      <PlayerCardModal
+        player={selectedPlayer}
+        numFormSources={numFormSources}
+        allPlayers={derived}
+        onClose={() => setSelectedId(null)}
+        onOpenCard={openCard}
+      />
       <LegendModal open={legendOpen} onClose={() => setLegendOpen(false)} />
       <PresetModal players={PLAYERS} open={presetOpen} onClose={() => setPresetOpen(false)} />
       <OnboardingModal

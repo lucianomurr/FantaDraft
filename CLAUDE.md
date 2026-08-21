@@ -9,6 +9,26 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (21/08/2026): alternative simili per giocatori presi da altri
+Richiesta: quando un giocatore in fascia viene preso da un altro fantallenatore,
+suggerire alternative simili (stesso ruolo, FVM e produzione attesa vicini) tra
+i giocatori ancora liberi, per capire subito su chi ripiegare.
+
+Nuovo `web/lib/similar.ts` (`findSimilarPlayers`): candidati = stesso ruolo,
+status "free" (non "mine"/"out"). Punteggio di produzione = Val per i portieri
+(non hanno xG/xA), xG+xA per gli altri ruoli. Distanza = |ΔFVM|/FVM_target +
+|Δproduzione|/produzione_target (entrambe normalizzate sul giocatore di
+riferimento per essere comparabili pur avendo scale diverse), ordinamento
+crescente, primi 4. Nessun peso per fascia/tit — solo dati oggettivi, coerente
+con lo stile "trasparente" già usato per Val/preset.
+
+UI: `PlayerCardModal.tsx` mostra la sezione "🔄 Preso da altri — alternative
+simili" SOLO quando lo stato del giocatore è "out" (richiede `st` da `useAsta()`,
+prima non serviva). Ogni alternativa è cliccabile e riapre la scheda su quel
+giocatore (nuova prop `onOpenCard` passata da `page.tsx`, stesso handler già
+usato dalla tabella) — serve anche `allPlayers` (il `derived` di page.tsx) per
+poter cercare tra tutti i giocatori, non solo quello aperto.
+
 ## FATTO (21/08/2026): giro completo (5°) + data ultimo aggiornamento nel tool
 Quotazioni 501→508 (+13, -6, 3 aggiornati incl. Lucumì Bologna→Juventus —
 confermava un dato che FantaMaster aveva già anticipato il 17/08 e che avevo
