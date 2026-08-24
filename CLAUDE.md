@@ -9,6 +9,32 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (24/08/2026): giro completo (6°) — giornata 1 giocata, listone 515
+Prima asta-prep dopo il fischio d'inizio: giornata 1 di Serie A 2026/27
+disputata proprio oggi (22-24/08). Verificato che FBref/Understat NON hanno
+ancora dati fruibili per la nuova stagione (1 sola giornata su 38 — campione
+troppo piccolo, un gol distorcerebbe tutto) — **stats resta su 2025/26/2024/25
+come base**, si passerà a 2026/27 dopo 4-5 giornate (metà settembre circa).
+
+Trasferimenti (153, era 150), infortuni (43/43, nuovo formato prosa confermato
+stabile), formazioni tutte 6 fonti — bug ricorrente FantaMaster (Inter/Torino/
+Venezia senza delimitatore "ALL." dopo l'XI, testo prosa si incolla al nome)
+patchato a mano come nei giri precedenti. Non agganciati 36→14 dopo il refresh
+quotazioni: la maggior parte erano proprio i nuovi acquisti appena aggiunti al
+listone (Jones, Sutalo, Badiashile, Fortini — confermando che le fonti
+formazioni erano più aggiornate del listone quotazioni, non un errore delle
+fonti). Rigoristi: Venezia designato cambiato Adams→Busio (Gazzetta).
+
+Quotazioni 508→515 (+11, -4, **105 aggiornati** — molto più del solito, FVM
+ricalcolati con l'inizio stagione reale). Nuovo campo `web/data/meta.json`
+aggiornato ad ogni giro (già previsto dal 21/08, solo il valore cambia).
+
+**Cadenza**: da qui in avanti refresh ogni 2-3 giorni fino all'asta. Le fonti
+formazioni/trasferimenti/infortuni NON richiedono login e potrebbero in
+teoria essere automatizzate; le quotazioni restano bloccate da login
+fantacalcio.it — l'utente deve scaricare l'xlsx a mano ad ogni giro, nessun
+modo per bypassarlo trovato finora.
+
 ## FATTO (21/08/2026): alternative simili per giocatori presi da altri
 Richiesta: quando un giocatore in fascia viene preso da un altro fantallenatore,
 suggerire alternative simili (stesso ruolo, FVM e produzione attesa vicini) tra

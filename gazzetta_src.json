@@ -197,19 +197,19 @@
   ]
  },
  "Lazio": {
-  "mod": "4-2-3-1",
+  "mod": "4-3-3",
   "xi": [
    "Mandas",
    "Marusic",
-   "Doekhi",
+   "Sutalo",
    "Provstgaard",
    "Pedraza",
    "Taylor",
    "Rovella",
+   "Frattesi",
    "Isaksen",
-   "Dele-Bashiru",
-   "Zaccagni",
-   "Ratkov"
+   "Dia",
+   "Zaccagni"
   ],
   "ball": [],
   "rig": [
@@ -224,14 +224,14 @@
    "Falcone",
    "Veiga",
    "Gaspar",
-   "Tiago Gabriel",
+   "Siebert",
    "Gallo",
-   "Pierotti",
-   "Ngom",
    "Coulibaly",
-   "N'Dri",
-   "Stulic",
-   "Geubbels"
+   "Ngom",
+   "Maleh",
+   "Pierotti",
+   "Geubbels",
+   "Laerke"
   ],
   "ball": [],
   "rig": [
@@ -246,11 +246,11 @@
    "Gila",
    "Gabbia",
    "Pavlovic",
-   "Saelemaekers",
+   "Chukwueze",
    "Modric",
+   "Jashari",
+   "Moreira",
    "Rabiot",
-   "Bartesaghi",
-   "Nkunku",
    "Pulisic",
    "Gonçalo Ramos"
   ],
@@ -289,7 +289,7 @@
    "Meret",
    "Di Lorenzo",
    "Rrahmani",
-   "Rafa Marin",
+   "Badiashile",
    "Spinazzola",
    "Anguissa",
    "Lobotka",
@@ -352,14 +352,14 @@
   "xi": [
    "Muric",
    "Walukiewicz",
-   "Candé",
    "Idzes",
+   "Leysen",
    "Doig",
-   "Thorstvedt",
+   "Bakola",
    "Matic",
    "Adzic",
    "Berardi",
-   "Pinamonti",
+   "Bowie",
    "Laurienté"
   ],
   "ball": [],
@@ -374,9 +374,9 @@
   "xi": [
    "Paleari",
    "Comuzzo",
-   "Ismajli",
-   "Comert",
-   "Pedersen",
+   "Coco",
+   "Cömert",
+   "Fortini",
    "Fitz-Jim",
    "Luongo",
    "Cacciamani",
@@ -420,19 +420,19 @@
    "Schingtienne",
    "Bella-Kotchap",
    "Halhal",
-   "Correia",
-   "Kike Perez",
-   "Basic",
-   "Busio",
    "Hainaut",
+   "Kike Perez",
+   "Busio",
+   "Basic",
+   "Correia",
    "Yeboah",
    "Adams"
   ],
   "ball": [],
   "rig": [
+   "Busio",
    "Adams",
-   "Yeboah",
-   "Rrahmani"
+   "Yeboah"
   ]
  }
 }

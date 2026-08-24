@@ -1,23 +1,17 @@
 {
- "aggiornato": "2026-08-21",
+ "aggiornato": "2026-08-24",
  "infortunati": [
-  {
-   "s": "Atalanta",
-   "n": "Scalvini",
-   "d": "Il difensore giovedì sera costretto al cambio in Conference League a causa di un problema alla caviglia che andrà valutato, forfait domenica in campionato contro il Sassuolo.",
-   "r": ""
-  },
-  {
-   "s": "Atalanta",
-   "n": "De Ketelaere",
-   "d": "Il belga fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba sinistra",
-   "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da inizio settembre."
-  },
   {
    "s": "Atalanta",
    "n": "Ahanor",
    "d": "Il difensore fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba destra",
    "r": "salterà la 1a giornata di campionato contro il Sassuolo e proverà a tornare arruolabile da fine agosto."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra",
+   "r": "in recupero e pronto a tornare in campo dall'inizio di ottobre."
   },
   {
    "s": "Atalanta",
@@ -27,15 +21,27 @@
   },
   {
    "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra",
-   "r": "in recupero e pronto a tornare in campo dall'inizio di ottobre."
+   "n": "Kristensen T.",
+   "d": "Il difensore non disponibile per la sfida di domenica con il Sassuolo per un problema alla caviglia.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Bologna",
+   "n": "Casale",
+   "d": "lavoro differenziato a Casteldebole per il difensore negli ultimi giorni a causa di un fastidio muscolare alla gamba.",
+   "r": "Out lunedì contro la Lazio, da valutare il rientro tra i convocati dalla 2a giornata di A."
   },
   {
    "s": "Cagliari",
    "n": "Idrissi R.",
    "d": "il calciatore in ripresa dalla rottura del legamento crociato",
    "r": "può tornare arruolabile dalla fine di ottobre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Albarracin",
+   "d": "l'attaccante ai box per noie fisiche, out sabato a Parma.",
+   "r": "Da valutare rientro dalla 2a giornata di A."
   },
   {
    "s": "Cagliari",
@@ -58,8 +64,8 @@
   {
    "s": "Genoa",
    "n": "Traorè Hj.",
-   "d": "Il centrocampista in recupero da noie fisiche e a forte rischio la sua convocazione contro il Napoli nella 1a giornata di campionato.",
-   "r": "Da valutare."
+   "d": "Il centrocampista in recupero da noie fisiche ma out contro il Napoli nella 1a giornata di campionato.",
+   "r": "Da valutare rientro da fine agosto."
   },
   {
    "s": "Genoa",
@@ -69,9 +75,21 @@
   },
   {
    "s": "Juventus",
+   "n": "Gatti",
+   "d": "il difensore non convocato per Frosinone a causa di noie fisiche.",
+   "r": "Da valutare in vista della 2a giornata di A."
+  },
+  {
+   "s": "Juventus",
    "n": "Ekhator",
-   "d": "l'attaccante frenato nella seconda metà di luglio da una lesione di basso grado del bicipite femorale della coscia destra",
-   "r": "da valutare nei prossimi allenamenti in vista della sfida di Frosinone del 23 agosto."
+   "d": "l'attaccante frenato nella seconda metà di luglio da una lesione di basso grado del bicipite femorale della coscia destra, out domenica a Frosinone.",
+   "r": "Da valutare nei prossimi allenamenti in vista della 2a giornata di campionato."
+  },
+  {
+   "s": "Lazio",
+   "n": "Cataldi",
+   "d": "il regista biancoceleste ha ripreso a lavorare sul campo d'allenamento, messa da parte l'ernia bilaterale che lo ha costretto a saltare la preparazione estiva.",
+   "r": "Da valutare tuttavia la sua convocazione a partire dalla 2a giornata di campionato."
   },
   {
    "s": "Lazio",
@@ -81,15 +99,21 @@
   },
   {
    "s": "Lazio",
-   "n": "Cataldi",
-   "d": "il regista biancoceleste ha ripreso a lavorare sul campo d'allenamento, messa da parte l'ernia bilaterale che lo ha costretto a saltare la preparazione estiva.",
-   "r": "Da valutare tuttavia la sua convocazione già a Bologna nella 1a giornata di campionato."
-  },
-  {
-   "s": "Lazio",
    "n": "Patric",
    "d": "il difensore ai box per un problema fisico e out nella 1a di campionato a Bologna.",
    "r": "Da valutare."
+  },
+  {
+   "s": "Lecce",
+   "n": "Berisha M.",
+   "d": "Il centrocampista in recupero da una lesione del tendine riflesso del retto femorale destro.",
+   "r": "Forfait domenica in campionato contro il Venezia, rientro da inizio settembre."
+  },
+  {
+   "s": "Milan",
+   "n": "Leao",
+   "d": "L'attaccante portoghese non al meglio per noie fisiche, forfait nella 1a giornata di campionato contro il Torino.",
+   "r": "Da valutare in vista di fine agosto."
   },
   {
    "s": "Milan",
@@ -99,9 +123,27 @@
   },
   {
    "s": "Monza",
+   "n": "Ciurria",
+   "d": "il centrocampista non al meglio per noie fisiche, forfait per sabato contro l'Inter.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Monza",
+   "n": "Colombo L.",
+   "d": "il centrocampista acciaccato per noie fisiche e assente sabato contro l'Inter.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Monza",
    "n": "Pessina",
    "d": "Il centrocampista costretto a saltare l'inizio di campionato per una lussazione della rotula del ginocchio destro rimediata nella prima metà di agosto in allenamento.",
    "r": "Tempi di recupero da monitorare, ma proverà a tornare arruolabile dall'inizio di novembre."
+  },
+  {
+   "s": "Monza",
+   "n": "Akinsanmiro",
+   "d": "il centrocampista negli ultimi giorni alle prese con una forte sindrome influenzale, forfait per sabato a Milano.",
+   "r": "Da valutare rientro nella 2a di campionato."
   },
   {
    "s": "Monza",
@@ -123,9 +165,9 @@
   },
   {
    "s": "Napoli",
-   "n": "Neres",
-   "d": "operato a gennaio per un problema alla caviglia sinistra con interessamento del tendine; il brasiliano sta lentamente recuperando",
-   "r": "ma rimane da valutare la convocazione dall'inizio di settembre."
+   "n": "Mazzocchi",
+   "d": "il difensore venerdì si è allenato a parte per un sovraccarico al ginocchio destro e non ci sarà contro il Genoa.",
+   "r": "Da valutare il rientro dalla 2a giornata di A."
   },
   {
    "s": "Parma",
@@ -134,16 +176,22 @@
    "r": "può tornare arruolabile da inizio settembre."
   },
   {
-   "s": "Parma",
-   "n": "Cremaschi",
-   "d": "il calciatore vittima a marzo di una lesione del menisco esterno del ginocchio sinistro",
-   "r": "sta proseguendo le cure del caso e può tornare arruolabile dal mese di ottobre."
+   "s": "Roma",
+   "n": "Rensch",
+   "d": "Il difensore fuori dai convocati contro la Fiorentina il 24 agosto per un risentimento muscolare al flessore sinistro.",
+   "r": "Condizioni da valutare in vista della 2a giornata di campionato."
   },
   {
    "s": "Sassuolo",
-   "n": "Candè",
-   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla metà di settembre."
+   "n": "Pinamonti",
+   "d": "l'attaccante infortunato e assente per domenica a Bergamo contro la Dea.",
+   "r": "Ipotizziamo un recupero per fine agosto."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Berardi",
+   "d": "L'attaccante non al meglio per una distorsione alla caviglia destra rimediata a luglio a inizio ritiro, condizioni in lento miglioramento ma non ci sarà domenica contro l'Atalanta.",
+   "r": "Da valutare in vista della 2a giornata di A."
   },
   {
    "s": "Sassuolo",
@@ -153,27 +201,27 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Pieragnolo",
-   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra",
-   "r": "ipotizziamo possa tornare convocabile da ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra, a rischio la sua convocazione contro l'Atalanta nel primo turno di A.",
-   "r": ""
-  },
-  {
-   "s": "Sassuolo",
    "n": "Boloca",
    "d": "il centrocampista fuori causa per un problema al ginocchio e non ci sarà contro l'Atalanta nella 1a giornata.",
    "r": "Da valutare rientro da settembre."
   },
   {
-   "s": "Torino",
-   "n": "Zapata D.",
-   "d": "Il colombiano in ripresa da noie fisiche, ma rimane a rischio la sua convocazione nel prossimo turno di campionato contro il Milan.",
-   "r": "Da valutare."
+   "s": "Sassuolo",
+   "n": "Candè",
+   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
+   "r": "punta a tornare convocabile dalla metà di settembre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Walukiewicz",
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra, out per domenica contro l'Atalanta nel primo turno di A.",
+   "r": "Da valutare il rientro da fine agosto."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Pieragnolo",
+   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra",
+   "r": "ipotizziamo possa tornare convocabile da ottobre."
   },
   {
    "s": "Udinese",
@@ -186,6 +234,18 @@
    "n": "Chakvetadze",
    "d": "il georgiano a inizio luglio vittima della frattura al terzo metatarso del piede destro",
    "r": "può tornare arruolabile da inizio settembre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Davis K.",
+   "d": "l'attaccante in tribuna contro il Como per un lieve affaticamento muscolare.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Venezia",
+   "n": "Moreno M.",
+   "d": "Il difensore non al meglio per noie fisiche",
+   "r": "forfait domenica contro il Lecce ma può tornare arruolabile dalla prossima settimana."
   },
   {
    "s": "Venezia",
