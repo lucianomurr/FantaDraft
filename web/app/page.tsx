@@ -461,6 +461,16 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            <div className="step">
+              <div>
+                <h3>Se te lo soffiano, sai subito su chi ripiegare</h3>
+                <p>
+                  Segni &quot;Altri&quot; sul giocatore preso da un avversario e la sua scheda
+                  mostra in automatico le <b>alternative più simili</b> ancora libere: stesso
+                  ruolo, FVM e produzione attesa (xG+xA) vicini — un click e riparti.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
