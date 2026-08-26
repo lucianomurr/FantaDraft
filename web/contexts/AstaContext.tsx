@@ -20,6 +20,11 @@ import type {
   TrackingState,
 } from "../lib/types";
 import { DEFAULT_CFG, loadPersisted, savePersisted } from "../lib/storage";
+import { generateSyncCode, pullSyncState, pushSyncState, type SyncStatus } from "../lib/sync";
+
+const SYNC_CODE_KEY = "fanta_asta_2627_sync_code";
+const SYNC_POLL_MS = 4000;
+const SYNC_PUSH_DEBOUNCE_MS = 800;
 
 interface AstaState {
   cfg: RoleAllocation;
@@ -158,6 +163,10 @@ interface AstaContextValue {
   sortBy: (key: SortState["key"]) => void;
   toast: (msg: string) => void;
   toasts: Toast[];
+  syncCode: string | null;
+  syncStatus: SyncStatus;
+  startSync: (code?: string) => string;
+  stopSync: () => void;
 }
 
 const AstaCtx = createContext<AstaContextValue | null>(null);
@@ -201,6 +210,78 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
     if (!state.hydrated) return;
     savePersisted({ cfg: state.cfg, st: state.st });
   }, [state.hydrated, state.cfg, state.st]);
+
+  // Sync multi-device (modalità "Inizia asta"): codice a 6 cifre condiviso via
+  // /api/sync (Upstash, TTL 48h). lastSyncedAtRef è il timestamp del dato più
+  // recente che questo device conosce già (pushato o applicato) — evita sia di
+  // riapplicare dati vecchi sia di rimandare in loop uno stato appena ricevuto.
+  const [syncCode, setSyncCodeState] = useState<string | null>(null);
+  const [syncStatus, setSyncStatus] = useState<SyncStatus>("idle");
+  const lastSyncedAtRef = useRef(0);
+  const suppressNextPushRef = useRef(false);
+
+  useEffect(() => {
+    const saved = typeof window !== "undefined" ? window.localStorage.getItem(SYNC_CODE_KEY) : null;
+    if (saved) setSyncCodeState(saved);
+  }, []);
+
+  const startSync = useCallback((code?: string) => {
+    const c = code ?? generateSyncCode();
+    window.localStorage.setItem(SYNC_CODE_KEY, c);
+    setSyncCodeState(c);
+    setSyncStatus("connecting");
+    lastSyncedAtRef.current = 0;
+    return c;
+  }, []);
+
+  const stopSync = useCallback(() => {
+    window.localStorage.removeItem(SYNC_CODE_KEY);
+    setSyncCodeState(null);
+    setSyncStatus("idle");
+  }, []);
+
+  useEffect(() => {
+    if (!syncCode) return;
+    let cancelled = false;
+    const poll = async () => {
+      try {
+        const remote = await pullSyncState(syncCode);
+        if (cancelled) return;
+        if (remote && remote.updatedAt > lastSyncedAtRef.current) {
+          lastSyncedAtRef.current = remote.updatedAt;
+          suppressNextPushRef.current = true;
+          dispatch({ type: "IMPORT", cfg: remote.cfg, st: remote.st });
+        }
+        setSyncStatus("synced");
+      } catch {
+        setSyncStatus(navigator.onLine ? "error" : "offline");
+      }
+    };
+    poll();
+    const id = setInterval(poll, SYNC_POLL_MS);
+    return () => {
+      cancelled = true;
+      clearInterval(id);
+    };
+  }, [syncCode]);
+
+  useEffect(() => {
+    if (!syncCode || !state.hydrated) return;
+    if (suppressNextPushRef.current) {
+      suppressNextPushRef.current = false;
+      return;
+    }
+    const t = setTimeout(() => {
+      const updatedAt = Date.now();
+      pushSyncState(syncCode, { cfg: state.cfg, st: state.st, updatedAt })
+        .then(() => {
+          lastSyncedAtRef.current = updatedAt;
+          setSyncStatus("synced");
+        })
+        .catch(() => setSyncStatus(navigator.onLine ? "error" : "offline"));
+    }, SYNC_PUSH_DEBOUNCE_MS);
+    return () => clearTimeout(t);
+  }, [syncCode, state.hydrated, state.cfg, state.st]);
 
   const toast = useCallback((msg: string) => {
     const id = ++toastIdRef.current;
@@ -279,8 +360,25 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
       },
       toast,
       toasts,
+      syncCode,
+      syncStatus,
+      startSync,
+      stopSync,
     }),
-    [state, getPlayerState, setTier, setTgt, setPaid, setStatus, toast, toasts],
+    [
+      state,
+      getPlayerState,
+      setTier,
+      setTgt,
+      setPaid,
+      setStatus,
+      toast,
+      toasts,
+      syncCode,
+      syncStatus,
+      startSync,
+      stopSync,
+    ],
   );
 
   return (

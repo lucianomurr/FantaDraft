@@ -18,6 +18,7 @@ import { PlayerCardModal } from "../../components/tool/PlayerCardModal";
 import { LegendModal } from "../../components/tool/LegendModal";
 import { PresetModal } from "../../components/tool/PresetModal";
 import { OnboardingModal } from "../../components/tool/OnboardingModal";
+import { LiveAuctionMode } from "../../components/tool/LiveAuctionMode";
 import { ToastHost } from "../../components/tool/ToastHost";
 
 const PLAYERS = playersRaw as unknown as Player[];
@@ -49,6 +50,7 @@ function ToolInner() {
 
   const [legendOpen, setLegendOpen] = useState(false);
   const [presetOpen, setPresetOpen] = useState(false);
+  const [liveMode, setLiveMode] = useState(false);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
   const onboardingShown = useRef(false);
@@ -87,11 +89,16 @@ function ToolInner() {
 
   if (!hydrated) return null;
 
+  if (liveMode) {
+    return <LiveAuctionMode players={derived} onClose={() => setLiveMode(false)} />;
+  }
+
   return (
     <div className="tool-wrap">
       <Header
         onShowLegend={() => setLegendOpen(true)}
         onShowPreset={() => setPresetOpen(true)}
+        onStartLive={() => setLiveMode(true)}
         updatedAt={UPDATED_AT}
       />
 

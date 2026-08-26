@@ -184,4 +184,60 @@ details.strat[open] .stbody{padding-bottom:14px}
   .pcard .pgrid{grid-template-columns:repeat(2,1fr)}
   .scrollhint{display:block;position:sticky;left:0;width:max-content;max-width:100%;
     font-size:11px;color:var(--muted);padding:7px 9px 0;margin:0}
+  .live-enter{display:inline-flex;order:-1}
 }
+
+/* Modalità "Inizia asta" — schermo intero, solo mobile (bottone d'ingresso in
+   Header.tsx nascosto sopra 700px). Un giocatore alla volta: zero rischio di
+   toccare la riga sbagliata durante il caos di un'asta live. */
+.live-enter{display:none}
+
+.livemode{position:fixed;inset:0;z-index:200;background:var(--bg);display:flex;flex-direction:column;overflow:hidden}
+.livebar{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--panel);border-bottom:1px solid var(--line);flex-shrink:0}
+.livebudget{font-size:13px;color:var(--txt2);flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.livebudget b{color:var(--acc2)}
+.livexit{margin-left:auto}
+
+.livesync{position:relative}
+.syncchip{display:flex;align-items:center;gap:6px}
+.syncdot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.syncdot.doton{background:var(--good)}
+.syncdot.dotwait{background:var(--warn)}
+.syncdot.doterr{background:var(--bad)}
+.syncdot.dotoff{background:var(--dim)}
+.syncpop{position:absolute;top:calc(100% + 6px);right:0;background:var(--panel2);border:1px solid var(--line);
+  border-radius:10px;padding:12px;width:220px;z-index:10;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.syncpop .hint{margin:0 0 6px}
+
+.livesearch{flex:1;display:flex;flex-direction:column;min-height:0;padding-top:12px}
+.liveinput{width:calc(100% - 24px);margin:0 12px;box-sizing:border-box;font-size:17px;padding:14px 16px;border-radius:12px}
+.liveresults{flex:1;overflow-y:auto;margin:10px 0 0;padding:0 12px 16px;list-style:none}
+.liveresrow{display:flex;align-items:center;gap:10px;width:100%;box-sizing:border-box;padding:14px 12px;
+  background:var(--panel);border:1px solid var(--line);border-radius:10px;margin-top:8px;text-align:left;font-size:15px}
+.liveresrow.mine{border-color:var(--good)}
+.liveresrow.out{opacity:.5}
+.liveresname{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.liveresteam{color:var(--muted);font-size:12.5px;flex-shrink:0}
+.liveresfvm{color:var(--txt2);font-variant-numeric:tabular-nums;min-width:32px;text-align:right;flex-shrink:0}
+
+.livecard{flex:1;overflow-y:auto;padding:16px}
+.liveback{margin-bottom:14px}
+.livehead{display:flex;align-items:center;gap:12px}
+.livename{font-size:23px;font-weight:800;line-height:1.15}
+.livestats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0}
+.livestatbox{background:var(--panel2);border:1px solid var(--line);border-radius:9px;padding:10px 6px;text-align:center}
+.livestatbox .v{font-size:17px;font-weight:800}
+.livestatbox .l{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
+.livesection{margin:20px 0}
+.livelabel{font-size:12px;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:8px;font-weight:700}
+.livetiers{gap:8px}
+.livetiers .tbtn{width:48px;height:48px;font-size:16px;border-radius:10px}
+.livetgt{width:100%;box-sizing:border-box;font-size:18px;padding:13px;text-align:center;border-radius:10px}
+
+.liveactions{display:flex;flex-direction:column;gap:10px;margin-top:26px}
+.livebtn{width:100%;box-sizing:border-box;padding:18px;font-size:17px;font-weight:700;border-radius:14px}
+.liveio{background:var(--good);border-color:var(--good);color:#062018}
+.livealtri{background:var(--panel2)}
+.liveminebox{display:flex;flex-direction:column;gap:10px}
+.liveminebox .mineflag{font-size:15px}
+.liveminebox .paidin{width:100%;box-sizing:border-box;font-size:18px;padding:13px;text-align:center;border-radius:10px}

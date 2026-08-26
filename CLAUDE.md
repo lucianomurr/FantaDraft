@@ -9,6 +9,54 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (26/08/2026): modalità "Inizia asta" mobile + sync multi-device
+Pianificata con `$impeccable shape` (interview + brief confermato con
+Luciano) prima di scrivere codice — prima volta che lo skill Impeccable
+viene usato in questo progetto, creato `web/PRODUCT.md` (inferito dal
+contesto già raccolto in sessione, non da un'intervista dedicata: progetto
+maturo, non greenfield).
+
+Nuovo bottone "🎙 Inizia asta" in `Header.tsx`, visibile SOLO sotto 700px
+(classe `.live-enter`, stesso breakpoint già usato per `.tbtn`/`.scrollhint`)
+— su desktop resta solo la tabella. Apre `LiveAuctionMode.tsx`: schermo
+intero che sostituisce tutto il resto (`page.tsx` fa uno swap secco, non un
+overlay), un giocatore alla volta — ricerca nome autofocus in cima, tap sul
+risultato apre la scheda con FVM/Val/xG-xA, bottoni fascia grandi (48px vs
+40px desktop), Tgt, e due bottoni enormi Io/Altri. Zero rischio di toccare
+la riga sbagliata sotto pressione (motivo esplicito della richiesta di
+Luciano). Riusa `useTracking()`/`computeBudgetSummary` esistenti, nessuna
+nuova fonte di verità per i dati giocatore — bug trovato in verifica
+browser: avevo riusato le classi CSS `.pgrid`/`.pbox` per i box statistiche,
+ma sono scoped `.pcard .pgrid` (solo dentro le modali) — invisibili fuori
+da lì. Rinominate in `.livestats`/`.livestatbox` con CSS dedicato.
+
+**Sync multi-device** (richiesta di Luciano: poter lavorare da 2 device
+sulla stessa asta, es. un familiare al telefono mentre lui è al laptop):
+rompe deliberatamente il principio "solo client-side, nessun backend" che
+il progetto ha sempre avuto — deciso esplicitamente con l'utente dopo aver
+fatto presente il trade-off (3 opzioni proposte: polling con codice,
+WebSocket realtime, export/import manuale — scelto polling, il più
+semplice che copre il caso d'uso reale). Nuova route `web/app/api/sync/
+route.ts` (GET/POST) parla con Upstash Redis via REST API pura (no SDK),
+chiave `asta:{codice a 6 cifre}`, TTL 48h (non è storage permanente, solo
+un ponte per l'asta del giorno). Lato client: `web/lib/sync.ts` (fetch
+helpers) + logica di polling/push dentro `AstaContext.tsx` (non un context
+separato: serve dispatch/state che l'AstaContext già possiede) — polling
+ogni 4s, push debounced 800ms, `lastSyncedAtRef` confronta i timestamp per
+non riapplicare dati vecchi né rimandare in loop uno stato appena ricevuto
+(`suppressNextPushRef` blocca l'eco). Local-first per design: se
+`UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN` non sono configurate la
+route risponde 503 pulito, il tool resta perfettamente funzionante solo
+locale (verificato: nessun crash, fascia/Io/Altri/Tgt continuano a
+funzionare, chip sync mostra "Errore sync" in rosso).
+
+**Da fare lato Luciano prima che la sync funzioni in prod**: Vercel
+Dashboard → progetto "web" → Storage → Create Database → Upstash for Redis
+→ connetti al progetto (inietta le env var in automatico, nessun copia-
+incolla di token in chat). Poi `vercel env pull` in locale se serve
+testare, o semplicemente ridistribuire — Vercel inietta le var da solo nei
+deploy successivi alla connessione.
+
 ## FATTO (24/08/2026): giro completo (6°) — giornata 1 giocata, listone 515
 Prima asta-prep dopo il fischio d'inizio: giornata 1 di Serie A 2026/27
 disputata proprio oggi (22-24/08). Verificato che FBref/Understat NON hanno

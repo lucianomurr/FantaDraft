@@ -6,10 +6,12 @@ import { useAsta } from "../../contexts/AstaContext";
 export function Header({
   onShowLegend,
   onShowPreset,
+  onStartLive,
   updatedAt,
 }: {
   onShowLegend: () => void;
   onShowPreset: () => void;
+  onStartLive: () => void;
   updatedAt: string;
 }) {
   const { cfg, st, resetLive, resetAll, importState, toast } = useAsta();
@@ -55,6 +57,9 @@ export function Header({
         </div>
       </div>
       <div className="tools">
+        <button className="pri sm live-enter" onClick={onStartLive}>
+          🎙 Inizia asta
+        </button>
         <button className="ghost sm" onClick={exportData}>
           ⬇ Backup
         </button>
