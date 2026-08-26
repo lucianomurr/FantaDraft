@@ -9,6 +9,37 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (26/08/2026): PWA installabile + banner "nuova versione disponibile"
+Innescato da un problema reale: Luciano vedeva una versione vecchia in prod
+dopo un deploy — causa quasi certa, un tab rimasto aperto da prima (SPA che
+non si ricarica da sola, non un bug di caching headers: verificato
+`cache-control: public, max-age=0, must-revalidate` su Vercel, corretto).
+
+**PWA**: `public/manifest.json` (start_url `/tool` — l'app installata apre
+dritto il tool, non la landing marketing), icone generate al volo (nessun
+asset esistente): pagina HTML con l'emoji ⚽ su sfondo gradiente
+--acc→--acc2 (stesso stile del logo esistente in Header), screenshot via
+browser + `sips` per il resize esatto a 192/512/180px (nessun tool di
+rasterizzazione SVG disponibile in locale). Service worker
+`public/sw.js` VOLUTAMENTE senza cache — solo `skipWaiting`/`clients.claim`/
+passthrough fetch, presente solo per soddisfare i criteri di installabilità
+di Chrome. Deciso esplicitamente con Luciano di NON fare caching offline
+vero: un SW cache-first sarebbe stato il modo più diretto di REINTRODURRE
+il bug di versione vecchia appena lamentato.
+
+**Banner aggiornamento**: nuova route `/api/version` (legge
+`VERCEL_GIT_COMMIT_SHA` a ogni richiesta, sempre fresca) confrontata da
+`UpdateBanner.tsx` con `NEXT_PUBLIC_BUILD_SHA` — quest'ultima iniettata nel
+bundle client al build time via `next.config.ts` (`env:` field, legge la
+stessa `VERCEL_GIT_COMMIT_SHA` che Vercel imposta da sola a ogni deploy,
+zero setup manuale). Check ogni 2 minuti + su `visibilitychange` (copre
+il caso "tab lasciato aperto e ripreso dopo"). Se le due sha divergono:
+banner fisso in basso "Nuova versione disponibile" + bottone Aggiorna →
+`location.reload()`. In dev locale `NEXT_PUBLIC_BUILD_SHA` è vuota (nessuna
+Vercel env), banner correttamente mai mostrato — testato iniettando il
+banner via JS in console per verificarne lo stile senza dover simulare un
+deploy reale.
+
 ## FATTO (26/08/2026): modalità "Inizia asta" mobile + sync multi-device
 Pianificata con `$impeccable shape` (interview + brief confermato con
 Luciano) prima di scrivere codice — prima volta che lo skill Impeccable

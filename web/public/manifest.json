@@ -1,0 +1,15 @@
+{
+  "name": "FantaDraft2027 — Asta Fantacalcio",
+  "short_name": "FantaDraft2027",
+  "description": "Tool gratuito per l'asta del fantacalcio Serie A 2026/27: quotazioni, statistiche, formazioni, budget live.",
+  "start_url": "/tool",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f1420",
+  "theme_color": "#0f1420",
+  "lang": "it",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

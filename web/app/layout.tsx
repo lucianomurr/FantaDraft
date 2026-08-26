@@ -1,6 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Barlow_Condensed } from "next/font/google";
 import Script from "next/script";
+import { UpdateBanner } from "../components/UpdateBanner";
 import "./globals.css";
 
 const display = Barlow_Condensed({
@@ -31,6 +32,15 @@ export const metadata: Metadata = {
   },
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
+  manifest: "/manifest.json",
+  icons: {
+    icon: "/icons/icon-192.png",
+    apple: "/icons/apple-touch-icon.png",
+  },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0f1420",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -63,6 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </>
         ) : null}
         {children}
+        <UpdateBanner />
       </body>
     </html>
   );
