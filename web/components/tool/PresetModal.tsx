@@ -132,7 +132,8 @@ export function PresetModal({
 
       <div className="legsec">
         <h3>Quote F1–F4 per ruolo</h3>
-        <div style={{ overflowX: "auto" }}>
+        <p className="presetscrollhint">Ruolo fisso, scorri di lato per F1–F4 →</p>
+        <div className="presetquotas">
           <table>
             <thead>
               <tr>

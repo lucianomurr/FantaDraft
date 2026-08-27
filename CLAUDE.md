@@ -9,6 +9,25 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (27/08/2026): fix scroll orizzontale tabella quote Preset fasce
+Screenshot di Luciano: su mobile la tabella "Quote F1–F4 per ruolo" nel
+Preset fasce si vedeva tagliata su ENTRAMBI i lati (colonna Ruolo troncata
+a sinistra, F1 troncata a destra) e non scrollava affatto col dito.
+
+Causa reale: `.pcard` (contenitore di tutte le modali) aveva
+`overflow:auto` (shorthand, quindi sia X che Y), e la tabella era avvolta
+in un secondo contenitore con `overflow-x:auto` — due scroll orizzontali
+annidati. Su touch il gesto orizzontale finiva ambiguo tra i due, in pratica
+non scrollava mai in modo affidabile. Fix: `.pcard` ora è
+`overflow-y:auto;overflow-x:hidden` esplicito — un solo contenitore
+orizzontale possibile, quello della tabella. Aggiunta anche colonna
+"Ruolo" `position:sticky` (stesso pattern già usato per la colonna nome
+nella tabella principale) cosí il ruolo resta visibile mentre si scrolla
+F1→F4, e un hint testuale sopra la tabella solo mobile ("Ruolo fisso,
+scorri di lato per F1–F4 →"), stesso linguaggio dello scrollhint già
+esistente sulla tabella grande. Verificato in browser: scroll orizzontale
+funzionante, F4 raggiungibile, Ruolo resta fisso a sinistra.
+
 ## FATTO (27/08/2026): affordance "tappabile" sulle card strategia onboarding
 Screenshot di Luciano da mobile: le 3 card strategia (step 1 onboarding) non
 si leggevano come bottoni — bordo sottile uguale a un contenitore
