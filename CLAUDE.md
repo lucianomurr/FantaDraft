@@ -9,6 +9,21 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (27/08/2026): landing disallineata dalle feature recenti
+Chiesto da Luciano: "la landing con le spiegazioni è aggiornata?" — risposta
+onesta era no, su più fronti. Fix:
+- Contatori `FontiList` fermi a vecchi refresh: "453 con dati"→440, "417
+  coperti"→436, "121 arrivi tracciati"→144 (contati a mano da
+  `players_pen.json` corrente, non solo aggiornati a memoria).
+- Copy "Niente account, niente installazioni" (hero) e "Nessuna
+  installazione" (step 1 "Come funziona") erano diventate FALSE dopo il PWA
+  del 26/08 — riscritte per riflettere che l'installazione è ora possibile
+  (opzionale, non obbligatoria).
+- Aggiunto un 4° step "Dal telefono, modalità asta dedicata" (prima
+  mancava del tutto la modalità mobile + sync multi-device, la feature più
+  grossa degli ultimi due giorni) — la vecchia card "alternative simili"
+  scala da step 4 a step 5.
+
 ## FATTO (27/08/2026): fix bottone "Inizia asta" invisibile + Sync anche da desktop
 Luciano ha verificato con l'emulatore device di Chrome DevTools (Pixel 7,
 412px — affidabile, a differenza del tool resize_window di questa sessione
