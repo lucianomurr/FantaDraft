@@ -9,6 +9,33 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (27/08/2026): fix bottone "Inizia asta" invisibile + Sync anche da desktop
+Luciano ha verificato con l'emulatore device di Chrome DevTools (Pixel 7,
+412px — affidabile, a differenza del tool resize_window di questa sessione
+che NON emula davvero il viewport, limite già noto) che "Inizia asta"
+restava invisibile pure sotto 700px. Bug reale, non un problema del device:
+in `tool.css` avevo `.live-enter{display:none}` (regola base) scritto DOPO
+la media query `@media(max-width:700px){.live-enter{display:inline-flex}}`
+invece che prima. Stessa specificità (una classe) → vince l'ultima regola
+nell'ordine del sorgente, quindi il `display:none` incondizionato
+sovrascriveva SEMPRE quello mobile, a qualunque larghezza. Spostata la
+regola base prima della media query (vicino a `.tools`) — verificato
+leggendo l'ordine reale delle regole nel CSSOM caricato dal browser, non
+solo il sorgente.
+
+Luciano ha fatto anche una domanda di prodotto giusta: il bottone Sync era
+raggiungibile SOLO dentro "Inizia asta" (mobile-only), quindi da desktop
+non c'era alcun modo di generare/leggere un codice da appaiare al telefono.
+`SyncControl` estratto da `LiveAuctionMode.tsx` in un componente condiviso
+(`SyncControl.tsx`, legge `syncCode`/`syncStatus`/`startSync`/`stopSync`
+direttamente da `useAsta()`, zero prop-drilling) e montato anche in
+`Header.tsx`, sempre visibile. Nel nuovo contesto (dentro una riga di
+bottoni che va a capo, non più fissa vicino al bordo destro come nella
+top-bar di LiveAuctionMode) il popover `.syncpop` con `right:0` usciva dal
+viewport su schermi stretti — cambiato a `left:50%;transform:translateX(-50%)`
++ `max-width:calc(100vw - 24px)`, verificato in browser che resta dentro lo
+schermo.
+
 ## FATTO (27/08/2026): fix scroll orizzontale tabella quote Preset fasce
 Screenshot di Luciano: su mobile la tabella "Quote F1–F4 per ruolo" nel
 Preset fasce si vedeva tagliata su ENTRAMBI i lati (colonna Ruolo troncata

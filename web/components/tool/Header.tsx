@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { useAsta } from "../../contexts/AstaContext";
+import { SyncControl } from "./SyncControl";
 
 export function Header({
   onShowLegend,
@@ -60,6 +61,7 @@ export function Header({
         <button className="pri sm live-enter" onClick={onStartLive}>
           🎙 Inizia asta
         </button>
+        <SyncControl />
         <button className="ghost sm" onClick={exportData}>
           ⬇ Backup
         </button>

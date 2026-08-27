@@ -5,11 +5,10 @@ import { useAsta, useTracking } from "../../contexts/AstaContext";
 import { computeBudgetSummary } from "../../lib/budget";
 import { RNAME } from "../../lib/roles";
 import type { DerivedPlayer, PlayerState, Tier } from "../../lib/types";
+import { SyncControl } from "./SyncControl";
 
 const RMAP: Record<string, string> = { P: "rP", D: "rD", C: "rC", A: "rA" };
 const TIERS: Tier[] = ["1", "2", "3", "4", "R", "X"];
-const STATUS_LABEL = { idle: "Non sincronizzato", connecting: "Connessione…", synced: "Sincronizzato", error: "Errore sync", offline: "Offline" } as const;
-const STATUS_DOT = { idle: "dotoff", connecting: "dotwait", synced: "doton", error: "doterr", offline: "dotoff" } as const;
 
 export function LiveAuctionMode({
   players,
@@ -18,11 +17,10 @@ export function LiveAuctionMode({
   players: DerivedPlayer[];
   onClose: () => void;
 }) {
-  const { cfg, st, syncCode, syncStatus, startSync, stopSync } = useAsta();
+  const { cfg, st } = useAsta();
   const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useTracking();
   const [q, setQ] = useState("");
   const [selectedId, setSelectedId] = useState<number | null>(null);
-  const [joinCode, setJoinCode] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
 
   const summary = useMemo(() => computeBudgetSummary(players, st, cfg), [players, st, cfg]);
@@ -51,15 +49,7 @@ export function LiveAuctionMode({
         <div className="livebudget">
           <b>{summary.remaining}</b> cr liberi · max <b>{summary.maxBid}</b>
         </div>
-        <SyncControl
-          code={syncCode}
-          status={syncStatus}
-          joinCode={joinCode}
-          setJoinCode={setJoinCode}
-          onStart={() => startSync()}
-          onJoin={() => joinCode.length === 6 && startSync(joinCode)}
-          onStop={stopSync}
-        />
+        <SyncControl />
         <button className="ghost sm livexit" onClick={onClose} aria-label="Esci dalla modalità asta">
           ✕ Esci
         </button>
@@ -111,90 +101,6 @@ export function LiveAuctionMode({
           setPaid={setPaid}
           setStatus={setStatus}
         />
-      )}
-    </div>
-  );
-}
-
-function SyncControl({
-  code,
-  status,
-  joinCode,
-  setJoinCode,
-  onStart,
-  onJoin,
-  onStop,
-}: {
-  code: string | null;
-  status: keyof typeof STATUS_LABEL;
-  joinCode: string;
-  setJoinCode: (v: string) => void;
-  onStart: () => void;
-  onJoin: () => void;
-  onStop: () => void;
-}) {
-  const [open, setOpen] = useState(false);
-
-  if (code) {
-    return (
-      <div className="livesync">
-        <button
-          type="button"
-          className="ghost sm syncchip"
-          aria-expanded={open}
-          aria-label={`Sincronizzazione: ${STATUS_LABEL[status]}, codice ${code}`}
-          onClick={() => setOpen((o) => !o)}
-        >
-          <span className={`syncdot ${STATUS_DOT[status]}`} /> {code}
-        </button>
-        {open && (
-          <div className="syncpop">
-            <div className="hint">{STATUS_LABEL[status]}</div>
-            <div className="hint">Inserisci {code} sull&apos;altro device per collegarlo.</div>
-            <button type="button" className="ghost sm" onClick={onStop}>
-              Interrompi sync
-            </button>
-          </div>
-        )}
-      </div>
-    );
-  }
-
-  return (
-    <div className="livesync">
-      <button
-        type="button"
-        className="ghost sm syncchip"
-        aria-expanded={open}
-        aria-label="Sincronizza con un altro device"
-        onClick={() => setOpen((o) => !o)}
-      >
-        🔗 Sync
-      </button>
-      {open && (
-        <div className="syncpop">
-          <button type="button" className="sm pri" onClick={onStart}>
-            Genera codice
-          </button>
-          <div className="hint" style={{ margin: "6px 0 4px" }}>
-            oppure unisciti a un codice:
-          </div>
-          <div style={{ display: "flex", gap: 6 }}>
-            <input
-              className="tin"
-              style={{ width: 80 }}
-              type="text"
-              inputMode="numeric"
-              maxLength={6}
-              placeholder="123456"
-              value={joinCode}
-              onChange={(e) => setJoinCode(e.target.value.replace(/\D/g, "").slice(0, 6))}
-            />
-            <button type="button" className="sm" disabled={joinCode.length !== 6} onClick={onJoin}>
-              Unisciti
-            </button>
-          </div>
-        </div>
       )}
     </div>
   );
