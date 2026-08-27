@@ -9,6 +9,31 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (27/08/2026): giro completo (7°) — 517 giocatori, giornata 2 giocata
+Quotazioni 515→517 (+9/-7, **230 aggiornati** — FVM molto mossi con la
+giornata 2, es. Malen 365→414, Frattesi 55→68, Leao 120→75). Trasferimenti
+reali confermati nel listone stesso: Pinamonti Sassuolo→Lazio, Ilic
+Torino→Lecce — coerenti con l'uscita del rigorista Pinamonti da Sassuolo
+in `align_pen.py` (Gazzetta) nello stesso giro.
+
+Bug SOS Fanta nuovo: il regex generico che catturava il nome squadra prima
+di "Formazione-tipo:" ha agganciato per sbaglio "GRATUITA LECCE" (un
+banner pubblicitario tutto maiuscolo appena sopra il paragrafo Lecce),
+perdendo la riga intera. Fix: invece di un regex generico "cattura
+maiuscole", ora cerca ogni nome squadra ESATTO (`re.escape(NOME) +
+" Formazione-tipo:"`) uno per uno — niente più falsi positivi da testo
+circostante tutto maiuscolo. FantaMaster: stessi bug ricorrenti già visti
+(Cagliari "Adopo" duplicato — innocuo, si tronca a 11 comunque; Inter senza
+delimitatore "ALL." dopo l'XI, testo prosa si incolla; stavolta anche
+Venezia stesso identico bug — patchati a mano come nei giri precedenti).
+
+Non agganciati formazioni: 8/1320 (0.6%), tutti refusi propri delle fonti
+o giocatori appena usciti dal listone (Nkunku, ceduto, citato ancora da
+Gazzetta come rigorista Milan). Trasferimenti 156 agganciati (147 arrivi).
+Infortuni 38/38. Contatori landing aggiornati ai numeri reali ricontati da
+`players_pen.json` (non solo incrementati a occhio): 433 con dati stat,
+440 con xG, 147 arrivi tracciati.
+
 ## FATTO (27/08/2026): landing disallineata dalle feature recenti
 Chiesto da Luciano: "la landing con le spiegazioni è aggiornata?" — risposta
 onesta era no, su più fronti. Fix:
