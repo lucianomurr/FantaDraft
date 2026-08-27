@@ -93,10 +93,11 @@ export function OnboardingModal({
               style={{ width: 90, fontSize: 15, padding: "8px 10px" }}
             />
           </div>
+          <p className="pickhint">👇 Tocca una scheda per scegliere e continuare</p>
           <div className="stratgrid">
             {STRATEGIES.map((s) => (
               <div
-                className="stratcard"
+                className="stratcard pickcard"
                 key={s.key}
                 role="button"
                 tabIndex={0}
@@ -118,6 +119,9 @@ export function OnboardingModal({
                   <span style={{ color: "var(--a)" }}>A {s.A}%</span>
                 </div>
                 <p>{s.desc}</p>
+                <span className="pickcta" aria-hidden="true">
+                  Scegli questa →
+                </span>
               </div>
             ))}
           </div>

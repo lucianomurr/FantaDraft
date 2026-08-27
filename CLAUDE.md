@@ -9,6 +9,24 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (27/08/2026): affordance "tappabile" sulle card strategia onboarding
+Screenshot di Luciano da mobile: le 3 card strategia (step 1 onboarding) non
+si leggevano come bottoni — bordo sottile uguale a un contenitore
+informativo, nessun segnale di interattività a riposo. Su desktop il
+`:hover` in parte compensava, su touch quello stato semplicemente non
+esiste: prima del tap, zero differenza visiva da un box di solo testo.
+
+Fix in `OnboardingModal.tsx`/`tool.css`: riga di istruzione esplicita sopra
+la griglia ("👇 Tocca una scheda per scegliere e continuare"), più una CTA
+"SCEGLI QUESTA →" in calce a ogni card (span `aria-hidden`, il nome
+accessibile della card resta il testo reale — la freccia è rinforzo visivo,
+non informazione nuova per chi usa screen reader). Aggiunto anche
+`:active` (feedback al tap, mancava — c'erano solo `:hover`/`:focus-visible`)
+e un leggero bordo/ombra a riposo (`.pickcard`) per far leggere il
+contenitore come superficie cliccabile anche prima di toccarlo. Stesso
+trattamento non esteso alle card Classic/Mantra dello step 2 (fuori scope):
+lì c'è già un bottone "Continua" esplicito sotto, l'ambiguità è minore.
+
 ## FATTO (27/08/2026): mobile più compatto (budget collassabile + card reparto ridotte)
 Richiesta dopo che Luciano ha trovato il bottone "Inizia asta" (era dietro
 l'onboarding, non un bug) e ha notato che su mobile il pannello budget e le

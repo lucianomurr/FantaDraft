@@ -119,8 +119,18 @@ th:first-child{z-index:3;background:var(--panel2)}
 @media(max-width:640px){.stratgrid{grid-template-columns:1fr}}
 .stratcard{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px;cursor:pointer;transition:.12s}
 .stratcard:hover{border-color:var(--acc);background:#232d42}
+.stratcard:active{border-color:var(--acc);background:#232d42;transform:scale(.98)}
 .stratcard:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .stratcard.on{border-color:var(--acc2);background:rgba(56,211,159,.09)}
+
+/* Le card di scelta strategia (onboarding step 1) non si leggevano come
+   bottoni — niente segnale di interattività a riposo, specie su touch dove
+   non esiste un vero stato hover. Bordo/ombra sempre visibili + CTA
+   esplicita in calce invece di affidarsi solo a :hover. */
+.pickhint{margin:0 0 10px;font-size:13px;color:var(--txt2);font-weight:600}
+.pickcard{border-color:var(--line);box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 1px rgba(79,140,255,.12)}
+.pickcta{display:block;margin-top:10px;font-size:11.5px;font-weight:700;color:var(--acc);text-transform:uppercase;letter-spacing:.3px}
+.pickcard:hover .pickcta,.pickcard:active .pickcta{color:var(--acc2)}
 .stratcard h3{margin:0 0 8px;font-size:13px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
 .stratpct{display:flex;gap:8px;flex-wrap:wrap;font-size:12px;font-weight:700;margin-bottom:8px}
 .stratcard p{margin:0;font-size:12px;color:var(--muted);line-height:1.45}
