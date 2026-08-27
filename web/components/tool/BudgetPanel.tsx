@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import { useAsta } from "../../contexts/AstaContext";
 import { computeBudgetSummary, allocSum } from "../../lib/budget";
 import { RNAME, RVAR } from "../../lib/roles";
@@ -12,59 +12,73 @@ export function BudgetPanel({ players }: { players: Player[] }) {
   const { cfg, st, setCfg } = useAsta();
   const summary = useMemo(() => computeBudgetSummary(players, st, cfg), [players, st, cfg]);
   const sum = allocSum(cfg);
+  const detailsRef = useRef<HTMLDetailsElement>(null);
+
+  // Aperto di default su desktop, chiuso su mobile (una volta impostato il
+  // budget non serve più tenerlo davanti). Settato via ref, una volta sola al
+  // mount: se lo pilotassimo con un prop `open` legato allo state, ogni
+  // re-render (ce ne sono tanti: un acquisto = un re-render) richiuderebbe il
+  // pannello anche se l'utente l'aveva appena riaperto a mano.
+  useEffect(() => {
+    if (detailsRef.current) detailsRef.current.open = window.innerWidth >= 700;
+  }, []);
 
   return (
     <>
-      <div className="editbudget" style={{ marginBottom: 12 }}>
-        <span className="pill">Budget &amp; allocazione</span>
-        <label className="chk">
-          <input
-            type="checkbox"
-            checked={cfg.mantra}
-            onChange={(e) => setCfg({ mantra: e.target.checked })}
-          />
-          Mantra
-        </label>
-        <label className="chk">
-          <input
-            type="checkbox"
-            checked={cfg.modDifesa}
-            onChange={(e) => setCfg({ modDifesa: e.target.checked })}
-          />
-          Mod. difesa
-        </label>
-        <span className="ebfield">
-          <label>Totale</label>
-          <input
-            type="number"
-            min={1}
-            value={cfg.budget}
-            onChange={(e) => setCfg({ budget: +e.target.value || 500 })}
-          />
-        </span>
-        <span className="ebfield">
-          <label>Porta</label>
-          <input type="number" min={0} value={cfg.P} onChange={(e) => setCfg({ P: +e.target.value || 0 })} />
-        </span>
-        <span className="ebfield">
-          <label>Difesa</label>
-          <input type="number" min={0} value={cfg.D} onChange={(e) => setCfg({ D: +e.target.value || 0 })} />
-        </span>
-        <span className="ebfield">
-          <label>Centr.</label>
-          <input type="number" min={0} value={cfg.C} onChange={(e) => setCfg({ C: +e.target.value || 0 })} />
-        </span>
-        <span className="ebfield">
-          <label>Att.</label>
-          <input type="number" min={0} value={cfg.A} onChange={(e) => setCfg({ A: +e.target.value || 0 })} />
-        </span>
-        <span
-          className="hint"
-          style={{ color: sum > cfg.budget ? "var(--bad)" : sum < cfg.budget ? "var(--warn)" : "var(--good)" }}
-        >
-          Allocati {sum} / {cfg.budget} cr
-        </span>
-      </div>
+      <details className="strat editbudget-details" ref={detailsRef}>
+        <summary>
+          Budget &amp; allocazione <span className="hint">· {cfg.budget}cr</span>
+        </summary>
+        <div className="editbudget">
+          <label className="chk">
+            <input
+              type="checkbox"
+              checked={cfg.mantra}
+              onChange={(e) => setCfg({ mantra: e.target.checked })}
+            />
+            Mantra
+          </label>
+          <label className="chk">
+            <input
+              type="checkbox"
+              checked={cfg.modDifesa}
+              onChange={(e) => setCfg({ modDifesa: e.target.checked })}
+            />
+            Mod. difesa
+          </label>
+          <span className="ebfield">
+            <label>Totale</label>
+            <input
+              type="number"
+              min={1}
+              value={cfg.budget}
+              onChange={(e) => setCfg({ budget: +e.target.value || 500 })}
+            />
+          </span>
+          <span className="ebfield">
+            <label>Porta</label>
+            <input type="number" min={0} value={cfg.P} onChange={(e) => setCfg({ P: +e.target.value || 0 })} />
+          </span>
+          <span className="ebfield">
+            <label>Difesa</label>
+            <input type="number" min={0} value={cfg.D} onChange={(e) => setCfg({ D: +e.target.value || 0 })} />
+          </span>
+          <span className="ebfield">
+            <label>Centr.</label>
+            <input type="number" min={0} value={cfg.C} onChange={(e) => setCfg({ C: +e.target.value || 0 })} />
+          </span>
+          <span className="ebfield">
+            <label>Att.</label>
+            <input type="number" min={0} value={cfg.A} onChange={(e) => setCfg({ A: +e.target.value || 0 })} />
+          </span>
+          <span
+            className="hint"
+            style={{ color: sum > cfg.budget ? "var(--bad)" : sum < cfg.budget ? "var(--warn)" : "var(--good)" }}
+          >
+            Allocati {sum} / {cfg.budget} cr
+          </span>
+        </div>
+      </details>
 
       <div className="grid-cards">
         {summary.roles.map((rb) => (

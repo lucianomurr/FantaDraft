@@ -138,7 +138,9 @@ details.strat[open] .stbody{padding-bottom:14px}
 .count{font-size:12px;color:var(--muted)}
 .foot{text-align:center;color:var(--muted);font-size:11px;margin:16px 0 6px}
 .pill{font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);border:1px solid var(--line);color:var(--muted)}
-.editbudget{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.editbudget-details summary{font-size:13px}
+.editbudget-details[open] .editbudget{padding-bottom:14px}
+.editbudget{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:4px}
 .editbudget label{font-size:11px;color:var(--muted)}
 .editbudget input{width:60px;text-align:right}
 .name .pname{background:none;border:none;padding:0;margin:0;font:inherit;font-weight:inherit;color:inherit;cursor:pointer;border-bottom:1px dotted var(--muted)}
@@ -176,12 +178,21 @@ details.strat[open] .stbody{padding-bottom:14px}
   .paidin{width:56px;padding:8px 7px}
   .actgroup{gap:6px}
   .editbudget{display:grid;grid-template-columns:repeat(2,1fr);gap:8px 12px}
-  .editbudget .pill{grid-column:1/-1}
   .editbudget .hint{grid-column:1/-1}
   .ebfield{display:flex;justify-content:space-between;background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
   .ebfield label{font-size:12px;color:var(--muted)}
   .ebfield input{width:64px;text-align:right}
   .pcard .pgrid{grid-template-columns:repeat(2,1fr)}
+
+  /* Card reparto (Portieri/Difensori/...): una volta impostato il budget,
+     serve solo il residuo a colpo d'occhio — via la barra e i pallini slot,
+     che sono l'ingombro vero su schermi stretti. */
+  .grid-cards{gap:6px}
+  .card{padding:8px 10px}
+  .card .rlbl{font-size:9.5px}
+  .card .big{font-size:16px;margin:3px 0 1px}
+  .card .line2{font-size:10.5px}
+  .card .bar,.card .slots{display:none}
   .scrollhint{display:block;position:sticky;left:0;width:max-content;max-width:100%;
     font-size:11px;color:var(--muted);padding:7px 9px 0;margin:0}
   .live-enter{display:inline-flex;order:-1}

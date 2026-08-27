@@ -9,6 +9,27 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (27/08/2026): mobile più compatto (budget collassabile + card reparto ridotte)
+Richiesta dopo che Luciano ha trovato il bottone "Inizia asta" (era dietro
+l'onboarding, non un bug) e ha notato che su mobile il pannello budget e le
+5 card reparto occupano troppo spazio prima di arrivare alla tabella.
+
+**Budget & allocazione**: ora un `<details className="strat editbudget-details">`
+(stesso pattern già usato da "Promemoria strategia"/"Probabili formazioni"),
+aperto di default su desktop, chiuso su mobile — "una volta impostato non
+serve più tenerlo davanti". Il default open/closed è settato UNA VOLTA sola
+via `useEffect`+ref al mount (`window.innerWidth>=700`), MAI come prop
+`open` controllata da React: `BudgetPanel` si ri-renderizza a ogni acquisto
+(cambia `state.st`), e se `open` fosse legato a uno state re-settato ogni
+render, avrebbe richiuso il pannello sotto al dito appena l'utente lo apriva
+a mano. Verificato in browser: resta chiuso dopo un click su una fascia
+altrove nella pagina (re-render reale, non solo teoria).
+
+**Card reparto** (Portieri/Difensori/Centrocampisti/Attaccanti/Totale): su
+mobile (≤700px) via CSS spariscono la barra di progresso e i pallini slot
+(gli elementi decorativi, non l'informazione — resta ruolo+numero+residuo),
+padding/font ridotti. Invariate su desktop.
+
 ## FATTO (26/08/2026): PWA installabile + banner "nuova versione disponibile"
 Innescato da un problema reale: Luciano vedeva una versione vecchia in prod
 dopo un deploy — causa quasi certa, un tab rimasto aperto da prima (SPA che
