@@ -7,3 +7,4 @@ out/
 *.log
 downloaded_files/
 .env*.local
+.vercel

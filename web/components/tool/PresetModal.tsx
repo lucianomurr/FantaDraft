@@ -59,8 +59,8 @@ export function PresetModal({
   const tierMap = useMemo(() => computeLivePreset(players, params), [players, params]);
   const counts = useMemo(() => countByTier(tierMap), [tierMap]);
   const priceMap = useMemo(
-    () => computeLivePrices(players, tierMap, cfg, params.mantra),
-    [players, tierMap, cfg, params.mantra],
+    () => computeLivePrices(players, tierMap, cfg, params),
+    [players, tierMap, cfg, params],
   );
 
   function setQuota(role: Role, tierIdx: number, value: number) {
@@ -185,8 +185,8 @@ export function PresetModal({
 
       <label className="chk" style={{ margin: "14px 0 6px" }}>
         <input type="checkbox" checked={fillPrice} onChange={(e) => setFillPrice(e.target.checked)} />
-        Precompila anche il prezzo target (Tgt) consigliato: budget del reparto diviso tra i
-        titolari di fascia 1-4 in proporzione al FVM
+        Precompila anche il prezzo target (Tgt) consigliato: budget del reparto diviso per slot
+        (1° titolare la fetta più grande, a scendere) tra i giocatori di fascia 1-4
       </label>
       <label className="chk" style={{ margin: "0 0 14px" }}>
         <input type="checkbox" checked={resetFirst} onChange={(e) => setResetFirst(e.target.checked)} />

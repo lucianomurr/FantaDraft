@@ -9,6 +9,35 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (31/08/2026): prezzo target a curva per slot (non più diviso piatto)
+Luciano ha segnalato che il prezzo consigliato appena aggiunto sembrava
+"sproporzionato" — aveva ragione: la prima versione divideva il budget del
+reparto tra TUTTI i giocatori F1-F4 in proporzione al FVM (per l'Attacco,
+di default fino a 26 candidati con le quote standard 4/6/8/8), quindi anche
+il miglior attaccante si prendeva solo ~30cr su un budget di 285 — molto
+sotto quello che vale davvero all'asta.
+
+Luciano ha proposto lui la correzione giusta, con un ragionamento a slot
+(1° titolare del reparto = 60-70% del budget reparto per l'attacco, poi a
+scendere) invece che a pool intero. Riscritto `computeLivePrices` in
+`preset.ts`: il budget del reparto si spalma sui soli `RTARGET[ruolo]`
+slot reali (3 P, 8 D, 8 C, 6 A) con una curva geometrica decrescente
+(`SLOT_DECAY`, un fattore per ruolo — 0.35 per P e A, "effetto superstar"
+forte; 0.45-0.5 per D/C, reparti più intercambiabili), calibrata a mano sui
+range che Luciano ha indicato. I giocatori F1-F4 sono ordinati con lo
+STESSO punteggio già usato per assegnare le fasce (non il FVM grezzo) —
+chi ha titolarità più bassa scende in ranking e quindi anche nel prezzo,
+coerente su entrambi gli assi. Oltre l'ultimo slot (candidati di scorta in
+fascia 3-4) prendono tutti il prezzo dell'ultimo slot, un valore basso da
+riserva.
+
+Verificato in browser con numeri reali (Equilibrio, budget default 500):
+Malen (F1 attacco) Tgt 163/250cr reparto (65%, in target), Martinez L.
+(F1) 57, Thuram (F1 ma titolarità più bassa) solo 7 — sceso sotto Hojlund
+(20) perché il punteggio penalizza la titolarità incerta anche se il FVM
+di Thuram è più alto. Dimarco (F1 difesa) 41/75 (55%), Paz N. (F1
+centrocampo) 65/130 (50%) — tutti nei range indicati da Luciano.
+
 ## FATTO (31/08/2026): prezzo target consigliato nel Preset fasce
 Richiesta di Luciano dopo aver visto le fasce funzionare: precompilare anche
 il Tgt (prezzo target), non solo la fascia. Estende `PresetModal.tsx`
