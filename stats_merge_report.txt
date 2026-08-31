@@ -1,82 +1,116 @@
-matched 453/499
+matched 456/524
 
-CROSS-TEAM ACCEPTED (74) — da revisionare:
-  P Desplanches (Frosinone) -> Sebastiano Desplanches [Pescara ITA-Serie B] s2526
+CROSS-TEAM ACCEPTED (108) — da revisionare:
+  P Vicario (Juventus) -> Guglielmo Vicario [Tottenham ENG-Premier League] s2526
+  P Perri (Torino) -> Lucas Perri [Leeds United ENG-Premier League] s2526
+  P Mascardi (Torino) -> Diego Mascardi [Spezia ITA-Serie B] s2526
   P Daffara (Parma) -> Giovanni Daffara [Avellino ITA-Serie B] s2526
   P Provedel (Inter) -> Ivan Provedel [Lazio ITA-Serie A] s2526
+  P Desplanches (Frosinone) -> Sebastiano Desplanches [Pescara ITA-Serie B] s2526
   P Gollini (Roma) -> Pierluigi Gollini [Genoa ITA-Serie A] s2425
-  P Mascardi (Torino) -> Diego Mascardi [Spezia ITA-Serie B] s2526
   P Vismara (Atalanta) -> Paolo Vismara [Sampdoria ITA-Serie B] s2425
+  P Radunovic (Cagliari) -> Boris Radunović [Spezia ITA-Serie B] s2526
+  P Bleve (Lecce) -> Marco Bleve [Carrarese ITA-Serie B] s2526
+  P Montipò (Venezia) -> Lorenzo Montipò [Hellas Verona ITA-Serie A] s2526
+  P Grabara (Juventus) -> Kamil Grabara [Wolfsburg GER-Bundesliga] s2526
   D Molina N. (Roma) -> Nahuel Molina [Atlético Madrid ESP-La Liga] s2526
-  D Stones (Inter) -> John Stones [Manchester City ENG-Premier League] s2526
+  D Spence (Inter) -> Djed Spence [Tottenham ENG-Premier League] s2526
   D Gila (Milan) -> Mario Gila [Lazio ITA-Serie A] s2526
+  D Stones (Inter) -> John Stones [Manchester City ENG-Premier League] s2526
+  D Chalobah T. (Como) -> Trevoh Chalobah [Chelsea ENG-Premier League] s2526
   D Dragusin (Fiorentina) -> Radu Drăgușin [Tottenham ENG-Premier League] s2526
   D Couto (Como) -> Yan Couto [Dortmund GER-Bundesliga] s2526
-  D Chalobah T. (Como) -> Trevoh Chalobah [Chelsea ENG-Premier League] s2526
   D Jimenez A. (Fiorentina) -> Álex Jiménez [Bournemouth ENG-Premier League] s2526
-  D Doekhi (Lazio) -> Danilho Doekhi [Union Berlin GER-Bundesliga] s2526
-  D Celik (Juventus) -> Zeki Çelik [Roma ITA-Serie A] s2425
-  D Koulierakis (Roma) -> Konstantinos Koulierakis [Wolfsburg GER-Bundesliga] s2526
+  D Badiashile (Napoli) -> Benoît Badiashile [Chelsea ENG-Premier League] s2526
+  D Kristensen T. (Atalanta) -> Thomas Kristensen [Udinese ITA-Serie A] s2526
+  D Theate (Bologna) -> Arthur Theate [Frankfurt GER-Bundesliga] s2526
   D Vojvoda (Udinese) -> Mërgim Vojvoda [Como ITA-Serie A] s2526
+  D Lucumì (Juventus) -> Jhon Lucumí [Bologna ITA-Serie A] s2526
   D Valdepenas (Fiorentina) -> Victor Valdepeñas [Real Madrid ESP-La Liga] s2526
+  D Koulierakis (Roma) -> Konstantinos Koulierakis [Wolfsburg GER-Bundesliga] s2526
+  D Doekhi (Lazio) -> Danilho Doekhi [Union Berlin GER-Bundesliga] s2526
   D Pedraza (Lazio) -> Alfonso Pedraza [Villarreal ESP-La Liga] s2526
-  D Bella-Kotchap (Venezia) -> Armel Bella Kotchap [Hellas Verona ITA-Serie A] s2526
-  D Correia T. (Venezia) -> Thierry Correia [Valencia ESP-La Liga] s2526
-  D Floriani Mussolini (Lazio) -> Romano Floriani [Cremonese ITA-Serie A] s2526
-  D Comuzzo (Torino) -> Pietro Comuzzo [Fiorentina ITA-Serie A] s2526
-  D Kofler (Cagliari) -> Raphael Kofler [FC Südtirol ITA-Serie B] s2526
-  D Moreno M. (Venezia) -> Matias Moreno [Levante ESP-La Liga] s2526
-  D Comert (Torino) -> Eray Cömert [Valencia ESP-La Liga] s2526
+  D Obrador (Sassuolo) -> Rafel Obrador [Torino ITA-Serie A] s2526
+  D Celik (Juventus) -> Zeki Çelik [Roma ITA-Serie A] s2425
   D Kouadio (Monza) -> Eddy Kouadio [Fiorentina ITA-Serie A] s2526
+  D Bella-Kotchap (Venezia) -> Armel Bella Kotchap [Hellas Verona ITA-Serie A] s2526
+  D Comuzzo (Torino) -> Pietro Comuzzo [Fiorentina ITA-Serie A] s2526
+  D Fortini (Torino) -> Niccolò Fortini [Fiorentina ITA-Serie A] s2526
+  D Correia T. (Venezia) -> Thierry Correia [Valencia ESP-La Liga] s2526
   D Joao Mario (Fiorentina) -> João Mário Lopes [Bologna ITA-Serie A] s2526
+  D Comert (Torino) -> Eray Cömert [Valencia ESP-La Liga] s2526
+  D Favasuli (Napoli) -> Costantino Favasuli [Catanzaro ITA-Serie B] s2526
+  D Balerdi (Roma) -> Leonardo Balerdi [Marseille FRA-Ligue 1] s2526
+  D Floriani Mussolini (Lazio) -> Romano Floriani [Cremonese ITA-Serie A] s2526
+  D Kofler (Cagliari) -> Raphael Kofler [FC Südtirol ITA-Serie B] s2526
+  D Kambwala (Como) -> Willy Kambwala [Villarreal ESP-La Liga] s2526
+  D Tchato (Frosinone) -> Enzo Tchato [Montpellier FRA-Ligue 1] s2425
+  D Moreno M. (Venezia) -> Matias Moreno [Levante ESP-La Liga] s2526
   D Akpoguma (Frosinone) -> Kevin Akpoguma [Hoffenheim GER-Bundesliga] s2526
+  D Van Der Brempt (Sassuolo) -> Ignace Van Der Brempt [Como ITA-Serie A] s2526
   D Aurelio (Cagliari) -> Giuseppe Aurelio [Spezia ITA-Serie B] s2526
   D Ebosse (Udinese) -> Enzo Ebosse [Hellas Verona ITA-Serie A] s2526
-  D Matturro (Genoa) -> Alan Matturro [Levante ESP-La Liga] s2526
   D Missori (Sassuolo) -> Filippo Missori [Avellino ITA-Serie B] s2526
+  D Dembelè A. (Lecce) -> Ali Dembélé [Torino ITA-Serie A] s2526
   C Atta (Fiorentina) -> Arthur Atta [Udinese ITA-Serie A] s2526
+  C Frattesi (Lazio) -> Davide Frattesi [Inter ITA-Serie A] s2526
   C Mastantuono (Fiorentina) -> Franco Mastantuono [Real Madrid ESP-La Liga] s2526
-  C Schmid (Frosinone) -> Romano Schmid [Werder Bremen GER-Bundesliga] s2526
-  C Oristanio (Torino) -> Gaetano Oristanio [Parma ITA-Serie A] s2526
+  C Jones C. (Inter) -> Curtis Jones [Liverpool ENG-Premier League] s2526
   C Gaetano (Atalanta) -> Gianluca Gaetano [Cagliari ITA-Serie A] s2526
-  C Unai Gomez (Udinese) -> Unai Gómez [Athletic Club ESP-La Liga] s2526
-  C Liberali (Como) -> Mattia Liberali [Catanzaro ITA-Serie B] s2526
+  C Schmid (Frosinone) -> Romano Schmid [Werder Bremen GER-Bundesliga] s2526
+  C Elmas (Atalanta) -> Elif Elmas [Napoli ITA-Serie A] s2526
+  C Cissè A. (Milan) -> Alphadjo Cissè [Hellas Verona ITA-Serie A] s2425
   C Fazzini (Cagliari) -> Jacopo Fazzini [Fiorentina ITA-Serie A] s2526
-  C Basic (Venezia) -> Toma Bašić [Lazio ITA-Serie A] s2526
-  C Cacciamani (Torino) -> Alessio Cacciamani [Juve Stabia ITA-Serie B] s2526
-  C Akinsanmiro (Monza) -> Ebenezer Akinsanmiro [Pisa ITA-Serie A] s2526
-  C Winks (Cagliari) -> Harry Winks [Leicester City ENG-Premier League] s2425
-  C Adzic (Sassuolo) -> Vasilije Adžić [Juventus ITA-Serie A] s2526
-  C Sohm (Venezia) -> Simon Sohm [Bologna ITA-Serie A] s2526
-  C Sow (Genoa) -> Djibril Sow [Sevilla ESP-La Liga] s2526
-  C Grillitsch (Frosinone) -> Florian Grillitsch [Valladolid ESP-La Liga] s2425
-  C Zerbin (Frosinone) -> Alessio Zerbin [Cremonese ITA-Serie A] s2526
+  C Njie (Fiorentina) -> Alieu Njie [Torino ITA-Serie A] s2526
+  C Liberali (Como) -> Mattia Liberali [Catanzaro ITA-Serie B] s2526
   C Romano (Cagliari) -> Alessandro Romano [Roma ITA-Serie A] s2526
+  C Cacciamani (Torino) -> Alessio Cacciamani [Juve Stabia ITA-Serie B] s2526
+  C Basic (Venezia) -> Toma Bašić [Lazio ITA-Serie A] s2526
+  C Unai Gomez (Udinese) -> Unai Gómez [Athletic Club ESP-La Liga] s2526
+  C Folorunsho (Monza) -> Michael Folorunsho [Cagliari ITA-Serie A] s2526
+  C Adzic (Sassuolo) -> Vasilije Adžić [Juventus ITA-Serie A] s2526
+  C Winks (Cagliari) -> Harry Winks [Leicester City ENG-Premier League] s2425
+  C Sow (Genoa) -> Djibril Sow [Sevilla ESP-La Liga] s2526
   C Douglas Luiz (Juventus) -> Douglas Luiz [Aston Villa ENG-Premier League] s2526
-  C Traorè Hj. (Genoa) -> Hamed Junior Traorè [Bournemouth ENG-Premier League] s2526
-  C Folorunsho (Napoli) -> Michael Folorunsho [Cagliari ITA-Serie A] s2526
+  C Tourè I. (Monza) -> Idrissa Touré [Pisa ITA-Serie B] s2425
+  C Akinsanmiro (Monza) -> Ebenezer Akinsanmiro [Pisa ITA-Serie A] s2526
+  C Oristanio (Torino) -> Gaetano Oristanio [Parma ITA-Serie A] s2526
+  C Zerbin (Frosinone) -> Alessio Zerbin [Cremonese ITA-Serie A] s2526
   C Dominguez B. (Sassuolo) -> Benjamín Domínguez [Bologna ITA-Serie A] s2526
-  C Helgason (Venezia) -> Þórir Jóhann Helgason [Lecce ITA-Serie A] s2526
-  C Hasa (Frosinone) -> Luis Hasa [Carrarese ITA-Serie B] s2526
+  C Fadera (Cagliari) -> Alieu Fadera [Sassuolo ITA-Serie A] s2526
+  C Sohm (Venezia) -> Simon Sohm [Bologna ITA-Serie A] s2526
+  C Traorè Hj. (Genoa) -> Hamed Junior Traorè [Bournemouth ENG-Premier League] s2526
+  C Ricci S. (Como) -> Samuele Ricci [Milan ITA-Serie A] s2526
+  C Grillitsch (Frosinone) -> Florian Grillitsch [Valladolid ESP-La Liga] s2425
   C El Azzouzi O. (Bologna) -> Oussama El Azzouzi [Auxerre FRA-Ligue 1] s2526
+  C De Roon (Roma) -> Marten de Roon [Atalanta ITA-Serie A] s2526
+  C Fabbian (Parma) -> Giovanni Fabbian [Bologna ITA-Serie A] s2526
   C Masini (Frosinone) -> Patrizio Masini [Genoa ITA-Serie A] s2526
-  C Fadera (Como) -> Alieu Fadera [Sassuolo ITA-Serie A] s2526
+  C Hasa (Frosinone) -> Luis Hasa [Carrarese ITA-Serie B] s2526
+  C Helgason (Venezia) -> Þórir Jóhann Helgason [Lecce ITA-Serie A] s2526
   C Lahdo (Como) -> Mayckel Lahdo [Nantes FRA-Ligue 1] s2526
+  C Comotto (Milan) -> Christian Comotto [Spezia ITA-Serie B] s2526
+  C Ciervo (Cagliari) -> Riccardo Ciervo [Cesena ITA-Serie B] s2526
   A Ramos G. (Milan) -> Gonçalo Ramos [PSG FRA-Ligue 1] s2425
   A Kolo Muani (Juventus) -> Randal Kolo Muani [Tottenham ENG-Premier League] s2526
-  A Dovbyk (Bologna) -> Artem Dovbyk [Roma ITA-Serie A] s2526
   A Castro S. (Roma) -> Santiago Castro [Bologna ITA-Serie A] s2526
+  A Dovbyk (Bologna) -> Artem Dovbyk [Roma ITA-Serie A] s2526
+  A Pinamonti (Lazio) -> Andrea Pinamonti [Sassuolo ITA-Serie A] s2526
+  A Pellegrino M. (Fiorentina) -> Mateo Pellegrino [Parma ITA-Serie A] s2526
   A Adams A. (Venezia) -> Akor Adams [Sevilla ESP-La Liga] s2526
-  A Kevin Carlos (Cagliari) -> Kevin Carlos [Nice FRA-Ligue 1] s2526
   A Tourè E. (Parma) -> El Bilal Touré [Stuttgart GER-Bundesliga] s2425
+  A Esposito Se. (Sassuolo) -> Sebastiano Esposito [Cagliari ITA-Serie A] s2526
   A Bowie (Sassuolo) -> Kieron Bowie [Hellas Verona ITA-Serie A] s2526
+  A Kevin Carlos (Cagliari) -> Kevin Carlos [Nice FRA-Ligue 1] s2526
+  A Piccoli (Bologna) -> Roberto Piccoli [Fiorentina ITA-Serie A] s2526
   A Geubbels (Lecce) -> Willem Geubbels [Paris FC FRA-Ligue 1] s2526
-  A Camarda (Milan) -> Francesco Camarda [Lecce ITA-Serie A] s2526
   A Maldini (Cagliari) -> Daniel Maldini [Atalanta ITA-Serie A] s2526
+  A Camarda (Milan) -> Francesco Camarda [Lecce ITA-Serie A] s2526
+  A Ngonge (Monza) -> Cyril Ngonge [Espanyol ESP-La Liga] s2526
   A Ekhator (Juventus) -> Jeff Ekhator [Genoa ITA-Serie A] s2526
   A Robinson J. (Monza) -> Jay Robinson [Southampton ENG-Premier League] s2425
 
-UNMATCHED (46):
+UNMATCHED (68):
   P Happonen (Bologna) FVM 1
   P Tornqvist (Como) FVM 1
   P Vigorito (Como) FVM 1
@@ -84,7 +118,6 @@ UNMATCHED (46):
   P Stolz (Genoa) FVM 1
   P Pinsoglio (Juventus) FVM 1
   P Renzetti (Lazio) FVM 1
-  P Samooja (Lecce) FVM 1
   P Torriani (Milan) FVM 1
   P Strajnar (Monza) FVM 1
   P De Marzi (Roma) FVM 1
@@ -92,40 +125,66 @@ UNMATCHED (46):
   P Piana (Udinese) FVM 1
   P Grandi (Venezia) FVM 1
   P Pozzi (Venezia) FVM 1
-  D Kaiki (Como) FVM 23
-  D Viery (Fiorentina) FVM 19
+  P Penev (Lecce) FVM 1
+  P Mrozek (Udinese) FVM 1
+  D Sutalo J. (Lazio) FVM 19
+  D Viery (Fiorentina) FVM 17
+  D Kaiki (Como) FVM 16
   D Mangas (Monza) FVM 15
+  D Provstgaard (Lazio) FVM 14
   D Gaspar K. (Lecce) FVM 12
+  D Leysen F. (Sassuolo) FVM 12
   D Halhal (Venezia) FVM 10
-  D Provstgaard (Lazio) FVM 10
-  D Mitaj (Genoa) FVM 9
-  D Cuenca A. (Como) FVM 8
-  D Puczka (Genoa) FVM 7
+  D Mitaj (Genoa) FVM 10
+  D Terzic (Frosinone) FVM 8
   D Alhassane (Bologna) FVM 6
   D Diawara S. (Milan) FVM 4
+  D Cinquegrano (Sassuolo) FVM 4
+  D Puczka (Genoa) FVM 3
+  D Lulli (Roma) FVM 3
   D Amey (Frosinone) FVM 1
   D Gomes (Venezia) FVM 1
-  C Alajbegovic (Juventus) FVM 56
+  D Omar Fayed (Frosinone) FVM 1
+  D Maye (Monza) FVM 1
+  D Drobnic (Parma) FVM 1
+  C Mora (Roma) FVM 95
+  C Alajbegovic (Juventus) FVM 50
+  C Moreira (Milan) FVM 50
+  C Kessiè (Atalanta) FVM 47
   C Oulai (Fiorentina) FVM 20
-  C Milla (Como) FVM 14
-  C Meichtry (Genoa) FVM 14
-  C Fitz-Jim (Torino) FVM 13
+  C Milla (Como) FVM 20
+  C Fitz-Jim (Torino) FVM 18
   C Amondarain (Bologna) FVM 12
   C Sorensen O. (Parma) FVM 12
   C Diallo O. (Parma) FVM 12
-  C Cichella (Frosinone) FVM 11
-  C Stankovic A. (Inter) FVM 10
+  C Cichella (Frosinone) FVM 12
+  C Mout (Monza) FVM 12
+  C Meichtry (Genoa) FVM 11
+  C Ilic (Lecce) FVM 8
+  C Stankovic A. (Inter) FVM 7
   C Chakvetadze (Udinese) FVM 6
-  C El Azzouzi A. (Frosinone) FVM 3
-  A Rrahmani Al. (Venezia) FVM 20
-  A Frigan (Parma) FVM 13
+  C Foe Ondoa (Monza) FVM 2
+  C El Azzouzi A. (Frosinone) FVM 1
+  C Laerke (Lecce) FVM 1
+  A Bobcek (Frosinone) FVM 38
+  A Romero D. (Parma) FVM 37
+  A Osmajic (Genoa) FVM 30
+  A Varela G. (Monza) FVM 20
+  A Rrahmani Al. (Venezia) FVM 18
+  A Fatah (Lecce) FVM 17
+  A Birligea (Frosinone) FVM 14
+  A Frigan (Parma) FVM 10
+  A Lontani (Parma) FVM 10
   A Havel (Genoa) FVM 9
-  A Varela G. (Monza) FVM 7
   A Azon (Como) FVM 1
   A Lisman (Venezia) FVM 1
+  A De Martis (Parma) FVM 1
 
 DUBIOUS non risolti:
   D Diawara S. (Milan) s2425: ['Kandet Diawara (Le Havre)', 'Mahamadou Diawara (Le Havre)', 'Mahamadou Diawara (Lyon)']
   D Gomes (Venezia) s2526: ['André Gomes (Lille)', 'Angel Gomes (Marseille)', 'Angel Gomes (Wolves)', 'Claudio Gomes (Palermo)', 'João Gomes (Wolves)', 'Rodrigo Gomes (Wolves)']
+  C Moreira (Milan) s2526: ['Afonso Moreira (Lyon)', 'Diego Moreira (Strasbourg)']
   C Milla (Como) s2526: ['Luis Milla (Getafe)', 'Pere Milla (Espanyol)']
   C Diallo O. (Parma) s2526: ['Amad Diallo (Manchester Utd)', 'Habib Diallo (Metz)', 'Zoumana Diallo (Nice)']
+  C Ilic (Lecce) s2526: ['Andrej Ilic (Union Berlin)', 'Ivan Ilić (Torino)', 'Luka Ilić (Oviedo)']
+  A Romero D. (Parma) s2526: ['Carlos Romero (Espanyol)', 'Cristian Romero (Tottenham)', 'Isaac Romero (Sevilla)', 'Iván Romero (Levante)', 'Zaid Romero (Getafe)']

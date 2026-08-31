@@ -9,6 +9,44 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (31/08/2026): stagione 2026/27 nello storico giocatore (2 giornate)
+Richiesta di Luciano: vedere anche i dati della stagione in corso, non solo
+2025/26 e 2024/25. Deciso di NON farla diventare la stagione primaria (quella
+che guida gol/assist/xG/Val in tabella) — 2 giornate sono un campione troppo
+piccolo, un gol da 2 partite distorcerebbe il Val (stessa ragione per cui il
+24/08 avevo rimandato lo switch completo di qualche settimana). Soluzione
+via di mezzo: la 2026/27 compare come riga IN PIÙ nello storico stagioni
+della scheda giocatore, `merge_stats.py` resta invariato (preferenza
+2526→2425 per i campi primari) — `hist_of()` prende già TUTTE le stagioni
+disponibili per la persona nel csv, quindi basta aggiungere le righe 2627
+al csv perché compaiano nello storico, senza toccare la logica di scelta
+della stagione primaria.
+
+Nuovo script `scripts/fetch_2627_stats.py` (soccerdata, Big 5 + Serie B,
+`SEASONS=["2627"]`, append idempotente ai csv esistenti — non li sovrascrive).
+Serviva reinstallare l'ambiente: il venv di sessioni precedenti
+(`/tmp/fanta_venv`) era vuoto/rotto (probabile pulizia di `/tmp` tra una
+sessione e l'altra — `/tmp` non è persistente), ricreato da zero
+(`/tmp/fanta_venv2`, `pip install soccerdata pandas`). Il fetch FBref ha
+funzionato nonostante il blocco CAPTCHA che impedisce curl/WebFetch diretti
+— soccerdata usa un chromedriver headless sotto al cofano, non la stessa
+strada bloccata.
+
+Bug collaterale trovato e sistemato: `merge_stats.py` azzera SEMPRE il
+campo `xg` a `None` prima di riscrivere (`pack()` → `p.update(found)`),
+perché nel flusso normale viene sempre seguito da `merge_understat.py` che
+lo ripopola — girato da solo per errore ha cancellato l'xG di tutti i
+524 giocatori per qualche minuto. Rilanciato `merge_understat.py` (cache
+`understat_full.csv` riusata, 2025/26 chiusa) per ripristinarlo.
+
+UI: `PlayerCardModal.tsx` aveva la label stagione nello storico hardcoded
+su due sole opzioni (`sea==="2526" ? "2025/26" : "2024/25"` — qualunque
+altra stagione, inclusa la nuova 2627, sarebbe finita etichettata
+erroneamente "2024/25"). Sostituito con una mappa `SEASON_LABEL` che copre
+tutte e 3 le stagioni. Verificato in browser: riga "2026/27 · Serie A ·
+Inter · 2 presenze · 180 min · 0 gol" in cima allo storico di Dimarco,
+Val/FVM/tabella invariati (basati ancora su 2025/26).
+
 ## FATTO (31/08/2026): giro completo (8°) — 524 giocatori, mercato di chiusura
 Ultimo giorno di calciomercato (chiude 1/09, asta 2-3/09). Rifatto tutto:
 trasferimenti prima (165 agganciati, 155 arrivi), poi formazioni — 46 non

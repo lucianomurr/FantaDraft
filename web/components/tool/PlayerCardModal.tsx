@@ -10,6 +10,7 @@ import { ModalShell } from "./ModalShell";
 
 const RMAP: Record<string, string> = { P: "rP", D: "rD", C: "rC", A: "rA" };
 const CURRENT_YEAR = 2026;
+const SEASON_LABEL: Record<string, string> = { "2627": "2026/27", "2526": "2025/26", "2425": "2024/25" };
 
 export function PlayerCardModal({
   player,
@@ -196,7 +197,7 @@ function PlayerCardBody({
           <tbody>
             {(p.hist ?? []).map((h, i) => (
               <tr key={i}>
-                <td>{h.sea === "2526" ? "2025/26" : "2024/25"}</td>
+                <td>{SEASON_LABEL[h.sea] ?? h.sea}</td>
                 <td>{h.lg}</td>
                 <td>{h.tm}</td>
                 <td className="num">{h.mp}</td>

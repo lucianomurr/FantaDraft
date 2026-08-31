@@ -231,7 +231,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         europei più Serie B, così anche neopromossi e nuovi arrivi hanno numeri veri.
       </>
     ),
-    n: "427 con dati",
+    n: "456 con dati",
   },
   {
     k: "xG e xA da Understat",
@@ -241,7 +241,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         8-gol con 15 di xG è un affare che il prezzo non racconta.
       </>
     ),
-    n: "447 coperti",
+    n: "416 coperti",
   },
   {
     k: "Probabili formazioni",
