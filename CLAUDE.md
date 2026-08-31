@@ -9,6 +9,46 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (31/08/2026): prezzo target = FVM (scartato il modello a torta/slot)
+Luciano ha applicato la versione a curva-per-slot appena fatta e trovato
+due esempi concreti che la smontano: Ramos G. (Milan, attaccante titolare
+di una squadra top) proposto a 2 crediti, Martinez L. — capocannoniere
+della scorsa stagione — a 55, "impossibile prenderlo a quella cifra".
+
+Il problema NON era la ripidezza della curva (ritararla non bastava): era
+il modello stesso. Dividere il budget del reparto tra gli `slots` posti
+reali (3P/8D/8C/6A) fa sí che anche un secondo/terzo miglior giocatore del
+reparto — comunque forte — prenda una fetta piccola SOLO perché è dietro
+al primo in classifica, indipendentemente da quanto sia vicino il suo
+valore reale a quello del primo. Con l'Attacco a 250cr e decadimento 0,35,
+il 2° miglior attaccante prendeva ~23% (57cr) anche se il suo FVM era solo
+il 12% più basso del 1°: uno strappo di prezzo enorme per una differenza di
+valore piccola.
+
+Sostituito con qualcosa di molto più semplice e già ancorato al progetto:
+**Tgt = FVM del giocatore** (`activeFvm`, Classic/Mantra) + lo stesso
+piccolo bonus rigorista già usato per le fasce (+12/+4 crediti) — riscalato
+sul budget totale scelto dall'utente se diverso dai 500 crediti standard
+(`REFERENCE_BUDGET`). Zero dipendenza da quanti altri candidati F1-F4 ci
+sono nello stesso ruolo: il prezzo di un giocatore riflette il suo valore,
+non la sua posizione in classifica dentro un reparto con un budget fisso.
+Coerente con la definizione che il progetto stesso dà giá a FVM nello
+schema dati (`players_pen.json`: "f: FVM, stima del prezzo d'asta").
+`computeLivePrices` ora non usa più `RTARGET`/`SLOT_DECAY`/ranking per
+slot — solo FVM diretto, molto più corto e trasparente. Verificato in
+browser: Ramos G. 228 FVM → Tgt 232 (con bonus rigorista +4), Martinez L.
+367 FVM → Tgt 371 — entrambi ora in linea col loro vero valore.
+
+**Nota aperta, non risolta**: Luciano ha fatto notare che il numero di
+partecipanti alla lega (oggi fisso a "10 squadre" in tutto il progetto,
+mai un parametro configurabile) è una delle variabili che influenzano
+quanto salgono davvero i prezzi in un'asta reale (più squadre = più
+concorrenza = prezzi più alti) — il FVM ufficiale non lo scompone per
+taglia di lega, quindi al momento nessuna stima nel tool ne tiene conto.
+Non affrontato in questo giro (richiederebbe inventare un fattore di
+scarsità non tracciabile a una fonte ufficiale) — da riprendere se
+Luciano vuole spingere su questo.
+
 ## FATTO (31/08/2026): prezzo target a curva per slot (non più diviso piatto)
 Luciano ha segnalato che il prezzo consigliato appena aggiunto sembrava
 "sproporzionato" — aveva ragione: la prima versione divideva il budget del

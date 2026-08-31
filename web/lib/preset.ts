@@ -1,5 +1,5 @@
 import type { Player, Role, Tier } from "./types";
-import { ROLES, RTARGET } from "./roles";
+import { ROLES } from "./roles";
 import { activeFvm } from "./scoring";
 
 export interface PresetParams {
@@ -80,67 +80,45 @@ export function computeLivePreset(players: Player[], params: PresetParams): Reco
   return result;
 }
 
-/** Quanto ripidamente scende il prezzo dal 1° slot del reparto in giù (slot
- * successivo = slot precedente × questo fattore, poi tutto normalizzato sul
- * budget del reparto). Basso = "effetto superstar" forte (il titolare
- * assoluto mangia gran parte del budget, i posti dietro costano quasi
- * niente): tipico di portiere (blocco squadra) e attacco (bomber da
- * doppia cifra). Alto = reparto più "piatto"/intercambiabile: tipico di
- * centrocampo e difesa, dove il 2°-3° titolare vale quasi quanto il 1°.
- * Euristica calibrata a occhio sulle % tipiche di prezzo per slot di una
- * lega Classic standard — da ritarare, non una formula certificata. */
-const SLOT_DECAY: Record<Role, number> = { P: 0.35, D: 0.45, C: 0.5, A: 0.35 };
+/** Budget di riferimento su cui sono tarate le quotazioni ufficiali (FVM) —
+ * la lega standard di questo progetto è 500 crediti. Se l'utente usa un
+ * totale diverso, il prezzo consigliato si riscala in proporzione. */
+const REFERENCE_BUDGET = 500;
 
-/** Pesi normalizzati (sommano a 1) per gli `slots` titolari di un reparto,
- * dal più caro al più economico, secondo la curva SLOT_DECAY. */
-function slotWeights(slots: number, decay: number): number[] {
-  const raw = Array.from({ length: slots }, (_, i) => Math.pow(decay, i));
-  const sum = raw.reduce((a, b) => a + b, 0);
-  return raw.map((w) => w / sum);
-}
-
-/** Prezzo target consigliato: il budget del reparto (cfg[ruolo]) si spalma
- * sugli `slots` posti di ruolo (3 P, 8 D, 8 C, 6 A) con un peso decrescente
- * per slot (SLOT_DECAY) — il 1° titolare del reparto prende una fetta molto
- * più grande dell'ultimo, non una quota piatta. I giocatori F1-F4 vengono
- * ordinati con lo STESSO punteggio usato per assegnare le fasce, cosí chi è
- * "primo" per prezzo è coerente con chi è "primo" per fascia; oltre l'ultimo
- * slot (candidati di scorta in fascia 3-4) prendono tutti il prezzo
- * dell'ultimo slot, un valore basso da riserva. Fascia R fissa a 1 credito;
+/** Prezzo target consigliato = FVM del giocatore (già definito nel progetto
+ * come "stima del prezzo d'asta", non un punteggio interno) riscalato sul
+ * budget totale scelto dall'utente se diverso dai 500 crediti standard, più
+ * lo stesso piccolo bonus rigorista già usato per le fasce (+12/+4 crediti,
+ * anch'esso riscalato). NESSUNA divisione per budget di reparto: un
+ * giocatore forte vale quello che vale a prescindere da quanti altri
+ * candidati F1-F4 ci sono nel suo ruolo — dividere il budget del reparto tra
+ * tutti quei candidati (prima versione di questa funzione) schiacciava il
+ * prezzo di ogni singolo top player ben sotto il suo valore reale, tanto più
+ * quanti più candidati aveva quel reparto. Fascia R fissa a 1 credito;
  * fascia X (evita) e senza fascia non hanno un prezzo (non li stai
- * comprando). È un punto di partenza da aggiustare all'asta in base a come
- * sale realmente il prezzo, non una previsione di spesa garantita. */
+ * comprando). Non tiene conto del numero di partecipanti alla lega (più
+ * squadre = più concorrenza = prezzi reali più alti) — il FVM ufficiale non
+ * lo scompone per taglia di lega, quindi neanche questa stima può farlo
+ * senza inventare un fattore non tracciabile a una fonte reale. */
 export function computeLivePrices(
   players: Player[],
   tierMap: Record<number, Tier>,
-  cfg: Record<Role, number>,
+  cfg: { budget: number },
   params: PresetParams,
 ): Record<number, number> {
+  const scale = (cfg.budget || REFERENCE_BUDGET) / REFERENCE_BUDGET;
   const prices: Record<number, number> = {};
-  const byRole: Record<Role, Player[]> = { P: [], D: [], C: [], A: [] };
-  for (const p of players) byRole[p.r].push(p);
-
-  for (const r of ROLES) {
-    const tiered = byRole[r]
-      .filter((p) => {
-        const t = tierMap[p.id];
-        return t === "1" || t === "2" || t === "3" || t === "4";
-      })
-      .sort((a, b) => score(b, params) - score(a, params));
-    if (tiered.length === 0) continue;
-
-    const budget = cfg[r] ?? 0;
-    const slots = RTARGET[r];
-    const weights = slotWeights(slots, SLOT_DECAY[r]);
-    const tailWeight = weights[weights.length - 1];
-
-    tiered.forEach((p, rank) => {
-      const w = rank < slots ? weights[rank] : tailWeight;
-      prices[p.id] = Math.max(1, Math.round(w * budget));
-    });
-  }
   for (const p of players) {
-    if (tierMap[p.id] === "R") prices[p.id] = 1;
+    const t = tierMap[p.id];
+    if (t === "R") {
+      prices[p.id] = 1;
+      continue;
+    }
+    if (t !== "1" && t !== "2" && t !== "3" && t !== "4") continue;
+    let price = activeFvm(p, params.mantra) * scale;
+    if (p.pen === 1) price += 12 * scale;
+    else if (p.pen === 2) price += 4 * scale;
+    prices[p.id] = Math.max(1, Math.round(price));
   }
   return prices;
 }
