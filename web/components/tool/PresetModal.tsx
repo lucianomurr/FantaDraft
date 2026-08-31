@@ -59,8 +59,8 @@ export function PresetModal({
   const tierMap = useMemo(() => computeLivePreset(players, params), [players, params]);
   const counts = useMemo(() => countByTier(tierMap), [tierMap]);
   const priceMap = useMemo(
-    () => computeLivePrices(players, tierMap, cfg, params),
-    [players, tierMap, cfg, params],
+    () => computeLivePrices(players, tierMap, cfg),
+    [players, tierMap, cfg],
   );
 
   function setQuota(role: Role, tierIdx: number, value: number) {
@@ -185,8 +185,9 @@ export function PresetModal({
 
       <label className="chk" style={{ margin: "14px 0 6px" }}>
         <input type="checkbox" checked={fillPrice} onChange={(e) => setFillPrice(e.target.checked)} />
-        Precompila anche il prezzo target (Tgt) consigliato: % del budget totale per slot di
-        ruolo (1° slot il più caro, poi a scendere) + bonus rigorista
+        Precompila anche il prezzo target (Tgt) consigliato: % del budget totale per fascia di
+        ruolo (F1 la più cara, poi a scendere) + bonus rigorista — stesso prezzo per tutti i
+        giocatori della stessa fascia
       </label>
       <label className="chk" style={{ margin: "0 0 14px" }}>
         <input type="checkbox" checked={resetFirst} onChange={(e) => setResetFirst(e.target.checked)} />

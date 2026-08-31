@@ -106,57 +106,50 @@ const SLOT_DROP_REST = 0.68;
  * le fasce, riscritta come moltiplicatore come richiesto da Luciano. */
 const PEN_BONUS: Record<number, number> = { 1: 1.15, 2: 1.05 };
 
-/** Peso del prezzo per lo slot n-esimo di un ruolo (rank 0-based), come
- * frazione del budget TOTALE — non normalizzato, non deve sommare a niente:
- * ogni slot ha un target indicativo indipendente, non una fetta di torta. */
-function slotSharePct(rank: number, slot1Pct: number): number {
-  if (rank === 0) return slot1Pct;
-  if (rank === 1) return slot1Pct * SLOT_DROP_1_2;
-  return slot1Pct * SLOT_DROP_1_2 * Math.pow(SLOT_DROP_REST, rank - 1);
-}
+/** Moltiplicatore di prezzo per fascia (F1=ancora, poi a scendere) — stessi
+ * due tassi di calo di prima (1°→2° più forte, poi più dolce), ma applicati
+ * alla FASCIA nel suo insieme, non al singolo slot/rank. Tutti i giocatori
+ * di una stessa fascia+ruolo condividono lo stesso prezzo base: chi è F1 vale
+ * "prezzo da F1" a prescindere da chi altro c'è in quella fascia — la
+ * discriminazione fine tra i 4 F1 di un ruolo la fa l'utente in asta, non il
+ * preset (richiesta esplicita di Luciano: "ragionerei per fascia non per
+ * slot, poi mi organizzo io"). */
+const FASCIA_MULT: Record<"1" | "2" | "3" | "4", number> = {
+  "1": 1,
+  "2": SLOT_DROP_1_2,
+  "3": SLOT_DROP_1_2 * SLOT_DROP_REST,
+  "4": SLOT_DROP_1_2 * SLOT_DROP_REST * SLOT_DROP_REST,
+};
 
-/** Prezzo target consigliato = Budget totale × % indicativa per slot di
- * ruolo (SLOT1_PCT poi a scendere), NON diviso per numero di candidati F1-F4
- * né per budget di reparto — un giocatore forte vale quello che vale a
- * prescindere da quanti altri candidati ci sono nel suo ruolo. I giocatori
- * F1-F4 sono ordinati con lo stesso punteggio usato per le fasce, cosí lo
- * slot 1 è coerente con chi è "primo" per fascia. Bonus rigorista in
- * percentuale (PEN_BONUS). Fascia R fissa a 1 credito; fascia X (evita) e
+/** Prezzo target consigliato = Budget totale × % indicativa della fascia di
+ * ruolo (SLOT1_PCT per F1, poi a scendere per F2-F4) — stesso prezzo per
+ * tutti i giocatori della stessa fascia+ruolo, non decade per posizione
+ * interna. Bonus rigorista in percentuale (PEN_BONUS), unica differenza
+ * dentro la stessa fascia. Fascia R fissa a 1 credito; fascia X (evita) e
  * senza fascia non hanno un prezzo (non li stai comprando). Le percentuali
- * sono indicative per slot, non un budget da esaurire: sommate insieme
- * possono superare il budget del reparto — normale, non comprerai mai tutti
- * i candidati F1-F4, solo i migliori che riesci a portare a casa. Non tiene
- * conto del numero di partecipanti alla lega (più squadre = più concorrenza
- * = prezzi reali più alti): il progetto non ha un dato tracciabile per
- * quantificarlo, resterebbe un numero inventato. */
+ * sono indicative, non un budget da esaurire: non tiene conto del numero di
+ * partecipanti alla lega (più squadre = più concorrenza = prezzi reali più
+ * alti): il progetto non ha un dato tracciabile per quantificarlo,
+ * resterebbe un numero inventato. */
 export function computeLivePrices(
   players: Player[],
   tierMap: Record<number, Tier>,
   cfg: { budget: number },
-  params: PresetParams,
 ): Record<number, number> {
   const totalBudget = cfg.budget || REFERENCE_BUDGET;
   const prices: Record<number, number> = {};
-  const byRole: Record<Role, Player[]> = { P: [], D: [], C: [], A: [] };
-  for (const p of players) byRole[p.r].push(p);
 
-  for (const r of ROLES) {
-    const tiered = byRole[r]
-      .filter((p) => {
-        const t = tierMap[p.id];
-        return t === "1" || t === "2" || t === "3" || t === "4";
-      })
-      .sort((a, b) => score(b, params) - score(a, params));
-
-    tiered.forEach((p, rank) => {
-      let price = slotSharePct(rank, SLOT1_PCT[r]) * totalBudget;
-      if (p.pen === 1) price *= PEN_BONUS[1];
-      else if (p.pen === 2) price *= PEN_BONUS[2];
-      prices[p.id] = Math.max(2, Math.round(price));
-    });
-  }
   for (const p of players) {
-    if (tierMap[p.id] === "R") prices[p.id] = 1;
+    const t = tierMap[p.id];
+    if (t === "R") {
+      prices[p.id] = 1;
+      continue;
+    }
+    if (t !== "1" && t !== "2" && t !== "3" && t !== "4") continue;
+    let price = SLOT1_PCT[p.r] * FASCIA_MULT[t] * totalBudget;
+    if (p.pen === 1) price *= PEN_BONUS[1];
+    else if (p.pen === 2) price *= PEN_BONUS[2];
+    prices[p.id] = Math.max(2, Math.round(price));
   }
   return prices;
 }
