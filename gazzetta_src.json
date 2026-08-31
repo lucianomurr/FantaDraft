@@ -9,7 +9,7 @@
    "Bernasconi",
    "Ederson",
    "Gaetano",
-   "Pasalic",
+   "Kessie",
    "De Ketelaere",
    "Scamacca",
    "Raspadori"
@@ -22,19 +22,19 @@
   ]
  },
  "Bologna": {
-  "mod": "4-3-3",
+  "mod": "4-2-3-1",
   "xi": [
    "Skorupski",
-   "Zortea",
-   "Helland",
+   "Holm",
    "Heggem",
+   "Theate",
    "Miranda",
-   "Bernardeschi",
    "Moro",
    "Ferguson",
    "Orsolini",
-   "Piccoli",
-   "Rowe"
+   "Bernardeschi",
+   "Cambiaghi",
+   "Piccoli"
   ],
   "ball": [],
   "rig": [
@@ -53,9 +53,9 @@
    "Obert",
    "Romano",
    "Winks",
+   "Fazzini",
    "Adopo",
    "Maldini",
-   "Fazzini",
    "Carlos"
   ],
   "ball": [],
@@ -113,7 +113,7 @@
   "mod": "4-2-3-1",
   "xi": [
    "Palmisani",
-   "Oyono",
+   "Tchato",
    "Monterisi",
    "Cittadini",
    "Terzic",
@@ -122,7 +122,7 @@
    "Schmid",
    "Hasa",
    "Zerbin",
-   "Raimondo"
+   "Bobcek"
   ],
   "ball": [],
   "rig": [
@@ -208,7 +208,7 @@
    "Rovella",
    "Frattesi",
    "Isaksen",
-   "Dia",
+   "Pinamonti",
    "Zaccagni"
   ],
   "ball": [],
@@ -228,10 +228,10 @@
    "Gallo",
    "Coulibaly",
    "Ngom",
-   "Maleh",
+   "Ilic",
    "Pierotti",
    "Geubbels",
-   "Laerke"
+   "Fatah"
   ],
   "ball": [],
   "rig": [
@@ -257,9 +257,8 @@
   "ball": [],
   "rig": [
    "Pulisic",
-   "Leao",
-   "Nkunku",
-   "Gonçalo Ramos"
+   "Gonçalo Ramos",
+   "Modric"
   ]
  },
  "Monza": {
@@ -267,13 +266,13 @@
   "xi": [
    "Thiam",
    "Kouadio",
-   "Delli Carri",
+   "Lucchesi",
    "Carboni",
    "Birindelli",
-   "Foe Ondoa",
+   "Folorunsho",
    "Akinsanmiro",
    "Mangas",
-   "Colpani",
+   "Ngonge",
    "Cutrone",
    "Varela"
   ],
@@ -310,15 +309,15 @@
   "xi": [
    "Daffara",
    "Delprato",
-   "Circati",
+   "Ndiaye",
    "Troilo",
    "Valeri",
+   "Fabbian",
    "Bernabé",
-   "Nicolussi Caviglia",
    "Keita",
    "El Bilal Touré",
    "Romero",
-   "Frigan"
+   "Lontani"
   ],
   "ball": [],
   "rig": [
@@ -365,13 +364,14 @@
   "ball": [],
   "rig": [
    "Berardi",
-   "Laurienté"
+   "Laurienté",
+   "Esposito"
   ]
  },
  "Torino": {
   "mod": "3-4-2-1",
   "xi": [
-   "Paleari",
+   "Perri",
    "Comuzzo",
    "Coco",
    "Cömert",

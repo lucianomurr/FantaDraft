@@ -1,12 +1,6 @@
 {
- "aggiornato": "2026-08-27",
+ "aggiornato": "2026-08-31",
  "infortunati": [
-  {
-   "s": "Atalanta",
-   "n": "Ahanor",
-   "d": "Il difensore fermo dal 13 agosto per una distrazione di basso grado a carico dei muscoli adduttori della gamba destra, ha saltato la sfida contro il Sassuolo e ora proverà a tornare arruolabile da fine agosto",
-   "r": "ma da valutare la convocazione per lunedì sera contro il Bologna."
-  },
   {
    "s": "Atalanta",
    "n": "Sulemana K.",
@@ -27,15 +21,15 @@
   },
   {
    "s": "Bologna",
-   "n": "Casale",
-   "d": "lavoro differenziato a Casteldebole per il difensore negli ultimi giorni a causa di un fastidio muscolare alla gamba.",
-   "r": "Out lunedì scorso contro la Lazio, da valutare in settimana le possibilità di rientro tra i convocati nella 2a giornata di A contro l'Atalanta."
-  },
-  {
-   "s": "Bologna",
    "n": "El Azzouzi O.",
    "d": "Il centrocampista ai box per una lesione del bicipite femorale della coscia sinistra",
    "r": "recuperabile dalla seconda metà di settembre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
   },
   {
    "s": "Cagliari",
@@ -45,9 +39,9 @@
   },
   {
    "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Condizioni monitorate dallo staff medico rossoblù, tempi di recupero da valutare.",
-   "r": "Assente di certo nel prossimo turno di campionato."
+   "n": "Mina",
+   "d": "Stop del colombiano nella rifinitura per un affaticamento muscolare al polpaccio.",
+   "r": "Out contro l'Inter per domenica, da valutare convocazione in vista della 3a di A."
   },
   {
    "s": "Como",
@@ -60,6 +54,18 @@
    "n": "Parisi",
    "d": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio",
    "r": "punta a tornare convocabile da novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "McKennie",
+   "d": "il centrocampista da giovedì alle prese con un affaticamento muscolare alla gamba, assente sabato sera contro il Parma.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Juventus",
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e non convocato per sabato sera contro il Parma.",
+   "r": "Da valutare in vista della 3a giornata di A."
   },
   {
    "s": "Juventus",
@@ -111,12 +117,6 @@
   },
   {
    "s": "Monza",
-   "n": "Colombo L.",
-   "d": "il centrocampista acciaccato per noie fisiche e assente per sabato contro l'Udinese.",
-   "r": "Da valutare."
-  },
-  {
-   "s": "Monza",
    "n": "Pessina",
    "d": "Il centrocampista costretto a saltare l'inizio di campionato per una lussazione della rotula del ginocchio destro rimediata nella prima metà di agosto in allenamento.",
    "r": "Tempi di recupero da monitorare, ma proverà a tornare arruolabile dall'inizio di novembre."
@@ -153,15 +153,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Pieragnolo",
-   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra",
-   "r": "ipotizziamo possa tornare convocabile da ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Berardi",
-   "d": "L'attaccante non al meglio per una distorsione alla caviglia destra rimediata a luglio a inizio ritiro, condizioni in lento miglioramento. Dopo aver saltato la sfida di campionato contro l'Atalanta, dovrebbe mancare anche sabato contro il Toro.",
-   "r": "Da valutare quotidianamente per un possibile rientro dall'inizio di settembre."
+   "n": "Candè",
+   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
+   "r": "punta a tornare convocabile dalla metà di settembre."
   },
   {
    "s": "Sassuolo",
@@ -171,21 +165,27 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Candè",
-   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla metà di settembre."
+   "n": "Boloca",
+   "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
+   "r": "Da valutare rientro da metà settembre."
   },
   {
    "s": "Sassuolo",
    "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra, out già domenica scorsa contro l'Atalanta nel primo turno di A.",
-   "r": "Da valutare il rientro da fine agosto, ma difficilmente ci sarà sabato contro il Toro."
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
+   "r": "da valutare il rientro da inizio settembre."
   },
   {
    "s": "Sassuolo",
-   "n": "Boloca",
-   "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
-   "r": "Da valutare rientro da metà settembre."
+   "n": "Pieragnolo",
+   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra",
+   "r": "ipotizziamo possa tornare convocabile da ottobre."
+  },
+  {
+   "s": "Torino",
+   "n": "Casadei",
+   "d": "Il centrocampista fuori causa per sabato contro il Sassuolo a causa di un affaticamento muscolare alla gamba che andrà valutato in vista della 3a di campionato.",
+   "r": ""
   },
   {
    "s": "Udinese",

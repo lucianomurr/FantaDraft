@@ -9,6 +9,26 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (31/08/2026): giro completo (8°) — 524 giocatori, mercato di chiusura
+Ultimo giorno di calciomercato (chiude 1/09, asta 2-3/09). Rifatto tutto:
+trasferimenti prima (165 agganciati, 155 arrivi), poi formazioni — 46 non
+agganciati su 6 fonti (molto più del solito ~0.7%), ma quasi tutti stessi
+nomi ripetuti su più fonti indipendenti (Kessie, Theate, Folorunsho,
+Fabbian, Van der Brempt, Beto, Bobcek...): segnale forte che erano acquisti
+last-minute non ancora nel listone, non errori delle fonti. Confermato dal
+giro quotazioni subito dopo: 517→524 (+13/-6), e tra i nuovi c'erano
+ESATTAMENTE quei nomi (Kessiè, Theate, Fabbian, Perri, Bobcek, Drobnic).
+Rilanciato `build_formazioni.py` dopo: non agganciati 46→11. Stesso
+pattern già visto con Spence il 21/08 — quando le fonti formazioni sono più
+aggiornate del listone ufficiale, il gap si chiude da solo al giro
+quotazioni successivo, non serve inseguire ogni nome a mano.
+
+Rigoristi: Milan cambiato (Leao ceduto, esce; Modric nuovo alternativo
+insieme a Ramos), Sassuolo aggiunge Esposito (non ancora nel listone al
+momento del check, risolto dal refresh quotazioni). Infortuni 38/38,
+trasferimenti 165 (155 arrivi). Contatori landing ricontati: 427 con dati
+stat, 447 con xG, 154 arrivi tracciati.
+
 ## FATTO (27/08/2026): giro completo (7°) — 517 giocatori, giornata 2 giocata
 Quotazioni 515→517 (+9/-7, **230 aggiornati** — FVM molto mossi con la
 giornata 2, es. Malen 365→414, Frattesi 55→68, Leao 120→75). Trasferimenti

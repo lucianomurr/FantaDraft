@@ -2,6 +2,278 @@
  "window_start": "2026-05-01",
  "events": [
   {
+   "team": "Frosinone",
+   "dir": "in",
+   "date": "2026-08-27",
+   "player": "T. Bobček",
+   "from": "Lechia Gdansk",
+   "type": "Transfer"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-08-27",
+   "player": "M. Folorunsho",
+   "from": "Napoli",
+   "type": "Loan"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "in",
+   "date": "2026-08-26",
+   "player": "T. Bobček",
+   "from": "Lechia Gdansk",
+   "type": "Transfer"
+  },
+  {
+   "team": "Cagliari",
+   "dir": "out",
+   "date": "2026-08-25",
+   "player": "M. Prati",
+   "to": "Racing Santander",
+   "type": "Loan"
+  },
+  {
+   "team": "Como",
+   "dir": "in",
+   "date": "2026-08-25",
+   "player": "Willy Kambwala Ndengushi",
+   "from": "Villarreal",
+   "type": "Loan"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "out",
+   "date": "2026-08-25",
+   "player": "N. Corrado",
+   "to": "Empoli",
+   "type": "Loan"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "out",
+   "date": "2026-08-25",
+   "player": "Filippo Grosso",
+   "to": "Crotone",
+   "type": "Loan"
+  },
+  {
+   "team": "Monza",
+   "dir": "out",
+   "date": "2026-08-25",
+   "player": "A. Berretta",
+   "to": "Pergolettese",
+   "type": "Loan"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "out",
+   "date": "2026-08-24",
+   "player": "J. Oyono",
+   "to": "Spezia",
+   "type": "Loan"
+  },
+  {
+   "team": "Juventus",
+   "dir": "out",
+   "date": "2026-08-24",
+   "player": "M. Di Gregorio",
+   "to": "Bournemouth",
+   "type": "Loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "in",
+   "date": "2026-08-21",
+   "player": "E. Elmas",
+   "from": "RB Leipzig",
+   "type": "Loan"
+  },
+  {
+   "team": "Como",
+   "dir": "in",
+   "date": "2026-08-21",
+   "player": "J. Simonetta",
+   "from": "Cagliari U20",
+   "type": "Transfer"
+  },
+  {
+   "team": "Napoli",
+   "dir": "in",
+   "date": "2026-08-21",
+   "player": "B. Badiashile",
+   "from": "Chelsea",
+   "type": "Loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "out",
+   "date": "2026-08-20",
+   "player": "V. Vlahović",
+   "to": "Mantova",
+   "type": "Loan"
+  },
+  {
+   "team": "Cagliari",
+   "dir": "in",
+   "date": "2026-08-20",
+   "player": "A. Fadera",
+   "from": "Como",
+   "type": "Loan"
+  },
+  {
+   "team": "Como",
+   "dir": "out",
+   "date": "2026-08-20",
+   "player": "A. Fadera",
+   "to": "Cagliari",
+   "type": "Loan"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "out",
+   "date": "2026-08-20",
+   "player": "S. Kalaj",
+   "to": "Spezia",
+   "type": "-"
+  },
+  {
+   "team": "Inter",
+   "dir": "in",
+   "date": "2026-08-20",
+   "player": "C. Jones",
+   "from": "Liverpool",
+   "type": "Transfer"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-08-20",
+   "player": "I. Touré",
+   "from": "Pisa",
+   "type": "Transfer"
+  },
+  {
+   "team": "Parma",
+   "dir": "out",
+   "date": "2026-08-20",
+   "player": "A. Zouin",
+   "to": "Casa Pia",
+   "type": "Loan"
+  },
+  {
+   "team": "Sassuolo",
+   "dir": "in",
+   "date": "2026-08-20",
+   "player": "F. Leysen",
+   "from": "Union St. Gilloise",
+   "type": "Loan"
+  },
+  {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-08-20",
+   "player": "A. Ciammaglichella",
+   "to": "PRO Vercelli",
+   "type": "Loan"
+  },
+  {
+   "team": "Torino",
+   "dir": "in",
+   "date": "2026-08-20",
+   "player": "N. Fortini",
+   "from": "Fiorentina",
+   "type": "Loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "out",
+   "date": "2026-08-19",
+   "player": "S. Giovane",
+   "to": "Catanzaro",
+   "type": "Transfer"
+  },
+  {
+   "team": "Bologna",
+   "dir": "out",
+   "date": "2026-08-19",
+   "player": "C. Lykogiannis",
+   "to": "AEK Athens FC",
+   "type": "Free agent"
+  },
+  {
+   "team": "Inter",
+   "dir": "in",
+   "date": "2026-08-19",
+   "player": "C. Jones",
+   "from": "Liverpool",
+   "type": "Transfer"
+  },
+  {
+   "team": "Inter",
+   "dir": "out",
+   "date": "2026-08-19",
+   "player": "M. Pinotti",
+   "to": "Audace Cerignola",
+   "type": "Loan"
+  },
+  {
+   "team": "Monza",
+   "dir": "out",
+   "date": "2026-08-19",
+   "player": "A. Petagna",
+   "to": "Pisa",
+   "type": "Transfer"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-08-19",
+   "player": "I. Touré",
+   "from": "Pisa",
+   "type": "Transfer"
+  },
+  {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-08-19",
+   "player": "T. Di Marco",
+   "to": "Catania",
+   "type": "Loan"
+  },
+  {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-08-19",
+   "player": "Z. Savva",
+   "to": "Olympiakos",
+   "type": "Free agent"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "out",
+   "date": "2026-08-18",
+   "player": "S. Giovane",
+   "to": "Catanzaro",
+   "type": "Transfer"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "in",
+   "date": "2026-08-18",
+   "player": "Omar Fayed",
+   "from": "Fenerbahçe",
+   "type": "Transfer"
+  },
+  {
+   "team": "Monza",
+   "dir": "out",
+   "date": "2026-08-18",
+   "player": "A. Petagna",
+   "to": "Pisa",
+   "type": "Transfer"
+  },
+  {
    "team": "Napoli",
    "dir": "in",
    "date": "2026-08-18",
@@ -26,6 +298,14 @@
    "type": "Transfer"
   },
   {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-08-18",
+   "player": "Z. Savva",
+   "to": "Olympiakos",
+   "type": "Free agent"
+  },
+  {
    "team": "Bologna",
    "dir": "in",
    "date": "2026-08-17",
@@ -37,9 +317,33 @@
    "team": "Como",
    "dir": "out",
    "date": "2026-08-17",
+   "player": "Fabio Rispoli",
+   "to": "Sudtirol",
+   "type": "Loan"
+  },
+  {
+   "team": "Como",
+   "dir": "out",
+   "date": "2026-08-17",
    "player": "Andrés Cuenca",
    "to": "Sporting Gijon",
    "type": "Loan"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "out",
+   "date": "2026-08-17",
+   "player": "E. Masciangelo",
+   "to": "Catania",
+   "type": "Free agent"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "in",
+   "date": "2026-08-17",
+   "player": "Omar Fayed",
+   "from": "Fenerbahçe",
+   "type": "Transfer"
   },
   {
    "team": "Genoa",
@@ -63,7 +367,7 @@
    "date": "2026-08-17",
    "player": "A. Brorsson",
    "to": "Raków Częstochowa",
-   "type": "-"
+   "type": "Transfer"
   },
   {
    "team": "Parma",
@@ -98,11 +402,27 @@
    "type": "Loan"
   },
   {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-08-17",
+   "player": "W. Acquah",
+   "to": "Modena",
+   "type": "Loan"
+  },
+  {
    "team": "Venezia",
    "dir": "out",
    "date": "2026-08-17",
    "player": "N. Lella",
    "to": "Hellas Verona",
+   "type": "-"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "out",
+   "date": "2026-08-16",
+   "player": "L. Mendicino",
+   "to": "Bari",
    "type": "-"
   },
   {
@@ -159,7 +479,7 @@
    "date": "2026-08-16",
    "player": "A. Brorsson",
    "to": "Raków Częstochowa",
-   "type": "-"
+   "type": "Transfer"
   },
   {
    "team": "Venezia",
@@ -411,18 +731,18 @@
   },
   {
    "team": "Parma",
-   "dir": "in",
-   "date": "2026-08-12",
-   "player": "D. Romero",
-   "from": "Tigre",
-   "type": "Transfer"
-  },
-  {
-   "team": "Parma",
    "dir": "out",
    "date": "2026-08-12",
    "player": "D. Terrnava",
    "to": "VPS",
+   "type": "Transfer"
+  },
+  {
+   "team": "Parma",
+   "dir": "in",
+   "date": "2026-08-12",
+   "player": "D. Romero",
+   "from": "Tigre",
    "type": "Transfer"
   },
   {
@@ -800,6 +1120,14 @@
    "player": "D. Mikołajewski",
    "to": "FC Luzern",
    "type": "Loan"
+  },
+  {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-08-07",
+   "player": "K. Djidji",
+   "to": "Livorno",
+   "type": "Free agent"
   },
   {
    "team": "Atalanta",
@@ -1333,8 +1661,24 @@
    "team": "Monza",
    "dir": "in",
    "date": "2026-07-31",
+   "player": "Christian Mariani",
+   "from": "AS Roma",
+   "type": "Transfer"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-07-31",
    "player": "E. Akinsanmiro",
    "from": "Inter",
+   "type": "Loan"
+  },
+  {
+   "team": "Monza",
+   "dir": "out",
+   "date": "2026-07-31",
+   "player": "Andrea Vailati",
+   "to": "Audace Cerignola",
    "type": "Loan"
   },
   {
@@ -1423,6 +1767,14 @@
    "date": "2026-07-30",
    "player": "O. Diallo",
    "from": "Borussia Dortmund II",
+   "type": "Transfer"
+  },
+  {
+   "team": "Parma",
+   "dir": "out",
+   "date": "2026-07-30",
+   "player": "A. Gemello",
+   "to": "Savoia",
    "type": "Transfer"
   },
   {
@@ -1528,6 +1880,14 @@
    "player": "R. Burnete",
    "to": "Sudtirol",
    "type": "Loan"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-07-29",
+   "player": "Christian Mariani",
+   "from": "AS Roma",
+   "type": "Transfer"
   },
   {
    "team": "Napoli",
@@ -1808,6 +2168,14 @@
    "player": "C. Turi",
    "to": "Pineto",
    "type": "Loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "out",
+   "date": "2026-07-23",
+   "player": "J. Italeng",
+   "to": "Renate",
+   "type": "Transfer"
   },
   {
    "team": "Bologna",
@@ -2914,6 +3282,22 @@
    "type": "Free agent"
   },
   {
+   "team": "Parma",
+   "dir": "out",
+   "date": "2026-07-12",
+   "player": "Alessandro Cardinali",
+   "to": "Spezia",
+   "type": "Loan"
+  },
+  {
+   "team": "Parma",
+   "dir": "out",
+   "date": "2026-07-12",
+   "player": "E. Plicco",
+   "to": "Sambenedettese",
+   "type": "Loan"
+  },
+  {
    "team": "Sassuolo",
    "dir": "out",
    "date": "2026-07-12",
@@ -3016,6 +3400,14 @@
    "player": "A. Atta",
    "from": "Udinese",
    "type": "Transfer"
+  },
+  {
+   "team": "Frosinone",
+   "dir": "out",
+   "date": "2026-07-10",
+   "player": "Abdoulie Ndow",
+   "to": "Spezia",
+   "type": "-"
   },
   {
    "team": "Genoa",
@@ -3127,6 +3519,14 @@
    "date": "2026-07-09",
    "player": "Mario Gila",
    "to": "AC Milan",
+   "type": "Transfer"
+  },
+  {
+   "team": "Lecce",
+   "dir": "in",
+   "date": "2026-07-09",
+   "player": "Vitaly Palamarchuk",
+   "from": "Sporting CP",
    "type": "Transfer"
   },
   {
@@ -3685,6 +4085,14 @@
    "team": "Atalanta",
    "dir": "out",
    "date": "2026-06-30",
+   "player": "E. Gyabuaa",
+   "to": "Salernitana",
+   "type": "Transfer"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "out",
+   "date": "2026-06-30",
    "player": "J. Sassi",
    "to": "Avellino",
    "type": "Transfer"
@@ -3712,6 +4120,14 @@
    "player": "M. Palestra",
    "to": "Chelsea",
    "type": "Transfer"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "in",
+   "date": "2026-06-30",
+   "player": "Jacopo Mirra",
+   "from": "AS Roma",
+   "type": "Free agent"
   },
   {
    "team": "Bologna",
@@ -4018,6 +4434,14 @@
    "type": "Transfer"
   },
   {
+   "team": "Inter",
+   "dir": "in",
+   "date": "2026-06-30",
+   "player": "M. Marello",
+   "from": "Udinese",
+   "type": "Transfer"
+  },
+  {
    "team": "Juventus",
    "dir": "out",
    "date": "2026-06-30",
@@ -4269,6 +4693,14 @@
    "team": "Parma",
    "dir": "in",
    "date": "2026-06-30",
+   "player": "L. Varali",
+   "from": "Hellas Verona",
+   "type": "Transfer"
+  },
+  {
+   "team": "Parma",
+   "dir": "in",
+   "date": "2026-06-30",
    "player": "S. Lontani",
    "from": "Parma",
    "type": "Free agent"
@@ -4395,19 +4827,19 @@
   },
   {
    "team": "Torino",
-   "dir": "out",
-   "date": "2026-06-30",
-   "player": "Arthur Spadoni",
-   "to": "Avellino",
-   "type": "Transfer"
-  },
-  {
-   "team": "Torino",
    "dir": "in",
    "date": "2026-06-30",
    "player": "A. Luongo",
    "from": "Torino U20",
    "type": "-"
+  },
+  {
+   "team": "Torino",
+   "dir": "out",
+   "date": "2026-06-30",
+   "player": "Arthur Spadoni",
+   "to": "Avellino",
+   "type": "Transfer"
   },
   {
    "team": "Udinese",
@@ -4439,6 +4871,14 @@
    "date": "2026-06-30",
    "player": "A. Zanoli",
    "from": "Napoli",
+   "type": "Transfer"
+  },
+  {
+   "team": "Udinese",
+   "dir": "out",
+   "date": "2026-06-30",
+   "player": "M. Marello",
+   "to": "Inter",
    "type": "Transfer"
   },
   {
@@ -4533,6 +4973,14 @@
    "team": "Atalanta",
    "dir": "in",
    "date": "2026-06-29",
+   "player": "V. Vlahović",
+   "from": "Spezia",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "in",
+   "date": "2026-06-29",
    "player": "T. Bertini",
    "from": "Arzignano Valchiampo",
    "type": "Return from loan"
@@ -4583,6 +5031,14 @@
    "date": "2026-06-29",
    "player": "G. Cittadini",
    "from": "Frosinone",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "S. Giovane",
+   "from": "Palermo",
    "type": "Return from loan"
   },
   {
@@ -4672,6 +5128,14 @@
    "player": "B. Godfrey",
    "from": "Brondby",
    "type": "Return from loan"
+  },
+  {
+   "team": "Atalanta",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "F. Kessié",
+   "from": "Al-Ahli Jeddah",
+   "type": "Free agent"
   },
   {
    "team": "Atalanta",
@@ -5522,6 +5986,14 @@
    "type": "Transfer"
   },
   {
+   "team": "Como",
+   "dir": "out",
+   "date": "2026-06-29",
+   "player": "A. Baralla",
+   "to": "Empoli",
+   "type": "Return from loan"
+  },
+  {
    "team": "Fiorentina",
    "dir": "in",
    "date": "2026-06-29",
@@ -6363,6 +6835,14 @@
   },
   {
    "team": "Inter",
+   "dir": "out",
+   "date": "2026-06-29",
+   "player": "M. Marello",
+   "to": "Udinese",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Inter",
    "dir": "in",
    "date": "2026-06-29",
    "player": "M. Zamarian",
@@ -6375,14 +6855,6 @@
    "date": "2026-06-29",
    "player": "D. Quieto",
    "from": "Latina",
-   "type": "Return from loan"
-  },
-  {
-   "team": "Inter",
-   "dir": "out",
-   "date": "2026-06-29",
-   "player": "M. Marello",
-   "to": "Udinese",
    "type": "Return from loan"
   },
   {
@@ -6627,19 +7099,19 @@
   },
   {
    "team": "Juventus",
-   "dir": "in",
-   "date": "2026-06-29",
-   "player": "J. Quattrocchi",
-   "from": "Argentino Quilmes",
-   "type": "Return from loan"
-  },
-  {
-   "team": "Juventus",
    "dir": "out",
    "date": "2026-06-29",
    "player": "J. Quattrocchi",
    "to": "Acassuso",
    "type": "Free agent"
+  },
+  {
+   "team": "Juventus",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "J. Quattrocchi",
+   "from": "Argentino Quilmes",
+   "type": "Return from loan"
   },
   {
    "team": "Juventus",
@@ -6923,19 +7395,19 @@
   },
   {
    "team": "Monza",
-   "dir": "in",
-   "date": "2026-06-29",
-   "player": "A. Sorrentino",
-   "from": "Padova",
-   "type": "Return from loan"
-  },
-  {
-   "team": "Monza",
    "dir": "out",
    "date": "2026-06-29",
    "player": "A. Sorrentino",
    "to": "Padova",
    "type": "Transfer"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "A. Sorrentino",
+   "from": "Padova",
+   "type": "Return from loan"
   },
   {
    "team": "Monza",
@@ -7011,19 +7483,19 @@
   },
   {
    "team": "Monza",
-   "dir": "in",
-   "date": "2026-06-29",
-   "player": "F. Ondoa",
-   "from": "Estoril",
-   "type": "Transfer"
-  },
-  {
-   "team": "Monza",
    "dir": "out",
    "date": "2026-06-29",
    "player": "G. Caso",
    "to": "Modena",
    "type": "Return from loan"
+  },
+  {
+   "team": "Monza",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "F. Ondoa",
+   "from": "Estoril",
+   "type": "Transfer"
   },
   {
    "team": "Napoli",
@@ -7437,14 +7909,6 @@
    "team": "Parma",
    "dir": "in",
    "date": "2026-06-29",
-   "player": "D. Terrnava",
-   "from": "Perugia",
-   "type": "Return from loan"
-  },
-  {
-   "team": "Parma",
-   "dir": "in",
-   "date": "2026-06-29",
    "player": "G. Daffara",
    "from": "Juventus",
    "type": "Transfer"
@@ -7453,8 +7917,32 @@
    "team": "Parma",
    "dir": "in",
    "date": "2026-06-29",
+   "player": "D. Terrnava",
+   "from": "Perugia",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Parma",
+   "dir": "in",
+   "date": "2026-06-29",
    "player": "N. Trabucchi",
    "from": "Dolomiti Bellunesi",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Parma",
+   "dir": "out",
+   "date": "2026-06-29",
+   "player": "L. Varali",
+   "to": "Hellas Verona",
+   "type": "Return from loan"
+  },
+  {
+   "team": "Parma",
+   "dir": "in",
+   "date": "2026-06-29",
+   "player": "M. Campatelli",
+   "from": "Chievo",
    "type": "Return from loan"
   },
   {
