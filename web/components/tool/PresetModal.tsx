@@ -185,8 +185,8 @@ export function PresetModal({
 
       <label className="chk" style={{ margin: "14px 0 6px" }}>
         <input type="checkbox" checked={fillPrice} onChange={(e) => setFillPrice(e.target.checked)} />
-        Precompila anche il prezzo target (Tgt) consigliato: il FVM del giocatore (+ bonus
-        rigorista), riscalato sul tuo budget totale se diverso da 500 crediti
+        Precompila anche il prezzo target (Tgt) consigliato: % del budget totale per slot di
+        ruolo (1° slot il più caro, poi a scendere) + bonus rigorista
       </label>
       <label className="chk" style={{ margin: "0 0 14px" }}>
         <input type="checkbox" checked={resetFirst} onChange={(e) => setResetFirst(e.target.checked)} />

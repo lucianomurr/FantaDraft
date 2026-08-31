@@ -9,6 +9,36 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (31/08/2026): prezzo target — terza versione, curva % budget a due velocità
+Luciano ha respinto anche la versione FVM-diretto appena fatta: voleva
+esattamente la formula che aveva scritto lui fin dall'inizio (`Prezzo =
+Budget × %Reparto × %Slot`, con la sua tabella di percentuali per slot),
+non un sostituto. Chiarito con una domanda mirata (invece di ricodificare
+una terza volta a naso): le percentuali della sua tabella sono per-slot
+indicative, NON devono sommare al budget del reparto — normale che 1° e 2°
+slot da soli superino il 90% del reparto attacco, tanto non compri mai
+tutti i candidati F1-F4.
+
+Riscritto `computeLivePrices`: % del budget TOTALE (non di reparto) per il
+1° slot di ogni ruolo, media dei range di Luciano (`SLOT1_PCT`: P 9%, D
+7.5%, C 11%, A 35%). Calo dal 1° al 2° slot ripido (`SLOT_DROP_1_2=0.35`,
+dal suo dato attacco 12%/35%≈0.34); dal 2° in poi calo più dolce
+(`SLOT_DROP_REST=0.68`, non documentato da Luciano — dichiarato come
+euristica per evitare che gli slot di profondità (3°-8°) crollino quasi a
+zero come nella versione precedente). Bonus rigorista ora percentuale
+(+15%/+5%, come chiesto — prima era un bonus fisso a credito). Pavimento
+a 2 crediti (sotto R che resta a 1) per non arrivare mai a 0 sui candidati
+molto profondi di un reparto con tante fasce F1-F4 piene.
+
+Verificato in browser sui due casi contestati: Martinez L. (Inter, F1
+attacco, rank2) 64cr — prima 55/57, ora sopra; Ramos G. (Milan, F2
+attacco, rank5 circa) 20cr — prima 2, ora un prezzo da rotazione
+plausibile. Solo i candidati molto in fondo alla fascia F1-F4 di un
+reparto (es. 12°+ attaccante su 26 candidati con le quote di default)
+toccano ancora il pavimento di 2cr — conseguenza delle quote F1-F4 già
+esistenti nel preset (che tierano molti più giocatori di quanti slot reali
+esistano), non della formula prezzo in sé.
+
 ## FATTO (31/08/2026): prezzo target = FVM (scartato il modello a torta/slot)
 Luciano ha applicato la versione a curva-per-slot appena fatta e trovato
 due esempi concreti che la smontano: Ramos G. (Milan, attaccante titolare
