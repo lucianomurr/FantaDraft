@@ -80,6 +80,43 @@ export function computeLivePreset(players: Player[], params: PresetParams): Reco
   return result;
 }
 
+/** Prezzo target consigliato: per ogni reparto, il budget allocato (cfg[ruolo])
+ * viene diviso tra i giocatori in fascia 1-4 di quel ruolo proporzionalmente
+ * al FVM — chi vale di più nel punteggio preset si prende una fetta più
+ * grande dello stesso budget. Fascia R è fissa a 1 credito (per definizione
+ * "riserva da un credito"); fascia X (evita) e i senza fascia non hanno un
+ * prezzo consigliato (non li stai comprando). Somma dei consigliati per
+ * reparto ≈ budget del reparto SE prendi tutti i giocatori in fascia 1-4 —
+ * in pratica ne prenderai una parte, è un punto di partenza da aggiustare
+ * all'asta, non una previsione di spesa reale. */
+export function computeLivePrices(
+  players: Player[],
+  tierMap: Record<number, Tier>,
+  cfg: Record<Role, number>,
+  mantra: boolean,
+): Record<number, number> {
+  const prices: Record<number, number> = {};
+  const byRole: Record<Role, Player[]> = { P: [], D: [], C: [], A: [] };
+  for (const p of players) byRole[p.r].push(p);
+
+  for (const r of ROLES) {
+    const tiered = byRole[r].filter((p) => {
+      const t = tierMap[p.id];
+      return t === "1" || t === "2" || t === "3" || t === "4";
+    });
+    const totalFvm = tiered.reduce((sum, p) => sum + activeFvm(p, mantra), 0);
+    const budget = cfg[r] ?? 0;
+    for (const p of tiered) {
+      const fvm = activeFvm(p, mantra);
+      prices[p.id] = totalFvm > 0 ? Math.max(1, Math.round((fvm / totalFvm) * budget)) : 1;
+    }
+  }
+  for (const p of players) {
+    if (tierMap[p.id] === "R") prices[p.id] = 1;
+  }
+  return prices;
+}
+
 export function countByTier(tierMap: Record<number, Tier>): Record<Tier, number> {
   const out: Record<Tier, number> = { "1": 0, "2": 0, "3": 0, "4": 0, R: 0, X: 0 };
   for (const t of Object.values(tierMap)) out[t]++;

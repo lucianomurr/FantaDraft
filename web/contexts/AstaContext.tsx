@@ -42,7 +42,12 @@ type Action =
   | { type: "SET_TGT"; id: number; tgt: number | null }
   | { type: "SET_PAID"; id: number; paid: number | null }
   | { type: "SET_STATUS"; id: number; status: Status }
-  | { type: "APPLY_COMPUTED_PRESET"; tierMap: Record<number, Tier>; resetFirst: boolean }
+  | {
+      type: "APPLY_COMPUTED_PRESET";
+      tierMap: Record<number, Tier>;
+      priceMap?: Record<number, number>;
+      resetFirst: boolean;
+    }
   | { type: "RESET_LIVE" }
   | { type: "RESET_ALL" }
   | { type: "IMPORT"; cfg: RoleAllocation; st: TrackingState }
@@ -103,7 +108,7 @@ function reducer(state: AstaState, action: Action): AstaState {
       if (action.resetFirst) {
         st = {};
         for (const [id, s] of Object.entries(state.st)) {
-          st[Number(id)] = { ...s, t: null };
+          st[Number(id)] = { ...s, t: null, tgt: action.priceMap ? null : s.tgt };
         }
       }
       const next = { ...st };
@@ -111,7 +116,8 @@ function reducer(state: AstaState, action: Action): AstaState {
         const id = Number(idStr);
         const cur = ensurePlayerState(next, id);
         if (action.resetFirst || !cur.t) {
-          next[id] = { ...cur, t: tier };
+          const price = action.priceMap?.[id];
+          next[id] = { ...cur, t: tier, tgt: price != null ? price : cur.tgt };
         }
       }
       return { ...state, st: next };
@@ -154,7 +160,11 @@ interface AstaContextValue {
   setTgt: (id: number, tgt: number | null) => void;
   setPaid: (id: number, paid: number | null) => void;
   setStatus: (id: number, status: Status) => void;
-  applyComputedPreset: (tierMap: Record<number, Tier>, resetFirst: boolean) => void;
+  applyComputedPreset: (
+    tierMap: Record<number, Tier>,
+    resetFirst: boolean,
+    priceMap?: Record<number, number>,
+  ) => void;
   resetLive: () => void;
   resetAll: () => void;
   importState: (cfg: RoleAllocation, st: TrackingState) => void;
@@ -327,16 +337,18 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
       setTgt,
       setPaid,
       setStatus,
-      applyComputedPreset: (tierMap, resetFirst) => {
+      applyComputedPreset: (tierMap, resetFirst, priceMap) => {
         const ids = Object.keys(tierMap).map(Number);
         const count = resetFirst ? ids.length : ids.filter((id) => !state.st[id]?.t).length;
         if (count === 0) {
           toast("Nessuna fascia da aggiornare con questi parametri (spunta \"azzera\" per sovrascrivere)");
           return;
         }
-        dispatch({ type: "APPLY_COMPUTED_PRESET", tierMap, resetFirst });
+        dispatch({ type: "APPLY_COMPUTED_PRESET", tierMap, priceMap, resetFirst });
         toast(
-          `Preset applicato a ${count} giocatori` + (resetFirst ? " (fasce azzerate prima)" : ""),
+          `Preset applicato a ${count} giocatori` +
+            (priceMap ? " (con prezzo target consigliato)" : "") +
+            (resetFirst ? " (fasce azzerate prima)" : ""),
         );
       },
       resetLive: () => {

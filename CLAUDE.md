@@ -9,6 +9,33 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (31/08/2026): prezzo target consigliato nel Preset fasce
+Richiesta di Luciano dopo aver visto le fasce funzionare: precompilare anche
+il Tgt (prezzo target), non solo la fascia. Estende `PresetModal.tsx`
+esistente invece di creare un flusso separato — stessa modale, nuova
+checkbox "Precompila anche il prezzo target" (default ON).
+
+`computeLivePrices()` in `preset.ts`: per ogni reparto, il budget allocato
+(`cfg[ruolo]`) viene diviso tra i giocatori F1-F4 di quel ruolo in
+proporzione al FVM attivo (Classic/Mantra) — chi vale di più nel punteggio
+preset si prende una fetta più grande dello stesso budget. Fascia R fissa a
+1 credito, fascia X (evita) e senza fascia restano senza prezzo (`—`, non
+ha senso un prezzo per un giocatore che non compri). Dichiarato nella UI
+come punto di partenza da aggiustare all'asta, non una previsione di spesa
+reale (la somma per reparto tocca il budget SOLO se prendi tutti i F1-F4,
+in pratica ne prendi una parte).
+
+Reducer (`AstaContext.tsx`, `APPLY_COMPUTED_PRESET`): nuovo campo opzionale
+`priceMap` sull'azione. Il prezzo si applica ESATTAMENTE quando si applica
+la fascia (stessa condizione `resetFirst || !cur.t`) — se un giocatore ha
+già una fascia manuale e non viene toccata, non gli si cambia nemmeno il
+Tgt, per evitare di sovrascrivere un prezzo pensato per una fascia diversa
+da quella che il preset calcolerebbe ora. La checkbox "azzera fasce" ora
+azzera anche i Tgt quando il prefill prezzo è attivo (stesso interruttore,
+un solo concetto "riparti da zero"). Verificato in browser: dopo "Applica
+preset" con entrambe le checkbox, sia Fascia che Tgt si popolano insieme
+riga per riga, proporzionali al FVM dentro ogni reparto.
+
 ## FATTO (31/08/2026): stagione 2026/27 nello storico giocatore (2 giornate)
 Richiesta di Luciano: vedere anche i dati della stagione in corso, non solo
 2025/26 e 2024/25. Deciso di NON farla diventare la stagione primaria (quella

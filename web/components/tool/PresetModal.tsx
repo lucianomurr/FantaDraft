@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { useAsta } from "../../contexts/AstaContext";
-import { computeLivePreset, countByTier, DEFAULT_PRESET_PARAMS } from "../../lib/preset";
+import { computeLivePreset, computeLivePrices, countByTier, DEFAULT_PRESET_PARAMS } from "../../lib/preset";
 import type { PresetParams } from "../../lib/preset";
 import { RNAME } from "../../lib/roles";
 import type { Player, Role, Tier } from "../../lib/types";
@@ -45,17 +45,23 @@ export function PresetModal({
   const { applyComputedPreset, cfg } = useAsta();
   const [params, setParams] = useState<PresetParams>(() => cloneParams(DEFAULT_PRESET_PARAMS));
   const [resetFirst, setResetFirst] = useState(false);
+  const [fillPrice, setFillPrice] = useState(true);
 
   useEffect(() => {
     if (open) {
       setParams(cloneParams({ ...DEFAULT_PRESET_PARAMS, mantra: cfg.mantra, modDifesa: cfg.modDifesa }));
       setResetFirst(false);
+      setFillPrice(true);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
 
   const tierMap = useMemo(() => computeLivePreset(players, params), [players, params]);
   const counts = useMemo(() => countByTier(tierMap), [tierMap]);
+  const priceMap = useMemo(
+    () => computeLivePrices(players, tierMap, cfg, params.mantra),
+    [players, tierMap, cfg, params.mantra],
+  );
 
   function setQuota(role: Role, tierIdx: number, value: number) {
     setParams((prev) => {
@@ -66,7 +72,7 @@ export function PresetModal({
   }
 
   function confirm() {
-    applyComputedPreset(tierMap, resetFirst);
+    applyComputedPreset(tierMap, resetFirst, fillPrice ? priceMap : undefined);
     onClose();
   }
 
@@ -177,10 +183,15 @@ export function PresetModal({
         </div>
       </div>
 
-      <label className="chk" style={{ margin: "14px 0" }}>
+      <label className="chk" style={{ margin: "14px 0 6px" }}>
+        <input type="checkbox" checked={fillPrice} onChange={(e) => setFillPrice(e.target.checked)} />
+        Precompila anche il prezzo target (Tgt) consigliato: budget del reparto diviso tra i
+        titolari di fascia 1-4 in proporzione al FVM
+      </label>
+      <label className="chk" style={{ margin: "0 0 14px" }}>
         <input type="checkbox" checked={resetFirst} onChange={(e) => setResetFirst(e.target.checked)} />
-        Azzera le fasce attuali prima di applicare (altrimenti tocca solo i giocatori senza
-        fascia)
+        Azzera le fasce (e i prezzi, se sopra è spuntato) attuali prima di applicare — altrimenti
+        tocca solo i giocatori senza fascia
       </label>
 
       <div style={{ display: "flex", gap: 8 }}>
