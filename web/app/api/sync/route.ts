@@ -4,18 +4,27 @@ import { NextRequest, NextResponse } from "next/server";
 // via codice a 6 cifre, backend Upstash Redis (REST API, no SDK). TTL 48h — non è
 // storage permanente, solo un ponte per far vedere lo stesso stato a 2 device
 // durante l'asta live. Nessun dato sensibile: solo id giocatori/fasce/prezzi.
-// Env richieste su Vercel: UPSTASH_REDIS_REST_URL, UPSTASH_REDIS_REST_TOKEN.
+// Env richieste su Vercel: UPSTASH_REDIS_REST_URL/TOKEN — MA l'integrazione
+// Marketplace di Vercel (Storage -> Upstash for Redis -> Connect) le inietta
+// prefissate col nome scelto per il database (qui "FANTA_DRAFT_KV_REST_API_URL"/
+// "_TOKEN"), non con quei nomi standard: controlla entrambe le varianti.
+function envUrl() {
+  return process.env.UPSTASH_REDIS_REST_URL || process.env.FANTA_DRAFT_KV_REST_API_URL;
+}
+function envToken() {
+  return process.env.UPSTASH_REDIS_REST_TOKEN || process.env.FANTA_DRAFT_KV_REST_API_TOKEN;
+}
 
 const CODE_RE = /^\d{6}$/;
 const TTL_SECONDS = 60 * 60 * 48;
 
 function upstashConfigured() {
-  return Boolean(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
+  return Boolean(envUrl() && envToken());
 }
 
 async function upstash(command: (string | number)[]) {
-  const url = process.env.UPSTASH_REDIS_REST_URL!;
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN!;
+  const url = envUrl()!;
+  const token = envToken()!;
   const res = await fetch(url, {
     method: "POST",
     headers: { Authorization: `Bearer ${token}`, "Content-Type": "application/json" },
