@@ -9,6 +9,34 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (01/09/2026): alternative simili anche in modalità asta mobile
+Luciano ha notato che la modalità "Inizia asta" (mobile, `LiveAuctionMode.tsx`)
+non aveva i suggerimenti di alternative già presenti da tempo su desktop
+(`PlayerCardModal.tsx`, sezione "Preso da altri — alternative simili").
+Richiesta esplicita insieme alla richiesta: le alternative non devono mai
+includere giocatori già presi. Non serviva nulla di nuovo lato dati —
+`findSimilarPlayers` (`lib/similar.ts`) filtra già `status === "free"`, quindi
+riusarla tale e quale nella vista mobile soddisfa il vincolo automaticamente,
+non serviva un filtro aggiuntivo.
+
+`PlayerFocus` in `LiveAuctionMode.tsx` ora riceve `allPlayers`/`tracking` e un
+`onSelectAlt` (riusa lo stesso `pick()` già usato dai risultati di ricerca) —
+quando lo stato è "out" mostra la stessa lista di alternative libere, righe
+grandi toccabili (riusate le classi `.liveresrow`/`.liveresname`/
+`.liveresteam`/`.liveresfvm` già esistenti per i risultati di ricerca, stesso
+linguaggio visivo, niente stile nuovo) che aprono direttamente quel giocatore
+al tap. Serviva un override CSS (`.livealtlist{flex:none;padding:0;margin:0}`)
+perché `.liveresults` è pensato per riempire tutto lo schermo nella vista di
+ricerca (`flex:1`, padding orizzontale) — dentro una `.livesection` normale
+quel padding avrebbe disallineato la lista dal resto della card.
+
+Verificato in browser (dev locale, live mode aperta via JS dato che il
+bottone "Inizia asta" è nascosto da CSS sopra 700px — limite noto di questo
+ambiente con `resize_window`): segnato Svilar "Altri", comparse le 4
+alternative libere per ruolo P (Carnesecchi, Butez, Maignan, De Gea) — Svilar
+stesso correttamente escluso dalla propria lista di alternative. Tap su
+un'alternativa apre la sua scheda nella stessa vista.
+
 ## FATTO (01/09/2026): griglia portieri + suggerimento coppia migliore
 Richiesta di Luciano con screenshot di una griglia esterna (20×20 squadre):
 per ogni coppia, quante giornate su 38 vedono ENTRAMBE le squadre in

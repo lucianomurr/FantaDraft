@@ -4,7 +4,8 @@ import { useMemo, useRef, useState } from "react";
 import { useAsta, useTracking } from "../../contexts/AstaContext";
 import { computeBudgetSummary } from "../../lib/budget";
 import { RNAME } from "../../lib/roles";
-import type { DerivedPlayer, PlayerState, Tier } from "../../lib/types";
+import { findSimilarPlayers } from "../../lib/similar";
+import type { DerivedPlayer, PlayerState, Tier, TrackingState } from "../../lib/types";
 import { SyncControl } from "./SyncControl";
 
 const RMAP: Record<string, string> = { P: "rP", D: "rD", C: "rC", A: "rA" };
@@ -95,7 +96,10 @@ export function LiveAuctionMode({
         <PlayerFocus
           p={selected}
           s={getPlayerState(selected.id)}
+          allPlayers={players}
+          tracking={st}
           onBack={back}
+          onSelectAlt={pick}
           setTier={setTier}
           setTgt={setTgt}
           setPaid={setPaid}
@@ -109,7 +113,10 @@ export function LiveAuctionMode({
 function PlayerFocus({
   p,
   s,
+  allPlayers,
+  tracking,
   onBack,
+  onSelectAlt,
   setTier,
   setTgt,
   setPaid,
@@ -117,12 +124,17 @@ function PlayerFocus({
 }: {
   p: DerivedPlayer;
   s: PlayerState;
+  allPlayers: DerivedPlayer[];
+  tracking: TrackingState;
   onBack: () => void;
+  onSelectAlt: (id: number) => void;
   setTier: (id: number, tier: Tier | null) => void;
   setTgt: (id: number, tgt: number | null) => void;
   setPaid: (id: number, paid: number | null) => void;
   setStatus: (id: number, status: "free" | "mine" | "out") => void;
 }) {
+  const isOut = s.s === "out";
+  const similar = isOut ? findSimilarPlayers(p, allPlayers, tracking) : [];
   return (
     <div className="livecard">
       <button type="button" className="ghost sm liveback" onClick={onBack}>
@@ -138,6 +150,28 @@ function PlayerFocus({
           </div>
         </div>
       </div>
+
+      {isOut && (
+        <div className="livesection">
+          <div className="livelabel">🔄 Preso da altri — alternative libere</div>
+          {similar.length === 0 ? (
+            <div className="hint">Nessuna alternativa libera trovata per questo ruolo.</div>
+          ) : (
+            <ul className="liveresults livealtlist">
+              {similar.map((alt) => (
+                <li key={alt.id}>
+                  <button type="button" className="liveresrow" onClick={() => onSelectAlt(alt.id)}>
+                    <span className={`rbadge ${RMAP[alt.r]}`}>{alt.r}</span>
+                    <span className="liveresname">{alt.n}</span>
+                    <span className="liveresteam">{alt.s}</span>
+                    <span className="liveresfvm">{alt.f}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
 
       <div className="livestats">
         <div className="livestatbox">
