@@ -1,6 +1,6 @@
-matched 456/524
+matched 457/526
 
-CROSS-TEAM ACCEPTED (108) — da revisionare:
+CROSS-TEAM ACCEPTED (112) — da revisionare:
   P Vicario (Juventus) -> Guglielmo Vicario [Tottenham ENG-Premier League] s2526
   P Perri (Torino) -> Lucas Perri [Leeds United ENG-Premier League] s2526
   P Mascardi (Torino) -> Diego Mascardi [Spezia ITA-Serie B] s2526
@@ -42,6 +42,7 @@ CROSS-TEAM ACCEPTED (108) — da revisionare:
   D Favasuli (Napoli) -> Costantino Favasuli [Catanzaro ITA-Serie B] s2526
   D Balerdi (Roma) -> Leonardo Balerdi [Marseille FRA-Ligue 1] s2526
   D Floriani Mussolini (Lazio) -> Romano Floriani [Cremonese ITA-Serie A] s2526
+  D Juan Jesus (Venezia) -> Juan Jesus [Napoli ITA-Serie A] s2526
   D Kofler (Cagliari) -> Raphael Kofler [FC Südtirol ITA-Serie B] s2526
   D Kambwala (Como) -> Willy Kambwala [Villarreal ESP-La Liga] s2526
   D Tchato (Frosinone) -> Enzo Tchato [Montpellier FRA-Ligue 1] s2425
@@ -50,7 +51,8 @@ CROSS-TEAM ACCEPTED (108) — da revisionare:
   D Van Der Brempt (Sassuolo) -> Ignace Van Der Brempt [Como ITA-Serie A] s2526
   D Aurelio (Cagliari) -> Giuseppe Aurelio [Spezia ITA-Serie B] s2526
   D Ebosse (Udinese) -> Enzo Ebosse [Hellas Verona ITA-Serie A] s2526
-  D Missori (Sassuolo) -> Filippo Missori [Avellino ITA-Serie B] s2526
+  D Mazzocchi (Venezia) -> Pasquale Mazzocchi [Napoli ITA-Serie A] s2526
+  D Ziolkowski (Monza) -> Jan Ziółkowski [Roma ITA-Serie A] s2526
   D Dembelè A. (Lecce) -> Ali Dembélé [Torino ITA-Serie A] s2526
   C Atta (Fiorentina) -> Arthur Atta [Udinese ITA-Serie A] s2526
   C Frattesi (Lazio) -> Davide Frattesi [Inter ITA-Serie A] s2526
@@ -78,6 +80,7 @@ CROSS-TEAM ACCEPTED (108) — da revisionare:
   C Zerbin (Frosinone) -> Alessio Zerbin [Cremonese ITA-Serie A] s2526
   C Dominguez B. (Sassuolo) -> Benjamín Domínguez [Bologna ITA-Serie A] s2526
   C Fadera (Cagliari) -> Alieu Fadera [Sassuolo ITA-Serie A] s2526
+  C Massolin (Cagliari) -> Yanis Massolin [Modena ITA-Serie B] s2526
   C Sohm (Venezia) -> Simon Sohm [Bologna ITA-Serie A] s2526
   C Traorè Hj. (Genoa) -> Hamed Junior Traorè [Bournemouth ENG-Premier League] s2526
   C Ricci S. (Como) -> Samuele Ricci [Milan ITA-Serie A] s2526
@@ -86,6 +89,7 @@ CROSS-TEAM ACCEPTED (108) — da revisionare:
   C De Roon (Roma) -> Marten de Roon [Atalanta ITA-Serie A] s2526
   C Fabbian (Parma) -> Giovanni Fabbian [Bologna ITA-Serie A] s2526
   C Masini (Frosinone) -> Patrizio Masini [Genoa ITA-Serie A] s2526
+  C Gagliardini (Cagliari) -> Roberto Gagliardini [Hellas Verona ITA-Serie A] s2526
   C Hasa (Frosinone) -> Luis Hasa [Carrarese ITA-Serie B] s2526
   C Helgason (Venezia) -> Þórir Jóhann Helgason [Lecce ITA-Serie A] s2526
   C Lahdo (Como) -> Mayckel Lahdo [Nantes FRA-Ligue 1] s2526
@@ -110,9 +114,9 @@ CROSS-TEAM ACCEPTED (108) — da revisionare:
   A Ekhator (Juventus) -> Jeff Ekhator [Genoa ITA-Serie A] s2526
   A Robinson J. (Monza) -> Jay Robinson [Southampton ENG-Premier League] s2425
 
-UNMATCHED (68):
+UNMATCHED (69):
   P Happonen (Bologna) FVM 1
-  P Tornqvist (Como) FVM 1
+  P Tornqvist (Monza) FVM 1
   P Vigorito (Como) FVM 1
   P Lolic (Frosinone) FVM 1
   P Stolz (Genoa) FVM 1
@@ -151,6 +155,7 @@ UNMATCHED (68):
   C Alajbegovic (Juventus) FVM 50
   C Moreira (Milan) FVM 50
   C Kessiè (Atalanta) FVM 47
+  C Monteiro J. (Lecce) FVM 22
   C Oulai (Fiorentina) FVM 20
   C Milla (Como) FVM 20
   C Fitz-Jim (Torino) FVM 18

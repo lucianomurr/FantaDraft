@@ -7,7 +7,7 @@ Zero account: apri il tool nel browser e prepari l'asta coi numeri. Completament
 
 ## Cosa fa
 
-- **524 giocatori** con quotazioni ufficiali 2026/27 (Qt + FVM)
+- **526 giocatori** con quotazioni ufficiali 2026/27 (Qt + FVM)
 - **Statistiche reali** di 2 stagioni da FBref (gol, rigori, assist, minuti, titolarità) —
   Big 5 europei + Serie B, quindi anche neopromossi e nuovi arrivi
 - **xG e xA da Understat** per distinguere chi è forte da chi è stato fortunato
