@@ -9,6 +9,44 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (01/09/2026): giro completo (9°) — 526 giocatori, giornata 2 giocata, post-chiusura mercato
+Mercato chiuso ieri (1/09), asta 2-3/09. Quotazioni aggiornate da xlsx fresco
+(524→526: +4 nuovi — Juan Jesus Venezia, Gagliardini Cagliari, Massolin
+Cagliari, Monteiro J. Lecce — -2 usciti — Gimenez Milan, Missori Sassuolo).
+
+Formazioni rifatte tutte e 6 le fonti (SOS Fanta via curl+regex sul testo
+grezzo, FantaMaster/Goal via WebFetch, Eurosport via browser — curl bloccato
+403 Akamai, Gazzetta via script `fetch_gazzetta.py`, Fantacalcio.it via
+script dedicato). Bug trovato in Eurosport: 9 nomi con iniziale anteposta
+("M.Thuram" invece di "Thuram") non agganciavano — `split_name()` in
+`build_formazioni.py` strip solo le iniziali FINALI, non quelle iniziali;
+patchato a mano sulla fonte (rimossa l'iniziale anteposta) invece di
+toccare il matcher condiviso. 18/1320 non agganciati residui, quasi tutti
+nomi non ancora nel listone (Belghali Torino confermato da 3 fonti
+indipendenti — segnale forte di acquisto last-minute, si chiuderà da solo
+al prossimo giro quotazioni, stesso pattern già visto più volte).
+
+Rigoristi: un cambio reale da Gazzetta, Fiorentina Kean→Mastantuono (gli
+altri "cambi" rilevati nel diff erano solo differenze di encoding accenti
+dal fetch fresco, non cambi di gerarchia).
+
+Statistiche 2026/27: la cache HTML di FBref (soccerdata) era rimasta a
+ieri mattina, PRIMA che la giornata 2 finisse — il fetch è ripartito dalla
+cache stale (tutti i giocatori fermi a MP=1) finché non ho cancellato la
+cache e rifetchato con `no_cache=True`. Confermato dopo: Atalanta e
+compagni ora a MP=2 con minuti coerenti. Stagione 2026/27 resta comunque
+SOLO nello storico (`hist`), non stagione primaria (2 giornate ancora
+troppo poche) — invariato dal 31/08.
+
+Bug collaterale rifatto (già noto, ripetuto per distrazione): lanciato
+`merge_stats.py` senza far seguire subito `merge_understat.py` — xG
+azzerato a 0 per tutti temporaneamente (stesso bug documentato il
+27/08). Rilanciato `merge_understat.py` subito dopo essersene accorto dal
+contatore landing (con xg: 0 invece di ~350), xG ripristinato (349
+giocatori coperti). Contatori landing/README aggiornati ai numeri reali
+ricontati (526 giocatori, 457 con dati, 349 xG coperti, 153 arrivi
+tracciati), non solo incrementati a memoria.
+
 ## FATTO (31/08/2026): prezzo target — terza versione, curva % budget a due velocità
 Luciano ha respinto anche la versione FVM-diretto appena fatta: voleva
 esattamente la formula che aveva scritto lui fin dall'inizio (`Prezzo =
