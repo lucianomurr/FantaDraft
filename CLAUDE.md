@@ -9,6 +9,47 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (01/09/2026): griglia portieri + suggerimento coppia migliore
+Richiesta di Luciano con screenshot di una griglia esterna (20×20 squadre):
+per ogni coppia, quante giornate su 38 vedono ENTRAMBE le squadre in
+trasferta (euristica "parte chi gioca in casa" — questo è il numero di
+giornate in cui nessuno dei due portieri avrebbe un'indicazione forte).
+Voleva un modo per farsi SUGGERIRE la coppia migliore, non solo vedere la
+griglia.
+
+Invece di trascrivere a mano lo screenshot (190 celle, rischio di errore),
+calcolato il calendario 2026/27 completo (38 giornate, già pubblicato per
+intero anche se giocate solo le prime 2) via `soccerdata.FBref.
+read_schedule()` e ricavata la griglia programmaticamente — più affidabile
+e ripetibile. Verificato contro i valori che Luciano aveva citato a mano:
+Parma-Sassuolo 4 ✓, Atalanta-Frosinone 5 ✓, i tre 0 delle stracittadine
+(Inter-Milan, Lazio-Roma, Juventus-Torino) ✓ — sull'unico punto che non
+tornava (Sassuolo-Genoa, lui diceva 4, calcolato 7) ho tenuto il dato
+calcolato: è la stessa fonte (calendario ufficiale) che ha azzeccato tutti
+gli altri controlli, quasi certamente una lettura imprecisa dello
+screenshot da parte sua, non un errore del calcolo.
+
+Nuovo script `scripts/build_gk_grid.py` (scrive `gkgrid.json`, va
+ricopiato in `web/data/gkgrid.json` come gli altri dataset — non serve
+rifarlo ad ogni giornata giocata, il calendario stagionale è fisso).
+Nuovo `web/lib/gkgrid.ts`: `suggestGkPairs()` accoppia ogni squadra al suo
+presunto titolare (più fonti tit, poi FVM più alto), ordina per giornate
+scoperte crescenti, poi FVM combinato crescente (costo — priorità esplicita
+di Luciano, "per ragioni di costo-opportunità"), poi gol subiti combinati
+come ultimo spareggio. Le stracittadine (0 scoperte per costruzione del
+calendario, non un vero segnale) sono escluse dal Top 6 di default — prima
+versione le mostrava in cima e affogavano i suggerimenti utili, corretto
+dopo averlo notato in browser, coerente con "oltre agli 0" della richiesta
+originale di Luciano.
+
+Nuovo pannello `GkGridPanel.tsx` (stesso pattern `<details className="strat">`
+di Probabili formazioni): Top 6 coppie consigliate + un "confronta due
+squadre" a due select per controllare coppie specifiche fuori dal Top 6.
+Verificato in browser: Top 6 con Napoli+Roma (3/38, il minimo reale non
+notato da Luciano — bonus della ricerca esaustiva rispetto allo scorrere a
+occhio), Parma+Sassuolo (25cr, la coppia economica che aveva in mente lui)
+subito sotto grazie alla priorità costo nello spareggio.
+
 ## FATTO (01/09/2026): giro completo (9°) — 526 giocatori, giornata 2 giocata, post-chiusura mercato
 Mercato chiuso ieri (1/09), asta 2-3/09. Quotazioni aggiornate da xlsx fresco
 (524→526: +4 nuovi — Juan Jesus Venezia, Gagliardini Cagliari, Massolin
