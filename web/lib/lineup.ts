@@ -1,4 +1,5 @@
 import type { DerivedPlayer, Role, TrackingState } from "./types";
+import { productionScore } from "./production";
 
 /** I 7 moduli classici Fantacalcio (1 portiere sempre, D+C+A=10, D 3-5, C 3-5, A 1-3). */
 const MODULI: { d: number; c: number; a: number }[] = [
@@ -17,6 +18,23 @@ const MODULI: { d: number; c: number; a: number }[] = [
  * scavalca mai un titolare con un dato reale sopra il 50%. */
 const FALLBACK_PCT = 50;
 
+/** Bonus additivo (non moltiplicativo) da produzione attesa, sommato alla
+ * probabilità di titolarità per l'ordinamento — resta un correttivo, non il
+ * criterio principale ("anche in base a xG/xA", non "solo"): a parità di
+ * probabilità di titolarità decide chi produce di più, ma un +5-10% di
+ * probabilità reale pesa comunque più di un bonus da produzione. Scala
+ * dichiarata come euristica, da ritarare a occhio: xG+xA cumulato stagione
+ * per D/C/A (un attaccante forte è sui 15-25, un difensore sotto i 3) diviso
+ * 2 e tetto a +10; Val per i portieri (scala diversa, es. 100+) diviso 10 e
+ * stesso tetto +10. */
+function productionBonus(p: DerivedPlayer): number {
+  return Math.min(10, Math.max(0, productionScore(p) / (p.r === "P" ? 10 : 2)));
+}
+
+function lineupScore(p: DerivedPlayer): number {
+  return (p.startPct ?? FALLBACK_PCT) + productionBonus(p);
+}
+
 export interface LineupSuggestion {
   modulo: string;
   starters: DerivedPlayer[]; // 11, ordinati P poi D poi C poi A
@@ -29,24 +47,32 @@ function byRole(players: DerivedPlayer[]): Record<Role, DerivedPlayer[]> {
   const out: Record<Role, DerivedPlayer[]> = { P: [], D: [], C: [], A: [] };
   for (const p of players) out[p.r].push(p);
   for (const r of Object.keys(out) as Role[]) {
-    out[r].sort((a, b) => (b.startPct ?? FALLBACK_PCT) - (a.startPct ?? FALLBACK_PCT));
+    out[r].sort((a, b) => lineupScore(b) - lineupScore(a));
   }
   return out;
 }
 
-/** Suggerisce fino a 2 formazioni (moduli diversi) per la rosa posseduta
- * (`status === "mine"`), scegliendo per ogni modulo i giocatori con la
- * probabilità di titolarità più alta per la giornata corrente in ciascun
- * ruolo. Euristica greedy per modulo (non un solutore combinatorio globale):
- * per rose complete (25 giocatori) è comunque ottimale, dato che ordinare per
- * probabilità decrescente dentro ogni ruolo e prendere i primi N è la scelta
- * migliore possibile una volta fissato il modulo. */
+/** Giocatori posseduti (`status === "mine"`) attualmente infortunati — esclusi
+ * a monte dai titolari suggeriti (mai una buona idea schierarli), ma mostrati
+ * a parte così l'utente sa perché non compaiono. */
+export function injuredMine(allPlayers: DerivedPlayer[], tracking: TrackingState): DerivedPlayer[] {
+  return allPlayers.filter((p) => tracking[p.id]?.s === "mine" && p.inj != null);
+}
+
+/** Suggerisce fino a 2 formazioni (moduli diversi) per la rosa posseduta e
+ * non infortunata, scegliendo per ogni modulo i giocatori con probabilità di
+ * titolarità più alta per la giornata corrente in ciascun ruolo, corretta da
+ * un bonus di produzione attesa (xG/xA, Val per i portieri). Euristica greedy
+ * per modulo (non un solutore combinatorio globale): per rose complete (25
+ * giocatori) è comunque ottimale, dato che ordinare per punteggio decrescente
+ * dentro ogni ruolo e prendere i primi N è la scelta migliore possibile una
+ * volta fissato il modulo. */
 export function suggestLineups(
   allPlayers: DerivedPlayer[],
   tracking: TrackingState,
   limit = 2,
 ): LineupSuggestion[] {
-  const mine = allPlayers.filter((p) => tracking[p.id]?.s === "mine");
+  const mine = allPlayers.filter((p) => tracking[p.id]?.s === "mine" && p.inj == null);
   const grouped = byRole(mine);
 
   const results: LineupSuggestion[] = [];

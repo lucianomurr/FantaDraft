@@ -9,6 +9,45 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (02/09/2026): formazione consigliata — modale in header, infortuni, bonus xG/xA
+Luciano ha chiesto 3 cose sul pannello appena fatto: (1) spostarlo in un
+bottone header invece che inline nella pagina, (2) attivo solo a rosa
+completa, (3) far entrare infortuni e xG/xA nel calcolo, non solo la
+percentuale di titolarità.
+
+**Modale invece di pannello inline**: `LineupPanel.tsx` (details/summary)
+sostituito da `LineupModal.tsx` (stesso `ModalShell` di Preset
+fasce/Legenda — pattern già consolidato, niente linguaggio nuovo). Nuovo
+bottone header "📋 Formazione", `disabled` finché la rosa non è completa —
+calcolato in `Header.tsx` stesso (già ha `st` da `useAsta()`, gli serviva
+solo `players` come nuova prop) contando i "mine" per ruolo contro
+`RTARGET` (3P/8D/8C/6A): tutti e 4 i ruoli pieni, non solo il totale 25,
+altrimenti una rosa sbilanciata (es. 10D 0A) risulterebbe "completa" senza
+esserlo per davvero. `title` sul bottone spiega perché è disattivato.
+
+**Infortuni**: `injuredMine()` in `lib/lineup.ts` filtra la rosa a
+`status==="mine" && inj != null` e li esclude A MONTE dai candidati titolari
+in `suggestLineups` (non solo un badge come altrove nel tool — qui vanno
+tolti dal calcolo, sennò il suggerimento propone un giocatore fuori). Il
+modale li elenca comunque in un banner rosso ("Esclusi perché infortunati:
+...") così l'utente capisce perché non compaiono, coerente con lo stile
+trasparente del resto del tool.
+
+**Bonus xG/xA**: `productionScore()` (già esistente ma privata dentro
+`lib/similar.ts` per "alternative simili") estratta in `lib/production.ts`
+condiviso. Punteggio per ordinare i titolari ora è `startPct + bonus`
+(additivo, non moltiplicativo — "anche in base a" xG/xA, non "solo": un
++5-10% di probabilità reale di titolarità deve poter comunque battere il
+bonus da produzione). Bonus = xG+xA cumulato stagione /2 per D/C/A, Val/10
+per i portieri (scale diverse tra loro), tetto a +10 in entrambi i casi —
+euristica dichiarata come tale nel commento, da ritarare a occhio come le
+altre costanti simili nel progetto.
+
+Verificato in browser: rosa incompleta → bottone disabilitato con tooltip;
+completata a 25/25 (3P/8D/8C/6A) → bottone attivo, modale mostra 2 XI
+validi (3-4-3 e 3-5-2) escludendo correttamente McTominay e Thuram K.
+(entrambi infortunati nel refresh di oggi), col banner rosso a spiegarlo.
+
 ## FATTO (02/09/2026): formazione consigliata post-asta (percentuali SOS Fanta)
 Richiesta di Luciano: dopo l'asta, con la rosa fatta, suggerire 1-2 probabili
 XI da schierare per la giornata corrente. Ha segnalato lui stesso la fonte

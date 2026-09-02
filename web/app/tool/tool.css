@@ -21,6 +21,8 @@ header.top{display:flex;flex-wrap:wrap;align-items:center;gap:12px;justify-conte
 .live-enter{display:none}
 button{font-family:inherit;cursor:pointer;border:none;border-radius:8px;padding:7px 11px;font-size:13px;background:var(--panel2);color:var(--txt);border:1px solid var(--line);transition:.12s}
 button:hover{background:#252f43}
+button:disabled{opacity:.4;cursor:not-allowed}
+button:disabled:hover{background:var(--panel2)}
 button.pri{background:var(--acc);border-color:var(--acc);color:#fff}
 button.pri:hover{filter:brightness(1.08)}
 button.ghost{background:transparent}

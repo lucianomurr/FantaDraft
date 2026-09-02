@@ -16,7 +16,7 @@ import { BudgetPanel } from "../../components/tool/BudgetPanel";
 import { StrategiaPromemoria } from "../../components/tool/StrategiaPromemoria";
 import { ProbabiliFormazioni } from "../../components/tool/ProbabiliFormazioni";
 import { GkGridPanel } from "../../components/tool/GkGridPanel";
-import { LineupPanel } from "../../components/tool/LineupPanel";
+import { LineupModal } from "../../components/tool/LineupModal";
 import { FilterBar } from "../../components/tool/FilterBar";
 import { PlayersTable } from "../../components/tool/PlayersTable";
 import { PlayerCardModal } from "../../components/tool/PlayerCardModal";
@@ -57,6 +57,7 @@ function ToolInner() {
 
   const [legendOpen, setLegendOpen] = useState(false);
   const [presetOpen, setPresetOpen] = useState(false);
+  const [lineupOpen, setLineupOpen] = useState(false);
   const [liveMode, setLiveMode] = useState(false);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
@@ -103,8 +104,10 @@ function ToolInner() {
   return (
     <div className="tool-wrap">
       <Header
+        players={PLAYERS}
         onShowLegend={() => setLegendOpen(true)}
         onShowPreset={() => setPresetOpen(true)}
+        onShowLineup={() => setLineupOpen(true)}
         onStartLive={() => setLiveMode(true)}
         updatedAt={UPDATED_AT}
       />
@@ -114,7 +117,6 @@ function ToolInner() {
       <StrategiaPromemoria />
       <ProbabiliFormazioni forms={FORMS} />
       <GkGridPanel players={PLAYERS} gkgrid={GKGRID} />
-      <LineupPanel players={derived} giornata={GIORNATA} />
 
       <FilterBar teams={TEAMS} count={visible.length} />
 
@@ -143,6 +145,12 @@ function ToolInner() {
       />
       <LegendModal open={legendOpen} onClose={() => setLegendOpen(false)} />
       <PresetModal players={PLAYERS} open={presetOpen} onClose={() => setPresetOpen(false)} />
+      <LineupModal
+        players={derived}
+        giornata={GIORNATA}
+        open={lineupOpen}
+        onClose={() => setLineupOpen(false)}
+      />
       <OnboardingModal
         open={onboardingOpen}
         onClose={() => setOnboardingOpen(false)}
