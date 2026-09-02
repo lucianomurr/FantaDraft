@@ -1,5 +1,5 @@
 import type { Player, RoleAllocation, TrackingState, Role } from "./types";
-import { ROLES, RTARGET } from "./roles";
+import { ROLES } from "./roles";
 
 export interface RoleBudget {
   role: Role;
@@ -53,10 +53,10 @@ export function computeBudgetSummary(
     const mine = byRole[r].mine;
     const resid = alloc - spent;
     const pct = alloc ? Math.min(100, (spent / alloc) * 100) : 0;
-    return { role: r, alloc, spent, mine, resid, pct, over: spent > alloc, slotsTarget: RTARGET[r] };
+    return { role: r, alloc, spent, mine, resid, pct, over: spent > alloc, slotsTarget: cfg.slots[r] };
   });
 
-  const totalSlots = ROLES.reduce((a, r) => a + RTARGET[r], 0);
+  const totalSlots = ROLES.reduce((a, r) => a + cfg.slots[r], 0);
   const emptySlots = totalSlots - totalMine;
   const remaining = cfg.budget - totalSpent;
   const maxBid = remaining - Math.max(0, emptySlots - 1);

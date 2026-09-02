@@ -1,4 +1,5 @@
 import type { PersistedState, RoleAllocation, TrackingState } from "./types";
+import { RTARGET } from "./roles";
 
 export const STORAGE_KEY = "fanta_asta_2627_v1";
 
@@ -10,6 +11,7 @@ export const DEFAULT_CFG: RoleAllocation = {
   A: 285,
   mantra: false,
   modDifesa: false,
+  slots: { ...RTARGET },
 };
 
 export function loadPersisted(): PersistedState | null {

@@ -53,11 +53,12 @@ function PlayerCardBody({
   onClose: () => void;
   onOpenCard: (id: number) => void;
 }) {
-  const { cfg, st } = useAsta();
+  const { cfg, st, toggleFav } = useAsta();
   const eta = p.born ? CURRENT_YEAR - p.born : null;
   const nat = p.nat ? (NAT[p.nat] ?? p.nat) : "—";
   const { tit, ballOnly, empty, titCls } = titBallDots(p, numFormSources);
   const isOut = st[p.id]?.s === "out";
+  const isFav = !!st[p.id]?.fav;
   const similar = isOut ? findSimilarPlayers(p, allPlayers, st) : [];
 
   return (
@@ -66,6 +67,16 @@ function PlayerCardBody({
         ✕
       </button>
       <div className="phead">
+        <button
+          type="button"
+          className={`favstar${isFav ? " on" : ""}`}
+          style={{ fontSize: 20 }}
+          title={isFav ? "Togli dai preferiti" : "Aggiungi ai preferiti"}
+          aria-pressed={isFav}
+          onClick={() => toggleFav(p.id)}
+        >
+          {isFav ? "★" : "☆"}
+        </button>
         <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
         <h2>{p.n}</h2>
         <span className="team">{p.s}</span>

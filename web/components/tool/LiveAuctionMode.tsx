@@ -19,7 +19,7 @@ export function LiveAuctionMode({
   onClose: () => void;
 }) {
   const { cfg, st } = useAsta();
-  const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useTracking();
+  const { getPlayerState, setTier, setTgt, setPaid, setStatus, toggleFav } = useTracking();
   const [q, setQ] = useState("");
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const searchRef = useRef<HTMLInputElement>(null);
@@ -81,6 +81,7 @@ export function LiveAuctionMode({
                 <li key={p.id}>
                   <button type="button" className={`liveresrow${s.s === "out" ? " out" : ""}${s.s === "mine" ? " mine" : ""}`} onClick={() => pick(p.id)}>
                     <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
+                    {s.fav && <span className="favstar on" style={{ pointerEvents: "none" }}>★</span>}
                     <span className="liveresname">{p.n}</span>
                     <span className="liveresteam">{p.s}</span>
                     <span className="liveresfvm">{p.f}</span>
@@ -104,6 +105,7 @@ export function LiveAuctionMode({
           setTgt={setTgt}
           setPaid={setPaid}
           setStatus={setStatus}
+          toggleFav={toggleFav}
         />
       )}
     </div>
@@ -121,6 +123,7 @@ function PlayerFocus({
   setTgt,
   setPaid,
   setStatus,
+  toggleFav,
 }: {
   p: DerivedPlayer;
   s: PlayerState;
@@ -132,6 +135,7 @@ function PlayerFocus({
   setTgt: (id: number, tgt: number | null) => void;
   setPaid: (id: number, paid: number | null) => void;
   setStatus: (id: number, status: "free" | "mine" | "out") => void;
+  toggleFav: (id: number) => void;
 }) {
   const isOut = s.s === "out";
   const similar = isOut ? findSimilarPlayers(p, allPlayers, tracking) : [];
@@ -144,7 +148,19 @@ function PlayerFocus({
       <div className="livehead">
         <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
         <div>
-          <div className="livename">{p.n}</div>
+          <div className="livename">
+            <button
+              type="button"
+              className={`favstar${s.fav ? " on" : ""}`}
+              style={{ fontSize: 18 }}
+              title={s.fav ? "Togli dai preferiti" : "Aggiungi ai preferiti"}
+              aria-pressed={!!s.fav}
+              onClick={() => toggleFav(p.id)}
+            >
+              {s.fav ? "★" : "☆"}
+            </button>
+            {p.n}
+          </div>
           <div className="team">
             {p.s} · {RNAME[p.r]}
           </div>

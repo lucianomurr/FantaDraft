@@ -25,6 +25,7 @@ export function filterPlayers(
 
     if (f.hideOut && s?.s === "out") return false;
     if (f.onlyMine && s?.s !== "mine") return false;
+    if (f.onlyFav && !s?.fav) return false;
     return true;
   });
 }

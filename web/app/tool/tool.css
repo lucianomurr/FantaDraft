@@ -161,6 +161,9 @@ details.strat[open] .stbody{padding-bottom:14px}
 .editbudget{display:flex;gap:6px;align-items:center;flex-wrap:wrap;margin-top:4px}
 .editbudget label{font-size:11px;color:var(--muted)}
 .editbudget input{width:60px;text-align:right}
+.favstar{background:none;border:none;padding:0;margin:0 5px 0 0;font-size:15px;line-height:1;color:var(--muted);cursor:pointer;vertical-align:middle}
+.favstar:hover{color:var(--warn)}
+.favstar.on{color:var(--warn)}
 .name .pname{background:none;border:none;padding:0;margin:0;font:inherit;font-weight:inherit;color:inherit;cursor:pointer;border-bottom:1px dotted var(--muted)}
 .name .pname:hover{color:var(--acc)}
 .name .pname:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:3px}

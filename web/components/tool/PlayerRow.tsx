@@ -98,7 +98,7 @@ export const PlayerRow = memo(function PlayerRow({
   onOpenCard: (id: number) => void;
   mantra: boolean;
 }) {
-  const { getPlayerState, setTier, setTgt, setPaid, setStatus } = useTracking();
+  const { getPlayerState, setTier, setTgt, setPaid, setStatus, toggleFav } = useTracking();
   const s = getPlayerState(p.id);
   const rowCls = s.s === "mine" ? "mine" : s.s === "out" ? "out" : "";
   const { tit, ballOnly, empty, titCls, title: titTitle } = titBallDots(p, numFormSources);
@@ -106,6 +106,15 @@ export const PlayerRow = memo(function PlayerRow({
   return (
     <tr className={rowCls}>
       <td className="name">
+        <button
+          type="button"
+          className={`favstar${s.fav ? " on" : ""}`}
+          title={s.fav ? "Togli dai preferiti" : "Aggiungi ai preferiti"}
+          aria-pressed={!!s.fav}
+          onClick={() => toggleFav(p.id)}
+        >
+          {s.fav ? "★" : "☆"}
+        </button>
         <button type="button" className="pname" title="Apri scheda giocatore" onClick={() => onOpenCard(p.id)}>
           {p.n}
         </button>

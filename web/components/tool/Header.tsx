@@ -2,7 +2,7 @@
 
 import { useMemo, useRef } from "react";
 import { useAsta } from "../../contexts/AstaContext";
-import { RTARGET, ROLES } from "../../lib/roles";
+import { ROLES } from "../../lib/roles";
 import type { Player } from "../../lib/types";
 import { SyncControl } from "./SyncControl";
 
@@ -24,16 +24,17 @@ export function Header({
   const { cfg, st, resetLive, resetAll, importState, toast } = useAsta();
   const fileRef = useRef<HTMLInputElement>(null);
 
-  // "Rosa completa" = ogni ruolo ha raggiunto il suo target (3P/8D/8C/6A) —
-  // solo a quel punto la formazione consigliata ha senso (prima mancano
-  // ancora candidati per riempire un modulo valido in qualche ruolo).
+  // "Rosa completa" = ogni ruolo ha raggiunto il suo target configurato
+  // (cfg.slots, default 3P/8D/8C/6A) — solo a quel punto la formazione
+  // consigliata ha senso (prima mancano ancora candidati per riempire un
+  // modulo valido in qualche ruolo).
   const rosterComplete = useMemo(() => {
     const mineByRole: Record<string, number> = { P: 0, D: 0, C: 0, A: 0 };
     for (const p of players) {
       if (st[p.id]?.s === "mine") mineByRole[p.r]++;
     }
-    return ROLES.every((r) => mineByRole[r] >= RTARGET[r]);
-  }, [players, st]);
+    return ROLES.every((r) => mineByRole[r] >= cfg.slots[r]);
+  }, [players, st, cfg.slots]);
 
   function exportData() {
     const blob = new Blob([JSON.stringify({ cfg, st, ts: new Date().toISOString() }, null, 2)], {
@@ -99,7 +100,11 @@ export function Header({
           className="ghost sm"
           onClick={onShowLineup}
           disabled={!rosterComplete}
-          title={rosterComplete ? undefined : "Disponibile a rosa completa (3P/8D/8C/6A)"}
+          title={
+            rosterComplete
+              ? undefined
+              : `Disponibile a rosa completa (${cfg.slots.P}P/${cfg.slots.D}D/${cfg.slots.C}C/${cfg.slots.A}A)`
+          }
         >
           📋 Formazione
         </button>

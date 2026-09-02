@@ -82,6 +82,14 @@ export function FilterBar({ teams, count }: { teams: string[]; count: number }) 
       <label className="chk">
         <input
           type="checkbox"
+          checked={filters.onlyFav}
+          onChange={(e) => setFilters({ onlyFav: e.target.checked })}
+        />
+        ⭐ Solo preferiti
+      </label>
+      <label className="chk">
+        <input
+          type="checkbox"
           checked={filters.onlyPen}
           onChange={(e) => setFilters({ onlyPen: e.target.checked })}
         />

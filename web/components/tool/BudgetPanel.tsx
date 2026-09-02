@@ -78,6 +78,49 @@ export function BudgetPanel({ players }: { players: Player[] }) {
             Allocati {sum} / {cfg.budget} cr
           </span>
         </div>
+        <div className="editbudget" style={{ marginTop: 4 }}>
+          <span className="hint" style={{ width: "100%" }}>
+            Slot di rosa per ruolo (quanti ne compri in tutto — default 3/8/8/6, cambia se la tua
+            lega usa regole diverse):
+          </span>
+          <span className="ebfield">
+            <label>Porta</label>
+            <input
+              type="number"
+              min={1}
+              value={cfg.slots.P}
+              onChange={(e) => setCfg({ slots: { ...cfg.slots, P: +e.target.value || 1 } })}
+            />
+          </span>
+          <span className="ebfield">
+            <label>Difesa</label>
+            <input
+              type="number"
+              min={1}
+              value={cfg.slots.D}
+              onChange={(e) => setCfg({ slots: { ...cfg.slots, D: +e.target.value || 1 } })}
+            />
+          </span>
+          <span className="ebfield">
+            <label>Centr.</label>
+            <input
+              type="number"
+              min={1}
+              value={cfg.slots.C}
+              onChange={(e) => setCfg({ slots: { ...cfg.slots, C: +e.target.value || 1 } })}
+            />
+          </span>
+          <span className="ebfield">
+            <label>Att.</label>
+            <input
+              type="number"
+              min={1}
+              value={cfg.slots.A}
+              onChange={(e) => setCfg({ slots: { ...cfg.slots, A: +e.target.value || 1 } })}
+            />
+          </span>
+          <span className="hint">Totale rosa: {cfg.slots.P + cfg.slots.D + cfg.slots.C + cfg.slots.A}</span>
+        </div>
       </details>
 
       <div className="grid-cards">

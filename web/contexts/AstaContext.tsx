@@ -42,6 +42,7 @@ type Action =
   | { type: "SET_TGT"; id: number; tgt: number | null }
   | { type: "SET_PAID"; id: number; paid: number | null }
   | { type: "SET_STATUS"; id: number; status: Status }
+  | { type: "TOGGLE_FAV"; id: number }
   | {
       type: "APPLY_COMPUTED_PRESET";
       tierMap: Record<number, Tier>;
@@ -63,6 +64,7 @@ const initialFilters: FilterState = {
   onlyMine: false,
   onlyPen: false,
   onlyTit: false,
+  onlyFav: false,
   mrole: "",
 };
 
@@ -76,7 +78,7 @@ const initialState: AstaState = {
 };
 
 function ensurePlayerState(st: TrackingState, id: number): PlayerState {
-  return st[id] ?? { t: null, tgt: null, s: "free", p: null };
+  return st[id] ?? { t: null, tgt: null, s: "free", p: null, fav: false };
 }
 
 function reducer(state: AstaState, action: Action): AstaState {
@@ -102,6 +104,10 @@ function reducer(state: AstaState, action: Action): AstaState {
       const cur = ensurePlayerState(state.st, action.id);
       const p = action.status !== "mine" ? null : cur.p;
       return { ...state, st: { ...state.st, [action.id]: { ...cur, s: action.status, p } } };
+    }
+    case "TOGGLE_FAV": {
+      const cur = ensurePlayerState(state.st, action.id);
+      return { ...state, st: { ...state.st, [action.id]: { ...cur, fav: !cur.fav } } };
     }
     case "APPLY_COMPUTED_PRESET": {
       let st = state.st;
@@ -160,6 +166,7 @@ interface AstaContextValue {
   setTgt: (id: number, tgt: number | null) => void;
   setPaid: (id: number, paid: number | null) => void;
   setStatus: (id: number, status: Status) => void;
+  toggleFav: (id: number) => void;
   applyComputedPreset: (
     tierMap: Record<number, Tier>,
     resetFirst: boolean,
@@ -187,6 +194,7 @@ interface TrackingContextValue {
   setTgt: (id: number, tgt: number | null) => void;
   setPaid: (id: number, paid: number | null) => void;
   setStatus: (id: number, status: Status) => void;
+  toggleFav: (id: number) => void;
 }
 
 const TrackingCtx = createContext<TrackingContextValue | null>(null);
@@ -317,10 +325,11 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
     },
     [toast],
   );
+  const toggleFav = useCallback((id: number) => dispatch({ type: "TOGGLE_FAV", id }), []);
 
   const trackingValue = useMemo<TrackingContextValue>(
-    () => ({ getPlayerState, setTier, setTgt, setPaid, setStatus }),
-    [getPlayerState, setTier, setTgt, setPaid, setStatus],
+    () => ({ getPlayerState, setTier, setTgt, setPaid, setStatus, toggleFav }),
+    [getPlayerState, setTier, setTgt, setPaid, setStatus, toggleFav],
   );
 
   const value = useMemo<AstaContextValue>(
@@ -337,6 +346,7 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
       setTgt,
       setPaid,
       setStatus,
+      toggleFav,
       applyComputedPreset: (tierMap, resetFirst, priceMap) => {
         const ids = Object.keys(tierMap).map(Number);
         const count = resetFirst ? ids.length : ids.filter((id) => !state.st[id]?.t).length;
@@ -384,6 +394,7 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
       setTgt,
       setPaid,
       setStatus,
+      toggleFav,
       toast,
       toasts,
       syncCode,

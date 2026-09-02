@@ -113,6 +113,9 @@ export interface PlayerState {
   tgt: number | null;
   s: Status;
   p: number | null;
+  /** Preferenza personale ("stellina") — indipendente da fascia/stato, solo per
+   * ritrovare al volo i giocatori che vuoi tenere d'occhio durante l'asta. */
+  fav: boolean;
 }
 
 export type TrackingState = Record<number, PlayerState>;
@@ -127,6 +130,9 @@ export interface RoleAllocation {
   mantra: boolean;
   /** Modificatore difesa attivo — pesa di più portieri/difensori nel preset fasce. */
   modDifesa: boolean;
+  /** Quanti slot di rosa per ruolo (default 3P/8D/8C/6A, configurabile per leghe
+   * con regole diverse) — separato dall'allocazione crediti P/D/C/A sopra. */
+  slots: Record<Role, number>;
 }
 
 export interface PersistedState {
@@ -143,6 +149,7 @@ export interface FilterState {
   onlyMine: boolean;
   onlyPen: boolean;
   onlyTit: boolean;
+  onlyFav: boolean;
   /** Filtro ruolo Mantra (uno dei MANTRA_ROLES) — "" = tutti. */
   mrole: string;
 }

@@ -9,6 +9,38 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (02/09/2026): slot di rosa configurabili + stellina preferiti
+Due richieste separate di Luciano.
+
+**Slot di rosa configurabili**: finora 3P/8D/8C/6A era una costante fissa
+(`RTARGET` in `roles.ts`), usata solo in 3 punti (`budget.ts` per i
+contatori "presi X/Y", `Header.tsx` per il gate "rosa completa" della
+Formazione consigliata) — scope piccolo, modificato senza toccare
+`RTARGET` stesso (resta il default di riferimento). Nuovo campo
+`cfg.slots: Record<Role,number>` in `RoleAllocation`, seedato da `{
+...RTARGET }` in `DEFAULT_CFG` — il merge shallow già esistente in
+`loadPersisted()` copre da solo la migrazione per chi ha uno stato
+salvato pre-feature (stesso pattern già usato per mantra/modDifesa).
+Editabile in "Budget & allocazione" (`BudgetPanel.tsx`), 4 input numerici
+sotto quelli del budget crediti — deliberatamente un campo SEPARATO
+dall'allocazione crediti P/D/C/A (concetti distinti: quanti crediti vs
+quanti slot per ruolo). Verificato in browser: alzato Attaccanti da 6 a 7
+con rosa già a 6/6 → bottone "Formazione" si disattiva subito col tooltip
+aggiornato dinamicamente ("...6D/8C/7A"), riportato a 6 → si riattiva.
+
+**Stellina preferiti**: nuovo campo `fav: boolean` su `PlayerState`
+(indipendente da fascia/stato — solo per ritrovare al volo candidati
+d'interesse durante l'asta). Nuova azione reducer `TOGGLE_FAV`, esposta
+sia su `useTracking()` che su `useAsta()` come le altre azioni per-player.
+Stellina cliccabile (★/☆, classe `.favstar` riusabile) in 3 punti: riga
+tabella (prima del nome), scheda giocatore (accanto al badge ruolo), e
+focus giocatore della modalità asta mobile (dove compare anche come
+indicatore, non cliccabile, nei risultati di ricerca — utile a colpo
+d'occhio quando il giocatore viene chiamato). Nuovo filtro "⭐ Solo
+preferiti" in `FilterBar`/`filters.ts`, stesso pattern di "Solo miei".
+Verificato in browser: stellina su 2 giocatori, filtro mostra solo quei 2,
+stato coerente aprendo la scheda giocatore.
+
 ## FATTO (02/09/2026): formazione consigliata — modale in header, infortuni, bonus xG/xA
 Luciano ha chiesto 3 cose sul pannello appena fatto: (1) spostarlo in un
 bottone header invece che inline nella pagina, (2) attivo solo a rosa
