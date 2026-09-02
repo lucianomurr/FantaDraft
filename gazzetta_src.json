@@ -12,7 +12,7 @@
    "Kessie",
    "De Ketelaere",
    "Scamacca",
-   "Raspadori"
+   "Rowe"
   ],
   "ball": [],
   "rig": [
@@ -29,7 +29,7 @@
    "Heggem",
    "Theate",
    "Miranda",
-   "Moro",
+   "Pobega",
    "Ferguson",
    "Orsolini",
    "Bernardeschi",
@@ -53,8 +53,8 @@
    "Obert",
    "Romano",
    "Winks",
-   "Fazzini",
    "Adopo",
+   "Fazzini",
    "Maldini",
    "Carlos"
   ],
@@ -78,7 +78,7 @@
    "Diao",
    "Nico Paz",
    "Baturina",
-   "Douvikas"
+   "Kean"
   ],
   "ball": [],
   "rig": [
@@ -88,25 +88,25 @@
   ]
  },
  "Fiorentina": {
-  "mod": "4-3-2-1",
+  "mod": "4-3-3",
   "xi": [
    "De Gea",
    "Jimenez",
    "Dragusin",
    "Viery",
    "Valdepeñas",
-   "Fagioli",
+   "Ndour",
    "Oulai",
-   "Mandragora",
-   "Mastantuono",
    "Atta",
-   "Pellegrino"
+   "Mastantuono",
+   "Beto",
+   "Njie"
   ],
   "ball": [],
   "rig": [
-   "Gudmundsson",
-   "Mandragora",
-   "Mastantuono"
+   "Mastantuono",
+   "Beto",
+   "Atta"
   ]
  },
  "Frosinone": {
@@ -122,11 +122,12 @@
    "Schmid",
    "Hasa",
    "Zerbin",
-   "Bobcek"
+   "Raimondo"
   ],
   "ball": [],
   "rig": [
-   "Calò"
+   "Calò",
+   "Raimondo"
   ]
  },
  "Genoa": {
@@ -136,7 +137,7 @@
    "Marcandalli",
    "Ostigard",
    "Vasquez",
-   "Norton-Cuffy",
+   "Drameh",
    "Frendrup",
    "Sow",
    "Ellertsson",
@@ -185,7 +186,7 @@
    "Locatelli",
    "McKennie",
    "Conceiçao",
-   "Alajbegovic",
+   "Woltemade",
    "Yildiz",
    "Kolo Muani"
   ],
@@ -214,7 +215,7 @@
   "ball": [],
   "rig": [
    "Zaccagni",
-   "Taylor",
+   "Gudmundsson",
    "Cataldi"
   ]
  },
@@ -224,14 +225,14 @@
    "Falcone",
    "Veiga",
    "Gaspar",
-   "Siebert",
+   "Tiago Gabriel",
    "Gallo",
    "Coulibaly",
    "Ngom",
    "Ilic",
    "Pierotti",
    "Geubbels",
-   "Fatah"
+   "Monteiro"
   ],
   "ball": [],
   "rig": [
@@ -264,16 +265,16 @@
  "Monza": {
   "mod": "3-4-2-1",
   "xi": [
-   "Thiam",
-   "Kouadio",
-   "Lucchesi",
+   "Tornqvist",
+   "Ziolkowski",
+   "Goglichidze",
    "Carboni",
    "Birindelli",
    "Folorunsho",
    "Akinsanmiro",
    "Mangas",
    "Ngonge",
-   "Cutrone",
+   "Zeballos",
    "Varela"
   ],
   "ball": [],
@@ -309,7 +310,7 @@
   "xi": [
    "Daffara",
    "Delprato",
-   "Ndiaye",
+   "D.Carlos",
    "Troilo",
    "Valeri",
    "Fabbian",
@@ -326,7 +327,7 @@
   ]
  },
  "Roma": {
-  "mod": "3-4-2-1",
+  "mod": "3-4-1-2",
   "xi": [
    "Svilar",
    "Mancini",
@@ -336,8 +337,8 @@
    "Koné",
    "Cristante",
    "Wesley",
-   "Dybala",
    "Mora",
+   "Dybala",
    "Malen"
   ],
   "ball": [],
@@ -350,7 +351,7 @@
   "mod": "4-3-3",
   "xi": [
    "Muric",
-   "Walukiewicz",
+   "Van Der Brempt",
    "Idzes",
    "Leysen",
    "Doig",
@@ -358,7 +359,7 @@
    "Matic",
    "Adzic",
    "Berardi",
-   "Bowie",
+   "S.Esposito",
    "Laurienté"
   ],
   "ball": [],
@@ -369,19 +370,19 @@
   ]
  },
  "Torino": {
-  "mod": "3-4-2-1",
+  "mod": "3-4-1-2",
   "xi": [
    "Perri",
    "Comuzzo",
    "Coco",
    "Cömert",
-   "Fortini",
+   "Belghali",
+   "Mandragora",
    "Fitz-Jim",
-   "Luongo",
-   "Cacciamani",
+   "Fortini",
    "Vlasic",
-   "Casadei",
-   "Simeone"
+   "Simeone",
+   "Adams"
   ],
   "ball": [],
   "rig": [
@@ -394,15 +395,15 @@
   "mod": "3-4-2-1",
   "xi": [
    "Okoye",
-   "Bertola",
+   "Palma",
+   "Kabasele",
    "Solet",
-   "Ebosse",
-   "Zanoli",
+   "Vojvoda",
    "Miller",
    "Karlstrom",
    "Kamara",
    "Zaniolo",
-   "Unai Gomez",
+   "Ekkelenkamp",
    "Davis"
   ],
   "ball": [],
@@ -418,7 +419,7 @@
    "Stankovic",
    "Schingtienne",
    "Bella-Kotchap",
-   "Halhal",
+   "Juan Jesus",
    "Hainaut",
    "Kike Perez",
    "Busio",

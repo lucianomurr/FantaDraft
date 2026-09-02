@@ -9,6 +9,44 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (02/09/2026): giro completo (10°, definitivo) — 531 giocatori, mercato chiuso
+Ultimo giro prima dell'asta (2-3/09): mercato ufficialmente chiuso, listone
+"definitivo" scaricato da Luciano. Quotazioni 526→531 (+22 nuovi, quasi
+tutti acquisti last-minute già intercettati come "non agganciati" nei giri
+precedenti — Belghali Torino, Drameh Genoa, Sugawara Cagliari, Zeballos
+Monza compaiono finalmente nel listone, confermando ancora una volta il
+pattern "le fonti formazioni anticipano il listone, il gap si chiude da
+solo" — -17 usciti). FVM ricalcolati in modo pesante su tutto il listone
+col mercato chiuso (282 giocatori aggiornati, non solo i nuovi/usciti) —
+esempi: Malen 414→450, Svilar 75→85, Yildiz 150→100, Kean 187→183 +
+trasferito Fiorentina→Como.
+
+Formazioni rifatte tutte e 6 le fonti in parallelo (4 agent per SOS Fanta/
+FantaMaster/Eurosport/Goal + script dedicati per Gazzetta/Fantacalcio.it) —
+solo 6/1320 non agganciati stavolta (era 18 il giro precedente), tutti
+spiegabili: Ederson D.s. (refuso SOS Fanta noto da settimane), Konate/
+Pedersen/Luongo (non ancora nel listone), Mandragora citato ancora a
+Fiorentina da Gazzetta (trasferito a Torino, fonte non aggiornata),
+Norton-Cuffy citato da Gazzetta ma uscito dal listone (ceduto).
+
+Rigoristi: 3 cambi reali da Gazzetta coerenti coi trasferimenti — Fiorentina
+(Gudmundsson/Mandragora usciti → Mastantuono/Beto/Atta, tutti nuovi
+arrivi), Lazio (Taylor→Gudmundsson, appena arrivato da Fiorentina),
+Frosinone (aggiunge Raimondo).
+
+Infortunati rifetchati da zero (fantacalcio.it/infortunati-serie-a): 43/43
+agganciati, lista quasi completamente diversa da quella di 2 giorni fa
+(dato molto volatile come da nota già in `fonti_formazioni.md`) — nessuna
+riga riusata dal file precedente, riscritta a mano dal testo fresco.
+
+Stats/xG NON toccate in questo giro (nessuna nuova giornata giocata da
+giovedì scorso, mercato chiuso non richiede refresh statistiche) — questo
+ha anche evitato di reincappare nel bug noto "merge_stats.py azzera xg"
+semplicemente non lanciandolo. Contatori landing/README aggiornati ai
+numeri reali ricontati (531 giocatori, 442 con dati — sceso da 457 perché
+i 22 nuovi arrivi sono quasi tutti senza stat ancora, 337 xG coperti, 151
+arrivi tracciati).
+
 ## FATTO (01/09/2026): alternative simili anche in modalità asta mobile
 Luciano ha notato che la modalità "Inizia asta" (mobile, `LiveAuctionMode.tsx`)
 non aveva i suggerimenti di alternative già presenti da tempo su desktop

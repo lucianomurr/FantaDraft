@@ -9,17 +9,17 @@ import json, re, unicodedata
 
 PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
 
-GAZ_RIG = {  # 01/09/2026
+GAZ_RIG = {  # 02/09/2026
     "Atalanta": ["Scamacca", "De Ketelaere", "Samardzic"],
     "Bologna": ["Orsolini", "Dovbyk", "Bernardeschi"],
     "Cagliari": ["Mina", "Borrelli", "Fazzini"],
     "Como": ["Da Cunha", "Nico Paz", "Douvikas"],
-    "Fiorentina": ["Gudmundsson", "Mandragora", "Mastantuono"],
-    "Frosinone": ["Calò"],
+    "Fiorentina": ["Mastantuono", "Beto", "Atta"],
+    "Frosinone": ["Calò", "Raimondo"],
     "Genoa": ["Colombo", "Vitinha", "Ostigard", "Messias"],
     "Inter": ["Calhanoglu", "Zielinski", "Lautaro"],
     "Juventus": ["Kolo Muani", "Locatelli", "Yildiz"],
-    "Lazio": ["Zaccagni", "Taylor", "Cataldi"],
+    "Lazio": ["Zaccagni", "Gudmundsson", "Cataldi"],
     "Lecce": ["Stulic", "Berisha"],
     "Milan": ["Pulisic", "Ramos", "Modric"],
     "Monza": ["Pessina", "Cutrone"],
