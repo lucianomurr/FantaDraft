@@ -102,7 +102,12 @@ function reducer(state: AstaState, action: Action): AstaState {
     }
     case "SET_STATUS": {
       const cur = ensurePlayerState(state.st, action.id);
-      const p = action.status !== "mine" ? null : cur.p;
+      // Segnando "mine" senza un prezzo già inserito, precompila col prezzo
+      // target (se impostato) invece di lasciare 0 — altrimenti il budget per
+      // ruolo non si muove finché non si digita a mano il prezzo pagato,
+      // anche se il giocatore è già segnato come preso. Resta comunque solo
+      // una stima di partenza: l'utente la corregge al prezzo reale.
+      const p = action.status !== "mine" ? null : (cur.p ?? cur.tgt);
       return { ...state, st: { ...state.st, [action.id]: { ...cur, s: action.status, p } } };
     }
     case "TOGGLE_FAV": {
@@ -321,7 +326,8 @@ export function AstaProvider({ children }: { children: React.ReactNode }) {
   const setStatus = useCallback(
     (id: number, status: Status) => {
       dispatch({ type: "SET_STATUS", id, status });
-      if (status === "mine") toast("Preso! Inserisci il prezzo pagato.");
+      if (status === "mine")
+        toast("Preso! Se avevi un prezzo target lo uso come stima — correggilo col prezzo reale pagato.");
     },
     [toast],
   );

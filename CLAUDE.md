@@ -9,6 +9,25 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (02/09/2026): fix budget non scalato segnando "Io" senza prezzo
+Bug segnalato da Luciano: segnando un giocatore preso ("Io") il budget per
+ruolo non si muoveva. Non era un bug di calcolo — `computeBudgetSummary`
+somma correttamente `s.p` (prezzo pagato) per i "mine", ma cliccare "Io"
+da solo non l'ha mai valorizzato: serve digitarlo a mano nel campo
+"prezzo pagato" accanto, facile da non notare durante un'asta live sotto
+pressione (motivo per cui esiste già il toast "Inserisci il prezzo
+pagato" — evidentemente non bastava).
+
+Fix in `SET_STATUS` (`AstaContext.tsx`): segnando "mine" senza un prezzo
+già presente, precompila col prezzo target (`cur.tgt`) invece di lasciare
+vuoto/0 — il budget si aggiorna subito con una stima ragionevole (quella
+già decisa in fase di preparazione), l'utente la corregge al prezzo reale
+appena chiude l'asta per quel giocatore. Fix in un solo punto condiviso:
+copre sia la tabella desktop sia la modalità asta mobile, stessa azione
+dietro entrambe. Toast aggiornato per spiegarlo. Verificato in browser:
+Malen (Tgt 201) segnato "Io" → campo prezzo si precompila a 201, budget
+totale passa da 500 a 299 liberi immediatamente.
+
 ## FATTO (02/09/2026): slot di rosa configurabili + stellina preferiti
 Due richieste separate di Luciano.
 
