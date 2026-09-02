@@ -9,6 +9,48 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (02/09/2026): formazione consigliata post-asta (percentuali SOS Fanta)
+Richiesta di Luciano: dopo l'asta, con la rosa fatta, suggerire 1-2 probabili
+XI da schierare per la giornata corrente. Ha segnalato lui stesso la fonte
+giusta — SOS Fanta ha una pagina DIVERSA da quella già usata per le
+probabili formazioni stagionali (`lista-formazioni/probabili-formazioni-
+serie-a/`): specifica per la prossima giornata, percentuale 0-100 per ogni
+giocatore (titolari/ballottaggi/panchina), non un conteggio 0-6 fonti.
+Dato molto più volatile — CLAUDE.md la tratta esplicitamente come "da
+rifare ogni settimana", non solo pre-asta come le altre 5 fonti (vedi
+`fonti_formazioni.md`).
+
+Nuovi script `scripts/fetch_sosfanta_percentuali.py` (parser regex sull'HTML
+grezzo — niente bs4 nell'ambiente, stesso stile già usato per Gazzetta) +
+`scripts/merge_startpct.py` (aggancia per nome scopato alle 2 squadre del
+match, campo `startPct` su players_pen.json + `web/data/giornata.json` con
+periodo/data per la UI). 484/487 agganciati al primo giro; i 3 residui: un
+giocatore ancora fuori listone, e un'ambiguità genuina fra due Terracciano
+al Milan non risolvibile dal solo nome.
+
+Nuovo `web/lib/lineup.ts` (`suggestLineups`): filtra la rosa a `status ===
+"mine"`, prova i 7 moduli classici Fantacalcio (D 3-5, C 3-5, A 1-3, somma
+10 + 1 portiere), per ognuno prende semplicemente i migliori per `startPct`
+in ciascun ruolo (greedy per modulo — ottimale una volta fissato il modulo,
+non serve un solutore combinatorio) e restituisce i 2 moduli con media
+titolarità più alta, scartando duplicati con lo stesso identico XI. Player
+senza `startPct` (non agganciati quella settimana) prendono un fallback 50%
+neutro — restano selezionabili per riempire un modulo ma non scavalcano mai
+un titolare con dato reale sopra il 50%.
+
+Nuovo pannello `LineupPanel.tsx` (stesso pattern `<details className=
+"strat">` degli altri, righe `.liveresrow` riusate dalla modalità asta
+mobile per coerenza visiva). Stato vuoto esplicito se la rosa "Io" è
+vuota o troppo piccola per un modulo valido — il pannello è comunque
+sempre visibile (non nascosto pre-asta), coerente con lo stile trasparente
+del resto del tool. Disclaimer esplicito in UI: punto di partenza, non
+conosce infortuni dell'ultima ora.
+
+Verificato in browser: segnati 17 giocatori "Io" su ruoli misti via
+LiveAuctionMode, il pannello ha prodotto 2 formazioni distinte (3-4-3 e
+4-3-3) con gli 11 titolari corretti per ruolo e percentuali reali
+mostrate riga per riga.
+
 ## FATTO (02/09/2026): giro completo (10°, definitivo) — 531 giocatori, mercato chiuso
 Ultimo giro prima dell'asta (2-3/09): mercato ufficialmente chiuso, listone
 "definitivo" scaricato da Luciano. Quotazioni 526→531 (+22 nuovi, quasi

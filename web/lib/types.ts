@@ -61,6 +61,16 @@ export interface Player {
   gaTeam?: number | null;
   /** true = `ga` è il dato individuale reale del portiere, false = proxy di squadra. */
   gaIndividual?: boolean;
+  /** Probabilità di titolarità (0-100) per la GIORNATA CORRENTE, da SOS Fanta —
+   * a differenza di `tit` (conteggio 0-6 fonti, preview stagionale) è specifica
+   * della prossima giornata e va ri-fetchata ogni settimana. Assente se il
+   * giocatore non è stato agganciato in quel fetch. */
+  startPct?: number | null;
+}
+
+export interface GiornataMeta {
+  periodo: string | null;
+  aggiornato: string;
 }
 
 export interface TransferEvent {

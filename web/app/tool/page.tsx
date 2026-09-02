@@ -4,8 +4,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import playersRaw from "../../data/players.json";
 import formazioniRaw from "../../data/formazioni.json";
 import gkgridRaw from "../../data/gkgrid.json";
+import giornataRaw from "../../data/giornata.json";
 import meta from "../../data/meta.json";
-import type { Player, FormazioniData } from "../../lib/types";
+import type { Player, FormazioniData, GiornataMeta } from "../../lib/types";
 import type { GkGrid } from "../../lib/gkgrid";
 import { withDerivedAll } from "../../lib/scoring";
 import { filterPlayers, sortPlayers } from "../../lib/filters";
@@ -15,6 +16,7 @@ import { BudgetPanel } from "../../components/tool/BudgetPanel";
 import { StrategiaPromemoria } from "../../components/tool/StrategiaPromemoria";
 import { ProbabiliFormazioni } from "../../components/tool/ProbabiliFormazioni";
 import { GkGridPanel } from "../../components/tool/GkGridPanel";
+import { LineupPanel } from "../../components/tool/LineupPanel";
 import { FilterBar } from "../../components/tool/FilterBar";
 import { PlayersTable } from "../../components/tool/PlayersTable";
 import { PlayerCardModal } from "../../components/tool/PlayerCardModal";
@@ -27,6 +29,7 @@ import { ToastHost } from "../../components/tool/ToastHost";
 const PLAYERS = playersRaw as unknown as Player[];
 const FORMS = formazioniRaw as unknown as FormazioniData;
 const GKGRID = gkgridRaw as unknown as GkGrid;
+const GIORNATA = giornataRaw as unknown as GiornataMeta;
 const TEAMS = [...new Set(PLAYERS.map((p) => p.s))].sort();
 const UPDATED_AT = new Date(meta.aggiornato).toLocaleDateString("it-IT", {
   day: "numeric",
@@ -111,6 +114,7 @@ function ToolInner() {
       <StrategiaPromemoria />
       <ProbabiliFormazioni forms={FORMS} />
       <GkGridPanel players={PLAYERS} gkgrid={GKGRID} />
+      <LineupPanel players={derived} giornata={GIORNATA} />
 
       <FilterBar teams={TEAMS} count={visible.length} />
 

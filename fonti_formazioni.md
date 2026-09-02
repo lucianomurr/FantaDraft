@@ -64,6 +64,24 @@ ricostruire `formazioni_src.json` (stesso formato: sources[].teams.{squadra}.{mo
   `build_formazioni_src.py` NON tocca le altre 5 fonti già presenti nel file — per
   rifarle da zero serve comunque il fetch manuale di ciascuna (vedi sopra).
 
+## Percentuali di titolarità per la giornata corrente (aggiunto 02/09/2026)
+- URL: https://www.sosfanta.com/lista-formazioni/probabili-formazioni-serie-a/ —
+  a differenza delle 6 fonti sopra (preview stagionale, conteggio 0-6), questa
+  pagina è specifica per la PROSSIMA giornata di campionato e dà una
+  percentuale 0-100 per ogni giocatore (titolari, ballottaggi, panchina).
+  Usata da `web/lib/lineup.ts` per suggerire la formazione da schierare
+  dalla propria rosa dopo l'asta — dato molto più volatile delle altre
+  fonti, va rifatto ogni settimana prima di ogni giornata, non solo pre-asta.
+- Script dedicati:
+    python3 scripts/fetch_sosfanta_percentuali.py   # scrive sosfanta_percentuali.json
+    python3 scripts/merge_startpct.py                # aggancia startPct + scrive web/data/giornata.json
+  Poi come sempre: `cp players_pen.json web/data/players.json`.
+- Matching per nome scoped alle 2 squadre del match (stesso stile euristico
+  delle altre fonti) — alla prima esecuzione 484/487 agganciati, i residui
+  erano un giocatore non ancora nel listone e un'ambiguità genuina tra due
+  omonimi Milan (Terracciano / Terracciano F.), non risolvibile senza altro
+  contesto dalla pagina.
+
 ## Infortunati (aggiunto 06/08/2026)
 - Fonte: https://www.fantacalcio.it/infortunati-serie-a (WebFetch funziona)
 - Refresh: aggiornare `infortuni.json` + `python3 scripts/merge_infortuni.py` + regen HTML.

@@ -21,6 +21,10 @@ Zero account: apri il tool nel browser e prepari l'asta coi numeri. Completament
   aggressività soglie R/X, quote per ruolo) e anteprima live + fasce personali
   1/2/3/4/R/X con prezzi target
 - **Asta live**: tracking acquisti, budget residuo per reparto, massima offerta sostenibile
+- **Griglia portieri**: coppia di portieri migliore per copertura casa/trasferta sull'intera
+  stagione, calcolata dal calendario ufficiale
+- **Formazione consigliata**: dopo l'asta, fino a 2 probabili XI per la giornata corrente
+  dalla tua rosa, in base alle percentuali di titolarità SOS Fanta
 - Scheda giocatore (età, nazionalità, storico stagioni), badge 🎲 scommesse e 🎰 campioni piccoli
 - Stato in localStorage + Backup/Ripristino JSON: i dati restano tuoi
 
