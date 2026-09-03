@@ -66,6 +66,9 @@ export interface Player {
    * della prossima giornata e va ri-fetchata ogni settimana. Assente se il
    * giocatore non è stato agganciato in quel fetch. */
   startPct?: number | null;
+  /** Id del giocatore rivale in un ballottaggio per la maglia nella giornata
+   * corrente, se presente (stessa fonte di startPct). */
+  ballotRival?: number | null;
 }
 
 export interface GiornataMeta {

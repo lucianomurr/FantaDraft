@@ -59,6 +59,7 @@ def parse_panchina(block, side):
 
 
 def parse_ballottaggi(block, side):
+    """Ogni ballottaggio -> due entry (nome, %, rivale)."""
     m = re.search(rf'class="is--{side}">\s*<strong>Ballottaggio:\s*</strong>\s*([^<]+)<', block)
     if not m:
         return []
@@ -72,8 +73,9 @@ def parse_ballottaggi(block, side):
         if not pm:
             continue
         a, b, pa, pb = pm.groups()
-        out.append((clean(a), int(pa)))
-        out.append((clean(b), int(pb)))
+        a, b = clean(a), clean(b)
+        out.append((a, int(pa), b))
+        out.append((b, int(pb), a))
     return out
 
 
@@ -107,17 +109,17 @@ def main():
         players = {}
         for side, team in (("home", home), ("away", away)):
             for n in parse_lineup(block, side):
-                players[n] = 95
+                players[n] = {"pct": 95, "riv": None}
             for n in parse_panchina(block, side):
-                players.setdefault(n, 5)
-            for n, pct in parse_ballottaggi(block, side):
-                players[n] = pct
+                players.setdefault(n, {"pct": 5, "riv": None})
+            for n, pct, riv in parse_ballottaggi(block, side):
+                players[n] = {"pct": pct, "riv": riv}
         matches.append({
             "home": home,
             "away": away,
             "homeMod": home_mod,
             "awayMod": away_mod,
-            "players": [{"n": n, "pct": p} for n, p in players.items()],
+            "players": [{"n": n, "pct": v["pct"], "riv": v["riv"]} for n, v in players.items()],
         })
 
     out = {"matches": matches}

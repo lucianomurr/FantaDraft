@@ -1,9 +1,11 @@
 """Aggancia le probabilità di titolarità per la GIORNATA CORRENTE a
 players_pen.json come campo `startPct` (0-100), incrociando le fonti
 disponibili — oggi SOS Fanta e Gazzetta, entrambe con lo stesso formato
-{"matches": [{home, away, players: [{n, pct}]}]}. Quando un giocatore è
-agganciato da più fonti il valore finale è la media (arrotondata); se una
-sola fonte lo copre si usa quella.
+{"matches": [{home, away, players: [{n, pct, riv}]}]} (`riv` = nome del
+rivale in ballottaggio, se presente). Quando un giocatore è agganciato da
+più fonti il valore finale di `startPct` è la media (arrotondata); se una
+sola fonte lo copre si usa quella. `ballotRival` (id del rivale) prende la
+prima fonte che lo indica, non ha senso mediarlo.
 
 Va rilanciato ogni settimana insieme agli script di fetch, prima di ogni
 giornata — dato volatile per definizione. Scrive anche web/data/giornata.json
@@ -95,17 +97,23 @@ def find(roster, raw):
 
 
 def match_source(data, by_team):
-    """id -> pct per una fonte, matching scopato alle 2 squadre del match."""
-    out, unmatched = {}, []
+    """id -> pct e id -> id_rivale (se in ballottaggio) per una fonte,
+    matching scopato alle 2 squadre del match."""
+    out, riv_out, unmatched = {}, {}, []
     for m in data["matches"]:
         roster = by_team.get(m["home"], []) + by_team.get(m["away"], [])
         for entry in m["players"]:
             p = find(roster, entry["n"])
-            if p:
-                out[p["id"]] = max(out.get(p["id"], 0), entry["pct"])
-            else:
+            if not p:
                 unmatched.append((m["home"], m["away"], entry["n"]))
-    return out, unmatched
+                continue
+            out[p["id"]] = max(out.get(p["id"], 0), entry["pct"])
+            riv_raw = entry.get("riv")
+            if riv_raw and p["id"] not in riv_out:
+                rp = find(roster, riv_raw)
+                if rp:
+                    riv_out[p["id"]] = rp["id"]
+    return out, riv_out, unmatched
 
 
 def main():
@@ -116,9 +124,11 @@ def main():
 
     for p in players:
         p.pop("startPct", None)
+        p.pop("ballotRival", None)
 
     periodo = None
     per_source = {}
+    per_source_riv = {}
     for name, fname in SOURCES:
         path = f"{PROJ}/{fname}"
         if not os.path.exists(path):
@@ -126,8 +136,9 @@ def main():
             continue
         data = json.load(open(path))
         periodo = periodo or data.get("periodo")
-        matched, unmatched = match_source(data, by_team)
+        matched, riv, unmatched = match_source(data, by_team)
         per_source[name] = matched
+        per_source_riv[name] = riv
         print(f"{name}: {len(matched)} agganciati, {len(unmatched)} non agganciati")
         for home, away, n in unmatched:
             print(f"  [{home}-{away}] '{n}'")
@@ -136,11 +147,18 @@ def main():
     for m in per_source.values():
         all_ids |= m.keys()
 
+    riv_by_id = {}
+    for riv in per_source_riv.values():
+        for pid, rid in riv.items():
+            riv_by_id.setdefault(pid, rid)
+
     for p in players:
         if p["id"] not in all_ids:
             continue
         vals = [m[p["id"]] for m in per_source.values() if p["id"] in m]
         p["startPct"] = round(sum(vals) / len(vals))
+        if p["id"] in riv_by_id:
+            p["ballotRival"] = riv_by_id[p["id"]]
 
     json.dump(players, open(f"{PROJ}/players_pen.json", "w"), ensure_ascii=False, indent=1)
 

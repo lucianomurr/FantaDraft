@@ -58,14 +58,16 @@ def parse_flat(block_html):
 
 
 def parse_ballottaggi(block_html):
+    """Ogni ballottaggio -> due entry (nome, %, rivale) — il rivale serve a
+    segnalare in UI chi contende la maglia, non solo che è in dubbio."""
     out = []
     for pct_a, pct_b, names in BALL_RE.findall(block_html):
         names = html.unescape(names)
         if " - " not in names:
             continue
         a, b = [n.strip() for n in names.split(" - ", 1)]
-        out.append((a, int(pct_a)))
-        out.append((b, int(pct_b)))
+        out.append((a, int(pct_a), b))
+        out.append((b, int(pct_b), a))
     return out
 
 
@@ -97,11 +99,11 @@ def main():
 
         players = {}
         for n, p in parse_flat(titolari_html):
-            players[n] = p
-        for n, p in parse_ballottaggi(ball_html):
-            players.setdefault(n, p)
+            players[n] = {"pct": p, "riv": None}
+        for n, p, riv in parse_ballottaggi(ball_html):
+            players.setdefault(n, {"pct": p, "riv": riv})
         for n, p in parse_flat(panchina_html):
-            players.setdefault(n, p)
+            players.setdefault(n, {"pct": p, "riv": None})
 
         matches.append({
             "home": home,
@@ -109,7 +111,7 @@ def main():
             "homeMod": home_mod,
             "awayMod": away_mod,
             "date": dates[idx] if idx < len(dates) else None,
-            "players": [{"n": n, "pct": p} for n, p in players.items()],
+            "players": [{"n": n, "pct": v["pct"], "riv": v["riv"]} for n, v in players.items()],
         })
 
     all_dates = [m["date"] for m in matches if m["date"]]

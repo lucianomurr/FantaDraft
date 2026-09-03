@@ -9,6 +9,58 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (03/09/2026): formazione consigliata — riscritta da zero (FVM primario, 4 moduli fissi, panchina, ballottaggi)
+Luciano ha finito l'asta e trovato l'output "completamente insensato".
+Causa reale: lo score dei titolari era `startPct + piccolo bonus xG/xA` —
+FVM non contava quasi nulla, quindi un fondo-rosa dato per titolare quasi
+certo (95%) da una fonte poteva scavalcare un giocatore di valore che
+aveva un dato di titolarità solo leggermente incerto. Formula ribaltata su
+sua indicazione esplicita: "parti dal listone, la FVM è importante, poi
+guarda la titolarità". Nuovo `starterScore = FVM × fattore(startPct)`, con
+`fattore` che va da 0.3 (dato mancante o titolarità bassissima — MAI
+azzerato del tutto, un big resta il tuo migliore anche in dubbio) a 1.0
+(titolare quasi certo) — moltiplicativo, non additivo, così il FVM resta
+sempre l'asse dominante (scala 1-450) e la titolarità lo corregge, non lo
+sostituisce. Bonus xG/xA rimosso dalla selezione titolari — quello ora
+serve solo per i ballottaggi (vedi sotto), non per scegliere chi parte.
+
+**4 moduli fissi**: non più una selezione automatica dei "2 migliori" tra 7
+possibili — ora sempre e solo 4-3-3, 4-4-2, 3-5-2, 3-4-3, tutti e 4 mostrati
+insieme, esattamente come richiesto. Scelti sempre allo stesso modo (FVM
+corretto), decide l'utente quale preferisce.
+
+**Panchina mostrata**: prima calcolata (`bench` nel tipo) ma mai renderizzata
+in UI — bug reale, non solo scelta di design. Ora sotto ogni modulo.
+
+**Ballottaggi**: prima persi del tutto — sia `sosfanta_percentuali.json` sia
+`gazzetta_percentuali.json` appiattivano ogni ballottaggio in due entry
+`{nome, %}` indipendenti, scartando CHI contende il posto a chi. Riscritti
+entrambi gli script di fetch per portare anche `riv` (il nome del rivale) su
+ogni entry di ballottaggio; `merge_startpct.py` lo risolve a un id giocatore
+(`ballotRival` su players_pen.json, scopato alle 2 squadre del match come il
+matching esistente) — se lo dà solo una fonte usa quella, non ha senso
+mediare un riferimento categorico. Nuova `jokerInfo()` in `lib/lineup.ts`:
+per ogni titolare il cui rivale NON è tra i titolari di quel modulo, avviso
+giallo "in ballottaggio, rischio di essere scavalcato"; per ogni panchinaro
+il cui rivale invece È titolare, avviso verde "se subentra: xG/xA" (Val per
+i portieri) — esattamente l'uso che Luciano aveva in mente ("potrebbe
+entrare a gara in corso e fare gol sulla base di xg").
+
+Bug UI trovato in verifica: la riga giocatore riusava `.liveresrow`/
+`.liveresname` (pensate per liste a piena larghezza) dentro una griglia a 3-4
+colonne strette — il nome collassava a larghezza 0 (verificato via
+`getBoundingClientRect`, non solo a occhio) lasciando visibile solo squadra
++ FVM. Sostituito con un layout dedicato impilato (`.lineuprow`, nome sopra,
+dettagli sotto) invece di forzare il pattern esistente in uno spazio per cui
+non era pensato.
+
+Verificato in browser con rosa completa 25/25: FVM-primary confermato (Ramos
+G. FVM 237 batte Dybala/Kolo Muani per il 2° slot attacco in 4-4-2, coerente
+con l'ordinamento per valore), 4 moduli tutti presenti, panchina visibile,
+avvisi ballottaggio "in dubbio" confermati a schermo (il caso "joker in
+panchina" non testabile senza una rosa che possiede ENTRAMBI i rivali di un
+ballottaggio, ma la logica è simmetrica a quella già verificata).
+
 ## FATTO (03/09/2026): infortunati — controllo incrociato con Gazzetta
 Richiesta di Luciano: usare la stessa pagina hub Gazzetta appena sfruttata
 per le percentuali (ha anche una sezione "Indisponibili" per squadra) per

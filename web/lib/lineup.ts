@@ -1,84 +1,74 @@
 import type { DerivedPlayer, Role, TrackingState } from "./types";
-import { productionScore } from "./production";
 
-/** I 7 moduli classici Fantacalcio (1 portiere sempre, D+C+A=10, D 3-5, C 3-5, A 1-3). */
-const MODULI: { d: number; c: number; a: number }[] = [
-  { d: 3, c: 4, a: 3 },
-  { d: 3, c: 5, a: 2 },
-  { d: 4, c: 3, a: 3 },
-  { d: 4, c: 4, a: 2 },
-  { d: 4, c: 5, a: 1 },
-  { d: 5, c: 3, a: 2 },
-  { d: 5, c: 4, a: 1 },
+/** I 4 moduli richiesti esplicitamente, sempre proposti tutti e 4 (non una
+ * selezione automatica dei "migliori") — l'utente decide quale preferisce. */
+const MODULI: { label: string; d: number; c: number; a: number }[] = [
+  { label: "4-3-3", d: 4, c: 3, a: 3 },
+  { label: "4-4-2", d: 4, c: 4, a: 2 },
+  { label: "3-5-2", d: 3, c: 5, a: 2 },
+  { label: "3-4-3", d: 3, c: 4, a: 3 },
 ];
 
 /** Probabilità usata quando il giocatore non ha `startPct` (non agganciato nel
- * fetch della giornata corrente) — né buona né pessima, così resta comunque
- * selezionabile per riempire un modulo quando in rosa non c'è altro, ma non
- * scavalca mai un titolare con un dato reale sopra il 50%. */
+ * fetch della giornata corrente) — né buona né pessima. */
 const FALLBACK_PCT = 50;
 
-/** Bonus additivo (non moltiplicativo) da produzione attesa, sommato alla
- * probabilità di titolarità per l'ordinamento — resta un correttivo, non il
- * criterio principale ("anche in base a xG/xA", non "solo"): a parità di
- * probabilità di titolarità decide chi produce di più, ma un +5-10% di
- * probabilità reale pesa comunque più di un bonus da produzione. Scala
- * dichiarata come euristica, da ritarare a occhio: xG+xA cumulato stagione
- * per D/C/A (un attaccante forte è sui 15-25, un difensore sotto i 3) diviso
- * 2 e tetto a +10; Val per i portieri (scala diversa, es. 100+) diviso 10 e
- * stesso tetto +10. */
-function productionBonus(p: DerivedPlayer): number {
-  return Math.min(10, Math.max(0, productionScore(p) / (p.r === "P" ? 10 : 2)));
+/** Punteggio per scegliere i titolari: FVM come criterio principale (il
+ * listone è il punto di partenza — un giocatore di valore resta tale anche
+ * con un dato di titolarità incerto), corretto da un fattore 0.3-1.0 sulla
+ * probabilità di giocare — mai azzerato del tutto (anche un rotation-risk
+ * resta il tuo giocatore migliore se l'alternativa è un fondo rosa), ma un
+ * titolare quasi certo pesa comunque il triplo di uno in dubbio. Niente
+ * bonus da xG/xA qui: quello serve per valutare l'impatto di chi entra dalla
+ * panchina (vedi joker), non per scegliere chi parte titolare. */
+function pctFactor(pct: number | null | undefined): number {
+  const v = pct ?? FALLBACK_PCT;
+  return 0.3 + 0.007 * v;
 }
 
-function lineupScore(p: DerivedPlayer): number {
-  return (p.startPct ?? FALLBACK_PCT) + productionBonus(p);
+function starterScore(p: DerivedPlayer): number {
+  return p.f * pctFactor(p.startPct);
+}
+
+export interface JokerInfo {
+  rival: DerivedPlayer;
+  rivalIsStarter: boolean;
 }
 
 export interface LineupSuggestion {
   modulo: string;
   starters: DerivedPlayer[]; // 11, ordinati P poi D poi C poi A
-  bench: DerivedPlayer[];
-  avgPct: number;
-  missingData: number; // quanti titolari non hanno un dato reale (fallback usato)
+  bench: DerivedPlayer[]; // resto della rosa (non infortunati), stesso ordine
 }
 
 function byRole(players: DerivedPlayer[]): Record<Role, DerivedPlayer[]> {
   const out: Record<Role, DerivedPlayer[]> = { P: [], D: [], C: [], A: [] };
   for (const p of players) out[p.r].push(p);
   for (const r of Object.keys(out) as Role[]) {
-    out[r].sort((a, b) => lineupScore(b) - lineupScore(a));
+    out[r].sort((a, b) => starterScore(b) - starterScore(a));
   }
   return out;
 }
 
-/** Giocatori posseduti (`status === "mine"`) attualmente infortunati — esclusi
- * a monte dai titolari suggeriti (mai una buona idea schierarli), ma mostrati
- * a parte così l'utente sa perché non compaiono. */
+/** Giocatori posseduti (`status === "mine"`) attualmente infortunati — mai
+ * in campo, mostrati a parte per trasparenza. */
 export function injuredMine(allPlayers: DerivedPlayer[], tracking: TrackingState): DerivedPlayer[] {
   return allPlayers.filter((p) => tracking[p.id]?.s === "mine" && p.inj != null);
 }
 
-/** Suggerisce fino a 2 formazioni (moduli diversi) per la rosa posseduta e
- * non infortunata, scegliendo per ogni modulo i giocatori con probabilità di
- * titolarità più alta per la giornata corrente in ciascun ruolo, corretta da
- * un bonus di produzione attesa (xG/xA, Val per i portieri). Euristica greedy
- * per modulo (non un solutore combinatorio globale): per rose complete (25
- * giocatori) è comunque ottimale, dato che ordinare per punteggio decrescente
- * dentro ogni ruolo e prendere i primi N è la scelta migliore possibile una
- * volta fissato il modulo. */
-export function suggestLineups(
-  allPlayers: DerivedPlayer[],
-  tracking: TrackingState,
-  limit = 2,
-): LineupSuggestion[] {
+/** Propone le 4 formazioni richieste (4-3-3, 4-4-2, 3-5-2, 3-4-3) dalla rosa
+ * posseduta e non infortunata: per ogni ruolo, i migliori per FVM corretto
+ * dalla probabilità di titolarità della giornata corrente. Greedy per
+ * modulo, non un solutore combinatorio — con 25 giocatori fissi è comunque
+ * la scelta migliore possibile una volta fissato il modulo (ordina per
+ * punteggio e prendi i primi N). */
+export function suggestLineups(allPlayers: DerivedPlayer[], tracking: TrackingState): LineupSuggestion[] {
   const mine = allPlayers.filter((p) => tracking[p.id]?.s === "mine" && p.inj == null);
   const grouped = byRole(mine);
 
-  const results: LineupSuggestion[] = [];
-  for (const { d, c, a } of MODULI) {
+  return MODULI.map(({ label, d, c, a }) => {
     if (grouped.P.length < 1 || grouped.D.length < d || grouped.C.length < c || grouped.A.length < a) {
-      continue;
+      return { modulo: label, starters: [], bench: [] };
     }
     const starters = [
       grouped.P[0],
@@ -88,26 +78,22 @@ export function suggestLineups(
     ];
     const startersId = new Set(starters.map((p) => p.id));
     const bench = mine.filter((p) => !startersId.has(p.id));
-    const missingData = starters.filter((p) => p.startPct == null).length;
-    const avgPct =
-      starters.reduce((sum, p) => sum + (p.startPct ?? FALLBACK_PCT), 0) / starters.length;
+    return { modulo: label, starters, bench };
+  });
+}
 
-    results.push({ modulo: `${d}-${c}-${a}`, starters, bench, avgPct, missingData });
-  }
-
-  results.sort((x, y) => y.avgPct - x.avgPct || x.missingData - y.missingData);
-
-  // Evita di proporre 2 formazioni quasi identiche (stessi 11): tiene solo
-  // moduli con almeno un titolare diverso dal precedente in classifica.
-  const distinct: LineupSuggestion[] = [];
-  for (const r of results) {
-    const ids = new Set(r.starters.map((p) => p.id));
-    const dup = distinct.some((prev) => {
-      const prevIds = new Set(prev.starters.map((p) => p.id));
-      return ids.size === prevIds.size && [...ids].every((id) => prevIds.has(id));
-    });
-    if (!dup) distinct.push(r);
-    if (distinct.length >= limit) break;
-  }
-  return distinct;
+/** Se `p` è in ballottaggio (ha un rivale in rosa avversaria/propria per la
+ * maglia) e il rivale è nella formazione titolare data, segnala il "joker":
+ * chi in panchina potrebbe subentrare o strappare il posto, con l'xG/xA
+ * (Val per i portieri) come indicatore di cosa potrebbe portare a partita
+ * in corso. */
+export function jokerInfo(
+  p: DerivedPlayer,
+  starters: DerivedPlayer[],
+  allPlayers: DerivedPlayer[],
+): JokerInfo | null {
+  if (p.ballotRival == null) return null;
+  const rival = allPlayers.find((x) => x.id === p.ballotRival);
+  if (!rival) return null;
+  return { rival, rivalIsStarter: starters.some((s) => s.id === rival.id) };
 }
