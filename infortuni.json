@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-02",
+ "aggiornato": "2026-09-03",
  "infortunati": [
   {"s": "Atalanta", "n": "Sulemana K.", "d": "Lesione del collaterale mediale di secondo grado del ginocchio sinistro.", "r": "Recuperabile da inizio ottobre."},
   {"s": "Atalanta", "n": "Hien", "d": "Lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra.", "r": "Pronto a tornare in campo dall'inizio di ottobre."},
@@ -43,6 +43,17 @@
   {"s": "Venezia", "n": "Moreno M.", "d": "Noie fisiche.", "r": "Punta a tornare arruolabile dall'inizio di settembre."},
   {"s": "Venezia", "n": "Sverko", "d": "Problema all'anca.", "r": "Recuperabile da fine ottobre."},
   {"s": "Venezia", "n": "Franjic", "d": "Guaio fisico.", "r": "Forfait per domenica a Frosinone."},
-  {"s": "Venezia", "n": "Adorante", "d": "Problema alla schiena.", "r": "Tentativo di rientro da ottobre."}
+  {"s": "Venezia", "n": "Adorante", "d": "Problema alla schiena.", "r": "Tentativo di rientro da ottobre."},
+  {"s": "Genoa", "n": "Venturino", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."},
+  {"s": "Genoa", "n": "Havel", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."},
+  {"s": "Napoli", "n": "Giovane", "d": "Assente per infortunio.", "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."},
+  {"s": "Roma", "n": "Pellegrini Lo.", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."},
+  {"s": "Parma", "n": "Bernabè", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."},
+  {"s": "Frosinone", "n": "Schmid", "d": "Assente per infortunio.", "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."},
+  {"s": "Juventus", "n": "Cambiaso", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."},
+  {"s": "Juventus", "n": "Zhegrova", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."},
+  {"s": "Juventus", "n": "Cabal", "d": "Assente per infortunio.", "r": "Punta a rientrare per la giornata 7 (fonte Gazzetta)."},
+  {"s": "Milan", "n": "Gabbia", "d": "Assente per infortunio.", "r": "Punta a rientrare per la giornata 5 (fonte Gazzetta)."},
+  {"s": "Cagliari", "n": "Borrelli", "d": "Assente per un problema fisico, dettagli non ancora chiari.", "r": "Condizioni da valutare (fonte Gazzetta)."}
  ]
 }

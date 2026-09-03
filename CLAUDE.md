@@ -9,6 +9,34 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (03/09/2026): infortunati — controllo incrociato con Gazzetta
+Richiesta di Luciano: usare la stessa pagina hub Gazzetta appena sfruttata
+per le percentuali (ha anche una sezione "Indisponibili" per squadra) per
+aggiornare `infortuni.json`, finora alimentato solo da fantacalcio.it/
+infortunati-serie-a. Nuovo `scripts/fetch_gazzetta_infortuni.py` (riusa lo
+stesso fetch della pagina, estrae "Nome (stato)" per squadra) →
+`gazzetta_infortuni_raw.json`.
+
+Deciso di NON sostituire fantacalcio.it (diagnosi articolata) con Gazzetta
+(solo "Da valutare" / "Rientro alla giornata N", meno informativo) — fatto
+invece un confronto per nome+squadra (normalizzato, gestendo casi come
+"N'Dicka" vs "Ndicka" che con un match ingenuo sarebbero sembrati uno
+nuovo e uno "guarito"): 11 nomi che Gazzetta segna indisponibili e
+fantacalcio.it non aveva ancora — tra questi giocatori rilevanti come
+Cambiaso, Cabal e Zhegrova (Juventus), Bernabè (Parma, rigorista),
+Pellegrini Lo. (Roma, capitano), Gabbia (Milan) — aggiunti a mano con d/r
+etichettati "(fonte Gazzetta)" per trasparenza sulla fonte più povera di
+dettagli. 3 nomi (Kristensen T., Patric, Rensch) risultano nel file ma MAI
+citati da Gazzetta in nessuna delle 20 squadre — possibile rientro, non
+rimossi in automatico (rischio di cancellare un infortunio vero se Gazzetta
+semplicemente non lo elenca) — segnalati a Luciano per verifica manuale
+invece di un'assunzione silenziosa.
+
+`merge_infortuni.py` rilanciato: 54/54 agganciati (era 43). Questi nuovi
+infortunati vengono ora esclusi anche dalla Formazione consigliata (stesso
+meccanismo già in `lib/lineup.ts`, automatico — nessun codice nuovo
+servito lì).
+
 ## FATTO (03/09/2026): seconda fonte percentuali titolarità (Gazzetta) per la formazione consigliata
 Luciano ha trovato una pagina Gazzetta diversa da quella già usata per le
 20 "Formazione-tipo" stagionali: https://www.gazzetta.it/Calcio/prob_form/,
