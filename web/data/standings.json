@@ -1,0 +1,102 @@
+{
+ "Atalanta": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 1
+ },
+ "Bologna": {
+  "mp": 2,
+  "gf": 0,
+  "ga": 2
+ },
+ "Cagliari": {
+  "mp": 2,
+  "gf": 1,
+  "ga": 1
+ },
+ "Como": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 2
+ },
+ "Fiorentina": {
+  "mp": 2,
+  "gf": 0,
+  "ga": 7
+ },
+ "Frosinone": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 1
+ },
+ "Genoa": {
+  "mp": 2,
+  "gf": 0,
+  "ga": 3
+ },
+ "Inter": {
+  "mp": 2,
+  "gf": 5,
+  "ga": 1
+ },
+ "Juventus": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 0
+ },
+ "Lazio": {
+  "mp": 2,
+  "gf": 2,
+  "ga": 0
+ },
+ "Lecce": {
+  "mp": 2,
+  "gf": 2,
+  "ga": 4
+ },
+ "Milan": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 1
+ },
+ "Monza": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 7
+ },
+ "Napoli": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 2
+ },
+ "Parma": {
+  "mp": 2,
+  "gf": 0,
+  "ga": 3
+ },
+ "Roma": {
+  "mp": 2,
+  "gf": 8,
+  "ga": 0
+ },
+ "Sassuolo": {
+  "mp": 2,
+  "gf": 3,
+  "ga": 3
+ },
+ "Torino": {
+  "mp": 2,
+  "gf": 2,
+  "ga": 4
+ },
+ "Udinese": {
+  "mp": 2,
+  "gf": 4,
+  "ga": 3
+ },
+ "Venezia": {
+  "mp": 2,
+  "gf": 0,
+  "ga": 3
+ }
+}

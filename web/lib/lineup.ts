@@ -1,4 +1,5 @@
-import type { DerivedPlayer, Role, TrackingState } from "./types";
+import { matchupFactor } from "./matchup";
+import type { DerivedPlayer, Matchups, Role, Standings, TrackingState } from "./types";
 
 /** I 4 moduli richiesti esplicitamente, sempre proposti tutti e 4 (non una
  * selezione automatica dei "migliori") — l'utente decide quale preferisce. */
@@ -26,8 +27,8 @@ function pctFactor(pct: number | null | undefined): number {
   return 0.3 + 0.007 * v;
 }
 
-function starterScore(p: DerivedPlayer): number {
-  return p.f * pctFactor(p.startPct);
+function starterScore(p: DerivedPlayer, standings: Standings, matchups: Matchups): number {
+  return p.f * pctFactor(p.startPct) * matchupFactor(p.s, p.r, standings, matchups);
 }
 
 export interface JokerInfo {
@@ -41,11 +42,15 @@ export interface LineupSuggestion {
   bench: DerivedPlayer[]; // resto della rosa (non infortunati), stesso ordine
 }
 
-function byRole(players: DerivedPlayer[]): Record<Role, DerivedPlayer[]> {
+function byRole(
+  players: DerivedPlayer[],
+  standings: Standings,
+  matchups: Matchups,
+): Record<Role, DerivedPlayer[]> {
   const out: Record<Role, DerivedPlayer[]> = { P: [], D: [], C: [], A: [] };
   for (const p of players) out[p.r].push(p);
   for (const r of Object.keys(out) as Role[]) {
-    out[r].sort((a, b) => starterScore(b) - starterScore(a));
+    out[r].sort((a, b) => starterScore(b, standings, matchups) - starterScore(a, standings, matchups));
   }
   return out;
 }
@@ -58,13 +63,19 @@ export function injuredMine(allPlayers: DerivedPlayer[], tracking: TrackingState
 
 /** Propone le 4 formazioni richieste (4-3-3, 4-4-2, 3-5-2, 3-4-3) dalla rosa
  * posseduta e non infortunata: per ogni ruolo, i migliori per FVM corretto
- * dalla probabilità di titolarità della giornata corrente. Greedy per
- * modulo, non un solutore combinatorio — con 25 giocatori fissi è comunque
- * la scelta migliore possibile una volta fissato il modulo (ordina per
- * punteggio e prendi i primi N). */
-export function suggestLineups(allPlayers: DerivedPlayer[], tracking: TrackingState): LineupSuggestion[] {
+ * dalla probabilità di titolarità della giornata corrente e da un
+ * correttivo minore sull'avversario di giornata (vedi matchup.ts). Greedy
+ * per modulo, non un solutore combinatorio — con 25 giocatori fissi è
+ * comunque la scelta migliore possibile una volta fissato il modulo
+ * (ordina per punteggio e prendi i primi N). */
+export function suggestLineups(
+  allPlayers: DerivedPlayer[],
+  tracking: TrackingState,
+  standings: Standings,
+  matchups: Matchups,
+): LineupSuggestion[] {
   const mine = allPlayers.filter((p) => tracking[p.id]?.s === "mine" && p.inj == null);
-  const grouped = byRole(mine);
+  const grouped = byRole(mine, standings, matchups);
 
   return MODULI.map(({ label, d, c, a }) => {
     if (grouped.P.length < 1 || grouped.D.length < d || grouped.C.length < c || grouped.A.length < a) {

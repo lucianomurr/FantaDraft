@@ -261,13 +261,41 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
   },
   {
     k: "Infortunati",
-    v: "Prognosi e data di rientro accanto al nome: il crociato di cui non sapevi niente non ti costa più 40 crediti.",
-    n: "aggiornati pre-asta",
+    v: (
+      <>
+        Prognosi e data di rientro accanto al nome, <b>incrociati fra due fonti</b>{" "}
+        (fantacalcio.it + Gazzetta): il crociato di cui non sapevi niente non ti costa più 40
+        crediti.
+      </>
+    ),
+    n: "54 monitorati",
   },
   {
     k: "Ultimi trasferimenti",
     v: "Badge quando il listone ha ancora un giocatore ceduto o in prestito altrove: capita più spesso di quanto pensiate, specie a ridosso dell'asta.",
     n: "151 arrivi tracciati",
+  },
+  {
+    k: "Griglia portieri",
+    v: (
+      <>
+        Calcolata sul calendario ufficiale: la coppia di portieri con meno giornate in cui{" "}
+        <b>entrambe le squadre giocano in trasferta</b> — quasi sempre almeno uno gioca in casa.
+      </>
+    ),
+    n: "calendario completo",
+  },
+  {
+    k: "Formazione consigliata",
+    v: (
+      <>
+        Dopo l&apos;asta: fino a 4 moduli (4-3-3, 4-4-2, 3-5-2, 3-4-3) dalla tua rosa, per FVM
+        corretto dalla probabilità di titolarità <b>della giornata in corso</b> (due fonti
+        incrociate) — con panchina, infortunati esclusi e ballottaggi segnalati (chi rischia il
+        posto, chi potrebbe subentrare e fare gol/assist sulla base di xG/xA).
+      </>
+    ),
+    n: "2 fonti incrociate",
   },
 ];
 
@@ -335,7 +363,8 @@ export default function Home() {
           <p className="sub">
             Tool <b>gratuito e open source</b> per l&apos;asta del fantacalcio Serie A 2026/27:{" "}
             <b>531 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
-            da 6 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live.
+            da 6 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live — e dopo
+            l&apos;asta, la formazione consigliata giornata per giornata.
             Niente account: lo apri e funziona, o lo installi come app se preferisci.
           </p>
 
@@ -449,7 +478,9 @@ export default function Home() {
                   Parti dal <b>preset regolabile</b> (peso della titolarità, aggressività
                   delle soglie, quote per ruolo — decidi tu) e raffinalo a mano: fasce 1–4,
                   riserve da un credito, la lista X dei nomi da evitare perché costano da
-                  titolari ma partono riserve.
+                  titolari ma partono riserve, più una <b>stellina</b> per segnare al volo chi
+                  vuoi assolutamente portare a casa. Anche i posti in rosa per ruolo sono tuoi
+                  da decidere, non fissi a 3/8/8/6.
                 </p>
               </div>
             </div>
@@ -481,6 +512,18 @@ export default function Home() {
                   Segni &quot;Altri&quot; sul giocatore preso da un avversario e la sua scheda
                   mostra in automatico le <b>alternative più simili</b> ancora libere: stesso
                   ruolo, FVM e produzione attesa (xG+xA) vicini — un click e riparti.
+                </p>
+              </div>
+            </div>
+            <div className="step">
+              <div>
+                <h3>Rosa fatta? Il tool non si ferma lì</h3>
+                <p>
+                  A rosa completa si sblocca la <b>Formazione consigliata</b>: fino a 4 moduli
+                  con panchina, per la giornata di campionato in corso — infortunati esclusi in
+                  automatico, ballottaggi segnalati con chi rischia il posto e chi potrebbe
+                  subentrare a gara in corso (xG/xA di chi entra). Da rifare ogni settimana,
+                  come le probabilità di titolarità che la alimentano.
                 </p>
               </div>
             </div>

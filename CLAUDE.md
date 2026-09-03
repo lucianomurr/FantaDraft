@@ -9,6 +9,65 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (03/09/2026): landing disallineata dalle feature recenti (di nuovo)
+Stesso problema già capitato il 27/08 (e prevedibile: ogni volta che si
+aggiunge una feature vera, la landing resta com'era finché qualcuno non
+lo nota). Griglia portieri, Formazione consigliata (con doppio incrocio
+SOS Fanta + Gazzetta, ballottaggi, xG/xA), stellina preferiti e slot di
+rosa configurabili — tutte aggiunte negli ultimi 2 giorni — non
+comparivano da nessuna parte in `app/page.tsx`.
+
+Aggiunte 2 voci a `FONTI` (Griglia portieri, Formazione consigliata),
+infortunati aggiornato per menzionare le 2 fonti incrociate, hero e "Come
+funziona" toccati (nuovo step 6 dedicato al post-asta, step 2 menziona
+stellina e slot configurabili). Anche `/fonti` (pagina attribuzioni)
+aggiornata: SOS Fanta e Gazzetta ora elencano esplicitamente il loro uso
+per le percentuali/indisponibili della giornata corrente, non solo la
+formazione-tipo stagionale — coerente con l'impegno dichiarato in quella
+pagina di dichiarare la fonte di ogni numero. Corretto anche un refuso
+trovato per caso ("XI su 5" invece di "su 6", residuo di quando le fonti
+erano ancora 5).
+
+## FATTO (03/09/2026): formazione consigliata — tab per modulo + correttivo avversario
+Due richieste di Luciano su quanto appena fatto: (1) UI a tab per scegliere
+UN modulo alla volta invece di 4 colonne strette tutte insieme ("sempre
+tutto sotto controllo per il modulo preferito"), (2) considerare
+l'avversario della giornata nel punteggio — squadra forte contro difesa
+debole avvantaggiata, squadra che concede molto contro un attacco forte
+penalizzata (suo esempio: Juventus terza in classifica contro il Lecce
+ultimo → preferire i giocatori della Juventus).
+
+**Tab per modulo**: `LineupModal.tsx` non renderizza più `formgrid` con le
+4 `LineupCard` affiancate — un tab bar (stesso `.tabs`/`.tab` già usato per
+il filtro ruolo) seleziona QUALE dei 4 moduli mostrare, un solo
+`LineupCard` a schermo intero.
+
+**Correttivo avversario**: nuovo `scripts/fetch_standings.py` (soccerdata,
+`read_team_season_stats` con `opponent_stats=True` per i gol subiti — non
+esposto da nessun metodo "standings" diretto, serve calcolarlo a mano da
+gol fatti + gol subiti del campionato in corso) → `standings.json`.
+`merge_startpct.py` deriva anche `web/data/matchups.json` (chi affronta chi
+questa giornata, in casa o fuori) direttamente dai match di SOS Fanta/
+Gazzetta già scaricati — nessun fetch aggiuntivo, il dato c'era già.
+
+Nuovo `web/lib/matchup.ts`: per C/A, bonus se l'avversario concede più
+della media di campionato; per P/D, bonus se l'avversario segna poco E
+malus se la PROPRIA squadra concede tanto (indipendentemente
+dall'avversario di oggi — una difesa colabrodo resta un rischio sempre,
+non solo quella giornata) — questo secondo pezzo è esattamente il
+ragionamento di Luciano ("una squadra che ha subito più gol se gioca
+contro chi segna tanto ha probabilità di sconfitta alte"). Moltiplicatore
+±15% massimo, sempre un correttivo minore sopra a FVM×titolarità, mai il
+criterio principale — dichiarato esplicitamente in UI che il campione è
+piccolo a inizio stagione (2 giornate giocate al momento del fetch).
+
+Verificato in browser: tab funzionanti (4-3-3→4-4-2 cambia lista e
+mantiene lo stesso stile), riga titolare ora mostra anche l'avversario
+("vs Milan (casa)", "@ Inter (trasferta)") — Kalulu (FVM 47) ora davanti a
+Rrahmani (FVM 51) nell'ordinamento, prova che il correttivo sposta
+davvero la classifica quando FVM e titolarità sono vicini, senza
+stravolgerla quando non lo sono.
+
 ## FATTO (03/09/2026): formazione consigliata — riscritta da zero (FVM primario, 4 moduli fissi, panchina, ballottaggi)
 Luciano ha finito l'asta e trovato l'output "completamente insensato".
 Causa reale: lo score dei titolari era `startPct + piccolo bonus xG/xA` —

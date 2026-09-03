@@ -5,8 +5,10 @@ import playersRaw from "../../data/players.json";
 import formazioniRaw from "../../data/formazioni.json";
 import gkgridRaw from "../../data/gkgrid.json";
 import giornataRaw from "../../data/giornata.json";
+import standingsRaw from "../../data/standings.json";
+import matchupsRaw from "../../data/matchups.json";
 import meta from "../../data/meta.json";
-import type { Player, FormazioniData, GiornataMeta } from "../../lib/types";
+import type { Player, FormazioniData, GiornataMeta, Standings, Matchups } from "../../lib/types";
 import type { GkGrid } from "../../lib/gkgrid";
 import { withDerivedAll } from "../../lib/scoring";
 import { filterPlayers, sortPlayers } from "../../lib/filters";
@@ -30,6 +32,8 @@ const PLAYERS = playersRaw as unknown as Player[];
 const FORMS = formazioniRaw as unknown as FormazioniData;
 const GKGRID = gkgridRaw as unknown as GkGrid;
 const GIORNATA = giornataRaw as unknown as GiornataMeta;
+const STANDINGS = standingsRaw as unknown as Standings;
+const MATCHUPS = matchupsRaw as unknown as Matchups;
 const TEAMS = [...new Set(PLAYERS.map((p) => p.s))].sort();
 const UPDATED_AT = new Date(meta.aggiornato).toLocaleDateString("it-IT", {
   day: "numeric",
@@ -148,6 +152,8 @@ function ToolInner() {
       <LineupModal
         players={derived}
         giornata={GIORNATA}
+        standings={STANDINGS}
+        matchups={MATCHUPS}
         open={lineupOpen}
         onClose={() => setLineupOpen(false)}
       />

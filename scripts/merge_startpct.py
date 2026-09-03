@@ -160,6 +160,23 @@ def main():
         if p["id"] in riv_by_id:
             p["ballotRival"] = riv_by_id[p["id"]]
 
+    # Avversario della giornata corrente per squadra (chi gioca contro chi,
+    # in casa o fuori) — usato dalla Formazione consigliata per il fattore
+    # avversario. Basta una fonte, i 10 match sono gli stessi per tutte.
+    matchups = {}
+    first_data = None
+    for _, fname in SOURCES:
+        path = f"{PROJ}/{fname}"
+        if os.path.exists(path):
+            first_data = json.load(open(path))
+            break
+    if first_data:
+        for m in first_data["matches"]:
+            matchups[m["home"]] = {"opp": m["away"], "home": True}
+            matchups[m["away"]] = {"opp": m["home"], "home": False}
+        json.dump(matchups, open(f"{PROJ}/web/data/matchups.json", "w"), ensure_ascii=False, indent=1)
+        print(f"\nAvversari giornata corrente: {len(matchups)} squadre")
+
     json.dump(players, open(f"{PROJ}/players_pen.json", "w"), ensure_ascii=False, indent=1)
 
     giornata = {

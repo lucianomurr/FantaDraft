@@ -79,6 +79,22 @@ export interface GiornataMeta {
   fonti?: string[];
 }
 
+/** Gol fatti/subiti di squadra nella stagione in corso — campione piccolo
+ * per definizione a inizio anno, usato solo come correttivo minore. */
+export interface TeamStanding {
+  mp: number;
+  gf: number;
+  ga: number;
+}
+export type Standings = Record<string, TeamStanding>;
+
+/** Avversario della giornata corrente per squadra. */
+export interface Matchup {
+  opp: string;
+  home: boolean;
+}
+export type Matchups = Record<string, Matchup>;
+
 export interface TransferEvent {
   dir: "in" | "out";
   date: string; // YYYY-MM-DD

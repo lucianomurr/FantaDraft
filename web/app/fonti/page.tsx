@@ -37,14 +37,18 @@ const FONTI = [
   {
     gruppo: "Probabili formazioni e rigoristi",
     voci: [
-      { nome: "SOS Fanta", url: "https://www.sosfanta.com", cosa: "Formazioni tipo 2026/27 e ballottaggi." },
+      {
+        nome: "SOS Fanta",
+        url: "https://www.sosfanta.com",
+        cosa: "Formazioni tipo 2026/27 e ballottaggi, più le percentuali di titolarità della giornata in corso usate per la Formazione consigliata.",
+      },
       { nome: "FantaMaster", url: "https://www.fantamaster.it", cosa: "Probabili formazioni, moduli e ballottaggi." },
       { nome: "Eurosport Italia", url: "https://www.eurosport.it", cosa: "Formazioni tipo delle 20 squadre di Serie A." },
       { nome: "Goal Italia", url: "https://www.goal.com/it", cosa: "Formazioni titolari squadra per squadra." },
       {
         nome: "La Gazzetta dello Sport",
         url: "https://www.gazzetta.it",
-        cosa: "Formazioni tipo, gerarchie dei rigoristi e consigli per squadra (rubrica Fantanews).",
+        cosa: "Formazioni tipo, gerarchie dei rigoristi e consigli per squadra (rubrica Fantanews); percentuali di titolarità e indisponibili della giornata in corso (hub Probabili formazioni) per la Formazione consigliata e il controllo incrociato infortunati.",
       },
       {
         nome: "Fantacalcio.it",
@@ -120,7 +124,7 @@ export default function Fonti() {
           <h2 style={{ fontSize: "1.5rem" }}>Note</h2>
           <p className="lede" style={{ marginBottom: 12 }}>
             Le probabili formazioni sono opinioni giornalistiche delle rispettive testate:
-            qui vengono aggregate solo in forma di conteggio (in quanti XI su 5 un
+            qui vengono aggregate solo in forma di conteggio (in quanti XI su 6 un
             giocatore appare) e <b>il contenuto editoriale originale non viene riprodotto</b>.
             I dati statistici sono fatti sportivi, attribuiti alla fonte che li ha raccolti.
           </p>
