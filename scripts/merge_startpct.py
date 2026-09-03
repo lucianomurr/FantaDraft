@@ -1,20 +1,34 @@
-"""Aggancia sosfanta_percentuali.json (probabilità di titolarità per la
-GIORNATA CORRENTE, 0-100) a players_pen.json come campo `startPct`.
+"""Aggancia le probabilità di titolarità per la GIORNATA CORRENTE a
+players_pen.json come campo `startPct` (0-100), incrociando le fonti
+disponibili — oggi SOS Fanta e Gazzetta, entrambe con lo stesso formato
+{"matches": [{home, away, players: [{n, pct}]}]}. Quando un giocatore è
+agganciato da più fonti il valore finale è la media (arrotondata); se una
+sola fonte lo copre si usa quella.
 
-Va rilanciato ogni settimana insieme a fetch_sosfanta_percentuali.py, prima
-di ogni giornata — dato volatile per definizione (vedi note nello script di
-fetch). Scrive anche web/data/giornata.json con periodo/data di refresh,
-letto dalla UI per mostrare quanto è fresco il dato.
+Va rilanciato ogni settimana insieme agli script di fetch, prima di ogni
+giornata — dato volatile per definizione. Scrive anche web/data/giornata.json
+con periodo/data di refresh, letto dalla UI per mostrare quanto è fresco.
 
 Uso: python3 scripts/fetch_sosfanta_percentuali.py
+     python3 scripts/fetch_gazzetta_percentuali.py
      python3 scripts/merge_startpct.py
 """
 import datetime
 import json
+import os
 import re
 import unicodedata
 
 PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+
+# Gazzetta a volte usa solo il nome di battesimo per i giocatori più noti
+# così (stesso caso già gestito in build_formazioni.py per le altre fonti).
+ALIAS = {"lautaro": "Martinez L."}
+
+SOURCES = [
+    ("SOS Fanta", "sosfanta_percentuali.json"),
+    ("Gazzetta", "gazzetta_percentuali.json"),
+]
 
 
 def norm(s):
@@ -57,6 +71,11 @@ def lev1(a, b):
 
 
 def find(roster, raw):
+    want = ALIAS.get(norm(raw))
+    if want:
+        cands = [p for p in roster if p["n"] == want]
+        if len(cands) == 1:
+            return cands[0]
     sur, initials = split_name(raw)
     cands, fuzzy = [], []
     for p in roster:
@@ -75,10 +94,22 @@ def find(roster, raw):
     return None
 
 
+def match_source(data, by_team):
+    """id -> pct per una fonte, matching scopato alle 2 squadre del match."""
+    out, unmatched = {}, []
+    for m in data["matches"]:
+        roster = by_team.get(m["home"], []) + by_team.get(m["away"], [])
+        for entry in m["players"]:
+            p = find(roster, entry["n"])
+            if p:
+                out[p["id"]] = max(out.get(p["id"], 0), entry["pct"])
+            else:
+                unmatched.append((m["home"], m["away"], entry["n"]))
+    return out, unmatched
+
+
 def main():
     players = json.load(open(f"{PROJ}/players_pen.json"))
-    data = json.load(open(f"{PROJ}/sosfanta_percentuali.json"))
-
     by_team = {}
     for p in players:
         by_team.setdefault(p["s"], []).append(p)
@@ -86,32 +117,41 @@ def main():
     for p in players:
         p.pop("startPct", None)
 
-    matched, unmatched = 0, []
-    for m in data["matches"]:
-        roster = by_team.get(m["home"], []) + by_team.get(m["away"], [])
-        for entry in m["players"]:
-            p = find(roster, entry["n"])
-            if p:
-                # se già assegnato (giocatore citato in piu' ballottaggi/sezioni),
-                # tiene il valore piu' alto: la stima piu' ottimistica ma coerente
-                # con quanto gia' visto nella stessa pagina.
-                p["startPct"] = max(p.get("startPct") or 0, entry["pct"])
-                matched += 1
-            else:
-                unmatched.append((m["home"], m["away"], entry["n"]))
+    periodo = None
+    per_source = {}
+    for name, fname in SOURCES:
+        path = f"{PROJ}/{fname}"
+        if not os.path.exists(path):
+            print(f"({name}: {fname} non trovato, salto)")
+            continue
+        data = json.load(open(path))
+        periodo = periodo or data.get("periodo")
+        matched, unmatched = match_source(data, by_team)
+        per_source[name] = matched
+        print(f"{name}: {len(matched)} agganciati, {len(unmatched)} non agganciati")
+        for home, away, n in unmatched:
+            print(f"  [{home}-{away}] '{n}'")
+
+    all_ids = set()
+    for m in per_source.values():
+        all_ids |= m.keys()
+
+    for p in players:
+        if p["id"] not in all_ids:
+            continue
+        vals = [m[p["id"]] for m in per_source.values() if p["id"] in m]
+        p["startPct"] = round(sum(vals) / len(vals))
 
     json.dump(players, open(f"{PROJ}/players_pen.json", "w"), ensure_ascii=False, indent=1)
 
     giornata = {
-        "periodo": data.get("periodo"),
+        "periodo": periodo,
         "aggiornato": datetime.date.today().isoformat(),
+        "fonti": list(per_source.keys()),
     }
     json.dump(giornata, open(f"{PROJ}/web/data/giornata.json", "w"), ensure_ascii=False, indent=1)
 
-    print(f"Agganciati: {matched}")
-    print(f"Non agganciati ({len(unmatched)}):")
-    for home, away, n in unmatched:
-        print(f"  [{home}-{away}] '{n}'")
+    print(f"\nTotale giocatori con startPct: {len(all_ids)}")
 
 
 if __name__ == "__main__":

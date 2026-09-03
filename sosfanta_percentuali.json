@@ -54,7 +54,7 @@
     },
     {
      "n": "Butez",
-     "pct": 95
+     "pct": 55
     },
     {
      "n": "Couto",
@@ -99,6 +99,10 @@
     {
      "n": "Meichtry",
      "pct": 40
+    },
+    {
+     "n": "Sanchez Ro.",
+     "pct": 45
     },
     {
      "n": "Smolcic I.",
@@ -149,6 +153,10 @@
      "pct": 5
     },
     {
+     "n": "El Shaarawy",
+     "pct": 5
+    },
+    {
      "n": "Messias",
      "pct": 5
     },
@@ -169,19 +177,15 @@
      "pct": 5
     },
     {
-     "n": "Kambwala",
-     "pct": 5
-    },
-    {
-     "n": "Sanchez Ro.",
-     "pct": 5
-    },
-    {
      "n": "Vigorito",
      "pct": 5
     },
     {
      "n": "Goldaniga",
+     "pct": 5
+    },
+    {
+     "n": "Kambwala",
      "pct": 5
     },
     {
@@ -275,15 +279,15 @@
     },
     {
      "n": "Fortini",
-     "pct": 55
+     "pct": 51
     },
     {
      "n": "Fitz-Jim",
      "pct": 95
     },
     {
-     "n": "Gineitis",
-     "pct": 60
+     "n": "Mandragora",
+     "pct": 51
     },
     {
      "n": "Cacciamani",
@@ -327,11 +331,11 @@
     },
     {
      "n": "Belghali",
-     "pct": 45
+     "pct": 49
     },
     {
-     "n": "Ilkhan",
-     "pct": 40
+     "n": "Gineitis",
+     "pct": 49
     },
     {
      "n": "Christensen O.",
@@ -362,14 +366,6 @@
      "pct": 5
     },
     {
-     "n": "Biraghi",
-     "pct": 5
-    },
-    {
-     "n": "Aboukhlal",
-     "pct": 40
-    },
-    {
      "n": "Paleari",
      "pct": 5
     },
@@ -382,6 +378,10 @@
      "pct": 5
     },
     {
+     "n": "Aboukhlal",
+     "pct": 5
+    },
+    {
      "n": "Anjorin",
      "pct": 5
     },
@@ -390,7 +390,7 @@
      "pct": 5
     },
     {
-     "n": "Mandragora",
+     "n": "Ilkhan",
      "pct": 5
     },
     {
@@ -475,8 +475,8 @@
      "pct": 95
     },
     {
-     "n": "Olivera",
-     "pct": 95
+     "n": "Spinazzola",
+     "pct": 51
     },
     {
      "n": "Zambo Anguissa",
@@ -519,12 +519,12 @@
      "pct": 49
     },
     {
-     "n": "Lang",
+     "n": "Olivera",
      "pct": 49
     },
     {
-     "n": "Spence",
-     "pct": 5
+     "n": "Lang",
+     "pct": 49
     },
     {
      "n": "Sucic P.",
@@ -559,15 +559,15 @@
      "pct": 5
     },
     {
-     "n": "Badiashile",
-     "pct": 5
-    },
-    {
      "n": "Contini",
      "pct": 5
     },
     {
      "n": "Milinkovic-Savic V.",
+     "pct": 5
+    },
+    {
+     "n": "Badiashile",
      "pct": 5
     },
     {
@@ -579,19 +579,11 @@
      "pct": 5
     },
     {
-     "n": "Spinazzola",
-     "pct": 5
-    },
-    {
      "n": "Gilmour",
      "pct": 5
     },
     {
      "n": "Vergara",
-     "pct": 5
-    },
-    {
-     "n": "Giovane",
      "pct": 5
     },
     {
@@ -752,6 +744,10 @@
      "pct": 5
     },
     {
+     "n": "Pompei",
+     "pct": 5
+    },
+    {
      "n": "Sportiello",
      "pct": 5
     },
@@ -893,11 +889,11 @@
      "pct": 45
     },
     {
-     "n": "Daffara",
+     "n": "Ghidotti",
      "pct": 5
     },
     {
-     "n": "Ghidotti",
+     "n": "Daffara",
      "pct": 5
     },
     {
@@ -941,10 +937,6 @@
      "pct": 5
     },
     {
-     "n": "Tourè I.",
-     "pct": 5
-    },
-    {
      "n": "Strajnar",
      "pct": 5
     },
@@ -974,6 +966,10 @@
     },
     {
      "n": "Colombo L.",
+     "pct": 5
+    },
+    {
+     "n": "Tourè I.",
      "pct": 5
     },
     {
@@ -1034,7 +1030,7 @@
      "pct": 95
     },
     {
-     "n": "Fini",
+     "n": "Ghedjemis",
      "pct": 51
     },
     {
@@ -1102,7 +1098,7 @@
      "pct": 40
     },
     {
-     "n": "Zerbin",
+     "n": "Fini",
      "pct": 49
     },
     {
@@ -1112,22 +1108,6 @@
     {
      "n": "Sohm",
      "pct": 45
-    },
-    {
-     "n": "Gelli F.",
-     "pct": 5
-    },
-    {
-     "n": "Lolic",
-     "pct": 5
-    },
-    {
-     "n": "Kone B.",
-     "pct": 5
-    },
-    {
-     "n": "Ghedjemis",
-     "pct": 5
     },
     {
      "n": "Desplanches",
@@ -1166,19 +1146,15 @@
      "pct": 5
     },
     {
+     "n": "Zerbin",
+     "pct": 5
+    },
+    {
      "n": "Birligea",
      "pct": 5
     },
     {
      "n": "Bobcek",
-     "pct": 5
-    },
-    {
-     "n": "Duncan",
-     "pct": 5
-    },
-    {
-     "n": "Lisman",
      "pct": 5
     },
     {
@@ -1395,7 +1371,7 @@
      "pct": 5
     },
     {
-     "n": "Russo A.",
+     "n": "Enem",
      "pct": 5
     },
     {
@@ -1544,19 +1520,11 @@
      "pct": 49
     },
     {
-     "n": "Zhegrova",
-     "pct": 5
-    },
-    {
      "n": "Grabara",
      "pct": 5
     },
     {
      "n": "Pinsoglio",
-     "pct": 5
-    },
-    {
-     "n": "Cabal",
      "pct": 5
     },
     {
@@ -1584,10 +1552,6 @@
      "pct": 5
     },
     {
-     "n": "Tomori",
-     "pct": 5
-    },
-    {
      "n": "Terracciano",
      "pct": 5
     },
@@ -1608,7 +1572,7 @@
      "pct": 5
     },
     {
-     "n": "Comotto",
+     "n": "Christian Comotto",
      "pct": 5
     },
     {
@@ -1753,12 +1717,8 @@
      "pct": 45
     },
     {
-     "n": "Trepy",
-     "pct": 5
-    },
-    {
-     "n": "Mutandwa",
-     "pct": 5
+     "n": "Nzola",
+     "pct": 10
     },
     {
      "n": "Radunovic",
@@ -1802,18 +1762,6 @@
     },
     {
      "n": "Borrelli",
-     "pct": 5
-    },
-    {
-     "n": "Nzola",
-     "pct": 5
-    },
-    {
-     "n": "Kaba",
-     "pct": 5
-    },
-    {
-     "n": "Jean",
      "pct": 5
     },
     {
@@ -1923,7 +1871,7 @@
     },
     {
      "n": "Tavares N.",
-     "pct": 55
+     "pct": 95
     },
     {
      "n": "Taylor K.",
@@ -1954,11 +1902,7 @@
      "pct": 40
     },
     {
-     "n": "Pedraza",
-     "pct": 45
-    },
-    {
-     "n": "Cancellieri",
+     "n": "Gudmundsson A.",
      "pct": 45
     },
     {
@@ -2006,8 +1950,8 @@
      "pct": 5
     },
     {
-     "n": "Pellegrini Lu.",
-     "pct": 5
+     "n": "Cancellieri",
+     "pct": 10
     },
     {
      "n": "Motta",
@@ -2018,15 +1962,11 @@
      "pct": 5
     },
     {
-     "n": "Romagnoli",
+     "n": "Pedraza",
      "pct": 5
     },
     {
      "n": "Sutalo J.",
-     "pct": 5
-    },
-    {
-     "n": "Gudmundsson A.",
      "pct": 5
     },
     {

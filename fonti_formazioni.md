@@ -82,6 +82,31 @@ ricostruire `formazioni_src.json` (stesso formato: sources[].teams.{squadra}.{mo
   omonimi Milan (Terracciano / Terracciano F.), non risolvibile senza altro
   contesto dalla pagina.
 
+## Seconda fonte percentuali titolarità: Gazzetta (aggiunto 03/09/2026)
+- URL hub: https://www.gazzetta.it/Calcio/prob_form/ — elenca le 10 partite
+  della giornata corrente, ognuna con un link "vista testuale"
+  (`http://www.gazzetta.it/Calcio/prob_form/?match={id}`) che contiene in
+  realtà TUTTE e 10 le partite nella stessa pagina (basta un fetch, non uno
+  per partita). WebFetch bloccato su gazzetta.it come sempre: curl con UA
+  browser.
+- Dà titolari (via HTML strutturato `lineup-team__name`, non testo libero),
+  ballottaggi CON percentuale ("Nome-Nome NN-MM%"), panchina e indisponibili
+  — NON dà i rigoristi (quelli restano solo nelle 20 pagine "Formazione-
+  tipo" stagionali già usate per `align_pen.py`).
+- Script dedicato: `python3 scripts/fetch_gazzetta_percentuali.py` scrive
+  `gazzetta_percentuali.json`, stesso formato di `sosfanta_percentuali.json`
+  ({"matches": [{home, away, players: [{n, pct}]}]}).
+- `scripts/merge_startpct.py` ora incrocia ENTRAMBE le fonti (SOS Fanta +
+  Gazzetta): se un giocatore è agganciato da entrambe, `startPct` è la
+  media; se solo una lo copre, usa quella. Refresh completo per la
+  giornata corrente:
+    python3 scripts/fetch_sosfanta_percentuali.py
+    python3 scripts/fetch_gazzetta_percentuali.py
+    python3 scripts/merge_startpct.py
+    cp players_pen.json web/data/players.json
+  `web/data/giornata.json` ora ha anche `fonti: [...]`, mostrato nel
+  modale "Formazione consigliata".
+
 ## Infortunati (aggiunto 06/08/2026)
 - Fonte: https://www.fantacalcio.it/infortunati-serie-a (WebFetch funziona)
 - Refresh: aggiornare `infortuni.json` + `python3 scripts/merge_infortuni.py` + regen HTML.

@@ -9,6 +9,42 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (03/09/2026): seconda fonte percentuali titolarità (Gazzetta) per la formazione consigliata
+Luciano ha trovato una pagina Gazzetta diversa da quella già usata per le
+20 "Formazione-tipo" stagionali: https://www.gazzetta.it/Calcio/prob_form/,
+hub della giornata CORRENTE con titolari, ballottaggi con percentuale e
+indisponibili per tutte le 10 partite — nessun rigorista però, quello resta
+solo nelle pagine stagionali. Stesso genere di dato di SOS Fanta
+(`startPct`), non un sostituto delle altre 6 fonti "preview stagionale".
+
+Scoperta utile: il link "vista testuale" di UNA partita
+(`?match={id}`) contiene in realtà TUTTE le 10 partite della giornata
+nella stessa pagina — un solo fetch invece di dieci.
+
+Nuovo `scripts/fetch_gazzetta_percentuali.py` (stesso formato di
+`sosfanta_percentuali.json`, matching via regex sull'HTML strutturato:
+`lineup-team__name` per i titolari, panchina con numero di maglia da
+scartare, ballottaggi "Nome-Nome NN-MM%" da spacchettare in due entry).
+Bug trovati e sistemati nel primo giro (stessi pattern già visti su altre
+fonti in questa sessione): entità HTML non decodificate (N&#x27;Dri),
+iniziale anteposta al cognome (K. Carlos), e "Lautaro" scritto come solo
+nome invece di cognome (alias dedicato, stesso trucco già usato in
+`build_formazioni.py` per la stessa fonte).
+
+`merge_startpct.py` riscritto per incrociare più fonti invece di
+dipendere da una sola: se un giocatore è agganciato da entrambe SOS Fanta
+e Gazzetta, `startPct` è la MEDIA; se solo una lo copre, usa quella —
+tempera i casi in cui le due fonti sono in disaccordo (es. Sabelli
+Genoa: SOS Fanta 5%, Gazzetta 55%, finale 30%) invece di fidarsi
+ciecamente di una fonte sola. `web/data/giornata.json` ora ha anche
+`fonti: [...]`, mostrato nel modale.
+
+Verificato in browser: modale mostra "Fonti SOS Fanta + Gazzetta", 2
+formazioni valide generate, infortunati ancora correttamente esclusi.
+92.8% di aggancio per Gazzetta (438/472), residuo quasi tutto panchinari/
+giovanili non nel listone — stesso livello di rumore già tollerato per le
+altre fonti in questo progetto.
+
 ## FATTO (02/09/2026): fix budget non scalato segnando "Io" senza prezzo
 Bug segnalato da Luciano: segnando un giocatore preso ("Io") il budget per
 ruolo non si muoveva. Non era un bug di calcolo — `computeBudgetSummary`

@@ -86,7 +86,9 @@ export function LineupModal({
         alta pesa comunque di più del bonus.
       </p>
       <p className="hint" style={{ marginTop: -6, marginBottom: 14 }}>
-        Fonte SOS Fanta{giornata.periodo ? `, partite ${giornata.periodo}` : ""}, aggiornato al{" "}
+        Fonte{giornata.fonti && giornata.fonti.length > 1 ? "i" : ""}{" "}
+        {giornata.fonti && giornata.fonti.length > 0 ? giornata.fonti.join(" + ") : "SOS Fanta"}
+        {giornata.periodo ? `, partite ${giornata.periodo}` : ""}, aggiornato al{" "}
         {new Date(giornata.aggiornato).toLocaleDateString("it-IT", { day: "numeric", month: "long" })}.
         Punto di partenza da controllare tu — non conosce scelte tattiche non ancora trapelate.
       </p>

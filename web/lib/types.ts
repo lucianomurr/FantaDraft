@@ -71,6 +71,9 @@ export interface Player {
 export interface GiornataMeta {
   periodo: string | null;
   aggiornato: string;
+  /** Fonti incrociate per startPct (es. ["SOS Fanta", "Gazzetta"]) — assente
+   * nei giornata.json generati prima che se ne aggiungesse una seconda. */
+  fonti?: string[];
 }
 
 export interface TransferEvent {
