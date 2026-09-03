@@ -5,9 +5,10 @@ Quote per ruolo -> F1/F2/F3/F4. Poi:
 - X: FVM alto ma tit==0 (prezzo da titolare, posto da riserva)
 Scrive `pt` in players_pen.json e stampa anteprima.
 """
+import os
 import json
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 players = json.load(open(f"{PROJ}/players_pen.json"))
 
 QUOTA = {  # per ruolo: quanti in F1, F2, F3, F4

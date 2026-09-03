@@ -5,9 +5,10 @@ Primo nome = pen 1 (designato), gli altri = pen 2 (alternative), tutti gli altri
 giocatori = pen 0. Aggiornare GAZ_RIG al refresh pre-asta (blocco "Calci di
 rigore:" in fondo agli articoli Gazzetta per squadra, vedi fonti_formazioni.md).
 """
+import os
 import json, re, unicodedata
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 GAZ_RIG = {  # 02/09/2026
     "Atalanta": ["Scamacca", "De Ketelaere", "Samardzic"],

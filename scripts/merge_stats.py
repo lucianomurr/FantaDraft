@@ -5,11 +5,12 @@ Season: prefer 2526, fallback 2425. Serie A: team+surname; ambigui risolti con
 iniziali fantacalcio ("Martinez L." -> Lautaro). Nuovi arrivi: cognome (suffisso)
 + iniziali cross-team; accettati solo se unici, riportati per revisione.
 """
+import os
 import json, re, shutil, unicodedata
 from collections import defaultdict
 import pandas as pd
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TRANSLIT = str.maketrans({
     "ø": "o", "Ø": "O", "đ": "d", "Đ": "D", "ł": "l", "Ł": "L",

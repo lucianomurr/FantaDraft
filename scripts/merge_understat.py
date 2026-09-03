@@ -6,11 +6,12 @@ sono coerenti; se assente prova l'altra. Aggiunge:
 - `xg`, `xa`, `npxg` (1 decimale), `sh` (tiri), `kp` (key passes)
 Matching: squadra+cognome (con iniziali fantacalcio), fallback cross-team univoco.
 """
+import os
 import json, re, unicodedata
 from collections import defaultdict
 import pandas as pd
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 TRANSLIT = str.maketrans({"ø": "o", "Ø": "O", "đ": "d", "Đ": "D", "ł": "l", "Ł": "L",
                           "ß": "ss", "æ": "ae", "ı": "i", "İ": "I"})

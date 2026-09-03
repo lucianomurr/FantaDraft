@@ -4,9 +4,10 @@
 Al refresh pre-asta: riaggiornare infortuni.json dalla pagina
 fantacalcio.it/infortunati-serie-a e rilanciare questo script.
 """
+import os
 import json, re, unicodedata
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def norm(s):
     s = unicodedata.normalize("NFKD", s)

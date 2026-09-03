@@ -8,10 +8,11 @@ Output:
   modulo + XI con id agganciati)
 - report a video: nomi articolo non agganciati
 """
+import os
 import json, re, unicodedata
 from collections import defaultdict
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRATCH = PROJ  # formazioni_src.json ora sta nel progetto
 
 TRANSLIT = str.maketrans({"ø": "o", "Ø": "O", "đ": "d", "Đ": "D", "ł": "l", "Ł": "L",

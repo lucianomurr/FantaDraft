@@ -21,7 +21,7 @@ import os
 import re
 import unicodedata
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Gazzetta a volte usa solo il nome di battesimo per i giocatori più noti
 # così (stesso caso già gestito in build_formazioni.py per le altre fonti).

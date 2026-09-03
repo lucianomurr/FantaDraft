@@ -10,11 +10,12 @@ al giocatore quando:
 USO (dalla root del progetto, dopo get_transfers.py):
     python3 scripts/merge_transfers.py
 """
+import os
 import json
 import re
 import unicodedata
 
-PROJ = "/Users/luciano.murruni/Projects/asta_fantacalcio"
+PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def norm(s):
     if not isinstance(s, str):
