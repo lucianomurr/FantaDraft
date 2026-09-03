@@ -9,6 +9,24 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (03/09/2026): guida al tool con screenshot reali
+Nuova pagina `/guida`: 9 passi con screenshot veri del tool (non mockup),
+catturati con onboarding pulito (localStorage azzerato) e una rosa demo
+completa 25/25 costruita apposta (budget alzato a 3000cr temporaneamente
+solo per far tornare i numeri puliti nello screenshot budget, non è lo
+stato reale di nessuna asta). Copre onboarding (2 step), preset fasce,
+tabella con fasce applicate, budget, griglia portieri, formazione
+consigliata (coi tab nuovi), panchina/ballottaggi, scheda giocatore.
+
+Screenshot presi con `zoom` + `save_to_disk` ritagliati sull'elemento
+esatto invece di screenshot pieni — via via che il modale/pannello
+cambiava, non un'unica sessione lineare (dovuti un paio di re-scatti dopo
+il redesign a tab della Formazione consigliata, fatto a metà di questa
+stessa sessione). CSS dedicato in `globals.css` (`.guidastep`/`.guidaimg`),
+riusa i token/pattern esistenti (stessa card `.formcol`-style, stesso
+`.step` numerato di "Come funziona" sulla landing). Linkata da hero
+("Guarda come funziona") e footer della landing.
+
 ## FATTO (03/09/2026): landing disallineata dalle feature recenti (di nuovo)
 Stesso problema già capitato il 27/08 (e prevedibile: ogni volta che si
 aggiunge una feature vera, la landing resta com'era finché qualcuno non

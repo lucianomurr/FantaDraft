@@ -379,6 +379,9 @@ export default function Home() {
             <a className="btn pri" href="/tool">
               Apri il tool
             </a>
+            <a className="btn ghost" href="/guida">
+              Guarda come funziona
+            </a>
           </div>
           <p className="ctanote">
             Funziona nel browser, i dati restano sul tuo computer (localStorage + backup JSON).
@@ -559,7 +562,7 @@ export default function Home() {
           <span>
             Dati: FBref · Understat · fantacalcio.it · SOS Fanta · FantaMaster · Eurosport ·
             Goal · Gazzetta — <a href="/fonti">tutte le fonti e attribuzioni</a> ·{" "}
-            <a href="/termini">termini e condizioni</a>
+            <a href="/guida">guida al tool</a> · <a href="/termini">termini e condizioni</a>
           </span>
         </div>
       </footer>

@@ -264,6 +264,16 @@ h2 {
 .step p { margin: 0; color: var(--muted); font-size: 14.5px; }
 .step p b { color: var(--txt); font-weight: 600; }
 
+/* ---------- guida (screenshot walkthrough) ---------- */
+.guidastep { display: grid; grid-template-columns: 44px 1fr; gap: 16px; padding: 40px 0; border-top: 1px solid var(--line); }
+.guidastep:first-child { border-top: none; }
+.guidastep .num { font-family: var(--font-display), "Arial Narrow", sans-serif; font-size: 1.9rem; line-height: 1; color: var(--acc); }
+.guidastep h3 { margin: 2px 0 8px; font-size: 20px; }
+.guidastep p { margin: 0 0 16px; color: var(--muted); font-size: 15px; max-width: 62ch; }
+.guidastep p b { color: var(--txt); font-weight: 600; }
+.guidaimg { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--panel); max-width: 640px; }
+.guidaimg img { display: block; width: 100%; height: auto; }
+
 /* ---------- email ---------- */
 .emailbox {
   background: linear-gradient(135deg, #16233c, #14202f);
