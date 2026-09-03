@@ -5,6 +5,7 @@ node_modules/
 .next/
 out/
 *.log
+logs/
 downloaded_files/
 .env*.local
 .vercel

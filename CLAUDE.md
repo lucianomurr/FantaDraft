@@ -27,6 +27,68 @@ riusa i token/pattern esistenti (stessa card `.formcol`-style, stesso
 `.step` numerato di "Come funziona" sulla landing). Linkata da hero
 ("Guarda come funziona") e footer della landing.
 
+## FATTO (03/09/2026): refresh giornaliero automatico — niente cloud agent, launchd locale
+Chiesto un agente che ogni giorno alle 16 aggiorni titolarità/infortuni da
+solo. Primo tentativo: routine cloud schedulata (skill `schedule`,
+`RemoteTrigger`). Due bug reali trovati DAL test run stesso (comportamento
+corretto: si è fermato senza pubblicare nulla invece di rompere qualcosa):
+
+1. **GitHub disallineato**: tutta questa sessione avevo deployato con
+   `vercel --prod` direttamente dalla CLI, MAI pushato su GitHub — 15+
+   commit locali mai arrivati al repo remoto. Il clone fresco dell'agent
+   cloud vedeva codice di settimane fa. Pushati tutti, e con l'occasione
+   `vercel git connect` per collegare il repo (auto-deploy sui push futuri).
+2. **Root Directory Vercel sbagliata**: il progetto aveva "." come root
+   invece di "web" — i miei deploy CLI funzionavano solo perché lanciati
+   da dentro `web/` (bypassano quel setting), ma un deploy innescato da
+   git usa la config della dashboard. Corretto da Luciano nel pannello
+   Vercel.
+3. **Path hardcoded**: `merge_infortuni.py` e altri 7 script avevano
+   `PROJ = "/Users/luciano.murruni/..."` fisso — crash garantito fuori da
+   questo Mac. Reso dinamico (`os.path.dirname(os.path.dirname(...))`) in
+   tutti e 8.
+
+Con questi 3 fix la routine cloud ha comunque incontrato un muro non
+aggirabile: l'ambiente cloud (`env_015ErcFHrrrGswG6yCU1TBvE`, tipo
+"anthropic_cloud") ha l'accesso web in uscita bloccato da una allowlist
+fissa (solo api.anthropic.com, registry npm/pypi/ecc — verificato che
+fallisce anche su un dominio neutro come example.com). Nessun sito esterno
+raggiungibile, quindi nessuna fonte dati scaricabile da lì — non è un bug
+della routine, è una policy di sicurezza dell'ambiente.
+
+**Decisione**: abbandonato l'approccio cloud, routine disabilitata.
+Sostituito con un job locale (`scripts/daily_refresh.sh` + `launchd`,
+vedi `scripts/com.fantadraft.dailyrefresh.plist`) sul Mac di Luciano —
+gira con l'accesso a internet normale della macchina, nessuna dipendenza
+da Claude/AI per l'esecuzione quotidiana (solo script python
+deterministici). Contro: gira solo se il Mac è acceso alle 16.
+
+Due script nuovi per togliere la dipendenza da WebFetch (che nella pipeline
+cloud-agent serviva per gli infortunati, ma un job locale senza AI non ce
+l'ha):
+- `scripts/fetch_infortuni.py`: fantacalcio.it/infortunati-serie-a via
+  curl+regex, stesso schema {s,n,d,r} di sempre. Il sito dà UN paragrafo
+  prosa (non diagnosi/rientro separati) — split euristico su frase o
+  clausola (virgola/"e") che contiene una parola chiave di rientro
+  ("recuperabile", "rientro", "ai box", "arruolabile"...), fallback a
+  rientro generico se non trovata. ~86% split pulito (37/43 alla prima
+  prova), il resto va comunque nel campo diagnosi per intero — mai perso.
+  Bug trovato subito: `strip(" .\xa0")` (nbsp da `&nbsp;`) tagliava anche
+  il punto finale dei nomi abbreviati ("Idrissi R." → "Idrissi R",
+  0 agganci) — tolto lo strip dei punti, tenuto solo whitespace.
+- `scripts/cross_check_infortuni.py`: productivizza il confronto che
+  prima facevo a mano leggendo `gazzetta_infortuni_raw.json` — aggiunge
+  SOLO i nomi che Gazzetta segna indisponibili e fantacalcio.it non ha
+  ancora, mai rimuove nessuno (stessa policy già applicata a mano il
+  03/09). Verificato: 13 nuovi nomi aggiunti in un run di prova.
+
+`daily_refresh.sh`: pull → fetch (ognuna fallisce senza bloccare le
+altre) → merge → propaga a web/data → `git status` mirato ai soli file di
+questo giro → se vuoto, esce senza commit; se no, commit+push con un
+messaggio che riporta quanti giocatori/infortuni sono cambiati. Log su
+file (`logs/daily_refresh_<data>.log`) per poter controllare cosa ha
+fatto senza dover riaprire una sessione.
+
 ## FATTO (03/09/2026): landing disallineata dalle feature recenti (di nuovo)
 Stesso problema già capitato il 27/08 (e prevedibile: ogni volta che si
 aggiunge una feature vera, la landing resta com'era finché qualcuno non
