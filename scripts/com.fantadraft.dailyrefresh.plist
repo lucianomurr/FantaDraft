@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.fantadraft.dailyrefresh</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/bin/bash</string>
+		<string>/Users/luciano.murruni/Projects/asta_fantacalcio/scripts/daily_refresh.sh</string>
+	</array>
+
+	<key>StartCalendarInterval</key>
+	<dict>
+		<key>Hour</key>
+		<integer>16</integer>
+		<key>Minute</key>
+		<integer>0</integer>
+	</dict>
+
+	<key>RunAtLoad</key>
+	<false/>
+
+	<key>StandardOutPath</key>
+	<string>/Users/luciano.murruni/Projects/asta_fantacalcio/logs/launchd.out.log</string>
+	<key>StandardErrorPath</key>
+	<string>/Users/luciano.murruni/Projects/asta_fantacalcio/logs/launchd.err.log</string>
+
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>PATH</key>
+		<string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin</string>
+		<key>HOME</key>
+		<string>/Users/luciano.murruni</string>
+		<key>SSH_AUTH_SOCK</key>
+		<string>/var/run/com.apple.launchd.W57czX58EO/Listeners</string>
+	</dict>
+</dict>
+</plist>
