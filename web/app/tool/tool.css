@@ -260,6 +260,22 @@ details.strat[open] .stbody{padding-bottom:14px}
 .liveresfvm{color:var(--txt2);font-variant-numeric:tabular-nums;min-width:32px;text-align:right;flex-shrink:0}
 
 .livealtlist{flex:none;padding:0;margin:0}
+
+.viewtoggle{width:fit-content}
+.pitch{position:relative;background:radial-gradient(ellipse at center,#1a4d2e 0%,#0d2818 100%);border:2px solid rgba(255,255,255,.22);border-radius:14px;padding:18px 10px;display:flex;flex-direction:column;gap:16px}
+.pitch::before{content:"";position:absolute;inset:14px 10px;border:1px solid rgba(255,255,255,.14);border-radius:8px;pointer-events:none}
+.pitchbadge{align-self:center;background:rgba(0,0,0,.4);color:#fff;font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.3px;position:relative;z-index:1}
+.pitchrow{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;position:relative;z-index:1}
+.jersey{width:84px;display:flex;flex-direction:column;align-items:center;text-align:center;background:rgba(0,0,0,.38);border:1px solid rgba(255,255,255,.15);border-radius:10px;padding:8px 4px;color:#fff}
+.jersey-P{border-top:3px solid var(--p)}
+.jersey-D{border-top:3px solid var(--d)}
+.jersey-C{border-top:3px solid var(--c)}
+.jersey-A{border-top:3px solid var(--a)}
+.jerseyavatar{width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:800;margin-bottom:5px}
+.jerseyname{font-size:11px;font-weight:700;line-height:1.2;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.jerseyteam{font-size:9.5px;color:rgba(255,255,255,.65);margin-top:1px}
+.jerseystats{display:flex;gap:6px;margin-top:4px;font-size:10px;font-variant-numeric:tabular-nums;color:rgba(255,255,255,.85)}
+
 .livecard{flex:1;overflow-y:auto;padding:16px}
 .liveback{margin-bottom:14px}
 .livehead{display:flex;align-items:center;gap:12px}

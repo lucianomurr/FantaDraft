@@ -13,7 +13,9 @@ import type { GkGrid } from "../../lib/gkgrid";
 import { withDerivedAll } from "../../lib/scoring";
 import { filterPlayers, sortPlayers } from "../../lib/filters";
 import { AstaProvider, useAsta } from "../../contexts/AstaContext";
+import { LeagueProvider } from "../../contexts/LeagueContext";
 import { Header } from "../../components/tool/Header";
+import { LeagueModal } from "../../components/tool/LeagueModal";
 import { BudgetPanel } from "../../components/tool/BudgetPanel";
 import { StrategiaPromemoria } from "../../components/tool/StrategiaPromemoria";
 import { ProbabiliFormazioni } from "../../components/tool/ProbabiliFormazioni";
@@ -44,7 +46,9 @@ const UPDATED_AT = new Date(meta.aggiornato).toLocaleDateString("it-IT", {
 export default function ToolPage() {
   return (
     <AstaProvider>
-      <ToolInner />
+      <LeagueProvider>
+        <ToolInner />
+      </LeagueProvider>
     </AstaProvider>
   );
 }
@@ -62,6 +66,7 @@ function ToolInner() {
   const [legendOpen, setLegendOpen] = useState(false);
   const [presetOpen, setPresetOpen] = useState(false);
   const [lineupOpen, setLineupOpen] = useState(false);
+  const [leagueOpen, setLeagueOpen] = useState(false);
   const [liveMode, setLiveMode] = useState(false);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [onboardingOpen, setOnboardingOpen] = useState(false);
@@ -112,6 +117,7 @@ function ToolInner() {
         onShowLegend={() => setLegendOpen(true)}
         onShowPreset={() => setPresetOpen(true)}
         onShowLineup={() => setLineupOpen(true)}
+        onShowLeague={() => setLeagueOpen(true)}
         onStartLive={() => setLiveMode(true)}
         updatedAt={UPDATED_AT}
       />
@@ -156,6 +162,13 @@ function ToolInner() {
         matchups={MATCHUPS}
         open={lineupOpen}
         onClose={() => setLineupOpen(false)}
+      />
+      <LeagueModal
+        players={derived}
+        standings={STANDINGS}
+        matchups={MATCHUPS}
+        open={leagueOpen}
+        onClose={() => setLeagueOpen(false)}
       />
       <OnboardingModal
         open={onboardingOpen}

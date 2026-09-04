@@ -11,6 +11,7 @@ export function Header({
   onShowLegend,
   onShowPreset,
   onShowLineup,
+  onShowLeague,
   onStartLive,
   updatedAt,
 }: {
@@ -18,6 +19,7 @@ export function Header({
   onShowLegend: () => void;
   onShowPreset: () => void;
   onShowLineup: () => void;
+  onShowLeague: () => void;
   onStartLive: () => void;
   updatedAt: string;
 }) {
@@ -107,6 +109,9 @@ export function Header({
           }
         >
           📋 Formazione
+        </button>
+        <button className="ghost sm" onClick={onShowLeague}>
+          🏆 Lega
         </button>
         <button className="ghost sm" onClick={onShowLegend}>
           ❓ Legenda

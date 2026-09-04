@@ -9,6 +9,66 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (04/09/2026): import rose di lega da CSV + valore rose + formazione a campo
+Asta conclusa (2-3/09), Luciano ha scaricato dall'app ufficiale
+leghe.fantacalcio.it l'export di TUTTE le rose della lega (10 squadre) e ha
+chiesto tre cose: (1) un form per caricarlo e popolare tutte le squadre, non
+solo la propria rosa tracciata durante l'asta, (2) un confronto di "valore
+auristico" (chi ha speso meno del vero valore FVM della rosa presa), (3) una
+formazione consigliata disegnata come un campo da calcio (card colorate per
+ruolo), sul modello di uno screenshot dell'app ufficiale allegato da Luciano.
+
+**Formato del CSV** (`contefanta_rosters_*.csv`, scoperto ispezionando il
+file a mano): niente header singolo — righe `$,$,$` ripetute come
+separatore tra un blocco squadra e l'altro (10 blocchi da 25 righe). Riga
+dati: `teamName,playerId,creditiPagati`. Verificato sul file reale: 250/250
+playerId agganciano il listone corrente, somma crediti per squadra 468-499cr
+(coerente col budget 500) — conferma che la 3a colonna è il prezzo pagato.
+Un nome squadra è letteralmente "404" (placeholder dell'app per una squadra
+senza nome custom) — trattato come stringa normale, nessun caso speciale.
+
+Feature **additiva**, zero tocchi ad `AstaContext.tsx`/`TrackingState`/
+`PersistedState` (il proprio tracking "mine/out/free" durante l'asta) —
+sono concetti diversi (rose finali di TUTTA la lega vs il proprio stato
+live), stato separato con sua chiave localStorage
+(`fanta_league_2627_v1`, `web/lib/leagueStorage.ts`) e suo Context
+(`web/contexts/LeagueContext.tsx`).
+
+Nuovo `web/lib/league.ts`: `parseRosterCsv` (parsing del formato sopra),
+`computeTeamValueSummary`/`rankTeams` — leggono `p.f` direttamente (il
+FVM Classic/Mantra è già risolto da `withDerivedAll` a monte, stesso
+pattern già usato da `lineup.ts`, zero riderivazione qui). Nuovo
+`web/components/tool/LeagueModal.tsx` (bottone header "🏆 Lega"): upload
+CSV (stesso pattern FileReader di `Header.tsx` per il backup JSON),
+riepilogo import, select "la mia squadra", 2 tab — **Valore rose**
+(classifica per differenza FVM-speso, riga propria evidenziata) e
+**Formazione** (select squadra della lega, 4 tab modulo, formazione
+suggerita per QUALUNQUE squadra importata via un `TrackingState`
+sintetico costruito al volo dalla rosa CSV — **zero modifiche a
+`lineup.ts`**, la funzione `suggestLineups` esistente non sa di essere
+chiamata su una rosa importata invece che sul proprio tracking live).
+
+**Formazione a campo** (`web/components/tool/PitchFormation.tsx`, nuovo):
+sfondo scuro stile campo (CSS puro, no SVG esterni), righe P→D→C→A, card
+"maglia" colorata per ruolo (bordo `--p/--d/--c/--a`, stessa palette già
+in uso per i badge ruolo). **Deviazione dichiarata dallo screenshot di
+riferimento**: nessuna foto reale del giocatore (il progetto non ha mai
+scaricato dati immagine — `Player` non ha un campo foto) — avatar CSS a
+iniziali al suo posto. Due numeri per card: FVM e % titolarità giornata
+corrente (sostituto dei "media voto/fantamedia" dell'app ufficiale, dato
+che il tool non ha voti dei pagellisti). Componente riusabile: oltre alla
+nuova sezione Lega, aggiunto anche un toggle "🗒 Lista / ⚽ Campo" dentro il
+modale "Formazione consigliata" già esistente (`LineupModal.tsx`) — stessa
+`LineupSuggestion` già calcolata, value-add gratuito.
+
+Verificato in browser con il CSV reale di Luciano: 10 squadre/250
+giocatori importati, tabella valore rose coerente coi totali calcolati a
+mano in sessione (es. Ostia Liedholm 499cr → 986cr FVM → +487cr), pitch
+view su 2 moduli diversi (4-3-3/4-4-2) con card colorate correttamente,
+toggle Lista/Campo sulla Formazione esistente funzionante con la rosa
+"mine" già tracciata durante l'asta. `npm run build` pulito (typecheck +
+build di produzione).
+
 ## FATTO (03/09/2026): guida al tool con screenshot reali
 Nuova pagina `/guida`: 9 passi con screenshot veri del tool (non mockup),
 catturati con onboarding pulito (localStorage azzerato) e una rosa demo

@@ -162,6 +162,24 @@ export interface PersistedState {
   st: TrackingState;
 }
 
+/** Una squadra della lega importata da CSV (leghe.fantacalcio.it), con i
+ * giocatori posseduti e il prezzo pagato in asta. */
+export interface LeagueTeam {
+  name: string;
+  players: { id: number; price: number }[];
+}
+
+/** Rose di TUTTA la lega, importate da CSV — stato indipendente dal proprio
+ * tracking d'asta (`TrackingState`): qui si rappresentano le 10 squadre
+ * finali, non "mine/out/free" durante l'asta live. */
+export interface LeagueImport {
+  importedAt: string; // ISO date
+  teams: LeagueTeam[];
+  myTeam: string | null;
+  /** Righe del CSV il cui playerId non è stato trovato nel listone corrente. */
+  unmatched: { team: string; id: number }[];
+}
+
 export interface FilterState {
   role: Role | "ALL";
   q: string;

@@ -6,6 +6,7 @@ import { suggestLineups, injuredMine, jokerInfo, type LineupSuggestion } from ".
 import { matchupLabel } from "../../lib/matchup";
 import type { DerivedPlayer, GiornataMeta, Matchups, Standings } from "../../lib/types";
 import { ModalShell } from "./ModalShell";
+import { PitchFormation } from "./PitchFormation";
 
 const RMAP: Record<string, string> = { P: "rP", D: "rD", C: "rC", A: "rA" };
 
@@ -137,6 +138,7 @@ export function LineupModal({
   );
   const anyValid = suggestions.some((s) => s.starters.length > 0);
   const [tab, setTab] = useState(0);
+  const [view, setView] = useState<"lista" | "campo">("lista");
   const active = suggestions[tab];
 
   return (
@@ -184,7 +186,20 @@ export function LineupModal({
               </button>
             ))}
           </div>
-          {active && <LineupCard s={active} allPlayers={players} matchups={matchups} />}
+          <div className="tabs viewtoggle" style={{ marginBottom: 12 }}>
+            <button className={`tab${view === "lista" ? " on" : ""}`} onClick={() => setView("lista")}>
+              🗒 Lista
+            </button>
+            <button className={`tab${view === "campo" ? " on" : ""}`} onClick={() => setView("campo")}>
+              ⚽ Campo
+            </button>
+          </div>
+          {active &&
+            (view === "lista" ? (
+              <LineupCard s={active} allPlayers={players} matchups={matchups} />
+            ) : (
+              <PitchFormation suggestion={active} />
+            ))}
         </>
       )}
     </ModalShell>
