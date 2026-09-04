@@ -279,6 +279,13 @@ details.strat[open] .stbody{padding-bottom:14px}
 .jersey-bench{opacity:.72;background:rgba(0,0,0,.25)}
 .pitchbenchrow{display:flex;flex-wrap:wrap;gap:8px}
 
+.injuredbox{background:rgba(255,93,108,.08);border:1px solid rgba(255,93,108,.35);border-radius:10px;padding:10px 12px;margin-top:16px}
+.injuredbox-title{font-weight:700;color:var(--bad);font-size:13px;margin-bottom:8px}
+.injuredlist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.injuredlist li{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px}
+.injuredlist .team{color:var(--muted);font-size:12px}
+.injdetail{width:100%;color:var(--txt2);font-size:12px;margin-top:1px;line-height:1.4}
+
 .livecard{flex:1;overflow-y:auto;padding:16px}
 .liveback{margin-bottom:14px}
 .livehead{display:flex;align-items:center;gap:12px}
