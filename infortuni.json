@@ -1,17 +1,11 @@
 {
- "aggiornato": "2026-09-03",
+ "aggiornato": "2026-09-04",
  "infortunati": [
   {
    "s": "Atalanta",
    "n": "Sulemana K.",
    "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro",
    "r": "recuperabile da inizio ottobre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Kristensen T.",
-   "d": "Il difensore non disponibile contro Sassuolo e Bologna per un problema alla caviglia.",
-   "r": "Da valutare quotidianamente, a rischio anche per sabato sera contro la Roma in trasferta."
   },
   {
    "s": "Atalanta",
@@ -66,6 +60,12 @@
    "n": "Venturino",
    "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
    "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Havel",
+   "d": "L'attaccante non convocato neppure venerdì contro il Como, sta risolvun fastidio muscolare alla gamba.",
+   "r": "Tentativo di rientro dalla 4a di campionato."
   },
   {
    "s": "Juventus",
@@ -266,12 +266,6 @@
    "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
   },
   {
-   "s": "Genoa",
-   "n": "Havel",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Torino",
    "n": "Israel",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
@@ -296,16 +290,16 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Parma",
-   "n": "Bernabé",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Frosinone",
    "n": "Schmid",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."
+  },
+  {
+   "s": "Parma",
+   "n": "Bernabé",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Juventus",
@@ -326,16 +320,16 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
+   "s": "Juventus",
+   "n": "Pape Matar Sarr",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
    "s": "Milan",
    "n": "Gabbia",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 5 (fonte Gazzetta)."
-  },
-  {
-   "s": "Cagliari",
-   "n": "Borrelli",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
+   "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."
   }
  ]
 }

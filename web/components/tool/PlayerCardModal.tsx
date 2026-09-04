@@ -190,6 +190,17 @@ function PlayerCardBody({
           </div>
         </div>
       )}
+      {p.voti && p.voti.length > 0 && (
+        <div className="pmeta" style={{ marginBottom: 10 }}>
+          <b style={{ color: "var(--txt)" }}>Voti 2026/27</b>{" "}
+          {p.voti.map((v) => (
+            <span key={v.g} style={{ marginRight: 10 }}>
+              G{v.g}: {v.v.toFixed(1).replace(".", ",")}
+              {v.fv !== v.v ? ` (FV ${v.fv.toFixed(1).replace(".", ",")})` : ""}
+            </span>
+          ))}
+        </div>
+      )}
       <div style={{ overflowX: "auto" }}>
         <table>
           <thead>

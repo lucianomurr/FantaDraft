@@ -9,6 +9,83 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (04/09/2026): campetto per formazione titolare reale + refresh completo (quotazioni, 6 fonti formazioni, voti reali)
+Seguito alla feature "campetto" appena fatta per Lega/rosa propria: Luciano
+ha chiesto lo stesso identico rendering anche per la "formazione titolare"
+di QUALSIASI squadra reale di Serie A (non solo import lega), coi dati
+della PROSSIMA giornata di calendario (non il preview stagionale a 6 fonti
+già esistente), e con casa/fuori mostrato anche per la panchina —
+"voglio avere più informazioni possibili".
+
+**Riuso totale, zero nuova logica di scelta titolari**: stesso trucco già
+usato per le rose di lega — un `TrackingState` sintetico marca "mine" tutti
+i giocatori di UNA squadra reale (es. Atalanta) presi da `players_pen.json`,
+poi si richiama `suggestLineups` esistente (FVM × probabilità titolarità ×
+correttivo avversario, dati della giornata corrente via `startPct`/
+`matchups` — non l'aggregato stagionale a 6 fonti). Nuovo toggle "🗒 Fonti
+(stagionale) / ⚽ Campo (prossima giornata)" dentro il pannello "Probabili
+formazioni" esistente (`ProbabiliFormazioni.tsx`), stesso selettore squadra
+già lì — in modalità Campo, 4 tab modulo + `PitchFormation` invece della
+griglia a 6 colonne di testo.
+
+`PitchFormation.tsx` esteso: ora accetta anche `matchups`/`allPlayers`
+(opzionali) per mostrare casa/fuori su OGNI card (titolari e panchina, non
+solo titolari come prima) e un badge ballottaggio (⚠ titolare a rischio di
+essere scavalcato, ⚔ panchinaro che potrebbe subentrare) riusando
+`jokerInfo` già esistente in `lineup.ts` — stesso identico avviso già
+presente nella vista lista, ora anche nel campo. Nuova sezione "Panchina"
+sotto il campo (prima il componente non renderizzava affatto la panchina).
+Tutti e 3 i punti di chiamata (Formazione consigliata, Lega, Probabili
+formazioni) aggiornati per passare i nuovi prop.
+
+**Nella stessa richiesta, un refresh completo dati** (Luciano ha allegato
+un listone fresco + chiesto di rifare tutte le probabili formazioni):
+- Quotazioni: nuovo xlsx (`update_quotazioni.py`) → 531→534 giocatori (+5
+  nuovi: Pompei, Enem, Rodriguez R., El Shaarawy, Ehizibue — tutti già
+  intercettati come non-agganciati nel giro formazioni appena fatto,
+  stesso pattern "le fonti anticipano il listone" visto in giri precedenti;
+  -2 usciti: Romagnoli, Mutandwa). Zero variazioni Qt/FVM sui 529 invariati
+  — mercato ormai chiuso da giorni, atteso.
+- Probabili formazioni, tutte e 6 le fonti rifatte: Gazzetta e
+  Fantacalcio.it via gli script dedicati esistenti (deterministici, via
+  curl interno — nessun agente necessario); SOS Fanta/FantaMaster/
+  Eurosport/Goal (nessuno script standing, pagine singole con tutte le 20
+  squadre) delegate a 4 agenti in parallelo con URL+schema JSON esatti nel
+  prompt — 20/20 squadre agganciate su tutte e 4, scritte in file separati
+  (`sosfanta_src.json` ecc.) per evitare race condition su
+  `formazioni_src.json` con scritture concorrenti, poi unite io stesso in
+  sequenza. Rigoristi (`align_pen.py`) verificati: zero cambi dalla
+  gerarchia già nota. 8/1320 slot non agganciati nel merge finale (~0.6%,
+  stesso ordine di grandezza storico — refusi propri delle fonti, non
+  inseguiti singolarmente).
+- Percentuali titolarità/matchup/infortuni giornata corrente rifatte con lo
+  stesso script chain di `daily_refresh.sh` (girato a mano invece che
+  aspettare le 16 di launchd, per avere dati freschi subito per la nuova
+  feature campetto).
+
+**Nuova fonte: voti reali per giornata** (Luciano ha trovato
+`fantacalcio.it/voti-fantacalcio-serie-a/2026-27/{N}`, chiesto uso per le
+giornate 1 e 2 già giocate). Chiarito con una domanda mirata come volesse
+usarli prima di scrivere lo scraper (rischio concreto: costruire la cosa
+sbagliata — sostituire Val avrebbe toccato un punteggio già usato per le
+fasce): risposta "solo storico in scheda giocatore", **Val resta invariato**
+(basato su xG/gol, non sui voti reali). Nuovo `scripts/fetch_voti.py` +
+`scripts/merge_voti.py`: pagina server-rendered con id fantacalcio ufficiale
+nell'URL del giocatore (match diretto, niente euristiche di nome) — 304-314
+giocatori su 319 con voto agganciati per giornata (bottone Excel dietro
+login, non usabile, si scrapa la tabella HTML che ha lo stesso dato). Nuovo
+campo `voti: [{g,v,fv}]` su `players_pen.json`, mostrato come riga
+"Voti 2026/27" in cima allo storico stagioni della scheda giocatore
+(`PlayerCardModal.tsx`) — puramente informativo.
+
+Contatori landing (`FONTI` in `page.tsx`, `README.md`) aggiornati ai numeri
+reali ricontati: 534 giocatori, 440 con dati, 335 xG coperti, 150 arrivi
+tracciati, 55 infortunati monitorati. Verificato tutto in browser: 6 fonti
+stagionali rese correttamente, toggle Campo su Atalanta con 4 moduli e
+panchina 10 giocatori tutti con "Atalanta · @ Roma (trasferta)", badge
+ballottaggio visibile su Samardzic/Kolasinac, scheda Malen mostra "Voti
+2026/27 G1: 8,5 (FV 17,5) G2: 8,0 (FV 13,5)". `npm run build` pulito.
+
 ## FATTO (04/09/2026): import rose di lega da CSV + valore rose + formazione a campo
 Asta conclusa (2-3/09), Luciano ha scaricato dall'app ufficiale
 leghe.fantacalcio.it l'export di TUTTE le rose della lega (10 squadre) e ha

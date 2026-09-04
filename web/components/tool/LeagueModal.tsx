@@ -218,7 +218,9 @@ export function LeagueModal({
                       </button>
                     ))}
                   </div>
-                  {activeSuggestion && <PitchFormation suggestion={activeSuggestion} />}
+                  {activeSuggestion && (
+                    <PitchFormation suggestion={activeSuggestion} matchups={matchups} allPlayers={players} />
+                  )}
                 </>
               ) : (
                 <p className="hint">Rosa insufficiente per comporre un modulo valido per questa squadra.</p>

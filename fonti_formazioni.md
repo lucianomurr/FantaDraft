@@ -112,6 +112,26 @@ ricostruire `formazioni_src.json` (stesso formato: sources[].teams.{squadra}.{mo
 - Refresh: aggiornare `infortuni.json` + `python3 scripts/merge_infortuni.py` + regen HTML.
 - PRIORITARIO al refresh pre-asta: è il dato più volatile di tutti.
 
+## Voti reali per giornata (aggiunto 04/09/2026)
+- URL: https://www.fantacalcio.it/voti-fantacalcio-serie-a/2026-27/{giornata} —
+  pagina server-rendered con voto+fantavoto (fonte Redazione Fantacalcio) per
+  ogni giocatore che ha giocato quella giornata. L'URL del giocatore contiene
+  l'id ufficiale fantacalcio (es. `.../atalanta/carnesecchi/4431`), stesso id
+  di `players_pen.json` — match diretto per id, niente euristiche di nome.
+  Il bottone "Scarica" (Excel) è dietro login (`only-for-logged`), NON
+  usabile senza credenziali salvate (decisione presa: non le salviamo) — si
+  scrapa invece la tabella HTML già server-side, che contiene lo stesso dato.
+- Uso ESPLICITAMENTE limitato a storico informativo nella scheda giocatore
+  (campo `voti: [{g, v, fv}]`) — NON entra nella formula Val (che resta
+  basata su xG/gol) né in nessun'altra formula del tool. Scelta di Luciano,
+  04/09/2026, per non toccare un punteggio già usato per le fasce.
+- Script dedicati:
+    python3 scripts/fetch_voti.py [giornate...]   # default 1 2, scrive voti.json
+    python3 scripts/merge_voti.py                  # aggancia a players_pen.json
+  Poi come sempre: `cp players_pen.json web/data/players.json`.
+- Da rifare ogni settimana dopo la giornata giocata, aggiungendo il nuovo
+  numero di giornata all'elenco (es. `fetch_voti.py 3` dopo la giornata 3).
+
 ## Note per il refresh pre-asta
 - Gazzetta dà anche il RIGORISTA per squadra: usarlo per verificare/aggiornare `pen` in players_pen.json.
 - Con 5 fonti la colonna Tit passa a scala 0-5: aggiornare tooltip/soglie (filtro "≥2 fonti" → valutare "≥3").

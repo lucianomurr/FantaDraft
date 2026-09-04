@@ -198,7 +198,7 @@ export function LineupModal({
             (view === "lista" ? (
               <LineupCard s={active} allPlayers={players} matchups={matchups} />
             ) : (
-              <PitchFormation suggestion={active} />
+              <PitchFormation suggestion={active} matchups={matchups} allPlayers={players} />
             ))}
         </>
       )}

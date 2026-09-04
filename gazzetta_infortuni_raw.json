@@ -16,7 +16,7 @@
  "Como": [
   {
    "n": "Addai",
-   "stato": "Rientro alla 7"
+   "stato": "Rientro alla 6"
   }
  ],
  "Fiorentina": [
@@ -78,30 +78,6 @@
    "stato": "Rientro alla 6"
   }
  ],
- "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Bernabé",
-   "stato": "Da valutare"
-  }
- ],
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Ciurria",
-   "stato": "Rientro alla 4"
-  },
-  {
-   "n": "Gustavo Varela",
-   "stato": "Da valutare"
-  }
- ],
  "Frosinone": [
   {
    "n": "Schmid",
@@ -123,6 +99,30 @@
   },
   {
    "n": "Franjic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bernabé",
+   "stato": "Da valutare"
+  }
+ ],
+ "Monza": [
+  {
+   "n": "Pessina",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Ciurria",
+   "stato": "Rientro alla 4"
+  },
+  {
+   "n": "Gustavo Varela",
    "stato": "Da valutare"
   }
  ],
@@ -186,12 +186,16 @@
   {
    "n": "Cabal",
    "stato": "Rientro alla 7"
+  },
+  {
+   "n": "Pape Matar Sarr",
+   "stato": "Da valutare"
   }
  ],
  "Milan": [
   {
    "n": "Gabbia",
-   "stato": "Rientro alla 5"
+   "stato": "Rientro alla 4"
   }
  ],
  "Cagliari": [
@@ -201,14 +205,6 @@
   },
   {
    "n": "Trepy",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Mina",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Borrelli",
    "stato": "Da valutare"
   }
  ],

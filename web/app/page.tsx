@@ -221,7 +221,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         Listone 2026/27 con Qt e <b>FVM</b> (la stima reale del prezzo d&apos;asta).
       </>
     ),
-    n: "531 giocatori",
+    n: "534 giocatori",
   },
   {
     k: "Statistiche FBref",
@@ -231,7 +231,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         europei più Serie B, così anche neopromossi e nuovi arrivi hanno numeri veri.
       </>
     ),
-    n: "442 con dati",
+    n: "440 con dati",
   },
   {
     k: "xG e xA da Understat",
@@ -241,7 +241,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         8-gol con 15 di xG è un affare che il prezzo non racconta.
       </>
     ),
-    n: "337 coperti",
+    n: "335 coperti",
   },
   {
     k: "Probabili formazioni",
@@ -268,12 +268,12 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         crediti.
       </>
     ),
-    n: "54 monitorati",
+    n: "55 monitorati",
   },
   {
     k: "Ultimi trasferimenti",
     v: "Badge quando il listone ha ancora un giocatore ceduto o in prestito altrove: capita più spesso di quanto pensiate, specie a ridosso dell'asta.",
-    n: "151 arrivi tracciati",
+    n: "150 arrivi tracciati",
   },
   {
     k: "Griglia portieri",
@@ -362,7 +362,7 @@ export default function Home() {
           </h1>
           <p className="sub">
             Tool <b>gratuito e open source</b> per l&apos;asta del fantacalcio Serie A 2026/27:{" "}
-            <b>531 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
+            <b>534 giocatori</b> con statistiche reali di due stagioni, probabili formazioni
             da 6 fonti, rigoristi, infortunati, ultimi trasferimenti e budget live — e dopo
             l&apos;asta, la formazione consigliata giornata per giornata.
             Niente account: lo apri e funziona, o lo installi come app se preferisci.

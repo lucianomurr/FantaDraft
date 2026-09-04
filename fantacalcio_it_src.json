@@ -1,6 +1,6 @@
 {
  "Genoa": {
-  "mod": "3-4-2-1",
+  "mod": "3-5-2",
   "xi": [
    {
     "id": 7332,
@@ -19,8 +19,8 @@
     "n": "Vasquez"
    },
    {
-    "id": 6020,
-    "n": "Ellertsson"
+    "id": 791,
+    "n": "Sabelli"
    },
    {
     "id": 5791,
@@ -31,20 +31,20 @@
     "n": "Sow"
    },
    {
-    "id": 7537,
-    "n": "Mitaj"
-   },
-   {
     "id": 5823,
     "n": "Baldanzi"
    },
    {
-    "id": 6164,
-    "n": "Vitinha O."
+    "id": 6020,
+    "n": "Ellertsson"
    },
    {
     "id": 4923,
     "n": "Colombo"
+   },
+   {
+    "id": 7600,
+    "n": "Osmajic"
    }
   ],
   "ball": []
@@ -93,8 +93,8 @@
     "n": "Baturina"
    },
    {
-    "id": 2097,
-    "n": "Kean"
+    "id": 7017,
+    "n": "Douvikas"
    }
   ],
   "ball": []
@@ -127,8 +127,8 @@
     "n": "Ndour"
    },
    {
-    "id": 7464,
-    "n": "Oulai"
+    "id": 4465,
+    "n": "Fagioli"
    },
    {
     "id": 6908,
@@ -169,12 +169,12 @@
     "n": "Comert"
    },
    {
-    "id": 7220,
-    "n": "Belghali"
+    "id": 7069,
+    "n": "Fortini"
    },
    {
-    "id": 6170,
-    "n": "Gineitis"
+    "id": 1933,
+    "n": "Mandragora"
    },
    {
     "id": 7535,
@@ -311,8 +311,8 @@
     "n": "Mancini"
    },
    {
-    "id": 6631,
-    "n": "Ghilardi"
+    "id": 4317,
+    "n": "N'Dicka"
    },
    {
     "id": 4807,
@@ -335,8 +335,8 @@
     "n": "Wesley"
    },
    {
-    "id": 309,
-    "n": "Dybala"
+    "id": 5734,
+    "n": "Soulè"
    },
    {
     "id": 7556,
@@ -361,8 +361,8 @@
     "n": "Bellanova"
    },
    {
-    "id": 5578,
-    "n": "Kossounou"
+    "id": 6485,
+    "n": "Kristensen T."
    },
    {
     "id": 5526,
@@ -607,8 +607,8 @@
     "n": "Skorupski"
    },
    {
-    "id": 5678,
-    "n": "Holm"
+    "id": 4433,
+    "n": "Zortea"
    },
    {
     "id": 7212,
@@ -673,8 +673,8 @@
     "n": "Doig"
    },
    {
-    "id": 6677,
-    "n": "Adzic"
+    "id": 5844,
+    "n": "Thorstvedt"
    },
    {
     "id": 2528,
@@ -689,8 +689,8 @@
     "n": "Berardi"
    },
    {
-    "id": 7347,
-    "n": "Bowie"
+    "id": 4463,
+    "n": "Esposito Se."
    },
    {
     "id": 6060,
@@ -893,8 +893,8 @@
     "n": "Stulic"
    },
    {
-    "id": 7001,
-    "n": "N'Dri"
+    "id": 7619,
+    "n": "Monteiro J."
    }
   ],
   "ball": []

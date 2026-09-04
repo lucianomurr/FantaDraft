@@ -4,8 +4,8 @@
     "xi": [
       "Carnesecchi",
       "Zappacosta",
-      "Scalvini",
       "Kristensen T.",
+      "Scalvini",
       "Bernasconi",
       "Kessiè",
       "Gaetano",
@@ -41,7 +41,7 @@
       "Heggem",
       "Theate",
       "Miranda J.",
-      "Moro N.",
+      "Odgaard",
       "Pobega",
       "Ferguson",
       "Orsolini",
@@ -56,6 +56,10 @@
       [
         "Heggem",
         "Helland"
+      ],
+      [
+        "Odgaard",
+        "Moro N."
       ],
       [
         "Dovbyk",
@@ -114,6 +118,10 @@
     ],
     "ball": [
       [
+        "Butez",
+        "Sanchez Ro."
+      ],
+      [
         "Couto",
         "Smolcic I."
       ],
@@ -140,16 +148,16 @@
     ]
   },
   "Fiorentina": {
-    "mod": "4-3-3",
+    "mod": "4-3-2-1",
     "xi": [
       "De Gea",
       "Jimenez A.",
       "Dragusin",
       "Viery",
       "Valdepenas",
-      "Atta",
-      "Oulai",
       "Ndour",
+      "Oulai",
+      "Atta",
       "Mastantuono",
       "Goncalves P.",
       "Beto"
@@ -187,7 +195,7 @@
       "Bracaglia",
       "Calò",
       "Grillitsch",
-      "Fini",
+      "Ghedjemis",
       "Schmid",
       "Kvernadze",
       "Raimondo"
@@ -198,8 +206,8 @@
         "Oyono A."
       ],
       [
-        "Fini",
-        "Zerbin"
+        "Ghedjemis",
+        "Fini"
       ],
       [
         "Raimondo",
@@ -219,13 +227,25 @@
       "Frendrup",
       "Mitaj",
       "Baldanzi",
-      "Vitinha O.",
+      "El Shaarawy",
       "Colombo"
     ],
     "ball": [
       [
+        "Drameh",
+        "Ehizibue"
+      ],
+      [
+        "Sow",
+        "Meichtry"
+      ],
+      [
         "Mitaj",
         "Ellertsson"
+      ],
+      [
+        "El Shaarawy",
+        "Vitinha O."
       ]
     ]
   },
@@ -245,10 +265,6 @@
       "Thuram"
     ],
     "ball": [
-      [
-        "Martinez Jo.",
-        "Provedel"
-      ],
       [
         "Stones",
         "Bisseck"
@@ -306,9 +322,9 @@
     "xi": [
       "Mandas",
       "Marusic",
-      "Sutalo J.",
       "Doekhi",
-      "Pedraza",
+      "Provstgaard",
+      "Tavares N.",
       "Taylor K.",
       "Rovella",
       "Frattesi",
@@ -318,12 +334,8 @@
     ],
     "ball": [
       [
-        "Sutalo J.",
-        "Provstgaard"
-      ],
-      [
-        "Pedraza",
-        "Tavares N."
+        "Doekhi",
+        "Sutalo J."
       ],
       [
         "Rovella",
@@ -460,6 +472,10 @@
       [
         "Politano",
         "Neres"
+      ],
+      [
+        "Vergara",
+        "Neres"
       ]
     ]
   },
@@ -474,15 +490,11 @@
       "Bernabè",
       "Keita M.",
       "Fabbian",
-      "Lontani",
+      "Tourè E.",
       "Romero D.",
-      "Tourè E."
+      "Lontani"
     ],
     "ball": [
-      [
-        "Corvi",
-        "Daffara"
-      ],
       [
         "Fabbian",
         "Ordonez C."
@@ -514,6 +526,10 @@
         "Koulierakis"
       ],
       [
+        "Molina N.",
+        "Lulli"
+      ],
+      [
         "Mora",
         "Soulè"
       ]
@@ -536,16 +552,8 @@
     ],
     "ball": [
       [
-        "Muric",
-        "Turati"
-      ],
-      [
         "Leysen F.",
         "Walukiewicz"
-      ],
-      [
-        "Leysen F.",
-        "Caleta-Car"
       ],
       [
         "Obrador",
@@ -567,7 +575,7 @@
       "Perri",
       "Comuzzo",
       "Coco",
-      "Comert",
+      "Rodriguez R.",
       "Belghali",
       "Mandragora",
       "Fitz-Jim",
@@ -578,12 +586,8 @@
     ],
     "ball": [
       [
-        "Comert",
-        "Ismajli"
-      ],
-      [
-        "Belghali",
-        "Fortini"
+        "Rodriguez R.",
+        "Comert"
       ]
     ]
   },
@@ -624,7 +628,7 @@
       "Schingtienne",
       "Bella-Kotchap",
       "Juan Jesus",
-      "Hainaut",
+      "Mazzocchi",
       "Sohm",
       "Busio",
       "Basic",
@@ -633,6 +637,10 @@
       "Yeboah J."
     ],
     "ball": [
+      [
+        "Mazzocchi",
+        "Hainaut"
+      ],
       [
         "Sohm",
         "Perez K."

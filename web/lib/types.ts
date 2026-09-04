@@ -69,6 +69,10 @@ export interface Player {
   /** Id del giocatore rivale in un ballottaggio per la maglia nella giornata
    * corrente, se presente (stessa fonte di startPct). */
   ballotRival?: number | null;
+  /** Voto/fantavoto reale per giornata giocata (fonte: Redazione Fantacalcio,
+   * fantacalcio.it/voti-fantacalcio-serie-a) — puro storico, non entra nella
+   * formula Val (che resta basata su xG/gol) né in nessun'altra formula. */
+  voti?: { g: number; v: number; fv: number }[];
 }
 
 export interface GiornataMeta {

@@ -125,7 +125,7 @@ function ToolInner() {
       <BudgetPanel players={PLAYERS} />
 
       <StrategiaPromemoria />
-      <ProbabiliFormazioni forms={FORMS} />
+      <ProbabiliFormazioni forms={FORMS} players={derived} standings={STANDINGS} matchups={MATCHUPS} />
       <GkGridPanel players={PLAYERS} gkgrid={GKGRID} />
 
       <FilterBar teams={TEAMS} count={visible.length} />
