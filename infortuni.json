@@ -27,12 +27,6 @@
   },
   {
    "s": "Cagliari",
-   "n": "Mina",
-   "d": "Stop del colombiano nella rifinitura del 29 agosto per un affaticamento muscolare al polpaccio.",
-   "r": "Out contro l'Inter, da valutare quodianamente ma è a rischio la convocazione anche lunedì contro il Lecce nella 3a di A."
-  },
-  {
-   "s": "Cagliari",
    "n": "Trepy",
    "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
    "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
@@ -69,9 +63,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Thuram K.",
-   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
-   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
+   "n": "Ekhator",
+   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, a metà settembre verrà sottoposto a nuovi esami medici per stabilire i tempi di recupero (in attesa dei nuovi risultati medici, ipotizziamo un lungo stop e",
+   "r": "un possibile rientro dalla fine di ottobre)."
   },
   {
    "s": "Juventus",
@@ -81,9 +75,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, a metà settembre verrà sottoposto a nuovi esami medici per stabilire i tempi di recupero (in attesa dei nuovi risultati medici, ipotizziamo un lungo stop e",
-   "r": "un possibile rientro dalla fine di ottobre)."
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
+   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Juventus",
@@ -126,6 +120,12 @@
    "n": "Geubbels",
    "d": "l'attaccante KO contro la Roma il 31 agosto vittima di una distorsione alla caviglia che lo terrà fuori lunedì a Cagliari.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Milan",
+   "n": "Gabbia",
+   "d": "il difensore a rischio forfait contro la Juve per un fastidio alla caviglia.",
+   "r": "Da valutare."
   },
   {
    "s": "Monza",
@@ -284,12 +284,6 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Roma",
-   "n": "Ndicka",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Frosinone",
    "n": "Schmid",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
@@ -324,12 +318,6 @@
    "n": "Pape Matar Sarr",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Milan",
-   "n": "Gabbia",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."
   }
  ]
 }

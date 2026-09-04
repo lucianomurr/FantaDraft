@@ -271,7 +271,7 @@
   {
    "home": "Fiorentina",
    "away": "Torino",
-   "homeMod": "4-3-2-1",
+   "homeMod": "4-3-3",
    "awayMod": "3-5-2",
    "players": [
     {
@@ -280,7 +280,7 @@
      "riv": null
     },
     {
-     "n": "Jimenez",
+     "n": "Joao Mario",
      "pct": 95,
      "riv": null
     },
@@ -295,7 +295,7 @@
      "riv": null
     },
     {
-     "n": "Valdepenas",
+     "n": "Valdepeñas",
      "pct": 95,
      "riv": null
     },
@@ -305,12 +305,12 @@
      "riv": null
     },
     {
-     "n": "Oulai",
+     "n": "Fagioli",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Fagioli",
+     "n": "Oulai",
      "pct": 95,
      "riv": null
     },
@@ -320,12 +320,12 @@
      "riv": null
     },
     {
-     "n": "Atta",
+     "n": "Pellegrino",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Pellegrino",
+     "n": "Njie",
      "pct": 95,
      "riv": null
     },
@@ -360,12 +360,12 @@
      "riv": null
     },
     {
-     "n": "Joao Mario",
+     "n": "Jimenez",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Njie",
+     "n": "Atta",
      "pct": 5,
      "riv": null
     },
@@ -831,6 +831,11 @@
      "riv": null
     },
     {
+     "n": "Ndicka",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Koulierakis",
      "pct": 5,
      "riv": null
@@ -1054,12 +1059,7 @@
      "riv": null
     },
     {
-     "n": "Cittadini",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Terzic",
+     "n": "Amey",
      "pct": 5,
      "riv": null
     },
@@ -1069,7 +1069,7 @@
      "riv": null
     },
     {
-     "n": "Akgopuma",
+     "n": "Akpoguma",
      "pct": 5,
      "riv": null
     },
@@ -1079,12 +1079,12 @@
      "riv": null
     },
     {
-     "n": "Amey",
+     "n": "Terzic",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Cichella",
+     "n": "El Azzouzi",
      "pct": 5,
      "riv": null
     },
@@ -1094,7 +1094,7 @@
      "riv": null
     },
     {
-     "n": "El Azzouzi",
+     "n": "Cichella",
      "pct": 5,
      "riv": null
     },
@@ -1319,6 +1319,11 @@
     {
      "n": "Carboni",
      "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Diego Carlos",
+     "pct": 5,
      "riv": null
     },
     {
