@@ -159,7 +159,7 @@ export function LeagueModal({
                     <tr>
                       <th>Squadra</th>
                       <th>Speso</th>
-                      <th>FVM rosa</th>
+                      <th>FVM rosa (pesato)</th>
                       <th>Differenza</th>
                     </tr>
                   </thead>
@@ -182,8 +182,11 @@ export function LeagueModal({
                 </table>
               </div>
               <p className="hint" style={{ marginTop: 8 }}>
-                Differenza = FVM totale della rosa meno crediti spesi: positiva vuol dire affare (rosa che
-                vale più di quanto pagato), negativa vuol dire speso più del valore stimato.
+                FVM rosa non è la somma piena di tutti i FVM: per reparto contano al 100% solo i presunti
+                titolari (1 portiere, i migliori 3 per difesa/centrocampo/attacco), il resto della rosa
+                pesa il 25% — un ottavo centrocampista probabilmente gioca poco, non ha senso valutarlo
+                come se fosse titolare fisso. Differenza = FVM pesato meno crediti spesi: positiva vuol
+                dire affare, negativa vuol dire speso più del valore reale stimato della rosa.
                 {teamsWithMissing.length > 0 &&
                   ` Nota: ${teamsWithMissing.map((r) => `${r.team} (${r.missing})`).join(", ")} hanno giocatori nel CSV non trovati nel listone corrente, esclusi dal FVM.`}
               </p>

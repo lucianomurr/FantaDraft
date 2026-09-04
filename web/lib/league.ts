@@ -38,9 +38,25 @@ export interface TeamValueSummary {
   missing: number;
 }
 
+/** Quanti giocatori per reparto pesano al 100% nel FVM della rosa — i
+ * presunti titolari, l'unico gruppo che dà per certo il proprio contributo.
+ * Il resto pesa TAIL_WEIGHT: un ottavo centrocampista probabilmente gioca
+ * poco, non ha senso valutarlo come se fosse titolare fisso (indicazione di
+ * Luciano, 04/09/2026 — P=1 perché in pratica gioca sempre un solo
+ * portiere, D/C/A=3 come dimensione tipica di un reparto titolare). */
+const TOP_N: Record<Role, number> = { P: 1, D: 3, C: 3, A: 3 };
+const TAIL_WEIGHT = 0.25;
+
 /** `players` deve già essere `DerivedPlayer[]` calcolato via `withDerivedAll`
  * (FVM Classic/Mantra già risolto in `p.f`) — qui si legge `p.f` direttamente,
- * stesso pattern già usato da lineup.ts/LineupModal.tsx. */
+ * stesso pattern già usato da lineup.ts/LineupModal.tsx.
+ *
+ * Il FVM della rosa NON è la somma piatta di tutti i FVM: per reparto, solo
+ * i top `TOP_N[ruolo]` per FVM (i presunti titolari) contano al 100%, il
+ * resto conta al `TAIL_WEIGHT` (25%) — una panchina profonda di riserve
+ * costose non deve pesare come se giocasse sempre, il contributo nel corso
+ * dell'anno non è scontato. `speso` resta la somma piena dei crediti pagati
+ * (è un fatto, non una stima), solo il FVM è ponderato. */
 export function computeTeamValueSummary(team: LeagueTeam, players: DerivedPlayer[]): TeamValueSummary {
   const byId = new Map(players.map((p) => [p.id, p]));
   const perRuolo: Record<Role, { speso: number; fvmTotale: number; count: number }> = {
@@ -49,8 +65,8 @@ export function computeTeamValueSummary(team: LeagueTeam, players: DerivedPlayer
     C: { speso: 0, fvmTotale: 0, count: 0 },
     A: { speso: 0, fvmTotale: 0, count: 0 },
   };
+  const byRole: Record<Role, { p: DerivedPlayer; price: number }[]> = { P: [], D: [], C: [], A: [] };
   let speso = 0;
-  let fvmTotale = 0;
   let missing = 0;
 
   for (const { id, price } of team.players) {
@@ -60,10 +76,24 @@ export function computeTeamValueSummary(team: LeagueTeam, players: DerivedPlayer
       missing++;
       continue;
     }
-    fvmTotale += p.f;
-    perRuolo[p.r].speso += price;
-    perRuolo[p.r].fvmTotale += p.f;
-    perRuolo[p.r].count++;
+    byRole[p.r].push({ p, price });
+  }
+
+  let fvmTotale = 0;
+  for (const role of Object.keys(byRole) as Role[]) {
+    const group = byRole[role].sort((a, b) => b.p.f - a.p.f);
+    group.forEach(({ p, price }, i) => {
+      const weight = i < TOP_N[role] ? 1 : TAIL_WEIGHT;
+      const fvmPesato = p.f * weight;
+      perRuolo[role].speso += price;
+      perRuolo[role].fvmTotale += fvmPesato;
+      perRuolo[role].count++;
+      fvmTotale += fvmPesato;
+    });
+  }
+  fvmTotale = Math.round(fvmTotale);
+  for (const role of Object.keys(perRuolo) as Role[]) {
+    perRuolo[role].fvmTotale = Math.round(perRuolo[role].fvmTotale);
   }
 
   return { team: team.name, speso, fvmTotale, differenza: fvmTotale - speso, perRuolo, missing };
