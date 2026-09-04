@@ -2,118 +2,10 @@
 
 import { useMemo, useState } from "react";
 import { useAsta } from "../../contexts/AstaContext";
-import { suggestLineups, injuredMine, jokerInfo, type LineupSuggestion } from "../../lib/lineup";
-import { matchupLabel } from "../../lib/matchup";
+import { suggestLineups, injuredMine } from "../../lib/lineup";
 import type { DerivedPlayer, GiornataMeta, Matchups, Standings } from "../../lib/types";
 import { ModalShell } from "./ModalShell";
 import { PitchFormation } from "./PitchFormation";
-
-const RMAP: Record<string, string> = { P: "rP", D: "rD", C: "rC", A: "rA" };
-
-function pctColor(pct: number | null | undefined): string {
-  const v = pct ?? 50;
-  if (v >= 80) return "var(--acc2)";
-  if (v >= 50) return "var(--f2)";
-  return "var(--fx)";
-}
-
-function jokerImpact(p: DerivedPlayer): string {
-  if (p.r === "P") return `Val ${p.val ?? "—"}`;
-  const xg = p.xg != null ? p.xg.toFixed(1) : "—";
-  const xa = p.xa != null ? p.xa.toFixed(1) : "—";
-  return `xG ${xg} · xA ${xa}`;
-}
-
-function StarterRow({
-  p,
-  starters,
-  allPlayers,
-  matchups,
-}: {
-  p: DerivedPlayer;
-  starters: DerivedPlayer[];
-  allPlayers: DerivedPlayer[];
-  matchups: Matchups;
-}) {
-  const joker = jokerInfo(p, starters, allPlayers);
-  const atRisk = joker && !joker.rivalIsStarter;
-  const matchup = matchupLabel(p.s, matchups);
-  return (
-    <li className="lineuprow">
-      <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
-      <div className="lineuprow-body">
-        <div className="lineuprow-name">{p.n}</div>
-        <div className="lineuprow-meta">
-          {p.s}
-          {matchup ? ` · ${matchup}` : ""} · {p.f}cr ·{" "}
-          <b style={{ color: pctColor(p.startPct) }}>{p.startPct != null ? `${p.startPct}%` : "—"}</b>
-        </div>
-      </div>
-      {atRisk && (
-        <div className="fb" style={{ color: "var(--warn)" }}>
-          ⚠ In ballottaggio con {joker.rival.n} ({joker.rival.startPct ?? "—"}%) — occhio se non è tra i tuoi
-          titolari, potrebbe scavalcarlo.
-        </div>
-      )}
-    </li>
-  );
-}
-
-function BenchRow({ p, starters, allPlayers }: { p: DerivedPlayer; starters: DerivedPlayer[]; allPlayers: DerivedPlayer[] }) {
-  const joker = jokerInfo(p, starters, allPlayers);
-  const isJoker = joker && joker.rivalIsStarter;
-  return (
-    <li className="lineuprow" style={{ opacity: 0.85 }}>
-      <span className={`rbadge ${RMAP[p.r]}`}>{p.r}</span>
-      <div className="lineuprow-body">
-        <div className="lineuprow-name">{p.n}</div>
-        <div className="lineuprow-meta">
-          {p.s} · <b style={{ color: pctColor(p.startPct) }}>{p.startPct != null ? `${p.startPct}%` : "—"}</b>
-        </div>
-      </div>
-      {isJoker && (
-        <div className="fb" style={{ color: "var(--acc2)" }}>
-          ⚔ Ballottaggio con il titolare {joker.rival.n} — se subentra: {jokerImpact(p)}.
-        </div>
-      )}
-    </li>
-  );
-}
-
-function LineupCard({
-  s,
-  allPlayers,
-  matchups,
-}: {
-  s: LineupSuggestion;
-  allPlayers: DerivedPlayer[];
-  matchups: Matchups;
-}) {
-  if (s.starters.length === 0) {
-    return <div className="hint">Rosa insufficiente per questo modulo.</div>;
-  }
-  return (
-    <div className="formcol lineupcol" style={{ fontSize: 13 }}>
-      <ul className="livealtlist">
-        {s.starters.map((p) => (
-          <StarterRow key={p.id} p={p} starters={s.starters} allPlayers={allPlayers} matchups={matchups} />
-        ))}
-      </ul>
-      {s.bench.length > 0 && (
-        <>
-          <div className="livelabel" style={{ marginTop: 10 }}>
-            Panchina
-          </div>
-          <ul className="livealtlist">
-            {s.bench.map((p) => (
-              <BenchRow key={p.id} p={p} starters={s.starters} allPlayers={allPlayers} />
-            ))}
-          </ul>
-        </>
-      )}
-    </div>
-  );
-}
 
 export function LineupModal({
   open,
@@ -138,7 +30,6 @@ export function LineupModal({
   );
   const anyValid = suggestions.some((s) => s.starters.length > 0);
   const [tab, setTab] = useState(0);
-  const [view, setView] = useState<"lista" | "campo">("lista");
   const active = suggestions[tab];
 
   return (
@@ -186,20 +77,7 @@ export function LineupModal({
               </button>
             ))}
           </div>
-          <div className="tabs viewtoggle" style={{ marginBottom: 12 }}>
-            <button className={`tab${view === "lista" ? " on" : ""}`} onClick={() => setView("lista")}>
-              🗒 Lista
-            </button>
-            <button className={`tab${view === "campo" ? " on" : ""}`} onClick={() => setView("campo")}>
-              ⚽ Campo
-            </button>
-          </div>
-          {active &&
-            (view === "lista" ? (
-              <LineupCard s={active} allPlayers={players} matchups={matchups} />
-            ) : (
-              <PitchFormation suggestion={active} matchups={matchups} allPlayers={players} />
-            ))}
+          {active && <PitchFormation suggestion={active} matchups={matchups} allPlayers={players} />}
         </>
       )}
     </ModalShell>
