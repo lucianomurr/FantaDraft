@@ -1,44 +1,4 @@
 {
- "Genoa": [
-  {
-   "n": "Venturino",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Nuredini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Havel",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Addai",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Fiorentina": [
-  {
-   "n": "Parisi",
-   "stato": "Rientro alla 13"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pellegri",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Casadei",
-   "stato": "Da valutare"
-  }
- ],
  "Inter": [],
  "Napoli": [
   {
@@ -191,7 +151,7 @@
  "Milan": [
   {
    "n": "Gabbia",
-   "stato": "Rientro alla 4"
+   "stato": "Rientro alla 5"
   }
  ],
  "Cagliari": [

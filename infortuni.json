@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-04",
+ "aggiornato": "2026-09-05",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -15,27 +15,27 @@
   },
   {
    "s": "Bologna",
-   "n": "El Azzouzi O.",
-   "d": "Il centrocampista ai box per una lesione del bicipite femorale della coscia sinistra",
-   "r": "recuperabile dalla seconda metà di settembre."
-  },
-  {
-   "s": "Bologna",
    "n": "Orsolini",
    "d": "l'ala offensiva dei felsinei fermo dal 31 agosto per un risentimento ai flessori della coscia sinistra lamentato a Bergamo.",
    "r": "Recuperabile dalla fine di settembre."
   },
   {
-   "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
+   "s": "Bologna",
+   "n": "El Azzouzi O.",
+   "d": "Il centrocampista ai box per una lesione del bicipite femorale della coscia sinistra",
+   "r": "recuperabile dalla seconda metà di settembre."
   },
   {
    "s": "Cagliari",
    "n": "Idrissi R.",
    "d": "il calciatore in ripresa dalla rottura del legamento crociato",
    "r": "può tornare arruolabile dalla fine di ottobre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
   },
   {
    "s": "Como",
@@ -63,15 +63,15 @@
   },
   {
    "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, a metà settembre verrà sottoposto a nuovi esami medici per stabilire i tempi di recupero (in attesa dei nuovi risultati medici, ipotizziamo un lungo stop e",
-   "r": "un possibile rientro dalla fine di ottobre)."
-  },
-  {
-   "s": "Juventus",
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
    "r": "Ipotesi di rientro in campo da fine novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Ekhator",
+   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, a metà settembre verrà sottoposto a nuovi esami medici per stabilire i tempi di recupero (in attesa dei nuovi risultati medici, ipotizziamo un lungo stop e",
+   "r": "un possibile rientro dalla fine di ottobre)."
   },
   {
    "s": "Juventus",
@@ -176,6 +176,12 @@
    "r": "Tempi di recupero da valutare."
   },
   {
+   "s": "Parma",
+   "n": "Diallo O.",
+   "d": "Il calciatore non al meglio per noie fisiche, forfait domenica contro il Monza.",
+   "r": "Da valutare in vista della 4a giornata."
+  },
+  {
    "s": "Sassuolo",
    "n": "Walukiewicz",
    "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
@@ -208,8 +214,8 @@
   {
    "s": "Torino",
    "n": "Casadei",
-   "d": "Il centrocampista fuori causa sabato scorso contro il Sassuolo a causa di un affaticamento muscolare alla gamba che andrà valutato, a rischio la sua convocazione anche per sabato a Firenze nella 3a di campionato.",
-   "r": "Tempi di recupero da valutare."
+   "d": "Il centrocampista fuori causa contro Fiorentina e Sassuolo a causa di un affaticamento muscolare",
+   "r": "da valutare in vista della 4a di campionato."
   },
   {
    "s": "Udinese",
@@ -237,12 +243,6 @@
   },
   {
    "s": "Venezia",
-   "n": "Moreno M.",
-   "d": "Il difensore non al meglio per noie fisiche, forfait contro Lecce e Milan.",
-   "r": "Punta a tornare arruolabile dall'inizio di settembre, da valutare convocazione per Frosinone."
-  },
-  {
-   "s": "Venezia",
    "n": "Sverko",
    "d": "il difensore operato in estate per il perdurare di un problema all'anca e",
    "r": "recuperabile da fine ottobre."
@@ -250,7 +250,7 @@
   {
    "s": "Venezia",
    "n": "Franjic",
-   "d": "il difensore costretto al cambio a Milano contro i rossoneri per un guaio fisico che andrà valutato. Forfait per domenica a Frosinone.",
+   "d": "il difensore costretto al cambio a Milano contro i rossoneri a fine agosto per un guaio alla spalla che andrà valutato. Forfait certo per domenica a Frosinone.",
    "r": "Tempi di recupero da valutare."
   },
   {
@@ -258,24 +258,6 @@
    "n": "Adorante",
    "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
    "r": "Tentativo di rientro da ottobre."
-  },
-  {
-   "s": "Genoa",
-   "n": "Nuredini",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
-  },
-  {
-   "s": "Torino",
-   "n": "Israel",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Torino",
-   "n": "Pellegri",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Roma",
@@ -288,6 +270,12 @@
    "n": "Schmid",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."
+  },
+  {
+   "s": "Venezia",
+   "n": "Moreno",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Parma",
