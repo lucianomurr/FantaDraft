@@ -38,6 +38,12 @@
    "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
   },
   {
+   "s": "Cagliari",
+   "n": "Mina",
+   "d": "Il colombiano in recupero da noie fisiche",
+   "r": "può tornare convocabile dalla 4a giornata di campionato."
+  },
+  {
    "s": "Como",
    "n": "Addai",
    "d": "l'ala offensiva dei lariani vittima della rottura tendine d'Achille, proverà a recuperare dalla seconda metà di settembre.",
@@ -63,15 +69,15 @@
   },
   {
    "s": "Juventus",
-   "n": "Yildiz",
-   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Ipotesi di rientro in campo da fine novembre."
-  },
-  {
-   "s": "Juventus",
    "n": "Sarr P.",
    "d": "Il centrocampista out domenica contro il Milan per noie fisiche, ma si confida di recuperarlo dalla 4a giornata di campionato.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Juventus",
+   "n": "Yildiz",
+   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
+   "r": "Ipotesi di rientro in campo da fine novembre."
   },
   {
    "s": "Juventus",
@@ -282,18 +288,6 @@
    "n": "Adorante",
    "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
    "r": "Tentativo di rientro da ottobre."
-  },
-  {
-   "s": "Monza",
-   "n": "Ziólkowski",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."
-  },
-  {
-   "s": "Venezia",
-   "n": "Moreno",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   }
  ]
 }
