@@ -10,10 +10,10 @@ import json, re, unicodedata
 
 PROJ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-GAZ_RIG = {  # 02/09/2026
+GAZ_RIG = {  # 06/09/2026
     "Atalanta": ["Scamacca", "De Ketelaere", "Samardzic"],
     "Bologna": ["Orsolini", "Dovbyk", "Bernardeschi"],
-    "Cagliari": ["Mina", "Borrelli", "Fazzini"],
+    "Cagliari": ["Mina", "Maldini", "Winks"],
     "Como": ["Da Cunha", "Nico Paz", "Douvikas"],
     "Fiorentina": ["Mastantuono", "Beto", "Atta"],
     "Frosinone": ["Calò", "Raimondo"],

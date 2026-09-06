@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-05",
+ "aggiornato": "2026-09-06",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -69,6 +69,12 @@
   },
   {
    "s": "Juventus",
+   "n": "Sarr P.",
+   "d": "Il centrocampista out domenica contro il Milan per noie fisiche, ma si confida di recuperarlo dalla 4a giornata di campionato.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Juventus",
    "n": "Ekhator",
    "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso, a metà settembre verrà sottoposto a nuovi esami medici per stabilire i tempi di recupero (in attesa dei nuovi risultati medici, ipotizziamo un lungo stop e",
    "r": "un possibile rientro dalla fine di ottobre)."
@@ -78,6 +84,18 @@
    "n": "Thuram K.",
    "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
    "r": "Lungo stop, ipotizziamo un rientro da gennaio."
+  },
+  {
+   "s": "Juventus",
+   "n": "McKennie",
+   "d": "il centrocampista dal 27 agosto alle prese con un affaticamento muscolare alla gamba.",
+   "r": "Assente contro Parma e Milan, da valutare in vista della 4a giornata di campionato."
+  },
+  {
+   "s": "Juventus",
+   "n": "Cambiaso",
+   "d": "il difensore alle prese con un fastidio alla caviglia e out nel prossimo turno di campionato domenica contro il Milan.",
+   "r": "Da valutare in vista della 4a giornata."
   },
   {
    "s": "Juventus",
@@ -155,7 +173,7 @@
    "s": "Napoli",
    "n": "McTominay",
    "d": "Il centrocampista l'1 settembre a causa di una lieve aritmia benigna ha deciso di sottoporsi a un intervento di correzione tramite ablazione.",
-   "r": "Rientro in campo da inizio ottobre."
+   "r": "Rientro in campo da metà ottobre."
   },
   {
    "s": "Napoli",
@@ -174,6 +192,12 @@
    "n": "Nicolussi Caviglia",
    "d": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da novembre.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Parma",
+   "n": "Bernabè",
+   "d": "Il centrocampista ha lamentato nella rifinitura un problema fisico e non è stato convocato per domenica contro il Monza.",
+   "r": "Da valutare in vista della 4a giornata di campionato."
   },
   {
    "s": "Parma",
@@ -260,50 +284,14 @@
    "r": "Tentativo di rientro da ottobre."
   },
   {
-   "s": "Roma",
-   "n": "Pellegrini",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Frosinone",
-   "n": "Schmid",
+   "s": "Monza",
+   "n": "Ziólkowski",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 4 (fonte Gazzetta)."
   },
   {
    "s": "Venezia",
    "n": "Moreno",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Parma",
-   "n": "Bernabé",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "McKennie",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "Cambiaso",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "Zhegrova",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "Pape Matar Sarr",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   }

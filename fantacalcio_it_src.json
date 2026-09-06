@@ -107,8 +107,8 @@
     "n": "De Gea"
    },
    {
-    "id": 6531,
-    "n": "Jimenez A."
+    "id": 7175,
+    "n": "Joao Mario"
    },
    {
     "id": 5365,
@@ -123,16 +123,16 @@
     "n": "Valdepenas"
    },
    {
-    "id": 6294,
-    "n": "Ndour"
+    "id": 7464,
+    "n": "Oulai"
    },
    {
     "id": 4465,
     "n": "Fagioli"
    },
    {
-    "id": 6908,
-    "n": "Atta"
+    "id": 4947,
+    "n": "Brescianini"
    },
    {
     "id": 7078,
@@ -150,7 +150,7 @@
   "ball": []
  },
  "Torino": {
-  "mod": "3-4-2-1",
+  "mod": "3-5-1-1",
   "xi": [
    {
     "id": 6534,
@@ -173,6 +173,10 @@
     "n": "Fortini"
    },
    {
+    "id": 6170,
+    "n": "Gineitis"
+   },
+   {
     "id": 1933,
     "n": "Mandragora"
    },
@@ -185,16 +189,12 @@
     "n": "Cacciamani"
    },
    {
-    "id": 6646,
-    "n": "Adams C."
-   },
-   {
     "id": 5687,
     "n": "Vlasic"
    },
    {
-    "id": 2061,
-    "n": "Simeone"
+    "id": 6646,
+    "n": "Adams C."
    }
   ],
   "ball": []
@@ -227,12 +227,12 @@
     "n": "Barella"
    },
    {
-    "id": 2194,
-    "n": "Calhanoglu"
-   },
-   {
     "id": 152,
     "n": "Zielinski"
+   },
+   {
+    "id": 7070,
+    "n": "Sucic P."
    },
    {
     "id": 254,
@@ -281,8 +281,8 @@
     "n": "Lobotka"
    },
    {
-    "id": 2517,
-    "n": "De Bruyne"
+    "id": 7223,
+    "n": "Vergara"
    },
    {
     "id": 536,
@@ -319,8 +319,8 @@
     "n": "Hermoso"
    },
    {
-    "id": 4998,
-    "n": "Molina N."
+    "id": 7599,
+    "n": "Lulli"
    },
    {
     "id": 5589,
@@ -335,8 +335,8 @@
     "n": "Wesley"
    },
    {
-    "id": 5734,
-    "n": "Soulè"
+    "id": 309,
+    "n": "Dybala"
    },
    {
     "id": 7556,
@@ -361,16 +361,16 @@
     "n": "Bellanova"
    },
    {
-    "id": 6485,
-    "n": "Kristensen T."
+    "id": 5578,
+    "n": "Kossounou"
    },
    {
     "id": 5526,
     "n": "Scalvini"
    },
    {
-    "id": 7219,
-    "n": "Bernasconi"
+    "id": 2640,
+    "n": "Kolasinac"
    },
    {
     "id": 5119,
@@ -393,8 +393,8 @@
     "n": "Scamacca"
    },
    {
-    "id": 6844,
-    "n": "Rowe"
+    "id": 4479,
+    "n": "Elmas"
    }
   ],
   "ball": []
@@ -461,8 +461,8 @@
     "n": "Schingtienne"
    },
    {
-    "id": 7253,
-    "n": "Bella-Kotchap"
+    "id": 6890,
+    "n": "Moreno M."
    },
    {
     "id": 7538,
@@ -523,8 +523,8 @@
     "n": "Britschgi"
    },
    {
-    "id": 6666,
-    "n": "Bernabè"
+    "id": 6206,
+    "n": "Fabbian"
    },
    {
     "id": 6898,
@@ -557,8 +557,8 @@
     "n": "Tornqvist"
    },
    {
-    "id": 7260,
-    "n": "Ziolkowski"
+    "id": 7238,
+    "n": "Kouadio"
    },
    {
     "id": 6659,
@@ -589,8 +589,8 @@
     "n": "Colpani"
    },
    {
-    "id": 6145,
-    "n": "Ngonge"
+    "id": 5882,
+    "n": "Mota"
    },
    {
     "id": 2155,
@@ -985,8 +985,8 @@
     "n": "Taylor K."
    },
    {
-    "id": 6398,
-    "n": "Isaksen"
+    "id": 5800,
+    "n": "Gudmundsson A."
    },
    {
     "id": 2038,

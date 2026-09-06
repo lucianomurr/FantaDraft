@@ -9,6 +9,44 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (06/09/2026): giro completo (11°) — 6 fonti formazioni, rigoristi Cagliari cambiati, giornata/infortuni
+Refresh richiesto da Luciano senza un nuovo listone da scaricare (verificato:
+nessun xlsx più recente in Downloads, nessun nuovo CSV rose lega) — giro
+limitato a formazioni/rigoristi/percentuali giornata/infortuni, quotazioni
+e trasferimenti invariati (mercato chiuso da giorni, nessun cambio atteso).
+Stats FBref/Understat NON toccate: progetto stesso dichiara di aspettare
+4-5 giornate prima di passare la stagione primaria a 2026/27 (siamo alla
+3, troppo presto), refetch prematuro non avrebbe aggiunto nulla.
+
+Tutte e 6 le fonti probabili formazioni rifatte: Gazzetta e Fantacalcio.it
+via script dedicati (deterministici); SOS Fanta/FantaMaster/Eurosport/Goal
+via 4 agenti paralleli (stesso pattern del giro precedente, file separati
+per evitare race condition su `formazioni_src.json`). 20/20 squadre su
+tutte e 4, 8/1320 non agganciati nel merge finale (stesso ordine di
+grandezza storico). Eurosport/FantaMaster/Goal risultati BYTE-IDENTICI al
+giro precedente (nessun diff git) — plausibile con mercato chiuso e sole
+48h passate, non un bug del fetch.
+
+**Rigoristi Cagliari cambiati** (unico cambio reale rilevato da Gazzetta):
+Mina confermato designato, ma Borrelli/Fazzini (alternative precedenti)
+sostituiti da Maldini/Winks. `align_pen.py` aggiornato (`GAZ_RIG["Cagliari"]`),
+4 giocatori toccati (`pen` 2→0 per i due usciti, 0→2 per i due entrati).
+
+Percentuali titolarità/infortuni giornata corrente rifatte: nota
+interessante, la pagina hub Gazzetta è passata da 10 a 6 partite trovate —
+le 4 partite già disputate nel weekend (Genoa-Como, Fiorentina-Torino,
+Inter-Napoli, Roma-Atalanta) sono sparite dall'hub "prossima giornata",
+mentre SOS Fanta le mostra ancora tutte e 10 (fonte diversa, non aggiorna
+allo stesso modo) — `merge_startpct.py` gestisce il caso senza problemi
+(usa SOS Fanta da sola per quelle 4, media delle due dove entrambe
+coprono). Infortuni: 49/49 agganciati (prima 55 — normale calo, il fetch
+fa un replace completo della pagina fantacalcio.it, chi è rientrato
+semplicemente sparisce dalla lista, non un bug).
+
+Contatori landing aggiornati (solo infortunati, cambiato: 55→49 — gli
+altri invariati, coerente con nessun refresh quotazioni/stats in questo
+giro). `npm run build` pulito.
+
 ## FATTO (04/09/2026): campetto per formazione titolare reale + refresh completo (quotazioni, 6 fonti formazioni, voti reali)
 Seguito alla feature "campetto" appena fatta per Lega/rosa propria: Luciano
 ha chiesto lo stesso identico rendering anche per la "formazione titolare"

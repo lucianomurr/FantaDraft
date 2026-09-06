@@ -268,7 +268,7 @@ const FONTI: { k: string; v: React.ReactNode; n: string }[] = [
         crediti.
       </>
     ),
-    n: "55 monitorati",
+    n: "49 monitorati",
   },
   {
     k: "Ultimi trasferimenti",

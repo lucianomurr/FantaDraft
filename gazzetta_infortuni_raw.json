@@ -1,63 +1,4 @@
 {
- "Inter": [],
- "Napoli": [
-  {
-   "n": "Buongiorno",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Marianucci",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "McTominay",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Giovane",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Roma": [
-  {
-   "n": "Pellegrini",
-   "stato": "Da valutare"
-  }
- ],
- "Atalanta": [
-  {
-   "n": "Hien",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Kamaldeen Sulemana",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Schmid",
-   "stato": "Rientro alla 4"
-  }
- ],
- "Venezia": [
-  {
-   "n": "Sverko",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Adorante",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Moreno",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Franjic",
-   "stato": "Da valutare"
-  }
- ],
  "Parma": [
   {
    "n": "Nicolussi Caviglia",
@@ -79,6 +20,29 @@
   },
   {
    "n": "Gustavo Varela",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ziólkowski",
+   "stato": "Rientro alla 4"
+  }
+ ],
+ "Frosinone": [],
+ "Venezia": [
+  {
+   "n": "Sverko",
+   "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Adorante",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Moreno",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Franjic",
    "stato": "Da valutare"
   }
  ],
@@ -134,10 +98,6 @@
   {
    "n": "Ekhator",
    "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Zhegrova",
-   "stato": "Da valutare"
   },
   {
    "n": "Cabal",
