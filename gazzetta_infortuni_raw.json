@@ -1,72 +1,4 @@
 {
- "Bologna": [
-  {
-   "n": "El Azzouzi",
-   "stato": "Rientro alla 4"
-  },
-  {
-   "n": "Orsolini",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Sassuolo": [
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Candé",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Walukiewicz",
-   "stato": "Da valutare"
-  }
- ],
- "Juventus": [
-  {
-   "n": "Yildiz",
-   "stato": "Rientro alla 14"
-  },
-  {
-   "n": "McKennie",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Thuram",
-   "stato": "Rientro alla 19"
-  },
-  {
-   "n": "Cambiaso",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ekhator",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Cabal",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Pape Matar Sarr",
-   "stato": "Da valutare"
-  }
- ],
- "Milan": [
-  {
-   "n": "Gabbia",
-   "stato": "Rientro alla 5"
-  }
- ],
  "Cagliari": [
   {
    "n": "Idrissi",
@@ -99,6 +31,10 @@
   {
    "n": "Palma",
    "stato": "Rientro alla 5"
+  },
+  {
+   "n": "Arizala",
+   "stato": "Rientro alla 8"
   }
  ],
  "Lazio": [
@@ -117,6 +53,14 @@
   {
    "n": "Rovella",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Galassi",
+   "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Filipe Bordon",
+   "stato": "Rientro alla 6"
   }
  ]
 }

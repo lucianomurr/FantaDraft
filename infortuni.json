@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-06",
+ "aggiornato": "2026-09-07",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -27,9 +27,9 @@
   },
   {
    "s": "Cagliari",
-   "n": "Idrissi R.",
-   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
-   "r": "può tornare arruolabile dalla fine di ottobre."
+   "n": "Mina",
+   "d": "Il colombiano in recupero da noie fisiche",
+   "r": "può tornare convocabile dalla 4a giornata di campionato."
   },
   {
    "s": "Cagliari",
@@ -39,9 +39,9 @@
   },
   {
    "s": "Cagliari",
-   "n": "Mina",
-   "d": "Il colombiano in recupero da noie fisiche",
-   "r": "può tornare convocabile dalla 4a giornata di campionato."
+   "n": "Idrissi R.",
+   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
+   "r": "può tornare arruolabile dalla fine di ottobre."
   },
   {
    "s": "Como",
@@ -69,15 +69,15 @@
   },
   {
    "s": "Juventus",
-   "n": "Sarr P.",
-   "d": "Il centrocampista out domenica contro il Milan per noie fisiche, ma si confida di recuperarlo dalla 4a giornata di campionato.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Juventus",
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
    "r": "Ipotesi di rientro in campo da fine novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Sarr P.",
+   "d": "Il centrocampista out domenica contro il Milan per noie fisiche, ma si confida di recuperarlo dalla 4a giornata di campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Juventus",
@@ -177,9 +177,9 @@
   },
   {
    "s": "Napoli",
-   "n": "McTominay",
-   "d": "Il centrocampista l'1 settembre a causa di una lieve aritmia benigna ha deciso di sottoporsi a un intervento di correzione tramite ablazione.",
-   "r": "Rientro in campo da metà ottobre."
+   "n": "Marianucci",
+   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
+   "r": "Tempi di recupero da valutare, ma rischia uno stop di almeno due mesi."
   },
   {
    "s": "Napoli",
@@ -189,9 +189,9 @@
   },
   {
    "s": "Napoli",
-   "n": "Marianucci",
-   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
-   "r": "Tempi di recupero da valutare, ma rischia uno stop di almeno due mesi."
+   "n": "McTominay",
+   "d": "Il centrocampista l'1 settembre a causa di una lieve aritmia benigna ha deciso di sottoporsi a un intervento di correzione tramite ablazione.",
+   "r": "Rientro in campo da metà ottobre."
   },
   {
    "s": "Parma",
@@ -261,6 +261,12 @@
   },
   {
    "s": "Udinese",
+   "n": "Arizala",
+   "d": "Non ci sarà con la Lazio, lesione al bicipite femorale.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Udinese",
    "n": "Chakvetadze",
    "d": "il georgiano a inizio luglio vittima della frattura al terzo metatarso del piede destro",
    "r": "può tornare arruolabile dalla prima metà di settembre."
@@ -288,6 +294,18 @@
    "n": "Adorante",
    "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
    "r": "Tentativo di rientro da ottobre."
+  },
+  {
+   "s": "Lazio",
+   "n": "Galassi",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Punta a rientrare per la giornata 8 (fonte Gazzetta)."
+  },
+  {
+   "s": "Lazio",
+   "n": "Filipe Bordon",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
   }
  ]
 }
