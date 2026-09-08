@@ -1,42 +1,51 @@
 {
- "Cagliari": [
+ "Venezia": [
   {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Geubbels",
-   "stato": "Da valutare"
-  }
- ],
- "Udinese": [
-  {
-   "n": "Chakvetadze",
-   "stato": "Rientro alla 4"
-  },
-  {
-   "n": "Zanoli",
-   "stato": "Rientro alla 5"
-  },
-  {
-   "n": "Zaniolo",
-   "stato": "Rientro alla 5"
-  },
-  {
-   "n": "Palma",
-   "stato": "Rientro alla 5"
-  },
-  {
-   "n": "Arizala",
+   "n": "Sverko",
    "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Adorante",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Moreno",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Franjic",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bella-Kotchap",
+   "stato": "Da valutare"
   }
  ],
+ "Fiorentina": [
+  {
+   "n": "Parisi",
+   "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Inao Oulaï",
+   "stato": "Da valutare"
+  }
+ ],
+ "Genoa": [
+  {
+   "n": "Venturino",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Nuredini",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Havel",
+   "stato": "Da valutare"
+  }
+ ],
+ "Frosinone": [],
  "Lazio": [
   {
    "n": "Cataldi",
@@ -53,14 +62,195 @@
   {
    "n": "Rovella",
    "stato": "Da valutare"
-  },
+  }
+ ],
+ "Milan": [
   {
-   "n": "Galassi",
-   "stato": "Rientro alla 8"
-  },
+   "n": "Gabbia",
+   "stato": "Rientro alla 5"
+  }
+ ],
+ "Atalanta": [
   {
-   "n": "Filipe Bordon",
+   "n": "Hien",
    "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Kamaldeen Sulemana",
+   "stato": "Rientro alla 6"
+  }
+ ],
+ "Cagliari": [
+  {
+   "n": "Felici",
+   "stato": "Da valutare"
+  }
+ ],
+ "Lecce": [
+  {
+   "n": "Geubbels",
+   "stato": "Da valutare"
+  }
+ ],
+ "Monza": [
+  {
+   "n": "Pessina",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Gustavo Varela",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Cutrone",
+   "stato": "Da valutare"
+  }
+ ],
+ "Napoli": [
+  {
+   "n": "Buongiorno",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Marianucci",
+   "stato": "Rientro alla 7"
+  },
+  {
+   "n": "McTominay",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Giovane",
+   "stato": "Rientro alla 6"
+  }
+ ],
+ "Bologna": [
+  {
+   "n": "Orsolini",
+   "stato": "Rientro alla 6"
+  }
+ ],
+ "Sassuolo": [
+  {
+   "n": "Boloca",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pieragnolo",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Candé",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ismaël Koné",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Walukiewicz",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Volpato",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bakola",
+   "stato": "Da valutare"
+  }
+ ],
+ "Juventus": [
+  {
+   "n": "Yildiz",
+   "stato": "Rientro alla 14"
+  },
+  {
+   "n": "McKennie",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Thuram",
+   "stato": "Rientro alla 19"
+  },
+  {
+   "n": "Cambiaso",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ekhator",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Cabal",
+   "stato": "Rientro alla 7"
+  },
+  {
+   "n": "Pape Matar Sarr",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Locatelli",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Boga",
+   "stato": "Da valutare"
+  }
+ ],
+ "Torino": [
+  {
+   "n": "Israel",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pellegri",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Casadei",
+   "stato": "Da valutare"
+  }
+ ],
+ "Roma": [
+  {
+   "n": "Pellegrini",
+   "stato": "Da valutare"
+  }
+ ],
+ "Como": [
+  {
+   "n": "Addai",
+   "stato": "Rientro alla 6"
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bernabé",
+   "stato": "Da valutare"
+  }
+ ],
+ "Inter": [],
+ "Udinese": [
+  {
+   "n": "Zanoli",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Zaniolo",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Palma",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Solet",
+   "stato": "Da valutare"
   }
  ]
 }
