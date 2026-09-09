@@ -5,7 +5,7 @@
    "home": "Venezia",
    "away": "Fiorentina",
    "homeMod": "3-5-2",
-   "awayMod": "4-3-2-1",
+   "awayMod": "4-1-4-1",
    "date": "2026-09-11T18:45:00.000Z",
    "players": [
     {
@@ -89,22 +89,22 @@
      "riv": null
     },
     {
-     "n": "Ndour",
-     "pct": 95,
-     "riv": null
-    },
-    {
      "n": "Fagioli",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Atta",
+     "n": "Mastantuono",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Mastantuono",
+     "n": "Ndour",
+     "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Atta",
      "pct": 95,
      "riv": null
     },
@@ -154,14 +154,14 @@
      "riv": "Valdepenas"
     },
     {
-     "n": "Goncalves P.",
-     "pct": 49,
-     "riv": "Njie"
-    },
-    {
      "n": "Beto",
      "pct": 40,
      "riv": "Pellegrino M."
+    },
+    {
+     "n": "Goncalves P.",
+     "pct": 49,
+     "riv": "Njie"
     },
     {
      "n": "Montipò",
@@ -717,7 +717,7 @@
     },
     {
      "n": "Kossounou",
-     "pct": 95,
+     "pct": 55,
      "riv": null
     },
     {
@@ -821,6 +821,11 @@
      "riv": "Zappacosta"
     },
     {
+     "n": "Kristensen T.",
+     "pct": 45,
+     "riv": "Kossounou"
+    },
+    {
      "n": "Bernasconi",
      "pct": 40,
      "riv": "Kolasinac"
@@ -836,7 +841,7 @@
      "riv": "Scamacca"
     },
     {
-     "n": "Raspadori",
+     "n": "Rowe",
      "pct": 49,
      "riv": "Elmas"
     },
@@ -846,8 +851,8 @@
      "riv": "Fazzini"
     },
     {
-     "n": "Rowe",
-     "pct": 10,
+     "n": "Raspadori",
+     "pct": 20,
      "riv": null
     },
     {
@@ -857,11 +862,6 @@
     },
     {
      "n": "Sportiello",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Kristensen T.",
      "pct": 5,
      "riv": null
     },
@@ -1677,8 +1677,8 @@
      "riv": null
     },
     {
-     "n": "Zambo Anguissa",
-     "pct": 51,
+     "n": "De Bruyne",
+     "pct": 95,
      "riv": null
     },
     {
@@ -1688,7 +1688,7 @@
     },
     {
      "n": "Vergara",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1770,11 +1770,6 @@
      "n": "Olivera",
      "pct": 40,
      "riv": "Spinazzola"
-    },
-    {
-     "n": "De Bruyne",
-     "pct": 49,
-     "riv": "Zambo Anguissa"
     },
     {
      "n": "Santos A.",

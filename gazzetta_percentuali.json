@@ -174,7 +174,7 @@
     {
      "n": "Beto",
      "pct": 55,
-     "riv": "Pellegrini"
+     "riv": "Pellegrino"
     },
     {
      "n": "Goncalves",
@@ -233,11 +233,6 @@
     },
     {
      "n": "Pellegrino",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Pellegrini",
      "pct": 45,
      "riv": "Beto"
     }
@@ -246,7 +241,7 @@
   {
    "home": "Genoa",
    "away": "Frosinone",
-   "homeMod": "3-4-1-2",
+   "homeMod": "3-5-2",
    "awayMod": "4-3-3",
    "players": [
     {
@@ -270,22 +265,17 @@
      "riv": null
     },
     {
-     "n": "Sabelli",
-     "pct": 95,
-     "riv": null
+     "n": "Ehizibue",
+     "pct": 60,
+     "riv": "Sabelli"
     },
     {
-     "n": "Amorim",
+     "n": "Sow",
      "pct": 55,
-     "riv": "Sow"
+     "riv": "Amorim"
     },
     {
      "n": "Frendrup",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Ellertsson",
      "pct": 95,
      "riv": null
     },
@@ -295,14 +285,19 @@
      "riv": null
     },
     {
-     "n": "Vitinha",
-     "pct": 55,
-     "riv": "Osmajic"
+     "n": "Ellertsson",
+     "pct": 95,
+     "riv": null
     },
     {
      "n": "Colombo",
      "pct": 95,
      "riv": null
+    },
+    {
+     "n": "Osmajic",
+     "pct": 70,
+     "riv": "Vitinha"
     },
     {
      "n": "Stolz",
@@ -350,16 +345,6 @@
      "riv": null
     },
     {
-     "n": "Sow",
-     "pct": 45,
-     "riv": "Amorim"
-    },
-    {
-     "n": "Osmajic",
-     "pct": 45,
-     "riv": "Vitinha"
-    },
-    {
      "n": "Traoré",
      "pct": 5,
      "riv": null
@@ -373,6 +358,21 @@
      "n": "Meichtry",
      "pct": 5,
      "riv": null
+    },
+    {
+     "n": "Vitinha",
+     "pct": 30,
+     "riv": "Osmajic"
+    },
+    {
+     "n": "Amorim",
+     "pct": 45,
+     "riv": "Sow"
+    },
+    {
+     "n": "Sabelli",
+     "pct": 40,
+     "riv": "Ehizibue"
     },
     {
      "n": "Palmisani",
@@ -781,7 +781,7 @@
      "riv": null
     },
     {
-     "n": "Gaetano",
+     "n": "Kessié",
      "pct": 95,
      "riv": null
     },
@@ -817,11 +817,6 @@
     },
     {
      "n": "Kolasinac",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Kessié",
      "pct": 5,
      "riv": null
     },
@@ -1262,7 +1257,7 @@
      "riv": null
     },
     {
-     "n": "Anguissa",
+     "n": "De Bruyne",
      "pct": 95,
      "riv": null
     },
@@ -1323,11 +1318,6 @@
     },
     {
      "n": "Gilmour",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "De Bruyne",
      "pct": 5,
      "riv": null
     },
@@ -2234,9 +2224,9 @@
      "riv": null
     },
     {
-     "n": "Dimarco",
-     "pct": 60,
-     "riv": "Carlos Augusto"
+     "n": "Carlos Augusto",
+     "pct": 95,
+     "riv": null
     },
     {
      "n": "Lautaro",
@@ -2267,11 +2257,6 @@
      "n": "Akanji",
      "pct": 45,
      "riv": "Stones"
-    },
-    {
-     "n": "Carlos Augusto",
-     "pct": 40,
-     "riv": "Dimarco"
     },
     {
      "n": "Mkhitaryan",
@@ -2334,7 +2319,7 @@
      "riv": null
     },
     {
-     "n": "Piotrowski",
+     "n": "Miller",
      "pct": 95,
      "riv": null
     },
@@ -2390,11 +2375,6 @@
     },
     {
      "n": "Pejicic",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Miller",
      "pct": 5,
      "riv": null
     },

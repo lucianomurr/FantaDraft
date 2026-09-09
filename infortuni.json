@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-08",
+ "aggiornato": "2026-09-09",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -34,8 +34,8 @@
   {
    "s": "Cagliari",
    "n": "Felici",
-   "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima di un problema al ginocchio destro.",
-   "r": "Condizioni da valutare, di certo assente nel prossimo turno di campionato."
+   "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
+   "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
   },
   {
    "s": "Cagliari",
@@ -196,8 +196,8 @@
   {
    "s": "Sassuolo",
    "n": "Volpato",
-   "d": "l'esterno offensivo dei neroverdi KO il 6 settembre a Bologna vittima di un guaio muscolare alla gamba che andrà valutato. Di certo assente per domenica sera contro la Juventus.",
-   "r": "Tempi di recupero da valutare."
+   "d": "l'esterno offensivo dei neroverdi KO il 6 settembre a Bologna vittima di una lesione di grado moderato al flessore della gamba destra.",
+   "r": "Recuperabile dall'inizio di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -332,6 +332,12 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
+   "s": "Napoli",
+   "n": "Anguissa",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
    "s": "Juventus",
    "n": "McKennie",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
@@ -364,6 +370,18 @@
   {
    "s": "Roma",
    "n": "Pellegrini",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Inter",
+   "n": "Dimarco",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Inter",
+   "n": "Spence",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   }

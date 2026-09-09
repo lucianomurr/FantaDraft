@@ -122,6 +122,10 @@
   {
    "n": "Giovane",
    "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Anguissa",
+   "stato": "Da valutare"
   }
  ],
  "Bologna": [
@@ -153,7 +157,7 @@
   },
   {
    "n": "Volpato",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 7"
   },
   {
    "n": "Bakola",
@@ -191,11 +195,11 @@
   },
   {
    "n": "Locatelli",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 28"
   },
   {
    "n": "Boga",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 11"
   }
  ],
  "Torino": [
@@ -234,7 +238,16 @@
    "stato": "Da valutare"
   }
  ],
- "Inter": [],
+ "Inter": [
+  {
+   "n": "Dimarco",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Spence",
+   "stato": "Da valutare"
+  }
+ ],
  "Udinese": [
   {
    "n": "Zanoli",
@@ -250,6 +263,10 @@
   },
   {
    "n": "Solet",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Piotrowski",
    "stato": "Da valutare"
   }
  ]
