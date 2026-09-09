@@ -9,6 +9,57 @@ squadre, budget 500 crediti, rosa 3 portieri / 8 difensori / 8 centrocampisti / 
 attaccanti). Il tool serve sia per la **preparazione** (mettere i giocatori in fasce di
 preferenza + prezzo target) sia per l'**asta live** (segnare acquisti e budget residuo).
 
+## FATTO (09/09/2026): giro completo (12°) — quotazioni post-giornata-3, stats reali 2026/27 (3 giornate) in storico
+Luciano ha chiesto 3 cose insieme: (1) se un giro di update fosse già stato
+fatto — risposta: sì, parziale e automatico, il launchd giornaliero
+(`daily_refresh.sh`) ha girato da solo ogni giorno dal 04 al 09/09
+(titolarità/infortuni, 6 commit auto-pushati, verificato da `logs/` e
+`git log`) — l'ultimo giro COMPLETO con le 6 fonti formazioni risale però
+al 06/09 (3 giorni fa, non rifatto in questa sessione perché non
+esplicitamente richiesto stavolta); (2) se ci fossero statistiche reali
+complete sulle prime 3 giornate 2026/27 (appena conclusa la 3ª); (3) un
+nuovo listone quotazioni (`Quotazioni_Fantacalcio_Stagione_2026_27 (9).xlsx`).
+
+**Quotazioni**: prima vera ricalibrazione FVM del listone dopo l'inizio
+campionato — 285/532 giocatori aggiornati (Q/FVM, alcuni scarti grossi:
+Frattesi FVM 75→120, Baturina 105→155, Raimondo 27→55, Milik 10→3), +2
+nuovi (Sierro, Leite D.), -4 usciti. 534→532 giocatori.
+
+**Statistiche 2026/27 (3 giornate)**: rieseguito `fetch_2627_stats.py` —
+trovata E RISOLTA la stessa cache-stale già documentata il 27/08: l'HTML
+FBref per la stagione 2627 in `~/soccerdata/data/FBref/` era fermo al
+01/09 (prima ancora della giornata 2), il fetch ripartiva silenziosamente
+dalla cache vecchia (Dimarco MP=2 invece di 3). Cancellati a mano i 2 file
+HTML cache (`players_*_2627_standard.html` Big5 e Serie B) e rifatto il
+fetch pulito — confermato Dimarco MP=3/241min/1 assist. Nessun venv
+preesistente in questa sessione (i precedenti erano in `/tmp`, non
+persistente): ricreato da zero in `/tmp/fanta_venv3`
+(`pip install soccerdata pandas openpyxl`).
+
+Confermato ESPLICITAMENTE (rileggendo il codice di `fetch_2627_stats.py`,
+commentato proprio per questo): la stagione 2026/27 a 3 giornate resta SOLO
+nello storico (`hist` in scheda giocatore, nuova riga "2026/27" per ogni
+giocatore che ha giocato), NON diventa la stagione primaria che guida
+gol/assist/xG/Val in tabella — quella resta 2025/26, come da soglia
+dichiarata dal progetto stesso ("dopo 4-5 giornate, metà settembre circa" —
+siamo alla 3ª, ancora presto). Bug collaterale noto rifatto di proposito
+nell'ordine giusto stavolta: `merge_stats.py` da solo azzera `xg` (sempre,
+by design, aspetta `merge_understat.py` subito dopo) — lanciato
+`merge_understat.py` immediatamente dopo, xG passato da 335→350 coperti
+(più giocatori ora hanno almeno un dato, anche solo dalla stagione
+corrente). "Con dati" (`stat`) 440→456 — alcuni giocatori senza storico
+2025/26 (nuovi arrivi/promossi) ora hanno comunque `stat:true` grazie ai
+minuti reali già giocati in 2026/27.
+
+Contatori landing ricontati e aggiornati: 532 giocatori, 456 con dati, 350
+xG coperti, 149 arrivi tracciati (calato di 1, coerente con gli usciti dal
+listone), 64 infortunati monitorati (accumulo dei refresh automatici
+giornalieri 04→09/09, mai in calo perché fantacalcio.it segna solo nuovi
+casi e il cross-check Gazzetta aggiunge, mai rimuove). `npm run build`
+pulito. Formazioni 6 fonti/rigoristi NON rifatte in questo giro (già
+freschissime dal 06/09, non richiesto stavolta) — da valutare al prossimo
+giro se sono passati altri giorni.
+
 ## FATTO (06/09/2026): giro completo (11°) — 6 fonti formazioni, rigoristi Cagliari cambiati, giornata/infortuni
 Refresh richiesto da Luciano senza un nuovo listone da scaricare (verificato:
 nessun xlsx più recente in Downloads, nessun nuovo CSV rose lega) — giro
