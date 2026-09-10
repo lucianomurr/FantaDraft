@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-09",
+ "aggiornato": "2026-09-10",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -27,9 +27,9 @@
   },
   {
    "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
+   "n": "Idrissi R.",
+   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
+   "r": "può tornare arruolabile dalla fine di ottobre."
   },
   {
    "s": "Cagliari",
@@ -39,9 +39,9 @@
   },
   {
    "s": "Cagliari",
-   "n": "Idrissi R.",
-   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
-   "r": "può tornare arruolabile dalla fine di ottobre."
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Tempi di recupero da valutare, assente di certo nel prossimo turno di campionato."
   },
   {
    "s": "Como",
@@ -62,6 +62,12 @@
    "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
   },
   {
+   "s": "Genoa",
+   "n": "Havel",
+   "d": "L'attaccante sta risolvendo noie fisiche e",
+   "r": "proverà a tornare arruolabile dall'inizio di ottobre."
+  },
+  {
    "s": "Juventus",
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
@@ -75,9 +81,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Boga",
-   "d": "l'ala offensiva dei bianconeri non al meglio per un sospetto stiramento al flessore della coscia, gli esami medici chiariranno la situazione. Di certo out per domenica sera contro il Sassuolo.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
+   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Juventus",
@@ -93,9 +99,15 @@
   },
   {
    "s": "Juventus",
-   "n": "Thuram K.",
-   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
-   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
+   "n": "Cambiaso",
+   "d": "il difensore alle prese con una distorsione alla caviglia destra e",
+   "r": "sarà out anche nel prossimo turno di campionato. Si confida di riaverlo a disposizione dalla seconda metà di settembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Boga",
+   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale.",
+   "r": "Attesi nuovi esami medici a fine settembre per stabilire con esattezza i tempi di recupero, ma ipotizziamo oggi un possibile rientro dalla metà di ottobre."
   },
   {
    "s": "Lazio",
@@ -128,12 +140,6 @@
    "r": "Tempi di recupero da valutare, viaggia verso il forfait anche per domenica contro il Monza."
   },
   {
-   "s": "Milan",
-   "n": "Gabbia",
-   "d": "il difensore a rischio forfait contro la Lazio sabato per un fastidio alla caviglia.",
-   "r": "Da valutare."
-  },
-  {
    "s": "Monza",
    "n": "Ciurria",
    "d": "il centrocampista non al meglio per noie fisiche, forfait per domenica contro il Lecce.",
@@ -152,6 +158,12 @@
    "r": "Tempi di recupero da valutare, ma rischia di rientrare da inizio ottobre dopo la sosta."
   },
   {
+   "s": "Monza",
+   "n": "Ziolkowski",
+   "d": "Il difensore condizionato da una fastidiosa fascite plantare, di certo assente nel prossimo turno di campionato.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
    "s": "Napoli",
    "n": "Buongiorno",
    "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
@@ -162,6 +174,12 @@
    "n": "Giovane",
    "d": "L'attaccante operato il 3 settembre a causa di un'ernia inguinale e",
    "r": "recuperabile dall'inizio di ottobre."
+  },
+  {
+   "s": "Napoli",
+   "n": "Santos A.",
+   "d": "Il brasiliano costretto al cambio mercoledì in Champions League per noie muscolari che andranno valutate. Forfait certo per domenica contro il Bologna in campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Napoli",
@@ -176,6 +194,12 @@
    "r": "Tempi di recupero da valutare, ma rischia uno stop di almeno due mesi."
   },
   {
+   "s": "Napoli",
+   "n": "Meret",
+   "d": "Il portiere uscito claudicante dal match di mercoledì in Champions League per un fastidio muscolare alla coscia sinistra.",
+   "r": "Condizioni da valutare, forfait per domenica in campionato contro il Bologna."
+  },
+  {
    "s": "Parma",
    "n": "Nicolussi Caviglia",
    "d": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da novembre.",
@@ -183,15 +207,15 @@
   },
   {
    "s": "Parma",
-   "n": "Bernabè",
-   "d": "Il centrocampista ha lamentato nella rifinitura di sabato scorso un problema fisico e non è stato convocato poi contro il Monza.",
-   "r": "Da valutare in settimana verso la sfida di domenica a Como, ma rimane a rischio."
-  },
-  {
-   "s": "Parma",
    "n": "Diallo O.",
    "d": "Il calciatore non al meglio per noie fisiche, forfait domenica scorsa contro il Monza e non ci sarà neppure nel prossimo turno a Como.",
    "r": "Da valutare in vista della 5a giornata."
+  },
+  {
+   "s": "Parma",
+   "n": "Bernabè",
+   "d": "Il centrocampista ha lamentato nella rifinitura di sabato scorso un problema fisico e non è stato convocato poi contro il Monza.",
+   "r": "Da valutare in settimana verso la sfida di domenica a Como, ma rimane a rischio."
   },
   {
    "s": "Sassuolo",
@@ -201,15 +225,15 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Bakola",
-   "d": "Il centrocampista acciaccato per noie fisiche e a rischio la sua convocazione per domenica contro la Juventus.",
-   "r": "Da valutare quotidianamente."
+   "n": "Candè",
+   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
+   "r": "punta a tornare convocabile dalla metà di settembre."
   },
   {
    "s": "Sassuolo",
-   "n": "Pieragnolo",
-   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra e",
-   "r": "ipotizziamo possa tornare convocabile da ottobre."
+   "n": "Bakola",
+   "d": "Il centrocampista acciaccato per noie fisiche e a rischio la sua convocazione per domenica contro la Juventus.",
+   "r": "Da valutare quotidianamente."
   },
   {
    "s": "Sassuolo",
@@ -219,9 +243,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Candè",
-   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla metà di settembre."
+   "n": "Pieragnolo",
+   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra e",
+   "r": "ipotizziamo possa tornare convocabile da ottobre."
   },
   {
    "s": "Sassuolo",
@@ -243,27 +267,15 @@
   },
   {
    "s": "Udinese",
-   "n": "Palma",
-   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla metà di settembre.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Udinese",
-   "n": "Solet",
-   "d": "il difensore il 7 settembre contro la Lazio costretto al cambio per un problema muscolare alla gamba che andrà valutato. Di certo out per lunedì contro l'Inter a San Siro.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Udinese",
-   "n": "Zanoli",
-   "d": "il calciatore operato a fine gennaio per la lesione del legamento crociato anteriore del ginocchio destro, sta ultimando la fase di recupero e",
-   "r": "può tornare in campo da ottobre."
-  },
-  {
-   "s": "Udinese",
    "n": "Arizala",
    "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
    "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Zaniolo",
+   "d": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra.",
+   "r": "Stop di circa 25 giorni, recuperabile dalla fine di settembre."
   },
   {
    "s": "Udinese",
@@ -273,15 +285,27 @@
   },
   {
    "s": "Udinese",
-   "n": "Zaniolo",
-   "d": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra.",
-   "r": "Stop di circa 25 giorni, recuperabile dalla fine di settembre."
+   "n": "Zanoli",
+   "d": "il calciatore operato a fine gennaio per la lesione del legamento crociato anteriore del ginocchio destro, sta ultimando la fase di recupero e",
+   "r": "può tornare in campo da ottobre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Solet",
+   "d": "il difensore il 7 settembre contro la Lazio costretto al cambio per un problema muscolare alla gamba che andrà valutato. Di certo out per lunedì contro l'Inter a San Siro.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Udinese",
+   "n": "Palma",
+   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla metà di settembre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Venezia",
    "n": "Bella-Kotchap",
-   "d": "il difensore costretto al cambio a Frosinone il 6 settembre per un fastidio che andrà valutato, ora viaggia verso il forfait per venerdì in casa contro la Fiorentina.",
-   "r": "Tempi di recupero da valutare."
+   "d": "il difensore costretto al cambio a Frosinone il 6 settembre per un risentimento muscolare mio-fasciale all'adduttore della gamba destra.",
+   "r": "Recuperabile dall'inizio di ottobre."
   },
   {
    "s": "Venezia",
@@ -292,8 +316,14 @@
   {
    "s": "Venezia",
    "n": "Franjic",
-   "d": "il difensore costretto al cambio a Milano contro i rossoneri a fine agosto per un guaio alla spalla che andrà valutato. Forfait certo per venerdì contro la Fiorentina.",
-   "r": "Tempi di recupero da valutare."
+   "d": "il difensore costretto al cambio a Milano contro i rossoneri a fine agosto per un guaio alla spalla che ha richiesto l'intervento chirurgico.",
+   "r": "Lungo stop e rientro dalla metà di dicembre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Basic",
+   "d": "Il centrocampista out contro Frosinone e Fiorentina per noie fisiche",
+   "r": "rimane da valutare quotidianamente in vista della 5a giornata di campionato."
   },
   {
    "s": "Venezia",
@@ -308,22 +338,10 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Fiorentina",
-   "n": "Inao Oulaï",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Genoa",
    "n": "Nuredini",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
-  },
-  {
-   "s": "Genoa",
-   "n": "Havel",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Monza",
@@ -340,12 +358,6 @@
   {
    "s": "Juventus",
    "n": "McKennie",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "Cambiaso",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },

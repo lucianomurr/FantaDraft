@@ -42,7 +42,7 @@
      "riv": null
     },
     {
-     "n": "Basic",
+     "n": "Sohm",
      "pct": 95,
      "riv": null
     },
@@ -88,11 +88,6 @@
     },
     {
      "n": "Gomes",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Sohm",
      "pct": 5,
      "riv": null
     },
@@ -200,6 +195,11 @@
      "n": "Dragusin",
      "pct": 45,
      "riv": "Pongracic"
+    },
+    {
+     "n": "Oulai",
+     "pct": 5,
+     "riv": null
     },
     {
      "n": "Viery",
@@ -668,7 +668,7 @@
      "riv": null
     },
     {
-     "n": "Saelemaekers",
+     "n": "Cisse",
      "pct": 95,
      "riv": null
     },
@@ -688,12 +688,17 @@
      "riv": null
     },
     {
-     "n": "Diawara",
+     "n": "Tomori",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Tomori",
+     "n": "Gabbia",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Diawara",
      "pct": 5,
      "riv": null
     },
@@ -718,7 +723,7 @@
      "riv": null
     },
     {
-     "n": "Cisse",
+     "n": "Saelemaekers",
      "pct": 5,
      "riv": null
     },
@@ -1232,7 +1237,7 @@
    "awayMod": "4-2-3-1",
    "players": [
     {
-     "n": "Meret",
+     "n": "Milinkovic-Savic",
      "pct": 95,
      "riv": null
     },
@@ -1282,17 +1287,12 @@
      "riv": null
     },
     {
-     "n": "Alisson Santos",
+     "n": "Neres",
      "pct": 95,
      "riv": null
     },
     {
      "n": "Contini",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Milinkovic-Savic",
      "pct": 5,
      "riv": null
     },
@@ -1318,11 +1318,6 @@
     },
     {
      "n": "Gilmour",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Neres",
      "pct": 5,
      "riv": null
     },
@@ -1671,8 +1666,13 @@
     },
     {
      "n": "Woltemade",
-     "pct": 5,
-     "riv": null
+     "pct": 40,
+     "riv": "Nico"
+    },
+    {
+     "n": "Nico",
+     "pct": 60,
+     "riv": "Woltemade"
     }
    ]
   },

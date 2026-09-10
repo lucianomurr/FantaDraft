@@ -14,10 +14,14 @@
   },
   {
    "n": "Franjic",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 15"
   },
   {
    "n": "Bella-Kotchap",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Basic",
    "stato": "Da valutare"
   }
  ],
@@ -25,10 +29,6 @@
   {
    "n": "Parisi",
    "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Inao Oulaï",
-   "stato": "Da valutare"
   }
  ],
  "Genoa": [
@@ -64,12 +64,7 @@
    "stato": "Da valutare"
   }
  ],
- "Milan": [
-  {
-   "n": "Gabbia",
-   "stato": "Rientro alla 5"
-  }
- ],
+ "Milan": [],
  "Atalanta": [
   {
    "n": "Hien",
@@ -83,7 +78,7 @@
  "Cagliari": [
   {
    "n": "Felici",
-   "stato": "Da valutare"
+   "stato": "Stagione Finita"
   }
  ],
  "Lecce": [
@@ -125,6 +120,14 @@
   },
   {
    "n": "Anguissa",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Meret",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Alisson Santos",
    "stato": "Da valutare"
   }
  ],
