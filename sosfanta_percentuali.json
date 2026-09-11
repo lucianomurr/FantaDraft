@@ -787,7 +787,7 @@
     },
     {
      "n": "Samardzic",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -1031,7 +1031,7 @@
     },
     {
      "n": "Monteiro J.",
-     "pct": 95,
+     "pct": 55,
      "riv": null
     },
     {
@@ -1100,6 +1100,11 @@
      "riv": "Ilic"
     },
     {
+     "n": "Fatah",
+     "pct": 45,
+     "riv": "Monteiro J."
+    },
+    {
      "n": "Tornqvist",
      "pct": 49,
      "riv": "Thiam"
@@ -1151,11 +1156,6 @@
     },
     {
      "n": "Gorter",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Fatah",
      "pct": 5,
      "riv": null
     },
@@ -1778,17 +1778,17 @@
     },
     {
      "n": "Romero D.",
-     "pct": 55,
+     "pct": 51,
      "riv": null
     },
     {
      "n": "Lontani",
-     "pct": 55,
+     "pct": 51,
      "riv": null
     },
     {
      "n": "Couto",
-     "pct": 45,
+     "pct": 49,
      "riv": "Smolcic I."
     },
     {
@@ -1798,7 +1798,7 @@
     },
     {
      "n": "Valle",
-     "pct": 40,
+     "pct": 49,
      "riv": "Kaiki"
     },
     {
@@ -1823,7 +1823,7 @@
     },
     {
      "n": "Tourè E.",
-     "pct": 45,
+     "pct": 49,
      "riv": "Romero D."
     },
     {
