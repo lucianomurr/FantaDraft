@@ -42,7 +42,7 @@
   },
   {
    "n": "Havel",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 7"
   }
  ],
  "Frosinone": [],
@@ -57,11 +57,11 @@
   },
   {
    "n": "Dele-Bashiru",
-   "stato": "Rientro alla 6"
+   "stato": "Rientro alla 5"
   },
   {
    "n": "Rovella",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 6"
   }
  ],
  "Milan": [],
@@ -79,6 +79,14 @@
   {
    "n": "Felici",
    "stato": "Stagione Finita"
+  },
+  {
+   "n": "Idrissi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Trepy",
+   "stato": "Da valutare"
   }
  ],
  "Lecce": [
@@ -93,12 +101,20 @@
    "stato": "Rientro alla 10"
   },
   {
-   "n": "Gustavo Varela",
-   "stato": "Da valutare"
+   "n": "Ciurria",
+   "stato": "Rientro alla 5"
   },
   {
-   "n": "Cutrone",
-   "stato": "Da valutare"
+   "n": "Ngonge",
+   "stato": "Rientro alla 5"
+  },
+  {
+   "n": "Touré",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Ziólkowski",
+   "stato": "Rientro alla 6"
   }
  ],
  "Napoli": [
@@ -119,16 +135,12 @@
    "stato": "Rientro alla 6"
   },
   {
-   "n": "Anguissa",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Meret",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 6"
   },
   {
    "n": "Alisson Santos",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 8"
   }
  ],
  "Bologna": [
@@ -193,16 +205,28 @@
    "stato": "Rientro alla 7"
   },
   {
-   "n": "Pape Matar Sarr",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Locatelli",
    "stato": "Rientro alla 28"
   },
   {
    "n": "Boga",
    "stato": "Rientro alla 11"
+  }
+ ],
+ "Como": [
+  {
+   "n": "Addai",
+   "stato": "Rientro alla 6"
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bernabé",
+   "stato": "Da valutare"
   }
  ],
  "Torino": [
@@ -223,29 +247,13 @@
   {
    "n": "Pellegrini",
    "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Addai",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
   },
   {
-   "n": "Bernabé",
+   "n": "Koné",
    "stato": "Da valutare"
   }
  ],
  "Inter": [
-  {
-   "n": "Dimarco",
-   "stato": "Da valutare"
-  },
   {
    "n": "Spence",
    "stato": "Da valutare"

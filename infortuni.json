@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-10",
+ "aggiornato": "2026-09-11",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -81,15 +81,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Thuram K.",
-   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
-   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
-  },
-  {
-   "s": "Juventus",
-   "n": "Cabal",
-   "d": "il difensore ai box da inizio settembre per una lesione di basso grado del muscolo semimembranoso della coscia sinistra",
-   "r": "recuperabile dalla seconda metà di settembre."
+   "n": "Boga",
+   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale.",
+   "r": "Attesi nuovi esami medici a fine settembre per stabilire con esattezza i tempi di recupero, ma ipotizziamo oggi un possibile rientro dalla metà di ottobre."
   },
   {
    "s": "Juventus",
@@ -99,15 +93,21 @@
   },
   {
    "s": "Juventus",
+   "n": "Cabal",
+   "d": "il difensore ai box da inizio settembre per una lesione di basso grado del muscolo semimembranoso della coscia sinistra",
+   "r": "recuperabile dalla seconda metà di settembre."
+  },
+  {
+   "s": "Juventus",
    "n": "Cambiaso",
    "d": "il difensore alle prese con una distorsione alla caviglia destra e",
    "r": "sarà out anche nel prossimo turno di campionato. Si confida di riaverlo a disposizione dalla seconda metà di settembre."
   },
   {
    "s": "Juventus",
-   "n": "Boga",
-   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale.",
-   "r": "Attesi nuovi esami medici a fine settembre per stabilire con esattezza i tempi di recupero, ma ipotizziamo oggi un possibile rientro dalla metà di ottobre."
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
+   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Lazio",
@@ -128,12 +128,6 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Lazio",
-   "n": "Dele-Bashiru",
-   "d": "il centrocampista ai box per un guaio muscolare alla gamba lamentato il 24 agosto a Bologna.",
-   "r": "Da valutare, si confida di riaverlo a disposizione da metà settembre."
-  },
-  {
    "s": "Lecce",
    "n": "Geubbels",
    "d": "l'attaccante KO contro la Roma il 31 agosto vittima di una distorsione alla caviglia che lo ha già tenuto fuori lunedì scorso a Cagliari.",
@@ -150,12 +144,6 @@
    "n": "Pessina",
    "d": "Il centrocampista costretto a saltare l'inizio di campionato per una lussazione della rotula del ginocchio destro rimediata nella prima metà di agosto in allenamento.",
    "r": "Tempi di recupero da monitorare, ma proverà a tornare arruolabile dall'inizio di novembre."
-  },
-  {
-   "s": "Monza",
-   "n": "Varela G.",
-   "d": "l'attaccante il 30 agosto ha lamentato un fastidio muscolare all'adduttore che lo ha poi costretto a saltare la sfida di domenica scorsa a Parma.",
-   "r": "Tempi di recupero da valutare, ma rischia di rientrare da inizio ottobre dopo la sosta."
   },
   {
    "s": "Monza",
@@ -178,8 +166,8 @@
   {
    "s": "Napoli",
    "n": "Santos A.",
-   "d": "Il brasiliano costretto al cambio mercoledì in Champions League per noie muscolari che andranno valutate. Forfait certo per domenica contro il Bologna in campionato.",
-   "r": "Tempi di recupero da valutare."
+   "d": "Il brasiliano costretto al cambio il 9 settembre in Champions League vittima di una lesione muscolare di medio grado al bicipite femorale sinistro.",
+   "r": "Proverà a tornare arruolabile dalla metà di ottobre."
   },
   {
    "s": "Napoli",
@@ -196,8 +184,8 @@
   {
    "s": "Napoli",
    "n": "Meret",
-   "d": "Il portiere uscito claudicante dal match di mercoledì in Champions League per un fastidio muscolare alla coscia sinistra.",
-   "r": "Condizioni da valutare, forfait per domenica in campionato contro il Bologna."
+   "d": "Il portiere uscito claudicante dal match di mercoledì in Champions League per una lesione di basso grado all'adduttore lungo.",
+   "r": "Recuperabile dall'inizio di ottobre."
   },
   {
    "s": "Parma",
@@ -267,21 +255,15 @@
   },
   {
    "s": "Udinese",
-   "n": "Arizala",
-   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
-   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
+   "n": "Palma",
+   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla metà di settembre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Udinese",
-   "n": "Zaniolo",
-   "d": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra.",
-   "r": "Stop di circa 25 giorni, recuperabile dalla fine di settembre."
-  },
-  {
-   "s": "Udinese",
-   "n": "Piotrowski",
-   "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
-   "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
+   "n": "Solet",
+   "d": "il difensore il 7 settembre contro la Lazio costretto al cambio per una lesione al muscolo pettineo della gamba sinistra",
+   "r": "è recuperabile dalla fine di settembre."
   },
   {
    "s": "Udinese",
@@ -291,15 +273,21 @@
   },
   {
    "s": "Udinese",
-   "n": "Solet",
-   "d": "il difensore il 7 settembre contro la Lazio costretto al cambio per un problema muscolare alla gamba che andrà valutato. Di certo out per lunedì contro l'Inter a San Siro.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Arizala",
+   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
+   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
   },
   {
    "s": "Udinese",
-   "n": "Palma",
-   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla metà di settembre.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Piotrowski",
+   "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
+   "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
+  },
+  {
+   "s": "Udinese",
+   "n": "Zaniolo",
+   "d": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra.",
+   "r": "Stop di circa 25 giorni, recuperabile dalla fine di settembre."
   },
   {
    "s": "Venezia",
@@ -327,6 +315,12 @@
   },
   {
    "s": "Venezia",
+   "n": "Dagasso",
+   "d": "Il centrocampista non convocato per venerdì contro la Fiorentina per un problema fisico.",
+   "r": "Da valutare in vista della 5a giornata di campionato."
+  },
+  {
+   "s": "Venezia",
    "n": "Adorante",
    "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
    "r": "Tentativo di rientro da ottobre."
@@ -344,26 +338,26 @@
    "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
   },
   {
-   "s": "Monza",
-   "n": "Cutrone",
+   "s": "Lazio",
+   "n": "Dele-Bashiru",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
+   "r": "Punta a rientrare per la giornata 5 (fonte Gazzetta)."
   },
   {
-   "s": "Napoli",
-   "n": "Anguissa",
+   "s": "Monza",
+   "n": "Ngonge",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
+   "r": "Punta a rientrare per la giornata 5 (fonte Gazzetta)."
+  },
+  {
+   "s": "Monza",
+   "n": "Touré",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
   },
   {
    "s": "Juventus",
    "n": "McKennie",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "Pape Matar Sarr",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
@@ -386,8 +380,8 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Inter",
-   "n": "Dimarco",
+   "s": "Roma",
+   "n": "Koné",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
