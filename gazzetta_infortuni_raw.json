@@ -1,56 +1,5 @@
 {
- "Venezia": [
-  {
-   "n": "Sverko",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Adorante",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Moreno",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Franjic",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Bella-Kotchap",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Basic",
-   "stato": "Da valutare"
-  }
- ],
- "Fiorentina": [
-  {
-   "n": "Parisi",
-   "stato": "Rientro alla 13"
-  }
- ],
- "Genoa": [
-  {
-   "n": "Venturino",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Nuredini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Havel",
-   "stato": "Rientro alla 7"
-  }
- ],
- "Frosinone": [],
  "Lazio": [
-  {
-   "n": "Cataldi",
-   "stato": "Da valutare"
-  },
   {
    "n": "Marusic",
    "stato": "Rientro alla 6"
@@ -62,6 +11,10 @@
   {
    "n": "Rovella",
    "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Doekhi",
+   "stato": "Da valutare"
   }
  ],
  "Milan": [],
@@ -141,12 +94,28 @@
   {
    "n": "Alisson Santos",
    "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Anguissa",
+   "stato": "Da valutare"
   }
  ],
  "Bologna": [
   {
    "n": "Orsolini",
    "stato": "Rientro alla 6"
+  },
+  {
+   "n": "El Azzouzi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Dovbyk",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Zortea",
+   "stato": "Da valutare"
   }
  ],
  "Sassuolo": [
@@ -213,22 +182,6 @@
    "stato": "Rientro alla 11"
   }
  ],
- "Como": [
-  {
-   "n": "Addai",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Bernabé",
-   "stato": "Da valutare"
-  }
- ],
  "Torino": [
   {
    "n": "Israel",
@@ -247,9 +200,21 @@
   {
    "n": "Pellegrini",
    "stato": "Da valutare"
+  }
+ ],
+ "Como": [
+  {
+   "n": "Addai",
+   "stato": "Rientro alla 6"
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
+   "stato": "Da valutare"
   },
   {
-   "n": "Koné",
+   "n": "Bernabé",
    "stato": "Da valutare"
   }
  ],
