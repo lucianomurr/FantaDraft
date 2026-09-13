@@ -1,75 +1,4 @@
 {
- "Lazio": [
-  {
-   "n": "Marusic",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Dele-Bashiru",
-   "stato": "Rientro alla 5"
-  },
-  {
-   "n": "Rovella",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Doekhi",
-   "stato": "Da valutare"
-  }
- ],
- "Milan": [],
- "Atalanta": [
-  {
-   "n": "Hien",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Kamaldeen Sulemana",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Geubbels",
-   "stato": "Da valutare"
-  }
- ],
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Ciurria",
-   "stato": "Rientro alla 5"
-  },
-  {
-   "n": "Ngonge",
-   "stato": "Rientro alla 5"
-  },
-  {
-   "n": "Touré",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Ziólkowski",
-   "stato": "Rientro alla 6"
-  }
- ],
  "Napoli": [
   {
    "n": "Buongiorno",
@@ -116,13 +45,13 @@
   {
    "n": "Zortea",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Happonen",
+   "stato": "Da valutare"
   }
  ],
  "Sassuolo": [
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  },
   {
    "n": "Pieragnolo",
    "stato": "Da valutare"
@@ -144,7 +73,7 @@
    "stato": "Rientro alla 7"
   },
   {
-   "n": "Bakola",
+   "n": "Paz",
    "stato": "Da valutare"
   }
  ],
