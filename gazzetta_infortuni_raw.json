@@ -1,114 +1,14 @@
 {
- "Napoli": [
+ "Como": [
   {
-   "n": "Buongiorno",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Marianucci",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "McTominay",
+   "n": "Addai",
    "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Giovane",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Meret",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Alisson Santos",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Anguissa",
-   "stato": "Da valutare"
   }
  ],
- "Bologna": [
+ "Parma": [
   {
-   "n": "Orsolini",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "El Azzouzi",
+   "n": "Nicolussi Caviglia",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Dovbyk",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Zortea",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Happonen",
-   "stato": "Da valutare"
-  }
- ],
- "Sassuolo": [
-  {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Candé",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Walukiewicz",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Volpato",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  }
- ],
- "Juventus": [
-  {
-   "n": "Yildiz",
-   "stato": "Rientro alla 14"
-  },
-  {
-   "n": "McKennie",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Thuram",
-   "stato": "Rientro alla 19"
-  },
-  {
-   "n": "Cambiaso",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ekhator",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Cabal",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Locatelli",
-   "stato": "Rientro alla 28"
-  },
-  {
-   "n": "Boga",
-   "stato": "Rientro alla 11"
   }
  ],
  "Torino": [
@@ -123,34 +23,17 @@
   {
    "n": "Casadei",
    "stato": "Da valutare"
-  }
- ],
- "Roma": [
-  {
-   "n": "Pellegrini",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Addai",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
   },
   {
-   "n": "Bernabé",
+   "n": "Adams",
    "stato": "Da valutare"
   }
  ],
+ "Roma": [],
  "Inter": [
   {
    "n": "Spence",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 6"
   }
  ],
  "Udinese": [
@@ -160,19 +43,23 @@
   },
   {
    "n": "Zaniolo",
-   "stato": "Rientro alla 6"
+   "stato": "Rientro alla 5"
   },
   {
    "n": "Palma",
-   "stato": "Rientro alla 6"
+   "stato": "Rientro alla 7"
   },
   {
    "n": "Solet",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 7"
   },
   {
    "n": "Piotrowski",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Arizala",
+   "stato": "Rientro alla 7"
   }
  ]
 }

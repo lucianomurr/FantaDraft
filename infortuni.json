@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-13",
+ "aggiornato": "2026-09-14",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -248,12 +248,6 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Parma",
-   "n": "Bernabè",
-   "d": "Il centrocampista ha lamentato nella rifinitura di sabato scorso un problema fisico e non è stato convocato poi contro il Monza.",
-   "r": "Da valutare in settimana verso la sfida di domenica a Como, ma rimane a rischio."
-  },
-  {
    "s": "Sassuolo",
    "n": "Konè I.",
    "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
@@ -374,12 +368,6 @@
    "r": "Tentativo di rientro da ottobre."
   },
   {
-   "s": "Sassuolo",
-   "n": "Paz",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Torino",
    "n": "Israel",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
@@ -392,16 +380,10 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Roma",
-   "n": "Pellegrini",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Inter",
    "n": "Spence",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
+   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
   }
  ]
 }
