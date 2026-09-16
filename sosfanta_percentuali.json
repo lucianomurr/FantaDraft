@@ -518,7 +518,7 @@
     },
     {
      "n": "Unai Gomez",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -590,6 +590,11 @@
      "n": "Bertola",
      "pct": 45,
      "riv": "Kabasele"
+    },
+    {
+     "n": "Zaniolo",
+     "pct": 49,
+     "riv": "Unai Gomez"
     },
     {
      "n": "Mina",
@@ -2240,11 +2245,6 @@
      "riv": "Monteiro J."
     },
     {
-     "n": "Saelemaekers",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Terracciano",
      "pct": 5,
      "riv": null
@@ -2291,6 +2291,11 @@
     },
     {
      "n": "Jashari",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Saelemaekers",
      "pct": 5,
      "riv": null
     },

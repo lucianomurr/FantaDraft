@@ -47,6 +47,42 @@
    "stato": "Da valutare"
   }
  ],
+ "Udinese": [
+  {
+   "n": "Zanoli",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Zaniolo",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Palma",
+   "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Solet",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Piotrowski",
+   "stato": "Da valutare"
+  }
+ ],
+ "Cagliari": [
+  {
+   "n": "Felici",
+   "stato": "Stagione Finita"
+  },
+  {
+   "n": "Idrissi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Trepy",
+   "stato": "Da valutare"
+  }
+ ],
  "Bologna": [
   {
    "n": "Orsolini",
@@ -87,48 +123,7 @@
    "stato": "Da valutare"
   }
  ],
- "Udinese": [
-  {
-   "n": "Zanoli",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Zaniolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Palma",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Solet",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Piotrowski",
-   "stato": "Da valutare"
-  }
- ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Roma": [
-  {
-   "n": "Ndicka",
-   "stato": "Da valutare"
-  }
- ],
+ "Roma": [],
  "Inter": [
   {
    "n": "Spence",
@@ -137,6 +132,10 @@
   {
    "n": "Stones",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Çalhanoglu",
+   "stato": "Rientro alla 6"
   }
  ],
  "Venezia": [
@@ -162,7 +161,7 @@
   },
   {
    "n": "Busio",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   }
  ],
  "Lazio": [
@@ -299,11 +298,11 @@
   },
   {
    "n": "Gandelman",
-   "stato": ""
+   "stato": "Da valutare"
   },
   {
    "n": "Berisha",
-   "stato": ""
+   "stato": "Da valutare"
   }
  ]
 }

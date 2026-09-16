@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-15",
+ "aggiornato": "2026-09-16",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -153,9 +153,9 @@
   },
   {
    "s": "Lecce",
-   "n": "Berisha M.",
-   "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte al match di domenica scorsa in casa contro il Monza.",
-   "r": "Da valutare in settimana verso la sfida contro il Milan in trasferta nella 5a giornata di campionato."
+   "n": "Gandelman",
+   "d": "Il centrocampista fuori causa domenica scorsa contro il Monza per noie fisiche.",
+   "r": "Da valutare in vista della prossima giornata di campionato, domenica sera a Milano contro i rossoneri."
   },
   {
    "s": "Lecce",
@@ -165,9 +165,9 @@
   },
   {
    "s": "Lecce",
-   "n": "Gandelman",
-   "d": "Il centrocampista fuori causa domenica scorsa contro il Monza per noie fisiche.",
-   "r": "Da valutare in vista della prossima giornata di campionato, domenica sera a Milano contro i rossoneri."
+   "n": "Berisha M.",
+   "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte al match di domenica scorsa in casa contro il Monza.",
+   "r": "Da valutare in settimana verso la sfida contro il Milan in trasferta nella 5a giornata di campionato."
   },
   {
    "s": "Monza",
@@ -237,9 +237,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
-   "r": "da valutare il rientro dalla fine di settembre."
+   "n": "Idzes",
+   "d": "Il difensorr ai box per una lesione di grado moderato al quadricipite della gamba sinistra",
+   "r": "proverà a tornerà arruolabile dalla seconda metà di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -267,9 +267,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Idzes",
-   "d": "Il difensorr ai box per una lesione di grado moderato al quadricipite della gamba sinistra",
-   "r": "proverà a tornerà arruolabile dalla metà di ottobre."
+   "n": "Walukiewicz",
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
+   "r": "da valutare il rientro dalla fine di settembre."
   },
   {
    "s": "Sassuolo",
@@ -286,32 +286,14 @@
   {
    "s": "Torino",
    "n": "Adams C.",
-   "d": "L'attaccante frenato a metà settembre da un problema muscolare all'adduttore, forfait contro Roma e Bologna.",
+   "d": "L'attaccante frenato a metà settembre da una lesione distrattiva di basso grado all'adduttore, forfait contro Roma e Bologna.",
    "r": "Punta a recuperare nella sosta per essere poi arruolabile dalla prima metà di ottobre."
   },
   {
    "s": "Udinese",
-   "n": "Arizala",
-   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
-   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
-  },
-  {
-   "s": "Udinese",
-   "n": "Zaniolo",
-   "d": "il calciatore nella 1a giornata contro il Como è uscito dal campo a causa di una lesione muscolare al bicipite femorale della coscia destra.",
-   "r": "Stop di circa 25 giorni, recuperabile dalla seconda metà di settembre e da valutare la convocazione in extremis contro il Cagliari per sabato nella 5a di campionato."
-  },
-  {
-   "s": "Udinese",
-   "n": "Piotrowski",
-   "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
-   "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
-  },
-  {
-   "s": "Udinese",
-   "n": "Zanoli",
-   "d": "il calciatore operato a fine gennaio per la lesione del legamento crociato anteriore del ginocchio destro, sta ultimando la fase di recupero e",
-   "r": "può tornare convocabile dalla seconda metà di settembre."
+   "n": "Palma",
+   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla fine di settembre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Udinese",
@@ -321,9 +303,21 @@
   },
   {
    "s": "Udinese",
-   "n": "Palma",
-   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla fine di settembre.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Zanoli",
+   "d": "il calciatore operato a fine gennaio per la lesione del legamento crociato anteriore del ginocchio destro, sta ultimando la fase di recupero e",
+   "r": "può tornare convocabile dalla seconda metà di settembre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Arizala",
+   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
+   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Piotrowski",
+   "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
+   "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
   },
   {
    "s": "Venezia",
@@ -352,7 +346,7 @@
   {
    "s": "Venezia",
    "n": "Busio",
-   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una lesione muscolare alla gamba che andrà valutata, ma rischia un lungo stop. Di certo assente sabato sera contro la Lazio.",
+   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro. Rischia un lungo stop, di certo assente sabato sera contro la Lazio.",
    "r": "Tempi di recupero da valutare."
   },
   {
@@ -380,6 +374,12 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
+   "s": "Udinese",
+   "n": "Zaniolo",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
    "s": "Torino",
    "n": "Israel",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
@@ -388,12 +388,6 @@
   {
    "s": "Torino",
    "n": "Pellegri",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Roma",
-   "n": "Ndicka",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
