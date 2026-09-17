@@ -47,20 +47,20 @@
   "opp": "Fiorentina",
   "home": false
  },
- "Parma": {
-  "opp": "Genoa",
-  "home": true
- },
- "Genoa": {
-  "opp": "Parma",
-  "home": false
- },
  "Frosinone": {
   "opp": "Como",
   "home": true
  },
  "Como": {
   "opp": "Frosinone",
+  "home": false
+ },
+ "Parma": {
+  "opp": "Genoa",
+  "home": true
+ },
+ "Genoa": {
+  "opp": "Parma",
   "home": false
  },
  "Juventus": {

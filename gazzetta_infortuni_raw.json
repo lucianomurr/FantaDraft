@@ -11,10 +11,6 @@
   {
    "n": "Ziólkowski",
    "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Ricardo Mangas",
-   "stato": "Da valutare"
   }
  ],
  "Sassuolo": [
@@ -252,12 +248,16 @@
   {
    "n": "Havel",
    "stato": "Rientro alla 7"
+  },
+  {
+   "n": "Alex Amorim",
+   "stato": "Da valutare"
   }
  ],
  "Juventus": [
   {
    "n": "Yildiz",
-   "stato": "Rientro alla 14"
+   "stato": "Da valutare"
   },
   {
    "n": "Thuram",
@@ -278,6 +278,10 @@
   {
    "n": "Boga",
    "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Cambiaso",
+   "stato": "Da valutare"
   }
  ],
  "Atalanta": [
