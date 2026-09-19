@@ -1,116 +1,4 @@
 {
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Touré",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Ziólkowski",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Ciurria",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Sassuolo": [
-  {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Candé",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Walukiewicz",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Volpato",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Idzes",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  }
- ],
- "Udinese": [
-  {
-   "n": "Zanoli",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Palma",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Solet",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Piotrowski",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Arizala",
-   "stato": "Da valutare"
-  }
- ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "El Azzouzi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Dovbyk",
-   "stato": "Da valutare"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pellegri",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adams",
-   "stato": "Da valutare"
-  }
- ],
  "Roma": [],
  "Inter": [
   {
@@ -154,6 +42,10 @@
   {
    "n": "Basic",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Haps",
+   "stato": "Da valutare"
   }
  ],
  "Lazio": [
@@ -174,10 +66,6 @@
   {
    "n": "Parisi",
    "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Dragusin",
-   "stato": "Da valutare"
   }
  ],
  "Napoli": [
@@ -210,22 +98,6 @@
    "stato": "Da valutare"
   }
  ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Terzic",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Addai",
-   "stato": "Rientro alla 6"
-  }
- ],
  "Parma": [
   {
    "n": "Nicolussi Caviglia",
@@ -250,10 +122,21 @@
    "stato": "Da valutare"
   }
  ],
+ "Frosinone": [
+  {
+   "n": "Grillitsch",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Terzic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Como": [],
  "Juventus": [
   {
    "n": "Yildiz",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 13"
   },
   {
    "n": "Thuram",
@@ -274,16 +157,24 @@
   {
    "n": "Boga",
    "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Cambiaso",
+   "stato": "Rientro alla 6"
   }
  ],
  "Atalanta": [
   {
    "n": "Hien",
-   "stato": "Rientro alla 6"
+   "stato": "Da valutare"
   },
   {
    "n": "Kamaldeen Sulemana",
    "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Kossounou",
+   "stato": ""
   }
  ],
  "Milan": [],

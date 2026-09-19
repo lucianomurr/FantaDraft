@@ -1,17 +1,23 @@
 {
- "aggiornato": "2026-09-18",
+ "aggiornato": "2026-09-19",
  "infortunati": [
   {
    "s": "Atalanta",
-   "n": "Sulemana K.",
-   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro",
-   "r": "recuperabile da inizio ottobre."
+   "n": "Kossounou",
+   "d": "Il difensore frenato sabato mattina da un risentimento muscolare ai flessori della coscia sinistra, assente domenica dunque contro la Juventus.",
+   "r": "Da valutare durante la sosta in vista della 6a giornata di campionato."
   },
   {
    "s": "Atalanta",
    "n": "Hien",
    "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
    "r": "pronto a tornare in campo dalla metà di ottobre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Sulemana K.",
+   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro",
+   "r": "recuperabile da inizio ottobre."
   },
   {
    "s": "Bologna",
@@ -21,15 +27,15 @@
   },
   {
    "s": "Cagliari",
-   "n": "Idrissi R.",
-   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
-   "r": "può tornare arruolabile dalla fine di ottobre."
-  },
-  {
-   "s": "Cagliari",
    "n": "Felici",
    "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
    "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Idrissi R.",
+   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
+   "r": "può tornare arruolabile dalla fine di ottobre."
   },
   {
    "s": "Cagliari",
@@ -45,15 +51,15 @@
   },
   {
    "s": "Frosinone",
-   "n": "Terzic",
-   "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
-   "r": "recuperabile dall'inizio di ottobre."
-  },
-  {
-   "s": "Frosinone",
    "n": "Grillitsch",
    "d": "il centrocampista non convocato per Genova a causa di una sindrome retto-adduttoria.",
    "r": "Salterà anche la sfida contro il Como in programma domenica e dovrebbe tornare arruolabile dalla 6a giornata di A."
+  },
+  {
+   "s": "Frosinone",
+   "n": "Terzic",
+   "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
+   "r": "recuperabile dall'inizio di ottobre."
   },
   {
    "s": "Genoa",
@@ -117,27 +123,33 @@
   },
   {
    "s": "Lazio",
+   "n": "Rovella",
+   "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla prima metà di ottobre.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Lazio",
    "n": "Marusic",
    "d": "il terzino dei biancocelesti KO il 24 agosto a Bologna vittima di una lesione muscolare alla coscia.",
    "r": "Ipotesi rientro da inizio ottobre."
   },
   {
    "s": "Lazio",
-   "n": "Rovella",
-   "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla prima metà di ottobre.",
+   "n": "Dele-Bashiru",
+   "d": "il centrocampista in recupero da un guaio muscolare alla gamba lamentato il 24 agosto a Bologna. Si confida di riaverlo a disposizione dalla 6a giornata di campionato.",
    "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Lecce",
    "n": "Berisha M.",
-   "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte al match di domenica scorsa in casa contro il Monza.",
-   "r": "Da valutare in settimana verso la sfida contro il Milan in trasferta nella 5a giornata di campionato."
+   "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle sfide contro Monza e Milan.",
+   "r": "Recuperabile da inizio ottobre."
   },
   {
    "s": "Lecce",
    "n": "Gandelman",
-   "d": "Il centrocampista fuori causa domenica scorsa contro il Monza per noie fisiche.",
-   "r": "Da valutare in vista della prossima giornata di campionato, domenica sera a Milano contro i rossoneri."
+   "d": "Il centrocampista fuori causa da metà settembre contro il Monza per noie fisiche e out anche domenica a Milano.",
+   "r": "Da valutare in vista della prossima giornata di campionato, dopo la sosta."
   },
   {
    "s": "Lecce",
@@ -165,9 +177,9 @@
   },
   {
    "s": "Napoli",
-   "n": "Meret",
-   "d": "Il portiere uscito claudicante dal match di mercoledì in Champions League per una lesione di basso grado all'adduttore lungo.",
-   "r": "Recuperabile dall'inizio di ottobre."
+   "n": "Buongiorno",
+   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
+   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da metà novembre."
   },
   {
    "s": "Napoli",
@@ -183,21 +195,33 @@
   },
   {
    "s": "Napoli",
-   "n": "Buongiorno",
-   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
-   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da metà novembre."
+   "n": "Spinazzola",
+   "d": "il difensore azzurro da venerdì non si allena per una lieve contrattura al bicipite femorale della coscia destra, che lo esclude per domenica a Firenze.",
+   "r": "Da valutare nella sosta in vista della 6a giornata di campionato."
+  },
+  {
+   "s": "Napoli",
+   "n": "Meret",
+   "d": "Il portiere uscito claudicante dal match di mercoledì in Champions League per una lesione di basso grado all'adduttore lungo.",
+   "r": "Recuperabile dall'inizio di ottobre."
   },
   {
    "s": "Napoli",
    "n": "Marianucci",
    "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
-   "r": "Tempi di recupero da valutare, ma rischia uno stop di almeno due mesi."
+   "r": "Stop di circa due mesi, rientro dalla metà di ottobre."
   },
   {
    "s": "Napoli",
    "n": "McTominay",
    "d": "Il centrocampista l'1 settembre a causa di una lieve aritmia benigna ha deciso di sottoporsi a un intervento di correzione tramite ablazione. Si confida di rivederlo in campo da metà ottobre.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Parma",
+   "n": "Bernabè",
+   "d": "niente da fare per il centrocampista, ancora condizionato da noie fisiche e non fa parte dei convocati per domenica contro il Genoa.",
+   "r": "Da valutare nella sosta in vista della 6a giornata di campionato."
   },
   {
    "s": "Parma",
@@ -255,15 +279,9 @@
   },
   {
    "s": "Udinese",
-   "n": "Solet",
-   "d": "il difensore il 7 settembre contro la Lazio costretto al cambio per una lesione al muscolo pettineo della gamba sinistra",
-   "r": "è recuperabile dalla fine di settembre."
-  },
-  {
-   "s": "Udinese",
-   "n": "Palma",
-   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla fine di settembre.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Arizala",
+   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
+   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
   },
   {
    "s": "Udinese",
@@ -273,9 +291,15 @@
   },
   {
    "s": "Udinese",
-   "n": "Arizala",
-   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
-   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla prima metà di ottobre."
+   "n": "Solet",
+   "d": "il difensore il 7 settembre contro la Lazio costretto al cambio per una lesione al muscolo pettineo della gamba sinistra",
+   "r": "è recuperabile dalla fine di settembre."
+  },
+  {
+   "s": "Udinese",
+   "n": "Palma",
+   "d": "il difensore nel primo turno di A contro il Como costretto al cambio per un lieve problema muscolare all'adduttore della coscia destra che lo terrà ai box fino alla fine di settembre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Venezia",
@@ -320,56 +344,14 @@
    "r": "rimane da valutare quotidianamente in vista di sabato sera in casa contro la Lazio nella 5a giornata di campionato."
   },
   {
-   "s": "Monza",
-   "n": "Touré",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Paz",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Udinese",
-   "n": "Zanoli",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
-  },
-  {
-   "s": "Bologna",
-   "n": "El Azzouzi",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Torino",
-   "n": "Israel",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Torino",
-   "n": "Pellegri",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Inter",
    "n": "Spence",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
   },
   {
-   "s": "Lazio",
-   "n": "Dele-Bashiru",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
-  },
-  {
-   "s": "Fiorentina",
-   "n": "Dragusin",
+   "s": "Venezia",
+   "n": "Haps",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
@@ -378,12 +360,6 @@
    "n": "Anguissa",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Como",
-   "n": "Addai",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
   },
   {
    "s": "Genoa",
@@ -396,6 +372,12 @@
    "n": "Alex Amorim",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Juventus",
+   "n": "Cambiaso",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
   }
  ]
 }
