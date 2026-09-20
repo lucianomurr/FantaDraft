@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-19",
+ "aggiornato": "2026-09-20",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -105,6 +105,12 @@
   },
   {
    "s": "Juventus",
+   "n": "Grabara",
+   "d": "Il portiere fermo per una lesione al crociato anteriore del ginocchio destro.",
+   "r": "Out domenica contro l'Atalanta, tempi di recupero da valutare."
+  },
+  {
+   "s": "Juventus",
    "n": "Thuram K.",
    "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
    "r": "Lungo stop, ipotizziamo un rientro da gennaio."
@@ -123,15 +129,15 @@
   },
   {
    "s": "Lazio",
-   "n": "Rovella",
-   "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla prima metà di ottobre.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Lazio",
    "n": "Marusic",
    "d": "il terzino dei biancocelesti KO il 24 agosto a Bologna vittima di una lesione muscolare alla coscia.",
    "r": "Ipotesi rientro da inizio ottobre."
+  },
+  {
+   "s": "Lazio",
+   "n": "Rovella",
+   "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla prima metà di ottobre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Lazio",
@@ -342,36 +348,6 @@
    "n": "Basic",
    "d": "Il centrocampista out contro Frosinone e Fiorentina per noie fisiche",
    "r": "rimane da valutare quotidianamente in vista di sabato sera in casa contro la Lazio nella 5a giornata di campionato."
-  },
-  {
-   "s": "Inter",
-   "n": "Spence",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 6 (fonte Gazzetta)."
-  },
-  {
-   "s": "Venezia",
-   "n": "Haps",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Napoli",
-   "n": "Anguissa",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Genoa",
-   "n": "Nuredini",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
-  },
-  {
-   "s": "Genoa",
-   "n": "Alex Amorim",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Juventus",

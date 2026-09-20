@@ -1,138 +1,4 @@
 {
- "Roma": [],
- "Inter": [
-  {
-   "n": "Spence",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Stones",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Çalhanoglu",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Venezia": [
-  {
-   "n": "Sverko",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Adorante",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Franjic",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Busio",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Dagasso",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Bella-Kotchap",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Basic",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Haps",
-   "stato": "Da valutare"
-  }
- ],
- "Lazio": [
-  {
-   "n": "Marusic",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Rovella",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Dele-Bashiru",
-   "stato": "Rientro alla 6"
-  }
- ],
- "Fiorentina": [
-  {
-   "n": "Parisi",
-   "stato": "Rientro alla 13"
-  }
- ],
- "Napoli": [
-  {
-   "n": "Buongiorno",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Marianucci",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "McTominay",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Giovane",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Meret",
-   "stato": "Rientro alla 6"
-  },
-  {
-   "n": "Alisson Santos",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Anguissa",
-   "stato": "Da valutare"
-  }
- ],
- "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
-  }
- ],
- "Genoa": [
-  {
-   "n": "Venturino",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Nuredini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Havel",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Alex Amorim",
-   "stato": "Da valutare"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Terzic",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [],
  "Juventus": [
   {
    "n": "Yildiz",
@@ -161,6 +27,10 @@
   {
    "n": "Cambiaso",
    "stato": "Rientro alla 6"
+  },
+  {
+   "n": "Grabara",
+   "stato": "Da valutare"
   }
  ],
  "Atalanta": [
@@ -174,18 +44,18 @@
   },
   {
    "n": "Kossounou",
-   "stato": ""
+   "stato": "Da valutare"
   }
  ],
  "Milan": [],
  "Lecce": [
   {
    "n": "Geubbels",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 6"
   },
   {
    "n": "Gandelman",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 6"
   },
   {
    "n": "Berisha",
