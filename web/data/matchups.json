@@ -1,82 +1,82 @@
 {
- "Monza": {
-  "opp": "Sassuolo",
+ "Atalanta": {
+  "opp": "Venezia",
   "home": true
- },
- "Sassuolo": {
-  "opp": "Monza",
-  "home": false
- },
- "Bologna": {
-  "opp": "Torino",
-  "home": true
- },
- "Torino": {
-  "opp": "Bologna",
-  "home": false
- },
- "Udinese": {
-  "opp": "Cagliari",
-  "home": true
- },
- "Cagliari": {
-  "opp": "Udinese",
-  "home": false
- },
- "Roma": {
-  "opp": "Inter",
-  "home": true
- },
- "Inter": {
-  "opp": "Roma",
-  "home": false
  },
  "Venezia": {
-  "opp": "Lazio",
-  "home": true
- },
- "Lazio": {
-  "opp": "Venezia",
+  "opp": "Atalanta",
   "home": false
  },
- "Fiorentina": {
-  "opp": "Napoli",
+ "Cagliari": {
+  "opp": "Juventus",
   "home": true
- },
- "Napoli": {
-  "opp": "Fiorentina",
-  "home": false
- },
- "Frosinone": {
-  "opp": "Como",
-  "home": true
- },
- "Como": {
-  "opp": "Frosinone",
-  "home": false
- },
- "Parma": {
-  "opp": "Genoa",
-  "home": true
- },
- "Genoa": {
-  "opp": "Parma",
-  "home": false
  },
  "Juventus": {
-  "opp": "Atalanta",
-  "home": true
- },
- "Atalanta": {
-  "opp": "Juventus",
+  "opp": "Cagliari",
   "home": false
  },
- "Milan": {
-  "opp": "Lecce",
+ "Como": {
+  "opp": "Roma",
   "home": true
  },
+ "Roma": {
+  "opp": "Como",
+  "home": false
+ },
+ "Genoa": {
+  "opp": "Fiorentina",
+  "home": true
+ },
+ "Fiorentina": {
+  "opp": "Genoa",
+  "home": false
+ },
+ "Inter": {
+  "opp": "Parma",
+  "home": true
+ },
+ "Parma": {
+  "opp": "Inter",
+  "home": false
+ },
+ "Lazio": {
+  "opp": "Monza",
+  "home": true
+ },
+ "Monza": {
+  "opp": "Lazio",
+  "home": false
+ },
  "Lecce": {
+  "opp": "Bologna",
+  "home": true
+ },
+ "Bologna": {
+  "opp": "Lecce",
+  "home": false
+ },
+ "Napoli": {
+  "opp": "Frosinone",
+  "home": true
+ },
+ "Frosinone": {
+  "opp": "Napoli",
+  "home": false
+ },
+ "Sassuolo": {
   "opp": "Milan",
+  "home": true
+ },
+ "Milan": {
+  "opp": "Sassuolo",
+  "home": false
+ },
+ "Torino": {
+  "opp": "Udinese",
+  "home": true
+ },
+ "Udinese": {
+  "opp": "Torino",
   "home": false
  }
 }
