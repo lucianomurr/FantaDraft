@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-21",
+ "aggiornato": "2026-09-22",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -18,12 +18,6 @@
    "n": "Sulemana K.",
    "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
    "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
-  },
-  {
-   "s": "Bologna",
-   "n": "Dovbyk",
-   "d": "L'attaccante non al meglio per noie muscolari al flessore, assente contro Napoli e Torino.",
-   "r": "Recuperabile dall'inizio di ottobre, ma da valutare nei prossimi allenamenti la convocazione già per Lecce."
   },
   {
    "s": "Cagliari",
@@ -51,15 +45,15 @@
   },
   {
    "s": "Frosinone",
-   "n": "Grillitsch",
-   "d": "il centrocampista non convocato per Genova (12 settembre) a causa di una sindrome retto-adduttoria.",
-   "r": "Out anche nella sfida successiva contro il Como, da valutare nei prossimi allenamenti le possibilità di convocazione già nella trasferta di Napoli alla ripresa del campionato."
-  },
-  {
-   "s": "Frosinone",
    "n": "Terzic",
    "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
    "r": "da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Napoli."
+  },
+  {
+   "s": "Frosinone",
+   "n": "Grillitsch",
+   "d": "il centrocampista non convocato per Genova (12 settembre) a causa di una sindrome retto-adduttoria.",
+   "r": "Out anche nella sfida successiva contro il Como, da valutare nei prossimi allenamenti le possibilità di convocazione già nella trasferta di Napoli alla ripresa del campionato."
   },
   {
    "s": "Genoa",
@@ -155,7 +149,7 @@
    "s": "Napoli",
    "n": "Buongiorno",
    "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
-   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da metà novembre."
+   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
   },
   {
    "s": "Napoli",
@@ -180,12 +174,6 @@
    "n": "Marianucci",
    "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
    "r": "Stop di circa due mesi, rientro dalla seconda metà di ottobre."
-  },
-  {
-   "s": "Napoli",
-   "n": "Spinazzola",
-   "d": "il difensore azzurro il 18 settembre ha lamentato una lieve contrattura al bicipite femorale della coscia destra, che lo ha escluso dalla trasferta di Firenze.",
-   "r": "Da valutare nella sosta in vista della 6a giornata di campionato, ma ci sono possibilità possa far parte dei convocati contro il Frosinone."
   },
   {
    "s": "Parma",
@@ -246,12 +234,6 @@
    "n": "Adams C.",
    "d": "L'attaccante frenato a metà settembre da una lesione distrattiva di basso grado all'adduttore, forfait contro Roma e Bologna.",
    "r": "Punta a recuperare nella sosta, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro l'Udinese."
-  },
-  {
-   "s": "Udinese",
-   "n": "Arizala",
-   "d": "il difensore fermo dal 6 settembre vittima di una lesione muscolare al bicipite femorale.",
-   "r": "Condizioni da valutare, ma dovrebbe tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Udinese",

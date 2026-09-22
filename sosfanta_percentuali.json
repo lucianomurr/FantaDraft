@@ -30,7 +30,7 @@
     },
     {
      "n": "Bernasconi",
-     "pct": 95,
+     "pct": 55,
      "riv": null
     },
     {
@@ -124,6 +124,11 @@
      "riv": "Bellanova"
     },
     {
+     "n": "Kolasinac",
+     "pct": 45,
+     "riv": "Bernasconi"
+    },
+    {
      "n": "Krstovic",
      "pct": 49,
      "riv": "Scamacca"
@@ -145,11 +150,6 @@
     },
     {
      "n": "Sportiello",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Kolasinac",
      "pct": 5,
      "riv": null
     },
@@ -333,7 +333,7 @@
      "riv": null
     },
     {
-     "n": "Kolo Muani",
+     "n": "Woltemade",
      "pct": 95,
      "riv": null
     },
@@ -431,11 +431,6 @@
      "n": "Sarr P.",
      "pct": 5,
      "riv": null
-    },
-    {
-     "n": "Woltemade",
-     "pct": 5,
-     "riv": null
     }
    ]
   },
@@ -448,7 +443,7 @@
    "players": [
     {
      "n": "Butez",
-     "pct": 95,
+     "pct": 60,
      "riv": null
     },
     {
@@ -523,7 +518,7 @@
     },
     {
      "n": "Molina N.",
-     "pct": 55,
+     "pct": 95,
      "riv": null
     },
     {
@@ -532,13 +527,13 @@
      "riv": null
     },
     {
-     "n": "Cristante",
-     "pct": 95,
+     "n": "De Roon",
+     "pct": 55,
      "riv": null
     },
     {
-     "n": "Wesley",
-     "pct": 55,
+     "n": "Lulli",
+     "pct": 95,
      "riv": null
     },
     {
@@ -552,9 +547,14 @@
      "riv": null
     },
     {
-     "n": "Malen",
+     "n": "Castro S.",
      "pct": 95,
      "riv": null
+    },
+    {
+     "n": "Sanchez Ro.",
+     "pct": 40,
+     "riv": "Butez"
     },
     {
      "n": "Smolcic I.",
@@ -582,14 +582,9 @@
      "riv": "Balerdi"
     },
     {
-     "n": "Lulli",
+     "n": "Pisilli",
      "pct": 45,
-     "riv": "Molina N."
-    },
-    {
-     "n": "Sanchez Ro.",
-     "pct": 5,
-     "riv": null
+     "riv": "De Roon"
     },
     {
      "n": "Vigorito",
@@ -667,27 +662,12 @@
      "riv": null
     },
     {
-     "n": "De Roon",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Mora",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Pellegrini Lo.",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Pisilli",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Castro S.",
      "pct": 5,
      "riv": null
     }
@@ -980,8 +960,8 @@
      "riv": null
     },
     {
-     "n": "Dimarco",
-     "pct": 60,
+     "n": "Carlos Augusto",
+     "pct": 95,
      "riv": null
     },
     {
@@ -1001,7 +981,7 @@
     },
     {
      "n": "Drobnic",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -1065,14 +1045,14 @@
      "riv": "Jones C."
     },
     {
-     "n": "Carlos Augusto",
-     "pct": 40,
-     "riv": "Dimarco"
-    },
-    {
      "n": "Esposito F.P.",
      "pct": 40,
      "riv": "Thuram"
+    },
+    {
+     "n": "Britschgi",
+     "pct": 49,
+     "riv": "Drobnic"
     },
     {
      "n": "Elphege",
@@ -1111,11 +1091,6 @@
     },
     {
      "n": "Ghidotti",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Britschgi",
      "pct": 5,
      "riv": null
     },
@@ -1240,7 +1215,7 @@
     },
     {
      "n": "Tornqvist",
-     "pct": 95,
+     "pct": 60,
      "riv": null
     },
     {
@@ -1309,6 +1284,11 @@
      "riv": "Noslin"
     },
     {
+     "n": "Thiam",
+     "pct": 40,
+     "riv": "Tornqvist"
+    },
+    {
      "n": "Colpani",
      "pct": 49,
      "riv": "Cutrone"
@@ -1350,11 +1330,6 @@
     },
     {
      "n": "Strajnar",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Thiam",
      "pct": 5,
      "riv": null
     },
@@ -1499,7 +1474,7 @@
     },
     {
      "n": "Zortea",
-     "pct": 95,
+     "pct": 55,
      "riv": null
     },
     {
@@ -1541,6 +1516,11 @@
      "n": "Pessina Mas.",
      "pct": 49,
      "riv": "Skorupski"
+    },
+    {
+     "n": "Holm",
+     "pct": 45,
+     "riv": "Zortea"
     },
     {
      "n": "Moro N.",
@@ -1628,11 +1608,6 @@
      "riv": null
     },
     {
-     "n": "Holm",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Vitik",
      "pct": 5,
      "riv": null
@@ -1659,6 +1634,11 @@
     },
     {
      "n": "Odgaard",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Dovbyk",
      "pct": 5,
      "riv": null
     },
