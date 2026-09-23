@@ -1,12 +1,4 @@
 {
- "Atalanta": {
-  "opp": "Venezia",
-  "home": true
- },
- "Venezia": {
-  "opp": "Atalanta",
-  "home": false
- },
  "Cagliari": {
   "opp": "Juventus",
   "home": true
@@ -77,6 +69,14 @@
  },
  "Udinese": {
   "opp": "Torino",
+  "home": false
+ },
+ "Atalanta": {
+  "opp": "Venezia",
+  "home": true
+ },
+ "Venezia": {
+  "opp": "Atalanta",
   "home": false
  }
 }

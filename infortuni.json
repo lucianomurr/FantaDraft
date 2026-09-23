@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-22",
+ "aggiornato": "2026-09-23",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -11,7 +11,7 @@
    "s": "Atalanta",
    "n": "Hien",
    "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
-   "r": "pronto a tornare in campo dalla metà di ottobre."
+   "r": "pronto a tornare in campo dalla fine di ottobre."
   },
   {
    "s": "Atalanta",
@@ -20,16 +20,22 @@
    "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
   },
   {
-   "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
+   "s": "Bologna",
+   "n": "Odgaard",
+   "d": "Il calciatore frenato dopo il match col Toro da una lesione ai flessori della coscia destra",
+   "r": "recuperabile dalla seconda metà di ottobre."
   },
   {
    "s": "Cagliari",
    "n": "Idrissi R.",
    "d": "il calciatore in ripresa dalla rottura del legamento crociato",
    "r": "può tornare arruolabile dalla fine di ottobre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Cagliari",
@@ -45,27 +51,27 @@
   },
   {
    "s": "Frosinone",
-   "n": "Terzic",
-   "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
-   "r": "da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Napoli."
-  },
-  {
-   "s": "Frosinone",
    "n": "Grillitsch",
    "d": "il centrocampista non convocato per Genova (12 settembre) a causa di una sindrome retto-adduttoria.",
    "r": "Out anche nella sfida successiva contro il Como, da valutare nei prossimi allenamenti le possibilità di convocazione già nella trasferta di Napoli alla ripresa del campionato."
   },
   {
-   "s": "Genoa",
-   "n": "Venturino",
-   "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
-   "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
+   "s": "Frosinone",
+   "n": "Terzic",
+   "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
+   "r": "da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Napoli."
   },
   {
    "s": "Genoa",
    "n": "Havel",
    "d": "L'attaccante ha deciso di operarsi alla caviglia e",
    "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Venturino",
+   "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
+   "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
   },
   {
    "s": "Juventus",
@@ -117,15 +123,15 @@
   },
   {
    "s": "Lecce",
-   "n": "Berisha M.",
-   "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle sfide contro Monza e Milan.",
-   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Bologna."
-  },
-  {
-   "s": "Lecce",
    "n": "Gandelman",
    "d": "Il centrocampista fuori causa da metà settembre per noie fisiche",
    "r": "da valutare convocazione per la prossima giornata di campionato contro il Bologna."
+  },
+  {
+   "s": "Lecce",
+   "n": "Berisha M.",
+   "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle sfide contro Monza e Milan.",
+   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Bologna."
   },
   {
    "s": "Monza",
@@ -166,8 +172,8 @@
   {
    "s": "Napoli",
    "n": "Zambo Anguissa",
-   "d": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, ma ha lamentato un nuovo fastidio fisico che andrà valutato e rischia di tenerlo fuori nel match contro il Frosinone alla ripresa del campionato.",
-   "r": "Tempi di recupero da valutare."
+   "d": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, ma ha lamentato una lesione miofasciale di basso grado dell'adduttore lungo e",
+   "r": "rimane da valutare nei prossimi allenamenti in vista della gara contro il Frosinone alla ripresa del campionato."
   },
   {
    "s": "Napoli",
@@ -177,15 +183,15 @@
   },
   {
    "s": "Parma",
-   "n": "Nicolussi Caviglia",
-   "d": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da novembre.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Parma",
    "n": "Bernabè",
    "d": "niente da fare per il centrocampista, ancora condizionato da noie fisiche ed escluso il 20 settembre dai convocati contro il Genoa.",
    "r": "Da valutare nella sosta in vista della 6a giornata di campionato, a rischio la sua presenza a San Siro contro l'Inter."
+  },
+  {
+   "s": "Parma",
+   "n": "Nicolussi Caviglia",
+   "d": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da dicembre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Sassuolo",
@@ -243,12 +249,6 @@
   },
   {
    "s": "Venezia",
-   "n": "Busio",
-   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
-   "r": "Rientro dalla seconda metà di ottobre."
-  },
-  {
-   "s": "Venezia",
    "n": "Dagasso",
    "d": "Il centrocampista non convocato dalla gara dell'11 settembre contro la Fiorentina per un problema fisico.",
    "r": "Recuperabile dalla prima metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno a Bergamo."
@@ -282,6 +282,12 @@
    "n": "Basic",
    "d": "Il centrocampista out contro Lazio, Frosinone e Fiorentina per noie fisiche",
    "r": "rimane da valutare quotidianamente in vista della 6a giornata di campionato contro l'Atalanta."
+  },
+  {
+   "s": "Venezia",
+   "n": "Busio",
+   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
+   "r": "Rientro dalla seconda metà di ottobre."
   }
  ]
 }
