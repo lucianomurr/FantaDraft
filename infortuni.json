@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-23",
+ "aggiornato": "2026-09-24",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -33,15 +33,15 @@
   },
   {
    "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
-  },
-  {
-   "s": "Cagliari",
    "n": "Felici",
    "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
    "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Fiorentina",
@@ -63,15 +63,15 @@
   },
   {
    "s": "Genoa",
-   "n": "Havel",
-   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
-   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
-  },
-  {
-   "s": "Genoa",
    "n": "Venturino",
    "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
    "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Havel",
+   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
+   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
   },
   {
    "s": "Juventus",
@@ -123,15 +123,15 @@
   },
   {
    "s": "Lecce",
-   "n": "Gandelman",
-   "d": "Il centrocampista fuori causa da metà settembre per noie fisiche",
-   "r": "da valutare convocazione per la prossima giornata di campionato contro il Bologna."
-  },
-  {
-   "s": "Lecce",
    "n": "Berisha M.",
    "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle sfide contro Monza e Milan.",
    "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Bologna."
+  },
+  {
+   "s": "Lecce",
+   "n": "Gandelman",
+   "d": "Il centrocampista fuori causa da metà settembre per noie fisiche",
+   "r": "da valutare convocazione per la prossima giornata di campionato contro il Bologna."
   },
   {
    "s": "Monza",
@@ -183,15 +183,15 @@
   },
   {
    "s": "Parma",
-   "n": "Bernabè",
-   "d": "niente da fare per il centrocampista, ancora condizionato da noie fisiche ed escluso il 20 settembre dai convocati contro il Genoa.",
-   "r": "Da valutare nella sosta in vista della 6a giornata di campionato, a rischio la sua presenza a San Siro contro l'Inter."
-  },
-  {
-   "s": "Parma",
    "n": "Nicolussi Caviglia",
    "d": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da dicembre.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Parma",
+   "n": "Bernabè",
+   "d": "niente da fare per il centrocampista, ancora condizionato da noie fisiche ed escluso il 20 settembre dai convocati contro il Genoa.",
+   "r": "Da valutare nella sosta in vista della 6a giornata di campionato, a rischio la sua presenza a San Siro contro l'Inter."
   },
   {
    "s": "Sassuolo",
@@ -249,6 +249,12 @@
   },
   {
    "s": "Venezia",
+   "n": "Busio",
+   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
+   "r": "Rientro dalla seconda metà di ottobre."
+  },
+  {
+   "s": "Venezia",
    "n": "Dagasso",
    "d": "Il centrocampista non convocato dalla gara dell'11 settembre contro la Fiorentina per un problema fisico.",
    "r": "Recuperabile dalla prima metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno a Bergamo."
@@ -282,12 +288,6 @@
    "n": "Basic",
    "d": "Il centrocampista out contro Lazio, Frosinone e Fiorentina per noie fisiche",
    "r": "rimane da valutare quotidianamente in vista della 6a giornata di campionato contro l'Atalanta."
-  },
-  {
-   "s": "Venezia",
-   "n": "Busio",
-   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
-   "r": "Rientro dalla seconda metà di ottobre."
   }
  ]
 }

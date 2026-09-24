@@ -328,8 +328,8 @@
      "riv": null
     },
     {
-     "n": "Castro S.",
-     "pct": 95,
+     "n": "Malen",
+     "pct": 51,
      "riv": null
     },
     {
@@ -366,6 +366,11 @@
      "n": "Pisilli",
      "pct": 45,
      "riv": "De Roon"
+    },
+    {
+     "n": "Castro S.",
+     "pct": 49,
+     "riv": "Malen"
     },
     {
      "n": "Vigorito",
@@ -742,7 +747,7 @@
     },
     {
      "n": "Carlos Augusto",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -824,6 +829,11 @@
      "n": "Sucic P.",
      "pct": 49,
      "riv": "Jones C."
+    },
+    {
+     "n": "Dimarco",
+     "pct": 49,
+     "riv": "Carlos Augusto"
     },
     {
      "n": "Esposito F.P.",
@@ -1405,11 +1415,6 @@
     },
     {
      "n": "Mbangula",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Odgaard",
      "pct": 5,
      "riv": null
     },
