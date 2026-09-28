@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-26",
+ "aggiornato": "2026-09-28",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -26,10 +26,16 @@
    "r": "recuperabile dalla seconda metà di ottobre."
   },
   {
+   "s": "Bologna",
+   "n": "Holm",
+   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema muscolare alla coscia.",
+   "r": "Da valutare, ma non ci sarà alla ripresa del campionato."
+  },
+  {
    "s": "Cagliari",
-   "n": "Idrissi R.",
-   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
-   "r": "può tornare arruolabile dalla fine di ottobre."
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Cagliari",
@@ -39,9 +45,9 @@
   },
   {
    "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
+   "n": "Idrissi R.",
+   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
+   "r": "può tornare arruolabile dalla fine di ottobre."
   },
   {
    "s": "Fiorentina",
@@ -52,8 +58,8 @@
   {
    "s": "Frosinone",
    "n": "Grillitsch",
-   "d": "il centrocampista non convocato per Genova (12 settembre) a causa di una sindrome retto-adduttoria.",
-   "r": "Out anche nella sfida successiva contro il Como, da valutare nei prossimi allenamenti le possibilità di convocazione già nella trasferta di Napoli alla ripresa del campionato."
+   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
+   "r": "Stop di circa sei settimane, può tornare convocabile da inizio novembre."
   },
   {
    "s": "Frosinone",
@@ -63,21 +69,21 @@
   },
   {
    "s": "Genoa",
+   "n": "Havel",
+   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
+   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
+  },
+  {
+   "s": "Genoa",
    "n": "Venturino",
    "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
    "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
   },
   {
    "s": "Genoa",
-   "n": "Havel",
-   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
-   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
-  },
-  {
-   "s": "Juventus",
-   "n": "Boga",
-   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
-   "r": "ipotizziamo un possibile rientro dalla metà di ottobre."
+   "n": "Meichtry",
+   "d": "Il calciatore ai box per noie fisiche che restano da valutare, di certo out nel prossimo turno di campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Juventus",
@@ -93,15 +99,21 @@
   },
   {
    "s": "Juventus",
+   "n": "Ekhator",
+   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
+   "r": "ipotizziamo un possibile rientro dalla fine di ottobre."
+  },
+  {
+   "s": "Juventus",
    "n": "Thuram K.",
    "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
    "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
-   "r": "ipotizziamo un possibile rientro dalla fine di ottobre."
+   "n": "Boga",
+   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
+   "r": "ipotizziamo un possibile rientro dalla metà di ottobre."
   },
   {
    "s": "Juventus",
@@ -117,6 +129,12 @@
   },
   {
    "s": "Lazio",
+   "n": "Cataldi",
+   "d": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite.",
+   "r": "Tempi di recupero da valutare, di certo out nel prossimo turno di campionato contro il Monza."
+  },
+  {
+   "s": "Lazio",
    "n": "Rovella",
    "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla metà di ottobre.",
    "r": "Tempi di recupero da valutare."
@@ -126,12 +144,6 @@
    "n": "Berisha M.",
    "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle sfide contro Monza e Milan.",
    "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Bologna."
-  },
-  {
-   "s": "Lecce",
-   "n": "Gandelman",
-   "d": "Il centrocampista fuori causa da metà settembre per noie fisiche",
-   "r": "da valutare convocazione per la prossima giornata di campionato contro il Bologna."
   },
   {
    "s": "Monza",
@@ -153,12 +165,6 @@
   },
   {
    "s": "Napoli",
-   "n": "Buongiorno",
-   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
-   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
-  },
-  {
-   "s": "Napoli",
    "n": "Giovane",
    "d": "L'attaccante operato il 3 settembre a causa di un'ernia inguinale e recuperabile dall'inizio di ottobre",
    "r": "ma rimane da valutare quotidianamente in vista della ripresa del campionato"
@@ -177,6 +183,12 @@
   },
   {
    "s": "Napoli",
+   "n": "Buongiorno",
+   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
+   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
+  },
+  {
+   "s": "Napoli",
    "n": "Marianucci",
    "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
    "r": "Stop di circa due mesi, rientro dalla seconda metà di ottobre."
@@ -186,12 +198,6 @@
    "n": "Nicolussi Caviglia",
    "d": "il centrocampista alle prese dalla seconda metà di luglio con una lesione di medio grado alla coscia destra, ma a fine agosto ha deciso, assieme allo staff medico ducale, di operarsi. Lungo stop e ipotesi di ritorno in campo da dicembre.",
    "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Parma",
-   "n": "Bernabè",
-   "d": "niente da fare per il centrocampista, ancora condizionato da noie fisiche ed escluso il 20 settembre dai convocati contro il Genoa.",
-   "r": "Da valutare nella sosta in vista della 6a giornata di campionato, a rischio la sua presenza a San Siro contro l'Inter."
   },
   {
    "s": "Sassuolo",
@@ -243,15 +249,15 @@
   },
   {
    "s": "Udinese",
+   "n": "Gueye",
+   "d": "L'attaccante vittima di un problema alla caviglia a fine settembre",
+   "r": "condizioni da valutare. Assente nel prossimo turno di campionato."
+  },
+  {
+   "s": "Udinese",
    "n": "Piotrowski",
    "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
    "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
-  },
-  {
-   "s": "Venezia",
-   "n": "Busio",
-   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
-   "r": "Rientro dalla seconda metà di ottobre."
   },
   {
    "s": "Venezia",
@@ -288,6 +294,12 @@
    "n": "Basic",
    "d": "Il centrocampista out contro Lazio, Frosinone e Fiorentina per noie fisiche",
    "r": "rimane da valutare quotidianamente in vista della 6a giornata di campionato contro l'Atalanta."
+  },
+  {
+   "s": "Venezia",
+   "n": "Busio",
+   "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
+   "r": "Rientro dalla seconda metà di ottobre."
   }
  ]
 }

@@ -428,11 +428,6 @@
      "riv": null
     },
     {
-     "n": "Meichtry",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Traorè Hj.",
      "pct": 5,
      "riv": null
@@ -892,11 +887,6 @@
     },
     {
      "n": "Cataldi",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Gudmundsson A.",
      "pct": 5,
      "riv": null
     },
@@ -1524,7 +1514,7 @@
     },
     {
      "n": "Holm",
-     "pct": 45,
+     "pct": 5,
      "riv": "Zortea"
     },
     {
@@ -1762,8 +1752,8 @@
      "riv": null
     },
     {
-     "n": "Raimondo",
-     "pct": 95,
+     "n": "Bobcek",
+     "pct": 51,
      "riv": null
     },
     {
@@ -1785,6 +1775,11 @@
      "n": "Cichella",
      "pct": 40,
      "riv": "Masini"
+    },
+    {
+     "n": "Raimondo",
+     "pct": 49,
+     "riv": "Bobcek"
     },
     {
      "n": "Contini",
@@ -1870,11 +1865,6 @@
      "n": "Birligea",
      "pct": 5,
      "riv": null
-    },
-    {
-     "n": "Bobcek",
-     "pct": 5,
-     "riv": null
     }
    ]
   },
@@ -1886,8 +1876,8 @@
    "date": "2026-10-11T15:00:00.000Z",
    "players": [
     {
-     "n": "Muric",
-     "pct": 55,
+     "n": "Turati",
+     "pct": 95,
      "riv": null
     },
     {
@@ -1994,11 +1984,6 @@
      "n": "Ramos G.",
      "pct": 95,
      "riv": null
-    },
-    {
-     "n": "Turati",
-     "pct": 45,
-     "riv": "Muric"
     },
     {
      "n": "Adzic",
@@ -2225,7 +2210,7 @@
      "riv": null
     },
     {
-     "n": "Zaniolo",
+     "n": "Unai Gomez",
      "pct": 95,
      "riv": null
     },
@@ -2361,11 +2346,6 @@
     },
     {
      "n": "Lovric",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Unai Gomez",
      "pct": 5,
      "riv": null
     },
