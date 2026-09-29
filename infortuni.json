@@ -1,6 +1,12 @@
 {
- "aggiornato": "2026-09-28",
+ "aggiornato": "2026-09-29",
  "infortunati": [
+  {
+   "s": "Atalanta",
+   "n": "Sulemana K.",
+   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
+   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
+  },
   {
    "s": "Atalanta",
    "n": "Kossounou",
@@ -14,10 +20,10 @@
    "r": "pronto a tornare in campo dalla fine di ottobre."
   },
   {
-   "s": "Atalanta",
-   "n": "Sulemana K.",
-   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
-   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
+   "s": "Bologna",
+   "n": "Holm",
+   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema muscolare alla coscia.",
+   "r": "Ha deciso di operarsi e rimangono da valutare i tempi di rientro, non ci sarà di certo alla ripresa del campionato."
   },
   {
    "s": "Bologna",
@@ -26,22 +32,22 @@
    "r": "recuperabile dalla seconda metà di ottobre."
   },
   {
-   "s": "Bologna",
-   "n": "Holm",
-   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema muscolare alla coscia.",
-   "r": "Da valutare, ma non ci sarà alla ripresa del campionato."
-  },
-  {
    "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
+   "n": "Deiola",
+   "d": "Il centrocampista operato a fine settembre vittima di una lesione del menisco laterale del ginocchio sinistro.",
+   "r": "Ipotesi di rientro in campo dalla metà di novembre."
   },
   {
    "s": "Cagliari",
    "n": "Felici",
    "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
    "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Cagliari",
@@ -57,15 +63,15 @@
   },
   {
    "s": "Frosinone",
-   "n": "Grillitsch",
-   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
-   "r": "Stop di circa sei settimane, può tornare convocabile da inizio novembre."
-  },
-  {
-   "s": "Frosinone",
    "n": "Terzic",
    "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
    "r": "da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Napoli."
+  },
+  {
+   "s": "Frosinone",
+   "n": "Grillitsch",
+   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
+   "r": "Stop di circa sei settimane, può tornare convocabile da inizio novembre."
   },
   {
    "s": "Genoa",
@@ -87,21 +93,27 @@
   },
   {
    "s": "Juventus",
-   "n": "Locatelli",
-   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da gennaio.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Juventus",
    "n": "Grabara",
    "d": "Il portiere out dal 20 settembre per una lesione al crociato anteriore del ginocchio destro.",
    "r": "Operazione chirurgica e lungo stop, rientro da aprile."
   },
   {
    "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
-   "r": "ipotizziamo un possibile rientro dalla fine di ottobre."
+   "n": "Yildiz",
+   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
+   "r": "Ipotesi di rientro in campo da fine novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Boga",
+   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
+   "r": "ipotizziamo un possibile rientro dalla metà di novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Locatelli",
+   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da gennaio.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Juventus",
@@ -111,33 +123,27 @@
   },
   {
    "s": "Juventus",
-   "n": "Boga",
-   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
-   "r": "ipotizziamo un possibile rientro dalla metà di ottobre."
-  },
-  {
-   "s": "Juventus",
-   "n": "Yildiz",
-   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Ipotesi di rientro in campo da fine novembre."
-  },
-  {
-   "s": "Lazio",
-   "n": "Marusic",
-   "d": "il terzino dei biancocelesti KO il 24 agosto a Bologna vittima di una lesione muscolare alla coscia.",
-   "r": "Proverà a recuperare a pieno durante la sosta, da valutare nei prossimi allenamenti le possibilità di convocazione già contro il Monza nel prossimo turno."
-  },
-  {
-   "s": "Lazio",
-   "n": "Cataldi",
-   "d": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite.",
-   "r": "Tempi di recupero da valutare, di certo out nel prossimo turno di campionato contro il Monza."
+   "n": "Ekhator",
+   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
+   "r": "rientro dalla metà di novembre."
   },
   {
    "s": "Lazio",
    "n": "Rovella",
    "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla metà di ottobre.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Lazio",
+   "n": "Gudmundsson A.",
+   "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla sinistra dopo una caduta fortuita in partita.",
+   "r": "Condizioni da valutare, a forte rischio la sua presenza alla ripresa del campionato contro il Monza."
+  },
+  {
+   "s": "Lazio",
+   "n": "Cataldi",
+   "d": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite.",
+   "r": "Tempi di recupero da valutare, di certo out nel prossimo turno di campionato contro il Monza."
   },
   {
    "s": "Lecce",
@@ -165,15 +171,21 @@
   },
   {
    "s": "Napoli",
+   "n": "Buongiorno",
+   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
+   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
+  },
+  {
+   "s": "Napoli",
    "n": "Giovane",
    "d": "L'attaccante operato il 3 settembre a causa di un'ernia inguinale e recuperabile dall'inizio di ottobre",
    "r": "ma rimane da valutare quotidianamente in vista della ripresa del campionato"
   },
   {
    "s": "Napoli",
-   "n": "Santos A.",
-   "d": "Il brasiliano costretto al cambio il 9 settembre in Champions League vittima di una lesione muscolare di medio grado al bicipite femorale sinistro.",
-   "r": "Proverà a tornare arruolabile dalla seconda metà di ottobre."
+   "n": "Marianucci",
+   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
+   "r": "Stop di circa due mesi, rientro dalla seconda metà di ottobre."
   },
   {
    "s": "Napoli",
@@ -183,15 +195,9 @@
   },
   {
    "s": "Napoli",
-   "n": "Buongiorno",
-   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
-   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
-  },
-  {
-   "s": "Napoli",
-   "n": "Marianucci",
-   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
-   "r": "Stop di circa due mesi, rientro dalla seconda metà di ottobre."
+   "n": "Santos A.",
+   "d": "Il brasiliano costretto al cambio il 9 settembre in Champions League vittima di una lesione muscolare di medio grado al bicipite femorale sinistro.",
+   "r": "Proverà a tornare arruolabile dalla seconda metà di ottobre."
   },
   {
    "s": "Parma",
@@ -249,27 +255,21 @@
   },
   {
    "s": "Udinese",
+   "n": "Zaniolo",
+   "d": "Il calciatore alle prese con una lesione muscolare al bicipite femorale destro",
+   "r": "rientro previsto dalla seconda metà di ottobre."
+  },
+  {
+   "s": "Udinese",
    "n": "Gueye",
-   "d": "L'attaccante vittima di un problema alla caviglia a fine settembre",
-   "r": "condizioni da valutare. Assente nel prossimo turno di campionato."
+   "d": "L'attaccante vittima di un problema alla caviglia a fine settembre.",
+   "r": "Assente nel prossimo turno di campionato contro il Torino, da valutare rientro dalla seconda metà di ottobre."
   },
   {
    "s": "Udinese",
    "n": "Piotrowski",
    "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
    "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
-  },
-  {
-   "s": "Venezia",
-   "n": "Dagasso",
-   "d": "Il centrocampista non convocato dalla gara dell'11 settembre contro la Fiorentina per un problema fisico.",
-   "r": "Recuperabile dalla prima metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno a Bergamo."
-  },
-  {
-   "s": "Venezia",
-   "n": "Adorante",
-   "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
-   "r": "Tentativo di rientro da metà ottobre."
   },
   {
    "s": "Venezia",
@@ -300,6 +300,18 @@
    "n": "Busio",
    "d": "il regista dei veneti KO l'11 settembre contro la Fiorentina vittima di una distrazione intratendinea del bicipite femorale destro.",
    "r": "Rientro dalla seconda metà di ottobre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Dagasso",
+   "d": "Il centrocampista non convocato dalla gara dell'11 settembre contro la Fiorentina per un problema fisico.",
+   "r": "Recuperabile dalla prima metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno a Bergamo."
+  },
+  {
+   "s": "Venezia",
+   "n": "Adorante",
+   "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
+   "r": "Tentativo di rientro da metà ottobre."
   }
  ]
 }
