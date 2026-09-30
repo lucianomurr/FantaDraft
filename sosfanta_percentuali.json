@@ -1085,7 +1085,7 @@
      "riv": "Scamacca"
     },
     {
-     "n": "Raspadori",
+     "n": "Elmas",
      "pct": 40,
      "riv": "Rowe"
     },
@@ -1101,11 +1101,6 @@
     },
     {
      "n": "Sportiello",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Elmas",
      "pct": 5,
      "riv": null
     },
@@ -1748,7 +1743,7 @@
     },
     {
      "n": "Bobcek",
-     "pct": 51,
+     "pct": 60,
      "riv": null
     },
     {
@@ -1772,8 +1767,8 @@
      "riv": "Masini"
     },
     {
-     "n": "Raimondo",
-     "pct": 49,
+     "n": "Birligea",
+     "pct": 40,
      "riv": "Bobcek"
     },
     {
@@ -1858,11 +1853,6 @@
     },
     {
      "n": "Zerbin",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Birligea",
      "pct": 5,
      "riv": null
     }

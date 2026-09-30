@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-09-29",
+ "aggiornato": "2026-09-30",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -33,9 +33,15 @@
   },
   {
    "s": "Cagliari",
+   "n": "Idrissi R.",
+   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
+   "r": "può tornare arruolabile dalla fine di ottobre."
+  },
+  {
+   "s": "Cagliari",
    "n": "Deiola",
    "d": "Il centrocampista operato a fine settembre vittima di una lesione del menisco laterale del ginocchio sinistro.",
-   "r": "Ipotesi di rientro in campo dalla metà di novembre."
+   "r": "Ipotesi di rientro in campo dalla fine di ottobre."
   },
   {
    "s": "Cagliari",
@@ -50,22 +56,10 @@
    "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
   },
   {
-   "s": "Cagliari",
-   "n": "Idrissi R.",
-   "d": "il calciatore in ripresa dalla rottura del legamento crociato",
-   "r": "può tornare arruolabile dalla fine di ottobre."
-  },
-  {
    "s": "Fiorentina",
    "n": "Parisi",
    "d": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio",
-   "r": "punta a tornare convocabile da novembre."
-  },
-  {
-   "s": "Frosinone",
-   "n": "Terzic",
-   "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
-   "r": "da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Napoli."
+   "r": "punta a tornare convocabile da dicembre."
   },
   {
    "s": "Frosinone",
@@ -74,10 +68,16 @@
    "r": "Stop di circa sei settimane, può tornare convocabile da inizio novembre."
   },
   {
+   "s": "Frosinone",
+   "n": "Terzic",
+   "d": "Il terzino dei ciociari ai box per una lesione di basso grado del bicipite femorale della coscia sinistra",
+   "r": "da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Napoli."
+  },
+  {
    "s": "Genoa",
-   "n": "Havel",
-   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
-   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
+   "n": "Meichtry",
+   "d": "Il calciatore ai box per noie fisiche che restano da valutare, di certo out nel prossimo turno di campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Genoa",
@@ -87,33 +87,9 @@
   },
   {
    "s": "Genoa",
-   "n": "Meichtry",
-   "d": "Il calciatore ai box per noie fisiche che restano da valutare, di certo out nel prossimo turno di campionato.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Juventus",
-   "n": "Grabara",
-   "d": "Il portiere out dal 20 settembre per una lesione al crociato anteriore del ginocchio destro.",
-   "r": "Operazione chirurgica e lungo stop, rientro da aprile."
-  },
-  {
-   "s": "Juventus",
-   "n": "Yildiz",
-   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Ipotesi di rientro in campo da fine novembre."
-  },
-  {
-   "s": "Juventus",
-   "n": "Boga",
-   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
-   "r": "ipotizziamo un possibile rientro dalla metà di novembre."
-  },
-  {
-   "s": "Juventus",
-   "n": "Locatelli",
-   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da gennaio.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Havel",
+   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
+   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
   },
   {
    "s": "Juventus",
@@ -123,9 +99,33 @@
   },
   {
    "s": "Juventus",
+   "n": "Grabara",
+   "d": "Il portiere out dal 20 settembre per una lesione al crociato anteriore del ginocchio destro.",
+   "r": "Operazione chirurgica e lungo stop, rientro da aprile."
+  },
+  {
+   "s": "Juventus",
    "n": "Ekhator",
    "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
    "r": "rientro dalla metà di novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Locatelli",
+   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da gennaio.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Juventus",
+   "n": "Boga",
+   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
+   "r": "ipotizziamo un possibile rientro dalla metà di novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Yildiz",
+   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
+   "r": "Ipotesi di rientro in campo da fine novembre."
   },
   {
    "s": "Lazio",
@@ -136,8 +136,8 @@
   {
    "s": "Lazio",
    "n": "Gudmundsson A.",
-   "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla sinistra dopo una caduta fortuita in partita.",
-   "r": "Condizioni da valutare, a forte rischio la sua presenza alla ripresa del campionato contro il Monza."
+   "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla sinistra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla fine di ottobre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Lazio",
@@ -225,21 +225,15 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Pieragnolo",
-   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra e",
-   "r": "ipotizziamo possa tornare convocabile da fine ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
-   "r": "da valutare il rientro dalla metà di ottobre."
-  },
-  {
-   "s": "Sassuolo",
    "n": "Candè",
    "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
    "r": "punta a tornare convocabile dalla metà di ottobre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Pieragnolo",
+   "d": "il difensore sta proseguendo la fase di recupero dalla lesione legamento crociato anteriore gamba destra e",
+   "r": "ipotizziamo possa tornare convocabile da fine ottobre."
   },
   {
    "s": "Sassuolo",
@@ -248,16 +242,16 @@
    "r": "Da valutare rientro da metà ottobre."
   },
   {
+   "s": "Sassuolo",
+   "n": "Walukiewicz",
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
+   "r": "da valutare il rientro dalla metà di ottobre."
+  },
+  {
    "s": "Torino",
    "n": "Adams C.",
    "d": "L'attaccante frenato a metà settembre da una lesione distrattiva di basso grado all'adduttore, forfait contro Roma e Bologna.",
    "r": "Punta a recuperare nella sosta, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro l'Udinese."
-  },
-  {
-   "s": "Udinese",
-   "n": "Zaniolo",
-   "d": "Il calciatore alle prese con una lesione muscolare al bicipite femorale destro",
-   "r": "rientro previsto dalla seconda metà di ottobre."
   },
   {
    "s": "Udinese",
@@ -270,6 +264,12 @@
    "n": "Piotrowski",
    "d": "Il centrocampista ha ravvisato il 7 settembre contro la Lazio una lieve aritmia cardiaca benigna e si sottoporrà nei prossimi giorni ad un intervento di ablazione cardiaca.",
    "r": "Osservato un periodo di riposo, potrà tornare alla regolare attività agonistica (ipotizziamo da fine ottobre)."
+  },
+  {
+   "s": "Udinese",
+   "n": "Zaniolo",
+   "d": "Il calciatore alle prese con una lesione muscolare al bicipite femorale destro",
+   "r": "rientro previsto dalla seconda metà di ottobre."
   },
   {
    "s": "Venezia",
