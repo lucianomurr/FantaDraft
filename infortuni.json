@@ -1,12 +1,6 @@
 {
- "aggiornato": "2026-09-30",
+ "aggiornato": "2026-10-01",
  "infortunati": [
-  {
-   "s": "Atalanta",
-   "n": "Sulemana K.",
-   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
-   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
-  },
   {
    "s": "Atalanta",
    "n": "Kossounou",
@@ -15,15 +9,27 @@
   },
   {
    "s": "Atalanta",
+   "n": "Sulemana K.",
+   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
+   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
+  },
+  {
+   "s": "Atalanta",
    "n": "Hien",
    "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
    "r": "pronto a tornare in campo dalla fine di ottobre."
   },
   {
+   "s": "Atalanta",
+   "n": "Raspadori",
+   "d": "L'attaccante frenato a fine settembre in Nazionale azzurra da una distrazione di basso grado al bicipite femorale",
+   "r": "rientro tra i convocati con la Dea in campionato dalla seconda metà di ottobre."
+  },
+  {
    "s": "Bologna",
    "n": "Holm",
-   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema muscolare alla coscia.",
-   "r": "Ha deciso di operarsi e rimangono da valutare i tempi di rientro, non ci sarà di certo alla ripresa del campionato."
+   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema al tendine della coscia destra. Ha deciso di operarsi e affronterà un lungo stop.",
+   "r": "Ipotesi di rientro in campo da fine febbraio."
   },
   {
    "s": "Bologna",
@@ -76,8 +82,8 @@
   {
    "s": "Genoa",
    "n": "Meichtry",
-   "d": "Il calciatore ai box per noie fisiche che restano da valutare, di certo out nel prossimo turno di campionato.",
-   "r": "Tempi di recupero da valutare."
+   "d": "Il calciatore ai box per una distrazione della muscolatura di un'anca",
+   "r": "il cui grado rimane da valutare con ulteriori accertamenti medici. Di certo out nel prossimo turno di campionato contro la Fiorentina."
   },
   {
    "s": "Genoa",
@@ -112,7 +118,7 @@
   {
    "s": "Juventus",
    "n": "Locatelli",
-   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da gennaio.",
+   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da febbraio.",
    "r": "Tempi di recupero da valutare."
   },
   {
@@ -125,7 +131,7 @@
    "s": "Juventus",
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Ipotesi di rientro in campo da fine novembre."
+   "r": "Rientro in campo da inizio dicembre."
   },
   {
    "s": "Lazio",
@@ -136,14 +142,14 @@
   {
    "s": "Lazio",
    "n": "Gudmundsson A.",
-   "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla sinistra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla fine di ottobre.",
+   "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla seconda metà di ottobre.",
    "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Lazio",
    "n": "Cataldi",
    "d": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite.",
-   "r": "Tempi di recupero da valutare, di certo out nel prossimo turno di campionato contro il Monza."
+   "r": "Out nel prossimo turno di campionato contro il Monza, tentativo di rientro dalla seconda metà di ottobre."
   },
   {
    "s": "Lecce",
@@ -180,6 +186,12 @@
    "n": "Giovane",
    "d": "L'attaccante operato il 3 settembre a causa di un'ernia inguinale e recuperabile dall'inizio di ottobre",
    "r": "ma rimane da valutare quotidianamente in vista della ripresa del campionato"
+  },
+  {
+   "s": "Napoli",
+   "n": "McTominay",
+   "d": "Il centrocampista l'1 settembre a causa di una lieve aritmia benigna ha deciso di sottoporsi a un intervento di correzione tramite ablazione. Si confida di rivederlo in campo dalla seconda metà ottobre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Napoli",
@@ -225,9 +237,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Candè",
-   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla metà di ottobre."
+   "n": "Walukiewicz",
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
+   "r": "da valutare il rientro dalla metà di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -243,9 +255,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
-   "r": "da valutare il rientro dalla metà di ottobre."
+   "n": "Candè",
+   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
+   "r": "punta a tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Torino",
