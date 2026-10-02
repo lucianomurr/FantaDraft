@@ -1,12 +1,4 @@
 {
- "Como": {
-  "opp": "Roma",
-  "home": true
- },
- "Roma": {
-  "opp": "Como",
-  "home": false
- },
  "Genoa": {
   "opp": "Fiorentina",
   "home": true
@@ -23,20 +15,20 @@
   "opp": "Inter",
   "home": false
  },
- "Lazio": {
-  "opp": "Monza",
+ "Napoli": {
+  "opp": "Frosinone",
   "home": true
  },
- "Monza": {
-  "opp": "Lazio",
+ "Frosinone": {
+  "opp": "Napoli",
   "home": false
  },
- "Cagliari": {
-  "opp": "Juventus",
+ "Como": {
+  "opp": "Roma",
   "home": true
  },
- "Juventus": {
-  "opp": "Cagliari",
+ "Roma": {
+  "opp": "Como",
   "home": false
  },
  "Lecce": {
@@ -47,20 +39,12 @@
   "opp": "Lecce",
   "home": false
  },
- "Atalanta": {
-  "opp": "Venezia",
+ "Lazio": {
+  "opp": "Monza",
   "home": true
  },
- "Venezia": {
-  "opp": "Atalanta",
-  "home": false
- },
- "Napoli": {
-  "opp": "Frosinone",
-  "home": true
- },
- "Frosinone": {
-  "opp": "Napoli",
+ "Monza": {
+  "opp": "Lazio",
   "home": false
  },
  "Sassuolo": {
@@ -69,6 +53,22 @@
  },
  "Milan": {
   "opp": "Sassuolo",
+  "home": false
+ },
+ "Cagliari": {
+  "opp": "Juventus",
+  "home": true
+ },
+ "Juventus": {
+  "opp": "Cagliari",
+  "home": false
+ },
+ "Atalanta": {
+  "opp": "Venezia",
+  "home": true
+ },
+ "Venezia": {
+  "opp": "Atalanta",
   "home": false
  },
  "Torino": {
