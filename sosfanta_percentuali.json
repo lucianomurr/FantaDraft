@@ -119,7 +119,7 @@
      "riv": null
     },
     {
-     "n": "Colombo",
+     "n": "Vitinha O.",
      "pct": 49,
      "riv": "Messias"
     },
@@ -185,11 +185,6 @@
     },
     {
      "n": "Traorè Hj.",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Vitinha O.",
      "pct": 5,
      "riv": null
     },
@@ -513,7 +508,7 @@
     },
     {
      "n": "Gilmour",
-     "pct": 55,
+     "pct": 95,
      "riv": null
     },
     {
@@ -597,11 +592,6 @@
      "riv": null
     },
     {
-     "n": "Zambo Anguissa",
-     "pct": 45,
-     "riv": "Gilmour"
-    },
-    {
      "n": "Neres",
      "pct": 49,
      "riv": "Lang"
@@ -633,11 +623,6 @@
     },
     {
      "n": "Beukema",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Favasuli",
      "pct": 5,
      "riv": null
     },
@@ -1115,6 +1100,11 @@
      "riv": null
     },
     {
+     "n": "Gandelman",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Gorter",
      "pct": 5,
      "riv": null
@@ -1136,6 +1126,11 @@
     },
     {
      "n": "Fatah",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Geubbels",
      "pct": 5,
      "riv": null
     },
@@ -1857,6 +1852,11 @@
      "riv": null
     },
     {
+     "n": "Nzola",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Neto",
      "pct": 5,
      "riv": null
@@ -2036,11 +2036,6 @@
      "riv": "Correia T."
     },
     {
-     "n": "Pompei",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Sportiello",
      "pct": 5,
      "riv": null
@@ -2135,8 +2130,8 @@
      "riv": null
     },
     {
-     "n": "Fortini",
-     "pct": 51,
+     "n": "Belghali",
+     "pct": 95,
      "riv": null
     },
     {
@@ -2156,7 +2151,7 @@
     },
     {
      "n": "Cacciamani",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -2228,11 +2223,6 @@
      "n": "Ismajli",
      "pct": 49,
      "riv": "Comuzzo"
-    },
-    {
-     "n": "Belghali",
-     "pct": 49,
-     "riv": "Fortini"
     },
     {
      "n": "Palma",
@@ -2321,6 +2311,11 @@
     },
     {
      "n": "Abankwah",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Arizala",
      "pct": 5,
      "riv": null
     },
