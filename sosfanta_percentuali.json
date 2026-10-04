@@ -766,7 +766,7 @@
      "riv": null
     },
     {
-     "n": "Balerdi",
+     "n": "N'Dicka",
      "pct": 51,
      "riv": null
     },
@@ -801,8 +801,8 @@
      "riv": null
     },
     {
-     "n": "Soulè",
-     "pct": 95,
+     "n": "Mora",
+     "pct": 51,
      "riv": null
     },
     {
@@ -836,14 +836,19 @@
      "riv": "Douvikas"
     },
     {
-     "n": "N'Dicka",
+     "n": "Balerdi",
      "pct": 49,
-     "riv": "Balerdi"
+     "riv": "N'Dicka"
     },
     {
      "n": "Pisilli",
      "pct": 45,
      "riv": "De Roon"
+    },
+    {
+     "n": "Soulè",
+     "pct": 49,
+     "riv": "Mora"
     },
     {
      "n": "Castro S.",
@@ -922,11 +927,6 @@
     },
     {
      "n": "Rensch",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Mora",
      "pct": 5,
      "riv": null
     },
@@ -1390,6 +1390,11 @@
     },
     {
      "n": "Maye",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Ciurria",
      "pct": 5,
      "riv": null
     },
