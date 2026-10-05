@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-04",
+ "aggiornato": "2026-10-05",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -66,6 +66,12 @@
    "n": "Trepy",
    "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
    "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla metà di ottobre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Kevin Carlos",
+   "d": "L'attaccante non al meglio per un problema muscolare alla coscia che andrà valutato. Verso il forfait nel prossimo turno di campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Fiorentina",
@@ -153,12 +159,6 @@
   },
   {
    "s": "Lazio",
-   "n": "Rovella",
-   "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio che lo terrà ai box fino alla metà di ottobre.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Lazio",
    "n": "Cataldi",
    "d": "Nuovo stop muscolare per il regista dei biancocelesti, vittima di un problema al quadricipite.",
    "r": "Out nel prossimo turno di campionato contro il Monza, tentativo di rientro dalla seconda metà di ottobre."
@@ -168,6 +168,18 @@
    "n": "Berisha M.",
    "d": "Il centrocampista ha lamentato un sovraccarico muscolare alla gamba e non ha preso parte alle sfide contro Monza e Milan.",
    "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Bologna."
+  },
+  {
+   "s": "Milan",
+   "n": "Estupinan",
+   "d": "Il difensore condizionato da una distorsione al ginocchio e",
+   "r": "rimane da valutare a Milanello in vista del prossimo impegno di campionato contro il Sassuolo."
+  },
+  {
+   "s": "Monza",
+   "n": "Ciurria",
+   "d": "il centrocampista non al meglio per noie fisiche, forfait anche nel prossimo turno contro la Lazio.",
+   "r": "Da valutare."
   },
   {
    "s": "Monza",
@@ -182,16 +194,10 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Monza",
-   "n": "Ciurria",
-   "d": "il centrocampista non al meglio per noie fisiche, forfait anche nel prossimo turno contro la Lazio.",
-   "r": "Da valutare."
-  },
-  {
    "s": "Napoli",
-   "n": "Marianucci",
-   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
-   "r": "Stop di circa due mesi, rientro dalla seconda metà di ottobre."
+   "n": "Buongiorno",
+   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
+   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
   },
   {
    "s": "Napoli",
@@ -213,15 +219,21 @@
   },
   {
    "s": "Napoli",
-   "n": "Buongiorno",
-   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
-   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
+   "n": "Marianucci",
+   "d": "Il difensore KO in amichevole l'8 agosto vittima di una lesione di alto grado del collaterale mediale del ginocchio sinistro.",
+   "r": "Stop di circa due mesi, rientro dalla metà di ottobre."
   },
   {
    "s": "Napoli",
    "n": "McTominay",
    "d": "Il centrocampista l'1 settembre a causa di una lieve aritmia benigna ha deciso di sottoporsi a un intervento di correzione tramite ablazione. Si confida di rivederlo in campo dalla seconda metà ottobre.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Napoli",
+   "n": "Olivera",
+   "d": "L'uruguaiano a inizio ottobre in Nazionale ha rimediato un problema muscolare alla gamba destra e salterà l'impegno di campionato contro il Frosinone.",
+   "r": "Ipotesi rientro da fine ottobre."
   },
   {
    "s": "Parma",
@@ -243,12 +255,6 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Candè",
-   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla metà di ottobre."
-  },
-  {
-   "s": "Sassuolo",
    "n": "Konè I.",
    "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
    "r": "Operato, punta a tornare in campo da dicembre."
@@ -258,6 +264,12 @@
    "n": "Walukiewicz",
    "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
    "r": "da valutare il rientro dalla metà di ottobre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Candè",
+   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
+   "r": "punta a tornare convocabile dalla metà di ottobre."
   },
   {
    "s": "Sassuolo",
