@@ -189,6 +189,11 @@
      "riv": null
     },
     {
+     "n": "Robinho Junior",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Christensen O.",
      "pct": 5,
      "riv": null
@@ -588,7 +593,7 @@
     },
     {
      "n": "Bobcek",
-     "pct": 60,
+     "pct": 95,
      "riv": null
     },
     {
@@ -607,11 +612,6 @@
      "riv": "Masini"
     },
     {
-     "n": "Birligea",
-     "pct": 40,
-     "riv": "Bobcek"
-    },
-    {
      "n": "Contini",
      "pct": 5,
      "riv": null
@@ -623,6 +623,11 @@
     },
     {
      "n": "Beukema",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Marianucci",
      "pct": 5,
      "riv": null
     },
@@ -1274,7 +1279,7 @@
      "riv": null
     },
     {
-     "n": "Bernardeschi",
+     "n": "Orsolini",
      "pct": 51,
      "riv": null
     },
@@ -1304,9 +1309,9 @@
      "riv": "Pobega"
     },
     {
-     "n": "Orsolini",
+     "n": "Bernardeschi",
      "pct": 49,
-     "riv": "Bernardeschi"
+     "riv": "Orsolini"
     },
     {
      "n": "Bleve",
@@ -1758,7 +1763,7 @@
     },
     {
      "n": "Conceicao",
-     "pct": 55,
+     "pct": 51,
      "riv": null
     },
     {
@@ -1768,7 +1773,7 @@
     },
     {
      "n": "Alajbegovic",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -1788,7 +1793,7 @@
     },
     {
      "n": "Zhegrova",
-     "pct": 45,
+     "pct": 49,
      "riv": "Conceicao"
     },
     {
