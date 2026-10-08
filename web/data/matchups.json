@@ -31,20 +31,20 @@
   "opp": "Como",
   "home": false
  },
- "Lazio": {
-  "opp": "Monza",
-  "home": true
- },
- "Monza": {
-  "opp": "Lazio",
-  "home": false
- },
  "Lecce": {
   "opp": "Bologna",
   "home": true
  },
  "Bologna": {
   "opp": "Lecce",
+  "home": false
+ },
+ "Lazio": {
+  "opp": "Monza",
+  "home": true
+ },
+ "Monza": {
+  "opp": "Lazio",
   "home": false
  },
  "Sassuolo": {

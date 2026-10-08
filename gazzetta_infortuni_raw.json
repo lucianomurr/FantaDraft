@@ -35,6 +35,10 @@
   {
    "n": "Stones",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Jones",
+   "stato": "Rientro alla 8"
   }
  ],
  "Parma": [
@@ -96,10 +100,6 @@
   {
    "n": "Cristante",
    "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Ndicka",
-   "stato": "Da valutare"
   }
  ],
  "Lecce": [
@@ -133,6 +133,14 @@
   },
   {
    "n": "Przyborek",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Cancellieri",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Marusic",
    "stato": "Da valutare"
   }
  ],
@@ -253,11 +261,11 @@
  "Atalanta": [
   {
    "n": "Hien",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   },
   {
    "n": "Kossounou",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   },
   {
    "n": "Pompei",
@@ -265,7 +273,7 @@
   },
   {
    "n": "Raspadori",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 7"
   },
   {
    "n": "Kamaldeen Sulemana",
