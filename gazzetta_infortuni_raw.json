@@ -29,6 +29,10 @@
   {
    "n": "Parisi",
    "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Atta",
+   "stato": "Rientro alla 7"
   }
  ],
  "Inter": [
@@ -49,6 +53,10 @@
   {
    "n": "Almqvist",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Ndiaye",
+   "stato": "Da valutare"
   }
  ],
  "Napoli": [
@@ -62,10 +70,6 @@
   },
   {
    "n": "Olivera",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "McTominay",
    "stato": "Da valutare"
   },
   {
@@ -100,22 +104,6 @@
   {
    "n": "Cristante",
    "stato": "Rientro alla 7"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Berisha",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Odgaard",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
   }
  ],
  "Lazio": [
@@ -160,6 +148,22 @@
   {
    "n": "Ciurria",
    "stato": "Da valutare"
+  }
+ ],
+ "Lecce": [
+  {
+   "n": "Berisha",
+   "stato": "Da valutare"
+  }
+ ],
+ "Bologna": [
+  {
+   "n": "Odgaard",
+   "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Holm",
+   "stato": "Rientro alla 22"
   }
  ],
  "Sassuolo": [
@@ -295,10 +299,6 @@
   },
   {
    "n": "Dagasso",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Basic",
    "stato": "Da valutare"
   },
   {

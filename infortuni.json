@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-08",
+ "aggiornato": "2026-10-09",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -71,13 +71,25 @@
    "s": "Cagliari",
    "n": "Kevin Carlos",
    "d": "L'attaccante non al meglio per un problema muscolare alla coscia sinistra, va verso il forfait nel prossimo turno di campionato contro la Juve.",
-   "r": "Tempi di recupero da valutare."
+   "r": "Da valutare."
+  },
+  {
+   "s": "Fiorentina",
+   "n": "Atta",
+   "d": "il centrocampista non al meglio per un sovraccarico funzionale dell'addome, assente sabato a Genova.",
+   "r": "Da valutare in vista della 7a giornata di A."
   },
   {
    "s": "Fiorentina",
    "n": "Parisi",
    "d": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio",
    "r": "punta a tornare convocabile da dicembre."
+  },
+  {
+   "s": "Frosinone",
+   "n": "Grillitsch",
+   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
+   "r": "Stop di circa sei settimane, può tornare convocabile da inizio novembre."
   },
   {
    "s": "Frosinone",
@@ -93,9 +105,9 @@
   },
   {
    "s": "Frosinone",
-   "n": "Grillitsch",
-   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
-   "r": "Stop di circa sei settimane, può tornare convocabile da inizio novembre."
+   "n": "Raimondo",
+   "d": "L'attaccante condizionato da una tendinopatia al tendine d'Achille destro, verso il forfait sabato contro il Napoli alla ripresa del campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Genoa",
@@ -106,8 +118,8 @@
   {
    "s": "Genoa",
    "n": "Sow",
-   "d": "Il centrocampista svizzero KO martedì sera in Nazionale vittima di un guaio muscolare che andrà valutato. Forfait nel prossimo turno di campionato sabato contro la Fiorentina.",
-   "r": "Tempi di recupero da valutare."
+   "d": "Il centrocampista svizzero il 6 ottobre in Nazionale vittima di una distrazione muscolare al bicipite femorale della coscia sinistra",
+   "r": "rientro in campo da inizio novembre."
   },
   {
    "s": "Genoa",
@@ -201,12 +213,6 @@
   },
   {
    "s": "Milan",
-   "n": "Estupinan",
-   "d": "Il difensore condizionato da una distorsione al ginocchio e",
-   "r": "rimane da valutare a Milanello in vista del prossimo impegno di campionato contro il Sassuolo."
-  },
-  {
-   "s": "Milan",
    "n": "Saelemaekers",
    "d": "Il belga fermo da inizio ottobre per un problema alla caviglia, concreta ora la possibilità di operarsi.",
    "r": "Saranno poi da stabilire i tempi di recupero, ma lo stop sarà lungo e lo rivedremo in campo nel 2027 inoltrato."
@@ -231,27 +237,15 @@
   },
   {
    "s": "Napoli",
-   "n": "Olivera",
-   "d": "L'uruguaiano a inizio ottobre in Nazionale ha rimediato un problema muscolare alla gamba destra e salterà l'impegno di campionato contro il Frosinone.",
-   "r": "Ipotesi rientro da fine ottobre."
-  },
-  {
-   "s": "Napoli",
-   "n": "Favasuli",
-   "d": "Il cursore di fascia degli azzurri ai box da inizio ottobre per una lesione muscolare di secondo grado del retto femorale della coscia destra.",
-   "r": "Recuperabile dalla metà di novembre."
-  },
-  {
-   "s": "Napoli",
    "n": "Santos A.",
    "d": "Il brasiliano costretto al cambio il 9 settembre in Champions League vittima di una lesione muscolare di medio grado al bicipite femorale sinistro.",
    "r": "Proverà a tornare arruolabile dalla seconda metà di ottobre."
   },
   {
    "s": "Napoli",
-   "n": "Vergara",
-   "d": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro.",
-   "r": "Recuperabile da inizio novembre."
+   "n": "Olivera",
+   "d": "L'uruguaiano a inizio ottobre in Nazionale ha rimediato un problema muscolare alla gamba destra e salterà l'impegno di campionato contro il Frosinone.",
+   "r": "Recuperabile dalla metà di ottobre."
   },
   {
    "s": "Napoli",
@@ -261,15 +255,27 @@
   },
   {
    "s": "Napoli",
+   "n": "Favasuli",
+   "d": "Il cursore di fascia degli azzurri ai box da inizio ottobre per una lesione muscolare di secondo grado del retto femorale della coscia destra.",
+   "r": "Recuperabile dalla metà di novembre."
+  },
+  {
+   "s": "Napoli",
    "n": "Buongiorno",
    "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
    "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
   },
   {
+   "s": "Napoli",
+   "n": "Vergara",
+   "d": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro.",
+   "r": "Recuperabile da inizio novembre."
+  },
+  {
    "s": "Parma",
    "n": "Ndiaye",
-   "d": "Il difensore colpito duro in allenamento nei giorni scorsi, costretto al forfait per sabato contro l'Inter.",
-   "r": "Condizioni da valutare in vista della 7a giornata di campionato."
+   "d": "Il difensore colpito duro in allenamento nei giorni scorsi, a rischio forfait per sabato contro l'Inter.",
+   "r": "Condizioni da valutare nella rifinitura prematch."
   },
   {
    "s": "Parma",
@@ -291,9 +297,21 @@
   },
   {
    "s": "Sassuolo",
+   "n": "Idzes",
+   "d": "Il difensore ai box per una lesione di grado moderato al quadricipite della gamba sinistra",
+   "r": "proverà a tornerà arruolabile dalla seconda metà di ottobre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Walukiewicz",
+   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
+   "r": "da valutare il rientro dalla seconda metà di ottobre."
+  },
+  {
+   "s": "Sassuolo",
    "n": "Candè",
    "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla metà di ottobre."
+   "r": "punta a tornare convocabile dalla fine di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -305,7 +323,7 @@
    "s": "Sassuolo",
    "n": "Boloca",
    "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
-   "r": "Da valutare rientro da metà ottobre."
+   "r": "Da valutare rientro da fine ottobre."
   },
   {
    "s": "Sassuolo",
@@ -317,19 +335,7 @@
    "s": "Sassuolo",
    "n": "Volpato",
    "d": "l'esterno offensivo dei neroverdi KO il 6 settembre a Bologna vittima di una lesione di grado moderato al flessore della gamba destra.",
-   "r": "Recuperabile dalla prima metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Milan."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Idzes",
-   "d": "Il difensore ai box per una lesione di grado moderato al quadricipite della gamba sinistra",
-   "r": "proverà a tornerà arruolabile dalla seconda metà di ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
-   "r": "da valutare il rientro dalla metà di ottobre."
+   "r": "Recuperabile dalla seconda metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Milan."
   },
   {
    "s": "Torino",
@@ -357,9 +363,21 @@
   },
   {
    "s": "Venezia",
-   "n": "Basic",
-   "d": "Il centrocampista out contro Lazio, Frosinone e Fiorentina per una fascite plantare",
-   "r": "rimane da valutare quotidianamente in vista della 6a giornata di campionato contro l'Atalanta."
+   "n": "Sverko",
+   "d": "il difensore operato in estate per il perdurare di un problema all'anca e",
+   "r": "recuperabile da fine ottobre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Franjic",
+   "d": "il difensore costretto al cambio a Milano contro i rossoneri a fine agosto per un guaio alla spalla che ha richiesto l'intervento chirurgico.",
+   "r": "Lungo stop e rientro dalla metà di dicembre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Haps",
+   "d": "il difensore non al meglio per noie fisiche, a rischio per lunedì a Bergamo.",
+   "r": "Da valutare nella rifinitura."
   },
   {
    "s": "Venezia",
@@ -386,34 +404,10 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Venezia",
-   "n": "Sverko",
-   "d": "il difensore operato in estate per il perdurare di un problema all'anca e",
-   "r": "recuperabile da fine ottobre."
-  },
-  {
-   "s": "Venezia",
-   "n": "Franjic",
-   "d": "il difensore costretto al cambio a Milano contro i rossoneri a fine agosto per un guaio alla spalla che ha richiesto l'intervento chirurgico.",
-   "r": "Lungo stop e rientro dalla metà di dicembre."
-  },
-  {
    "s": "Genoa",
    "n": "Nuredini",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
-  },
-  {
-   "s": "Napoli",
-   "n": "McTominay",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Frosinone",
-   "n": "Raimondo",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Lazio",
@@ -456,12 +450,6 @@
    "n": "Owusu",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 7 (fonte Gazzetta)."
-  },
-  {
-   "s": "Venezia",
-   "n": "Haps",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Venezia",
