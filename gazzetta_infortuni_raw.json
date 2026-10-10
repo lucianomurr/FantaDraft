@@ -1,40 +1,4 @@
 {
- "Genoa": [
-  {
-   "n": "Venturino",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Nuredini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Havel",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Colombo",
-   "stato": "Rientro alla 9"
-  },
-  {
-   "n": "Meichtry",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Sow",
-   "stato": "Da valutare"
-  }
- ],
- "Fiorentina": [
-  {
-   "n": "Parisi",
-   "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Atta",
-   "stato": "Rientro alla 7"
-  }
- ],
  "Inter": [
   {
    "n": "Stones",
@@ -93,26 +57,27 @@
   {
    "n": "Bîrligea",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Raimondo",
-   "stato": "Da valutare"
   }
  ],
- "Como": [],
+ "Como": [
+  {
+   "n": "Kean",
+   "stato": "Rientro alla 8"
+  }
+ ],
  "Roma": [
   {
    "n": "Cristante",
    "stato": "Rientro alla 7"
+  },
+  {
+   "n": "Svilar",
+   "stato": "Rientro alla 12"
   }
  ],
  "Lazio": [
   {
    "n": "Gudmundsson",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Cataldi",
    "stato": "Da valutare"
   },
   {
@@ -144,15 +109,19 @@
   {
    "n": "Touré",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Ciurria",
-   "stato": "Da valutare"
   }
  ],
  "Lecce": [
   {
    "n": "Berisha",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Stulic",
+   "stato": "Rientro alla 7"
+  },
+  {
+   "n": "Scott",
    "stato": "Da valutare"
   }
  ],
@@ -164,40 +133,16 @@
   {
    "n": "Holm",
    "stato": "Rientro alla 22"
+  },
+  {
+   "n": "Mbangula",
+   "stato": "Da valutare"
   }
  ],
  "Sassuolo": [
   {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Candé",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Walukiewicz",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Volpato",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Idzes",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
+   "stato": ""
   }
  ],
  "Milan": [
@@ -209,7 +154,7 @@
  "Cagliari": [
   {
    "n": "Felici",
-   "stato": "Stagione Finita"
+   "stato": "Rientro alla 32"
   },
   {
    "n": "Idrissi",
@@ -220,11 +165,7 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Deiola",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Kevin Carlos",
+   "n": "Sherri",
    "stato": "Da valutare"
   }
  ],
@@ -240,10 +181,6 @@
   {
    "n": "Ekhator",
    "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Cabal",
-   "stato": "Rientro alla 7"
   },
   {
    "n": "Locatelli",
@@ -286,10 +223,6 @@
  ],
  "Venezia": [
   {
-   "n": "Sverko",
-   "stato": "Rientro alla 8"
-  },
-  {
    "n": "Franjic",
    "stato": "Rientro alla 15"
   },
@@ -298,33 +231,13 @@
    "stato": "Rientro alla 12"
   },
   {
-   "n": "Dagasso",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Haps",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adorante",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Bella-Kotchap",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Schingtienne",
    "stato": "Da valutare"
   }
  ],
  "Torino": [
   {
    "n": "Israel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adams",
    "stato": "Da valutare"
   }
  ],
