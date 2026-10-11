@@ -1,154 +1,26 @@
 {
- "Inter": [
-  {
-   "n": "Stones",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Jones",
-   "stato": "Rientro alla 8"
-  }
- ],
- "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Almqvist",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ndiaye",
-   "stato": "Da valutare"
-  }
- ],
- "Napoli": [
-  {
-   "n": "Buongiorno",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Alisson Santos",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Olivera",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Favasuli",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Vergara",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Anguissa",
-   "stato": "Rientro alla 7"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Bîrligea",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Kean",
-   "stato": "Rientro alla 8"
-  }
- ],
- "Roma": [
-  {
-   "n": "Cristante",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Svilar",
-   "stato": "Rientro alla 12"
-  }
- ],
- "Lazio": [
-  {
-   "n": "Gudmundsson",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rovella",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Przyborek",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Cancellieri",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Marusic",
-   "stato": "Da valutare"
-  }
- ],
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Ziólkowski",
-   "stato": "Rientro alla 9"
-  },
-  {
-   "n": "Touré",
-   "stato": "Da valutare"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Berisha",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Stulic",
-   "stato": "Rientro alla 7"
-  },
-  {
-   "n": "Scott",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Odgaard",
-   "stato": "Rientro alla 8"
-  },
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Mbangula",
-   "stato": "Da valutare"
-  }
- ],
  "Sassuolo": [
   {
    "n": "Ismaël Koné",
    "stato": ""
+  },
+  {
+   "n": "Pieragnolo",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Boloca",
+   "stato": "Da valutare"
   }
  ],
  "Milan": [
   {
    "n": "Saelemaekers",
    "stato": "Rientro alla 25"
+  },
+  {
+   "n": "Pietro Terracciano",
+   "stato": "Da valutare"
   }
  ],
  "Cagliari": [
@@ -162,10 +34,6 @@
   },
   {
    "n": "Trepy",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Sherri",
    "stato": "Da valutare"
   }
  ],

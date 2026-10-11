@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-10",
+ "aggiornato": "2026-10-11",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -42,6 +42,12 @@
    "n": "Odgaard",
    "d": "Il calciatore frenato dopo il match col Toro da una lesione ai flessori della coscia destra",
    "r": "recuperabile dalla seconda metà di ottobre."
+  },
+  {
+   "s": "Bologna",
+   "n": "Theate",
+   "d": "Indisponibile per una contusione avvertita nell'allenamento della vigilia.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Bologna",
@@ -226,7 +232,7 @@
   {
    "s": "Monza",
    "n": "Ciurria",
-   "d": "il centrocampista non al meglio per noie fisiche, forfait anche nel prossimo turno contro la Lazio.",
+   "d": "il centrocampista non al meglio per noie fisiche, forfait anche nel prossimo turno.",
    "r": "Da valutare."
   },
   {
@@ -274,8 +280,8 @@
   {
    "s": "Napoli",
    "n": "Zambo Anguissa",
-   "d": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, ma ha lamentato una lesione miofasciale di basso grado dell'adduttore lungo e",
-   "r": "rimane da valutare nei prossimi allenamenti in vista della gara contro il Frosinone alla ripresa del campionato."
+   "d": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, quando ha lamentato una lesione miofasciale di basso grado dell'adduttore lungo e",
+   "r": "rimane da valutare nei prossimi allenamenti. Out di certo sabato contro il Frosinone alla ripresa del campionato."
   },
   {
    "s": "Parma",
@@ -298,7 +304,7 @@
   {
    "s": "Roma",
    "n": "Svilar",
-   "d": "Il portiere condizionato da una frattura a un dito della mano e fuori dal match contro il Como.",
+   "d": "Il portiere condizionato da una frattura a un dito del piede e fuori dal match contro il Como.",
    "r": "Ipotesi di rientro a disposizione dalla metà di novembre."
   },
   {
@@ -323,7 +329,7 @@
    "s": "Sassuolo",
    "n": "Volpato",
    "d": "l'esterno offensivo dei neroverdi KO il 6 settembre a Bologna vittima di una lesione di grado moderato al flessore della gamba destra.",
-   "r": "Recuperabile dalla seconda metà di ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Milan."
+   "r": "Recuperabile dalla seconda metà di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -404,26 +410,8 @@
    "r": "recuperabile da fine ottobre."
   },
   {
-   "s": "Lazio",
-   "n": "Przyborek",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Monza",
-   "n": "Touré",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Lecce",
-   "n": "Scott",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Cagliari",
-   "n": "Sherri",
+   "s": "Milan",
+   "n": "Pietro Terracciano",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
