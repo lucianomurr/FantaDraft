@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-11",
+ "aggiornato": "2026-10-12",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -9,15 +9,9 @@
   },
   {
    "s": "Atalanta",
-   "n": "Sulemana K.",
-   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
-   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Raspadori",
-   "d": "L'attaccante frenato a fine settembre in Nazionale azzurra da una distrazione di basso grado al bicipite femorale",
-   "r": "rientro tra i convocati con la Dea in campionato dalla seconda metà di ottobre."
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
+   "r": "pronto a tornare in campo dalla metà di novembre."
   },
   {
    "s": "Atalanta",
@@ -27,9 +21,9 @@
   },
   {
    "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
-   "r": "pronto a tornare in campo dalla metà di novembre."
+   "n": "Sulemana K.",
+   "d": "L'attaccante KO in amichevole l'8 agosto vittima di una lesione del collaterale mediale di secondo grado del ginocchio sinistro.",
+   "r": "Recuperabile da inizio ottobre, ma da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Venezia."
   },
   {
    "s": "Bologna",
@@ -57,6 +51,12 @@
   },
   {
    "s": "Cagliari",
+   "n": "Trepy",
+   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
+   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla fine di ottobre."
+  },
+  {
+   "s": "Cagliari",
    "n": "Idrissi R.",
    "d": "il calciatore in ripresa dalla rottura del legamento crociato",
    "r": "può tornare arruolabile dalla fine di ottobre."
@@ -66,12 +66,6 @@
    "n": "Felici",
    "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
    "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
-  },
-  {
-   "s": "Cagliari",
-   "n": "Trepy",
-   "d": "Il calciatore ricoverato il 16 agosto dopo che avrebbe rischiato di annegare in piscina. Dimesso poi il 28 agosto, ora condizioni monitorate da parte dello staff medico rossoblù.",
-   "r": "Da metà settembre ha avuto l'ok per riprendere l'attività agonistica, potrebbe ora tornare convocabile dalla fine di ottobre."
   },
   {
    "s": "Como",
@@ -105,30 +99,6 @@
   },
   {
    "s": "Genoa",
-   "n": "Havel",
-   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
-   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
-  },
-  {
-   "s": "Genoa",
-   "n": "Sow",
-   "d": "Il centrocampista svizzero il 6 ottobre in Nazionale vittima di una distrazione muscolare al bicipite femorale della coscia sinistra",
-   "r": "rientro in campo da inizio novembre."
-  },
-  {
-   "s": "Genoa",
-   "n": "Colombo",
-   "d": "L'attaccante non al meglio per un problema alla caviglia rimediato venerdì scorso in amichevole e darà forfait nel prossimo turno di campionato contro la Fiorentina.",
-   "r": "Ipotesi di rientro da fine ottobre."
-  },
-  {
-   "s": "Genoa",
-   "n": "Meichtry",
-   "d": "Il calciatore ai box per una distrazione della muscolatura di un'anca",
-   "r": "il cui grado rimane da valutare con ulteriori accertamenti medici. Di certo out nel prossimo turno di campionato contro la Fiorentina."
-  },
-  {
-   "s": "Genoa",
    "n": "Amorim",
    "d": "Il centrocampista non ha recuperato da un problema fisico e non è stato convocato per la gara contro la Fiorentina.",
    "r": "Da valutare in vista della 7a giornata di campionato."
@@ -138,6 +108,30 @@
    "n": "Venturino",
    "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
    "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da fine ottobre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Meichtry",
+   "d": "Il calciatore ai box per una distrazione della muscolatura di un'anca",
+   "r": "il cui grado rimane da valutare con ulteriori accertamenti medici. Di certo out nel prossimo turno di campionato contro la Fiorentina."
+  },
+  {
+   "s": "Genoa",
+   "n": "Colombo",
+   "d": "L'attaccante non al meglio per un problema alla caviglia rimediato venerdì scorso in amichevole e darà forfait nel prossimo turno di campionato contro la Fiorentina.",
+   "r": "Ipotesi di rientro da fine ottobre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Havel",
+   "d": "L'attaccante ha deciso di operarsi alla caviglia e",
+   "r": "dovrebbe tornare arruolabile dalla metà di ottobre."
+  },
+  {
+   "s": "Genoa",
+   "n": "Sow",
+   "d": "Il centrocampista svizzero il 6 ottobre in Nazionale vittima di una distrazione muscolare al bicipite femorale della coscia sinistra",
+   "r": "rientro in campo da inizio novembre."
   },
   {
    "s": "Inter",
@@ -249,12 +243,6 @@
   },
   {
    "s": "Napoli",
-   "n": "Vergara",
-   "d": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro.",
-   "r": "Recuperabile da inizio novembre."
-  },
-  {
-   "s": "Napoli",
    "n": "Favasuli",
    "d": "Il cursore di fascia degli azzurri ai box da inizio ottobre per una lesione muscolare di secondo grado del retto femorale della coscia destra.",
    "r": "Recuperabile dalla metà di novembre."
@@ -267,21 +255,27 @@
   },
   {
    "s": "Napoli",
+   "n": "Vergara",
+   "d": "Il centrocampista sostituito il 5 ottobre con la Nazionale italiana a causa di una lesione distrattiva al polpaccio destro.",
+   "r": "Recuperabile da inizio novembre."
+  },
+  {
+   "s": "Napoli",
    "n": "Olivera",
    "d": "L'uruguaiano a inizio ottobre in Nazionale ha rimediato un problema muscolare alla gamba destra e salterà l'impegno di campionato contro il Frosinone.",
    "r": "Recuperabile dalla metà di ottobre."
   },
   {
    "s": "Napoli",
-   "n": "Buongiorno",
-   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
-   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
-  },
-  {
-   "s": "Napoli",
    "n": "Zambo Anguissa",
    "d": "il centrocampista subentrato a gara in corso il 20 settembre a Firenze, quando ha lamentato una lesione miofasciale di basso grado dell'adduttore lungo e",
    "r": "rimane da valutare nei prossimi allenamenti. Out di certo sabato contro il Frosinone alla ripresa del campionato."
+  },
+  {
+   "s": "Napoli",
+   "n": "Buongiorno",
+   "d": "il difensore operato nella seconda metà di luglio al menisco del ginocchio destro.",
+   "r": "Sta recuperando lentamente, ipotizziamo possa tornare arruolabile da fine dicembre."
   },
   {
    "s": "Parma",
@@ -321,21 +315,9 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Boloca",
-   "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
-   "r": "Da valutare rientro da fine ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Volpato",
-   "d": "l'esterno offensivo dei neroverdi KO il 6 settembre a Bologna vittima di una lesione di grado moderato al flessore della gamba destra.",
-   "r": "Recuperabile dalla seconda metà di ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Konè I.",
-   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
-   "r": "Operato, punta a tornare in campo da dicembre."
+   "n": "Idzes",
+   "d": "Il difensore ai box per una lesione di grado moderato al quadricipite della gamba sinistra",
+   "r": "proverà a tornerà arruolabile dalla seconda metà di ottobre."
   },
   {
    "s": "Sassuolo",
@@ -345,21 +327,15 @@
   },
   {
    "s": "Sassuolo",
-   "n": "Candè",
-   "d": "il difensore a gennaio vittima della rottura legamento crociato anteriore ginocchio destro",
-   "r": "punta a tornare convocabile dalla fine di ottobre."
+   "n": "Boloca",
+   "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
+   "r": "Da valutare rientro da fine ottobre."
   },
   {
    "s": "Sassuolo",
-   "n": "Walukiewicz",
-   "d": "Il difensore alle prese con un forte trauma contusivo alla gamba destra",
-   "r": "da valutare il rientro dalla seconda metà di ottobre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Idzes",
-   "d": "Il difensore ai box per una lesione di grado moderato al quadricipite della gamba sinistra",
-   "r": "proverà a tornerà arruolabile dalla seconda metà di ottobre."
+   "n": "Konè I.",
+   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
+   "r": "Operato, punta a tornare in campo da dicembre."
   },
   {
    "s": "Torino",
@@ -387,6 +363,12 @@
   },
   {
    "s": "Venezia",
+   "n": "Bella-Kotchap",
+   "d": "il difensore non al meglio per noie fisiche, out lunedì a Bergamo.",
+   "r": "Da valutare in vista della 7a."
+  },
+  {
+   "s": "Venezia",
    "n": "Adorante",
    "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
    "r": "Tentativo di rientro da metà ottobre."
@@ -410,22 +392,10 @@
    "r": "recuperabile da fine ottobre."
   },
   {
-   "s": "Milan",
-   "n": "Pietro Terracciano",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Juventus",
-   "n": "Owusu",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 7 (fonte Gazzetta)."
-  },
-  {
    "s": "Venezia",
-   "n": "Bella-Kotchap",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
+   "n": "Mazzocchi",
+   "d": "Il cursore di fascia non al meglio per un fastidio fisico e non convocato lunedì a Bergamo.",
+   "r": "Da valutare."
   },
   {
    "s": "Torino",

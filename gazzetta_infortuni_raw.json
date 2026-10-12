@@ -1,72 +1,4 @@
 {
- "Sassuolo": [
-  {
-   "n": "Ismaël Koné",
-   "stato": ""
-  },
-  {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  }
- ],
- "Milan": [
-  {
-   "n": "Saelemaekers",
-   "stato": "Rientro alla 25"
-  },
-  {
-   "n": "Pietro Terracciano",
-   "stato": "Da valutare"
-  }
- ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Rientro alla 32"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Juventus": [
-  {
-   "n": "Yildiz",
-   "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Thuram",
-   "stato": "Rientro alla 19"
-  },
-  {
-   "n": "Ekhator",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Locatelli",
-   "stato": "Rientro alla 28"
-  },
-  {
-   "n": "Boga",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Grabara",
-   "stato": "Rientro alla 29"
-  },
-  {
-   "n": "Owusu",
-   "stato": "Rientro alla 7"
-  }
- ],
  "Atalanta": [
   {
    "n": "Hien",
@@ -79,10 +11,6 @@
   {
    "n": "Pompei",
    "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Raspadori",
-   "stato": "Rientro alla 7"
   },
   {
    "n": "Kamaldeen Sulemana",
