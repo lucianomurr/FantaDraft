@@ -1,19 +1,29 @@
 {
- "Atalanta": [
+ "Frosinone": [
   {
-   "n": "Hien",
-   "stato": "Rientro alla 12"
+   "n": "Grillitsch",
+   "stato": "Da valutare"
   },
   {
-   "n": "Kossounou",
-   "stato": "Rientro alla 12"
+   "n": "Bîrligea",
+   "stato": "Da valutare"
+  }
+ ],
+ "Sassuolo": [
+  {
+   "n": "Ismaël Koné",
+   "stato": "Da valutare"
   },
   {
-   "n": "Pompei",
-   "stato": "Rientro alla 12"
+   "n": "Pieragnolo",
+   "stato": "Da valutare"
   },
   {
-   "n": "Kamaldeen Sulemana",
+   "n": "Boloca",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Leysen",
    "stato": "Da valutare"
   }
  ],
@@ -29,11 +39,99 @@
   {
    "n": "Bella-Kotchap",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Thierry Correia",
+   "stato": "Da valutare"
   }
  ],
- "Torino": [
+ "Napoli": [
   {
-   "n": "Israel",
+   "n": "Buongiorno",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Alisson Santos",
+   "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Olivera",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Favasuli",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Vergara",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Anguissa",
+   "stato": "Da valutare"
+  }
+ ],
+ "Bologna": [
+  {
+   "n": "Odgaard",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Holm",
+   "stato": "Rientro alla 22"
+  },
+  {
+   "n": "Mbangula",
+   "stato": "Da valutare"
+  }
+ ],
+ "Inter": [
+  {
+   "n": "Stones",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Jones",
+   "stato": "Rientro alla 8"
+  }
+ ],
+ "Roma": [
+  {
+   "n": "Svilar",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Koulierakis",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Cristante",
+   "stato": "Da valutare"
+  }
+ ],
+ "Genoa": [
+  {
+   "n": "Venturino",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Nuredini",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Colombo",
+   "stato": "Rientro alla 9"
+  },
+  {
+   "n": "Meichtry",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Sow",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Alex Amorim",
    "stato": "Da valutare"
   }
  ],
@@ -53,6 +151,160 @@
   {
    "n": "Zaniolo",
    "stato": "Rientro alla 8"
+  }
+ ],
+ "Lecce": [
+  {
+   "n": "Berisha",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Scott",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ilic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Fiorentina": [
+  {
+   "n": "Parisi",
+   "stato": "Rientro alla 13"
+  }
+ ],
+ "Como": [
+  {
+   "n": "Kean",
+   "stato": "Rientro alla 8"
+  }
+ ],
+ "Milan": [
+  {
+   "n": "Saelemaekers",
+   "stato": "Rientro alla 25"
+  },
+  {
+   "n": "Pietro Terracciano",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gabbia",
+   "stato": "Rientro alla 20"
+  }
+ ],
+ "Atalanta": [
+  {
+   "n": "Hien",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Kossounou",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pompei",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Kamaldeen Sulemana",
+   "stato": "Da valutare"
+  }
+ ],
+ "Juventus": [
+  {
+   "n": "Yildiz",
+   "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Thuram",
+   "stato": "Rientro alla 19"
+  },
+  {
+   "n": "Ekhator",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Locatelli",
+   "stato": "Rientro alla 28"
+  },
+  {
+   "n": "Boga",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Grabara",
+   "stato": "Rientro alla 29"
+  }
+ ],
+ "Lazio": [
+  {
+   "n": "Gudmundsson",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rovella",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Przyborek",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Cancellieri",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Marusic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Monza": [
+  {
+   "n": "Pessina",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Ziólkowski",
+   "stato": "Rientro alla 9"
+  },
+  {
+   "n": "Touré",
+   "stato": "Da valutare"
+  }
+ ],
+ "Cagliari": [
+  {
+   "n": "Felici",
+   "stato": "Rientro alla 32"
+  },
+  {
+   "n": "Idrissi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Trepy",
+   "stato": "Da valutare"
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Almqvist",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ndiaye",
+   "stato": "Da valutare"
+  }
+ ],
+ "Torino": [
+  {
+   "n": "Israel",
+   "stato": "Da valutare"
   }
  ]
 }

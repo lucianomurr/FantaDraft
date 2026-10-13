@@ -1,82 +1,82 @@
 {
- "Genoa": {
-  "opp": "Fiorentina",
-  "home": true
- },
- "Fiorentina": {
-  "opp": "Genoa",
-  "home": false
- },
- "Inter": {
-  "opp": "Parma",
-  "home": true
- },
- "Parma": {
-  "opp": "Inter",
-  "home": false
- },
- "Napoli": {
-  "opp": "Frosinone",
-  "home": true
- },
  "Frosinone": {
-  "opp": "Napoli",
-  "home": false
- },
- "Como": {
-  "opp": "Roma",
+  "opp": "Sassuolo",
   "home": true
- },
- "Roma": {
-  "opp": "Como",
-  "home": false
- },
- "Lazio": {
-  "opp": "Monza",
-  "home": true
- },
- "Monza": {
-  "opp": "Lazio",
-  "home": false
- },
- "Lecce": {
-  "opp": "Bologna",
-  "home": true
- },
- "Bologna": {
-  "opp": "Lecce",
-  "home": false
  },
  "Sassuolo": {
-  "opp": "Milan",
-  "home": true
- },
- "Milan": {
-  "opp": "Sassuolo",
+  "opp": "Frosinone",
   "home": false
- },
- "Cagliari": {
-  "opp": "Juventus",
-  "home": true
- },
- "Juventus": {
-  "opp": "Cagliari",
-  "home": false
- },
- "Atalanta": {
-  "opp": "Venezia",
-  "home": true
  },
  "Venezia": {
-  "opp": "Atalanta",
-  "home": false
- },
- "Torino": {
-  "opp": "Udinese",
+  "opp": "Napoli",
   "home": true
  },
+ "Napoli": {
+  "opp": "Venezia",
+  "home": false
+ },
+ "Bologna": {
+  "opp": "Inter",
+  "home": true
+ },
+ "Inter": {
+  "opp": "Bologna",
+  "home": false
+ },
+ "Roma": {
+  "opp": "Genoa",
+  "home": true
+ },
+ "Genoa": {
+  "opp": "Roma",
+  "home": false
+ },
  "Udinese": {
+  "opp": "Lecce",
+  "home": true
+ },
+ "Lecce": {
+  "opp": "Udinese",
+  "home": false
+ },
+ "Fiorentina": {
+  "opp": "Como",
+  "home": true
+ },
+ "Como": {
+  "opp": "Fiorentina",
+  "home": false
+ },
+ "Milan": {
+  "opp": "Atalanta",
+  "home": true
+ },
+ "Atalanta": {
+  "opp": "Milan",
+  "home": false
+ },
+ "Juventus": {
+  "opp": "Lazio",
+  "home": true
+ },
+ "Lazio": {
+  "opp": "Juventus",
+  "home": false
+ },
+ "Monza": {
+  "opp": "Cagliari",
+  "home": true
+ },
+ "Cagliari": {
+  "opp": "Monza",
+  "home": false
+ },
+ "Parma": {
   "opp": "Torino",
+  "home": true
+ },
+ "Torino": {
+  "opp": "Parma",
   "home": false
  }
 }
