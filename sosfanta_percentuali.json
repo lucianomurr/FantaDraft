@@ -492,8 +492,8 @@
      "riv": null
     },
     {
-     "n": "Casale",
-     "pct": 51,
+     "n": "Theate",
+     "pct": 55,
      "riv": null
     },
     {
@@ -595,6 +595,11 @@
      "n": "Helland",
      "pct": 49,
      "riv": "Heggem"
+    },
+    {
+     "n": "Casale",
+     "pct": 45,
+     "riv": "Theate"
     },
     {
      "n": "Moro N.",
@@ -936,7 +941,7 @@
    "players": [
     {
      "n": "Okoye",
-     "pct": 95,
+     "pct": 60,
      "riv": null
     },
     {
@@ -1045,6 +1050,11 @@
      "riv": null
     },
     {
+     "n": "Mrozek",
+     "pct": 40,
+     "riv": "Okoye"
+    },
+    {
      "n": "Palma",
      "pct": 49,
      "riv": "Bertola"
@@ -1073,11 +1083,6 @@
      "n": "Esteban",
      "pct": 49,
      "riv": "Geubbels"
-    },
-    {
-     "n": "Mrozek",
-     "pct": 5,
-     "riv": null
     },
     {
      "n": "Padelli",
@@ -1324,11 +1329,6 @@
      "riv": "Baturina"
     },
     {
-     "n": "Gnonto",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Christensen O.",
      "pct": 5,
      "riv": null
@@ -1350,6 +1350,11 @@
     },
     {
      "n": "Brescianini",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Gnonto",
      "pct": 5,
      "riv": null
     },
@@ -1553,12 +1558,12 @@
      "riv": null
     },
     {
-     "n": "Cissè A.",
+     "n": "Christian Comotto",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Comotto",
+     "n": "Cissè A.",
      "pct": 5,
      "riv": null
     },

@@ -1,11 +1,23 @@
 {
- "aggiornato": "2026-10-13",
+ "aggiornato": "2026-10-14",
  "infortunati": [
   {
    "s": "Atalanta",
    "n": "Scalvini",
    "d": "il difensore costretto al cambio il 12 ottobre contro il Venezia in campionato per un fastidio muscolare al flessore della coscia sinistra.",
    "r": "Condizioni da valutare con appositi esami medici."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
+   "r": "pronto a tornare in campo dalla metà di novembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Pompei",
+   "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Atalanta",
@@ -20,22 +32,10 @@
    "r": "Recuperabile dalla seconda metà di ottobre, da valutare nei prossimi allenamenti le possibilità di convocazione già nel prossimo turno contro il Milan."
   },
   {
-   "s": "Atalanta",
-   "n": "Pompei",
-   "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
-   "r": "pronto a tornare in campo dalla metà di novembre."
-  },
-  {
    "s": "Bologna",
-   "n": "Theate",
-   "d": "il difensore indisponibile last minute l'11 ottobre a Lecce per una contusione alla gamba.",
-   "r": "Condizioni da valutare, a rischio la sua presenza anche per sabato in casa contro l'Inter."
+   "n": "Holm",
+   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema al tendine della coscia destra. Ha deciso di operarsi e affronterà un lungo stop.",
+   "r": "Ipotesi di rientro in campo da fine febbraio."
   },
   {
    "s": "Bologna",
@@ -45,9 +45,9 @@
   },
   {
    "s": "Bologna",
-   "n": "Holm",
-   "d": "Lo svedese KO in Nazionale il 26 settembre vittima di un problema al tendine della coscia destra. Ha deciso di operarsi e affronterà un lungo stop.",
-   "r": "Ipotesi di rientro in campo da fine febbraio."
+   "n": "Theate",
+   "d": "il difensore indisponibile last minute l'11 ottobre a Lecce per una contusione alla gamba.",
+   "r": "Condizioni da valutare, a rischio la sua presenza anche per sabato in casa contro l'Inter."
   },
   {
    "s": "Cagliari",
@@ -112,32 +112,20 @@
   {
    "s": "Genoa",
    "n": "Colombo",
-   "d": "L'attaccante non al meglio per un problema alla caviglia rimediato venerdì scorso in amichevole e darà forfait nel prossimo turno di campionato contro la Fiorentina.",
-   "r": "Ipotesi di rientro da fine ottobre."
-  },
-  {
-   "s": "Genoa",
-   "n": "Venturino",
-   "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
-   "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da inizio novembre."
-  },
-  {
-   "s": "Genoa",
-   "n": "Amorim",
-   "d": "Il centrocampista non ha recuperato da un problema fisico e non è stato convocato per la gara contro la Fiorentina. Ora le condizioni sono in miglioramento e proverà a esserci sabato nella 7a giornata di campionato a Roma contro i giallorossi.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Genoa",
-   "n": "Otoa",
-   "d": "il difensore costretto al cambio sabato scorso contro la Fiorentina al Ferraris per un fastidio muscolare alla gamba. Andrà valutato, viaggia verso il forfait per sabato contro la Roma.",
-   "r": "Tempi di recupero da valutare."
+   "d": "L'attaccante non al meglio per un problema alla caviglia, darà forfait nel prossimo turno di campionato.",
+   "r": "Rientro da inizio novembre."
   },
   {
    "s": "Genoa",
    "n": "Meichtry",
    "d": "Il calciatore in recupero da una distrazione della muscolatura di un'anca",
    "r": "da valutare nei prossimi allenamenti in vista della sfida di sabato a Roma contro i giallorossi."
+  },
+  {
+   "s": "Genoa",
+   "n": "Venturino",
+   "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
+   "r": "Di certo assente nel prossimo turno di campionato, ipotesi di rientro da inizio novembre."
   },
   {
    "s": "Inter",
@@ -153,21 +141,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Thuram K.",
-   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
-   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
-  },
-  {
-   "s": "Juventus",
-   "n": "Boga",
-   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
-   "r": "ipotizziamo un possibile rientro dalla metà di novembre."
-  },
-  {
-   "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
-   "r": "rientro dalla metà di novembre."
+   "n": "Grabara",
+   "d": "Il portiere out dal 20 settembre per una lesione al crociato anteriore del ginocchio destro.",
+   "r": "Operazione chirurgica e lungo stop, rientro da aprile."
   },
   {
    "s": "Juventus",
@@ -177,9 +153,21 @@
   },
   {
    "s": "Juventus",
-   "n": "Grabara",
-   "d": "Il portiere out dal 20 settembre per una lesione al crociato anteriore del ginocchio destro.",
-   "r": "Operazione chirurgica e lungo stop, rientro da aprile."
+   "n": "Ekhator",
+   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
+   "r": "rientro dalla metà di novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Boga",
+   "d": "l'ala offensiva dei bianconeri fermo dopo il match contro il Milan (6 settembre) per una lesione di medio grado del bicipite femorale",
+   "r": "ipotizziamo un possibile rientro dalla metà di novembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
+   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Lazio",
@@ -202,8 +190,8 @@
   {
    "s": "Lecce",
    "n": "Ilic",
-   "d": "il regista dei salentini KO l'11 ottobre in casa contro il Bologna vittima di un guaio muscolare alla gamba che andrà valutato. Assente domenica a Udine.",
-   "r": "Tempi di recupero da valutare."
+   "d": "il regista dei salentini KO l'11 ottobre in casa contro il Bologna vittima di una lesione muscolare al retto femorale della coscia sinistra",
+   "r": "rientro da inizio novembre."
   },
   {
    "s": "Milan",
@@ -214,8 +202,8 @@
   {
    "s": "Milan",
    "n": "Saelemaekers",
-   "d": "Il belga fermo da inizio ottobre per un problema alla caviglia, concreta ora la possibilità di operarsi.",
-   "r": "Saranno poi da stabilire i tempi di recupero, ma lo stop sarà lungo e lo rivedremo in campo nel 2027 inoltrato."
+   "d": "Il belga fermo da inizio ottobre per un problema alla caviglia destra e operata il 13 ottobre. Stop lungo e lo rivedremo in campo nel 2027 inoltrato (ipotesi da febbraio).",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Monza",
@@ -279,15 +267,15 @@
   },
   {
    "s": "Roma",
-   "n": "Svilar",
-   "d": "Il portiere condizionato da una frattura a un dito del piede e fuori dal match contro il Como.",
-   "r": "Ipotesi di rientro a disposizione dalla metà di novembre."
-  },
-  {
-   "s": "Roma",
    "n": "Cristante",
    "d": "Il mediano giallorosso in ripresa da un'infiammazione al ginocchio e, dopo il forfait di domenica scorsa a Como, sta forzando il rientro per esserci domenica contro il Genoa nella 7a giornata di A.",
    "r": "Da valutare nella rifinitura di venerdì a Trigoria."
+  },
+  {
+   "s": "Roma",
+   "n": "Svilar",
+   "d": "Il portiere condizionato da una frattura a un dito del piede e fuori dal match contro il Como.",
+   "r": "Ipotesi di rientro a disposizione dalla metà di novembre."
   },
   {
    "s": "Sassuolo",
@@ -298,8 +286,8 @@
   {
    "s": "Sassuolo",
    "n": "Leysen F.",
-   "d": "il difensore KO l'11 ottobre contro il Milan vittima di un problema al ginocchio che andrà valutato per stabilire i tempi di recupero. Di certo out venerdì contro il Frosinone in campionato.",
-   "r": "Tempi di recupero da valutare."
+   "d": "il difensore KO l'11 ottobre contro il Milan vittima di una lesione al crociato anteriore del ginocchio sinistro.",
+   "r": "Lungo stop, ipotesi rientro in campo da aprile."
   },
   {
    "s": "Sassuolo",
@@ -346,8 +334,8 @@
   {
    "s": "Udinese",
    "n": "Bayo V.",
-   "d": "l'attaccante assente a Torino il 12 ottobre a causa di un problema muscolare alla gamba",
-   "r": "che rimane da valutare ma non ci sarà neppure domenica contro il Lecce in casa."
+   "d": "l'attaccante assente a Torino il 12 ottobre a causa di una lesione al bicipite femorale della coscia destra",
+   "r": "rientro tra i convocati da metà novembre."
   },
   {
    "s": "Udinese",
@@ -438,6 +426,12 @@
    "n": "Nuredini",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
+  },
+  {
+   "s": "Genoa",
+   "n": "Alex Amorim",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Udinese",
