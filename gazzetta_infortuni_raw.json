@@ -24,6 +24,10 @@
   },
   {
    "n": "Leysen",
+   "stato": "Stagione Finita"
+  },
+  {
+   "n": "Idzes",
    "stato": "Da valutare"
   }
  ],
@@ -52,7 +56,7 @@
   },
   {
    "n": "Alisson Santos",
-   "stato": "Rientro alla 8"
+   "stato": "Da valutare"
   },
   {
    "n": "Olivera",
@@ -73,16 +77,12 @@
  ],
  "Bologna": [
   {
-   "n": "Odgaard",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Holm",
    "stato": "Rientro alla 22"
   },
   {
-   "n": "Mbangula",
-   "stato": "Da valutare"
+   "n": "Orsolini",
+   "stato": "Rientro alla 10"
   }
  ],
  "Inter": [
@@ -93,6 +93,10 @@
   {
    "n": "Jones",
    "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Lautaro Martínez",
+   "stato": "Rientro alla 12"
   }
  ],
  "Roma": [
@@ -101,11 +105,15 @@
    "stato": "Rientro alla 12"
   },
   {
-   "n": "Koulierakis",
+   "n": "Cristante",
    "stato": "Da valutare"
   },
   {
-   "n": "Cristante",
+   "n": "Koné",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Dybala",
    "stato": "Da valutare"
   }
  ],
@@ -171,12 +179,20 @@
   {
    "n": "Parisi",
    "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Atta",
+   "stato": "Da valutare"
   }
  ],
  "Como": [
   {
    "n": "Kean",
    "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Diao",
+   "stato": "Da valutare"
   }
  ],
  "Milan": [
@@ -191,6 +207,10 @@
   {
    "n": "Gabbia",
    "stato": "Rientro alla 20"
+  },
+  {
+   "n": "Chukwueze",
+   "stato": "Da valutare"
   }
  ],
  "Atalanta": [
@@ -209,6 +229,10 @@
   {
    "n": "Kamaldeen Sulemana",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Scalvini",
+   "stato": "Rientro alla 8"
   }
  ],
  "Juventus": [
@@ -235,6 +259,10 @@
   {
    "n": "Grabara",
    "stato": "Rientro alla 29"
+  },
+  {
+   "n": "Çelik",
+   "stato": "Da valutare"
   }
  ],
  "Lazio": [
@@ -299,11 +327,19 @@
   {
    "n": "Ndiaye",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Elphege",
+   "stato": "Da valutare"
   }
  ],
  "Torino": [
   {
    "n": "Israel",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ilkhan",
    "stato": "Da valutare"
   }
  ]

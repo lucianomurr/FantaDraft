@@ -40,7 +40,7 @@
     },
     {
      "n": "Masini",
-     "pct": 95,
+     "pct": 60,
      "riv": null
     },
     {
@@ -124,6 +124,11 @@
      "riv": "Cittadini"
     },
     {
+     "n": "Cichella",
+     "pct": 40,
+     "riv": "Masini"
+    },
+    {
      "n": "Cinquegrano",
      "pct": 49,
      "riv": "Van Der Brempt"
@@ -170,11 +175,6 @@
     },
     {
      "n": "Terzic",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Cichella",
      "pct": 5,
      "riv": null
     },
@@ -344,7 +344,7 @@
     },
     {
      "n": "De Bruyne",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -353,7 +353,7 @@
      "riv": null
     },
     {
-     "n": "Neres",
+     "n": "Giovane",
      "pct": 51,
      "riv": null
     },
@@ -364,7 +364,7 @@
     },
     {
      "n": "Hojlund",
-     "pct": 95,
+     "pct": 60,
      "riv": null
     },
     {
@@ -378,14 +378,24 @@
      "riv": "Sagrado"
     },
     {
+     "n": "Gilmour",
+     "pct": 49,
+     "riv": "De Bruyne"
+    },
+    {
      "n": "Politano",
      "pct": 49,
-     "riv": "Neres"
+     "riv": "Giovane"
     },
     {
      "n": "Lang",
      "pct": 49,
      "riv": "Mctominay"
+    },
+    {
+     "n": "Lucca",
+     "pct": 40,
+     "riv": "Hojlund"
     },
     {
      "n": "Grandi",
@@ -453,17 +463,17 @@
      "riv": null
     },
     {
-     "n": "Gilmour",
+     "n": "Olivera",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Giovane",
+     "n": "Zambo Anguissa",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Lucca",
+     "n": "Santos A.",
      "pct": 5,
      "riv": null
     }
@@ -533,7 +543,7 @@
     },
     {
      "n": "Martinez Jo.",
-     "pct": 60,
+     "pct": 51,
      "riv": null
     },
     {
@@ -582,8 +592,8 @@
      "riv": null
     },
     {
-     "n": "Martinez L.",
-     "pct": 51,
+     "n": "Esposito F.P.",
+     "pct": 60,
      "riv": null
     },
     {
@@ -613,7 +623,7 @@
     },
     {
      "n": "Provedel",
-     "pct": 40,
+     "pct": 49,
      "riv": "Martinez Jo."
     },
     {
@@ -647,9 +657,9 @@
      "riv": "Sucic P."
     },
     {
-     "n": "Esposito F.P.",
-     "pct": 49,
-     "riv": "Martinez L."
+     "n": "Bonny",
+     "pct": 5,
+     "riv": "Esposito F.P."
     },
     {
      "n": "Happonen",
@@ -705,11 +715,6 @@
      "n": "Spence",
      "pct": 5,
      "riv": null
-    },
-    {
-     "n": "Bonny",
-     "pct": 5,
-     "riv": null
     }
    ]
   },
@@ -731,7 +736,7 @@
      "riv": null
     },
     {
-     "n": "N'Dicka",
+     "n": "Balerdi",
      "pct": 51,
      "riv": null
     },
@@ -746,13 +751,13 @@
      "riv": null
     },
     {
-     "n": "Konè M.",
+     "n": "Pisilli",
      "pct": 95,
      "riv": null
     },
     {
      "n": "De Roon",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -761,12 +766,12 @@
      "riv": null
     },
     {
-     "n": "Dybala",
-     "pct": 51,
+     "n": "Soulè",
+     "pct": 95,
      "riv": null
     },
     {
-     "n": "Pellegrini Lo.",
+     "n": "Mora",
      "pct": 51,
      "riv": null
     },
@@ -831,9 +836,9 @@
      "riv": null
     },
     {
-     "n": "Balerdi",
+     "n": "N'Dicka",
      "pct": 49,
-     "riv": "N'Dicka"
+     "riv": "Balerdi"
     },
     {
      "n": "Lulli",
@@ -841,19 +846,9 @@
      "riv": "Molina N."
     },
     {
-     "n": "Pisilli",
+     "n": "Pellegrini Lo.",
      "pct": 49,
-     "riv": "De Roon"
-    },
-    {
-     "n": "Soulè",
-     "pct": 49,
-     "riv": "Dybala"
-    },
-    {
-     "n": "Mora",
-     "pct": 49,
-     "riv": "Pellegrini Lo."
+     "riv": "Mora"
     },
     {
      "n": "Baldanzi",
@@ -1158,6 +1153,11 @@
      "n": "N'Dri",
      "pct": 5,
      "riv": null
+    },
+    {
+     "n": "Stulic",
+     "pct": 5,
+     "riv": null
     }
    ]
   },
@@ -1225,7 +1225,7 @@
     },
     {
      "n": "Butez",
-     "pct": 60,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1259,8 +1259,8 @@
      "riv": null
     },
     {
-     "n": "Diao",
-     "pct": 95,
+     "n": "Rodriguez Je.",
+     "pct": 51,
      "riv": null
     },
     {
@@ -1299,11 +1299,6 @@
      "riv": "Pellegrino M."
     },
     {
-     "n": "Sanchez Ro.",
-     "pct": 40,
-     "riv": "Butez"
-    },
-    {
      "n": "Smolcic I.",
      "pct": 49,
      "riv": "Couto"
@@ -1326,7 +1321,7 @@
     {
      "n": "Caqueret",
      "pct": 49,
-     "riv": "Baturina"
+     "riv": "Rodriguez Je."
     },
     {
      "n": "Christensen O.",
@@ -1355,6 +1350,11 @@
     },
     {
      "n": "Gnonto",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Sanchez Ro.",
      "pct": 5,
      "riv": null
     },
@@ -1390,11 +1390,6 @@
     },
     {
      "n": "Ricci S.",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Rodriguez Je.",
      "pct": 5,
      "riv": null
     }
@@ -1488,18 +1483,18 @@
      "riv": null
     },
     {
-     "n": "Kessiè",
-     "pct": 95,
-     "riv": null
-    },
-    {
      "n": "Ederson D.S.",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Zalewski",
+     "n": "Gaetano",
      "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Zalewski",
+     "pct": 51,
      "riv": null
     },
     {
@@ -1533,6 +1528,11 @@
      "riv": "Zappacosta"
     },
     {
+     "n": "Samardzic",
+     "pct": 49,
+     "riv": "Zalewski"
+    },
+    {
      "n": "Scamacca",
      "pct": 49,
      "riv": "Krstovic"
@@ -1558,12 +1558,12 @@
      "riv": null
     },
     {
-     "n": "Christian Comotto",
+     "n": "Cissè A.",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Cissè A.",
+     "n": "Comotto",
      "pct": 5,
      "riv": null
     },
@@ -1598,17 +1598,7 @@
      "riv": null
     },
     {
-     "n": "Gaetano",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Pasalic",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Samardzic",
      "pct": 5,
      "riv": null
     },
@@ -1693,7 +1683,7 @@
     },
     {
      "n": "Doekhi",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -1757,14 +1747,14 @@
      "riv": "Alajbegovic"
     },
     {
+     "n": "Sutalo J.",
+     "pct": 49,
+     "riv": "Doekhi"
+    },
+    {
      "n": "Pinamonti",
      "pct": 49,
      "riv": "Noslin"
-    },
-    {
-     "n": "Woltemade",
-     "pct": 5,
-     "riv": null
     },
     {
      "n": "Neto",
@@ -1797,6 +1787,11 @@
      "riv": null
     },
     {
+     "n": "Woltemade",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Motta",
      "pct": 5,
      "riv": null
@@ -1818,11 +1813,6 @@
     },
     {
      "n": "Pedraza",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Sutalo J.",
      "pct": 5,
      "riv": null
     },
