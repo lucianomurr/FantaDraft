@@ -3,10 +3,6 @@
   {
    "n": "Grillitsch",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Bîrligea",
-   "stato": "Da valutare"
   }
  ],
  "Sassuolo": [
@@ -29,6 +25,10 @@
   {
    "n": "Idzes",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Paz",
+   "stato": "Da valutare"
   }
  ],
  "Venezia": [
@@ -47,19 +47,23 @@
   {
    "n": "Thierry Correia",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Mazzocchi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Sverko",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Adorante",
+   "stato": "Da valutare"
   }
  ],
  "Napoli": [
   {
    "n": "Buongiorno",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Alisson Santos",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Olivera",
    "stato": "Da valutare"
   },
   {
@@ -71,7 +75,7 @@
    "stato": "Rientro alla 10"
   },
   {
-   "n": "Anguissa",
+   "n": "David Neres",
    "stato": "Da valutare"
   }
  ],
@@ -97,6 +101,10 @@
   {
    "n": "Lautaro Martínez",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pavard",
+   "stato": "Da valutare"
   }
  ],
  "Roma": [
@@ -149,16 +157,24 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Arizala",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Gueye",
    "stato": "Rientro alla 17"
   },
   {
    "n": "Zaniolo",
    "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Abankwah",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bayo",
+   "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Zanoli",
+   "stato": "Da valutare"
   }
  ],
  "Lecce": [
@@ -207,10 +223,6 @@
   {
    "n": "Gabbia",
    "stato": "Rientro alla 20"
-  },
-  {
-   "n": "Chukwueze",
-   "stato": "Da valutare"
   }
  ],
  "Atalanta": [
@@ -233,6 +245,18 @@
   {
    "n": "Scalvini",
    "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Kessie",
+   "stato": "Rientro alla 8"
+  },
+  {
+   "n": "Raspadori",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bellanova",
+   "stato": "Da valutare"
   }
  ],
  "Juventus": [
@@ -253,16 +277,12 @@
    "stato": "Rientro alla 28"
   },
   {
-   "n": "Boga",
-   "stato": "Rientro alla 11"
-  },
-  {
    "n": "Grabara",
    "stato": "Rientro alla 29"
   },
   {
-   "n": "Çelik",
-   "stato": "Da valutare"
+   "n": "Owusu",
+   "stato": "Rientro alla 8"
   }
  ],
  "Lazio": [
@@ -322,10 +342,6 @@
   },
   {
    "n": "Almqvist",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ndiaye",
    "stato": "Da valutare"
   },
   {
