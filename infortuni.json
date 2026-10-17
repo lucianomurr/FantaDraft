@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-16",
+ "aggiornato": "2026-10-17",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -22,8 +22,8 @@
   {
    "s": "Atalanta",
    "n": "Raspadori",
-   "d": "Nuovo stop muscolare per l'attaccante, frenato il 15 ottobre in Conference League da un fastidio alla gamba che andrà valutato nelle prossime ore. Forfait in campionato domenica a Milano contro i rossoneri.",
-   "r": "Tempi di recupero da valutare."
+   "d": "Nuovo stop muscolare per l'attaccante, frenato il 15 ottobre in Conference League da una distrazione muscolare di basso grado al bicipite femorale della coscia destra",
+   "r": "rientro dall'inizio di novembre."
   },
   {
    "s": "Atalanta",
@@ -76,14 +76,14 @@
   {
    "s": "Como",
    "n": "Diao",
-   "d": "L'attaccante KO il 14 ottobre in Champions League, costretto al cambio per noie muscolari alla gamba che andranno valutate. Forfait nel prossimo turno di campionato contro la Fiorentina.",
-   "r": "Tempi di recupero da valutare."
+   "d": "L'attaccante KO il 14 ottobre in Champions League, costretto al cambio per una lesione muscolare al flessore della gamba",
+   "r": "rientro tra i convocati dalla metà di novembre."
   },
   {
    "s": "Como",
    "n": "Kean",
-   "d": "l'attaccante non ha recuperato dal fastidio alla tibia e ha saltato la sfida di domenica scorsa contro la Roma.",
-   "r": "Da valutare in settimana le possibilità di recupero in vista di domenica nella 7a giornata di A contro la Fiorentina."
+   "d": "l'attaccante non ha recuperato dal fastidio alla tibia e, dopo aver saltato la sfida contro la Roma, non ci sarà domenica a Firenze.",
+   "r": "Da valutare nei prossimi giorni le possibilità di recupero in vista della 8a giornata di A."
   },
   {
    "s": "Fiorentina",
@@ -357,12 +357,6 @@
   },
   {
    "s": "Udinese",
-   "n": "Abankwah",
-   "d": "il difensore costretto al cambio il 12 ottobre contro il Toro per un problema muscolare al flessore della coscia sinistra che andrà valutato. Viaggia verso il forfait per domenica contro il Lecce in casa.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Udinese",
    "n": "Zaniolo",
    "d": "Il calciatore alle prese con una lesione muscolare al bicipite femorale destro",
    "r": "rientro previsto dalla fine di ottobre."
@@ -410,22 +404,10 @@
    "r": "recuperabile da fine ottobre."
   },
   {
-   "s": "Sassuolo",
-   "n": "Paz",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Venezia",
    "n": "Bella-Kotchap",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Venezia",
-   "n": "Mazzocchi",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
+   "d": "il difensore in ripresa da noie fisiche che lo hanno condizionato nelle ultime settimane, proverà a esserci dall'8a giornata di A.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Inter",
@@ -447,7 +429,7 @@
   },
   {
    "s": "Udinese",
-   "n": "Piotrowski",
+   "n": "Abankwah",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
@@ -458,20 +440,8 @@
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Lecce",
-   "n": "Scott",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Milan",
    "n": "Pietro Terracciano",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Bellanova",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },

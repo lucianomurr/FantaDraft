@@ -10,133 +10,113 @@
    "players": [
     {
      "n": "Palmisani",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Oyono A.",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Calvani",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Monterisi",
-     "pct": 51,
-     "riv": null
-    },
-    {
-     "n": "Bracaglia",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Calò",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Masini",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Ghedjemis",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Schmid",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Kvernadze",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Raimondo",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Muric",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Van Der Brempt",
-     "pct": 51,
-     "riv": null
-    },
-    {
-     "n": "Caleta-Car",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Odenthal",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Doig",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Adzic",
-     "pct": 51,
-     "riv": null
-    },
-    {
-     "n": "Matic",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Thorstvedt",
-     "pct": 51,
-     "riv": null
-    },
-    {
-     "n": "Berardi",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Esposito Se.",
-     "pct": 60,
-     "riv": null
-    },
-    {
-     "n": "Laurientè",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Cittadini",
-     "pct": 49,
-     "riv": "Monterisi"
+     "pct": 100,
+     "riv": null
     },
     {
-     "n": "Cinquegrano",
-     "pct": 49,
-     "riv": "Van Der Brempt"
+     "n": "Bracaglia",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Calò",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Masini",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Ghedjemis",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Schmid",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Kvernadze",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Raimondo",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Muric",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Van Der Brempt",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Caleta-Car",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Odenthal",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Doig",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Thorstvedt",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Matic",
+     "pct": 100,
+     "riv": null
     },
     {
      "n": "Bakola",
-     "pct": 49,
-     "riv": "Adzic"
+     "pct": 100,
+     "riv": null
     },
     {
-     "n": "Bowie",
-     "pct": 40,
-     "riv": "Esposito Se."
+     "n": "Berardi",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Esposito Se.",
+     "pct": 100,
+     "riv": null
+    },
+    {
+     "n": "Laurientè",
+     "pct": 100,
+     "riv": null
     },
     {
      "n": "Desplanches",
@@ -224,12 +204,22 @@
      "riv": null
     },
     {
+     "n": "Cinquegrano",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Obrador",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Walukiewicz",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Adzic",
      "pct": 5,
      "riv": null
     },
@@ -252,6 +242,11 @@
      "n": "Volpato",
      "pct": 5,
      "riv": null
+    },
+    {
+     "n": "Bowie",
+     "pct": 5,
+     "riv": null
     }
    ]
   },
@@ -264,92 +259,92 @@
    "players": [
     {
      "n": "Stankovic F.",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Moreno M.",
-     "pct": 51,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Juan Jesus",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Halhal",
-     "pct": 51,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Hainaut",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Basic",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Sohm",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Perez K.",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Haps",
-     "pct": 51,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Yeboah J.",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Adams A.",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Meret",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
-     "n": "Marin R.",
-     "pct": 95,
+     "n": "Beukema",
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Rrahmani",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Badiashile",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Di Lorenzo",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Lobotka",
-     "pct": 95,
+     "pct": 100,
      "riv": null
     },
     {
-     "n": "De Bruyne",
-     "pct": 51,
+     "n": "Gilmour",
+     "pct": 100,
      "riv": null
     },
     {
@@ -359,48 +354,18 @@
     },
     {
      "n": "Giovane",
-     "pct": 51,
+     "pct": 100,
      "riv": null
     },
     {
      "n": "Mctominay",
-     "pct": 51,
+     "pct": 100,
      "riv": null
-    },
-    {
-     "n": "Hojlund",
-     "pct": 60,
-     "riv": null
-    },
-    {
-     "n": "Schingtienne",
-     "pct": 49,
-     "riv": "Moreno M."
-    },
-    {
-     "n": "Sagrado",
-     "pct": 49,
-     "riv": "Haps"
-    },
-    {
-     "n": "Gilmour",
-     "pct": 49,
-     "riv": "De Bruyne"
-    },
-    {
-     "n": "Politano",
-     "pct": 49,
-     "riv": "Giovane"
-    },
-    {
-     "n": "Lang",
-     "pct": 49,
-     "riv": "Mctominay"
     },
     {
      "n": "Lucca",
-     "pct": 40,
-     "riv": "Hojlund"
+     "pct": 100,
+     "riv": null
     },
     {
      "n": "Grandi",
@@ -414,6 +379,21 @@
     },
     {
      "n": "Gomes",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Mazzocchi",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Sagrado",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Schingtienne",
      "pct": 5,
      "riv": null
     },
@@ -458,12 +438,12 @@
      "riv": null
     },
     {
-     "n": "Beukema",
+     "n": "Marianucci",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Marianucci",
+     "n": "Marin R.",
      "pct": 5,
      "riv": null
     },
@@ -473,7 +453,27 @@
      "riv": null
     },
     {
+     "n": "De Bruyne",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Politano",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Zambo Anguissa",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Hojlund",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Lang",
      "pct": 5,
      "riv": null
     },
@@ -737,12 +737,12 @@
     },
     {
      "n": "N'Dicka",
-     "pct": 55,
+     "pct": 51,
      "riv": null
     },
     {
      "n": "Balerdi",
-     "pct": 55,
+     "pct": 51,
      "riv": null
     },
     {
@@ -902,6 +902,11 @@
     },
     {
      "n": "Mitaj",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Otoa",
      "pct": 5,
      "riv": null
     },
@@ -1428,8 +1433,8 @@
      "riv": null
     },
     {
-     "n": "Chukwueze",
-     "pct": 95,
+     "n": "Moreira",
+     "pct": 51,
      "riv": null
     },
     {
@@ -1443,7 +1448,7 @@
      "riv": null
     },
     {
-     "n": "Moreira",
+     "n": "Cissè A.",
      "pct": 51,
      "riv": null
     },
@@ -1513,9 +1518,9 @@
      "riv": null
     },
     {
-     "n": "Cissè A.",
+     "n": "Chukwueze",
      "pct": 49,
-     "riv": "Estupinan"
+     "riv": "Moreira"
     },
     {
      "n": "Musah",
@@ -1543,6 +1548,11 @@
      "riv": null
     },
     {
+     "n": "Hutchinson",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Torriani",
      "pct": 5,
      "riv": null
@@ -1564,11 +1574,6 @@
     },
     {
      "n": "Comotto",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Hutchinson",
      "pct": 5,
      "riv": null
     },
@@ -1607,7 +1612,7 @@
   {
    "home": "Juventus",
    "away": "Lazio",
-   "homeMod": "4-2-3-1",
+   "homeMod": "3-4-2-1",
    "awayMod": "4-3-3",
    "date": "2026-10-18T18:45:00.000Z",
    "players": [
@@ -1632,7 +1637,7 @@
      "riv": null
     },
     {
-     "n": "Celik",
+     "n": "Mckennie",
      "pct": 95,
      "riv": null
     },
@@ -1647,17 +1652,17 @@
      "riv": null
     },
     {
-     "n": "Conceicao",
-     "pct": 51,
-     "riv": null
-    },
-    {
-     "n": "Mckennie",
+     "n": "Celik",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Alajbegovic",
+     "n": "Gonzalez N.",
+     "pct": 51,
+     "riv": null
+    },
+    {
+     "n": "Woltemade",
      "pct": 51,
      "riv": null
     },
@@ -1722,14 +1727,14 @@
      "riv": null
     },
     {
-     "n": "Zhegrova",
+     "n": "Alajbegovic",
      "pct": 49,
-     "riv": "Conceicao"
+     "riv": "Gonzalez N."
     },
     {
-     "n": "Gonzalez N.",
+     "n": "Conceicao",
      "pct": 49,
-     "riv": "Alajbegovic"
+     "riv": "Woltemade"
     },
     {
      "n": "Doekhi",
@@ -1740,6 +1745,11 @@
      "n": "Pinamonti",
      "pct": 49,
      "riv": "Noslin"
+    },
+    {
+     "n": "Zhegrova",
+     "pct": 20,
+     "riv": null
     },
     {
      "n": "Neto",
@@ -1782,7 +1792,7 @@
      "riv": null
     },
     {
-     "n": "Woltemade",
+     "n": "Boga",
      "pct": 5,
      "riv": null
     },
@@ -1808,6 +1818,11 @@
     },
     {
      "n": "Pedraza",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Pellegrini Lu.",
      "pct": 5,
      "riv": null
     },
@@ -1881,7 +1896,7 @@
      "riv": null
     },
     {
-     "n": "Cutrone",
+     "n": "Mota",
      "pct": 51,
      "riv": null
     },
@@ -1951,9 +1966,9 @@
      "riv": "Robinson J."
     },
     {
-     "n": "Mota",
+     "n": "Cutrone",
      "pct": 49,
-     "riv": "Cutrone"
+     "riv": "Mota"
     },
     {
      "n": "Deiola",
