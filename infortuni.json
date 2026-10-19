@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-18",
+ "aggiornato": "2026-10-19",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -195,6 +195,12 @@
   },
   {
    "s": "Lazio",
+   "n": "Cancellieri",
+   "d": "L'ala offensiva dei biancocelesti non al meglio per noie fisiche e",
+   "r": "il suo rientro tra i convocati slitta all'8a giornata di campionato."
+  },
+  {
+   "s": "Lazio",
    "n": "Gudmundsson A.",
    "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla fine metà di ottobre/inizio di novembre.",
    "r": "Tempi di recupero da valutare."
@@ -222,12 +228,6 @@
    "n": "Saelemaekers",
    "d": "Il belga fermo da inizio ottobre per un problema alla caviglia destra e operata il 13 ottobre. Stop lungo e lo rivedremo in campo nel 2027 inoltrato (ipotesi da febbraio).",
    "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Monza",
-   "n": "Ciurria",
-   "d": "il centrocampista non al meglio per noie fisiche, forfait anche nel prossimo turno.",
-   "r": "Da valutare."
   },
   {
    "s": "Monza",
@@ -309,15 +309,15 @@
   },
   {
    "s": "Roma",
-   "n": "Cristante",
-   "d": "Il mediano giallorosso in ripresa da un'infiammazione al ginocchio e, dopo il forfait di domenica scorsa a Como, non ci sarà neppure sabato contro il Genoa. Ottimismo tuttavia per rivederlo in campo contro il Napoli nell'8a giornata di A.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Roma",
    "n": "Svilar",
    "d": "Il portiere condizionato da una frattura a un dito del piede e fuori dal match contro il Como.",
    "r": "Ipotesi di rientro a disposizione dalla metà di novembre."
+  },
+  {
+   "s": "Roma",
+   "n": "Cristante",
+   "d": "Il mediano giallorosso in ripresa da un'infiammazione al ginocchio e, dopo il forfait di domenica scorsa a Como, non ci sarà neppure sabato contro il Genoa. Ottimismo tuttavia per rivederlo in campo contro il Napoli nell'8a giornata di A.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Roma",
@@ -422,16 +422,52 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Milan",
-   "n": "Pietro Terracciano",
+   "s": "Torino",
+   "n": "Israel",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Juventus",
-   "n": "Owusu",
+   "s": "Torino",
+   "n": "Pellegri",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 8 (fonte Gazzetta)."
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Torino",
+   "n": "Adams",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Monza",
+   "n": "Ciurria",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Como",
+   "n": "Yan Couto",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Como",
+   "n": "Chalobah",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Paz",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Bologna",
+   "n": "Piccoli",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Lazio",
@@ -441,13 +477,55 @@
   },
   {
    "s": "Lazio",
-   "n": "Cancellieri",
+   "n": "Taylor",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Torino",
-   "n": "Israel",
+   "s": "Inter",
+   "n": "Stones",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Genoa",
+   "n": "Nuredini",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
+  },
+  {
+   "s": "Genoa",
+   "n": "Alex Amorim",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Kolasinac",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Lecce",
+   "n": "Coulibaly",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Juventus",
+   "n": "Francisco Conceição",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Punta a rientrare per la giornata 12 (fonte Gazzetta)."
+  },
+  {
+   "s": "Udinese",
+   "n": "Abankwah",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Milan",
+   "n": "Pietro Terracciano",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   }
