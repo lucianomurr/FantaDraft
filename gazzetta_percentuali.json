@@ -3,16 +3,16 @@
   {
    "home": "Torino",
    "away": "Monza",
-   "homeMod": "3-5-2",
+   "homeMod": "4-4-2",
    "awayMod": "3-4-2-1",
    "players": [
     {
      "n": "Perri",
-     "pct": 60,
-     "riv": "Mascardi"
+     "pct": 95,
+     "riv": null
     },
     {
-     "n": "Comuzzo",
+     "n": "Belghali",
      "pct": 95,
      "riv": null
     },
@@ -22,27 +22,27 @@
      "riv": null
     },
     {
-     "n": "Comert",
+     "n": "Ismajli",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Fortini",
+     "n": "Comuzzo",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Gineitis",
-     "pct": 60,
-     "riv": "Ilkhan"
+     "n": "Vlasic",
+     "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Bragança",
+     "pct": 95,
+     "riv": null
     },
     {
      "n": "Mandragora",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Fitz-Jim",
      "pct": 95,
      "riv": null
     },
@@ -52,7 +52,7 @@
      "riv": null
     },
     {
-     "n": "Vlasic",
+     "n": "Adams",
      "pct": 95,
      "riv": null
     },
@@ -63,8 +63,8 @@
     },
     {
      "n": "Mascardi",
-     "pct": 40,
-     "riv": "Perri"
+     "pct": 5,
+     "riv": null
     },
     {
      "n": "Siviero",
@@ -77,9 +77,14 @@
      "riv": null
     },
     {
+     "n": "Comert",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Ilkhan",
-     "pct": 40,
-     "riv": "Gineitis"
+     "pct": 5,
+     "riv": null
     },
     {
      "n": "Luongo",
@@ -87,7 +92,7 @@
      "riv": null
     },
     {
-     "n": "Bragança",
+     "n": "Gineitis",
      "pct": 5,
      "riv": null
     },
@@ -102,7 +107,12 @@
      "riv": null
     },
     {
-     "n": "Belghali",
+     "n": "Fortini",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Fitz-Jim",
      "pct": 5,
      "riv": null
     },
@@ -118,11 +128,6 @@
     },
     {
      "n": "Aboukhlal",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Ismajli",
      "pct": 5,
      "riv": null
     },
@@ -168,8 +173,8 @@
     },
     {
      "n": "Folorunsho",
-     "pct": 95,
-     "riv": null
+     "pct": 55,
+     "riv": "Foe Ondoa"
     },
     {
      "n": "Mangas",
@@ -177,12 +182,12 @@
      "riv": null
     },
     {
-     "n": "Colpani",
+     "n": "Robinson",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Cutrone",
+     "n": "Mota",
      "pct": 95,
      "riv": null
     },
@@ -223,8 +228,8 @@
     },
     {
      "n": "Foe Ondoa",
-     "pct": 5,
-     "riv": null
+     "pct": 45,
+     "riv": "Folorunsho"
     },
     {
      "n": "Mout",
@@ -237,7 +242,7 @@
      "riv": null
     },
     {
-     "n": "Robinson",
+     "n": "Colpani",
      "pct": 5,
      "riv": null
     },
@@ -252,7 +257,7 @@
      "riv": null
     },
     {
-     "n": "Mota",
+     "n": "Cutrone",
      "pct": 5,
      "riv": null
     }
@@ -643,7 +648,7 @@
      "riv": null
     },
     {
-     "n": "Carlos",
+     "n": "Kevin Carlos",
      "pct": 5,
      "riv": null
     },
@@ -872,11 +877,6 @@
     },
     {
      "n": "Lang",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Alisson",
      "pct": 5,
      "riv": null
     },
@@ -1130,8 +1130,8 @@
     },
     {
      "n": "Britschgi",
-     "pct": 60,
-     "riv": "Drobnic"
+     "pct": 95,
+     "riv": null
     },
     {
      "n": "Keita",
@@ -1185,13 +1185,13 @@
     },
     {
      "n": "Sierro",
-     "pct": 40,
-     "riv": "Bernabé"
+     "pct": 5,
+     "riv": null
     },
     {
      "n": "Drobnic",
-     "pct": 40,
-     "riv": "Britschgi"
+     "pct": 5,
+     "riv": null
     },
     {
      "n": "Konate",
@@ -1222,11 +1222,6 @@
      "n": "Frigan",
      "pct": 5,
      "riv": null
-    },
-    {
-     "n": "Bernabé",
-     "pct": 60,
-     "riv": "Sierro"
     }
    ]
   },
@@ -1645,11 +1640,6 @@
      "riv": null
     },
     {
-     "n": "Moreno",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Mohammed",
      "pct": 5,
      "riv": null
@@ -1819,8 +1809,8 @@
     },
     {
      "n": "Cittadini",
-     "pct": 95,
-     "riv": null
+     "pct": 60,
+     "riv": "Calvani"
     },
     {
      "n": "Monterisi",
@@ -1874,8 +1864,8 @@
     },
     {
      "n": "Calvani",
-     "pct": 5,
-     "riv": null
+     "pct": 40,
+     "riv": "Cittadini"
     },
     {
      "n": "Terzic",

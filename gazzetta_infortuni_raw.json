@@ -7,10 +7,6 @@
   {
    "n": "Pellegri",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Adams",
-   "stato": "Da valutare"
   }
  ],
  "Monza": [
@@ -42,6 +38,10 @@
   },
   {
    "n": "Chalobah",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Kean",
    "stato": "Da valutare"
   }
  ],
@@ -115,6 +115,10 @@
   {
    "n": "David Neres",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Alisson Santos",
+   "stato": "Rientro alla 11"
   }
  ],
  "Roma": [
@@ -132,7 +136,7 @@
   },
   {
    "n": "Dybala",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 11"
   }
  ],
  "Lazio": [
@@ -249,6 +253,10 @@
   {
    "n": "Adorante",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Moreno",
+   "stato": "Da valutare"
   }
  ],
  "Atalanta": [
