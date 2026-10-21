@@ -27,10 +27,38 @@
    "stato": "Da valutare"
   }
  ],
+ "Cagliari": [
+  {
+   "n": "Felici",
+   "stato": "Rientro alla 32"
+  },
+  {
+   "n": "Idrissi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Trepy",
+   "stato": "Da valutare"
+  }
+ ],
+ "Bologna": [
+  {
+   "n": "Holm",
+   "stato": "Rientro alla 22"
+  },
+  {
+   "n": "Orsolini",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Piccoli",
+   "stato": "Rientro alla 12"
+  }
+ ],
  "Como": [
   {
    "n": "Diao",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   },
   {
    "n": "Yan Couto",
@@ -38,10 +66,14 @@
   },
   {
    "n": "Chalobah",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   },
   {
    "n": "Kean",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rodríguez",
    "stato": "Da valutare"
   }
  ],
@@ -71,34 +103,6 @@
    "stato": "Da valutare"
   }
  ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Rientro alla 32"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Orsolini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Piccoli",
-   "stato": "Da valutare"
-  }
- ],
  "Napoli": [
   {
    "n": "Buongiorno",
@@ -118,17 +122,13 @@
   },
   {
    "n": "Alisson Santos",
-   "stato": "Rientro alla 11"
+   "stato": "Da valutare"
   }
  ],
  "Roma": [
   {
    "n": "Svilar",
    "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Cristante",
-   "stato": "Da valutare"
   },
   {
    "n": "Koné",
@@ -207,6 +207,42 @@
    "stato": "Da valutare"
   }
  ],
+ "Atalanta": [
+  {
+   "n": "Hien",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Kossounou",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pompei",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Kamaldeen Sulemana",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Kessie",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Raspadori",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Kolasinac",
+   "stato": "Rientro alla 12"
+  }
+ ],
+ "Frosinone": [
+  {
+   "n": "Grillitsch",
+   "stato": "Da valutare"
+  }
+ ],
  "Genoa": [
   {
    "n": "Venturino",
@@ -259,42 +295,6 @@
    "stato": "Da valutare"
   }
  ],
- "Atalanta": [
-  {
-   "n": "Hien",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Kossounou",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Pompei",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Kamaldeen Sulemana",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Kessie",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Raspadori",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Kolasinac",
-   "stato": "Da valutare"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  }
- ],
  "Lecce": [
   {
    "n": "Berisha",
@@ -306,7 +306,7 @@
   },
   {
    "n": "Coulibaly",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   }
  ],
  "Juventus": [
@@ -347,6 +347,10 @@
   {
    "n": "Bayo",
    "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Alaba",
+   "stato": "Da valutare"
   }
  ],
  "Milan": [
@@ -361,6 +365,14 @@
   {
    "n": "Gabbia",
    "stato": "Rientro alla 20"
+  },
+  {
+   "n": "Gonçalo Ramos",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Chukwueze",
+   "stato": "Da valutare"
   }
  ]
 }

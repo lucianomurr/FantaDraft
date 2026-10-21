@@ -47,20 +47,20 @@
   "opp": "Inter",
   "home": false
  },
- "Atalanta": {
-  "opp": "Frosinone",
-  "home": true
- },
- "Frosinone": {
-  "opp": "Atalanta",
-  "home": false
- },
  "Genoa": {
   "opp": "Venezia",
   "home": true
  },
  "Venezia": {
   "opp": "Genoa",
+  "home": false
+ },
+ "Atalanta": {
+  "opp": "Frosinone",
+  "home": true
+ },
+ "Frosinone": {
+  "opp": "Atalanta",
   "home": false
  },
  "Lecce": {
