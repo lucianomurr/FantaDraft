@@ -114,7 +114,7 @@
   },
   {
    "n": "Vergara",
-   "stato": "Rientro alla 10"
+   "stato": "Da valutare"
   },
   {
    "n": "David Neres",
@@ -137,6 +137,10 @@
   {
    "n": "Dybala",
    "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Pellegrini",
+   "stato": "Da valutare"
   }
  ],
  "Lazio": [
@@ -153,15 +157,7 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Cancellieri",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Marusic",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Taylor",
    "stato": "Da valutare"
   }
  ],
@@ -266,6 +262,10 @@
   },
   {
    "n": "Alex Amorim",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ehizibue",
    "stato": "Da valutare"
   }
  ],

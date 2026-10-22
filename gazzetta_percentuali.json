@@ -892,8 +892,8 @@
     },
     {
      "n": "Mancini",
-     "pct": 95,
-     "riv": null
+     "pct": 80,
+     "riv": "Balerdi"
     },
     {
      "n": "Ndicka",
@@ -906,9 +906,9 @@
      "riv": null
     },
     {
-     "n": "Wesley",
-     "pct": 95,
-     "riv": null
+     "n": "Lulli",
+     "pct": 60,
+     "riv": "Molina"
     },
     {
      "n": "De Roon",
@@ -916,17 +916,12 @@
      "riv": null
     },
     {
-     "n": "Pisilli",
+     "n": "Cristante",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Molina",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Mora",
+     "n": "Wesley",
      "pct": 95,
      "riv": null
     },
@@ -934,6 +929,11 @@
      "n": "Soulé",
      "pct": 95,
      "riv": null
+    },
+    {
+     "n": "Pisilli",
+     "pct": 60,
+     "riv": "Mora"
     },
     {
      "n": "Malen",
@@ -951,22 +951,7 @@
      "riv": null
     },
     {
-     "n": "Ghilardi",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Balerdi",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Koulierakis",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Lulli",
      "pct": 5,
      "riv": null
     },
@@ -976,22 +961,37 @@
      "riv": null
     },
     {
-     "n": "Cristante",
+     "n": "Balerdi",
+     "pct": 20,
+     "riv": "Mancini"
+    },
+    {
+     "n": "Molina",
+     "pct": 40,
+     "riv": "Lulli"
+    },
+    {
+     "n": "Ghilardi",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Pellegrini",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Arena",
+     "n": "Di Nunzio",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Castro",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Mora",
+     "pct": 40,
+     "riv": "Pisilli"
+    },
+    {
+     "n": "Arena",
      "pct": 5,
      "riv": null
     }
@@ -1039,7 +1039,7 @@
      "riv": null
     },
     {
-     "n": "Dele-Bashiru",
+     "n": "Taylor",
      "pct": 95,
      "riv": null
     },
@@ -1085,6 +1085,16 @@
     },
     {
      "n": "Pedraza",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Dele-Bashiru",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Cancellieri",
      "pct": 5,
      "riv": null
     },
@@ -1362,14 +1372,14 @@
      "riv": null
     },
     {
-     "n": "Ranieri",
+     "n": "Pongracic",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Viery",
-     "pct": 95,
-     "riv": null
+     "n": "Valdepeñas",
+     "pct": 55,
+     "riv": "Viery"
     },
     {
      "n": "Ndour",
@@ -1393,8 +1403,8 @@
     },
     {
      "n": "Pellegrino",
-     "pct": 95,
-     "riv": null
+     "pct": 60,
+     "riv": "Beto"
     },
     {
      "n": "Njie",
@@ -1412,12 +1422,12 @@
      "riv": null
     },
     {
-     "n": "Pongracic",
-     "pct": 5,
-     "riv": null
+     "n": "Viery",
+     "pct": 45,
+     "riv": "Valdepeñas"
     },
     {
-     "n": "Valdepeñas",
+     "n": "Ranieri",
      "pct": 5,
      "riv": null
     },
@@ -1453,8 +1463,8 @@
     },
     {
      "n": "Beto",
-     "pct": 5,
-     "riv": null
+     "pct": 40,
+     "riv": "Pellegrino"
     }
    ]
   },
@@ -1708,7 +1718,7 @@
      "riv": null
     },
     {
-     "n": "Ehizibue",
+     "n": "Ellertsson",
      "pct": 95,
      "riv": null
     },
@@ -1728,7 +1738,7 @@
      "riv": null
     },
     {
-     "n": "Ellertsson",
+     "n": "El Shaarawy",
      "pct": 95,
      "riv": null
     },
@@ -1779,11 +1789,6 @@
     },
     {
      "n": "Mitaj",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "El Shaarawy",
      "pct": 5,
      "riv": null
     },
@@ -2354,7 +2359,7 @@
      "riv": null
     },
     {
-     "n": "Chukwueze",
+     "n": "Pulisic",
      "pct": 95,
      "riv": null
     },
@@ -2364,7 +2369,7 @@
      "riv": null
     },
     {
-     "n": "Pulisic",
+     "n": "Cisse",
      "pct": 95,
      "riv": null
     },
@@ -2425,11 +2430,6 @@
     },
     {
      "n": "Hutchinson",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Cisse",
      "pct": 5,
      "riv": null
     }
