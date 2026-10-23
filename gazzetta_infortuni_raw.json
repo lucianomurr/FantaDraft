@@ -5,25 +5,69 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Pellegri",
+   "n": "Ilkhan",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Rodríguez",
+   "stato": "Rientro alla 10"
   }
  ],
  "Monza": [
   {
    "n": "Pessina",
-   "stato": "Rientro alla 10"
+   "stato": "Rientro alla 12"
   },
   {
    "n": "Ziólkowski",
-   "stato": "Rientro alla 9"
+   "stato": "Rientro alla 12"
   },
   {
-   "n": "Touré",
+   "n": "Maye",
+   "stato": "Da valutare"
+  }
+ ],
+ "Como": [
+  {
+   "n": "Diao",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Chalobah",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Rodríguez",
    "stato": "Da valutare"
   },
   {
-   "n": "Ciurria",
+   "n": "Liberali",
+   "stato": "Da valutare"
+  }
+ ],
+ "Sassuolo": [
+  {
+   "n": "Ismaël Koné",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pieragnolo",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Boloca",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Leysen",
+   "stato": "Stagione Finita"
+  },
+  {
+   "n": "Idzes",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Paz",
    "stato": "Da valutare"
   }
  ],
@@ -55,54 +99,6 @@
    "stato": "Rientro alla 12"
   }
  ],
- "Como": [
-  {
-   "n": "Diao",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Yan Couto",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Chalobah",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Kean",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Da valutare"
-  }
- ],
- "Sassuolo": [
-  {
-   "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Leysen",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Idzes",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  }
- ],
  "Napoli": [
   {
    "n": "Buongiorno",
@@ -111,10 +107,6 @@
   {
    "n": "Favasuli",
    "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Vergara",
-   "stato": "Da valutare"
   },
   {
    "n": "David Neres",
@@ -140,7 +132,7 @@
   },
   {
    "n": "Pellegrini",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 17"
   }
  ],
  "Lazio": [
@@ -150,10 +142,6 @@
   },
   {
    "n": "Rovella",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Przyborek",
    "stato": "Da valutare"
   },
   {
@@ -191,6 +179,10 @@
   {
    "n": "Jones",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Luis Henrique",
+   "stato": ""
   }
  ],
  "Fiorentina": [
@@ -200,6 +192,10 @@
   },
   {
    "n": "Atta",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ranieri",
    "stato": "Da valutare"
   }
  ],
@@ -231,6 +227,10 @@
   {
    "n": "Kolasinac",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Scalvini",
+   "stato": "Rientro alla 9"
   }
  ],
  "Frosinone": [
@@ -253,10 +253,6 @@
    "stato": "Rientro alla 9"
   },
   {
-   "n": "Meichtry",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Sow",
    "stato": "Da valutare"
   },
@@ -276,7 +272,7 @@
   },
   {
    "n": "Busio",
-   "stato": "Rientro alla 12"
+   "stato": "Rientro alla 10"
   },
   {
    "n": "Thierry Correia",
@@ -288,11 +284,15 @@
   },
   {
    "n": "Adorante",
-   "stato": "Rientro alla 12"
+   "stato": "Rientro alla 10"
   },
   {
    "n": "Moreno",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Bella-Kotchap",
+   "stato": "Rientro alla 10"
   }
  ],
  "Lecce": [
@@ -301,12 +301,16 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Ilic",
+   "n": "Coulibaly",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pierotti",
    "stato": "Da valutare"
   },
   {
-   "n": "Coulibaly",
-   "stato": "Rientro alla 12"
+   "n": "Ilic",
+   "stato": "Da valutare"
   }
  ],
  "Juventus": [
@@ -333,16 +337,20 @@
   {
    "n": "Francisco Conceição",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Çelik",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "González",
+   "stato": "Rientro alla 13"
   }
  ],
  "Udinese": [
   {
    "n": "Gueye",
    "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Abankwah",
-   "stato": "Da valutare"
   },
   {
    "n": "Bayo",
@@ -365,10 +373,6 @@
   {
    "n": "Gabbia",
    "stato": "Rientro alla 20"
-  },
-  {
-   "n": "Gonçalo Ramos",
-   "stato": "Da valutare"
   },
   {
    "n": "Chukwueze",
