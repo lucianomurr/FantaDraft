@@ -1,104 +1,4 @@
 {
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ilkhan",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Rientro alla 10"
-  }
- ],
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Ziólkowski",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Maye",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Diao",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Chalobah",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Liberali",
-   "stato": "Da valutare"
-  }
- ],
- "Sassuolo": [
-  {
-   "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pieragnolo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Leysen",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Idzes",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  }
- ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Rientro alla 32"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Orsolini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Piccoli",
-   "stato": "Rientro alla 12"
-  }
- ],
  "Napoli": [
   {
    "n": "Buongiorno",
@@ -376,6 +276,22 @@
   },
   {
    "n": "Chukwueze",
+   "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Loftus-Cheek",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Moreira",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rabiot",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gila",
    "stato": "Da valutare"
   }
  ]
