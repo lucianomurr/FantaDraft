@@ -1,19 +1,267 @@
 {
- "Lecce": [
+ "Sassuolo": [
   {
-   "n": "Berisha",
+   "n": "Ismaël Koné",
    "stato": "Da valutare"
   },
   {
-   "n": "Coulibaly",
+   "n": "Pieragnolo",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Boloca",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Leysen",
+   "stato": "Stagione Finita"
+  },
+  {
+   "n": "Idzes",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Paz",
+   "stato": "Da valutare"
+  }
+ ],
+ "Lazio": [
+  {
+   "n": "Gudmundsson",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rovella",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Marusic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Torino": [
+  {
+   "n": "Israel",
+   "stato": ""
+  },
+  {
+   "n": "Rodríguez",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Mandragora",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Fortini",
+   "stato": "Da valutare"
+  }
+ ],
+ "Como": [
+  {
+   "n": "Diao",
    "stato": "Rientro alla 12"
   },
   {
-   "n": "Pierotti",
+   "n": "Chalobah",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Rodríguez",
+   "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Liberali",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Kean",
+   "stato": "Rientro alla 11"
+  }
+ ],
+ "Roma": [
+  {
+   "n": "Svilar",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Koné",
    "stato": "Da valutare"
   },
   {
-   "n": "Ilic",
+   "n": "Dybala",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pellegrini",
+   "stato": "Rientro alla 17"
+  }
+ ],
+ "Cagliari": [
+  {
+   "n": "Felici",
+   "stato": "Rientro alla 32"
+  },
+  {
+   "n": "Idrissi",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Trepy",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Winks",
+   "stato": "Da valutare"
+  }
+ ],
+ "Venezia": [
+  {
+   "n": "Franjic",
+   "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Busio",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Thierry Correia",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Sverko",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Adorante",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Moreno",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Bella-Kotchap",
+   "stato": "Rientro alla 10"
+  }
+ ],
+ "Inter": [
+  {
+   "n": "Stones",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Lautaro Martínez",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pavard",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Jones",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Luis Henrique",
+   "stato": ""
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Almqvist",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Elphege",
+   "stato": "Da valutare"
+  }
+ ],
+ "Udinese": [
+  {
+   "n": "Gueye",
+   "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Bayo",
+   "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Alaba",
+   "stato": "Da valutare"
+  }
+ ],
+ "Milan": [
+  {
+   "n": "Saelemaekers",
+   "stato": "Rientro alla 28"
+  },
+  {
+   "n": "Pietro Terracciano",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gabbia",
+   "stato": "Rientro alla 20"
+  },
+  {
+   "n": "Chukwueze",
+   "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Loftus-Cheek",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Moreira",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rabiot",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gila",
+   "stato": "Da valutare"
+  }
+ ],
+ "Bologna": [
+  {
+   "n": "Holm",
+   "stato": "Rientro alla 22"
+  },
+  {
+   "n": "Orsolini",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Piccoli",
+   "stato": "Rientro alla 12"
+  }
+ ],
+ "Genoa": [
+  {
+   "n": "Venturino",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Nuredini",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Sow",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ehizibue",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Wiafe",
    "stato": "Da valutare"
   }
  ],
@@ -51,52 +299,120 @@
    "stato": "Rientro alla 13"
   }
  ],
- "Udinese": [
+ "Monza": [
   {
-   "n": "Gueye",
-   "stato": "Rientro alla 17"
+   "n": "Pessina",
+   "stato": "Rientro alla 12"
   },
   {
-   "n": "Bayo",
-   "stato": "Rientro alla 15"
+   "n": "Ziólkowski",
+   "stato": "Rientro alla 12"
   },
   {
-   "n": "Alaba",
+   "n": "Maye",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Zanoli",
-   "stato": "Rientro alla 9"
   }
  ],
- "Milan": [
+ "Napoli": [
   {
-   "n": "Saelemaekers",
-   "stato": "Rientro alla 28"
-  },
-  {
-   "n": "Pietro Terracciano",
+   "n": "Buongiorno",
    "stato": "Da valutare"
   },
   {
-   "n": "Gabbia",
-   "stato": "Rientro alla 20"
+   "n": "Favasuli",
+   "stato": "Rientro alla 12"
   },
   {
-   "n": "Chukwueze",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Moreira",
+   "n": "David Neres",
    "stato": "Da valutare"
   },
   {
-   "n": "Rabiot",
+   "n": "Alisson Santos",
    "stato": "Da valutare"
   },
   {
-   "n": "Gila",
+   "n": "Badiashile",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Spinazzola",
+   "stato": "Da valutare"
+  }
+ ],
+ "Frosinone": [
+  {
+   "n": "Grillitsch",
+   "stato": "Da valutare"
+  }
+ ],
+ "Lecce": [
+  {
+   "n": "Berisha",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Coulibaly",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pierotti",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ilic",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Tiago Gabriel",
+   "stato": "Da valutare"
+  }
+ ],
+ "Fiorentina": [
+  {
+   "n": "Parisi",
+   "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Atta",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ranieri",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pongracic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Atalanta": [
+  {
+   "n": "Hien",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Kossounou",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pompei",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Kamaldeen Sulemana",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Kessie",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Raspadori",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Kolasinac",
+   "stato": "Rientro alla 12"
   }
  ]
 }
