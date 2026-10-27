@@ -89,12 +89,12 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Dybala",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Pellegrini",
    "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Dybala",
+   "stato": "Rientro alla 10"
   }
  ],
  "Cagliari": [
@@ -107,22 +107,86 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Trepy",
+   "n": "Winks",
+   "stato": "Da valutare"
+  }
+ ],
+ "Parma": [
+  {
+   "n": "Nicolussi Caviglia",
    "stato": "Da valutare"
   },
   {
-   "n": "Winks",
+   "n": "Almqvist",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Elphege",
+   "stato": "Da valutare"
+  }
+ ],
+ "Udinese": [
+  {
+   "n": "Gueye",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Bayo",
+   "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Alaba",
+   "stato": "Da valutare"
+  }
+ ],
+ "Milan": [
+  {
+   "n": "Saelemaekers",
+   "stato": "Rientro alla 28"
+  },
+  {
+   "n": "Pietro Terracciano",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gabbia",
+   "stato": "Rientro alla 20"
+  },
+  {
+   "n": "Chukwueze",
+   "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Loftus-Cheek",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Rabiot",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Moreira",
+   "stato": "Da valutare"
+  }
+ ],
+ "Bologna": [
+  {
+   "n": "Holm",
+   "stato": "Rientro alla 22"
+  },
+  {
+   "n": "Orsolini",
+   "stato": "Rientro alla 10"
+  },
+  {
+   "n": "Piccoli",
+   "stato": "Rientro alla 12"
   }
  ],
  "Venezia": [
   {
    "n": "Franjic",
    "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Busio",
-   "stato": "Rientro alla 10"
   },
   {
    "n": "Thierry Correia",
@@ -167,80 +231,44 @@
    "stato": ""
   }
  ],
- "Parma": [
+ "Monza": [
   {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Almqvist",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Elphege",
-   "stato": "Da valutare"
-  }
- ],
- "Udinese": [
-  {
-   "n": "Gueye",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Bayo",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Alaba",
-   "stato": "Da valutare"
-  }
- ],
- "Milan": [
-  {
-   "n": "Saelemaekers",
-   "stato": "Rientro alla 28"
-  },
-  {
-   "n": "Pietro Terracciano",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Gabbia",
-   "stato": "Rientro alla 20"
-  },
-  {
-   "n": "Chukwueze",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Loftus-Cheek",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Moreira",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rabiot",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Gila",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Orsolini",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Piccoli",
+   "n": "Pessina",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Ziólkowski",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Maye",
+   "stato": "Da valutare"
+  }
+ ],
+ "Napoli": [
+  {
+   "n": "Buongiorno",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Favasuli",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "David Neres",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Alisson Santos",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Badiashile",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Spinazzola",
+   "stato": "Da valutare"
   }
  ],
  "Genoa": [
@@ -299,46 +327,6 @@
    "stato": "Rientro alla 13"
   }
  ],
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Ziólkowski",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Maye",
-   "stato": "Da valutare"
-  }
- ],
- "Napoli": [
-  {
-   "n": "Buongiorno",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Favasuli",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "David Neres",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Alisson Santos",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Badiashile",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Spinazzola",
-   "stato": "Da valutare"
-  }
- ],
  "Frosinone": [
   {
    "n": "Grillitsch",
@@ -382,7 +370,7 @@
   },
   {
    "n": "Pongracic",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   }
  ],
  "Atalanta": [
@@ -413,6 +401,14 @@
   {
    "n": "Kolasinac",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Bellanova",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Scalvini",
+   "stato": "Da valutare"
   }
  ]
 }

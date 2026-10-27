@@ -23,14 +23,6 @@
   "opp": "Torino",
   "home": false
  },
- "Venezia": {
-  "opp": "Inter",
-  "home": true
- },
- "Inter": {
-  "opp": "Venezia",
-  "home": false
- },
  "Milan": {
   "opp": "Bologna",
   "home": true
@@ -47,12 +39,12 @@
   "opp": "Parma",
   "home": false
  },
- "Monza": {
-  "opp": "Napoli",
+ "Venezia": {
+  "opp": "Inter",
   "home": true
  },
- "Napoli": {
-  "opp": "Monza",
+ "Inter": {
+  "opp": "Venezia",
   "home": false
  },
  "Genoa": {
@@ -61,6 +53,14 @@
  },
  "Juventus": {
   "opp": "Genoa",
+  "home": false
+ },
+ "Monza": {
+  "opp": "Napoli",
+  "home": true
+ },
+ "Napoli": {
+  "opp": "Monza",
   "home": false
  },
  "Frosinone": {
