@@ -1,125 +1,45 @@
 {
- "Sassuolo": [
+ "Venezia": [
   {
-   "n": "Ismaël Koné",
+   "n": "Franjic",
+   "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Thierry Correia",
    "stato": "Da valutare"
   },
   {
-   "n": "Pieragnolo",
+   "n": "Sverko",
    "stato": "Da valutare"
   },
   {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Leysen",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Idzes",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  }
- ],
- "Lazio": [
-  {
-   "n": "Gudmundsson",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rovella",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Marusic",
-   "stato": "Da valutare"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": ""
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Mandragora",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Fortini",
-   "stato": "Da valutare"
-  }
- ],
- "Como": [
-  {
-   "n": "Diao",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Chalobah",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Liberali",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Kean",
-   "stato": "Rientro alla 11"
-  }
- ],
- "Roma": [
-  {
-   "n": "Svilar",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pellegrini",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Dybala",
+   "n": "Adorante",
    "stato": "Rientro alla 10"
   }
  ],
- "Cagliari": [
+ "Inter": [
   {
-   "n": "Felici",
-   "stato": "Rientro alla 32"
-  },
-  {
-   "n": "Idrissi",
+   "n": "Stones",
    "stato": "Da valutare"
   },
   {
-   "n": "Winks",
+   "n": "Lautaro Martínez",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Pavard",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Jones",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Luis Henrique",
+   "stato": "Rientro alla 12"
   }
  ],
  "Parma": [
-  {
-   "n": "Nicolussi Caviglia",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Almqvist",
-   "stato": "Da valutare"
-  },
   {
    "n": "Elphege",
    "stato": "Da valutare"
@@ -136,6 +56,14 @@
   },
   {
    "n": "Alaba",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Solet",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Zanoli",
    "stato": "Da valutare"
   }
  ],
@@ -167,6 +95,10 @@
   {
    "n": "Moreira",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Gila",
+   "stato": "Da valutare"
   }
  ],
  "Bologna": [
@@ -181,54 +113,10 @@
   {
    "n": "Piccoli",
    "stato": "Rientro alla 12"
-  }
- ],
- "Venezia": [
-  {
-   "n": "Franjic",
-   "stato": "Rientro alla 15"
   },
   {
-   "n": "Thierry Correia",
+   "n": "Enem",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Sverko",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adorante",
-   "stato": "Rientro alla 10"
-  },
-  {
-   "n": "Moreno",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Bella-Kotchap",
-   "stato": "Rientro alla 10"
-  }
- ],
- "Inter": [
-  {
-   "n": "Stones",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Lautaro Martínez",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Pavard",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Jones",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Luis Henrique",
-   "stato": ""
   }
  ],
  "Monza": [
@@ -242,6 +130,10 @@
   },
   {
    "n": "Maye",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Folorunsho",
    "stato": "Da valutare"
   }
  ],
@@ -281,15 +173,11 @@
    "stato": "Rientro alla 10"
   },
   {
-   "n": "Sow",
+   "n": "Drameh",
    "stato": "Da valutare"
   },
   {
-   "n": "Ehizibue",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Wiafe",
+   "n": "Havel",
    "stato": "Da valutare"
   }
  ],
@@ -408,6 +296,10 @@
   },
   {
    "n": "Scalvini",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Scamacca",
    "stato": "Da valutare"
   }
  ]
