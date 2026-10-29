@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-28",
+ "aggiornato": "2026-10-29",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -9,26 +9,14 @@
   },
   {
    "s": "Atalanta",
-   "n": "Kolasinac",
-   "d": "il difensore KO il 18 ottobre a Milano vittima di una distrazione muscolare al retto femorale della coscia sinistra",
-   "r": "recuperabile dalla metà di novembre."
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
+   "r": "pronto a tornare in campo dalla metà di novembre."
   },
   {
    "s": "Atalanta",
-   "n": "Bellanova",
-   "d": "il terzino KO il 25 ottobre per una distrazione di basso grado dell'adduttore lungo dell’arto sinistro",
-   "r": "recuperabile dalla metà di novembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Raspadori",
-   "d": "Nuovo stop muscolare per l'attaccante, frenato il 15 ottobre in Conference League da una distrazione muscolare di basso grado al bicipite femorale della coscia destra",
-   "r": "rientro dall'inizio di novembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Scamacca",
-   "d": "L'attaccante fuori causa per giovedì a Firenze a causa di un risentimento ai muscoli flessori della coscia destra. Verrà rivalutato, si proverà ad averlo a disposizione già da inizio novembre.",
+   "n": "Pompei",
+   "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
    "r": "Tempi di recupero da valutare."
   },
   {
@@ -39,15 +27,33 @@
   },
   {
    "s": "Atalanta",
-   "n": "Pompei",
-   "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
+   "n": "Scamacca",
+   "d": "L'attaccante fuori causa per giovedì a Firenze a causa di un risentimento ai muscoli flessori della coscia destra. Verrà rivalutato, si proverà ad averlo a disposizione già da inizio novembre.",
    "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
-   "r": "pronto a tornare in campo dalla metà di novembre."
+   "n": "Raspadori",
+   "d": "Nuovo stop muscolare per l'attaccante, frenato il 15 ottobre in Conference League da una distrazione muscolare di basso grado al bicipite femorale della coscia destra",
+   "r": "rientro dall'inizio di novembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Bellanova",
+   "d": "il terzino KO il 25 ottobre per una distrazione di basso grado dell'adduttore lungo dell’arto sinistro",
+   "r": "recuperabile dalla metà di novembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Kolasinac",
+   "d": "il difensore KO il 18 ottobre a Milano vittima di una distrazione muscolare al retto femorale della coscia sinistra",
+   "r": "recuperabile dalla metà di novembre."
+  },
+  {
+   "s": "Bologna",
+   "n": "De Silvestri",
+   "d": "Il difensore non convocato mercoledì contro il Milan per un risentimento muscolare ai flessori della coscia destra.",
+   "r": "Da valutare in vista della 10a giornata."
   },
   {
    "s": "Bologna",
@@ -57,9 +63,9 @@
   },
   {
    "s": "Bologna",
-   "n": "Enem",
-   "d": "Lavoro a parte negli ultimi giorni per l'attaccante a causa di un lieve affaticamento muscolare alla gamba.",
-   "r": "Out mercoledì contro il Milan, da valutare in vista della 10a giornata."
+   "n": "Orsolini",
+   "d": "il capitano dei felsinei KO l'11 ottobre a Lecce sul finale di match per una lesione di primo grado al bicipite femorale della coscia destra, stop di circa tre settimane.",
+   "r": "Recuperabile dall'inizio di novembre."
   },
   {
    "s": "Bologna",
@@ -69,15 +75,9 @@
   },
   {
    "s": "Bologna",
-   "n": "Orsolini",
-   "d": "il capitano dei felsinei KO l'11 ottobre a Lecce sul finale di match per una lesione di primo grado al bicipite femorale della coscia destra, stop di circa tre settimane.",
-   "r": "Recuperabile dall'inizio di novembre."
-  },
-  {
-   "s": "Bologna",
-   "n": "De Silvestri",
-   "d": "Il difensore non convocato mercoledì contro il Milan per un risentimento muscolare ai flessori della coscia destra.",
-   "r": "Da valutare in vista della 10a giornata."
+   "n": "Enem",
+   "d": "Lavoro a parte negli ultimi giorni per l'attaccante a causa di un lieve affaticamento muscolare alla gamba.",
+   "r": "Out mercoledì contro il Milan, da valutare in vista della 10a giornata."
   },
   {
    "s": "Cagliari",
@@ -153,21 +153,15 @@
   },
   {
    "s": "Genoa",
-   "n": "Venturino",
-   "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
-   "r": "Di certo assente nel prossimo turno di campionato, rientro da inizio novembre."
-  },
-  {
-   "s": "Genoa",
    "n": "Havel",
    "d": "L'attaccante ha deciso di operarsi alla caviglia e",
    "r": "dovrebbe tornare arruolabile dall'inizio di novembre."
   },
   {
-   "s": "Inter",
-   "n": "Stones",
-   "d": "il difensore alle prese con un risentimento ai flessori della coscia sinistra",
-   "r": "recuperabile dalla fine di ottobre."
+   "s": "Genoa",
+   "n": "Venturino",
+   "d": "il calciatore operato al tendine rotuleo e ora in fase di recupero.",
+   "r": "Di certo assente nel prossimo turno di campionato, rientro da inizio novembre."
   },
   {
    "s": "Inter",
@@ -194,10 +188,16 @@
    "r": "tentativo rientro tra i convocati dalla fine di ottobre."
   },
   {
+   "s": "Inter",
+   "n": "Stones",
+   "d": "il difensore alle prese con un risentimento ai flessori della coscia sinistra",
+   "r": "recuperabile dalla fine di ottobre."
+  },
+  {
    "s": "Juventus",
-   "n": "Yildiz",
-   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Rientro in campo da inizio dicembre."
+   "n": "Ekhator",
+   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
+   "r": "rientro dalla metà di novembre."
   },
   {
    "s": "Juventus",
@@ -213,9 +213,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
-   "r": "rientro dalla metà di novembre."
+   "n": "Yildiz",
+   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
+   "r": "Rientro in campo da inizio dicembre."
   },
   {
    "s": "Juventus",
@@ -284,16 +284,16 @@
    "r": "recuperabile dall'inizio di novembre."
   },
   {
-   "s": "Lecce",
-   "n": "Tiago Gabriel",
-   "d": "il difensore domenica scorsa contro la Juve ha rimediato una forte contusione al ginocchio che mette a forte rischio la sua presenza in campo giovedì a Frosinone.",
-   "r": "Da valutare."
-  },
-  {
    "s": "Milan",
    "n": "Rabiot",
    "d": "Il francese out domenica scorsa a Udine per un affaticamento muscolare al polpaccio rimediato nella rifinitura, salterà anche il turno infrasettimanale contro il Bologna.",
    "r": "Da valutare, ma l'obiettivo è averlo a disposizione per il derby di sabato."
+  },
+  {
+   "s": "Milan",
+   "n": "Loftus-Cheek",
+   "d": "il centrocampista non al meglio per una lesione muscolare al flessore ravvisato sul finire del match di Udine (25 ottobre).",
+   "r": "Recuperabile dalla seconda metà di novembre."
   },
   {
    "s": "Milan",
@@ -306,12 +306,6 @@
    "n": "Chukwueze",
    "d": "Il nigeriano dal 21 ottobre fermo per un problema all'anca sinistra.",
    "r": "Iniziato un trattamento infiltrativo all'anca, a inizio novembre nuovi controlli medici per stabilire i tempi di rientro."
-  },
-  {
-   "s": "Milan",
-   "n": "Loftus-Cheek",
-   "d": "il centrocampista non al meglio per una lesione muscolare al flessore ravvisato sul finire del match di Udine (25 ottobre).",
-   "r": "Recuperabile dalla seconda metà di novembre."
   },
   {
    "s": "Milan",
@@ -512,38 +506,8 @@
    "r": "Tentativo di rientro dalla fine di ottobre."
   },
   {
-   "s": "Monza",
-   "n": "Folorunsho",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Genoa",
-   "n": "Nuredini",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 10 (fonte Gazzetta)."
-  },
-  {
-   "s": "Genoa",
-   "n": "Drameh",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Fiorentina",
    "n": "Ranieri",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Kamaldeen Sulemana",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Scalvini",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   }
