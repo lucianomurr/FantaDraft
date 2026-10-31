@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-10-30",
+ "aggiornato": "2026-10-31",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -213,12 +213,6 @@
   },
   {
    "s": "Juventus",
-   "n": "Ekhator",
-   "d": "l'attaccante vittima di una lesione di medio grado del muscolo semitendinoso",
-   "r": "rientro dalla metà di novembre."
-  },
-  {
-   "s": "Juventus",
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
    "r": "Rientro in campo da inizio dicembre."
@@ -248,18 +242,6 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Lazio",
-   "n": "Rovella",
-   "d": "il regista dei biancocelesti KO il 30 agosto contro il Genoa vittima di una lesione muscolare al polpaccio",
-   "r": "ai box fino all'inizio di novembre."
-  },
-  {
-   "s": "Lazio",
-   "n": "Marusic",
-   "d": "il terzino dei biancocelesti KO il 24 agosto a Bologna vittima di una lesione muscolare alla coscia.",
-   "r": "Recuperabile da inizio novembre."
-  },
-  {
    "s": "Lecce",
    "n": "Coulibaly L.",
    "d": "il centrocampista costretto al cambio il 18 ottobre a Udine per una lesione muscolare al bicipite femorale della coscia destra",
@@ -280,8 +262,8 @@
   {
    "s": "Lecce",
    "n": "Geubbels",
-   "d": "L'attaccante si è fermato giovedì scorso a Frosinone nella fase di riscaldamento prematch a causa di un fastidio muscolare all'adduttore e andrà valutato. Forfait per domenica contro il Genoa.",
-   "r": "Tempi di recupero da valutare."
+   "d": "L'attaccante si è fermato il 29 ottobre a Frosinone nella fase di riscaldamento prematch a causa di una lesione muscolare di basso grado all'adduttore della coscia destra.",
+   "r": "Recuperabile dalla metà di novembre."
   },
   {
    "s": "Lecce",
@@ -334,14 +316,14 @@
   {
    "s": "Monza",
    "n": "Maye",
-   "d": "Il difensore ai box per noie fisiche, assente nelle ultime tre sfide di campionato e",
-   "r": "ora da valutare in vista di sabato a Bologna."
+   "d": "Il difensore ai box per noie fisiche, assente nelle ultime 4 sfide di campionato e",
+   "r": "ora da valutare in vista della 11a giornata di campionato."
   },
   {
    "s": "Monza",
    "n": "Folorunsho",
-   "d": "Il centrocampista alle prese con noie muscolari al polpaccio, viaggia verso il forfait sabato a Bologna.",
-   "r": "Da valutare."
+   "d": "Il centrocampista alle prese con noie muscolari al polpaccio, forfait sabato a Bologna.",
+   "r": "Da valutare in vista della 11a giornata."
   },
   {
    "s": "Monza",
@@ -412,8 +394,8 @@
   {
    "s": "Roma",
    "n": "Dybala",
-   "d": "l'argentino out anche martedì scorso contro il Cagliari, ma le sue condizioni migliorano e il fastidio al polpaccio va attenuandosi. Appare recuperabile da inizio novembre, dunque difficilmente convocabile nella 10a giornata di A sabato a Udine.",
-   "r": "Da valutare nella rifinitura odierna."
+   "d": "l'argentino in recupero da un fastidio al polpaccio, out dunque anche per sabato a Udine.",
+   "r": "Appare recuperabile da inizio novembre per l'11a giornata di campionato."
   },
   {
    "s": "Roma",
@@ -465,9 +447,15 @@
   },
   {
    "s": "Udinese",
+   "n": "Solet",
+   "d": "Il difensore non al meglio per un problema muscolare al pettineo sinistro",
+   "r": "recuperabile dalla prima metà di novembre."
+  },
+  {
+   "s": "Udinese",
    "n": "Zanoli",
-   "d": "Il cursore di fascia dei friulani out contro Milan e Parma per noie muscolari.",
-   "r": "Da valutare, ma rischia il forfait anche sabato contro la Roma."
+   "d": "Il cursore di fascia dei friulani frenato da noie muscolari alla gamba",
+   "r": "recuperabile dalla metà di novembre."
   },
   {
    "s": "Udinese",
@@ -489,15 +477,15 @@
   },
   {
    "s": "Venezia",
-   "n": "Correia T.",
-   "d": "il cursore di fascia dei veneti KO il 12 ottobre a Bergamo vittima di un risentimento muscolare al flessore della gamba sinistra, sarà out anche domenica a Como.",
-   "r": "Da valutare in vista dell'11a giornata."
-  },
-  {
-   "s": "Venezia",
    "n": "Adorante",
    "d": "l'attaccante a fine luglio ha deciso di operarsi per un problema alla schiena, che lo costringerà a stare ai box per buona parte del girone d'andata del campionato.",
    "r": "Tentativo di rientro dall'inizio di novembre."
+  },
+  {
+   "s": "Venezia",
+   "n": "Correia T.",
+   "d": "il cursore di fascia dei veneti KO il 12 ottobre a Bergamo vittima di un risentimento muscolare al flessore della gamba sinistra, sarà out anche domenica a Como.",
+   "r": "Da valutare in vista dell'11a giornata."
   },
   {
    "s": "Venezia",
@@ -512,26 +500,26 @@
    "r": "recuperabile dalla metà di novembre."
   },
   {
-   "s": "Udinese",
-   "n": "Bertola",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Como",
    "n": "Liberali",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Punta a rientrare per la giornata 11 (fonte Gazzetta)."
   },
   {
-   "s": "Torino",
-   "n": "Israel",
+   "s": "Lazio",
+   "n": "Rovella",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Cagliari",
-   "n": "Winks",
+   "s": "Lazio",
+   "n": "Marusic",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Torino",
+   "n": "Israel",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
@@ -544,6 +532,12 @@
   {
    "s": "Genoa",
    "n": "Ellertsson",
+   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
+   "r": "Condizioni da valutare (fonte Gazzetta)."
+  },
+  {
+   "s": "Genoa",
+   "n": "Nuredini",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },

@@ -1,36 +1,4 @@
 {
- "Bologna": [
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Piccoli",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Enem",
-   "stato": "Da valutare"
-  }
- ],
- "Monza": [
-  {
-   "n": "Pessina",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Ziólkowski",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Maye",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Folorunsho",
-   "stato": "Da valutare"
-  }
- ],
  "Udinese": [
   {
    "n": "Bayo",
@@ -41,8 +9,16 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Bertola",
+   "n": "Solet",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Gueye",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Zanoli",
+   "stato": "Rientro alla 11"
   }
  ],
  "Roma": [
@@ -57,6 +33,10 @@
   {
    "n": "Pellegrini",
    "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Dybala",
+   "stato": "Rientro alla 11"
   }
  ],
  "Milan": [
@@ -127,6 +107,10 @@
   {
    "n": "Kean",
    "stato": "Rientro alla 16"
+  },
+  {
+   "n": "Addai",
+   "stato": "Da valutare"
   }
  ],
  "Venezia": [
@@ -141,26 +125,10 @@
   {
    "n": "Sverko",
    "stato": "Da valutare"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": ""
   },
   {
-   "n": "Mandragora",
-   "stato": "Rientro alla 11"
-  },
-  {
-   "n": "Fortini",
-   "stato": "Da valutare"
+   "n": "Adorante",
+   "stato": "Rientro alla 12"
   }
  ],
  "Lazio": [
@@ -185,9 +153,33 @@
   {
    "n": "Idrissi",
    "stato": "Da valutare"
+  }
+ ],
+ "Frosinone": [
+  {
+   "n": "Grillitsch",
+   "stato": "Da valutare"
+  }
+ ],
+ "Torino": [
+  {
+   "n": "Israel",
+   "stato": ""
   },
   {
-   "n": "Winks",
+   "n": "Mandragora",
+   "stato": "Rientro alla 11"
+  },
+  {
+   "n": "Fortini",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Cacciamani",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rodríguez",
    "stato": "Da valutare"
   }
  ],
@@ -229,6 +221,10 @@
   {
    "n": "Ellertsson",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Nuredini",
+   "stato": "Da valutare"
   }
  ],
  "Juventus": [
@@ -259,16 +255,12 @@
   {
    "n": "González",
    "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Ekhator",
-   "stato": "Da valutare"
   }
  ],
  "Napoli": [
   {
    "n": "Buongiorno",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 18"
   },
   {
    "n": "Favasuli",
@@ -280,7 +272,7 @@
   },
   {
    "n": "Alisson Santos",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   },
   {
    "n": "Badiashile",
@@ -328,7 +320,7 @@
   },
   {
    "n": "Atta",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 11"
   },
   {
    "n": "Ranieri",
@@ -374,6 +366,10 @@
   },
   {
    "n": "Kristensen",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gaetano",
    "stato": "Da valutare"
   }
  ],
