@@ -75,7 +75,7 @@
     },
     {
      "n": "Kabasele",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -132,6 +132,11 @@
      "n": "Yeboah J.",
      "pct": 49,
      "riv": "Lauberbach"
+    },
+    {
+     "n": "Solet",
+     "pct": 49,
+     "riv": "Kabasele"
     },
     {
      "n": "Piotrowski",
@@ -527,7 +532,7 @@
      "riv": null
     },
     {
-     "n": "Nzola",
+     "n": "Mendy P.",
      "pct": 51,
      "riv": null
     },
@@ -602,9 +607,9 @@
      "riv": "Fazzini"
     },
     {
-     "n": "Mendy P.",
+     "n": "Kevin Carlos",
      "pct": 49,
-     "riv": "Nzola"
+     "riv": "Mendy P."
     },
     {
      "n": "Tchato",
@@ -657,17 +662,7 @@
      "riv": null
     },
     {
-     "n": "Gagliardini",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Liteta",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Kevin Carlos",
      "pct": 5,
      "riv": null
     },
@@ -969,6 +964,11 @@
      "n": "Orsolini",
      "pct": 5,
      "riv": null
+    },
+    {
+     "n": "Piccoli",
+     "pct": 5,
+     "riv": null
     }
    ]
   },
@@ -980,8 +980,8 @@
    "date": "2026-11-07T19:45:00.000Z",
    "players": [
     {
-     "n": "Gollini",
-     "pct": 51,
+     "n": "Vasquez D.",
+     "pct": 95,
      "riv": null
     },
     {
@@ -1090,11 +1090,6 @@
      "riv": null
     },
     {
-     "n": "De Marzi",
-     "pct": 49,
-     "riv": "Gollini"
-    },
-    {
      "n": "Ghilardi",
      "pct": 49,
      "riv": "Mancini"
@@ -1150,12 +1145,7 @@
      "riv": "Esposito Se."
     },
     {
-     "n": "Vasquez D.",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Rensch",
+     "n": "De Marzi",
      "pct": 5,
      "riv": null
     },
@@ -1748,7 +1738,7 @@
     },
     {
      "n": "Krstovic",
-     "pct": 95,
+     "pct": 70,
      "riv": null
     },
     {
@@ -1770,6 +1760,11 @@
      "n": "Elmas",
      "pct": 49,
      "riv": "Rowe"
+    },
+    {
+     "n": "Scamacca",
+     "pct": 30,
+     "riv": "Krstovic"
     },
     {
      "n": "Strajnar",
@@ -1996,6 +1991,11 @@
      "riv": "Baturina"
     },
     {
+     "n": "Pavard",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Di Gennaro",
      "pct": 5,
      "riv": null
@@ -2006,7 +2006,12 @@
      "riv": null
     },
     {
-     "n": "Pavard",
+     "n": "Stones",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Jones C.",
      "pct": 5,
      "riv": null
     },

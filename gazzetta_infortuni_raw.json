@@ -201,10 +201,6 @@
    "stato": "Rientro alla 16"
   },
   {
-   "n": "De Bruyne",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Vanja Milinkovic-Savic",
    "stato": "Da valutare"
   },
@@ -229,54 +225,6 @@
   {
    "n": "Marusic",
    "stato": "Da valutare"
-  }
- ],
- "Genoa": [
-  {
-   "n": "Venturino",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Drameh",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Havel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ellertsson",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Nuredini",
-   "stato": "Da valutare"
-  }
- ],
- "Milan": [
-  {
-   "n": "Saelemaekers",
-   "stato": "Rientro alla 28"
-  },
-  {
-   "n": "Pietro Terracciano",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Gabbia",
-   "stato": "Rientro alla 20"
-  },
-  {
-   "n": "Chukwueze",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Loftus-Cheek",
-   "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Tomori",
-   "stato": "Rientro alla 13"
   }
  ],
  "Monza": [
@@ -331,15 +279,59 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Scamacca",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Kristensen",
    "stato": "Rientro alla 15"
   },
   {
    "n": "Gaetano",
+   "stato": "Rientro alla 13"
+  }
+ ],
+ "Genoa": [
+  {
+   "n": "Venturino",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Drameh",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Havel",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ellertsson",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Nuredini",
+   "stato": "Da valutare"
+  }
+ ],
+ "Milan": [
+  {
+   "n": "Saelemaekers",
+   "stato": "Rientro alla 28"
+  },
+  {
+   "n": "Pietro Terracciano",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Gabbia",
+   "stato": "Rientro alla 20"
+  },
+  {
+   "n": "Chukwueze",
+   "stato": "Rientro alla 24"
+  },
+  {
+   "n": "Loftus-Cheek",
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Tomori",
    "stato": "Rientro alla 13"
   }
  ],
@@ -351,10 +343,6 @@
   {
    "n": "Lautaro Martínez",
    "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Pavard",
-   "stato": "Da valutare"
   },
   {
    "n": "Jones",
