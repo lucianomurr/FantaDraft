@@ -202,6 +202,11 @@
      "riv": null
     },
     {
+     "n": "Solet",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Bertola",
      "pct": 5,
      "riv": null
@@ -420,7 +425,7 @@
      "riv": null
     },
     {
-     "n": "Monteiro",
+     "n": "N'Dri",
      "pct": 95,
      "riv": null
     },
@@ -460,12 +465,7 @@
      "riv": null
     },
     {
-     "n": "N'Dri",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Gprter",
+     "n": "Gorter",
      "pct": 5,
      "riv": null
     },
@@ -498,22 +498,17 @@
      "riv": null
     },
     {
-     "n": "Carlos",
+     "n": "Deiola",
      "pct": 95,
      "riv": null
+    },
+    {
+     "n": "Kofler",
+     "pct": 70,
+     "riv": "Mina"
     },
     {
      "n": "Rodriguez",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Sugawara",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Adopo",
      "pct": 95,
      "riv": null
     },
@@ -523,12 +518,7 @@
      "riv": null
     },
     {
-     "n": "Kofler",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Maldini",
+     "n": "Winks",
      "pct": 95,
      "riv": null
     },
@@ -538,7 +528,17 @@
      "riv": null
     },
     {
-     "n": "Nzola",
+     "n": "Adopo",
+     "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Maldini",
+     "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Mendy",
      "pct": 95,
      "riv": null
     },
@@ -553,22 +553,12 @@
      "riv": null
     },
     {
-     "n": "Mina",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Liteta",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Sulev",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "6Winks",
      "pct": 5,
      "riv": null
     },
@@ -583,7 +573,17 @@
      "riv": null
     },
     {
-     "n": "Mendy",
+     "n": "Mina",
+     "pct": 30,
+     "riv": "Kofler"
+    },
+    {
+     "n": "Sugawara",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Carlos",
      "pct": 5,
      "riv": null
     },
@@ -594,6 +594,21 @@
     },
     {
      "n": "Massolin",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Grandu",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Akarakiri",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Sugamele",
      "pct": 5,
      "riv": null
     },
@@ -613,9 +628,9 @@
      "riv": null
     },
     {
-     "n": "Monterisi",
+     "n": "Cittadini",
      "pct": 55,
-     "riv": "Cittadini"
+     "riv": "Monterisi"
     },
     {
      "n": "Bracaglia",
@@ -663,9 +678,9 @@
      "riv": null
     },
     {
-     "n": "Cittadini",
+     "n": "Monterisi",
      "pct": 45,
-     "riv": "Monterisi"
+     "riv": "Cittadini"
     },
     {
      "n": "Terzic",
@@ -796,11 +811,6 @@
      "riv": null
     },
     {
-     "n": "Drobnic",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Carboni",
      "pct": 5,
      "riv": null
@@ -911,7 +921,7 @@
      "riv": null
     },
     {
-     "n": "Mbangula",
+     "n": "Cambiaghi",
      "pct": 95,
      "riv": null
     },
@@ -976,12 +986,17 @@
      "riv": null
     },
     {
-     "n": "Cambiaghi",
+     "n": "Mbangula",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Dovbyk",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Piccoli",
      "pct": 5,
      "riv": null
     }
@@ -1060,11 +1075,6 @@
     },
     {
      "n": "Koulierakis",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Rensch",
      "pct": 5,
      "riv": null
     },
@@ -1402,7 +1412,7 @@
      "riv": null
     },
     {
-     "n": "Zaccagni",
+     "n": "Cancellieri",
      "pct": 95,
      "riv": null
     },
@@ -1463,11 +1473,6 @@
     },
     {
      "n": "Pinamonti",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Cancellieri",
      "pct": 5,
      "riv": null
     },
@@ -2056,9 +2061,9 @@
      "riv": null
     },
     {
-     "n": "Sanchez",
-     "pct": 60,
-     "riv": "Butez"
+     "n": "Butez",
+     "pct": 95,
+     "riv": null
     },
     {
      "n": "Couto",
@@ -2081,27 +2086,17 @@
      "riv": null
     },
     {
-     "n": "Perrone",
-     "pct": 70,
-     "riv": "Milla"
+     "n": "Milla",
+     "pct": 95,
+     "riv": null
     },
     {
-     "n": "Ricci",
-     "pct": 70,
-     "riv": "Douvikas"
+     "n": "Perrone",
+     "pct": 60,
+     "riv": "Caqueret"
     },
     {
      "n": "Da Cunha",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Caqueret",
-     "pct": 95,
-     "riv": null
-    },
-    {
-     "n": "Baturina",
      "pct": 95,
      "riv": null
     },
@@ -2111,9 +2106,14 @@
      "riv": null
     },
     {
-     "n": "Butez",
-     "pct": 40,
-     "riv": "Sanchez"
+     "n": "Baturina",
+     "pct": 95,
+     "riv": null
+    },
+    {
+     "n": "Douvikas",
+     "pct": 95,
+     "riv": null
     },
     {
      "n": "Vigorito",
@@ -2121,14 +2121,14 @@
      "riv": null
     },
     {
-     "n": "Milla",
-     "pct": 30,
-     "riv": "Perrone"
+     "n": "Sanchez",
+     "pct": 5,
+     "riv": null
     },
     {
-     "n": "Douvikas",
-     "pct": 30,
-     "riv": "Ricci"
+     "n": "Caqueret",
+     "pct": 40,
+     "riv": "Perrone"
     },
     {
      "n": "Dossena",
@@ -2141,12 +2141,12 @@
      "riv": null
     },
     {
-     "n": "Kaiki",
+     "n": "Goldaniga",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Goldaniga",
+     "n": "Ricci",
      "pct": 5,
      "riv": null
     },
@@ -2156,7 +2156,17 @@
      "riv": null
     },
     {
+     "n": "Cassano",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Kambwala",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Papaccioli",
      "pct": 5,
      "riv": null
     }
@@ -2200,13 +2210,13 @@
     },
     {
      "n": "Fagioli",
-     "pct": 95,
-     "riv": null
+     "pct": 55,
+     "riv": "Oulai"
     },
     {
      "n": "Brescianini",
-     "pct": 95,
-     "riv": null
+     "pct": 55,
+     "riv": "Gonçalves"
     },
     {
      "n": "Mastantuono",
@@ -2245,13 +2255,13 @@
     },
     {
      "n": "Oulai",
-     "pct": 5,
-     "riv": null
+     "pct": 45,
+     "riv": "Fagioli"
     },
     {
      "n": "Gonçalves",
-     "pct": 5,
-     "riv": null
+     "pct": 45,
+     "riv": "Brescianini"
     },
     {
      "n": "Mazzeo",

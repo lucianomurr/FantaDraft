@@ -29,10 +29,6 @@
   {
    "n": "Gueye",
    "stato": "Da valutare"
-  },
-  {
-   "n": "Solet",
-   "stato": "Da valutare"
   }
  ],
  "Torino": [
@@ -77,6 +73,10 @@
   {
    "n": "Geubbels",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Monteiro",
+   "stato": "Da valutare"
   }
  ],
  "Cagliari": [
@@ -89,11 +89,15 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Deiola",
+   "n": "Fadera",
    "stato": "Da valutare"
   },
   {
-   "n": "Fadera",
+   "n": "M&#x27;Bala Nzola",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Aurelio",
    "stato": "Da valutare"
   }
  ],
@@ -111,16 +115,16 @@
   {
    "n": "Bernabé",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Drobnic",
+   "stato": "Da valutare"
   }
  ],
  "Bologna": [
   {
    "n": "Holm",
    "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Piccoli",
-   "stato": "Rientro alla 12"
   },
   {
    "n": "Enem",
@@ -146,7 +150,11 @@
   },
   {
    "n": "Dybala",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Rensch",
+   "stato": "Rientro alla 12"
   }
  ],
  "Sassuolo": [
@@ -225,6 +233,10 @@
   {
    "n": "Marusic",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Zaccagni",
+   "stato": "Rientro alla 12"
   }
  ],
  "Monza": [
@@ -369,12 +381,16 @@
   {
    "n": "Addai",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Chalobah",
+   "stato": "Da valutare"
   }
  ],
  "Fiorentina": [
   {
    "n": "Parisi",
-   "stato": "Rientro alla 13"
+   "stato": "Da valutare"
   },
   {
    "n": "Ranieri",
@@ -383,6 +399,10 @@
   {
    "n": "Pongracic",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Atta",
+   "stato": "Da valutare"
   }
  ],
  "Juventus": [

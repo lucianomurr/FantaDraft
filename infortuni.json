@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-04",
+ "aggiornato": "2026-11-05",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -75,15 +75,21 @@
   },
   {
    "s": "Cagliari",
-   "n": "Fadera",
-   "d": "il centrocampista offensivo dei sardi fermo dalla gara contro la Lazio (1 novembre) per una lesione muscolare al bicipite femorale",
-   "r": "tentativo di rientro dall'inizio di dicembre."
-  },
-  {
-   "s": "Cagliari",
    "n": "Idrissi R.",
    "d": "il calciatore in ripresa dalla rottura del legamento crociato",
    "r": "può tornare arruolabile dalla metà di novembre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Nzola",
+   "d": "L'attaccante alle prese con una distrazione muscolare ai flessori della coscia destra",
+   "r": "rientro dalla seconda metà di novembre."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Fadera",
+   "d": "il centrocampista offensivo dei sardi fermo dalla gara contro la Lazio (1 novembre) per una lesione muscolare al bicipite femorale",
+   "r": "tentativo di rientro dall'inizio di dicembre."
   },
   {
    "s": "Cagliari",
@@ -209,7 +215,7 @@
    "s": "Juventus",
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Rientro in campo da inizio dicembre."
+   "r": "Rientro in campo da prima metà di dicembre."
   },
   {
    "s": "Juventus",
@@ -228,6 +234,12 @@
    "n": "Gudmundsson A.",
    "d": "L'islandese in Nazionale il 26 settembre vittima di un problema alla spalla destra dopo una caduta fortuita in partita. Condizioni da monitorare, si confida di riaverlo a disposizione dalla seconda metà di novembre.",
    "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Lazio",
+   "n": "Zaccagni",
+   "d": "Il capitano dei biancocelesti alle prese con un problema muscolare alla coscia sinistra.",
+   "r": "Out domenica a Napoli, rischia uno stop di un mese."
   },
   {
    "s": "Lecce",
@@ -448,8 +460,8 @@
   {
    "s": "Torino",
    "n": "Mandragora",
-   "d": "il centrocampista granata fermato il 23 ottobre contro il Monza da un problema muscolare al flessore sinistro.",
-   "r": "Rientro dalla metà di novembre."
+   "d": "il centrocampista granata fermato il 23 ottobre contro il Monza da un problema muscolare al flessore sinistro. Rientro dalla metà di novembre, ma sta provando a esserci già sabato contro il Lecce.",
+   "r": "Da valutare nella rifinitura di venerdì."
   },
   {
    "s": "Torino",
@@ -506,12 +518,6 @@
    "r": "Punta a rientrare per la giornata 15 (fonte Gazzetta)."
   },
   {
-   "s": "Udinese",
-   "n": "Solet",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
    "s": "Torino",
    "n": "Israel",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
@@ -525,15 +531,15 @@
   },
   {
    "s": "Cagliari",
-   "n": "Deiola",
+   "n": "Aurelio",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
    "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
-   "s": "Bologna",
-   "n": "Piccoli",
+   "s": "Parma",
+   "n": "Drobnic",
    "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 12 (fonte Gazzetta)."
+   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Sassuolo",
