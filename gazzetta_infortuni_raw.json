@@ -5,10 +5,6 @@
    "stato": "Rientro alla 15"
   },
   {
-   "n": "Thierry Correia",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Sverko",
    "stato": "Da valutare"
   },
@@ -19,64 +15,16 @@
  ],
  "Udinese": [
   {
-   "n": "Bayo",
-   "stato": "Rientro alla 15"
-  },
-  {
    "n": "Alaba",
    "stato": "Da valutare"
   },
   {
    "n": "Gueye",
    "stato": "Da valutare"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": "Da valutare"
   },
   {
-   "n": "Fortini",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Cacciamani",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Mandragora",
-   "stato": "Da valutare"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Berisha",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Coulibaly",
+   "n": "Zanoli",
    "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Pierotti",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ilic",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Geubbels",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Monteiro",
-   "stato": "Da valutare"
   }
  ],
  "Cagliari": [
@@ -99,16 +47,60 @@
   {
    "n": "Aurelio",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Mina",
+   "stato": "Da valutare"
   }
  ],
  "Frosinone": [
   {
    "n": "Grillitsch",
-   "stato": "Rientro alla 14"
+   "stato": "Da valutare"
   },
   {
    "n": "Raimondo",
-   "stato": "Rientro alla 18"
+   "stato": "Rientro alla 15"
+  }
+ ],
+ "Torino": [
+  {
+   "n": "Israel",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Fortini",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Rodríguez",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Mandragora",
+   "stato": "Da valutare"
+  }
+ ],
+ "Lecce": [
+  {
+   "n": "Berisha",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pierotti",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ilic",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Geubbels",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Monteiro",
+   "stato": "Da valutare"
   }
  ],
  "Parma": [
@@ -155,15 +147,15 @@
   {
    "n": "Rensch",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Gollini",
+   "stato": "Rientro alla 12"
   }
  ],
  "Sassuolo": [
   {
    "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pieragnolo",
    "stato": "Da valutare"
   },
   {
@@ -176,6 +168,14 @@
   },
   {
    "n": "Paz",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Skjellerup",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Berardi",
    "stato": "Da valutare"
   }
  ],
@@ -209,10 +209,6 @@
    "stato": "Rientro alla 16"
   },
   {
-   "n": "Vanja Milinkovic-Savic",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Di Lorenzo",
    "stato": "Da valutare"
   },
@@ -227,16 +223,8 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Rovella",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Marusic",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Zaccagni",
-   "stato": "Rientro alla 12"
+   "stato": "Rientro alla 13"
   }
  ],
  "Monza": [
@@ -254,10 +242,6 @@
   },
   {
    "n": "Folorunsho",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ngonge",
    "stato": "Da valutare"
   }
  ],
@@ -301,22 +285,6 @@
  ],
  "Genoa": [
   {
-   "n": "Venturino",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Drameh",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Havel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ellertsson",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Nuredini",
    "stato": "Da valutare"
   }
@@ -345,20 +313,16 @@
   {
    "n": "Tomori",
    "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Pavlovic",
+   "stato": "Da valutare"
   }
  ],
  "Inter": [
   {
-   "n": "Stones",
-   "stato": "Da valutare"
-  },
-  {
    "n": "Lautaro Martínez",
    "stato": "Rientro alla 12"
-  },
-  {
-   "n": "Jones",
-   "stato": "Da valutare"
   },
   {
    "n": "Luis Henrique",
@@ -384,7 +348,7 @@
   },
   {
    "n": "Chalobah",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   }
  ],
  "Fiorentina": [
@@ -408,7 +372,7 @@
  "Juventus": [
   {
    "n": "Yildiz",
-   "stato": "Rientro alla 13"
+   "stato": "Rientro alla 15"
   },
   {
    "n": "Thuram",
@@ -423,20 +387,12 @@
    "stato": "Rientro alla 29"
   },
   {
-   "n": "Francisco Conceição",
-   "stato": "Rientro alla 12"
-  },
-  {
    "n": "Çelik",
    "stato": "Rientro alla 12"
   },
   {
    "n": "González",
    "stato": "Rientro alla 13"
-  },
-  {
-   "n": "McKennie",
-   "stato": "Da valutare"
   }
  ]
 }

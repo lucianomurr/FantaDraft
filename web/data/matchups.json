@@ -47,20 +47,20 @@
   "opp": "Napoli",
   "home": false
  },
- "Monza": {
-  "opp": "Atalanta",
-  "home": true
- },
- "Atalanta": {
-  "opp": "Monza",
-  "home": false
- },
  "Genoa": {
   "opp": "Milan",
   "home": true
  },
  "Milan": {
   "opp": "Genoa",
+  "home": false
+ },
+ "Monza": {
+  "opp": "Atalanta",
+  "home": true
+ },
+ "Atalanta": {
+  "opp": "Monza",
   "home": false
  },
  "Inter": {
