@@ -1,108 +1,4 @@
 {
- "Venezia": [
-  {
-   "n": "Franjic",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Sverko",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adorante",
-   "stato": "Rientro alla 12"
-  }
- ],
- "Udinese": [
-  {
-   "n": "Alaba",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Gueye",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Zanoli",
-   "stato": "Rientro alla 12"
-  }
- ],
- "Cagliari": [
-  {
-   "n": "Felici",
-   "stato": "Rientro alla 32"
-  },
-  {
-   "n": "Idrissi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Fadera",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "M&#x27;Bala Nzola",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Aurelio",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Mina",
-   "stato": "Da valutare"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Raimondo",
-   "stato": "Rientro alla 15"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Fortini",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Rodríguez",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Mandragora",
-   "stato": "Da valutare"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Berisha",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pierotti",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ilic",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Geubbels",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Monteiro",
-   "stato": "Da valutare"
-  }
- ],
  "Parma": [
   {
    "n": "Bernabé",
@@ -110,6 +6,10 @@
   },
   {
    "n": "Drobnic",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "de Martis",
    "stato": "Da valutare"
   }
  ],
@@ -151,6 +51,10 @@
   {
    "n": "Gollini",
    "stato": "Rientro alla 12"
+  },
+  {
+   "n": "Mancini",
+   "stato": "Da valutare"
   }
  ],
  "Sassuolo": [
@@ -210,11 +114,7 @@
   },
   {
    "n": "Di Lorenzo",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Olivera",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 13"
   }
  ],
  "Lazio": [
@@ -316,7 +216,7 @@
   },
   {
    "n": "Pavlovic",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 12"
   }
  ],
  "Inter": [
@@ -393,6 +293,10 @@
   {
    "n": "González",
    "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Cambiaso",
+   "stato": "Da valutare"
   }
  ]
 }

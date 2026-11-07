@@ -7,20 +7,20 @@
   "opp": "Venezia",
   "home": false
  },
- "Cagliari": {
-  "opp": "Frosinone",
-  "home": true
- },
- "Frosinone": {
-  "opp": "Cagliari",
-  "home": false
- },
  "Torino": {
   "opp": "Lecce",
   "home": true
  },
  "Lecce": {
   "opp": "Torino",
+  "home": false
+ },
+ "Cagliari": {
+  "opp": "Frosinone",
+  "home": true
+ },
+ "Frosinone": {
+  "opp": "Cagliari",
   "home": false
  },
  "Parma": {
