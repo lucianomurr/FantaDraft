@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-07",
+ "aggiornato": "2026-11-08",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -164,6 +164,12 @@
    "r": "Stop di circa sei settimane, può tornare convocabile da metà novembre."
   },
   {
+   "s": "Genoa",
+   "n": "Frendrup",
+   "d": "Non disponibile per la sfida con il Milan a causa di una contusione alla caviglia sinistra",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
    "s": "Inter",
    "n": "Luis Henrique",
    "d": "l'esterno nerazzurro sottoposto il 23 ottobre a esami medici che hanno evidenziato un risentimento all'adduttore lungo della coscia sinistra. Ipotesi di recupero da metà novembre.",
@@ -177,9 +183,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Cambiaso",
-   "d": "Il difensore affaticato dopo l'impegno di giovedì in Europa League e out per domenica sera al Franchi in campionato contro la Fiorentina.",
-   "r": "Da valutare nella sosta Nazionali."
+   "n": "Celik",
+   "d": "Il turco il 22 ottobre in Europa League ha lamentato una lesione di basso grado del bicipite femorale sinistro",
+   "r": "recuperabile da metà novembre."
   },
   {
    "s": "Juventus",
@@ -201,9 +207,9 @@
   },
   {
    "s": "Juventus",
-   "n": "Conceicao",
-   "d": "il portoghese KO il 18 ottobre contro la Lazio vittima di una lussazione alla spalla sinistra, prontamente ridotta.",
-   "r": "Recuperabile dalla metà di novembre."
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
+   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Juventus",
@@ -213,15 +219,15 @@
   },
   {
    "s": "Juventus",
-   "n": "Celik",
-   "d": "Il turco il 22 ottobre in Europa League ha lamentato una lesione di basso grado del bicipite femorale sinistro",
-   "r": "recuperabile da metà novembre."
+   "n": "Cambiaso",
+   "d": "Il difensore affaticato dopo l'impegno di giovedì in Europa League e out per domenica sera al Franchi in campionato contro la Fiorentina.",
+   "r": "Da valutare nella sosta Nazionali."
   },
   {
    "s": "Juventus",
-   "n": "Thuram K.",
-   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
-   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
+   "n": "Conceicao",
+   "d": "il portoghese KO il 18 ottobre contro la Lazio vittima di una lussazione alla spalla sinistra, prontamente ridotta.",
+   "r": "Recuperabile dalla metà di novembre."
   },
   {
    "s": "Lazio",
@@ -492,60 +498,6 @@
    "n": "Franjic",
    "d": "il difensore costretto al cambio a Milano contro i rossoneri a fine agosto per un guaio alla spalla che ha richiesto l'intervento chirurgico.",
    "r": "Lungo stop e rientro dalla metà di dicembre."
-  },
-  {
-   "s": "Parma",
-   "n": "de Martis",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Roma",
-   "n": "Koné",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Paz",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Skjellerup",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Monza",
-   "n": "Pessina",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 12 (fonte Gazzetta)."
-  },
-  {
-   "s": "Monza",
-   "n": "Ziólkowski",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 12 (fonte Gazzetta)."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Kessie",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Kolasinac",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Punta a rientrare per la giornata 12 (fonte Gazzetta)."
-  },
-  {
-   "s": "Genoa",
-   "n": "Nuredini",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   },
   {
    "s": "Fiorentina",
