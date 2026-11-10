@@ -1957,7 +1957,7 @@
     },
     {
      "n": "Esposito F.P.",
-     "pct": 55,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1969,11 +1969,6 @@
      "n": "Rowe",
      "pct": 49,
      "riv": "Elmas"
-    },
-    {
-     "n": "Bonny",
-     "pct": 45,
-     "riv": "Esposito F.P."
     },
     {
      "n": "Mkhitaryan",
@@ -1996,11 +1991,6 @@
      "riv": "Martinez Jo."
     },
     {
-     "n": "Scamacca",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Sportiello",
      "pct": 5,
      "riv": null
@@ -2017,6 +2007,11 @@
     },
     {
      "n": "Samardzic",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Scamacca",
      "pct": 5,
      "riv": null
     },
