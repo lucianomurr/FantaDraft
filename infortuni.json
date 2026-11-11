@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-10",
+ "aggiornato": "2026-11-11",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -9,15 +9,9 @@
   },
   {
    "s": "Atalanta",
-   "n": "Gaetano",
-   "d": "il centrocampista frenato nella gara di fine ottobre a Firenze per una distrazione di medio grado ai muscoli adduttori della coscia destra",
-   "r": "recuperabile da fine novembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Kristensen T.",
-   "d": "il difensore costretto al cambio il 29 ottobre a Firenze dopo pochi minuti di gara a causa di una distrazione di basso grado ai muscoli flessori della coscia sinistra.",
-   "r": "Recuperabile dalla seconda metà di novembre."
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
+   "r": "pronto a tornare in campo dalla fine di novembre."
   },
   {
    "s": "Atalanta",
@@ -27,9 +21,15 @@
   },
   {
    "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
-   "r": "pronto a tornare in campo dalla fine di novembre."
+   "n": "Kristensen T.",
+   "d": "il difensore costretto al cambio il 29 ottobre a Firenze dopo pochi minuti di gara a causa di una distrazione di basso grado ai muscoli flessori della coscia sinistra.",
+   "r": "Recuperabile dalla seconda metà di novembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Gaetano",
+   "d": "il centrocampista frenato nella gara di fine ottobre a Firenze per una distrazione di medio grado ai muscoli adduttori della coscia destra",
+   "r": "recuperabile da fine novembre."
   },
   {
    "s": "Bologna",
@@ -111,21 +111,15 @@
   },
   {
    "s": "Fiorentina",
-   "n": "Parisi",
-   "d": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio",
-   "r": "punta a tornare convocabile da fine dicembre."
-  },
-  {
-   "s": "Fiorentina",
    "n": "Pongracic",
    "d": "il difensore il 15 ottobre contro l'Inter ha rimediato una lesione mio-fasciale a carico del capo lungo del bicipite femorale della coscia destra",
    "r": "rientro dalla fine di novembre."
   },
   {
-   "s": "Frosinone",
-   "n": "Raimondo",
-   "d": "l'attaccante KO l'1 novembre contro il Toro vittima di una lesione multilegamentosa contusivo-distorsiva della caviglia sinistra.",
-   "r": "Iniziate le cure del caso, proverà a tornare già da metà dicembre in campo."
+   "s": "Fiorentina",
+   "n": "Parisi",
+   "d": "il cursore di fascia della Viola sta svolgendo l'iter di recupero dall'infortunio al legamento crociato al ginocchio",
+   "r": "punta a tornare convocabile da fine dicembre."
   },
   {
    "s": "Frosinone",
@@ -140,6 +134,12 @@
    "r": "Tempi di recupero da valutare."
   },
   {
+   "s": "Frosinone",
+   "n": "Raimondo",
+   "d": "l'attaccante KO l'1 novembre contro il Toro vittima di una lesione multilegamentosa contusivo-distorsiva della caviglia sinistra.",
+   "r": "Iniziate le cure del caso, proverà a tornare già da metà dicembre in campo."
+  },
+  {
    "s": "Inter",
    "n": "Luis Henrique",
    "d": "l'esterno nerazzurro sottoposto il 23 ottobre a esami medici che hanno evidenziato un risentimento all'adduttore lungo della coscia sinistra. Tentativo di recupero dalla seconda metà di novembre.",
@@ -147,9 +147,21 @@
   },
   {
    "s": "Inter",
-   "n": "Martinez L.",
-   "d": "L'argentino sottoposto il 15 ottobre a controlli medici che hanno evidenziato un risentimento muscolare ai flessori della coscia sinistra.",
-   "r": "Recuperabile dalla metà di novembre, da valutare nei prossimi allenamenti le possibilità di convocazione già alla ripresa del campionato contro l'Atalanta."
+   "n": "Stankovic A.",
+   "d": "Il centrocampista frenato da una lesione al muscolo adduttore della coscia destra.",
+   "r": "Out alla ripresa del campionato contro l'Atalanta, tempi di recupero da valutare."
+  },
+  {
+   "s": "Inter",
+   "n": "Bonny",
+   "d": "L'attaccante ai box per un risentimento muscolare ai flessori della coscia destra",
+   "r": "rientro possibile dall'inizio di dicembre."
+  },
+  {
+   "s": "Inter",
+   "n": "Thuram",
+   "d": "Il francese condizionato da un problema muscolare al bicipite femorale della coscia.",
+   "r": "Condizioni da valutare durante questa sosta, a rischio la sua convocazione alla ripresa del campionato contro l'Atalanta."
   },
   {
    "s": "Juventus",
@@ -185,13 +197,7 @@
    "s": "Lazio",
    "n": "Tavares N.",
    "d": "il terzino dei biancocelesti costretto al cambio l'8 novembre a Napoli a causa di un guaio muscolare al flessore della gamba.",
-   "r": "Condizioni da valutare, verso il forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma."
-  },
-  {
-   "s": "Lazio",
-   "n": "Zaccagni",
-   "d": "Il capitano dei biancocelesti alle prese con una lesione del quadricipite femorale sinistro",
-   "r": "rientro in campo da fine novembre."
+   "r": "Condizioni da valutare, ma darà forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma."
   },
   {
    "s": "Lazio",
@@ -207,15 +213,15 @@
   },
   {
    "s": "Lecce",
-   "n": "Monteiro J.",
-   "d": "l'ala offensiva dei salentini KO l'1 novembre contro il Bologna vittima di una lesione di primo grado al polpaccio sinistro.",
-   "r": "Recuperabile dall'inizio di dicembre."
-  },
-  {
-   "s": "Lecce",
    "n": "Ilic",
    "d": "il regista dei salentini KO l'11 ottobre in casa contro il Bologna vittima di una lesione miotendinea del retto femorale sinistro con lesione parziale del tendine",
    "r": "rientro da aprile."
+  },
+  {
+   "s": "Lecce",
+   "n": "Monteiro J.",
+   "d": "l'ala offensiva dei salentini KO l'1 novembre contro il Bologna vittima di una lesione di primo grado al polpaccio sinistro.",
+   "r": "Recuperabile dall'inizio di dicembre."
   },
   {
    "s": "Lecce",
@@ -324,12 +330,6 @@
    "n": "Romero D.",
    "d": "l'attaccante KO il 7 novembre contro il Bologna vittima in campo di una lussazione acromion-claveare della spalla destra.",
    "r": "Condizioni da valutare, ma non ci sarà nel prossimo turno al Tardini contro la Roma."
-  },
-  {
-   "s": "Roma",
-   "n": "Mancini",
-   "d": "Il difensore fuori dai convocati nel turno precedente contro il Sassuolo per un risentimento muscolare alla gamba accusato nella rifinitura.",
-   "r": "Da valutare nella sosta in vista della 12a di campionato contro il Parma al Tardini."
   },
   {
    "s": "Roma",

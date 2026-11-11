@@ -363,6 +363,11 @@
      "riv": "Dembelè A."
     },
     {
+     "n": "Rovella",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Motta",
      "pct": 5,
      "riv": null
@@ -394,11 +399,6 @@
     },
     {
      "n": "Przyborek",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Rovella",
      "pct": 5,
      "riv": null
     },
@@ -1373,7 +1373,7 @@
   {
    "home": "Sassuolo",
    "away": "Genoa",
-   "homeMod": "3-5-2",
+   "homeMod": "4-3-3",
    "awayMod": "3-4-2-1",
    "date": "2026-11-22T14:00:00.000Z",
    "players": [
@@ -1383,8 +1383,8 @@
      "riv": null
     },
     {
-     "n": "Walukiewicz",
-     "pct": 95,
+     "n": "Cinquegrano",
+     "pct": 51,
      "riv": null
     },
     {
@@ -1393,13 +1393,13 @@
      "riv": null
     },
     {
-     "n": "Caleta-Car",
+     "n": "Candè",
      "pct": 51,
      "riv": null
     },
     {
-     "n": "Cinquegrano",
-     "pct": 51,
+     "n": "Doig",
+     "pct": 95,
      "riv": null
     },
     {
@@ -1418,13 +1418,13 @@
      "riv": null
     },
     {
-     "n": "Doig",
+     "n": "Esposito Se.",
      "pct": 95,
      "riv": null
     },
     {
-     "n": "Esposito Se.",
-     "pct": 60,
+     "n": "Bowie",
+     "pct": 95,
      "riv": null
     },
     {
@@ -1488,9 +1488,9 @@
      "riv": null
     },
     {
-     "n": "Bowie",
-     "pct": 40,
-     "riv": "Esposito Se."
+     "n": "Caleta-Car",
+     "pct": 49,
+     "riv": "Candè"
     },
     {
      "n": "Adzic",
@@ -1501,11 +1501,6 @@
      "n": "Van Der Brempt",
      "pct": 49,
      "riv": "Cinquegrano"
-    },
-    {
-     "n": "Candè",
-     "pct": 49,
-     "riv": "Caleta-Car"
     },
     {
      "n": "Baldanzi",
@@ -1549,6 +1544,11 @@
     },
     {
      "n": "Pieragnolo",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Walukiewicz",
      "pct": 5,
      "riv": null
     },
@@ -1702,13 +1702,13 @@
      "riv": null
     },
     {
-     "n": "Calvani",
+     "n": "Cittadini",
      "pct": 95,
      "riv": null
     },
     {
      "n": "Monterisi",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1723,7 +1723,7 @@
     },
     {
      "n": "Masini",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1760,16 +1760,6 @@
      "n": "Bobcek",
      "pct": 49,
      "riv": "Birligea"
-    },
-    {
-     "n": "Cichella",
-     "pct": 49,
-     "riv": "Masini"
-    },
-    {
-     "n": "Cittadini",
-     "pct": 49,
-     "riv": "Monterisi"
     },
     {
      "n": "Torriani",
@@ -1961,7 +1951,7 @@
      "riv": null
     },
     {
-     "n": "Thuram",
+     "n": "Martinez L.",
      "pct": 95,
      "riv": null
     },
@@ -2037,11 +2027,6 @@
     },
     {
      "n": "Jones C.",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Stankovic A.",
      "pct": 5,
      "riv": null
     },
@@ -2140,13 +2125,13 @@
      "riv": null
     },
     {
-     "n": "Ndour",
+     "n": "Fagioli",
      "pct": 95,
      "riv": null
     },
     {
      "n": "Oulai",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -2193,11 +2178,6 @@
      "n": "Brescianini",
      "pct": 45,
      "riv": "Goncalves P."
-    },
-    {
-     "n": "Fagioli",
-     "pct": 49,
-     "riv": "Oulai"
     },
     {
      "n": "Strajnar",
