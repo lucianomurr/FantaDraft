@@ -199,6 +199,11 @@
      "riv": null
     },
     {
+     "n": "Idrissi R.",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Ciervo",
      "pct": 5,
      "riv": null
@@ -363,11 +368,6 @@
      "riv": "Dembelè A."
     },
     {
-     "n": "Rovella",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Motta",
      "pct": 5,
      "riv": null
@@ -403,6 +403,11 @@
      "riv": null
     },
     {
+     "n": "Rovella",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Bleve",
      "pct": 5,
      "riv": null
@@ -414,6 +419,11 @@
     },
     {
      "n": "Ndaba",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Berisha M.",
      "pct": 5,
      "riv": null
     },
@@ -647,12 +657,22 @@
      "riv": null
     },
     {
+     "n": "Mancini",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "De Roon",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Castro S.",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Dybala",
      "pct": 5,
      "riv": null
     }
@@ -1018,6 +1038,11 @@
      "n": "Busio",
      "pct": 49,
      "riv": "Basic"
+    },
+    {
+     "n": "Conceicao",
+     "pct": 5,
+     "riv": null
     },
     {
      "n": "Neto",
@@ -1463,8 +1488,8 @@
      "riv": null
     },
     {
-     "n": "Frendrup",
-     "pct": 51,
+     "n": "Wiafe",
+     "pct": 55,
      "riv": null
     },
     {
@@ -1488,14 +1513,14 @@
      "riv": null
     },
     {
-     "n": "Caleta-Car",
-     "pct": 49,
-     "riv": "Candè"
-    },
-    {
      "n": "Adzic",
      "pct": 49,
      "riv": "Thorstvedt"
+    },
+    {
+     "n": "Caleta-Car",
+     "pct": 49,
+     "riv": "Candè"
     },
     {
      "n": "Van Der Brempt",
@@ -1513,9 +1538,9 @@
      "riv": "Vitinha O."
     },
     {
-     "n": "Wiafe",
+     "n": "Meichtry",
      "pct": 49,
-     "riv": "Frendrup"
+     "riv": "Wiafe"
     },
     {
      "n": "Sow",
@@ -1604,11 +1629,6 @@
     },
     {
      "n": "Amorim",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Meichtry",
      "pct": 5,
      "riv": null
     },
