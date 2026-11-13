@@ -1,11 +1,23 @@
 {
- "aggiornato": "2026-11-12",
+ "aggiornato": "2026-11-13",
  "infortunati": [
   {
    "s": "Atalanta",
    "n": "Kossounou",
    "d": "Il difensore frenato da una lesione muscolare di medio-alto grado del bicipite femorale della coscia sinistra alla vigilia della sfida di campionato contro la Juventus (del 20 settembre).",
    "r": "Lungo stop, rientro dalla fine di novembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Hien",
+   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
+   "r": "pronto a tornare in campo dalla fine di novembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Pompei",
+   "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
+   "r": "Recuperabile da dicembre."
   },
   {
    "s": "Atalanta",
@@ -18,18 +30,6 @@
    "n": "Kristensen T.",
    "d": "il difensore costretto al cambio il 29 ottobre a Firenze dopo pochi minuti di gara a causa di una distrazione di basso grado ai muscoli flessori della coscia sinistra.",
    "r": "Recuperabile dalla seconda metà di novembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Pompei",
-   "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
-   "r": "Recuperabile da dicembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Hien",
-   "d": "il difensore operato a fine giugno per una lesione del tendine prossimale del muscolo semimembranoso della coscia sinistra, in recupero e",
-   "r": "pronto a tornare in campo dalla fine di novembre."
   },
   {
    "s": "Bologna",
@@ -117,12 +117,6 @@
   },
   {
    "s": "Frosinone",
-   "n": "Raimondo",
-   "d": "l'attaccante KO l'1 novembre contro il Toro vittima di una lesione multilegamentosa contusivo-distorsiva della caviglia sinistra.",
-   "r": "Iniziate le cure del caso, proverà a tornare già da metà dicembre in campo."
-  },
-  {
-   "s": "Frosinone",
    "n": "Grillitsch",
    "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
    "r": "Stop di circa sei settimane, può tornare convocabile dalla seconda metà di novembre."
@@ -134,10 +128,10 @@
    "r": "Tempi di recupero da valutare."
   },
   {
-   "s": "Inter",
-   "n": "Bonny",
-   "d": "L'attaccante ai box per un risentimento muscolare ai flessori della coscia destra",
-   "r": "rientro possibile dall'inizio di dicembre."
+   "s": "Frosinone",
+   "n": "Raimondo",
+   "d": "l'attaccante KO l'1 novembre contro il Toro vittima di una lesione multilegamentosa contusivo-distorsiva della caviglia sinistra.",
+   "r": "Iniziate le cure del caso, proverà a tornare già da metà dicembre in campo."
   },
   {
    "s": "Inter",
@@ -146,22 +140,10 @@
    "r": "Out alla ripresa del campionato contro l'Atalanta, tempi di recupero da valutare."
   },
   {
-   "s": "Juventus",
-   "n": "Locatelli",
-   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da febbraio.",
-   "r": "Tempi di recupero da valutare."
-  },
-  {
-   "s": "Juventus",
-   "n": "Thuram K.",
-   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
-   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
-  },
-  {
-   "s": "Juventus",
-   "n": "Yildiz",
-   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
-   "r": "Rientro in campo da prima metà di dicembre."
+   "s": "Inter",
+   "n": "Bonny",
+   "d": "L'attaccante ai box per un risentimento muscolare ai flessori della coscia destra",
+   "r": "rientro possibile dall'inizio di dicembre."
   },
   {
    "s": "Juventus",
@@ -171,21 +153,45 @@
   },
   {
    "s": "Juventus",
+   "n": "Yildiz",
+   "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
+   "r": "Rientro in campo da prima metà di dicembre."
+  },
+  {
+   "s": "Juventus",
+   "n": "Locatelli",
+   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da febbraio.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Juventus",
    "n": "Kalulu",
    "d": "Il terzino bianconero ai box per una lesione ai muscoli ischiocrurali della gamba sinistra",
    "r": "recuperabile dalla fine di novembre."
   },
   {
-   "s": "Lazio",
-   "n": "Sutalo J.",
-   "d": "il difensore KO l'8 novembre a Napoli vittima di un guaio muscolare al flessore della gamba.",
-   "r": "Condizioni da valutare, verso il forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma."
+   "s": "Juventus",
+   "n": "Thuram K.",
+   "d": "il centrocampista condizionato da una sindrome femoro-rotulea e, dopo un consulto medico a fine agosto, è stato sottoposto il 3 settembre a operazione chirurgica.",
+   "r": "Lungo stop, ipotizziamo un rientro da gennaio."
   },
   {
    "s": "Lazio",
    "n": "Tavares N.",
    "d": "il terzino dei biancocelesti costretto al cambio l'8 novembre a Napoli a causa di un guaio muscolare al flessore della gamba.",
-   "r": "Condizioni da valutare, ma darà forfait alla ripresa del campionato contro il Lecce all'Olimpico di Roma."
+   "r": "Recuperabile dalla metà di dicembre, proverà a esserci nel derby."
+  },
+  {
+   "s": "Lazio",
+   "n": "Marusic",
+   "d": "Il montenegrino frenato ancora da un fastidio muscolare alla gamba, condizioni che restano valutare ma non ci sarà nel prossimo turno di campionato.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Lazio",
+   "n": "Sutalo J.",
+   "d": "il difensore KO l'8 novembre a Napoli vittima di una lesione muscolare di secondo grado al flessore della gamba.",
+   "r": "Recuperabile dalla seconda metà di dicembre."
   },
   {
    "s": "Lecce",
@@ -213,14 +219,14 @@
   },
   {
    "s": "Milan",
-   "n": "Gabbia",
-   "d": "il difensore KO l'11 ottobre contro il Sassuolo vittima di una lesione del flessore della coscia sinistra con parziale interessamento tendineo. Lo stop sarà lungo, anche con la terapia conservativa.",
-   "r": "Ipotesi rientro in campo da fine febbraio."
+   "n": "Chukwueze",
+   "d": "Il nigeriano dal 21 ottobre fermato dalla rottura del tendine del muscolo tensore della fascia lata dell'anca sinistra. Operato il 4 novembre, lungo stop.",
+   "r": "Ipotesi di rientro in campo da aprile."
   },
   {
    "s": "Milan",
-   "n": "Tomori",
-   "d": "Il difensore KO il 28 ottobre contro il Bologna vittima di una lesione a carico del muscolo flessore mediale della coscia destra.",
+   "n": "Loftus-Cheek",
+   "d": "il centrocampista non al meglio per una lesione muscolare al flessore ravvisato sul finire del match di Udine (25 ottobre).",
    "r": "Recuperabile dalla seconda metà di novembre."
   },
   {
@@ -231,15 +237,15 @@
   },
   {
    "s": "Milan",
-   "n": "Loftus-Cheek",
-   "d": "il centrocampista non al meglio per una lesione muscolare al flessore ravvisato sul finire del match di Udine (25 ottobre).",
+   "n": "Tomori",
+   "d": "Il difensore KO il 28 ottobre contro il Bologna vittima di una lesione a carico del muscolo flessore mediale della coscia destra.",
    "r": "Recuperabile dalla seconda metà di novembre."
   },
   {
    "s": "Milan",
-   "n": "Chukwueze",
-   "d": "Il nigeriano dal 21 ottobre fermato dalla rottura del tendine del muscolo tensore della fascia lata dell'anca sinistra. Operato il 4 novembre, lungo stop.",
-   "r": "Ipotesi di rientro in campo da aprile."
+   "n": "Gabbia",
+   "d": "il difensore KO l'11 ottobre contro il Sassuolo vittima di una lesione del flessore della coscia sinistra con parziale interessamento tendineo. Lo stop sarà lungo, anche con la terapia conservativa.",
+   "r": "Ipotesi rientro in campo da fine febbraio."
   },
   {
    "s": "Monza",
@@ -261,15 +267,15 @@
   },
   {
    "s": "Napoli",
-   "n": "Santos A.",
-   "d": "l'ala offensiva azzurra KO il 18 ottobre a Venezia, vittima di una lesione distrattiva di medio grado del bicipite femorale sinistro.",
-   "r": "Recuperabile dall'inizio di dicembre."
-  },
-  {
-   "s": "Napoli",
    "n": "Badiashile",
    "d": "il difensore KO il 24 ottobre contro la Roma per una lesione distrattiva di medio grado del retto femorale destro",
    "r": "recuperabile dalla fine di novembre."
+  },
+  {
+   "s": "Napoli",
+   "n": "Santos A.",
+   "d": "l'ala offensiva azzurra KO il 18 ottobre a Venezia, vittima di una lesione distrattiva di medio grado del bicipite femorale sinistro.",
+   "r": "Recuperabile dall'inizio di dicembre."
   },
   {
    "s": "Napoli",
@@ -360,12 +366,6 @@
    "n": "Gueye",
    "d": "L'attaccante vittima di un problema alla caviglia a fine settembre.",
    "r": "Ha deciso di operarsi, lungo stop di circa tre mesi e possibile ritorno in campo da fine gennaio."
-  },
-  {
-   "s": "Udinese",
-   "n": "Alaba",
-   "d": "il difensore sostituito nell'intervallo della sfida contro il Lecce (18 ottobre) per un risentimento muscolare al polpaccio destro.",
-   "r": "Recuperabile dalla metà di novembre e ora da valutare il rientro tra i convocati già nel prossimo turno a Bologna in campionato."
   },
   {
    "s": "Venezia",

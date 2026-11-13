@@ -398,6 +398,11 @@
      "riv": null
     },
     {
+     "n": "Gudmundsson A.",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Przyborek",
      "pct": 5,
      "riv": null
@@ -1717,13 +1722,13 @@
      "riv": null
     },
     {
-     "n": "Oyono A.",
+     "n": "Tchato",
      "pct": 95,
      "riv": null
     },
     {
      "n": "Cittadini",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -1732,7 +1737,7 @@
      "riv": null
     },
     {
-     "n": "Tchato",
+     "n": "Oyono A.",
      "pct": 95,
      "riv": null
     },
@@ -1743,7 +1748,7 @@
     },
     {
      "n": "Masini",
-     "pct": 95,
+     "pct": 60,
      "riv": null
     },
     {
@@ -1782,6 +1787,21 @@
      "riv": "Birligea"
     },
     {
+     "n": "Cichella",
+     "pct": 40,
+     "riv": "Masini"
+    },
+    {
+     "n": "Calvani",
+     "pct": 49,
+     "riv": "Cittadini"
+    },
+    {
+     "n": "Jashari",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Torriani",
      "pct": 5,
      "riv": null
@@ -1798,11 +1818,6 @@
     },
     {
      "n": "Comotto",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Jashari",
      "pct": 5,
      "riv": null
     },
