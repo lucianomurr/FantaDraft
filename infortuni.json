@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-13",
+ "aggiornato": "2026-11-14",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -75,15 +75,15 @@
   },
   {
    "s": "Cagliari",
-   "n": "Mina",
-   "d": "il colombiano condizionato da una vecchia ferita alla gamba (microlesione muscolare al bicipite femorale), out nel turno precedente contro il Frosinone.",
-   "r": "Da valutare durante la sosta per le Nazionali in vista della ripresa del campionato contro il Como."
-  },
-  {
-   "s": "Cagliari",
    "n": "Felici",
    "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
    "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Mina",
+   "d": "il colombiano condizionato da una vecchia ferita alla gamba (microlesione muscolare al bicipite femorale), out nel turno precedente contro il Frosinone.",
+   "r": "Da valutare durante la sosta per le Nazionali in vista della ripresa del campionato contro il Como."
   },
   {
    "s": "Como",
@@ -117,9 +117,9 @@
   },
   {
    "s": "Frosinone",
-   "n": "Grillitsch",
-   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
-   "r": "Stop di circa sei settimane, può tornare convocabile dalla seconda metà di novembre."
+   "n": "Raimondo",
+   "d": "l'attaccante KO l'1 novembre contro il Toro vittima di una lesione multilegamentosa contusivo-distorsiva della caviglia sinistra.",
+   "r": "Iniziate le cure del caso, proverà a tornare già da metà dicembre in campo."
   },
   {
    "s": "Frosinone",
@@ -129,9 +129,9 @@
   },
   {
    "s": "Frosinone",
-   "n": "Raimondo",
-   "d": "l'attaccante KO l'1 novembre contro il Toro vittima di una lesione multilegamentosa contusivo-distorsiva della caviglia sinistra.",
-   "r": "Iniziate le cure del caso, proverà a tornare già da metà dicembre in campo."
+   "n": "Grillitsch",
+   "d": "il centrocampista non convocato dalla gara di Genova (12 settembre) a causa di una sindrome retto-adduttoria, ha poi deciso di operarsi.",
+   "r": "Stop di circa sei settimane, può tornare convocabile dalla seconda metà di novembre."
   },
   {
    "s": "Inter",
@@ -147,6 +147,12 @@
   },
   {
    "s": "Juventus",
+   "n": "Locatelli",
+   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da febbraio.",
+   "r": "Tempi di recupero da valutare."
+  },
+  {
+   "s": "Juventus",
    "n": "Grabara",
    "d": "Il portiere out dal 20 settembre per una lesione al crociato anteriore del ginocchio destro.",
    "r": "Operazione chirurgica e lungo stop, rientro da aprile."
@@ -156,12 +162,6 @@
    "n": "Yildiz",
    "d": "l'attaccante turco, dopo la gara di Frosinone (23 agosto), ha lamentato un problema al piede. Operato il 31 agosto di osteosintesi della frattura della base del V metatarso del piede sinistro, stop di circa tre mesi.",
    "r": "Rientro in campo da prima metà di dicembre."
-  },
-  {
-   "s": "Juventus",
-   "n": "Locatelli",
-   "d": "il metronomo del centrocampo bianconero ha rimediato la rottura del menisco esterno del ginocchio. Verrà operato a Lione a stretto giro. Lungo stop e possibilità di rivederlo in campo da febbraio.",
-   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Juventus",
@@ -191,7 +191,7 @@
    "s": "Lazio",
    "n": "Sutalo J.",
    "d": "il difensore KO l'8 novembre a Napoli vittima di una lesione muscolare di secondo grado al flessore della gamba.",
-   "r": "Recuperabile dalla seconda metà di dicembre."
+   "r": "Recuperabile dalla fine di dicembre."
   },
   {
    "s": "Lecce",
@@ -279,9 +279,9 @@
   },
   {
    "s": "Napoli",
-   "n": "Di Lorenzo",
-   "d": "il capitano azzurro costretto al cambio l'1 novembre contro la Juve per una lesione distrattiva del muscolo adduttore lungo della coscia sinistra, tentativo di recupero dalla fine di novembre.",
-   "r": "Tempi di recupero da valutare."
+   "n": "Lobotka",
+   "d": "lo slovacco il 28 ottobre vittima a Monza di una lesione della sindesmosi tibio-peroneale senza instabilità, associata a lesione di basso grado del LPAA della caviglia sinistra.",
+   "r": "Recuperabile dalla metà di dicembre."
   },
   {
    "s": "Napoli",
@@ -291,9 +291,9 @@
   },
   {
    "s": "Napoli",
-   "n": "Lobotka",
-   "d": "lo slovacco il 28 ottobre vittima a Monza di una lesione della sindesmosi tibio-peroneale senza instabilità, associata a lesione di basso grado del LPAA della caviglia sinistra.",
-   "r": "Recuperabile dalla metà di dicembre."
+   "n": "Di Lorenzo",
+   "d": "il capitano azzurro costretto al cambio l'1 novembre contro la Juve per una lesione distrattiva del muscolo adduttore lungo della coscia sinistra, tentativo di recupero dalla fine di novembre.",
+   "r": "Tempi di recupero da valutare."
   },
   {
    "s": "Parma",
@@ -321,6 +321,24 @@
   },
   {
    "s": "Sassuolo",
+   "n": "Boloca",
+   "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
+   "r": "Da valutare rientro da fine novembre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Konè I.",
+   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
+   "r": "Operato, punta a tornare in campo da fine dicembre."
+  },
+  {
+   "s": "Sassuolo",
+   "n": "Volpato",
+   "d": "l'ala offensiva dei neroverdi out dal match del 2 novembre contro la Fiorentina per un problema muscolare alla gamba.",
+   "r": "Tempi di recupero da valutare, verso il forfait anche nel prossimo turno di campionato contro il Genoa."
+  },
+  {
+   "s": "Sassuolo",
    "n": "Berardi",
    "d": "il capitano dei neroverdi out a Roma il 7 novembre a causa di un problema fisico.",
    "r": "Condizioni da valutare in questa sosta delle Nazionali, ma rischia il forfait anche alla ripresa del campionato contro il Genoa."
@@ -332,28 +350,16 @@
    "r": "Lungo stop, ipotesi rientro in campo da aprile."
   },
   {
-   "s": "Sassuolo",
-   "n": "Volpato",
-   "d": "l'ala offensiva dei neroverdi out dal match del 2 novembre contro la Fiorentina per un problema muscolare alla gamba.",
-   "r": "Tempi di recupero da valutare, verso il forfait anche nel prossimo turno di campionato contro il Genoa."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Konè I.",
-   "d": "il centrocampista canadese vittima a giugno nella gara dei Mondiali di una rottura di tibia e perone.",
-   "r": "Operato, punta a tornare in campo da fine dicembre."
-  },
-  {
-   "s": "Sassuolo",
-   "n": "Boloca",
-   "d": "il centrocampista fuori causa per un problema al ginocchio e fuori causa in questo inizio di campionato.",
-   "r": "Da valutare rientro da fine novembre."
-  },
-  {
    "s": "Torino",
    "n": "Fortini",
    "d": "Il cursore di fascia dei granata rientrato in anticipo dagli impegni con l'U21 azzurra a inizio ottobre a causa di un affaticamento muscolare all'adduttore.",
    "r": "Recuperabile dalla seconda metà di novembre, da valutare la convocazione già a Napoli nel prossimo turno."
+  },
+  {
+   "s": "Udinese",
+   "n": "Bertola",
+   "d": "Il difensore alle prese con un problema muscolare alla coscia destra dalla metà di novembre",
+   "r": "condizioni da valutare ma sarà out nel prossimo turno di campionato."
   },
   {
    "s": "Udinese",

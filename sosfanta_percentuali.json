@@ -253,7 +253,7 @@
      "riv": null
     },
     {
-     "n": "Frattesi",
+     "n": "Dele-Bashiru",
      "pct": 95,
      "riv": null
     },
@@ -383,17 +383,7 @@
      "riv": null
     },
     {
-     "n": "Marusic",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Cataldi",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Dele-Bashiru",
      "pct": 5,
      "riv": null
     },
@@ -522,8 +512,8 @@
      "riv": null
     },
     {
-     "n": "Gollini",
-     "pct": 95,
+     "n": "Svilar",
+     "pct": 51,
      "riv": null
     },
     {
@@ -600,6 +590,11 @@
      "n": "Ghilardi",
      "pct": 45,
      "riv": "Balerdi"
+    },
+    {
+     "n": "Gollini",
+     "pct": 49,
+     "riv": "Svilar"
     },
     {
      "n": "Corvi",
@@ -766,7 +761,7 @@
      "riv": null
     },
     {
-     "n": "Belghali",
+     "n": "Patterson",
      "pct": 95,
      "riv": null
     },
@@ -866,7 +861,7 @@
      "riv": null
     },
     {
-     "n": "Patterson",
+     "n": "Rodriguez R.",
      "pct": 5,
      "riv": null
     },
@@ -1355,11 +1350,6 @@
     },
     {
      "n": "Arizala",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Bertola",
      "pct": 5,
      "riv": null
     },
@@ -2062,6 +2052,11 @@
     },
     {
      "n": "Jones C.",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Luis Henrique",
      "pct": 5,
      "riv": null
     },
