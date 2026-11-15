@@ -473,7 +473,7 @@
     },
     {
      "n": "Diego Carlos",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -557,8 +557,8 @@
      "riv": null
     },
     {
-     "n": "Mora",
-     "pct": 60,
+     "n": "Dybala",
+     "pct": 51,
      "riv": null
     },
     {
@@ -577,9 +577,9 @@
      "riv": "Britschgi"
     },
     {
-     "n": "Pisilli",
-     "pct": 40,
-     "riv": "Mora"
+     "n": "Carboni F.",
+     "pct": 49,
+     "riv": "Diego Carlos"
     },
     {
      "n": "Lulli",
@@ -603,11 +603,6 @@
     },
     {
      "n": "Ghidotti",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Carboni F.",
      "pct": 5,
      "riv": null
     },
@@ -642,6 +637,11 @@
      "riv": null
     },
     {
+     "n": "Mora",
+     "pct": 49,
+     "riv": null
+    },
+    {
      "n": "De Marzi",
      "pct": 5,
      "riv": null
@@ -667,12 +667,12 @@
      "riv": null
     },
     {
-     "n": "Castro S.",
+     "n": "Pisilli",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Dybala",
+     "n": "Castro S.",
      "pct": 5,
      "riv": null
     }
@@ -2115,7 +2115,7 @@
      "riv": null
     },
     {
-     "n": "Robinson J.",
+     "n": "Zeballos",
      "pct": 60,
      "riv": null
     },
@@ -2185,14 +2185,14 @@
      "riv": null
     },
     {
-     "n": "Ngonge",
+     "n": "Cutrone",
      "pct": 40,
      "riv": "Mota"
     },
     {
-     "n": "Zeballos",
+     "n": "Ngonge",
      "pct": 40,
-     "riv": "Robinson J."
+     "riv": "Zeballos"
     },
     {
      "n": "Colombo L.",
@@ -2261,11 +2261,6 @@
     },
     {
      "n": "Mout",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Cutrone",
      "pct": 5,
      "riv": null
     },
