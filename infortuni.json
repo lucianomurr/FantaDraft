@@ -1,5 +1,5 @@
 {
- "aggiornato": "2026-11-15",
+ "aggiornato": "2026-11-16",
  "infortunati": [
   {
    "s": "Atalanta",
@@ -18,18 +18,6 @@
    "n": "Pompei",
    "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
    "r": "Recuperabile da dicembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Gaetano",
-   "d": "il centrocampista frenato nella gara di fine ottobre a Firenze per una distrazione di medio grado ai muscoli adduttori della coscia destra",
-   "r": "recuperabile da fine novembre."
-  },
-  {
-   "s": "Atalanta",
-   "n": "Kristensen T.",
-   "d": "il difensore costretto al cambio il 29 ottobre a Firenze dopo pochi minuti di gara a causa di una distrazione di basso grado ai muscoli flessori della coscia sinistra.",
-   "r": "Recuperabile dalla seconda metà di novembre."
   },
   {
    "s": "Bologna",
@@ -75,15 +63,15 @@
   },
   {
    "s": "Cagliari",
-   "n": "Mina",
-   "d": "il colombiano condizionato da una vecchia ferita alla gamba (microlesione muscolare al bicipite femorale), out nel turno precedente contro il Frosinone.",
-   "r": "Da valutare durante la sosta per le Nazionali in vista della ripresa del campionato contro il Como."
-  },
-  {
-   "s": "Cagliari",
    "n": "Felici",
    "d": "il centrocampista KO il 7 settembre contro il Lecce in casa vittima della rottura del legamento crociato anteriore.",
    "r": "Verrà operato e costretto a un lungo stop (ipotizziamo un rientro da marzo)."
+  },
+  {
+   "s": "Cagliari",
+   "n": "Mina",
+   "d": "il colombiano condizionato da una vecchia ferita alla gamba (microlesione muscolare al bicipite femorale), out nel turno precedente contro il Frosinone.",
+   "r": "Da valutare durante la sosta per le Nazionali in vista della ripresa del campionato contro il Como."
   },
   {
    "s": "Como",
@@ -195,9 +183,9 @@
   },
   {
    "s": "Lecce",
-   "n": "Monteiro J.",
-   "d": "l'ala offensiva dei salentini KO l'1 novembre contro il Bologna vittima di una lesione di primo grado al polpaccio sinistro.",
-   "r": "Recuperabile dall'inizio di dicembre."
+   "n": "Pierotti",
+   "d": "l'ala offensiva dei salentini ferma ai box per la frattura composta del malleolo mediale della caviglia destra rimediata nella seconda metà di ottobre, poi operato a inizio novembre.",
+   "r": "Lungo stop, ipotizziamo un rientro in campo da gennaio."
   },
   {
    "s": "Lecce",
@@ -207,9 +195,9 @@
   },
   {
    "s": "Lecce",
-   "n": "Pierotti",
-   "d": "l'ala offensiva dei salentini ferma ai box per la frattura composta del malleolo mediale della caviglia destra rimediata nella seconda metà di ottobre, poi operato a inizio novembre.",
-   "r": "Lungo stop, ipotizziamo un rientro in campo da gennaio."
+   "n": "Monteiro J.",
+   "d": "l'ala offensiva dei salentini KO l'1 novembre contro il Bologna vittima di una lesione di primo grado al polpaccio sinistro.",
+   "r": "Recuperabile dall'inizio di dicembre."
   },
   {
    "s": "Milan",

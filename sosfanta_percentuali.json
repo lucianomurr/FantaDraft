@@ -781,8 +781,8 @@
      "riv": null
     },
     {
-     "n": "Vlasic",
-     "pct": 95,
+     "n": "Oristanio",
+     "pct": 51,
      "riv": null
     },
     {
@@ -816,6 +816,11 @@
      "riv": "Adams C."
     },
     {
+     "n": "Casadei",
+     "pct": 5,
+     "riv": "Oristanio"
+    },
+    {
      "n": "Braganca",
      "pct": 49,
      "riv": "Fitz-Jim"
@@ -826,7 +831,17 @@
      "riv": null
     },
     {
+     "n": "Favasuli",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Marianucci",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Spinazzola",
      "pct": 5,
      "riv": null
     },
@@ -837,6 +852,11 @@
     },
     {
      "n": "Lucca",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Neres",
      "pct": 5,
      "riv": null
     },
@@ -861,6 +881,11 @@
      "riv": null
     },
     {
+     "n": "Fortini",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Rodriguez R.",
      "pct": 5,
      "riv": null
@@ -871,22 +896,12 @@
      "riv": null
     },
     {
-     "n": "Casadei",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Gineitis",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Ilkhan",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Oristanio",
      "pct": 5,
      "riv": null
     },
@@ -910,7 +925,7 @@
      "riv": null
     },
     {
-     "n": "Celik",
+     "n": "Gatti",
      "pct": 95,
      "riv": null
     },
@@ -1040,11 +1055,6 @@
      "riv": "Basic"
     },
     {
-     "n": "Conceicao",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Neto",
      "pct": 5,
      "riv": null
@@ -1055,22 +1065,22 @@
      "riv": null
     },
     {
-     "n": "Gatti",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Rugani",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Sarr P.",
+     "n": "Conceicao",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Zhegrova",
+     "n": "Gonzalez N.",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Sarr P.",
      "pct": 5,
      "riv": null
     },
@@ -1204,7 +1214,7 @@
      "riv": null
     },
     {
-     "n": "Cambiaghi",
+     "n": "Mbangula",
      "pct": 51,
      "riv": null
     },
@@ -1264,19 +1274,14 @@
      "riv": null
     },
     {
-     "n": "Mbangula",
+     "n": "Bernardeschi",
      "pct": 49,
-     "riv": "Cambiaghi"
+     "riv": "Mbangula"
     },
     {
      "n": "Piccoli",
      "pct": 49,
      "riv": "Odgaard"
-    },
-    {
-     "n": "Bernardeschi",
-     "pct": 49,
-     "riv": "Orsolini"
     },
     {
      "n": "Chakvetadze",
@@ -1424,7 +1429,7 @@
     },
     {
      "n": "Bakola",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1434,7 +1439,7 @@
     },
     {
      "n": "Thorstvedt",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1506,11 +1511,6 @@
      "n": "Osmajic",
      "pct": 95,
      "riv": null
-    },
-    {
-     "n": "Adzic",
-     "pct": 49,
-     "riv": "Thorstvedt"
     },
     {
      "n": "Caleta-Car",
@@ -1652,7 +1652,7 @@
    "date": "2026-11-22T17:00:00.000Z",
    "players": [
     {
-     "n": "Maignan",
+     "n": "Torriani",
      "pct": 95,
      "riv": null
     },
@@ -1787,16 +1787,6 @@
      "riv": "Cittadini"
     },
     {
-     "n": "Jashari",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Torriani",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Bartesaghi",
      "pct": 5,
      "riv": null
@@ -1808,6 +1798,11 @@
     },
     {
      "n": "Comotto",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Jashari",
      "pct": 5,
      "riv": null
     },
@@ -1931,7 +1926,7 @@
      "riv": null
     },
     {
-     "n": "Akanji",
+     "n": "Bisseck",
      "pct": 95,
      "riv": null
     },
@@ -1961,7 +1956,7 @@
      "riv": null
     },
     {
-     "n": "Zielinski",
+     "n": "Sucic P.",
      "pct": 55,
      "riv": null
     },
@@ -1988,17 +1983,12 @@
     {
      "n": "Mkhitaryan",
      "pct": 45,
-     "riv": "Zielinski"
+     "riv": "Sucic P."
     },
     {
      "n": "Diouf",
      "pct": 45,
      "riv": "Spence"
-    },
-    {
-     "n": "Bisseck",
-     "pct": 49,
-     "riv": "Carlos Augusto"
     },
     {
      "n": "Provedel",
@@ -2057,11 +2047,6 @@
     },
     {
      "n": "Luis Henrique",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Sucic P.",
      "pct": 5,
      "riv": null
     }
