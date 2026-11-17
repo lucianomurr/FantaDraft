@@ -1,18 +1,18 @@
 {
- "Como": {
-  "opp": "Cagliari",
-  "home": true
- },
- "Cagliari": {
-  "opp": "Como",
-  "home": false
- },
  "Lazio": {
   "opp": "Lecce",
   "home": true
  },
  "Lecce": {
   "opp": "Lazio",
+  "home": false
+ },
+ "Como": {
+  "opp": "Cagliari",
+  "home": true
+ },
+ "Cagliari": {
+  "opp": "Como",
   "home": false
  },
  "Parma": {
