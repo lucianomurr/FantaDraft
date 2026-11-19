@@ -1,4 +1,40 @@
 {
+ "Lazio": [
+  {
+   "n": "Zaccagni",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Nuno Tavares",
+   "stato": "Rientro alla 15"
+  },
+  {
+   "n": "Sutalo",
+   "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Marusic",
+   "stato": "Da valutare"
+  }
+ ],
+ "Lecce": [
+  {
+   "n": "Berisha",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Pierotti",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Ilic",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Monteiro",
+   "stato": "Da valutare"
+  }
+ ],
  "Como": [
   {
    "n": "Rodríguez",
@@ -40,42 +76,6 @@
   },
   {
    "n": "Trepy",
-   "stato": "Da valutare"
-  }
- ],
- "Lazio": [
-  {
-   "n": "Zaccagni",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Nuno Tavares",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Sutalo",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Marusic",
-   "stato": "Da valutare"
-  }
- ],
- "Lecce": [
-  {
-   "n": "Berisha",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Pierotti",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Ilic",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Monteiro",
    "stato": "Da valutare"
   }
  ],
@@ -135,6 +135,10 @@
   {
    "n": "Di Lorenzo",
    "stato": "Rientro alla 13"
+  },
+  {
+   "n": "Favasuli",
+   "stato": "Da valutare"
   }
  ],
  "Torino": [
@@ -186,10 +190,6 @@
   },
   {
    "n": "Çelik",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Zhegrova",
    "stato": "Da valutare"
   }
  ],
@@ -299,10 +299,6 @@
   {
    "n": "Loftus-Cheek",
    "stato": "Rientro alla 14"
-  },
-  {
-   "n": "Pavlovic",
-   "stato": "Da valutare"
   }
  ],
  "Frosinone": [
