@@ -1,18 +1,18 @@
 {
- "Lazio": {
-  "opp": "Lecce",
-  "home": true
- },
- "Lecce": {
-  "opp": "Lazio",
-  "home": false
- },
  "Como": {
   "opp": "Cagliari",
   "home": true
  },
  "Cagliari": {
   "opp": "Como",
+  "home": false
+ },
+ "Lazio": {
+  "opp": "Lecce",
+  "home": true
+ },
+ "Lecce": {
+  "opp": "Lazio",
   "home": false
  },
  "Parma": {
@@ -39,20 +39,20 @@
   "opp": "Juventus",
   "home": false
  },
- "Bologna": {
-  "opp": "Udinese",
-  "home": true
- },
- "Udinese": {
-  "opp": "Bologna",
-  "home": false
- },
  "Sassuolo": {
   "opp": "Genoa",
   "home": true
  },
  "Genoa": {
   "opp": "Sassuolo",
+  "home": false
+ },
+ "Bologna": {
+  "opp": "Udinese",
+  "home": true
+ },
+ "Udinese": {
+  "opp": "Bologna",
   "home": false
  },
  "Milan": {
