@@ -1,152 +1,4 @@
 {
- "Parma": [
-  {
-   "n": "Romero",
-   "stato": "Da valutare"
-  }
- ],
- "Roma": [
-  {
-   "n": "Pellegrini",
-   "stato": "Rientro alla 17"
-  },
-  {
-   "n": "Rensch",
-   "stato": "Da valutare"
-  }
- ],
- "Napoli": [
-  {
-   "n": "Buongiorno",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Badiashile",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Lobotka",
-   "stato": "Rientro alla 16"
-  },
-  {
-   "n": "Di Lorenzo",
-   "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Meret",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Alisson Santos",
-   "stato": "Da valutare"
-  }
- ],
- "Torino": [
-  {
-   "n": "Israel",
-   "stato": "Da valutare"
-  }
- ],
- "Juventus": [
-  {
-   "n": "Yildiz",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Thuram",
-   "stato": "Rientro alla 19"
-  },
-  {
-   "n": "Locatelli",
-   "stato": "Rientro alla 28"
-  },
-  {
-   "n": "Grabara",
-   "stato": "Rientro alla 29"
-  },
-  {
-   "n": "González",
-   "stato": "Rientro alla 13"
-  },
-  {
-   "n": "Kalulu",
-   "stato": "Rientro alla 14"
-  }
- ],
- "Venezia": [
-  {
-   "n": "Franjic",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Sverko",
-   "stato": "Da valutare"
-  }
- ],
- "Sassuolo": [
-  {
-   "n": "Ismaël Koné",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Boloca",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Leysen",
-   "stato": "Stagione Finita"
-  },
-  {
-   "n": "Paz",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Berardi",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adzic",
-   "stato": "Da valutare"
-  }
- ],
- "Genoa": [
-  {
-   "n": "Frendrup",
-   "stato": "Da valutare"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Enem",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Miranda",
-   "stato": "Rientro alla 13"
-  },
-  {
-   "n": "El Azzouzi",
-   "stato": "Rientro alla 14"
-  },
-  {
-   "n": "Heggem",
-   "stato": "Da valutare"
-  }
- ],
- "Udinese": [
-  {
-   "n": "Gueye",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Bertola",
-   "stato": "Da valutare"
-  }
- ],
  "Milan": [
   {
    "n": "Saelemaekers",
@@ -167,6 +19,10 @@
   {
    "n": "Loftus-Cheek",
    "stato": "Rientro alla 14"
+  },
+  {
+   "n": "Pietro Terracciano",
+   "stato": "Da valutare"
   }
  ],
  "Frosinone": [
@@ -180,10 +36,6 @@
   }
  ],
  "Atalanta": [
-  {
-   "n": "Kristensen",
-   "stato": "Rientro alla 13"
-  },
   {
    "n": "Hien",
    "stato": "Da valutare"
@@ -203,7 +55,7 @@
    "stato": "Da valutare"
   },
   {
-   "n": "Aleksandar Stankovic",
+   "n": "Zielinski",
    "stato": "Da valutare"
   }
  ],
