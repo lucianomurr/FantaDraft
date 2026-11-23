@@ -1,12 +1,6 @@
 {
- "aggiornato": "2026-11-22",
+ "aggiornato": "2026-11-23",
  "infortunati": [
-  {
-   "s": "Atalanta",
-   "n": "Kossounou",
-   "d": "Il difensore frenato da una lesione muscolare di medio-alto grado del bicipite femorale della coscia sinistra alla vigilia della sfida di campionato contro la Juventus (del 20 settembre).",
-   "r": "Lungo stop, rientro dalla fine di novembre."
-  },
   {
    "s": "Atalanta",
    "n": "Hien",
@@ -18,6 +12,12 @@
    "n": "Pompei",
    "d": "Il portiere fermo da inizio ottobre per la frattura della falange della mano destra, out nel prossimo turno di campionato.",
    "r": "Recuperabile da dicembre."
+  },
+  {
+   "s": "Atalanta",
+   "n": "Kossounou",
+   "d": "Il difensore frenato da una lesione muscolare di medio-alto grado del bicipite femorale della coscia sinistra alla vigilia della sfida di campionato contro la Juventus (del 20 settembre).",
+   "r": "Lungo stop, rientro dalla fine di novembre."
   },
   {
    "s": "Bologna",
@@ -243,9 +243,15 @@
   },
   {
    "s": "Monza",
+   "n": "Ngonge",
+   "d": "L'attaccante out lunedì contro la Fiorentina per noie fisiche.",
+   "r": "Da valutare."
+  },
+  {
+   "s": "Monza",
    "n": "Folorunsho",
    "d": "Il centrocampista alle prese con noie muscolari al polpaccio",
-   "r": "da valutare nella sosta in vista della 12a giornata contro la Fiorentina."
+   "r": "da valutare in vista della 13a giornata di campionato."
   },
   {
    "s": "Napoli",
@@ -384,12 +390,6 @@
    "n": "Mazzocchi",
    "d": "Il cursore di fascia dei lagunari non convocato per domenica contro la Juventus per un risentimento muscolare alla gamba.",
    "r": "Da valutare."
-  },
-  {
-   "s": "Inter",
-   "n": "Zielinski",
-   "d": "Assente per un problema fisico, dettagli non ancora chiari.",
-   "r": "Condizioni da valutare (fonte Gazzetta)."
   }
  ]
 }
