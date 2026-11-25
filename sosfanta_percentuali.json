@@ -672,6 +672,11 @@
      "riv": null
     },
     {
+     "n": "Pellegri",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Zapata D.",
      "pct": 5,
      "riv": null
@@ -1807,7 +1812,7 @@
      "riv": "Kolo Muani"
     },
     {
-     "n": "Conceicao",
+     "n": "Alajbegovic",
      "pct": 49,
      "riv": "Boga"
     },
@@ -1839,6 +1844,11 @@
     {
      "n": "Ricci S.",
      "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Conceicao",
+     "pct": 49,
      "riv": null
     },
     {
@@ -1916,7 +1926,7 @@
      "riv": null
     },
     {
-     "n": "Kaba",
+     "n": "Ngom",
      "pct": 51,
      "riv": null
     },
@@ -2001,9 +2011,9 @@
      "riv": "Siebert"
     },
     {
-     "n": "Ngom",
+     "n": "Kaba",
      "pct": 49,
-     "riv": "Kaba"
+     "riv": "Ngom"
     },
     {
      "n": "Stulic",
@@ -2072,6 +2082,11 @@
     },
     {
      "n": "Esteban",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Sonzogni",
      "pct": 5,
      "riv": null
     },
@@ -2191,7 +2206,7 @@
     },
     {
      "n": "Pavlovic",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -2205,7 +2220,7 @@
      "riv": null
     },
     {
-     "n": "Modric",
+     "n": "Jashari",
      "pct": 95,
      "riv": null
     },
@@ -2237,7 +2252,7 @@
     {
      "n": "Bartesaghi",
      "pct": 49,
-     "riv": "Diawara S."
+     "riv": "Pavlovic"
     },
     {
      "n": "Radunovic",
@@ -2305,27 +2320,22 @@
      "riv": null
     },
     {
+     "n": "Tomori",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Christian Comotto",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Cissè A.",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Comotto",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Hutchinson",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Jashari",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Camarda",
      "pct": 5,
      "riv": null
     }
