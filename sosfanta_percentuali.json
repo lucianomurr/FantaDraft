@@ -40,7 +40,7 @@
     },
     {
      "n": "Sohm",
-     "pct": 60,
+     "pct": 55,
      "riv": null
     },
     {
@@ -119,8 +119,8 @@
      "riv": null
     },
     {
-     "n": "Dagasso",
-     "pct": 40,
+     "n": "Basic",
+     "pct": 45,
      "riv": "Sohm"
     },
     {
@@ -159,12 +159,22 @@
      "riv": null
     },
     {
+     "n": "Mazzocchi",
+     "pct": 5,
+     "riv": null
+    },
+    {
      "n": "Sagrado",
      "pct": 5,
      "riv": null
     },
     {
      "n": "Schingtienne",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Dagasso",
      "pct": 5,
      "riv": null
     },
@@ -200,11 +210,6 @@
     },
     {
      "n": "Alhassane",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "De Silvestri",
      "pct": 5,
      "riv": null
     },
@@ -593,7 +598,7 @@
     },
     {
      "n": "Taylor K.",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -630,6 +635,11 @@
      "n": "Doekhi",
      "pct": 49,
      "riv": "Leite"
+    },
+    {
+     "n": "Dele-Bashiru",
+     "pct": 49,
+     "riv": "Taylor K."
     },
     {
      "n": "Zaccagni",
@@ -712,11 +722,6 @@
      "riv": null
     },
     {
-     "n": "Dele-Bashiru",
-     "pct": 5,
-     "riv": null
-    },
-    {
      "n": "Gudmundsson A.",
      "pct": 5,
      "riv": null
@@ -746,13 +751,13 @@
      "riv": null
     },
     {
-     "n": "Akanji",
-     "pct": 51,
+     "n": "Bisseck",
+     "pct": 95,
      "riv": null
     },
     {
-     "n": "Bastoni",
-     "pct": 95,
+     "n": "Akanji",
+     "pct": 55,
      "riv": null
     },
     {
@@ -776,7 +781,7 @@
      "riv": null
     },
     {
-     "n": "Mkhitaryan",
+     "n": "Jones C.",
      "pct": 51,
      "riv": null
     },
@@ -792,7 +797,7 @@
     },
     {
      "n": "Thuram",
-     "pct": 95,
+     "pct": 51,
      "riv": null
     },
     {
@@ -856,8 +861,8 @@
      "riv": "Martinez Jo."
     },
     {
-     "n": "Bisseck",
-     "pct": 49,
+     "n": "Stones",
+     "pct": 45,
      "riv": "Akanji"
     },
     {
@@ -866,9 +871,9 @@
      "riv": "Spence"
     },
     {
-     "n": "Jones C.",
+     "n": "Mkhitaryan",
      "pct": 49,
-     "riv": "Mkhitaryan"
+     "riv": "Jones C."
     },
     {
      "n": "Martinez L.",
@@ -897,11 +902,6 @@
     },
     {
      "n": "Pavard",
-     "pct": 5,
-     "riv": null
-    },
-    {
-     "n": "Stones",
      "pct": 5,
      "riv": null
     },
@@ -1469,17 +1469,17 @@
     },
     {
      "n": "Dybala",
-     "pct": 51,
+     "pct": 55,
      "riv": null
     },
     {
      "n": "Mora",
-     "pct": 51,
+     "pct": 55,
      "riv": null
     },
     {
      "n": "Malen",
-     "pct": 60,
+     "pct": 95,
      "riv": null
     },
     {
@@ -1554,13 +1554,8 @@
     },
     {
      "n": "Soulè",
-     "pct": 49,
+     "pct": 45,
      "riv": "Dybala"
-    },
-    {
-     "n": "Castro S.",
-     "pct": 40,
-     "riv": "Malen"
     },
     {
      "n": "Tornqvist",
@@ -1609,6 +1604,11 @@
     },
     {
      "n": "Pisilli",
+     "pct": 5,
+     "riv": null
+    },
+    {
+     "n": "Castro S.",
      "pct": 5,
      "riv": null
     },
@@ -1777,7 +1777,7 @@
      "riv": null
     },
     {
-     "n": "Boga",
+     "n": "Alajbegovic",
      "pct": 51,
      "riv": null
     },
@@ -1812,9 +1812,9 @@
      "riv": "Kolo Muani"
     },
     {
-     "n": "Alajbegovic",
+     "n": "Conceicao",
      "pct": 49,
-     "riv": "Boga"
+     "riv": "Alajbegovic"
     },
     {
      "n": "Vigorito",
@@ -1847,7 +1847,7 @@
      "riv": null
     },
     {
-     "n": "Conceicao",
+     "n": "Boga",
      "pct": 49,
      "riv": null
     },
@@ -1927,7 +1927,7 @@
     },
     {
      "n": "Ngom",
-     "pct": 51,
+     "pct": 95,
      "riv": null
     },
     {
@@ -2009,11 +2009,6 @@
      "n": "Gaspar K.",
      "pct": 49,
      "riv": "Siebert"
-    },
-    {
-     "n": "Kaba",
-     "pct": 49,
-     "riv": "Ngom"
     },
     {
      "n": "Stulic",
@@ -2325,12 +2320,12 @@
      "riv": null
     },
     {
-     "n": "Christian Comotto",
+     "n": "Cissè A.",
      "pct": 5,
      "riv": null
     },
     {
-     "n": "Cissè A.",
+     "n": "Comotto",
      "pct": 5,
      "riv": null
     },

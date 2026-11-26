@@ -87,6 +87,10 @@
   {
    "n": "Çalhanoğlu",
    "stato": "Rientro alla 17"
+  },
+  {
+   "n": "Bastoni",
+   "stato": "Da valutare"
   }
  ],
  "Genoa": [
@@ -198,6 +202,10 @@
   {
    "n": "Addai",
    "stato": "Da valutare"
+  },
+  {
+   "n": "Diao",
+   "stato": "Da valutare"
   }
  ],
  "Juventus": [
@@ -269,10 +277,6 @@
   },
   {
    "n": "Mendy",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Adopo",
    "stato": "Da valutare"
   }
  ],
