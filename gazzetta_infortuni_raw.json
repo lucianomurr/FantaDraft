@@ -1,64 +1,4 @@
 {
- "Venezia": [
-  {
-   "n": "Franjic",
-   "stato": "Rientro alla 15"
-  },
-  {
-   "n": "Sverko",
-   "stato": "Rientro alla 18"
-  },
-  {
-   "n": "Thierry Correia",
-   "stato": "Rientro alla 14"
-  }
- ],
- "Bologna": [
-  {
-   "n": "Holm",
-   "stato": "Rientro alla 22"
-  },
-  {
-   "n": "Enem",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "El Azzouzi",
-   "stato": "Rientro alla 14"
-  },
-  {
-   "n": "Miranda",
-   "stato": "Rientro alla 14"
-  },
-  {
-   "n": "De Silvestri",
-   "stato": "Rientro alla 14"
-  }
- ],
- "Frosinone": [
-  {
-   "n": "Grillitsch",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Raimondo",
-   "stato": "Rientro alla 16"
-  },
-  {
-   "n": "Bîrligea",
-   "stato": "Da valutare"
-  }
- ],
- "Parma": [
-  {
-   "n": "Romero",
-   "stato": "Da valutare"
-  },
-  {
-   "n": "Drobnic",
-   "stato": "Da valutare"
-  }
- ],
  "Torino": [
   {
    "n": "Israel",
@@ -66,6 +6,10 @@
   },
   {
    "n": "Ismajli",
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Belghali",
    "stato": "Da valutare"
   }
  ],
@@ -98,7 +42,7 @@
   },
   {
    "n": "Bastoni",
-   "stato": "Rientro alla 14"
+   "stato": "Rientro alla 16"
   }
  ],
  "Genoa": [
@@ -112,7 +56,11 @@
   },
   {
    "n": "Østigård",
-   "stato": "Rientro alla 14"
+   "stato": "Da valutare"
+  },
+  {
+   "n": "Baldanzi",
+   "stato": "Da valutare"
   }
  ],
  "Udinese": [
@@ -205,6 +153,10 @@
   {
    "n": "Di Lorenzo",
    "stato": "Da valutare"
+  },
+  {
+   "n": "De Bruyne",
+   "stato": "Da valutare"
   }
  ],
  "Roma": [
@@ -261,10 +213,6 @@
   {
    "n": "Grabara",
    "stato": "Rientro alla 29"
-  },
-  {
-   "n": "Kalulu",
-   "stato": "Da valutare"
   },
   {
    "n": "González",
@@ -336,7 +284,7 @@
   },
   {
    "n": "Bartesaghi",
-   "stato": "Da valutare"
+   "stato": "Rientro alla 14"
   },
   {
    "n": "Pietro Terracciano",
